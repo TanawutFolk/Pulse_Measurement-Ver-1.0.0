@@ -142,7 +142,7 @@ Public Class frmPreferance
 
     '-------------------------------- LoadData Function --------------------------------
     Private Sub LoadData()
-        ' เช็คก่อนว่ามีไฟล์ให้โหลดไหม (ถ้าเปิดครั้งแรกจะยังไม่มีไฟล์ ก็ข้ามไป)
+        ' เช็คก่อนว่ามีไฟล์ให้โหลดไหม ถ้าเปิดครั้งแรกจะยังไม่มีไฟล์ ก็ข้ามไป
         If File.Exists("PreferanceSave.json") Then
             Try
                 ' 1. อ่านไฟล์
@@ -151,7 +151,7 @@ Public Class frmPreferance
                 ' 2. แปลงจากข้อความ JSON กลับเป็น Class
                 Dim data As PreferanceConfig = JsonConvert.DeserializeObject(Of PreferanceConfig)(json)
 
-                ' 3. เอาค่าไปหยอดใส่ TextBox ทีละช่อง (ย้อนศรกับตอน Save)
+                ' 3. เอาค่าไปหยอดใส่ TextBox ทีละช่อง ย้อนศรกับตอน Save
 
                 ' --- Tab 1: GPIB ---
                 txtLDT_5910CTempControlLD.Text = data.GPIB.LDT_5910C_TempControlLD.ToString()
@@ -214,6 +214,7 @@ Public Class frmPreferance
                 txtBFMconvers.Text = data.CCS.BFMconvers.ToString()
                 'ComboBox คืนค่าString 
                 txtComport.Text = data.CCS.Comport
+
                 txtBaudrate.Text = data.CCS.Baudrate.ToString()
 
                 ' --- Tab 7: General ---

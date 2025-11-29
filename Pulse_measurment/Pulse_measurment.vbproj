@@ -176,6 +176,7 @@
     <Compile Include="frmWLgraph.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ProductionParameters.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmAbout.resx">

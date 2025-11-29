@@ -24,7 +24,6 @@ Partial Class frmiLJudgment
     Private Sub InitializeComponent()
         Me.txtFBGlockingTimemin_Page4 = New System.Windows.Forms.TabControl()
         Me.ILJudg_tab1 = New System.Windows.Forms.TabPage()
-        Me.btnOKILjudge1 = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.rdoSec_tab1 = New System.Windows.Forms.RadioButton()
         Me.rdoPrimary_tab1 = New System.Windows.Forms.RadioButton()
@@ -69,7 +68,6 @@ Partial Class frmiLJudgment
         Me.cboSelect_tab1 = New System.Windows.Forms.ComboBox()
         Me.Label55 = New System.Windows.Forms.Label()
         Me.ILJudg_tab2 = New System.Windows.Forms.TabPage()
-        Me.btnOKILjudge2 = New System.Windows.Forms.Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.rdoSec_tab2 = New System.Windows.Forms.RadioButton()
         Me.rdoPrimary_tab2 = New System.Windows.Forms.RadioButton()
@@ -114,7 +112,6 @@ Partial Class frmiLJudgment
         Me.cboSelect_tab2 = New System.Windows.Forms.ComboBox()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.ILJudg_tab3 = New System.Windows.Forms.TabPage()
-        Me.btnOKILjudg3 = New System.Windows.Forms.Button()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.rdoSec_tab3 = New System.Windows.Forms.RadioButton()
         Me.rdoPrimary_tab3 = New System.Windows.Forms.RadioButton()
@@ -159,7 +156,6 @@ Partial Class frmiLJudgment
         Me.cboSelect_tab3 = New System.Windows.Forms.ComboBox()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.ILJudg_tab4 = New System.Windows.Forms.TabPage()
-        Me.btnOKILjudg4 = New System.Windows.Forms.Button()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
         Me.rdoSec_tab4 = New System.Windows.Forms.RadioButton()
         Me.rdoPrimary_tab4 = New System.Windows.Forms.RadioButton()
@@ -204,7 +200,6 @@ Partial Class frmiLJudgment
         Me.cboSelect_tab4 = New System.Windows.Forms.ComboBox()
         Me.Label60 = New System.Windows.Forms.Label()
         Me.ILJudg_tab5 = New System.Windows.Forms.TabPage()
-        Me.btnOKILjudge5 = New System.Windows.Forms.Button()
         Me.GroupBox9 = New System.Windows.Forms.GroupBox()
         Me.rdoSec_tab5 = New System.Windows.Forms.RadioButton()
         Me.rdoPrimary_tab5 = New System.Windows.Forms.RadioButton()
@@ -249,7 +244,6 @@ Partial Class frmiLJudgment
         Me.cboSelect_tab5 = New System.Windows.Forms.ComboBox()
         Me.Label75 = New System.Windows.Forms.Label()
         Me.ILJudg_tab6 = New System.Windows.Forms.TabPage()
-        Me.btnOKILjudge6 = New System.Windows.Forms.Button()
         Me.GroupBox11 = New System.Windows.Forms.GroupBox()
         Me.rdoSec_tab6 = New System.Windows.Forms.RadioButton()
         Me.rdoPrimary_tab6 = New System.Windows.Forms.RadioButton()
@@ -293,6 +287,8 @@ Partial Class frmiLJudgment
         Me.Label89 = New System.Windows.Forms.Label()
         Me.cboSelect_tab6 = New System.Windows.Forms.ComboBox()
         Me.Label90 = New System.Windows.Forms.Label()
+        Me.btnCancleILm = New System.Windows.Forms.Button()
+        Me.btnSaveILm = New System.Windows.Forms.Button()
         Me.txtFBGlockingTimemin_Page4.SuspendLayout()
         Me.ILJudg_tab1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -328,19 +324,18 @@ Partial Class frmiLJudgment
         Me.txtFBGlockingTimemin_Page4.Controls.Add(Me.ILJudg_tab4)
         Me.txtFBGlockingTimemin_Page4.Controls.Add(Me.ILJudg_tab5)
         Me.txtFBGlockingTimemin_Page4.Controls.Add(Me.ILJudg_tab6)
-        Me.txtFBGlockingTimemin_Page4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.txtFBGlockingTimemin_Page4.Dock = System.Windows.Forms.DockStyle.Top
         Me.txtFBGlockingTimemin_Page4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFBGlockingTimemin_Page4.Location = New System.Drawing.Point(0, 0)
-        Me.txtFBGlockingTimemin_Page4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFBGlockingTimemin_Page4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtFBGlockingTimemin_Page4.Name = "txtFBGlockingTimemin_Page4"
         Me.txtFBGlockingTimemin_Page4.Padding = New System.Drawing.Point(14, 3)
         Me.txtFBGlockingTimemin_Page4.SelectedIndex = 0
-        Me.txtFBGlockingTimemin_Page4.Size = New System.Drawing.Size(908, 569)
+        Me.txtFBGlockingTimemin_Page4.Size = New System.Drawing.Size(750, 532)
         Me.txtFBGlockingTimemin_Page4.TabIndex = 3
         '
         'ILJudg_tab1
         '
-        Me.ILJudg_tab1.Controls.Add(Me.btnOKILjudge1)
         Me.ILJudg_tab1.Controls.Add(Me.GroupBox2)
         Me.ILJudg_tab1.Controls.Add(Me.GroupBox1)
         Me.ILJudg_tab1.Controls.Add(Me.Panel1)
@@ -356,24 +351,13 @@ Partial Class frmiLJudgment
         Me.ILJudg_tab1.Controls.Add(Me.Label55)
         Me.ILJudg_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ILJudg_tab1.Location = New System.Drawing.Point(4, 26)
-        Me.ILJudg_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.ILJudg_tab1.Name = "ILJudg_tab1"
-        Me.ILJudg_tab1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.ILJudg_tab1.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab1.Padding = New System.Windows.Forms.Padding(2)
+        Me.ILJudg_tab1.Size = New System.Drawing.Size(742, 502)
         Me.ILJudg_tab1.TabIndex = 0
         Me.ILJudg_tab1.Text = "IL Judge1"
         Me.ILJudg_tab1.UseVisualStyleBackColor = True
-        '
-        'btnOKILjudge1
-        '
-        Me.btnOKILjudge1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnOKILjudge1.Location = New System.Drawing.Point(750, 476)
-        Me.btnOKILjudge1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.btnOKILjudge1.Name = "btnOKILjudge1"
-        Me.btnOKILjudge1.Size = New System.Drawing.Size(77, 30)
-        Me.btnOKILjudge1.TabIndex = 462
-        Me.btnOKILjudge1.Text = "OK"
-        Me.btnOKILjudge1.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
@@ -382,9 +366,9 @@ Partial Class frmiLJudgment
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.txtNumpoint_tab1)
         Me.GroupBox2.Location = New System.Drawing.Point(58, 425)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Size = New System.Drawing.Size(433, 74)
         Me.GroupBox2.TabIndex = 461
         Me.GroupBox2.TabStop = False
@@ -394,7 +378,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoSec_tab1.AutoSize = True
         Me.rdoSec_tab1.Location = New System.Drawing.Point(112, 32)
-        Me.rdoSec_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoSec_tab1.Name = "rdoSec_tab1"
         Me.rdoSec_tab1.Size = New System.Drawing.Size(97, 22)
         Me.rdoSec_tab1.TabIndex = 425
@@ -406,7 +390,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoPrimary_tab1.AutoSize = True
         Me.rdoPrimary_tab1.Location = New System.Drawing.Point(27, 32)
-        Me.rdoPrimary_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoPrimary_tab1.Name = "rdoPrimary_tab1"
         Me.rdoPrimary_tab1.Size = New System.Drawing.Size(77, 22)
         Me.rdoPrimary_tab1.TabIndex = 425
@@ -430,7 +414,7 @@ Partial Class frmiLJudgment
         Me.txtNumpoint_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNumpoint_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNumpoint_tab1.Location = New System.Drawing.Point(350, 32)
-        Me.txtNumpoint_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNumpoint_tab1.Name = "txtNumpoint_tab1"
         Me.txtNumpoint_tab1.Size = New System.Drawing.Size(60, 24)
         Me.txtNumpoint_tab1.TabIndex = 422
@@ -462,9 +446,9 @@ Partial Class frmiLJudgment
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Location = New System.Drawing.Point(58, 277)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(632, 143)
         Me.GroupBox1.TabIndex = 460
         Me.GroupBox1.TabStop = False
@@ -497,7 +481,7 @@ Partial Class frmiLJudgment
         Me.txtOption3End_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3End_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3End_tab1.Location = New System.Drawing.Point(365, 107)
-        Me.txtOption3End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3End_tab1.Name = "txtOption3End_tab1"
         Me.txtOption3End_tab1.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3End_tab1.TabIndex = 445
@@ -507,7 +491,7 @@ Partial Class frmiLJudgment
         Me.txtOption2End_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2End_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2End_tab1.Location = New System.Drawing.Point(365, 74)
-        Me.txtOption2End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2End_tab1.Name = "txtOption2End_tab1"
         Me.txtOption2End_tab1.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2End_tab1.TabIndex = 444
@@ -516,7 +500,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3End_tab1.AutoSize = True
         Me.rdoOprion3End_tab1.Location = New System.Drawing.Point(350, 111)
-        Me.rdoOprion3End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3End_tab1.Name = "rdoOprion3End_tab1"
         Me.rdoOprion3End_tab1.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3End_tab1.TabIndex = 443
@@ -527,7 +511,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2End_tab1.AutoSize = True
         Me.rdoOprion2End_tab1.Location = New System.Drawing.Point(350, 78)
-        Me.rdoOprion2End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2End_tab1.Name = "rdoOprion2End_tab1"
         Me.rdoOprion2End_tab1.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2End_tab1.TabIndex = 442
@@ -550,7 +534,7 @@ Partial Class frmiLJudgment
         Me.txtOption1End_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1End_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1End_tab1.Location = New System.Drawing.Point(483, 41)
-        Me.txtOption1End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1End_tab1.Name = "txtOption1End_tab1"
         Me.txtOption1End_tab1.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1End_tab1.TabIndex = 438
@@ -561,7 +545,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_2_tab1.FormattingEnabled = True
         Me.cboOption1End_2_tab1.Location = New System.Drawing.Point(440, 41)
-        Me.cboOption1End_2_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_2_tab1.Name = "cboOption1End_2_tab1"
         Me.cboOption1End_2_tab1.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1End_2_tab1.TabIndex = 440
@@ -572,7 +556,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_1_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_1_tab1.FormattingEnabled = True
         Me.cboOption1End_1_tab1.Location = New System.Drawing.Point(365, 41)
-        Me.cboOption1End_1_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_1_tab1.Name = "cboOption1End_1_tab1"
         Me.cboOption1End_1_tab1.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1End_1_tab1.TabIndex = 439
@@ -581,7 +565,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1End_tab1.AutoSize = True
         Me.rdoOprion1End_tab1.Location = New System.Drawing.Point(350, 46)
-        Me.rdoOprion1End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1End_tab1.Name = "rdoOprion1End_tab1"
         Me.rdoOprion1End_tab1.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1End_tab1.TabIndex = 437
@@ -615,7 +599,7 @@ Partial Class frmiLJudgment
         Me.txtOption3_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3_tab1.Location = New System.Drawing.Point(128, 106)
-        Me.txtOption3_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3_tab1.Name = "txtOption3_tab1"
         Me.txtOption3_tab1.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3_tab1.TabIndex = 434
@@ -625,7 +609,7 @@ Partial Class frmiLJudgment
         Me.txtOption2_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2_tab1.Location = New System.Drawing.Point(128, 73)
-        Me.txtOption2_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2_tab1.Name = "txtOption2_tab1"
         Me.txtOption2_tab1.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2_tab1.TabIndex = 433
@@ -634,7 +618,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3_tab1.AutoSize = True
         Me.rdoOprion3_tab1.Location = New System.Drawing.Point(112, 110)
-        Me.rdoOprion3_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3_tab1.Name = "rdoOprion3_tab1"
         Me.rdoOprion3_tab1.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3_tab1.TabIndex = 432
@@ -645,7 +629,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2_tab1.AutoSize = True
         Me.rdoOprion2_tab1.Location = New System.Drawing.Point(112, 77)
-        Me.rdoOprion2_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2_tab1.Name = "rdoOprion2_tab1"
         Me.rdoOprion2_tab1.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2_tab1.TabIndex = 431
@@ -668,7 +652,7 @@ Partial Class frmiLJudgment
         Me.txtOption1_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1_tab1.Location = New System.Drawing.Point(245, 41)
-        Me.txtOption1_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1_tab1.Name = "txtOption1_tab1"
         Me.txtOption1_tab1.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1_tab1.TabIndex = 427
@@ -679,7 +663,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_2_tab1.FormattingEnabled = True
         Me.cboOption1_2_tab1.Location = New System.Drawing.Point(202, 40)
-        Me.cboOption1_2_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_2_tab1.Name = "cboOption1_2_tab1"
         Me.cboOption1_2_tab1.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1_2_tab1.TabIndex = 429
@@ -690,7 +674,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_1_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_1_tab1.FormattingEnabled = True
         Me.cboOption1_1_tab1.Location = New System.Drawing.Point(128, 40)
-        Me.cboOption1_1_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_1_tab1.Name = "cboOption1_1_tab1"
         Me.cboOption1_1_tab1.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1_1_tab1.TabIndex = 427
@@ -699,7 +683,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1_tab1.AutoSize = True
         Me.rdoOprion1_tab1.Location = New System.Drawing.Point(112, 45)
-        Me.rdoOprion1_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1_tab1.Name = "rdoOprion1_tab1"
         Me.rdoOprion1_tab1.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1_tab1.TabIndex = 425
@@ -733,7 +717,7 @@ Partial Class frmiLJudgment
         Me.Panel1.Controls.Add(Me.rdoParallel_tab1)
         Me.Panel1.Controls.Add(Me.rdoEachpoint_tab1)
         Me.Panel1.Location = New System.Drawing.Point(159, 222)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(236, 28)
         Me.Panel1.TabIndex = 459
@@ -742,7 +726,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoParallel_tab1.AutoSize = True
         Me.rdoParallel_tab1.Location = New System.Drawing.Point(140, 2)
-        Me.rdoParallel_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoParallel_tab1.Name = "rdoParallel_tab1"
         Me.rdoParallel_tab1.Size = New System.Drawing.Size(100, 22)
         Me.rdoParallel_tab1.TabIndex = 424
@@ -754,7 +738,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoEachpoint_tab1.AutoSize = True
         Me.rdoEachpoint_tab1.Location = New System.Drawing.Point(2, 2)
-        Me.rdoEachpoint_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoEachpoint_tab1.Name = "rdoEachpoint_tab1"
         Me.rdoEachpoint_tab1.Size = New System.Drawing.Size(134, 22)
         Me.rdoEachpoint_tab1.TabIndex = 423
@@ -778,7 +762,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIPermis_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIPermis_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIPermis_tab1.Location = New System.Drawing.Point(190, 184)
-        Me.txtdLdIPermis_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermis_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIPermis_tab1.Name = "txtdLdIPermis_tab1"
         Me.txtdLdIPermis_tab1.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIPermis_tab1.TabIndex = 457
@@ -799,7 +783,7 @@ Partial Class frmiLJudgment
         Me.txtdLdISmoot_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdISmoot_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdISmoot_tab1.Location = New System.Drawing.Point(190, 151)
-        Me.txtdLdISmoot_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdISmoot_tab1.Name = "txtdLdISmoot_tab1"
         Me.txtdLdISmoot_tab1.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdISmoot_tab1.TabIndex = 455
@@ -820,7 +804,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIStep_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIStep_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIStep_tab1.Location = New System.Drawing.Point(190, 119)
-        Me.txtdLdIStep_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIStep_tab1.Name = "txtdLdIStep_tab1"
         Me.txtdLdIStep_tab1.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIStep_tab1.TabIndex = 453
@@ -854,7 +838,7 @@ Partial Class frmiLJudgment
         Me.cboSelect_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect_tab1.FormattingEnabled = True
         Me.cboSelect_tab1.Location = New System.Drawing.Point(147, 41)
-        Me.cboSelect_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect_tab1.Name = "cboSelect_tab1"
         Me.cboSelect_tab1.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect_tab1.TabIndex = 450
@@ -872,7 +856,6 @@ Partial Class frmiLJudgment
         '
         'ILJudg_tab2
         '
-        Me.ILJudg_tab2.Controls.Add(Me.btnOKILjudge2)
         Me.ILJudg_tab2.Controls.Add(Me.GroupBox3)
         Me.ILJudg_tab2.Controls.Add(Me.GroupBox4)
         Me.ILJudg_tab2.Controls.Add(Me.Panel2)
@@ -888,24 +871,13 @@ Partial Class frmiLJudgment
         Me.ILJudg_tab2.Controls.Add(Me.Label25)
         Me.ILJudg_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ILJudg_tab2.Location = New System.Drawing.Point(4, 26)
-        Me.ILJudg_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.ILJudg_tab2.Name = "ILJudg_tab2"
-        Me.ILJudg_tab2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.ILJudg_tab2.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab2.Padding = New System.Windows.Forms.Padding(2)
+        Me.ILJudg_tab2.Size = New System.Drawing.Size(742, 502)
         Me.ILJudg_tab2.TabIndex = 1
         Me.ILJudg_tab2.Text = "IL Judge2"
         Me.ILJudg_tab2.UseVisualStyleBackColor = True
-        '
-        'btnOKILjudge2
-        '
-        Me.btnOKILjudge2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnOKILjudge2.Location = New System.Drawing.Point(750, 476)
-        Me.btnOKILjudge2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.btnOKILjudge2.Name = "btnOKILjudge2"
-        Me.btnOKILjudge2.Size = New System.Drawing.Size(77, 30)
-        Me.btnOKILjudge2.TabIndex = 463
-        Me.btnOKILjudge2.Text = "OK"
-        Me.btnOKILjudge2.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
@@ -914,9 +886,9 @@ Partial Class frmiLJudgment
         Me.GroupBox3.Controls.Add(Me.Label3)
         Me.GroupBox3.Controls.Add(Me.txtNumpoint_tab2)
         Me.GroupBox3.Location = New System.Drawing.Point(58, 425)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox3.Size = New System.Drawing.Size(433, 74)
         Me.GroupBox3.TabIndex = 461
         Me.GroupBox3.TabStop = False
@@ -926,7 +898,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoSec_tab2.AutoSize = True
         Me.rdoSec_tab2.Location = New System.Drawing.Point(112, 32)
-        Me.rdoSec_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoSec_tab2.Name = "rdoSec_tab2"
         Me.rdoSec_tab2.Size = New System.Drawing.Size(97, 22)
         Me.rdoSec_tab2.TabIndex = 425
@@ -938,7 +910,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoPrimary_tab2.AutoSize = True
         Me.rdoPrimary_tab2.Location = New System.Drawing.Point(27, 32)
-        Me.rdoPrimary_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoPrimary_tab2.Name = "rdoPrimary_tab2"
         Me.rdoPrimary_tab2.Size = New System.Drawing.Size(77, 22)
         Me.rdoPrimary_tab2.TabIndex = 425
@@ -962,7 +934,7 @@ Partial Class frmiLJudgment
         Me.txtNumpoint_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNumpoint_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNumpoint_tab2.Location = New System.Drawing.Point(350, 32)
-        Me.txtNumpoint_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNumpoint_tab2.Name = "txtNumpoint_tab2"
         Me.txtNumpoint_tab2.Size = New System.Drawing.Size(60, 24)
         Me.txtNumpoint_tab2.TabIndex = 422
@@ -994,9 +966,9 @@ Partial Class frmiLJudgment
         Me.GroupBox4.Controls.Add(Me.Label18)
         Me.GroupBox4.Controls.Add(Me.Label19)
         Me.GroupBox4.Location = New System.Drawing.Point(58, 277)
-        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox4.Size = New System.Drawing.Size(632, 143)
         Me.GroupBox4.TabIndex = 460
         Me.GroupBox4.TabStop = False
@@ -1029,7 +1001,7 @@ Partial Class frmiLJudgment
         Me.txtOption3End_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3End_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3End_tab2.Location = New System.Drawing.Point(365, 107)
-        Me.txtOption3End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3End_tab2.Name = "txtOption3End_tab2"
         Me.txtOption3End_tab2.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3End_tab2.TabIndex = 445
@@ -1039,7 +1011,7 @@ Partial Class frmiLJudgment
         Me.txtOption2End_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2End_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2End_tab2.Location = New System.Drawing.Point(365, 74)
-        Me.txtOption2End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2End_tab2.Name = "txtOption2End_tab2"
         Me.txtOption2End_tab2.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2End_tab2.TabIndex = 444
@@ -1048,7 +1020,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3End_tab2.AutoSize = True
         Me.rdoOprion3End_tab2.Location = New System.Drawing.Point(350, 111)
-        Me.rdoOprion3End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3End_tab2.Name = "rdoOprion3End_tab2"
         Me.rdoOprion3End_tab2.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3End_tab2.TabIndex = 443
@@ -1059,7 +1031,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2End_tab2.AutoSize = True
         Me.rdoOprion2End_tab2.Location = New System.Drawing.Point(350, 78)
-        Me.rdoOprion2End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2End_tab2.Name = "rdoOprion2End_tab2"
         Me.rdoOprion2End_tab2.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2End_tab2.TabIndex = 442
@@ -1082,7 +1054,7 @@ Partial Class frmiLJudgment
         Me.txtOption1End_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1End_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1End_tab2.Location = New System.Drawing.Point(483, 41)
-        Me.txtOption1End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1End_tab2.Name = "txtOption1End_tab2"
         Me.txtOption1End_tab2.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1End_tab2.TabIndex = 438
@@ -1092,7 +1064,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_2_tab2.FormattingEnabled = True
         Me.cboOption1End_2_tab2.Location = New System.Drawing.Point(440, 41)
-        Me.cboOption1End_2_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_2_tab2.Name = "cboOption1End_2_tab2"
         Me.cboOption1End_2_tab2.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1End_2_tab2.TabIndex = 440
@@ -1102,7 +1074,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_1_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_1_tab2.FormattingEnabled = True
         Me.cboOption1End_1_tab2.Location = New System.Drawing.Point(365, 41)
-        Me.cboOption1End_1_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_1_tab2.Name = "cboOption1End_1_tab2"
         Me.cboOption1End_1_tab2.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1End_1_tab2.TabIndex = 439
@@ -1111,7 +1083,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1End_tab2.AutoSize = True
         Me.rdoOprion1End_tab2.Location = New System.Drawing.Point(350, 46)
-        Me.rdoOprion1End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1End_tab2.Name = "rdoOprion1End_tab2"
         Me.rdoOprion1End_tab2.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1End_tab2.TabIndex = 437
@@ -1145,7 +1117,7 @@ Partial Class frmiLJudgment
         Me.txtOption3_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3_tab2.Location = New System.Drawing.Point(128, 106)
-        Me.txtOption3_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3_tab2.Name = "txtOption3_tab2"
         Me.txtOption3_tab2.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3_tab2.TabIndex = 434
@@ -1155,7 +1127,7 @@ Partial Class frmiLJudgment
         Me.txtOption2_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2_tab2.Location = New System.Drawing.Point(128, 73)
-        Me.txtOption2_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2_tab2.Name = "txtOption2_tab2"
         Me.txtOption2_tab2.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2_tab2.TabIndex = 433
@@ -1164,7 +1136,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3_tab2.AutoSize = True
         Me.rdoOprion3_tab2.Location = New System.Drawing.Point(112, 110)
-        Me.rdoOprion3_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3_tab2.Name = "rdoOprion3_tab2"
         Me.rdoOprion3_tab2.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3_tab2.TabIndex = 432
@@ -1175,7 +1147,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2_tab2.AutoSize = True
         Me.rdoOprion2_tab2.Location = New System.Drawing.Point(112, 77)
-        Me.rdoOprion2_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2_tab2.Name = "rdoOprion2_tab2"
         Me.rdoOprion2_tab2.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2_tab2.TabIndex = 431
@@ -1198,7 +1170,7 @@ Partial Class frmiLJudgment
         Me.txtOption1_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1_tab2.Location = New System.Drawing.Point(245, 41)
-        Me.txtOption1_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1_tab2.Name = "txtOption1_tab2"
         Me.txtOption1_tab2.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1_tab2.TabIndex = 427
@@ -1208,7 +1180,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_2_tab2.FormattingEnabled = True
         Me.cboOption1_2_tab2.Location = New System.Drawing.Point(202, 40)
-        Me.cboOption1_2_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_2_tab2.Name = "cboOption1_2_tab2"
         Me.cboOption1_2_tab2.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1_2_tab2.TabIndex = 429
@@ -1218,7 +1190,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_1_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_1_tab2.FormattingEnabled = True
         Me.cboOption1_1_tab2.Location = New System.Drawing.Point(128, 40)
-        Me.cboOption1_1_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_1_tab2.Name = "cboOption1_1_tab2"
         Me.cboOption1_1_tab2.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1_1_tab2.TabIndex = 427
@@ -1227,7 +1199,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1_tab2.AutoSize = True
         Me.rdoOprion1_tab2.Location = New System.Drawing.Point(112, 45)
-        Me.rdoOprion1_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1_tab2.Name = "rdoOprion1_tab2"
         Me.rdoOprion1_tab2.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1_tab2.TabIndex = 425
@@ -1261,7 +1233,7 @@ Partial Class frmiLJudgment
         Me.Panel2.Controls.Add(Me.rdoParallel_tab2)
         Me.Panel2.Controls.Add(Me.rdoEachpoint_tab2)
         Me.Panel2.Location = New System.Drawing.Point(159, 222)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(236, 28)
         Me.Panel2.TabIndex = 459
@@ -1270,7 +1242,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoParallel_tab2.AutoSize = True
         Me.rdoParallel_tab2.Location = New System.Drawing.Point(140, 2)
-        Me.rdoParallel_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoParallel_tab2.Name = "rdoParallel_tab2"
         Me.rdoParallel_tab2.Size = New System.Drawing.Size(100, 22)
         Me.rdoParallel_tab2.TabIndex = 424
@@ -1282,7 +1254,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoEachpoint_tab2.AutoSize = True
         Me.rdoEachpoint_tab2.Location = New System.Drawing.Point(2, 2)
-        Me.rdoEachpoint_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoEachpoint_tab2.Name = "rdoEachpoint_tab2"
         Me.rdoEachpoint_tab2.Size = New System.Drawing.Size(134, 22)
         Me.rdoEachpoint_tab2.TabIndex = 423
@@ -1306,7 +1278,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIPermis_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIPermis_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIPermis_tab2.Location = New System.Drawing.Point(190, 184)
-        Me.txtdLdIPermis_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermis_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIPermis_tab2.Name = "txtdLdIPermis_tab2"
         Me.txtdLdIPermis_tab2.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIPermis_tab2.TabIndex = 457
@@ -1327,7 +1299,7 @@ Partial Class frmiLJudgment
         Me.txtdLdISmoot_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdISmoot_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdISmoot_tab2.Location = New System.Drawing.Point(190, 151)
-        Me.txtdLdISmoot_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdISmoot_tab2.Name = "txtdLdISmoot_tab2"
         Me.txtdLdISmoot_tab2.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdISmoot_tab2.TabIndex = 455
@@ -1348,7 +1320,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIStep_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIStep_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIStep_tab2.Location = New System.Drawing.Point(190, 119)
-        Me.txtdLdIStep_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIStep_tab2.Name = "txtdLdIStep_tab2"
         Me.txtdLdIStep_tab2.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIStep_tab2.TabIndex = 453
@@ -1382,7 +1354,7 @@ Partial Class frmiLJudgment
         Me.cboSelect_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect_tab2.FormattingEnabled = True
         Me.cboSelect_tab2.Location = New System.Drawing.Point(147, 41)
-        Me.cboSelect_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect_tab2.Name = "cboSelect_tab2"
         Me.cboSelect_tab2.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect_tab2.TabIndex = 450
@@ -1400,7 +1372,6 @@ Partial Class frmiLJudgment
         '
         'ILJudg_tab3
         '
-        Me.ILJudg_tab3.Controls.Add(Me.btnOKILjudg3)
         Me.ILJudg_tab3.Controls.Add(Me.GroupBox5)
         Me.ILJudg_tab3.Controls.Add(Me.GroupBox6)
         Me.ILJudg_tab3.Controls.Add(Me.Panel3)
@@ -1416,24 +1387,13 @@ Partial Class frmiLJudgment
         Me.ILJudg_tab3.Controls.Add(Me.Label40)
         Me.ILJudg_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ILJudg_tab3.Location = New System.Drawing.Point(4, 26)
-        Me.ILJudg_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.ILJudg_tab3.Name = "ILJudg_tab3"
-        Me.ILJudg_tab3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.ILJudg_tab3.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab3.Padding = New System.Windows.Forms.Padding(2)
+        Me.ILJudg_tab3.Size = New System.Drawing.Size(742, 502)
         Me.ILJudg_tab3.TabIndex = 2
         Me.ILJudg_tab3.Text = "IL Judge3"
         Me.ILJudg_tab3.UseVisualStyleBackColor = True
-        '
-        'btnOKILjudg3
-        '
-        Me.btnOKILjudg3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnOKILjudg3.Location = New System.Drawing.Point(750, 476)
-        Me.btnOKILjudg3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.btnOKILjudg3.Name = "btnOKILjudg3"
-        Me.btnOKILjudg3.Size = New System.Drawing.Size(77, 30)
-        Me.btnOKILjudg3.TabIndex = 463
-        Me.btnOKILjudg3.Text = "OK"
-        Me.btnOKILjudg3.UseVisualStyleBackColor = True
         '
         'GroupBox5
         '
@@ -1442,9 +1402,9 @@ Partial Class frmiLJudgment
         Me.GroupBox5.Controls.Add(Me.Label26)
         Me.GroupBox5.Controls.Add(Me.txtNumpoint_tab3)
         Me.GroupBox5.Location = New System.Drawing.Point(58, 425)
-        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox5.Size = New System.Drawing.Size(433, 74)
         Me.GroupBox5.TabIndex = 461
         Me.GroupBox5.TabStop = False
@@ -1454,7 +1414,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoSec_tab3.AutoSize = True
         Me.rdoSec_tab3.Location = New System.Drawing.Point(112, 32)
-        Me.rdoSec_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoSec_tab3.Name = "rdoSec_tab3"
         Me.rdoSec_tab3.Size = New System.Drawing.Size(97, 22)
         Me.rdoSec_tab3.TabIndex = 425
@@ -1466,7 +1426,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoPrimary_tab3.AutoSize = True
         Me.rdoPrimary_tab3.Location = New System.Drawing.Point(27, 32)
-        Me.rdoPrimary_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoPrimary_tab3.Name = "rdoPrimary_tab3"
         Me.rdoPrimary_tab3.Size = New System.Drawing.Size(77, 22)
         Me.rdoPrimary_tab3.TabIndex = 425
@@ -1490,7 +1450,7 @@ Partial Class frmiLJudgment
         Me.txtNumpoint_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNumpoint_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNumpoint_tab3.Location = New System.Drawing.Point(350, 32)
-        Me.txtNumpoint_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNumpoint_tab3.Name = "txtNumpoint_tab3"
         Me.txtNumpoint_tab3.Size = New System.Drawing.Size(60, 24)
         Me.txtNumpoint_tab3.TabIndex = 422
@@ -1522,9 +1482,9 @@ Partial Class frmiLJudgment
         Me.GroupBox6.Controls.Add(Me.Label33)
         Me.GroupBox6.Controls.Add(Me.Label34)
         Me.GroupBox6.Location = New System.Drawing.Point(58, 277)
-        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox6.Size = New System.Drawing.Size(632, 143)
         Me.GroupBox6.TabIndex = 460
         Me.GroupBox6.TabStop = False
@@ -1557,7 +1517,7 @@ Partial Class frmiLJudgment
         Me.txtOption3End_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3End_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3End_tab3.Location = New System.Drawing.Point(365, 107)
-        Me.txtOption3End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3End_tab3.Name = "txtOption3End_tab3"
         Me.txtOption3End_tab3.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3End_tab3.TabIndex = 445
@@ -1567,7 +1527,7 @@ Partial Class frmiLJudgment
         Me.txtOption2End_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2End_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2End_tab3.Location = New System.Drawing.Point(365, 74)
-        Me.txtOption2End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2End_tab3.Name = "txtOption2End_tab3"
         Me.txtOption2End_tab3.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2End_tab3.TabIndex = 444
@@ -1576,7 +1536,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3End_tab3.AutoSize = True
         Me.rdoOprion3End_tab3.Location = New System.Drawing.Point(350, 111)
-        Me.rdoOprion3End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3End_tab3.Name = "rdoOprion3End_tab3"
         Me.rdoOprion3End_tab3.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3End_tab3.TabIndex = 443
@@ -1587,7 +1547,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2End_tab3.AutoSize = True
         Me.rdoOprion2End_tab3.Location = New System.Drawing.Point(350, 78)
-        Me.rdoOprion2End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2End_tab3.Name = "rdoOprion2End_tab3"
         Me.rdoOprion2End_tab3.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2End_tab3.TabIndex = 442
@@ -1610,7 +1570,7 @@ Partial Class frmiLJudgment
         Me.txtOption1End_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1End_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1End_tab3.Location = New System.Drawing.Point(483, 41)
-        Me.txtOption1End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1End_tab3.Name = "txtOption1End_tab3"
         Me.txtOption1End_tab3.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1End_tab3.TabIndex = 438
@@ -1620,7 +1580,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_2_tab3.FormattingEnabled = True
         Me.cboOption1End_2_tab3.Location = New System.Drawing.Point(440, 41)
-        Me.cboOption1End_2_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_2_tab3.Name = "cboOption1End_2_tab3"
         Me.cboOption1End_2_tab3.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1End_2_tab3.TabIndex = 440
@@ -1630,7 +1590,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_1_tab3.FormattingEnabled = True
         Me.cboOption1End_1_tab3.Location = New System.Drawing.Point(365, 41)
-        Me.cboOption1End_1_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_1_tab3.Name = "cboOption1End_1_tab3"
         Me.cboOption1End_1_tab3.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1End_1_tab3.TabIndex = 439
@@ -1639,7 +1599,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1End_tab3.AutoSize = True
         Me.rdoOprion1End_tab3.Location = New System.Drawing.Point(350, 46)
-        Me.rdoOprion1End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1End_tab3.Name = "rdoOprion1End_tab3"
         Me.rdoOprion1End_tab3.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1End_tab3.TabIndex = 437
@@ -1673,7 +1633,7 @@ Partial Class frmiLJudgment
         Me.txtOption3_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3_tab3.Location = New System.Drawing.Point(128, 106)
-        Me.txtOption3_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3_tab3.Name = "txtOption3_tab3"
         Me.txtOption3_tab3.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3_tab3.TabIndex = 434
@@ -1683,7 +1643,7 @@ Partial Class frmiLJudgment
         Me.txtOption2_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2_tab3.Location = New System.Drawing.Point(128, 73)
-        Me.txtOption2_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2_tab3.Name = "txtOption2_tab3"
         Me.txtOption2_tab3.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2_tab3.TabIndex = 433
@@ -1692,7 +1652,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3_tab3.AutoSize = True
         Me.rdoOprion3_tab3.Location = New System.Drawing.Point(112, 110)
-        Me.rdoOprion3_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3_tab3.Name = "rdoOprion3_tab3"
         Me.rdoOprion3_tab3.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3_tab3.TabIndex = 432
@@ -1703,7 +1663,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2_tab3.AutoSize = True
         Me.rdoOprion2_tab3.Location = New System.Drawing.Point(112, 77)
-        Me.rdoOprion2_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2_tab3.Name = "rdoOprion2_tab3"
         Me.rdoOprion2_tab3.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2_tab3.TabIndex = 431
@@ -1726,7 +1686,7 @@ Partial Class frmiLJudgment
         Me.txtOption1_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1_tab3.Location = New System.Drawing.Point(245, 41)
-        Me.txtOption1_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1_tab3.Name = "txtOption1_tab3"
         Me.txtOption1_tab3.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1_tab3.TabIndex = 427
@@ -1736,7 +1696,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_2_tab3.FormattingEnabled = True
         Me.cboOption1_2_tab3.Location = New System.Drawing.Point(202, 40)
-        Me.cboOption1_2_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_2_tab3.Name = "cboOption1_2_tab3"
         Me.cboOption1_2_tab3.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1_2_tab3.TabIndex = 429
@@ -1746,7 +1706,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_1_tab3.FormattingEnabled = True
         Me.cboOption1_1_tab3.Location = New System.Drawing.Point(128, 40)
-        Me.cboOption1_1_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_1_tab3.Name = "cboOption1_1_tab3"
         Me.cboOption1_1_tab3.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1_1_tab3.TabIndex = 427
@@ -1755,7 +1715,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1_tab3.AutoSize = True
         Me.rdoOprion1_tab3.Location = New System.Drawing.Point(112, 45)
-        Me.rdoOprion1_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1_tab3.Name = "rdoOprion1_tab3"
         Me.rdoOprion1_tab3.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1_tab3.TabIndex = 425
@@ -1789,7 +1749,7 @@ Partial Class frmiLJudgment
         Me.Panel3.Controls.Add(Me.rdoParallel_tab3)
         Me.Panel3.Controls.Add(Me.rdoEachpoint_tab3)
         Me.Panel3.Location = New System.Drawing.Point(159, 222)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(236, 28)
         Me.Panel3.TabIndex = 459
@@ -1798,7 +1758,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoParallel_tab3.AutoSize = True
         Me.rdoParallel_tab3.Location = New System.Drawing.Point(140, 2)
-        Me.rdoParallel_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoParallel_tab3.Name = "rdoParallel_tab3"
         Me.rdoParallel_tab3.Size = New System.Drawing.Size(100, 22)
         Me.rdoParallel_tab3.TabIndex = 424
@@ -1810,7 +1770,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoEachpoint_tab3.AutoSize = True
         Me.rdoEachpoint_tab3.Location = New System.Drawing.Point(2, 2)
-        Me.rdoEachpoint_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoEachpoint_tab3.Name = "rdoEachpoint_tab3"
         Me.rdoEachpoint_tab3.Size = New System.Drawing.Size(134, 22)
         Me.rdoEachpoint_tab3.TabIndex = 423
@@ -1834,7 +1794,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIPermis_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIPermis_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIPermis_tab3.Location = New System.Drawing.Point(190, 184)
-        Me.txtdLdIPermis_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermis_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIPermis_tab3.Name = "txtdLdIPermis_tab3"
         Me.txtdLdIPermis_tab3.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIPermis_tab3.TabIndex = 457
@@ -1855,7 +1815,7 @@ Partial Class frmiLJudgment
         Me.txtdLdISmoot_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdISmoot_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdISmoot_tab3.Location = New System.Drawing.Point(190, 151)
-        Me.txtdLdISmoot_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdISmoot_tab3.Name = "txtdLdISmoot_tab3"
         Me.txtdLdISmoot_tab3.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdISmoot_tab3.TabIndex = 455
@@ -1876,7 +1836,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIStep_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIStep_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIStep_tab3.Location = New System.Drawing.Point(190, 119)
-        Me.txtdLdIStep_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIStep_tab3.Name = "txtdLdIStep_tab3"
         Me.txtdLdIStep_tab3.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIStep_tab3.TabIndex = 453
@@ -1910,7 +1870,7 @@ Partial Class frmiLJudgment
         Me.cboSelect_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect_tab3.FormattingEnabled = True
         Me.cboSelect_tab3.Location = New System.Drawing.Point(147, 41)
-        Me.cboSelect_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect_tab3.Name = "cboSelect_tab3"
         Me.cboSelect_tab3.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect_tab3.TabIndex = 450
@@ -1928,7 +1888,6 @@ Partial Class frmiLJudgment
         '
         'ILJudg_tab4
         '
-        Me.ILJudg_tab4.Controls.Add(Me.btnOKILjudg4)
         Me.ILJudg_tab4.Controls.Add(Me.GroupBox7)
         Me.ILJudg_tab4.Controls.Add(Me.GroupBox8)
         Me.ILJudg_tab4.Controls.Add(Me.Panel4)
@@ -1944,24 +1903,13 @@ Partial Class frmiLJudgment
         Me.ILJudg_tab4.Controls.Add(Me.Label60)
         Me.ILJudg_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ILJudg_tab4.Location = New System.Drawing.Point(4, 26)
-        Me.ILJudg_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.ILJudg_tab4.Name = "ILJudg_tab4"
-        Me.ILJudg_tab4.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.ILJudg_tab4.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab4.Padding = New System.Windows.Forms.Padding(2)
+        Me.ILJudg_tab4.Size = New System.Drawing.Size(742, 502)
         Me.ILJudg_tab4.TabIndex = 3
         Me.ILJudg_tab4.Text = "IL Judge4"
         Me.ILJudg_tab4.UseVisualStyleBackColor = True
-        '
-        'btnOKILjudg4
-        '
-        Me.btnOKILjudg4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnOKILjudg4.Location = New System.Drawing.Point(750, 476)
-        Me.btnOKILjudg4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.btnOKILjudg4.Name = "btnOKILjudg4"
-        Me.btnOKILjudg4.Size = New System.Drawing.Size(77, 30)
-        Me.btnOKILjudg4.TabIndex = 464
-        Me.btnOKILjudg4.Text = "OK"
-        Me.btnOKILjudg4.UseVisualStyleBackColor = True
         '
         'GroupBox7
         '
@@ -1970,9 +1918,9 @@ Partial Class frmiLJudgment
         Me.GroupBox7.Controls.Add(Me.Label41)
         Me.GroupBox7.Controls.Add(Me.txtNumpoint_tab4)
         Me.GroupBox7.Location = New System.Drawing.Point(58, 425)
-        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox7.Size = New System.Drawing.Size(433, 74)
         Me.GroupBox7.TabIndex = 461
         Me.GroupBox7.TabStop = False
@@ -1982,7 +1930,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoSec_tab4.AutoSize = True
         Me.rdoSec_tab4.Location = New System.Drawing.Point(112, 32)
-        Me.rdoSec_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoSec_tab4.Name = "rdoSec_tab4"
         Me.rdoSec_tab4.Size = New System.Drawing.Size(97, 22)
         Me.rdoSec_tab4.TabIndex = 425
@@ -1994,7 +1942,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoPrimary_tab4.AutoSize = True
         Me.rdoPrimary_tab4.Location = New System.Drawing.Point(27, 32)
-        Me.rdoPrimary_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoPrimary_tab4.Name = "rdoPrimary_tab4"
         Me.rdoPrimary_tab4.Size = New System.Drawing.Size(77, 22)
         Me.rdoPrimary_tab4.TabIndex = 425
@@ -2018,7 +1966,7 @@ Partial Class frmiLJudgment
         Me.txtNumpoint_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNumpoint_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNumpoint_tab4.Location = New System.Drawing.Point(350, 32)
-        Me.txtNumpoint_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNumpoint_tab4.Name = "txtNumpoint_tab4"
         Me.txtNumpoint_tab4.Size = New System.Drawing.Size(60, 24)
         Me.txtNumpoint_tab4.TabIndex = 422
@@ -2050,9 +1998,9 @@ Partial Class frmiLJudgment
         Me.GroupBox8.Controls.Add(Me.Label48)
         Me.GroupBox8.Controls.Add(Me.Label49)
         Me.GroupBox8.Location = New System.Drawing.Point(58, 277)
-        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox8.Size = New System.Drawing.Size(632, 143)
         Me.GroupBox8.TabIndex = 460
         Me.GroupBox8.TabStop = False
@@ -2085,7 +2033,7 @@ Partial Class frmiLJudgment
         Me.txtOption3End_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3End_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3End_tab4.Location = New System.Drawing.Point(365, 107)
-        Me.txtOption3End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3End_tab4.Name = "txtOption3End_tab4"
         Me.txtOption3End_tab4.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3End_tab4.TabIndex = 445
@@ -2095,7 +2043,7 @@ Partial Class frmiLJudgment
         Me.txtOption2End_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2End_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2End_tab4.Location = New System.Drawing.Point(365, 74)
-        Me.txtOption2End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2End_tab4.Name = "txtOption2End_tab4"
         Me.txtOption2End_tab4.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2End_tab4.TabIndex = 444
@@ -2104,7 +2052,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3End_tab4.AutoSize = True
         Me.rdoOprion3End_tab4.Location = New System.Drawing.Point(350, 111)
-        Me.rdoOprion3End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3End_tab4.Name = "rdoOprion3End_tab4"
         Me.rdoOprion3End_tab4.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3End_tab4.TabIndex = 443
@@ -2115,7 +2063,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2End_tab4.AutoSize = True
         Me.rdoOprion2End_tab4.Location = New System.Drawing.Point(350, 78)
-        Me.rdoOprion2End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2End_tab4.Name = "rdoOprion2End_tab4"
         Me.rdoOprion2End_tab4.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2End_tab4.TabIndex = 442
@@ -2138,7 +2086,7 @@ Partial Class frmiLJudgment
         Me.txtOption1End_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1End_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1End_tab4.Location = New System.Drawing.Point(483, 41)
-        Me.txtOption1End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1End_tab4.Name = "txtOption1End_tab4"
         Me.txtOption1End_tab4.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1End_tab4.TabIndex = 438
@@ -2148,7 +2096,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_2_tab4.FormattingEnabled = True
         Me.cboOption1End_2_tab4.Location = New System.Drawing.Point(440, 41)
-        Me.cboOption1End_2_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_2_tab4.Name = "cboOption1End_2_tab4"
         Me.cboOption1End_2_tab4.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1End_2_tab4.TabIndex = 440
@@ -2158,7 +2106,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_1_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_1_tab4.FormattingEnabled = True
         Me.cboOption1End_1_tab4.Location = New System.Drawing.Point(365, 41)
-        Me.cboOption1End_1_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_1_tab4.Name = "cboOption1End_1_tab4"
         Me.cboOption1End_1_tab4.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1End_1_tab4.TabIndex = 439
@@ -2167,7 +2115,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1End_tab4.AutoSize = True
         Me.rdoOprion1End_tab4.Location = New System.Drawing.Point(350, 46)
-        Me.rdoOprion1End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1End_tab4.Name = "rdoOprion1End_tab4"
         Me.rdoOprion1End_tab4.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1End_tab4.TabIndex = 437
@@ -2201,7 +2149,7 @@ Partial Class frmiLJudgment
         Me.txtOption3_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3_tab4.Location = New System.Drawing.Point(128, 106)
-        Me.txtOption3_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3_tab4.Name = "txtOption3_tab4"
         Me.txtOption3_tab4.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3_tab4.TabIndex = 434
@@ -2211,7 +2159,7 @@ Partial Class frmiLJudgment
         Me.txtOption2_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2_tab4.Location = New System.Drawing.Point(128, 73)
-        Me.txtOption2_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2_tab4.Name = "txtOption2_tab4"
         Me.txtOption2_tab4.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2_tab4.TabIndex = 433
@@ -2220,7 +2168,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3_tab4.AutoSize = True
         Me.rdoOprion3_tab4.Location = New System.Drawing.Point(112, 110)
-        Me.rdoOprion3_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3_tab4.Name = "rdoOprion3_tab4"
         Me.rdoOprion3_tab4.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3_tab4.TabIndex = 432
@@ -2231,7 +2179,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2_tab4.AutoSize = True
         Me.rdoOprion2_tab4.Location = New System.Drawing.Point(112, 77)
-        Me.rdoOprion2_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2_tab4.Name = "rdoOprion2_tab4"
         Me.rdoOprion2_tab4.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2_tab4.TabIndex = 431
@@ -2254,7 +2202,7 @@ Partial Class frmiLJudgment
         Me.txtOption1_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1_tab4.Location = New System.Drawing.Point(245, 41)
-        Me.txtOption1_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1_tab4.Name = "txtOption1_tab4"
         Me.txtOption1_tab4.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1_tab4.TabIndex = 427
@@ -2264,7 +2212,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_2_tab4.FormattingEnabled = True
         Me.cboOption1_2_tab4.Location = New System.Drawing.Point(202, 40)
-        Me.cboOption1_2_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_2_tab4.Name = "cboOption1_2_tab4"
         Me.cboOption1_2_tab4.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1_2_tab4.TabIndex = 429
@@ -2274,7 +2222,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_1_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_1_tab4.FormattingEnabled = True
         Me.cboOption1_1_tab4.Location = New System.Drawing.Point(128, 40)
-        Me.cboOption1_1_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_1_tab4.Name = "cboOption1_1_tab4"
         Me.cboOption1_1_tab4.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1_1_tab4.TabIndex = 427
@@ -2283,7 +2231,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1_tab4.AutoSize = True
         Me.rdoOprion1_tab4.Location = New System.Drawing.Point(112, 45)
-        Me.rdoOprion1_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1_tab4.Name = "rdoOprion1_tab4"
         Me.rdoOprion1_tab4.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1_tab4.TabIndex = 425
@@ -2317,7 +2265,7 @@ Partial Class frmiLJudgment
         Me.Panel4.Controls.Add(Me.rdoParallel_tab4)
         Me.Panel4.Controls.Add(Me.rdoEachpoint_tab4)
         Me.Panel4.Location = New System.Drawing.Point(159, 222)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(236, 28)
         Me.Panel4.TabIndex = 459
@@ -2326,7 +2274,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoParallel_tab4.AutoSize = True
         Me.rdoParallel_tab4.Location = New System.Drawing.Point(140, 2)
-        Me.rdoParallel_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoParallel_tab4.Name = "rdoParallel_tab4"
         Me.rdoParallel_tab4.Size = New System.Drawing.Size(100, 22)
         Me.rdoParallel_tab4.TabIndex = 424
@@ -2338,7 +2286,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoEachpoint_tab4.AutoSize = True
         Me.rdoEachpoint_tab4.Location = New System.Drawing.Point(2, 2)
-        Me.rdoEachpoint_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoEachpoint_tab4.Name = "rdoEachpoint_tab4"
         Me.rdoEachpoint_tab4.Size = New System.Drawing.Size(134, 22)
         Me.rdoEachpoint_tab4.TabIndex = 423
@@ -2362,7 +2310,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIPermisrate_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIPermisrate_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIPermisrate_tab4.Location = New System.Drawing.Point(190, 184)
-        Me.txtdLdIPermisrate_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermisrate_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIPermisrate_tab4.Name = "txtdLdIPermisrate_tab4"
         Me.txtdLdIPermisrate_tab4.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIPermisrate_tab4.TabIndex = 457
@@ -2383,7 +2331,7 @@ Partial Class frmiLJudgment
         Me.txtdLdISmoot_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdISmoot_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdISmoot_tab4.Location = New System.Drawing.Point(190, 151)
-        Me.txtdLdISmoot_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdISmoot_tab4.Name = "txtdLdISmoot_tab4"
         Me.txtdLdISmoot_tab4.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdISmoot_tab4.TabIndex = 455
@@ -2404,7 +2352,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIStep_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIStep_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIStep_tab4.Location = New System.Drawing.Point(190, 119)
-        Me.txtdLdIStep_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIStep_tab4.Name = "txtdLdIStep_tab4"
         Me.txtdLdIStep_tab4.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIStep_tab4.TabIndex = 453
@@ -2438,7 +2386,7 @@ Partial Class frmiLJudgment
         Me.cboSelect_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect_tab4.FormattingEnabled = True
         Me.cboSelect_tab4.Location = New System.Drawing.Point(147, 41)
-        Me.cboSelect_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect_tab4.Name = "cboSelect_tab4"
         Me.cboSelect_tab4.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect_tab4.TabIndex = 450
@@ -2456,7 +2404,6 @@ Partial Class frmiLJudgment
         '
         'ILJudg_tab5
         '
-        Me.ILJudg_tab5.Controls.Add(Me.btnOKILjudge5)
         Me.ILJudg_tab5.Controls.Add(Me.GroupBox9)
         Me.ILJudg_tab5.Controls.Add(Me.GroupBox10)
         Me.ILJudg_tab5.Controls.Add(Me.Panel5)
@@ -2472,24 +2419,13 @@ Partial Class frmiLJudgment
         Me.ILJudg_tab5.Controls.Add(Me.Label75)
         Me.ILJudg_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ILJudg_tab5.Location = New System.Drawing.Point(4, 26)
-        Me.ILJudg_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.ILJudg_tab5.Name = "ILJudg_tab5"
-        Me.ILJudg_tab5.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.ILJudg_tab5.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab5.Padding = New System.Windows.Forms.Padding(2)
+        Me.ILJudg_tab5.Size = New System.Drawing.Size(742, 502)
         Me.ILJudg_tab5.TabIndex = 4
         Me.ILJudg_tab5.Text = "IL Judge5"
         Me.ILJudg_tab5.UseVisualStyleBackColor = True
-        '
-        'btnOKILjudge5
-        '
-        Me.btnOKILjudge5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnOKILjudge5.Location = New System.Drawing.Point(750, 476)
-        Me.btnOKILjudge5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.btnOKILjudge5.Name = "btnOKILjudge5"
-        Me.btnOKILjudge5.Size = New System.Drawing.Size(77, 30)
-        Me.btnOKILjudge5.TabIndex = 465
-        Me.btnOKILjudge5.Text = "OK"
-        Me.btnOKILjudge5.UseVisualStyleBackColor = True
         '
         'GroupBox9
         '
@@ -2498,9 +2434,9 @@ Partial Class frmiLJudgment
         Me.GroupBox9.Controls.Add(Me.Label61)
         Me.GroupBox9.Controls.Add(Me.txtNumpoint_tab5)
         Me.GroupBox9.Location = New System.Drawing.Point(58, 425)
-        Me.GroupBox9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox9.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox9.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox9.Size = New System.Drawing.Size(433, 74)
         Me.GroupBox9.TabIndex = 461
         Me.GroupBox9.TabStop = False
@@ -2510,7 +2446,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoSec_tab5.AutoSize = True
         Me.rdoSec_tab5.Location = New System.Drawing.Point(112, 32)
-        Me.rdoSec_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoSec_tab5.Name = "rdoSec_tab5"
         Me.rdoSec_tab5.Size = New System.Drawing.Size(97, 22)
         Me.rdoSec_tab5.TabIndex = 425
@@ -2522,7 +2458,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoPrimary_tab5.AutoSize = True
         Me.rdoPrimary_tab5.Location = New System.Drawing.Point(27, 32)
-        Me.rdoPrimary_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoPrimary_tab5.Name = "rdoPrimary_tab5"
         Me.rdoPrimary_tab5.Size = New System.Drawing.Size(77, 22)
         Me.rdoPrimary_tab5.TabIndex = 425
@@ -2546,7 +2482,7 @@ Partial Class frmiLJudgment
         Me.txtNumpoint_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNumpoint_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNumpoint_tab5.Location = New System.Drawing.Point(350, 32)
-        Me.txtNumpoint_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNumpoint_tab5.Name = "txtNumpoint_tab5"
         Me.txtNumpoint_tab5.Size = New System.Drawing.Size(60, 24)
         Me.txtNumpoint_tab5.TabIndex = 422
@@ -2578,9 +2514,9 @@ Partial Class frmiLJudgment
         Me.GroupBox10.Controls.Add(Me.Label68)
         Me.GroupBox10.Controls.Add(Me.Label69)
         Me.GroupBox10.Location = New System.Drawing.Point(58, 277)
-        Me.GroupBox10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox10.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox10.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox10.Size = New System.Drawing.Size(632, 143)
         Me.GroupBox10.TabIndex = 460
         Me.GroupBox10.TabStop = False
@@ -2613,7 +2549,7 @@ Partial Class frmiLJudgment
         Me.txtOption3End_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3End_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3End_tab5.Location = New System.Drawing.Point(365, 107)
-        Me.txtOption3End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3End_tab5.Name = "txtOption3End_tab5"
         Me.txtOption3End_tab5.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3End_tab5.TabIndex = 445
@@ -2623,7 +2559,7 @@ Partial Class frmiLJudgment
         Me.txtOption2End_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2End_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2End_tab5.Location = New System.Drawing.Point(365, 74)
-        Me.txtOption2End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2End_tab5.Name = "txtOption2End_tab5"
         Me.txtOption2End_tab5.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2End_tab5.TabIndex = 444
@@ -2632,7 +2568,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3End_tab5.AutoSize = True
         Me.rdoOprion3End_tab5.Location = New System.Drawing.Point(350, 111)
-        Me.rdoOprion3End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3End_tab5.Name = "rdoOprion3End_tab5"
         Me.rdoOprion3End_tab5.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3End_tab5.TabIndex = 443
@@ -2643,7 +2579,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2End_tab5.AutoSize = True
         Me.rdoOprion2End_tab5.Location = New System.Drawing.Point(350, 78)
-        Me.rdoOprion2End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2End_tab5.Name = "rdoOprion2End_tab5"
         Me.rdoOprion2End_tab5.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2End_tab5.TabIndex = 442
@@ -2666,7 +2602,7 @@ Partial Class frmiLJudgment
         Me.txtOption1End_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1End_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1End_tab5.Location = New System.Drawing.Point(483, 41)
-        Me.txtOption1End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1End_tab5.Name = "txtOption1End_tab5"
         Me.txtOption1End_tab5.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1End_tab5.TabIndex = 438
@@ -2676,7 +2612,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_2_tab5.FormattingEnabled = True
         Me.cboOption1End_2_tab5.Location = New System.Drawing.Point(440, 41)
-        Me.cboOption1End_2_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_2_tab5.Name = "cboOption1End_2_tab5"
         Me.cboOption1End_2_tab5.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1End_2_tab5.TabIndex = 440
@@ -2686,7 +2622,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_1_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_1_tab5.FormattingEnabled = True
         Me.cboOption1End_1_tab5.Location = New System.Drawing.Point(365, 41)
-        Me.cboOption1End_1_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_1_tab5.Name = "cboOption1End_1_tab5"
         Me.cboOption1End_1_tab5.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1End_1_tab5.TabIndex = 439
@@ -2695,7 +2631,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1End_tab5.AutoSize = True
         Me.rdoOprion1End_tab5.Location = New System.Drawing.Point(350, 46)
-        Me.rdoOprion1End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1End_tab5.Name = "rdoOprion1End_tab5"
         Me.rdoOprion1End_tab5.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1End_tab5.TabIndex = 437
@@ -2729,7 +2665,7 @@ Partial Class frmiLJudgment
         Me.txtOption3_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3_tab5.Location = New System.Drawing.Point(128, 106)
-        Me.txtOption3_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3_tab5.Name = "txtOption3_tab5"
         Me.txtOption3_tab5.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3_tab5.TabIndex = 434
@@ -2739,7 +2675,7 @@ Partial Class frmiLJudgment
         Me.txtOption2_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2_tab5.Location = New System.Drawing.Point(128, 73)
-        Me.txtOption2_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2_tab5.Name = "txtOption2_tab5"
         Me.txtOption2_tab5.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2_tab5.TabIndex = 433
@@ -2748,7 +2684,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3_tab5.AutoSize = True
         Me.rdoOprion3_tab5.Location = New System.Drawing.Point(112, 110)
-        Me.rdoOprion3_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3_tab5.Name = "rdoOprion3_tab5"
         Me.rdoOprion3_tab5.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3_tab5.TabIndex = 432
@@ -2759,7 +2695,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2_tab5.AutoSize = True
         Me.rdoOprion2_tab5.Location = New System.Drawing.Point(112, 77)
-        Me.rdoOprion2_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2_tab5.Name = "rdoOprion2_tab5"
         Me.rdoOprion2_tab5.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2_tab5.TabIndex = 431
@@ -2782,7 +2718,7 @@ Partial Class frmiLJudgment
         Me.txtOption1_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1_tab5.Location = New System.Drawing.Point(245, 41)
-        Me.txtOption1_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1_tab5.Name = "txtOption1_tab5"
         Me.txtOption1_tab5.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1_tab5.TabIndex = 427
@@ -2792,7 +2728,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_2_tab5.FormattingEnabled = True
         Me.cboOption1_2_tab5.Location = New System.Drawing.Point(202, 40)
-        Me.cboOption1_2_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_2_tab5.Name = "cboOption1_2_tab5"
         Me.cboOption1_2_tab5.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1_2_tab5.TabIndex = 429
@@ -2802,7 +2738,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_1_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_1_tab5.FormattingEnabled = True
         Me.cboOption1_1_tab5.Location = New System.Drawing.Point(128, 40)
-        Me.cboOption1_1_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_1_tab5.Name = "cboOption1_1_tab5"
         Me.cboOption1_1_tab5.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1_1_tab5.TabIndex = 427
@@ -2811,7 +2747,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1_tab5.AutoSize = True
         Me.rdoOprion1_tab5.Location = New System.Drawing.Point(112, 45)
-        Me.rdoOprion1_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1_tab5.Name = "rdoOprion1_tab5"
         Me.rdoOprion1_tab5.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1_tab5.TabIndex = 425
@@ -2845,7 +2781,7 @@ Partial Class frmiLJudgment
         Me.Panel5.Controls.Add(Me.rdoParallel_tab5)
         Me.Panel5.Controls.Add(Me.rdoEachpoint_tab5)
         Me.Panel5.Location = New System.Drawing.Point(159, 222)
-        Me.Panel5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(236, 28)
         Me.Panel5.TabIndex = 459
@@ -2854,7 +2790,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoParallel_tab5.AutoSize = True
         Me.rdoParallel_tab5.Location = New System.Drawing.Point(140, 2)
-        Me.rdoParallel_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoParallel_tab5.Name = "rdoParallel_tab5"
         Me.rdoParallel_tab5.Size = New System.Drawing.Size(100, 22)
         Me.rdoParallel_tab5.TabIndex = 424
@@ -2866,7 +2802,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoEachpoint_tab5.AutoSize = True
         Me.rdoEachpoint_tab5.Location = New System.Drawing.Point(2, 2)
-        Me.rdoEachpoint_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoEachpoint_tab5.Name = "rdoEachpoint_tab5"
         Me.rdoEachpoint_tab5.Size = New System.Drawing.Size(134, 22)
         Me.rdoEachpoint_tab5.TabIndex = 423
@@ -2890,7 +2826,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIPermis_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIPermis_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIPermis_tab5.Location = New System.Drawing.Point(190, 184)
-        Me.txtdLdIPermis_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermis_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIPermis_tab5.Name = "txtdLdIPermis_tab5"
         Me.txtdLdIPermis_tab5.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIPermis_tab5.TabIndex = 457
@@ -2911,7 +2847,7 @@ Partial Class frmiLJudgment
         Me.txtdLdISmoot_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdISmoot_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdISmoot_tab5.Location = New System.Drawing.Point(190, 151)
-        Me.txtdLdISmoot_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdISmoot_tab5.Name = "txtdLdISmoot_tab5"
         Me.txtdLdISmoot_tab5.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdISmoot_tab5.TabIndex = 455
@@ -2932,7 +2868,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIStep_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIStep_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIStep_tab5.Location = New System.Drawing.Point(190, 119)
-        Me.txtdLdIStep_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIStep_tab5.Name = "txtdLdIStep_tab5"
         Me.txtdLdIStep_tab5.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIStep_tab5.TabIndex = 453
@@ -2966,7 +2902,7 @@ Partial Class frmiLJudgment
         Me.cboSelect_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect_tab5.FormattingEnabled = True
         Me.cboSelect_tab5.Location = New System.Drawing.Point(147, 41)
-        Me.cboSelect_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect_tab5.Name = "cboSelect_tab5"
         Me.cboSelect_tab5.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect_tab5.TabIndex = 450
@@ -2984,7 +2920,6 @@ Partial Class frmiLJudgment
         '
         'ILJudg_tab6
         '
-        Me.ILJudg_tab6.Controls.Add(Me.btnOKILjudge6)
         Me.ILJudg_tab6.Controls.Add(Me.GroupBox11)
         Me.ILJudg_tab6.Controls.Add(Me.GroupBox12)
         Me.ILJudg_tab6.Controls.Add(Me.Panel6)
@@ -3000,24 +2935,13 @@ Partial Class frmiLJudgment
         Me.ILJudg_tab6.Controls.Add(Me.Label90)
         Me.ILJudg_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ILJudg_tab6.Location = New System.Drawing.Point(4, 26)
-        Me.ILJudg_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.ILJudg_tab6.Name = "ILJudg_tab6"
-        Me.ILJudg_tab6.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.ILJudg_tab6.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab6.Padding = New System.Windows.Forms.Padding(2)
+        Me.ILJudg_tab6.Size = New System.Drawing.Size(742, 502)
         Me.ILJudg_tab6.TabIndex = 5
         Me.ILJudg_tab6.Text = "IL Judge6"
         Me.ILJudg_tab6.UseVisualStyleBackColor = True
-        '
-        'btnOKILjudge6
-        '
-        Me.btnOKILjudge6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnOKILjudge6.Location = New System.Drawing.Point(750, 476)
-        Me.btnOKILjudge6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.btnOKILjudge6.Name = "btnOKILjudge6"
-        Me.btnOKILjudge6.Size = New System.Drawing.Size(77, 30)
-        Me.btnOKILjudge6.TabIndex = 465
-        Me.btnOKILjudge6.Text = "OK"
-        Me.btnOKILjudge6.UseVisualStyleBackColor = True
         '
         'GroupBox11
         '
@@ -3026,9 +2950,9 @@ Partial Class frmiLJudgment
         Me.GroupBox11.Controls.Add(Me.Label76)
         Me.GroupBox11.Controls.Add(Me.txtNumpoint_tab6)
         Me.GroupBox11.Location = New System.Drawing.Point(58, 425)
-        Me.GroupBox11.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox11.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox11.Name = "GroupBox11"
-        Me.GroupBox11.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox11.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox11.Size = New System.Drawing.Size(433, 74)
         Me.GroupBox11.TabIndex = 461
         Me.GroupBox11.TabStop = False
@@ -3038,7 +2962,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoSec_tab6.AutoSize = True
         Me.rdoSec_tab6.Location = New System.Drawing.Point(112, 32)
-        Me.rdoSec_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoSec_tab6.Name = "rdoSec_tab6"
         Me.rdoSec_tab6.Size = New System.Drawing.Size(97, 22)
         Me.rdoSec_tab6.TabIndex = 425
@@ -3050,7 +2974,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoPrimary_tab6.AutoSize = True
         Me.rdoPrimary_tab6.Location = New System.Drawing.Point(27, 32)
-        Me.rdoPrimary_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoPrimary_tab6.Name = "rdoPrimary_tab6"
         Me.rdoPrimary_tab6.Size = New System.Drawing.Size(77, 22)
         Me.rdoPrimary_tab6.TabIndex = 425
@@ -3074,7 +2998,7 @@ Partial Class frmiLJudgment
         Me.txtNumpoint_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNumpoint_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNumpoint_tab6.Location = New System.Drawing.Point(350, 32)
-        Me.txtNumpoint_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtNumpoint_tab6.Name = "txtNumpoint_tab6"
         Me.txtNumpoint_tab6.Size = New System.Drawing.Size(60, 24)
         Me.txtNumpoint_tab6.TabIndex = 422
@@ -3106,9 +3030,9 @@ Partial Class frmiLJudgment
         Me.GroupBox12.Controls.Add(Me.Label83)
         Me.GroupBox12.Controls.Add(Me.Label84)
         Me.GroupBox12.Location = New System.Drawing.Point(58, 277)
-        Me.GroupBox12.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox12.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox12.Name = "GroupBox12"
-        Me.GroupBox12.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox12.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox12.Size = New System.Drawing.Size(632, 143)
         Me.GroupBox12.TabIndex = 460
         Me.GroupBox12.TabStop = False
@@ -3141,7 +3065,7 @@ Partial Class frmiLJudgment
         Me.txtOption3End_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3End_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3End_tab6.Location = New System.Drawing.Point(365, 107)
-        Me.txtOption3End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3End_tab6.Name = "txtOption3End_tab6"
         Me.txtOption3End_tab6.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3End_tab6.TabIndex = 445
@@ -3151,7 +3075,7 @@ Partial Class frmiLJudgment
         Me.txtOption2End_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2End_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2End_tab6.Location = New System.Drawing.Point(365, 74)
-        Me.txtOption2End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2End_tab6.Name = "txtOption2End_tab6"
         Me.txtOption2End_tab6.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2End_tab6.TabIndex = 444
@@ -3160,7 +3084,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3End_tab6.AutoSize = True
         Me.rdoOprion3End_tab6.Location = New System.Drawing.Point(350, 111)
-        Me.rdoOprion3End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3End_tab6.Name = "rdoOprion3End_tab6"
         Me.rdoOprion3End_tab6.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3End_tab6.TabIndex = 443
@@ -3171,7 +3095,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2End_tab6.AutoSize = True
         Me.rdoOprion2End_tab6.Location = New System.Drawing.Point(350, 78)
-        Me.rdoOprion2End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2End_tab6.Name = "rdoOprion2End_tab6"
         Me.rdoOprion2End_tab6.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2End_tab6.TabIndex = 442
@@ -3194,7 +3118,7 @@ Partial Class frmiLJudgment
         Me.txtOption1End_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1End_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1End_tab6.Location = New System.Drawing.Point(483, 41)
-        Me.txtOption1End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1End_tab6.Name = "txtOption1End_tab6"
         Me.txtOption1End_tab6.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1End_tab6.TabIndex = 438
@@ -3204,7 +3128,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_2_tab6.FormattingEnabled = True
         Me.cboOption1End_2_tab6.Location = New System.Drawing.Point(440, 41)
-        Me.cboOption1End_2_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_2_tab6.Name = "cboOption1End_2_tab6"
         Me.cboOption1End_2_tab6.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1End_2_tab6.TabIndex = 440
@@ -3214,7 +3138,7 @@ Partial Class frmiLJudgment
         Me.cboOption1End_1_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1End_1_tab6.FormattingEnabled = True
         Me.cboOption1End_1_tab6.Location = New System.Drawing.Point(365, 41)
-        Me.cboOption1End_1_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1End_1_tab6.Name = "cboOption1End_1_tab6"
         Me.cboOption1End_1_tab6.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1End_1_tab6.TabIndex = 439
@@ -3223,7 +3147,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1End_tab6.AutoSize = True
         Me.rdoOprion1End_tab6.Location = New System.Drawing.Point(350, 46)
-        Me.rdoOprion1End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1End_tab6.Name = "rdoOprion1End_tab6"
         Me.rdoOprion1End_tab6.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1End_tab6.TabIndex = 437
@@ -3257,7 +3181,7 @@ Partial Class frmiLJudgment
         Me.txtOption3_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption3_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption3_tab6.Location = New System.Drawing.Point(128, 106)
-        Me.txtOption3_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption3_tab6.Name = "txtOption3_tab6"
         Me.txtOption3_tab6.Size = New System.Drawing.Size(178, 24)
         Me.txtOption3_tab6.TabIndex = 434
@@ -3267,7 +3191,7 @@ Partial Class frmiLJudgment
         Me.txtOption2_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption2_tab6.Location = New System.Drawing.Point(128, 73)
-        Me.txtOption2_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption2_tab6.Name = "txtOption2_tab6"
         Me.txtOption2_tab6.Size = New System.Drawing.Size(178, 24)
         Me.txtOption2_tab6.TabIndex = 433
@@ -3276,7 +3200,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion3_tab6.AutoSize = True
         Me.rdoOprion3_tab6.Location = New System.Drawing.Point(112, 110)
-        Me.rdoOprion3_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion3_tab6.Name = "rdoOprion3_tab6"
         Me.rdoOprion3_tab6.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion3_tab6.TabIndex = 432
@@ -3287,7 +3211,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion2_tab6.AutoSize = True
         Me.rdoOprion2_tab6.Location = New System.Drawing.Point(112, 77)
-        Me.rdoOprion2_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion2_tab6.Name = "rdoOprion2_tab6"
         Me.rdoOprion2_tab6.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion2_tab6.TabIndex = 431
@@ -3310,7 +3234,7 @@ Partial Class frmiLJudgment
         Me.txtOption1_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOption1_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOption1_tab6.Location = New System.Drawing.Point(245, 41)
-        Me.txtOption1_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtOption1_tab6.Name = "txtOption1_tab6"
         Me.txtOption1_tab6.Size = New System.Drawing.Size(60, 24)
         Me.txtOption1_tab6.TabIndex = 427
@@ -3320,7 +3244,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_2_tab6.FormattingEnabled = True
         Me.cboOption1_2_tab6.Location = New System.Drawing.Point(202, 40)
-        Me.cboOption1_2_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_2_tab6.Name = "cboOption1_2_tab6"
         Me.cboOption1_2_tab6.Size = New System.Drawing.Size(39, 25)
         Me.cboOption1_2_tab6.TabIndex = 429
@@ -3330,7 +3254,7 @@ Partial Class frmiLJudgment
         Me.cboOption1_1_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOption1_1_tab6.FormattingEnabled = True
         Me.cboOption1_1_tab6.Location = New System.Drawing.Point(128, 40)
-        Me.cboOption1_1_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboOption1_1_tab6.Name = "cboOption1_1_tab6"
         Me.cboOption1_1_tab6.Size = New System.Drawing.Size(68, 25)
         Me.cboOption1_1_tab6.TabIndex = 427
@@ -3339,7 +3263,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoOprion1_tab6.AutoSize = True
         Me.rdoOprion1_tab6.Location = New System.Drawing.Point(112, 45)
-        Me.rdoOprion1_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoOprion1_tab6.Name = "rdoOprion1_tab6"
         Me.rdoOprion1_tab6.Size = New System.Drawing.Size(14, 13)
         Me.rdoOprion1_tab6.TabIndex = 425
@@ -3373,7 +3297,7 @@ Partial Class frmiLJudgment
         Me.Panel6.Controls.Add(Me.rdoParallel_tab6)
         Me.Panel6.Controls.Add(Me.rdoEachpoint_tab6)
         Me.Panel6.Location = New System.Drawing.Point(159, 222)
-        Me.Panel6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(236, 28)
         Me.Panel6.TabIndex = 459
@@ -3382,7 +3306,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoParallel_tab6.AutoSize = True
         Me.rdoParallel_tab6.Location = New System.Drawing.Point(140, 2)
-        Me.rdoParallel_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoParallel_tab6.Name = "rdoParallel_tab6"
         Me.rdoParallel_tab6.Size = New System.Drawing.Size(100, 22)
         Me.rdoParallel_tab6.TabIndex = 424
@@ -3394,7 +3318,7 @@ Partial Class frmiLJudgment
         '
         Me.rdoEachpoint_tab6.AutoSize = True
         Me.rdoEachpoint_tab6.Location = New System.Drawing.Point(2, 2)
-        Me.rdoEachpoint_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.rdoEachpoint_tab6.Name = "rdoEachpoint_tab6"
         Me.rdoEachpoint_tab6.Size = New System.Drawing.Size(134, 22)
         Me.rdoEachpoint_tab6.TabIndex = 423
@@ -3418,7 +3342,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIPermis_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIPermis_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIPermis_tab6.Location = New System.Drawing.Point(190, 184)
-        Me.txtdLdIPermis_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermis_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIPermis_tab6.Name = "txtdLdIPermis_tab6"
         Me.txtdLdIPermis_tab6.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIPermis_tab6.TabIndex = 457
@@ -3439,7 +3363,7 @@ Partial Class frmiLJudgment
         Me.txtdLdISmoot_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdISmoot_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdISmoot_tab6.Location = New System.Drawing.Point(190, 151)
-        Me.txtdLdISmoot_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdISmoot_tab6.Name = "txtdLdISmoot_tab6"
         Me.txtdLdISmoot_tab6.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdISmoot_tab6.TabIndex = 455
@@ -3460,7 +3384,7 @@ Partial Class frmiLJudgment
         Me.txtdLdIStep_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtdLdIStep_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtdLdIStep_tab6.Location = New System.Drawing.Point(190, 119)
-        Me.txtdLdIStep_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtdLdIStep_tab6.Name = "txtdLdIStep_tab6"
         Me.txtdLdIStep_tab6.Size = New System.Drawing.Size(60, 24)
         Me.txtdLdIStep_tab6.TabIndex = 453
@@ -3494,7 +3418,7 @@ Partial Class frmiLJudgment
         Me.cboSelect_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect_tab6.FormattingEnabled = True
         Me.cboSelect_tab6.Location = New System.Drawing.Point(147, 41)
-        Me.cboSelect_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect_tab6.Name = "cboSelect_tab6"
         Me.cboSelect_tab6.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect_tab6.TabIndex = 450
@@ -3510,14 +3434,38 @@ Partial Class frmiLJudgment
         Me.Label90.TabIndex = 449
         Me.Label90.Text = "Select"
         '
+        'btnCancleILm
+        '
+        Me.btnCancleILm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancleILm.Location = New System.Drawing.Point(623, 532)
+        Me.btnCancleILm.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnCancleILm.Name = "btnCancleILm"
+        Me.btnCancleILm.Size = New System.Drawing.Size(77, 30)
+        Me.btnCancleILm.TabIndex = 470
+        Me.btnCancleILm.Text = "Cancle"
+        Me.btnCancleILm.UseVisualStyleBackColor = True
+        '
+        'btnSaveILm
+        '
+        Me.btnSaveILm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSaveILm.Location = New System.Drawing.Point(531, 532)
+        Me.btnSaveILm.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnSaveILm.Name = "btnSaveILm"
+        Me.btnSaveILm.Size = New System.Drawing.Size(77, 30)
+        Me.btnSaveILm.TabIndex = 469
+        Me.btnSaveILm.Text = "Save"
+        Me.btnSaveILm.UseVisualStyleBackColor = True
+        '
         'frmiLJudgment
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(908, 569)
+        Me.ClientSize = New System.Drawing.Size(750, 569)
+        Me.Controls.Add(Me.btnCancleILm)
+        Me.Controls.Add(Me.btnSaveILm)
         Me.Controls.Add(Me.txtFBGlockingTimemin_Page4)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmiLJudgment"
         Me.Text = "Form1"
         Me.txtFBGlockingTimemin_Page4.ResumeLayout(False)
@@ -3837,10 +3785,6 @@ Partial Class frmiLJudgment
     Friend WithEvents Label89 As Label
     Friend WithEvents cboSelect_tab6 As ComboBox
     Friend WithEvents Label90 As Label
-    Friend WithEvents btnOKILjudge1 As Button
-    Friend WithEvents btnOKILjudge2 As Button
-    Friend WithEvents btnOKILjudg3 As Button
-    Friend WithEvents btnOKILjudg4 As Button
-    Friend WithEvents btnOKILjudge5 As Button
-    Friend WithEvents btnOKILjudge6 As Button
+    Friend WithEvents btnCancleILm As Button
+    Friend WithEvents btnSaveILm As Button
 End Class
