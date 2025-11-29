@@ -1,0 +1,52 @@
+{
+  "GPIB": {
+    "LDT_5910C_TempControlLD": 0.0,
+    "AQ6370D_OpticSpectAnalyz": 390.0,
+    "OVA_100_OpticAttenua": 0.5,
+    "AQ2211_OpticSwitch": 0.1,
+    "DSO_X_4154GOsciloscope": 25.0,
+    "SYSTEMAT_845TempControlBase": 35.0,
+    "Key34416A_Digitlmultimeter": 35.0
+  },
+  "Power": {
+    "Laser_comport": 1.0,
+    "Delaytime": 10.0,
+    "Average": 10.0
+  },
+  "Folders": {
+    "ParamsFolder": "C:\\Users\\Tanaw\\Downloads",
+    "DataFolder": "C:\\Users\\Tanaw\\Downloads"
+  },
+  "Cable": {
+    "Rprobe": 0.0,
+    "Rtec": 0.0
+  },
+  "TEC": {
+    "Case_WaitFactor": 0.0,
+    "Case_WaitBase": 5.0,
+    "Case_Error": 0.5,
+    "LD_WaitFactor": 0.0,
+    "LD_WaitBase": 5.0,
+    "LD_Error": 0.5,
+    "Det_WaitFactor": 0.0,
+    "Det_WaitBase": 5.0,
+    "Det_Error": 0.5,
+    "Det_SetTemp": 25.0,
+    "Timeout": 150.0,
+    "GainValue": 100
+  },
+  "CCS": {
+    "MaxAvgCurrent": 1500.0,
+    "MaximumCWCurrent": 1500.0,
+    "MaxpeakCurrent": 4000.0,
+    "Lasermode": "APC",
+    "duration": "int",
+    "BFMgain": 4000.0,
+    "BFMconvers": 1.0,
+    "Comport": "COM1",
+    "Baudrate": 9600.0
+  },
+  "General": {
+    "DelayTimeOffset": 150.0
+  }
+}

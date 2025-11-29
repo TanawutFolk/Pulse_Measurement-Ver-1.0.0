@@ -1,0 +1,3846 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class frmiLJudgment
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Me.txtFBGlockingTimemin_Page4 = New System.Windows.Forms.TabControl()
+        Me.ILJudg_tab1 = New System.Windows.Forms.TabPage()
+        Me.btnOKILjudge1 = New System.Windows.Forms.Button()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.rdoSec_tab1 = New System.Windows.Forms.RadioButton()
+        Me.rdoPrimary_tab1 = New System.Windows.Forms.RadioButton()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtNumpoint_tab1 = New System.Windows.Forms.TextBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.txtOption3End_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtOption2End_tab1 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3End_tab1 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2End_tab1 = New System.Windows.Forms.RadioButton()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.txtOption1End_tab1 = New System.Windows.Forms.TextBox()
+        Me.cboOption1End_2_tab1 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1End_1_tab1 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1End_tab1 = New System.Windows.Forms.RadioButton()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.txtOption3_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtOption2_tab1 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3_tab1 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2_tab1 = New System.Windows.Forms.RadioButton()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.txtOption1_tab1 = New System.Windows.Forms.TextBox()
+        Me.cboOption1_2_tab1 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1_1_tab1 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1_tab1 = New System.Windows.Forms.RadioButton()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.rdoParallel_tab1 = New System.Windows.Forms.RadioButton()
+        Me.rdoEachpoint_tab1 = New System.Windows.Forms.RadioButton()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txtdLdIPermis_tab1 = New System.Windows.Forms.TextBox()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.txtdLdISmoot_tab1 = New System.Windows.Forms.TextBox()
+        Me.Label51 = New System.Windows.Forms.Label()
+        Me.txtdLdIStep_tab1 = New System.Windows.Forms.TextBox()
+        Me.Label53 = New System.Windows.Forms.Label()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.cboSelect_tab1 = New System.Windows.Forms.ComboBox()
+        Me.Label55 = New System.Windows.Forms.Label()
+        Me.ILJudg_tab2 = New System.Windows.Forms.TabPage()
+        Me.btnOKILjudge2 = New System.Windows.Forms.Button()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.rdoSec_tab2 = New System.Windows.Forms.RadioButton()
+        Me.rdoPrimary_tab2 = New System.Windows.Forms.RadioButton()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtNumpoint_tab2 = New System.Windows.Forms.TextBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.txtOption3End_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtOption2End_tab2 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3End_tab2 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2End_tab2 = New System.Windows.Forms.RadioButton()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.txtOption1End_tab2 = New System.Windows.Forms.TextBox()
+        Me.cboOption1End_2_tab2 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1End_1_tab2 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1End_tab2 = New System.Windows.Forms.RadioButton()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.txtOption3_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtOption2_tab2 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3_tab2 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2_tab2 = New System.Windows.Forms.RadioButton()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.txtOption1_tab2 = New System.Windows.Forms.TextBox()
+        Me.cboOption1_2_tab2 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1_1_tab2 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1_tab2 = New System.Windows.Forms.RadioButton()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.rdoParallel_tab2 = New System.Windows.Forms.RadioButton()
+        Me.rdoEachpoint_tab2 = New System.Windows.Forms.RadioButton()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.txtdLdIPermis_tab2 = New System.Windows.Forms.TextBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.txtdLdISmoot_tab2 = New System.Windows.Forms.TextBox()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.txtdLdIStep_tab2 = New System.Windows.Forms.TextBox()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.cboSelect_tab2 = New System.Windows.Forms.ComboBox()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.ILJudg_tab3 = New System.Windows.Forms.TabPage()
+        Me.btnOKILjudg3 = New System.Windows.Forms.Button()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.rdoSec_tab3 = New System.Windows.Forms.RadioButton()
+        Me.rdoPrimary_tab3 = New System.Windows.Forms.RadioButton()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.txtNumpoint_tab3 = New System.Windows.Forms.TextBox()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.txtOption3End_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtOption2End_tab3 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3End_tab3 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2End_tab3 = New System.Windows.Forms.RadioButton()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.txtOption1End_tab3 = New System.Windows.Forms.TextBox()
+        Me.cboOption1End_2_tab3 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1End_1_tab3 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1End_tab3 = New System.Windows.Forms.RadioButton()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.txtOption3_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtOption2_tab3 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3_tab3 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2_tab3 = New System.Windows.Forms.RadioButton()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.txtOption1_tab3 = New System.Windows.Forms.TextBox()
+        Me.cboOption1_2_tab3 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1_1_tab3 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1_tab3 = New System.Windows.Forms.RadioButton()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.rdoParallel_tab3 = New System.Windows.Forms.RadioButton()
+        Me.rdoEachpoint_tab3 = New System.Windows.Forms.RadioButton()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.txtdLdIPermis_tab3 = New System.Windows.Forms.TextBox()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.txtdLdISmoot_tab3 = New System.Windows.Forms.TextBox()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.txtdLdIStep_tab3 = New System.Windows.Forms.TextBox()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.cboSelect_tab3 = New System.Windows.Forms.ComboBox()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.ILJudg_tab4 = New System.Windows.Forms.TabPage()
+        Me.btnOKILjudg4 = New System.Windows.Forms.Button()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.rdoSec_tab4 = New System.Windows.Forms.RadioButton()
+        Me.rdoPrimary_tab4 = New System.Windows.Forms.RadioButton()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.txtNumpoint_tab4 = New System.Windows.Forms.TextBox()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.txtOption3End_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtOption2End_tab4 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3End_tab4 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2End_tab4 = New System.Windows.Forms.RadioButton()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.txtOption1End_tab4 = New System.Windows.Forms.TextBox()
+        Me.cboOption1End_2_tab4 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1End_1_tab4 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1End_tab4 = New System.Windows.Forms.RadioButton()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.txtOption3_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtOption2_tab4 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3_tab4 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2_tab4 = New System.Windows.Forms.RadioButton()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.txtOption1_tab4 = New System.Windows.Forms.TextBox()
+        Me.cboOption1_2_tab4 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1_1_tab4 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1_tab4 = New System.Windows.Forms.RadioButton()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.Label49 = New System.Windows.Forms.Label()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.rdoParallel_tab4 = New System.Windows.Forms.RadioButton()
+        Me.rdoEachpoint_tab4 = New System.Windows.Forms.RadioButton()
+        Me.Label52 = New System.Windows.Forms.Label()
+        Me.txtdLdIPermisrate_tab4 = New System.Windows.Forms.TextBox()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.txtdLdISmoot_tab4 = New System.Windows.Forms.TextBox()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.txtdLdIStep_tab4 = New System.Windows.Forms.TextBox()
+        Me.Label58 = New System.Windows.Forms.Label()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.cboSelect_tab4 = New System.Windows.Forms.ComboBox()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.ILJudg_tab5 = New System.Windows.Forms.TabPage()
+        Me.btnOKILjudge5 = New System.Windows.Forms.Button()
+        Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.rdoSec_tab5 = New System.Windows.Forms.RadioButton()
+        Me.rdoPrimary_tab5 = New System.Windows.Forms.RadioButton()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.txtNumpoint_tab5 = New System.Windows.Forms.TextBox()
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.txtOption3End_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtOption2End_tab5 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3End_tab5 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2End_tab5 = New System.Windows.Forms.RadioButton()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.txtOption1End_tab5 = New System.Windows.Forms.TextBox()
+        Me.cboOption1End_2_tab5 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1End_1_tab5 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1End_tab5 = New System.Windows.Forms.RadioButton()
+        Me.Label65 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
+        Me.txtOption3_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtOption2_tab5 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3_tab5 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2_tab5 = New System.Windows.Forms.RadioButton()
+        Me.Label67 = New System.Windows.Forms.Label()
+        Me.txtOption1_tab5 = New System.Windows.Forms.TextBox()
+        Me.cboOption1_2_tab5 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1_1_tab5 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1_tab5 = New System.Windows.Forms.RadioButton()
+        Me.Label68 = New System.Windows.Forms.Label()
+        Me.Label69 = New System.Windows.Forms.Label()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.rdoParallel_tab5 = New System.Windows.Forms.RadioButton()
+        Me.rdoEachpoint_tab5 = New System.Windows.Forms.RadioButton()
+        Me.Label70 = New System.Windows.Forms.Label()
+        Me.txtdLdIPermis_tab5 = New System.Windows.Forms.TextBox()
+        Me.Label71 = New System.Windows.Forms.Label()
+        Me.txtdLdISmoot_tab5 = New System.Windows.Forms.TextBox()
+        Me.Label72 = New System.Windows.Forms.Label()
+        Me.txtdLdIStep_tab5 = New System.Windows.Forms.TextBox()
+        Me.Label73 = New System.Windows.Forms.Label()
+        Me.Label74 = New System.Windows.Forms.Label()
+        Me.cboSelect_tab5 = New System.Windows.Forms.ComboBox()
+        Me.Label75 = New System.Windows.Forms.Label()
+        Me.ILJudg_tab6 = New System.Windows.Forms.TabPage()
+        Me.btnOKILjudge6 = New System.Windows.Forms.Button()
+        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.rdoSec_tab6 = New System.Windows.Forms.RadioButton()
+        Me.rdoPrimary_tab6 = New System.Windows.Forms.RadioButton()
+        Me.Label76 = New System.Windows.Forms.Label()
+        Me.txtNumpoint_tab6 = New System.Windows.Forms.TextBox()
+        Me.GroupBox12 = New System.Windows.Forms.GroupBox()
+        Me.Label77 = New System.Windows.Forms.Label()
+        Me.Label78 = New System.Windows.Forms.Label()
+        Me.txtOption3End_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtOption2End_tab6 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3End_tab6 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2End_tab6 = New System.Windows.Forms.RadioButton()
+        Me.Label79 = New System.Windows.Forms.Label()
+        Me.txtOption1End_tab6 = New System.Windows.Forms.TextBox()
+        Me.cboOption1End_2_tab6 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1End_1_tab6 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1End_tab6 = New System.Windows.Forms.RadioButton()
+        Me.Label80 = New System.Windows.Forms.Label()
+        Me.Label81 = New System.Windows.Forms.Label()
+        Me.txtOption3_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtOption2_tab6 = New System.Windows.Forms.TextBox()
+        Me.rdoOprion3_tab6 = New System.Windows.Forms.RadioButton()
+        Me.rdoOprion2_tab6 = New System.Windows.Forms.RadioButton()
+        Me.Label82 = New System.Windows.Forms.Label()
+        Me.txtOption1_tab6 = New System.Windows.Forms.TextBox()
+        Me.cboOption1_2_tab6 = New System.Windows.Forms.ComboBox()
+        Me.cboOption1_1_tab6 = New System.Windows.Forms.ComboBox()
+        Me.rdoOprion1_tab6 = New System.Windows.Forms.RadioButton()
+        Me.Label83 = New System.Windows.Forms.Label()
+        Me.Label84 = New System.Windows.Forms.Label()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.rdoParallel_tab6 = New System.Windows.Forms.RadioButton()
+        Me.rdoEachpoint_tab6 = New System.Windows.Forms.RadioButton()
+        Me.Label85 = New System.Windows.Forms.Label()
+        Me.txtdLdIPermis_tab6 = New System.Windows.Forms.TextBox()
+        Me.Label86 = New System.Windows.Forms.Label()
+        Me.txtdLdISmoot_tab6 = New System.Windows.Forms.TextBox()
+        Me.Label87 = New System.Windows.Forms.Label()
+        Me.txtdLdIStep_tab6 = New System.Windows.Forms.TextBox()
+        Me.Label88 = New System.Windows.Forms.Label()
+        Me.Label89 = New System.Windows.Forms.Label()
+        Me.cboSelect_tab6 = New System.Windows.Forms.ComboBox()
+        Me.Label90 = New System.Windows.Forms.Label()
+        Me.txtFBGlockingTimemin_Page4.SuspendLayout()
+        Me.ILJudg_tab1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.ILJudg_tab2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.ILJudg_tab3.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
+        Me.Panel3.SuspendLayout()
+        Me.ILJudg_tab4.SuspendLayout()
+        Me.GroupBox7.SuspendLayout()
+        Me.GroupBox8.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        Me.ILJudg_tab5.SuspendLayout()
+        Me.GroupBox9.SuspendLayout()
+        Me.GroupBox10.SuspendLayout()
+        Me.Panel5.SuspendLayout()
+        Me.ILJudg_tab6.SuspendLayout()
+        Me.GroupBox11.SuspendLayout()
+        Me.GroupBox12.SuspendLayout()
+        Me.Panel6.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'txtFBGlockingTimemin_Page4
+        '
+        Me.txtFBGlockingTimemin_Page4.Controls.Add(Me.ILJudg_tab1)
+        Me.txtFBGlockingTimemin_Page4.Controls.Add(Me.ILJudg_tab2)
+        Me.txtFBGlockingTimemin_Page4.Controls.Add(Me.ILJudg_tab3)
+        Me.txtFBGlockingTimemin_Page4.Controls.Add(Me.ILJudg_tab4)
+        Me.txtFBGlockingTimemin_Page4.Controls.Add(Me.ILJudg_tab5)
+        Me.txtFBGlockingTimemin_Page4.Controls.Add(Me.ILJudg_tab6)
+        Me.txtFBGlockingTimemin_Page4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.txtFBGlockingTimemin_Page4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFBGlockingTimemin_Page4.Location = New System.Drawing.Point(0, 0)
+        Me.txtFBGlockingTimemin_Page4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFBGlockingTimemin_Page4.Name = "txtFBGlockingTimemin_Page4"
+        Me.txtFBGlockingTimemin_Page4.Padding = New System.Drawing.Point(14, 3)
+        Me.txtFBGlockingTimemin_Page4.SelectedIndex = 0
+        Me.txtFBGlockingTimemin_Page4.Size = New System.Drawing.Size(908, 569)
+        Me.txtFBGlockingTimemin_Page4.TabIndex = 3
+        '
+        'ILJudg_tab1
+        '
+        Me.ILJudg_tab1.Controls.Add(Me.btnOKILjudge1)
+        Me.ILJudg_tab1.Controls.Add(Me.GroupBox2)
+        Me.ILJudg_tab1.Controls.Add(Me.GroupBox1)
+        Me.ILJudg_tab1.Controls.Add(Me.Panel1)
+        Me.ILJudg_tab1.Controls.Add(Me.Label1)
+        Me.ILJudg_tab1.Controls.Add(Me.txtdLdIPermis_tab1)
+        Me.ILJudg_tab1.Controls.Add(Me.Label50)
+        Me.ILJudg_tab1.Controls.Add(Me.txtdLdISmoot_tab1)
+        Me.ILJudg_tab1.Controls.Add(Me.Label51)
+        Me.ILJudg_tab1.Controls.Add(Me.txtdLdIStep_tab1)
+        Me.ILJudg_tab1.Controls.Add(Me.Label53)
+        Me.ILJudg_tab1.Controls.Add(Me.Label54)
+        Me.ILJudg_tab1.Controls.Add(Me.cboSelect_tab1)
+        Me.ILJudg_tab1.Controls.Add(Me.Label55)
+        Me.ILJudg_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ILJudg_tab1.Location = New System.Drawing.Point(4, 26)
+        Me.ILJudg_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab1.Name = "ILJudg_tab1"
+        Me.ILJudg_tab1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab1.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab1.TabIndex = 0
+        Me.ILJudg_tab1.Text = "IL Judge1"
+        Me.ILJudg_tab1.UseVisualStyleBackColor = True
+        '
+        'btnOKILjudge1
+        '
+        Me.btnOKILjudge1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnOKILjudge1.Location = New System.Drawing.Point(750, 476)
+        Me.btnOKILjudge1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnOKILjudge1.Name = "btnOKILjudge1"
+        Me.btnOKILjudge1.Size = New System.Drawing.Size(77, 30)
+        Me.btnOKILjudge1.TabIndex = 462
+        Me.btnOKILjudge1.Text = "OK"
+        Me.btnOKILjudge1.UseVisualStyleBackColor = True
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.rdoSec_tab1)
+        Me.GroupBox2.Controls.Add(Me.rdoPrimary_tab1)
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Controls.Add(Me.txtNumpoint_tab1)
+        Me.GroupBox2.Location = New System.Drawing.Point(58, 425)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Size = New System.Drawing.Size(433, 74)
+        Me.GroupBox2.TabIndex = 461
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Least-squares method"
+        '
+        'rdoSec_tab1
+        '
+        Me.rdoSec_tab1.AutoSize = True
+        Me.rdoSec_tab1.Location = New System.Drawing.Point(112, 32)
+        Me.rdoSec_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab1.Name = "rdoSec_tab1"
+        Me.rdoSec_tab1.Size = New System.Drawing.Size(97, 22)
+        Me.rdoSec_tab1.TabIndex = 425
+        Me.rdoSec_tab1.TabStop = True
+        Me.rdoSec_tab1.Text = "Secondary"
+        Me.rdoSec_tab1.UseVisualStyleBackColor = True
+        '
+        'rdoPrimary_tab1
+        '
+        Me.rdoPrimary_tab1.AutoSize = True
+        Me.rdoPrimary_tab1.Location = New System.Drawing.Point(27, 32)
+        Me.rdoPrimary_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab1.Name = "rdoPrimary_tab1"
+        Me.rdoPrimary_tab1.Size = New System.Drawing.Size(77, 22)
+        Me.rdoPrimary_tab1.TabIndex = 425
+        Me.rdoPrimary_tab1.TabStop = True
+        Me.rdoPrimary_tab1.Text = "Primary"
+        Me.rdoPrimary_tab1.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(233, 33)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(114, 18)
+        Me.Label4.TabIndex = 421
+        Me.Label4.Text = "Number of point"
+        '
+        'txtNumpoint_tab1
+        '
+        Me.txtNumpoint_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtNumpoint_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumpoint_tab1.Location = New System.Drawing.Point(350, 32)
+        Me.txtNumpoint_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab1.Name = "txtNumpoint_tab1"
+        Me.txtNumpoint_tab1.Size = New System.Drawing.Size(60, 24)
+        Me.txtNumpoint_tab1.TabIndex = 422
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Label9)
+        Me.GroupBox1.Controls.Add(Me.Label10)
+        Me.GroupBox1.Controls.Add(Me.txtOption3End_tab1)
+        Me.GroupBox1.Controls.Add(Me.txtOption2End_tab1)
+        Me.GroupBox1.Controls.Add(Me.rdoOprion3End_tab1)
+        Me.GroupBox1.Controls.Add(Me.rdoOprion2End_tab1)
+        Me.GroupBox1.Controls.Add(Me.Label11)
+        Me.GroupBox1.Controls.Add(Me.txtOption1End_tab1)
+        Me.GroupBox1.Controls.Add(Me.cboOption1End_2_tab1)
+        Me.GroupBox1.Controls.Add(Me.cboOption1End_1_tab1)
+        Me.GroupBox1.Controls.Add(Me.rdoOprion1End_tab1)
+        Me.GroupBox1.Controls.Add(Me.Label8)
+        Me.GroupBox1.Controls.Add(Me.Label7)
+        Me.GroupBox1.Controls.Add(Me.txtOption3_tab1)
+        Me.GroupBox1.Controls.Add(Me.txtOption2_tab1)
+        Me.GroupBox1.Controls.Add(Me.rdoOprion3_tab1)
+        Me.GroupBox1.Controls.Add(Me.rdoOprion2_tab1)
+        Me.GroupBox1.Controls.Add(Me.Label6)
+        Me.GroupBox1.Controls.Add(Me.txtOption1_tab1)
+        Me.GroupBox1.Controls.Add(Me.cboOption1_2_tab1)
+        Me.GroupBox1.Controls.Add(Me.cboOption1_1_tab1)
+        Me.GroupBox1.Controls.Add(Me.rdoOprion1_tab1)
+        Me.GroupBox1.Controls.Add(Me.Label5)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Location = New System.Drawing.Point(58, 277)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(632, 143)
+        Me.GroupBox1.TabIndex = 460
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Judgment range "
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(548, 109)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(36, 18)
+        Me.Label9.TabIndex = 447
+        Me.Label9.Text = "mW"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(548, 78)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(30, 18)
+        Me.Label10.TabIndex = 446
+        Me.Label10.Text = "mA"
+        '
+        'txtOption3End_tab1
+        '
+        Me.txtOption3End_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3End_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3End_tab1.Location = New System.Drawing.Point(365, 107)
+        Me.txtOption3End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab1.Name = "txtOption3End_tab1"
+        Me.txtOption3End_tab1.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3End_tab1.TabIndex = 445
+        '
+        'txtOption2End_tab1
+        '
+        Me.txtOption2End_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2End_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2End_tab1.Location = New System.Drawing.Point(365, 74)
+        Me.txtOption2End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab1.Name = "txtOption2End_tab1"
+        Me.txtOption2End_tab1.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2End_tab1.TabIndex = 444
+        '
+        'rdoOprion3End_tab1
+        '
+        Me.rdoOprion3End_tab1.AutoSize = True
+        Me.rdoOprion3End_tab1.Location = New System.Drawing.Point(350, 111)
+        Me.rdoOprion3End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab1.Name = "rdoOprion3End_tab1"
+        Me.rdoOprion3End_tab1.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3End_tab1.TabIndex = 443
+        Me.rdoOprion3End_tab1.TabStop = True
+        Me.rdoOprion3End_tab1.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2End_tab1
+        '
+        Me.rdoOprion2End_tab1.AutoSize = True
+        Me.rdoOprion2End_tab1.Location = New System.Drawing.Point(350, 78)
+        Me.rdoOprion2End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab1.Name = "rdoOprion2End_tab1"
+        Me.rdoOprion2End_tab1.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2End_tab1.TabIndex = 442
+        Me.rdoOprion2End_tab1.TabStop = True
+        Me.rdoOprion2End_tab1.UseVisualStyleBackColor = True
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(548, 44)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(30, 18)
+        Me.Label11.TabIndex = 441
+        Me.Label11.Text = "mA"
+        '
+        'txtOption1End_tab1
+        '
+        Me.txtOption1End_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1End_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1End_tab1.Location = New System.Drawing.Point(483, 41)
+        Me.txtOption1End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab1.Name = "txtOption1End_tab1"
+        Me.txtOption1End_tab1.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1End_tab1.TabIndex = 438
+        '
+        'cboOption1End_2_tab1
+        '
+        Me.cboOption1End_2_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboOption1End_2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_2_tab1.FormattingEnabled = True
+        Me.cboOption1End_2_tab1.Location = New System.Drawing.Point(440, 41)
+        Me.cboOption1End_2_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab1.Name = "cboOption1End_2_tab1"
+        Me.cboOption1End_2_tab1.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1End_2_tab1.TabIndex = 440
+        '
+        'cboOption1End_1_tab1
+        '
+        Me.cboOption1End_1_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboOption1End_1_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_1_tab1.FormattingEnabled = True
+        Me.cboOption1End_1_tab1.Location = New System.Drawing.Point(365, 41)
+        Me.cboOption1End_1_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab1.Name = "cboOption1End_1_tab1"
+        Me.cboOption1End_1_tab1.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1End_1_tab1.TabIndex = 439
+        '
+        'rdoOprion1End_tab1
+        '
+        Me.rdoOprion1End_tab1.AutoSize = True
+        Me.rdoOprion1End_tab1.Location = New System.Drawing.Point(350, 46)
+        Me.rdoOprion1End_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab1.Name = "rdoOprion1End_tab1"
+        Me.rdoOprion1End_tab1.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1End_tab1.TabIndex = 437
+        Me.rdoOprion1End_tab1.TabStop = True
+        Me.rdoOprion1End_tab1.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(310, 108)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(36, 18)
+        Me.Label8.TabIndex = 436
+        Me.Label8.Text = "mW"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(310, 77)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(30, 18)
+        Me.Label7.TabIndex = 435
+        Me.Label7.Text = "mA"
+        '
+        'txtOption3_tab1
+        '
+        Me.txtOption3_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3_tab1.Location = New System.Drawing.Point(128, 106)
+        Me.txtOption3_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab1.Name = "txtOption3_tab1"
+        Me.txtOption3_tab1.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3_tab1.TabIndex = 434
+        '
+        'txtOption2_tab1
+        '
+        Me.txtOption2_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2_tab1.Location = New System.Drawing.Point(128, 73)
+        Me.txtOption2_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab1.Name = "txtOption2_tab1"
+        Me.txtOption2_tab1.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2_tab1.TabIndex = 433
+        '
+        'rdoOprion3_tab1
+        '
+        Me.rdoOprion3_tab1.AutoSize = True
+        Me.rdoOprion3_tab1.Location = New System.Drawing.Point(112, 110)
+        Me.rdoOprion3_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab1.Name = "rdoOprion3_tab1"
+        Me.rdoOprion3_tab1.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3_tab1.TabIndex = 432
+        Me.rdoOprion3_tab1.TabStop = True
+        Me.rdoOprion3_tab1.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2_tab1
+        '
+        Me.rdoOprion2_tab1.AutoSize = True
+        Me.rdoOprion2_tab1.Location = New System.Drawing.Point(112, 77)
+        Me.rdoOprion2_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab1.Name = "rdoOprion2_tab1"
+        Me.rdoOprion2_tab1.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2_tab1.TabIndex = 431
+        Me.rdoOprion2_tab1.TabStop = True
+        Me.rdoOprion2_tab1.UseVisualStyleBackColor = True
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(310, 43)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(30, 18)
+        Me.Label6.TabIndex = 430
+        Me.Label6.Text = "mA"
+        '
+        'txtOption1_tab1
+        '
+        Me.txtOption1_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1_tab1.Location = New System.Drawing.Point(245, 41)
+        Me.txtOption1_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab1.Name = "txtOption1_tab1"
+        Me.txtOption1_tab1.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1_tab1.TabIndex = 427
+        '
+        'cboOption1_2_tab1
+        '
+        Me.cboOption1_2_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboOption1_2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_2_tab1.FormattingEnabled = True
+        Me.cboOption1_2_tab1.Location = New System.Drawing.Point(202, 40)
+        Me.cboOption1_2_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab1.Name = "cboOption1_2_tab1"
+        Me.cboOption1_2_tab1.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1_2_tab1.TabIndex = 429
+        '
+        'cboOption1_1_tab1
+        '
+        Me.cboOption1_1_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboOption1_1_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_1_tab1.FormattingEnabled = True
+        Me.cboOption1_1_tab1.Location = New System.Drawing.Point(128, 40)
+        Me.cboOption1_1_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab1.Name = "cboOption1_1_tab1"
+        Me.cboOption1_1_tab1.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1_1_tab1.TabIndex = 427
+        '
+        'rdoOprion1_tab1
+        '
+        Me.rdoOprion1_tab1.AutoSize = True
+        Me.rdoOprion1_tab1.Location = New System.Drawing.Point(112, 45)
+        Me.rdoOprion1_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab1.Name = "rdoOprion1_tab1"
+        Me.rdoOprion1_tab1.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1_tab1.TabIndex = 425
+        Me.rdoOprion1_tab1.TabStop = True
+        Me.rdoOprion1_tab1.UseVisualStyleBackColor = True
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(432, 20)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(34, 18)
+        Me.Label5.TabIndex = 428
+        Me.Label5.Text = "End"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(185, 20)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 18)
+        Me.Label2.TabIndex = 427
+        Me.Label2.Text = "Start"
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.rdoParallel_tab1)
+        Me.Panel1.Controls.Add(Me.rdoEachpoint_tab1)
+        Me.Panel1.Location = New System.Drawing.Point(159, 222)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(236, 28)
+        Me.Panel1.TabIndex = 459
+        '
+        'rdoParallel_tab1
+        '
+        Me.rdoParallel_tab1.AutoSize = True
+        Me.rdoParallel_tab1.Location = New System.Drawing.Point(140, 2)
+        Me.rdoParallel_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab1.Name = "rdoParallel_tab1"
+        Me.rdoParallel_tab1.Size = New System.Drawing.Size(100, 22)
+        Me.rdoParallel_tab1.TabIndex = 424
+        Me.rdoParallel_tab1.TabStop = True
+        Me.rdoParallel_tab1.Text = "Parallel line"
+        Me.rdoParallel_tab1.UseVisualStyleBackColor = True
+        '
+        'rdoEachpoint_tab1
+        '
+        Me.rdoEachpoint_tab1.AutoSize = True
+        Me.rdoEachpoint_tab1.Location = New System.Drawing.Point(2, 2)
+        Me.rdoEachpoint_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab1.Name = "rdoEachpoint_tab1"
+        Me.rdoEachpoint_tab1.Size = New System.Drawing.Size(134, 22)
+        Me.rdoEachpoint_tab1.TabIndex = 423
+        Me.rdoEachpoint_tab1.TabStop = True
+        Me.rdoEachpoint_tab1.Text = "From each point"
+        Me.rdoEachpoint_tab1.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(56, 226)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(91, 18)
+        Me.Label1.TabIndex = 458
+        Me.Label1.Text = "Kink method"
+        '
+        'txtdLdIPermis_tab1
+        '
+        Me.txtdLdIPermis_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIPermis_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIPermis_tab1.Location = New System.Drawing.Point(190, 184)
+        Me.txtdLdIPermis_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermis_tab1.Name = "txtdLdIPermis_tab1"
+        Me.txtdLdIPermis_tab1.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIPermis_tab1.TabIndex = 457
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Location = New System.Drawing.Point(56, 185)
+        Me.Label50.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(146, 18)
+        Me.Label50.TabIndex = 456
+        Me.Label50.Text = "Permistion rate [%] ±"
+        '
+        'txtdLdISmoot_tab1
+        '
+        Me.txtdLdISmoot_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdISmoot_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdISmoot_tab1.Location = New System.Drawing.Point(190, 151)
+        Me.txtdLdISmoot_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab1.Name = "txtdLdISmoot_tab1"
+        Me.txtdLdISmoot_tab1.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdISmoot_tab1.TabIndex = 455
+        '
+        'Label51
+        '
+        Me.Label51.AutoSize = True
+        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label51.Location = New System.Drawing.Point(56, 150)
+        Me.Label51.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label51.Name = "Label51"
+        Me.Label51.Size = New System.Drawing.Size(100, 18)
+        Me.Label51.TabIndex = 454
+        Me.Label51.Text = "Smoothing[pt]"
+        '
+        'txtdLdIStep_tab1
+        '
+        Me.txtdLdIStep_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIStep_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIStep_tab1.Location = New System.Drawing.Point(190, 119)
+        Me.txtdLdIStep_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab1.Name = "txtdLdIStep_tab1"
+        Me.txtdLdIStep_tab1.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIStep_tab1.TabIndex = 453
+        '
+        'Label53
+        '
+        Me.Label53.AutoSize = True
+        Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label53.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label53.Location = New System.Drawing.Point(55, 91)
+        Me.Label53.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label53.Name = "Label53"
+        Me.Label53.Size = New System.Drawing.Size(53, 20)
+        Me.Label53.TabIndex = 452
+        Me.Label53.Text = "dL / dI"
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label54.Location = New System.Drawing.Point(56, 119)
+        Me.Label54.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(68, 18)
+        Me.Label54.TabIndex = 451
+        Me.Label54.Text = "Step[mA]"
+        '
+        'cboSelect_tab1
+        '
+        Me.cboSelect_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboSelect_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboSelect_tab1.FormattingEnabled = True
+        Me.cboSelect_tab1.Location = New System.Drawing.Point(147, 41)
+        Me.cboSelect_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab1.Name = "cboSelect_tab1"
+        Me.cboSelect_tab1.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect_tab1.TabIndex = 450
+        '
+        'Label55
+        '
+        Me.Label55.AutoSize = True
+        Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label55.Location = New System.Drawing.Point(56, 45)
+        Me.Label55.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(49, 18)
+        Me.Label55.TabIndex = 449
+        Me.Label55.Text = "Select"
+        '
+        'ILJudg_tab2
+        '
+        Me.ILJudg_tab2.Controls.Add(Me.btnOKILjudge2)
+        Me.ILJudg_tab2.Controls.Add(Me.GroupBox3)
+        Me.ILJudg_tab2.Controls.Add(Me.GroupBox4)
+        Me.ILJudg_tab2.Controls.Add(Me.Panel2)
+        Me.ILJudg_tab2.Controls.Add(Me.Label20)
+        Me.ILJudg_tab2.Controls.Add(Me.txtdLdIPermis_tab2)
+        Me.ILJudg_tab2.Controls.Add(Me.Label21)
+        Me.ILJudg_tab2.Controls.Add(Me.txtdLdISmoot_tab2)
+        Me.ILJudg_tab2.Controls.Add(Me.Label22)
+        Me.ILJudg_tab2.Controls.Add(Me.txtdLdIStep_tab2)
+        Me.ILJudg_tab2.Controls.Add(Me.Label23)
+        Me.ILJudg_tab2.Controls.Add(Me.Label24)
+        Me.ILJudg_tab2.Controls.Add(Me.cboSelect_tab2)
+        Me.ILJudg_tab2.Controls.Add(Me.Label25)
+        Me.ILJudg_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ILJudg_tab2.Location = New System.Drawing.Point(4, 26)
+        Me.ILJudg_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab2.Name = "ILJudg_tab2"
+        Me.ILJudg_tab2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab2.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab2.TabIndex = 1
+        Me.ILJudg_tab2.Text = "IL Judge2"
+        Me.ILJudg_tab2.UseVisualStyleBackColor = True
+        '
+        'btnOKILjudge2
+        '
+        Me.btnOKILjudge2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnOKILjudge2.Location = New System.Drawing.Point(750, 476)
+        Me.btnOKILjudge2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnOKILjudge2.Name = "btnOKILjudge2"
+        Me.btnOKILjudge2.Size = New System.Drawing.Size(77, 30)
+        Me.btnOKILjudge2.TabIndex = 463
+        Me.btnOKILjudge2.Text = "OK"
+        Me.btnOKILjudge2.UseVisualStyleBackColor = True
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.rdoSec_tab2)
+        Me.GroupBox3.Controls.Add(Me.rdoPrimary_tab2)
+        Me.GroupBox3.Controls.Add(Me.Label3)
+        Me.GroupBox3.Controls.Add(Me.txtNumpoint_tab2)
+        Me.GroupBox3.Location = New System.Drawing.Point(58, 425)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Size = New System.Drawing.Size(433, 74)
+        Me.GroupBox3.TabIndex = 461
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Least-squares method"
+        '
+        'rdoSec_tab2
+        '
+        Me.rdoSec_tab2.AutoSize = True
+        Me.rdoSec_tab2.Location = New System.Drawing.Point(112, 32)
+        Me.rdoSec_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab2.Name = "rdoSec_tab2"
+        Me.rdoSec_tab2.Size = New System.Drawing.Size(97, 22)
+        Me.rdoSec_tab2.TabIndex = 425
+        Me.rdoSec_tab2.TabStop = True
+        Me.rdoSec_tab2.Text = "Secondary"
+        Me.rdoSec_tab2.UseVisualStyleBackColor = True
+        '
+        'rdoPrimary_tab2
+        '
+        Me.rdoPrimary_tab2.AutoSize = True
+        Me.rdoPrimary_tab2.Location = New System.Drawing.Point(27, 32)
+        Me.rdoPrimary_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab2.Name = "rdoPrimary_tab2"
+        Me.rdoPrimary_tab2.Size = New System.Drawing.Size(77, 22)
+        Me.rdoPrimary_tab2.TabIndex = 425
+        Me.rdoPrimary_tab2.TabStop = True
+        Me.rdoPrimary_tab2.Text = "Primary"
+        Me.rdoPrimary_tab2.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(233, 33)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(114, 18)
+        Me.Label3.TabIndex = 421
+        Me.Label3.Text = "Number of point"
+        '
+        'txtNumpoint_tab2
+        '
+        Me.txtNumpoint_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtNumpoint_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumpoint_tab2.Location = New System.Drawing.Point(350, 32)
+        Me.txtNumpoint_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab2.Name = "txtNumpoint_tab2"
+        Me.txtNumpoint_tab2.Size = New System.Drawing.Size(60, 24)
+        Me.txtNumpoint_tab2.TabIndex = 422
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.Label12)
+        Me.GroupBox4.Controls.Add(Me.Label13)
+        Me.GroupBox4.Controls.Add(Me.txtOption3End_tab2)
+        Me.GroupBox4.Controls.Add(Me.txtOption2End_tab2)
+        Me.GroupBox4.Controls.Add(Me.rdoOprion3End_tab2)
+        Me.GroupBox4.Controls.Add(Me.rdoOprion2End_tab2)
+        Me.GroupBox4.Controls.Add(Me.Label14)
+        Me.GroupBox4.Controls.Add(Me.txtOption1End_tab2)
+        Me.GroupBox4.Controls.Add(Me.cboOption1End_2_tab2)
+        Me.GroupBox4.Controls.Add(Me.cboOption1End_1_tab2)
+        Me.GroupBox4.Controls.Add(Me.rdoOprion1End_tab2)
+        Me.GroupBox4.Controls.Add(Me.Label15)
+        Me.GroupBox4.Controls.Add(Me.Label16)
+        Me.GroupBox4.Controls.Add(Me.txtOption3_tab2)
+        Me.GroupBox4.Controls.Add(Me.txtOption2_tab2)
+        Me.GroupBox4.Controls.Add(Me.rdoOprion3_tab2)
+        Me.GroupBox4.Controls.Add(Me.rdoOprion2_tab2)
+        Me.GroupBox4.Controls.Add(Me.Label17)
+        Me.GroupBox4.Controls.Add(Me.txtOption1_tab2)
+        Me.GroupBox4.Controls.Add(Me.cboOption1_2_tab2)
+        Me.GroupBox4.Controls.Add(Me.cboOption1_1_tab2)
+        Me.GroupBox4.Controls.Add(Me.rdoOprion1_tab2)
+        Me.GroupBox4.Controls.Add(Me.Label18)
+        Me.GroupBox4.Controls.Add(Me.Label19)
+        Me.GroupBox4.Location = New System.Drawing.Point(58, 277)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox4.Size = New System.Drawing.Size(632, 143)
+        Me.GroupBox4.TabIndex = 460
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "Judgment range "
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(548, 109)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(36, 18)
+        Me.Label12.TabIndex = 447
+        Me.Label12.Text = "mW"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(548, 78)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(30, 18)
+        Me.Label13.TabIndex = 446
+        Me.Label13.Text = "mA"
+        '
+        'txtOption3End_tab2
+        '
+        Me.txtOption3End_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3End_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3End_tab2.Location = New System.Drawing.Point(365, 107)
+        Me.txtOption3End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab2.Name = "txtOption3End_tab2"
+        Me.txtOption3End_tab2.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3End_tab2.TabIndex = 445
+        '
+        'txtOption2End_tab2
+        '
+        Me.txtOption2End_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2End_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2End_tab2.Location = New System.Drawing.Point(365, 74)
+        Me.txtOption2End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab2.Name = "txtOption2End_tab2"
+        Me.txtOption2End_tab2.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2End_tab2.TabIndex = 444
+        '
+        'rdoOprion3End_tab2
+        '
+        Me.rdoOprion3End_tab2.AutoSize = True
+        Me.rdoOprion3End_tab2.Location = New System.Drawing.Point(350, 111)
+        Me.rdoOprion3End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab2.Name = "rdoOprion3End_tab2"
+        Me.rdoOprion3End_tab2.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3End_tab2.TabIndex = 443
+        Me.rdoOprion3End_tab2.TabStop = True
+        Me.rdoOprion3End_tab2.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2End_tab2
+        '
+        Me.rdoOprion2End_tab2.AutoSize = True
+        Me.rdoOprion2End_tab2.Location = New System.Drawing.Point(350, 78)
+        Me.rdoOprion2End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab2.Name = "rdoOprion2End_tab2"
+        Me.rdoOprion2End_tab2.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2End_tab2.TabIndex = 442
+        Me.rdoOprion2End_tab2.TabStop = True
+        Me.rdoOprion2End_tab2.UseVisualStyleBackColor = True
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(548, 44)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(30, 18)
+        Me.Label14.TabIndex = 441
+        Me.Label14.Text = "mA"
+        '
+        'txtOption1End_tab2
+        '
+        Me.txtOption1End_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1End_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1End_tab2.Location = New System.Drawing.Point(483, 41)
+        Me.txtOption1End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab2.Name = "txtOption1End_tab2"
+        Me.txtOption1End_tab2.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1End_tab2.TabIndex = 438
+        '
+        'cboOption1End_2_tab2
+        '
+        Me.cboOption1End_2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_2_tab2.FormattingEnabled = True
+        Me.cboOption1End_2_tab2.Location = New System.Drawing.Point(440, 41)
+        Me.cboOption1End_2_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab2.Name = "cboOption1End_2_tab2"
+        Me.cboOption1End_2_tab2.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1End_2_tab2.TabIndex = 440
+        '
+        'cboOption1End_1_tab2
+        '
+        Me.cboOption1End_1_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_1_tab2.FormattingEnabled = True
+        Me.cboOption1End_1_tab2.Location = New System.Drawing.Point(365, 41)
+        Me.cboOption1End_1_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab2.Name = "cboOption1End_1_tab2"
+        Me.cboOption1End_1_tab2.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1End_1_tab2.TabIndex = 439
+        '
+        'rdoOprion1End_tab2
+        '
+        Me.rdoOprion1End_tab2.AutoSize = True
+        Me.rdoOprion1End_tab2.Location = New System.Drawing.Point(350, 46)
+        Me.rdoOprion1End_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab2.Name = "rdoOprion1End_tab2"
+        Me.rdoOprion1End_tab2.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1End_tab2.TabIndex = 437
+        Me.rdoOprion1End_tab2.TabStop = True
+        Me.rdoOprion1End_tab2.UseVisualStyleBackColor = True
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(310, 108)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(36, 18)
+        Me.Label15.TabIndex = 436
+        Me.Label15.Text = "mW"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(310, 77)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(30, 18)
+        Me.Label16.TabIndex = 435
+        Me.Label16.Text = "mA"
+        '
+        'txtOption3_tab2
+        '
+        Me.txtOption3_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3_tab2.Location = New System.Drawing.Point(128, 106)
+        Me.txtOption3_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab2.Name = "txtOption3_tab2"
+        Me.txtOption3_tab2.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3_tab2.TabIndex = 434
+        '
+        'txtOption2_tab2
+        '
+        Me.txtOption2_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2_tab2.Location = New System.Drawing.Point(128, 73)
+        Me.txtOption2_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab2.Name = "txtOption2_tab2"
+        Me.txtOption2_tab2.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2_tab2.TabIndex = 433
+        '
+        'rdoOprion3_tab2
+        '
+        Me.rdoOprion3_tab2.AutoSize = True
+        Me.rdoOprion3_tab2.Location = New System.Drawing.Point(112, 110)
+        Me.rdoOprion3_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab2.Name = "rdoOprion3_tab2"
+        Me.rdoOprion3_tab2.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3_tab2.TabIndex = 432
+        Me.rdoOprion3_tab2.TabStop = True
+        Me.rdoOprion3_tab2.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2_tab2
+        '
+        Me.rdoOprion2_tab2.AutoSize = True
+        Me.rdoOprion2_tab2.Location = New System.Drawing.Point(112, 77)
+        Me.rdoOprion2_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab2.Name = "rdoOprion2_tab2"
+        Me.rdoOprion2_tab2.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2_tab2.TabIndex = 431
+        Me.rdoOprion2_tab2.TabStop = True
+        Me.rdoOprion2_tab2.UseVisualStyleBackColor = True
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(310, 43)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(30, 18)
+        Me.Label17.TabIndex = 430
+        Me.Label17.Text = "mA"
+        '
+        'txtOption1_tab2
+        '
+        Me.txtOption1_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1_tab2.Location = New System.Drawing.Point(245, 41)
+        Me.txtOption1_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab2.Name = "txtOption1_tab2"
+        Me.txtOption1_tab2.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1_tab2.TabIndex = 427
+        '
+        'cboOption1_2_tab2
+        '
+        Me.cboOption1_2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_2_tab2.FormattingEnabled = True
+        Me.cboOption1_2_tab2.Location = New System.Drawing.Point(202, 40)
+        Me.cboOption1_2_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab2.Name = "cboOption1_2_tab2"
+        Me.cboOption1_2_tab2.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1_2_tab2.TabIndex = 429
+        '
+        'cboOption1_1_tab2
+        '
+        Me.cboOption1_1_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_1_tab2.FormattingEnabled = True
+        Me.cboOption1_1_tab2.Location = New System.Drawing.Point(128, 40)
+        Me.cboOption1_1_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab2.Name = "cboOption1_1_tab2"
+        Me.cboOption1_1_tab2.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1_1_tab2.TabIndex = 427
+        '
+        'rdoOprion1_tab2
+        '
+        Me.rdoOprion1_tab2.AutoSize = True
+        Me.rdoOprion1_tab2.Location = New System.Drawing.Point(112, 45)
+        Me.rdoOprion1_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab2.Name = "rdoOprion1_tab2"
+        Me.rdoOprion1_tab2.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1_tab2.TabIndex = 425
+        Me.rdoOprion1_tab2.TabStop = True
+        Me.rdoOprion1_tab2.UseVisualStyleBackColor = True
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(432, 20)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(34, 18)
+        Me.Label18.TabIndex = 428
+        Me.Label18.Text = "End"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(185, 20)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(39, 18)
+        Me.Label19.TabIndex = 427
+        Me.Label19.Text = "Start"
+        '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.rdoParallel_tab2)
+        Me.Panel2.Controls.Add(Me.rdoEachpoint_tab2)
+        Me.Panel2.Location = New System.Drawing.Point(159, 222)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(236, 28)
+        Me.Panel2.TabIndex = 459
+        '
+        'rdoParallel_tab2
+        '
+        Me.rdoParallel_tab2.AutoSize = True
+        Me.rdoParallel_tab2.Location = New System.Drawing.Point(140, 2)
+        Me.rdoParallel_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab2.Name = "rdoParallel_tab2"
+        Me.rdoParallel_tab2.Size = New System.Drawing.Size(100, 22)
+        Me.rdoParallel_tab2.TabIndex = 424
+        Me.rdoParallel_tab2.TabStop = True
+        Me.rdoParallel_tab2.Text = "Parallel line"
+        Me.rdoParallel_tab2.UseVisualStyleBackColor = True
+        '
+        'rdoEachpoint_tab2
+        '
+        Me.rdoEachpoint_tab2.AutoSize = True
+        Me.rdoEachpoint_tab2.Location = New System.Drawing.Point(2, 2)
+        Me.rdoEachpoint_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab2.Name = "rdoEachpoint_tab2"
+        Me.rdoEachpoint_tab2.Size = New System.Drawing.Size(134, 22)
+        Me.rdoEachpoint_tab2.TabIndex = 423
+        Me.rdoEachpoint_tab2.TabStop = True
+        Me.rdoEachpoint_tab2.Text = "From each point"
+        Me.rdoEachpoint_tab2.UseVisualStyleBackColor = True
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(56, 226)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(91, 18)
+        Me.Label20.TabIndex = 458
+        Me.Label20.Text = "Kink method"
+        '
+        'txtdLdIPermis_tab2
+        '
+        Me.txtdLdIPermis_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIPermis_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIPermis_tab2.Location = New System.Drawing.Point(190, 184)
+        Me.txtdLdIPermis_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermis_tab2.Name = "txtdLdIPermis_tab2"
+        Me.txtdLdIPermis_tab2.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIPermis_tab2.TabIndex = 457
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(56, 185)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(146, 18)
+        Me.Label21.TabIndex = 456
+        Me.Label21.Text = "Permistion rate [%] ±"
+        '
+        'txtdLdISmoot_tab2
+        '
+        Me.txtdLdISmoot_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdISmoot_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdISmoot_tab2.Location = New System.Drawing.Point(190, 151)
+        Me.txtdLdISmoot_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab2.Name = "txtdLdISmoot_tab2"
+        Me.txtdLdISmoot_tab2.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdISmoot_tab2.TabIndex = 455
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(56, 150)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(100, 18)
+        Me.Label22.TabIndex = 454
+        Me.Label22.Text = "Smoothing[pt]"
+        '
+        'txtdLdIStep_tab2
+        '
+        Me.txtdLdIStep_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIStep_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIStep_tab2.Location = New System.Drawing.Point(190, 119)
+        Me.txtdLdIStep_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab2.Name = "txtdLdIStep_tab2"
+        Me.txtdLdIStep_tab2.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIStep_tab2.TabIndex = 453
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label23.Location = New System.Drawing.Point(55, 91)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(53, 20)
+        Me.Label23.TabIndex = 452
+        Me.Label23.Text = "dL / dI"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(56, 119)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(68, 18)
+        Me.Label24.TabIndex = 451
+        Me.Label24.Text = "Step[mA]"
+        '
+        'cboSelect_tab2
+        '
+        Me.cboSelect_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboSelect_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboSelect_tab2.FormattingEnabled = True
+        Me.cboSelect_tab2.Location = New System.Drawing.Point(147, 41)
+        Me.cboSelect_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab2.Name = "cboSelect_tab2"
+        Me.cboSelect_tab2.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect_tab2.TabIndex = 450
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(56, 45)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(49, 18)
+        Me.Label25.TabIndex = 449
+        Me.Label25.Text = "Select"
+        '
+        'ILJudg_tab3
+        '
+        Me.ILJudg_tab3.Controls.Add(Me.btnOKILjudg3)
+        Me.ILJudg_tab3.Controls.Add(Me.GroupBox5)
+        Me.ILJudg_tab3.Controls.Add(Me.GroupBox6)
+        Me.ILJudg_tab3.Controls.Add(Me.Panel3)
+        Me.ILJudg_tab3.Controls.Add(Me.Label35)
+        Me.ILJudg_tab3.Controls.Add(Me.txtdLdIPermis_tab3)
+        Me.ILJudg_tab3.Controls.Add(Me.Label36)
+        Me.ILJudg_tab3.Controls.Add(Me.txtdLdISmoot_tab3)
+        Me.ILJudg_tab3.Controls.Add(Me.Label37)
+        Me.ILJudg_tab3.Controls.Add(Me.txtdLdIStep_tab3)
+        Me.ILJudg_tab3.Controls.Add(Me.Label38)
+        Me.ILJudg_tab3.Controls.Add(Me.Label39)
+        Me.ILJudg_tab3.Controls.Add(Me.cboSelect_tab3)
+        Me.ILJudg_tab3.Controls.Add(Me.Label40)
+        Me.ILJudg_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ILJudg_tab3.Location = New System.Drawing.Point(4, 26)
+        Me.ILJudg_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab3.Name = "ILJudg_tab3"
+        Me.ILJudg_tab3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab3.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab3.TabIndex = 2
+        Me.ILJudg_tab3.Text = "IL Judge3"
+        Me.ILJudg_tab3.UseVisualStyleBackColor = True
+        '
+        'btnOKILjudg3
+        '
+        Me.btnOKILjudg3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnOKILjudg3.Location = New System.Drawing.Point(750, 476)
+        Me.btnOKILjudg3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnOKILjudg3.Name = "btnOKILjudg3"
+        Me.btnOKILjudg3.Size = New System.Drawing.Size(77, 30)
+        Me.btnOKILjudg3.TabIndex = 463
+        Me.btnOKILjudg3.Text = "OK"
+        Me.btnOKILjudg3.UseVisualStyleBackColor = True
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.rdoSec_tab3)
+        Me.GroupBox5.Controls.Add(Me.rdoPrimary_tab3)
+        Me.GroupBox5.Controls.Add(Me.Label26)
+        Me.GroupBox5.Controls.Add(Me.txtNumpoint_tab3)
+        Me.GroupBox5.Location = New System.Drawing.Point(58, 425)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox5.Size = New System.Drawing.Size(433, 74)
+        Me.GroupBox5.TabIndex = 461
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Least-squares method"
+        '
+        'rdoSec_tab3
+        '
+        Me.rdoSec_tab3.AutoSize = True
+        Me.rdoSec_tab3.Location = New System.Drawing.Point(112, 32)
+        Me.rdoSec_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab3.Name = "rdoSec_tab3"
+        Me.rdoSec_tab3.Size = New System.Drawing.Size(97, 22)
+        Me.rdoSec_tab3.TabIndex = 425
+        Me.rdoSec_tab3.TabStop = True
+        Me.rdoSec_tab3.Text = "Secondary"
+        Me.rdoSec_tab3.UseVisualStyleBackColor = True
+        '
+        'rdoPrimary_tab3
+        '
+        Me.rdoPrimary_tab3.AutoSize = True
+        Me.rdoPrimary_tab3.Location = New System.Drawing.Point(27, 32)
+        Me.rdoPrimary_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab3.Name = "rdoPrimary_tab3"
+        Me.rdoPrimary_tab3.Size = New System.Drawing.Size(77, 22)
+        Me.rdoPrimary_tab3.TabIndex = 425
+        Me.rdoPrimary_tab3.TabStop = True
+        Me.rdoPrimary_tab3.Text = "Primary"
+        Me.rdoPrimary_tab3.UseVisualStyleBackColor = True
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(233, 33)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(114, 18)
+        Me.Label26.TabIndex = 421
+        Me.Label26.Text = "Number of point"
+        '
+        'txtNumpoint_tab3
+        '
+        Me.txtNumpoint_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtNumpoint_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumpoint_tab3.Location = New System.Drawing.Point(350, 32)
+        Me.txtNumpoint_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab3.Name = "txtNumpoint_tab3"
+        Me.txtNumpoint_tab3.Size = New System.Drawing.Size(60, 24)
+        Me.txtNumpoint_tab3.TabIndex = 422
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.Label27)
+        Me.GroupBox6.Controls.Add(Me.Label28)
+        Me.GroupBox6.Controls.Add(Me.txtOption3End_tab3)
+        Me.GroupBox6.Controls.Add(Me.txtOption2End_tab3)
+        Me.GroupBox6.Controls.Add(Me.rdoOprion3End_tab3)
+        Me.GroupBox6.Controls.Add(Me.rdoOprion2End_tab3)
+        Me.GroupBox6.Controls.Add(Me.Label29)
+        Me.GroupBox6.Controls.Add(Me.txtOption1End_tab3)
+        Me.GroupBox6.Controls.Add(Me.cboOption1End_2_tab3)
+        Me.GroupBox6.Controls.Add(Me.cboOption1End_1_tab3)
+        Me.GroupBox6.Controls.Add(Me.rdoOprion1End_tab3)
+        Me.GroupBox6.Controls.Add(Me.Label30)
+        Me.GroupBox6.Controls.Add(Me.Label31)
+        Me.GroupBox6.Controls.Add(Me.txtOption3_tab3)
+        Me.GroupBox6.Controls.Add(Me.txtOption2_tab3)
+        Me.GroupBox6.Controls.Add(Me.rdoOprion3_tab3)
+        Me.GroupBox6.Controls.Add(Me.rdoOprion2_tab3)
+        Me.GroupBox6.Controls.Add(Me.Label32)
+        Me.GroupBox6.Controls.Add(Me.txtOption1_tab3)
+        Me.GroupBox6.Controls.Add(Me.cboOption1_2_tab3)
+        Me.GroupBox6.Controls.Add(Me.cboOption1_1_tab3)
+        Me.GroupBox6.Controls.Add(Me.rdoOprion1_tab3)
+        Me.GroupBox6.Controls.Add(Me.Label33)
+        Me.GroupBox6.Controls.Add(Me.Label34)
+        Me.GroupBox6.Location = New System.Drawing.Point(58, 277)
+        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox6.Size = New System.Drawing.Size(632, 143)
+        Me.GroupBox6.TabIndex = 460
+        Me.GroupBox6.TabStop = False
+        Me.GroupBox6.Text = "Judgment range "
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(548, 109)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(36, 18)
+        Me.Label27.TabIndex = 447
+        Me.Label27.Text = "mW"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(548, 78)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(30, 18)
+        Me.Label28.TabIndex = 446
+        Me.Label28.Text = "mA"
+        '
+        'txtOption3End_tab3
+        '
+        Me.txtOption3End_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3End_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3End_tab3.Location = New System.Drawing.Point(365, 107)
+        Me.txtOption3End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab3.Name = "txtOption3End_tab3"
+        Me.txtOption3End_tab3.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3End_tab3.TabIndex = 445
+        '
+        'txtOption2End_tab3
+        '
+        Me.txtOption2End_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2End_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2End_tab3.Location = New System.Drawing.Point(365, 74)
+        Me.txtOption2End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab3.Name = "txtOption2End_tab3"
+        Me.txtOption2End_tab3.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2End_tab3.TabIndex = 444
+        '
+        'rdoOprion3End_tab3
+        '
+        Me.rdoOprion3End_tab3.AutoSize = True
+        Me.rdoOprion3End_tab3.Location = New System.Drawing.Point(350, 111)
+        Me.rdoOprion3End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab3.Name = "rdoOprion3End_tab3"
+        Me.rdoOprion3End_tab3.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3End_tab3.TabIndex = 443
+        Me.rdoOprion3End_tab3.TabStop = True
+        Me.rdoOprion3End_tab3.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2End_tab3
+        '
+        Me.rdoOprion2End_tab3.AutoSize = True
+        Me.rdoOprion2End_tab3.Location = New System.Drawing.Point(350, 78)
+        Me.rdoOprion2End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab3.Name = "rdoOprion2End_tab3"
+        Me.rdoOprion2End_tab3.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2End_tab3.TabIndex = 442
+        Me.rdoOprion2End_tab3.TabStop = True
+        Me.rdoOprion2End_tab3.UseVisualStyleBackColor = True
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(548, 44)
+        Me.Label29.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(30, 18)
+        Me.Label29.TabIndex = 441
+        Me.Label29.Text = "mA"
+        '
+        'txtOption1End_tab3
+        '
+        Me.txtOption1End_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1End_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1End_tab3.Location = New System.Drawing.Point(483, 41)
+        Me.txtOption1End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab3.Name = "txtOption1End_tab3"
+        Me.txtOption1End_tab3.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1End_tab3.TabIndex = 438
+        '
+        'cboOption1End_2_tab3
+        '
+        Me.cboOption1End_2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_2_tab3.FormattingEnabled = True
+        Me.cboOption1End_2_tab3.Location = New System.Drawing.Point(440, 41)
+        Me.cboOption1End_2_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab3.Name = "cboOption1End_2_tab3"
+        Me.cboOption1End_2_tab3.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1End_2_tab3.TabIndex = 440
+        '
+        'cboOption1End_1_tab3
+        '
+        Me.cboOption1End_1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_1_tab3.FormattingEnabled = True
+        Me.cboOption1End_1_tab3.Location = New System.Drawing.Point(365, 41)
+        Me.cboOption1End_1_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab3.Name = "cboOption1End_1_tab3"
+        Me.cboOption1End_1_tab3.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1End_1_tab3.TabIndex = 439
+        '
+        'rdoOprion1End_tab3
+        '
+        Me.rdoOprion1End_tab3.AutoSize = True
+        Me.rdoOprion1End_tab3.Location = New System.Drawing.Point(350, 46)
+        Me.rdoOprion1End_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab3.Name = "rdoOprion1End_tab3"
+        Me.rdoOprion1End_tab3.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1End_tab3.TabIndex = 437
+        Me.rdoOprion1End_tab3.TabStop = True
+        Me.rdoOprion1End_tab3.UseVisualStyleBackColor = True
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Location = New System.Drawing.Point(310, 108)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(36, 18)
+        Me.Label30.TabIndex = 436
+        Me.Label30.Text = "mW"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(310, 77)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(30, 18)
+        Me.Label31.TabIndex = 435
+        Me.Label31.Text = "mA"
+        '
+        'txtOption3_tab3
+        '
+        Me.txtOption3_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3_tab3.Location = New System.Drawing.Point(128, 106)
+        Me.txtOption3_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab3.Name = "txtOption3_tab3"
+        Me.txtOption3_tab3.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3_tab3.TabIndex = 434
+        '
+        'txtOption2_tab3
+        '
+        Me.txtOption2_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2_tab3.Location = New System.Drawing.Point(128, 73)
+        Me.txtOption2_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab3.Name = "txtOption2_tab3"
+        Me.txtOption2_tab3.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2_tab3.TabIndex = 433
+        '
+        'rdoOprion3_tab3
+        '
+        Me.rdoOprion3_tab3.AutoSize = True
+        Me.rdoOprion3_tab3.Location = New System.Drawing.Point(112, 110)
+        Me.rdoOprion3_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab3.Name = "rdoOprion3_tab3"
+        Me.rdoOprion3_tab3.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3_tab3.TabIndex = 432
+        Me.rdoOprion3_tab3.TabStop = True
+        Me.rdoOprion3_tab3.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2_tab3
+        '
+        Me.rdoOprion2_tab3.AutoSize = True
+        Me.rdoOprion2_tab3.Location = New System.Drawing.Point(112, 77)
+        Me.rdoOprion2_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab3.Name = "rdoOprion2_tab3"
+        Me.rdoOprion2_tab3.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2_tab3.TabIndex = 431
+        Me.rdoOprion2_tab3.TabStop = True
+        Me.rdoOprion2_tab3.UseVisualStyleBackColor = True
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Location = New System.Drawing.Point(310, 43)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(30, 18)
+        Me.Label32.TabIndex = 430
+        Me.Label32.Text = "mA"
+        '
+        'txtOption1_tab3
+        '
+        Me.txtOption1_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1_tab3.Location = New System.Drawing.Point(245, 41)
+        Me.txtOption1_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab3.Name = "txtOption1_tab3"
+        Me.txtOption1_tab3.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1_tab3.TabIndex = 427
+        '
+        'cboOption1_2_tab3
+        '
+        Me.cboOption1_2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_2_tab3.FormattingEnabled = True
+        Me.cboOption1_2_tab3.Location = New System.Drawing.Point(202, 40)
+        Me.cboOption1_2_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab3.Name = "cboOption1_2_tab3"
+        Me.cboOption1_2_tab3.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1_2_tab3.TabIndex = 429
+        '
+        'cboOption1_1_tab3
+        '
+        Me.cboOption1_1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_1_tab3.FormattingEnabled = True
+        Me.cboOption1_1_tab3.Location = New System.Drawing.Point(128, 40)
+        Me.cboOption1_1_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab3.Name = "cboOption1_1_tab3"
+        Me.cboOption1_1_tab3.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1_1_tab3.TabIndex = 427
+        '
+        'rdoOprion1_tab3
+        '
+        Me.rdoOprion1_tab3.AutoSize = True
+        Me.rdoOprion1_tab3.Location = New System.Drawing.Point(112, 45)
+        Me.rdoOprion1_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab3.Name = "rdoOprion1_tab3"
+        Me.rdoOprion1_tab3.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1_tab3.TabIndex = 425
+        Me.rdoOprion1_tab3.TabStop = True
+        Me.rdoOprion1_tab3.UseVisualStyleBackColor = True
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(432, 20)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(34, 18)
+        Me.Label33.TabIndex = 428
+        Me.Label33.Text = "End"
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.Location = New System.Drawing.Point(185, 20)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(39, 18)
+        Me.Label34.TabIndex = 427
+        Me.Label34.Text = "Start"
+        '
+        'Panel3
+        '
+        Me.Panel3.Controls.Add(Me.rdoParallel_tab3)
+        Me.Panel3.Controls.Add(Me.rdoEachpoint_tab3)
+        Me.Panel3.Location = New System.Drawing.Point(159, 222)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(236, 28)
+        Me.Panel3.TabIndex = 459
+        '
+        'rdoParallel_tab3
+        '
+        Me.rdoParallel_tab3.AutoSize = True
+        Me.rdoParallel_tab3.Location = New System.Drawing.Point(140, 2)
+        Me.rdoParallel_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab3.Name = "rdoParallel_tab3"
+        Me.rdoParallel_tab3.Size = New System.Drawing.Size(100, 22)
+        Me.rdoParallel_tab3.TabIndex = 424
+        Me.rdoParallel_tab3.TabStop = True
+        Me.rdoParallel_tab3.Text = "Parallel line"
+        Me.rdoParallel_tab3.UseVisualStyleBackColor = True
+        '
+        'rdoEachpoint_tab3
+        '
+        Me.rdoEachpoint_tab3.AutoSize = True
+        Me.rdoEachpoint_tab3.Location = New System.Drawing.Point(2, 2)
+        Me.rdoEachpoint_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab3.Name = "rdoEachpoint_tab3"
+        Me.rdoEachpoint_tab3.Size = New System.Drawing.Size(134, 22)
+        Me.rdoEachpoint_tab3.TabIndex = 423
+        Me.rdoEachpoint_tab3.TabStop = True
+        Me.rdoEachpoint_tab3.Text = "From each point"
+        Me.rdoEachpoint_tab3.UseVisualStyleBackColor = True
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.Location = New System.Drawing.Point(56, 226)
+        Me.Label35.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(91, 18)
+        Me.Label35.TabIndex = 458
+        Me.Label35.Text = "Kink method"
+        '
+        'txtdLdIPermis_tab3
+        '
+        Me.txtdLdIPermis_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIPermis_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIPermis_tab3.Location = New System.Drawing.Point(190, 184)
+        Me.txtdLdIPermis_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermis_tab3.Name = "txtdLdIPermis_tab3"
+        Me.txtdLdIPermis_tab3.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIPermis_tab3.TabIndex = 457
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Location = New System.Drawing.Point(56, 185)
+        Me.Label36.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(146, 18)
+        Me.Label36.TabIndex = 456
+        Me.Label36.Text = "Permistion rate [%] ±"
+        '
+        'txtdLdISmoot_tab3
+        '
+        Me.txtdLdISmoot_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdISmoot_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdISmoot_tab3.Location = New System.Drawing.Point(190, 151)
+        Me.txtdLdISmoot_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab3.Name = "txtdLdISmoot_tab3"
+        Me.txtdLdISmoot_tab3.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdISmoot_tab3.TabIndex = 455
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Location = New System.Drawing.Point(56, 150)
+        Me.Label37.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(100, 18)
+        Me.Label37.TabIndex = 454
+        Me.Label37.Text = "Smoothing[pt]"
+        '
+        'txtdLdIStep_tab3
+        '
+        Me.txtdLdIStep_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIStep_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIStep_tab3.Location = New System.Drawing.Point(190, 119)
+        Me.txtdLdIStep_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab3.Name = "txtdLdIStep_tab3"
+        Me.txtdLdIStep_tab3.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIStep_tab3.TabIndex = 453
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label38.Location = New System.Drawing.Point(55, 91)
+        Me.Label38.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(53, 20)
+        Me.Label38.TabIndex = 452
+        Me.Label38.Text = "dL / dI"
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(56, 119)
+        Me.Label39.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(68, 18)
+        Me.Label39.TabIndex = 451
+        Me.Label39.Text = "Step[mA]"
+        '
+        'cboSelect_tab3
+        '
+        Me.cboSelect_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboSelect_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboSelect_tab3.FormattingEnabled = True
+        Me.cboSelect_tab3.Location = New System.Drawing.Point(147, 41)
+        Me.cboSelect_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab3.Name = "cboSelect_tab3"
+        Me.cboSelect_tab3.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect_tab3.TabIndex = 450
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Location = New System.Drawing.Point(56, 45)
+        Me.Label40.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(49, 18)
+        Me.Label40.TabIndex = 449
+        Me.Label40.Text = "Select"
+        '
+        'ILJudg_tab4
+        '
+        Me.ILJudg_tab4.Controls.Add(Me.btnOKILjudg4)
+        Me.ILJudg_tab4.Controls.Add(Me.GroupBox7)
+        Me.ILJudg_tab4.Controls.Add(Me.GroupBox8)
+        Me.ILJudg_tab4.Controls.Add(Me.Panel4)
+        Me.ILJudg_tab4.Controls.Add(Me.Label52)
+        Me.ILJudg_tab4.Controls.Add(Me.txtdLdIPermisrate_tab4)
+        Me.ILJudg_tab4.Controls.Add(Me.Label56)
+        Me.ILJudg_tab4.Controls.Add(Me.txtdLdISmoot_tab4)
+        Me.ILJudg_tab4.Controls.Add(Me.Label57)
+        Me.ILJudg_tab4.Controls.Add(Me.txtdLdIStep_tab4)
+        Me.ILJudg_tab4.Controls.Add(Me.Label58)
+        Me.ILJudg_tab4.Controls.Add(Me.Label59)
+        Me.ILJudg_tab4.Controls.Add(Me.cboSelect_tab4)
+        Me.ILJudg_tab4.Controls.Add(Me.Label60)
+        Me.ILJudg_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ILJudg_tab4.Location = New System.Drawing.Point(4, 26)
+        Me.ILJudg_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab4.Name = "ILJudg_tab4"
+        Me.ILJudg_tab4.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab4.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab4.TabIndex = 3
+        Me.ILJudg_tab4.Text = "IL Judge4"
+        Me.ILJudg_tab4.UseVisualStyleBackColor = True
+        '
+        'btnOKILjudg4
+        '
+        Me.btnOKILjudg4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnOKILjudg4.Location = New System.Drawing.Point(750, 476)
+        Me.btnOKILjudg4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnOKILjudg4.Name = "btnOKILjudg4"
+        Me.btnOKILjudg4.Size = New System.Drawing.Size(77, 30)
+        Me.btnOKILjudg4.TabIndex = 464
+        Me.btnOKILjudg4.Text = "OK"
+        Me.btnOKILjudg4.UseVisualStyleBackColor = True
+        '
+        'GroupBox7
+        '
+        Me.GroupBox7.Controls.Add(Me.rdoSec_tab4)
+        Me.GroupBox7.Controls.Add(Me.rdoPrimary_tab4)
+        Me.GroupBox7.Controls.Add(Me.Label41)
+        Me.GroupBox7.Controls.Add(Me.txtNumpoint_tab4)
+        Me.GroupBox7.Location = New System.Drawing.Point(58, 425)
+        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox7.Size = New System.Drawing.Size(433, 74)
+        Me.GroupBox7.TabIndex = 461
+        Me.GroupBox7.TabStop = False
+        Me.GroupBox7.Text = "Least-squares method"
+        '
+        'rdoSec_tab4
+        '
+        Me.rdoSec_tab4.AutoSize = True
+        Me.rdoSec_tab4.Location = New System.Drawing.Point(112, 32)
+        Me.rdoSec_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab4.Name = "rdoSec_tab4"
+        Me.rdoSec_tab4.Size = New System.Drawing.Size(97, 22)
+        Me.rdoSec_tab4.TabIndex = 425
+        Me.rdoSec_tab4.TabStop = True
+        Me.rdoSec_tab4.Text = "Secondary"
+        Me.rdoSec_tab4.UseVisualStyleBackColor = True
+        '
+        'rdoPrimary_tab4
+        '
+        Me.rdoPrimary_tab4.AutoSize = True
+        Me.rdoPrimary_tab4.Location = New System.Drawing.Point(27, 32)
+        Me.rdoPrimary_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab4.Name = "rdoPrimary_tab4"
+        Me.rdoPrimary_tab4.Size = New System.Drawing.Size(77, 22)
+        Me.rdoPrimary_tab4.TabIndex = 425
+        Me.rdoPrimary_tab4.TabStop = True
+        Me.rdoPrimary_tab4.Text = "Primary"
+        Me.rdoPrimary_tab4.UseVisualStyleBackColor = True
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Location = New System.Drawing.Point(233, 33)
+        Me.Label41.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(114, 18)
+        Me.Label41.TabIndex = 421
+        Me.Label41.Text = "Number of point"
+        '
+        'txtNumpoint_tab4
+        '
+        Me.txtNumpoint_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtNumpoint_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumpoint_tab4.Location = New System.Drawing.Point(350, 32)
+        Me.txtNumpoint_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab4.Name = "txtNumpoint_tab4"
+        Me.txtNumpoint_tab4.Size = New System.Drawing.Size(60, 24)
+        Me.txtNumpoint_tab4.TabIndex = 422
+        '
+        'GroupBox8
+        '
+        Me.GroupBox8.Controls.Add(Me.Label42)
+        Me.GroupBox8.Controls.Add(Me.Label43)
+        Me.GroupBox8.Controls.Add(Me.txtOption3End_tab4)
+        Me.GroupBox8.Controls.Add(Me.txtOption2End_tab4)
+        Me.GroupBox8.Controls.Add(Me.rdoOprion3End_tab4)
+        Me.GroupBox8.Controls.Add(Me.rdoOprion2End_tab4)
+        Me.GroupBox8.Controls.Add(Me.Label44)
+        Me.GroupBox8.Controls.Add(Me.txtOption1End_tab4)
+        Me.GroupBox8.Controls.Add(Me.cboOption1End_2_tab4)
+        Me.GroupBox8.Controls.Add(Me.cboOption1End_1_tab4)
+        Me.GroupBox8.Controls.Add(Me.rdoOprion1End_tab4)
+        Me.GroupBox8.Controls.Add(Me.Label45)
+        Me.GroupBox8.Controls.Add(Me.Label46)
+        Me.GroupBox8.Controls.Add(Me.txtOption3_tab4)
+        Me.GroupBox8.Controls.Add(Me.txtOption2_tab4)
+        Me.GroupBox8.Controls.Add(Me.rdoOprion3_tab4)
+        Me.GroupBox8.Controls.Add(Me.rdoOprion2_tab4)
+        Me.GroupBox8.Controls.Add(Me.Label47)
+        Me.GroupBox8.Controls.Add(Me.txtOption1_tab4)
+        Me.GroupBox8.Controls.Add(Me.cboOption1_2_tab4)
+        Me.GroupBox8.Controls.Add(Me.cboOption1_1_tab4)
+        Me.GroupBox8.Controls.Add(Me.rdoOprion1_tab4)
+        Me.GroupBox8.Controls.Add(Me.Label48)
+        Me.GroupBox8.Controls.Add(Me.Label49)
+        Me.GroupBox8.Location = New System.Drawing.Point(58, 277)
+        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox8.Name = "GroupBox8"
+        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox8.Size = New System.Drawing.Size(632, 143)
+        Me.GroupBox8.TabIndex = 460
+        Me.GroupBox8.TabStop = False
+        Me.GroupBox8.Text = "Judgment range "
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Location = New System.Drawing.Point(548, 109)
+        Me.Label42.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(36, 18)
+        Me.Label42.TabIndex = 447
+        Me.Label42.Text = "mW"
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Location = New System.Drawing.Point(548, 78)
+        Me.Label43.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(30, 18)
+        Me.Label43.TabIndex = 446
+        Me.Label43.Text = "mA"
+        '
+        'txtOption3End_tab4
+        '
+        Me.txtOption3End_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3End_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3End_tab4.Location = New System.Drawing.Point(365, 107)
+        Me.txtOption3End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab4.Name = "txtOption3End_tab4"
+        Me.txtOption3End_tab4.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3End_tab4.TabIndex = 445
+        '
+        'txtOption2End_tab4
+        '
+        Me.txtOption2End_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2End_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2End_tab4.Location = New System.Drawing.Point(365, 74)
+        Me.txtOption2End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab4.Name = "txtOption2End_tab4"
+        Me.txtOption2End_tab4.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2End_tab4.TabIndex = 444
+        '
+        'rdoOprion3End_tab4
+        '
+        Me.rdoOprion3End_tab4.AutoSize = True
+        Me.rdoOprion3End_tab4.Location = New System.Drawing.Point(350, 111)
+        Me.rdoOprion3End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab4.Name = "rdoOprion3End_tab4"
+        Me.rdoOprion3End_tab4.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3End_tab4.TabIndex = 443
+        Me.rdoOprion3End_tab4.TabStop = True
+        Me.rdoOprion3End_tab4.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2End_tab4
+        '
+        Me.rdoOprion2End_tab4.AutoSize = True
+        Me.rdoOprion2End_tab4.Location = New System.Drawing.Point(350, 78)
+        Me.rdoOprion2End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab4.Name = "rdoOprion2End_tab4"
+        Me.rdoOprion2End_tab4.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2End_tab4.TabIndex = 442
+        Me.rdoOprion2End_tab4.TabStop = True
+        Me.rdoOprion2End_tab4.UseVisualStyleBackColor = True
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Location = New System.Drawing.Point(548, 44)
+        Me.Label44.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(30, 18)
+        Me.Label44.TabIndex = 441
+        Me.Label44.Text = "mA"
+        '
+        'txtOption1End_tab4
+        '
+        Me.txtOption1End_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1End_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1End_tab4.Location = New System.Drawing.Point(483, 41)
+        Me.txtOption1End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab4.Name = "txtOption1End_tab4"
+        Me.txtOption1End_tab4.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1End_tab4.TabIndex = 438
+        '
+        'cboOption1End_2_tab4
+        '
+        Me.cboOption1End_2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_2_tab4.FormattingEnabled = True
+        Me.cboOption1End_2_tab4.Location = New System.Drawing.Point(440, 41)
+        Me.cboOption1End_2_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab4.Name = "cboOption1End_2_tab4"
+        Me.cboOption1End_2_tab4.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1End_2_tab4.TabIndex = 440
+        '
+        'cboOption1End_1_tab4
+        '
+        Me.cboOption1End_1_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_1_tab4.FormattingEnabled = True
+        Me.cboOption1End_1_tab4.Location = New System.Drawing.Point(365, 41)
+        Me.cboOption1End_1_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab4.Name = "cboOption1End_1_tab4"
+        Me.cboOption1End_1_tab4.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1End_1_tab4.TabIndex = 439
+        '
+        'rdoOprion1End_tab4
+        '
+        Me.rdoOprion1End_tab4.AutoSize = True
+        Me.rdoOprion1End_tab4.Location = New System.Drawing.Point(350, 46)
+        Me.rdoOprion1End_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab4.Name = "rdoOprion1End_tab4"
+        Me.rdoOprion1End_tab4.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1End_tab4.TabIndex = 437
+        Me.rdoOprion1End_tab4.TabStop = True
+        Me.rdoOprion1End_tab4.UseVisualStyleBackColor = True
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label45.Location = New System.Drawing.Point(310, 108)
+        Me.Label45.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(36, 18)
+        Me.Label45.TabIndex = 436
+        Me.Label45.Text = "mW"
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label46.Location = New System.Drawing.Point(310, 77)
+        Me.Label46.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(30, 18)
+        Me.Label46.TabIndex = 435
+        Me.Label46.Text = "mA"
+        '
+        'txtOption3_tab4
+        '
+        Me.txtOption3_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3_tab4.Location = New System.Drawing.Point(128, 106)
+        Me.txtOption3_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab4.Name = "txtOption3_tab4"
+        Me.txtOption3_tab4.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3_tab4.TabIndex = 434
+        '
+        'txtOption2_tab4
+        '
+        Me.txtOption2_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2_tab4.Location = New System.Drawing.Point(128, 73)
+        Me.txtOption2_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab4.Name = "txtOption2_tab4"
+        Me.txtOption2_tab4.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2_tab4.TabIndex = 433
+        '
+        'rdoOprion3_tab4
+        '
+        Me.rdoOprion3_tab4.AutoSize = True
+        Me.rdoOprion3_tab4.Location = New System.Drawing.Point(112, 110)
+        Me.rdoOprion3_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab4.Name = "rdoOprion3_tab4"
+        Me.rdoOprion3_tab4.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3_tab4.TabIndex = 432
+        Me.rdoOprion3_tab4.TabStop = True
+        Me.rdoOprion3_tab4.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2_tab4
+        '
+        Me.rdoOprion2_tab4.AutoSize = True
+        Me.rdoOprion2_tab4.Location = New System.Drawing.Point(112, 77)
+        Me.rdoOprion2_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab4.Name = "rdoOprion2_tab4"
+        Me.rdoOprion2_tab4.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2_tab4.TabIndex = 431
+        Me.rdoOprion2_tab4.TabStop = True
+        Me.rdoOprion2_tab4.UseVisualStyleBackColor = True
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.Location = New System.Drawing.Point(310, 43)
+        Me.Label47.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(30, 18)
+        Me.Label47.TabIndex = 430
+        Me.Label47.Text = "mA"
+        '
+        'txtOption1_tab4
+        '
+        Me.txtOption1_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1_tab4.Location = New System.Drawing.Point(245, 41)
+        Me.txtOption1_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab4.Name = "txtOption1_tab4"
+        Me.txtOption1_tab4.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1_tab4.TabIndex = 427
+        '
+        'cboOption1_2_tab4
+        '
+        Me.cboOption1_2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_2_tab4.FormattingEnabled = True
+        Me.cboOption1_2_tab4.Location = New System.Drawing.Point(202, 40)
+        Me.cboOption1_2_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab4.Name = "cboOption1_2_tab4"
+        Me.cboOption1_2_tab4.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1_2_tab4.TabIndex = 429
+        '
+        'cboOption1_1_tab4
+        '
+        Me.cboOption1_1_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_1_tab4.FormattingEnabled = True
+        Me.cboOption1_1_tab4.Location = New System.Drawing.Point(128, 40)
+        Me.cboOption1_1_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab4.Name = "cboOption1_1_tab4"
+        Me.cboOption1_1_tab4.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1_1_tab4.TabIndex = 427
+        '
+        'rdoOprion1_tab4
+        '
+        Me.rdoOprion1_tab4.AutoSize = True
+        Me.rdoOprion1_tab4.Location = New System.Drawing.Point(112, 45)
+        Me.rdoOprion1_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab4.Name = "rdoOprion1_tab4"
+        Me.rdoOprion1_tab4.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1_tab4.TabIndex = 425
+        Me.rdoOprion1_tab4.TabStop = True
+        Me.rdoOprion1_tab4.UseVisualStyleBackColor = True
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.Location = New System.Drawing.Point(432, 20)
+        Me.Label48.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(34, 18)
+        Me.Label48.TabIndex = 428
+        Me.Label48.Text = "End"
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label49.Location = New System.Drawing.Point(185, 20)
+        Me.Label49.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(39, 18)
+        Me.Label49.TabIndex = 427
+        Me.Label49.Text = "Start"
+        '
+        'Panel4
+        '
+        Me.Panel4.Controls.Add(Me.rdoParallel_tab4)
+        Me.Panel4.Controls.Add(Me.rdoEachpoint_tab4)
+        Me.Panel4.Location = New System.Drawing.Point(159, 222)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(236, 28)
+        Me.Panel4.TabIndex = 459
+        '
+        'rdoParallel_tab4
+        '
+        Me.rdoParallel_tab4.AutoSize = True
+        Me.rdoParallel_tab4.Location = New System.Drawing.Point(140, 2)
+        Me.rdoParallel_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab4.Name = "rdoParallel_tab4"
+        Me.rdoParallel_tab4.Size = New System.Drawing.Size(100, 22)
+        Me.rdoParallel_tab4.TabIndex = 424
+        Me.rdoParallel_tab4.TabStop = True
+        Me.rdoParallel_tab4.Text = "Parallel line"
+        Me.rdoParallel_tab4.UseVisualStyleBackColor = True
+        '
+        'rdoEachpoint_tab4
+        '
+        Me.rdoEachpoint_tab4.AutoSize = True
+        Me.rdoEachpoint_tab4.Location = New System.Drawing.Point(2, 2)
+        Me.rdoEachpoint_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab4.Name = "rdoEachpoint_tab4"
+        Me.rdoEachpoint_tab4.Size = New System.Drawing.Size(134, 22)
+        Me.rdoEachpoint_tab4.TabIndex = 423
+        Me.rdoEachpoint_tab4.TabStop = True
+        Me.rdoEachpoint_tab4.Text = "From each point"
+        Me.rdoEachpoint_tab4.UseVisualStyleBackColor = True
+        '
+        'Label52
+        '
+        Me.Label52.AutoSize = True
+        Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label52.Location = New System.Drawing.Point(56, 226)
+        Me.Label52.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label52.Name = "Label52"
+        Me.Label52.Size = New System.Drawing.Size(91, 18)
+        Me.Label52.TabIndex = 458
+        Me.Label52.Text = "Kink method"
+        '
+        'txtdLdIPermisrate_tab4
+        '
+        Me.txtdLdIPermisrate_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIPermisrate_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIPermisrate_tab4.Location = New System.Drawing.Point(190, 184)
+        Me.txtdLdIPermisrate_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermisrate_tab4.Name = "txtdLdIPermisrate_tab4"
+        Me.txtdLdIPermisrate_tab4.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIPermisrate_tab4.TabIndex = 457
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.Location = New System.Drawing.Point(56, 185)
+        Me.Label56.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(146, 18)
+        Me.Label56.TabIndex = 456
+        Me.Label56.Text = "Permistion rate [%] ±"
+        '
+        'txtdLdISmoot_tab4
+        '
+        Me.txtdLdISmoot_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdISmoot_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdISmoot_tab4.Location = New System.Drawing.Point(190, 151)
+        Me.txtdLdISmoot_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab4.Name = "txtdLdISmoot_tab4"
+        Me.txtdLdISmoot_tab4.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdISmoot_tab4.TabIndex = 455
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label57.Location = New System.Drawing.Point(56, 150)
+        Me.Label57.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(100, 18)
+        Me.Label57.TabIndex = 454
+        Me.Label57.Text = "Smoothing[pt]"
+        '
+        'txtdLdIStep_tab4
+        '
+        Me.txtdLdIStep_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIStep_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIStep_tab4.Location = New System.Drawing.Point(190, 119)
+        Me.txtdLdIStep_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab4.Name = "txtdLdIStep_tab4"
+        Me.txtdLdIStep_tab4.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIStep_tab4.TabIndex = 453
+        '
+        'Label58
+        '
+        Me.Label58.AutoSize = True
+        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label58.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label58.Location = New System.Drawing.Point(55, 91)
+        Me.Label58.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(53, 20)
+        Me.Label58.TabIndex = 452
+        Me.Label58.Text = "dL / dI"
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label59.Location = New System.Drawing.Point(56, 119)
+        Me.Label59.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(68, 18)
+        Me.Label59.TabIndex = 451
+        Me.Label59.Text = "Step[mA]"
+        '
+        'cboSelect_tab4
+        '
+        Me.cboSelect_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboSelect_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboSelect_tab4.FormattingEnabled = True
+        Me.cboSelect_tab4.Location = New System.Drawing.Point(147, 41)
+        Me.cboSelect_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab4.Name = "cboSelect_tab4"
+        Me.cboSelect_tab4.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect_tab4.TabIndex = 450
+        '
+        'Label60
+        '
+        Me.Label60.AutoSize = True
+        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label60.Location = New System.Drawing.Point(56, 45)
+        Me.Label60.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(49, 18)
+        Me.Label60.TabIndex = 449
+        Me.Label60.Text = "Select"
+        '
+        'ILJudg_tab5
+        '
+        Me.ILJudg_tab5.Controls.Add(Me.btnOKILjudge5)
+        Me.ILJudg_tab5.Controls.Add(Me.GroupBox9)
+        Me.ILJudg_tab5.Controls.Add(Me.GroupBox10)
+        Me.ILJudg_tab5.Controls.Add(Me.Panel5)
+        Me.ILJudg_tab5.Controls.Add(Me.Label70)
+        Me.ILJudg_tab5.Controls.Add(Me.txtdLdIPermis_tab5)
+        Me.ILJudg_tab5.Controls.Add(Me.Label71)
+        Me.ILJudg_tab5.Controls.Add(Me.txtdLdISmoot_tab5)
+        Me.ILJudg_tab5.Controls.Add(Me.Label72)
+        Me.ILJudg_tab5.Controls.Add(Me.txtdLdIStep_tab5)
+        Me.ILJudg_tab5.Controls.Add(Me.Label73)
+        Me.ILJudg_tab5.Controls.Add(Me.Label74)
+        Me.ILJudg_tab5.Controls.Add(Me.cboSelect_tab5)
+        Me.ILJudg_tab5.Controls.Add(Me.Label75)
+        Me.ILJudg_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ILJudg_tab5.Location = New System.Drawing.Point(4, 26)
+        Me.ILJudg_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab5.Name = "ILJudg_tab5"
+        Me.ILJudg_tab5.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab5.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab5.TabIndex = 4
+        Me.ILJudg_tab5.Text = "IL Judge5"
+        Me.ILJudg_tab5.UseVisualStyleBackColor = True
+        '
+        'btnOKILjudge5
+        '
+        Me.btnOKILjudge5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnOKILjudge5.Location = New System.Drawing.Point(750, 476)
+        Me.btnOKILjudge5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnOKILjudge5.Name = "btnOKILjudge5"
+        Me.btnOKILjudge5.Size = New System.Drawing.Size(77, 30)
+        Me.btnOKILjudge5.TabIndex = 465
+        Me.btnOKILjudge5.Text = "OK"
+        Me.btnOKILjudge5.UseVisualStyleBackColor = True
+        '
+        'GroupBox9
+        '
+        Me.GroupBox9.Controls.Add(Me.rdoSec_tab5)
+        Me.GroupBox9.Controls.Add(Me.rdoPrimary_tab5)
+        Me.GroupBox9.Controls.Add(Me.Label61)
+        Me.GroupBox9.Controls.Add(Me.txtNumpoint_tab5)
+        Me.GroupBox9.Location = New System.Drawing.Point(58, 425)
+        Me.GroupBox9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox9.Name = "GroupBox9"
+        Me.GroupBox9.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox9.Size = New System.Drawing.Size(433, 74)
+        Me.GroupBox9.TabIndex = 461
+        Me.GroupBox9.TabStop = False
+        Me.GroupBox9.Text = "Least-squares method"
+        '
+        'rdoSec_tab5
+        '
+        Me.rdoSec_tab5.AutoSize = True
+        Me.rdoSec_tab5.Location = New System.Drawing.Point(112, 32)
+        Me.rdoSec_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab5.Name = "rdoSec_tab5"
+        Me.rdoSec_tab5.Size = New System.Drawing.Size(97, 22)
+        Me.rdoSec_tab5.TabIndex = 425
+        Me.rdoSec_tab5.TabStop = True
+        Me.rdoSec_tab5.Text = "Secondary"
+        Me.rdoSec_tab5.UseVisualStyleBackColor = True
+        '
+        'rdoPrimary_tab5
+        '
+        Me.rdoPrimary_tab5.AutoSize = True
+        Me.rdoPrimary_tab5.Location = New System.Drawing.Point(27, 32)
+        Me.rdoPrimary_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab5.Name = "rdoPrimary_tab5"
+        Me.rdoPrimary_tab5.Size = New System.Drawing.Size(77, 22)
+        Me.rdoPrimary_tab5.TabIndex = 425
+        Me.rdoPrimary_tab5.TabStop = True
+        Me.rdoPrimary_tab5.Text = "Primary"
+        Me.rdoPrimary_tab5.UseVisualStyleBackColor = True
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.Location = New System.Drawing.Point(233, 33)
+        Me.Label61.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(114, 18)
+        Me.Label61.TabIndex = 421
+        Me.Label61.Text = "Number of point"
+        '
+        'txtNumpoint_tab5
+        '
+        Me.txtNumpoint_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtNumpoint_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumpoint_tab5.Location = New System.Drawing.Point(350, 32)
+        Me.txtNumpoint_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab5.Name = "txtNumpoint_tab5"
+        Me.txtNumpoint_tab5.Size = New System.Drawing.Size(60, 24)
+        Me.txtNumpoint_tab5.TabIndex = 422
+        '
+        'GroupBox10
+        '
+        Me.GroupBox10.Controls.Add(Me.Label62)
+        Me.GroupBox10.Controls.Add(Me.Label63)
+        Me.GroupBox10.Controls.Add(Me.txtOption3End_tab5)
+        Me.GroupBox10.Controls.Add(Me.txtOption2End_tab5)
+        Me.GroupBox10.Controls.Add(Me.rdoOprion3End_tab5)
+        Me.GroupBox10.Controls.Add(Me.rdoOprion2End_tab5)
+        Me.GroupBox10.Controls.Add(Me.Label64)
+        Me.GroupBox10.Controls.Add(Me.txtOption1End_tab5)
+        Me.GroupBox10.Controls.Add(Me.cboOption1End_2_tab5)
+        Me.GroupBox10.Controls.Add(Me.cboOption1End_1_tab5)
+        Me.GroupBox10.Controls.Add(Me.rdoOprion1End_tab5)
+        Me.GroupBox10.Controls.Add(Me.Label65)
+        Me.GroupBox10.Controls.Add(Me.Label66)
+        Me.GroupBox10.Controls.Add(Me.txtOption3_tab5)
+        Me.GroupBox10.Controls.Add(Me.txtOption2_tab5)
+        Me.GroupBox10.Controls.Add(Me.rdoOprion3_tab5)
+        Me.GroupBox10.Controls.Add(Me.rdoOprion2_tab5)
+        Me.GroupBox10.Controls.Add(Me.Label67)
+        Me.GroupBox10.Controls.Add(Me.txtOption1_tab5)
+        Me.GroupBox10.Controls.Add(Me.cboOption1_2_tab5)
+        Me.GroupBox10.Controls.Add(Me.cboOption1_1_tab5)
+        Me.GroupBox10.Controls.Add(Me.rdoOprion1_tab5)
+        Me.GroupBox10.Controls.Add(Me.Label68)
+        Me.GroupBox10.Controls.Add(Me.Label69)
+        Me.GroupBox10.Location = New System.Drawing.Point(58, 277)
+        Me.GroupBox10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox10.Name = "GroupBox10"
+        Me.GroupBox10.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox10.Size = New System.Drawing.Size(632, 143)
+        Me.GroupBox10.TabIndex = 460
+        Me.GroupBox10.TabStop = False
+        Me.GroupBox10.Text = "Judgment range "
+        '
+        'Label62
+        '
+        Me.Label62.AutoSize = True
+        Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label62.Location = New System.Drawing.Point(548, 109)
+        Me.Label62.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(36, 18)
+        Me.Label62.TabIndex = 447
+        Me.Label62.Text = "mW"
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.Location = New System.Drawing.Point(548, 78)
+        Me.Label63.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(30, 18)
+        Me.Label63.TabIndex = 446
+        Me.Label63.Text = "mA"
+        '
+        'txtOption3End_tab5
+        '
+        Me.txtOption3End_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3End_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3End_tab5.Location = New System.Drawing.Point(365, 107)
+        Me.txtOption3End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab5.Name = "txtOption3End_tab5"
+        Me.txtOption3End_tab5.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3End_tab5.TabIndex = 445
+        '
+        'txtOption2End_tab5
+        '
+        Me.txtOption2End_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2End_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2End_tab5.Location = New System.Drawing.Point(365, 74)
+        Me.txtOption2End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab5.Name = "txtOption2End_tab5"
+        Me.txtOption2End_tab5.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2End_tab5.TabIndex = 444
+        '
+        'rdoOprion3End_tab5
+        '
+        Me.rdoOprion3End_tab5.AutoSize = True
+        Me.rdoOprion3End_tab5.Location = New System.Drawing.Point(350, 111)
+        Me.rdoOprion3End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab5.Name = "rdoOprion3End_tab5"
+        Me.rdoOprion3End_tab5.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3End_tab5.TabIndex = 443
+        Me.rdoOprion3End_tab5.TabStop = True
+        Me.rdoOprion3End_tab5.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2End_tab5
+        '
+        Me.rdoOprion2End_tab5.AutoSize = True
+        Me.rdoOprion2End_tab5.Location = New System.Drawing.Point(350, 78)
+        Me.rdoOprion2End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab5.Name = "rdoOprion2End_tab5"
+        Me.rdoOprion2End_tab5.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2End_tab5.TabIndex = 442
+        Me.rdoOprion2End_tab5.TabStop = True
+        Me.rdoOprion2End_tab5.UseVisualStyleBackColor = True
+        '
+        'Label64
+        '
+        Me.Label64.AutoSize = True
+        Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label64.Location = New System.Drawing.Point(548, 44)
+        Me.Label64.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(30, 18)
+        Me.Label64.TabIndex = 441
+        Me.Label64.Text = "mA"
+        '
+        'txtOption1End_tab5
+        '
+        Me.txtOption1End_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1End_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1End_tab5.Location = New System.Drawing.Point(483, 41)
+        Me.txtOption1End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab5.Name = "txtOption1End_tab5"
+        Me.txtOption1End_tab5.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1End_tab5.TabIndex = 438
+        '
+        'cboOption1End_2_tab5
+        '
+        Me.cboOption1End_2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_2_tab5.FormattingEnabled = True
+        Me.cboOption1End_2_tab5.Location = New System.Drawing.Point(440, 41)
+        Me.cboOption1End_2_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab5.Name = "cboOption1End_2_tab5"
+        Me.cboOption1End_2_tab5.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1End_2_tab5.TabIndex = 440
+        '
+        'cboOption1End_1_tab5
+        '
+        Me.cboOption1End_1_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_1_tab5.FormattingEnabled = True
+        Me.cboOption1End_1_tab5.Location = New System.Drawing.Point(365, 41)
+        Me.cboOption1End_1_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab5.Name = "cboOption1End_1_tab5"
+        Me.cboOption1End_1_tab5.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1End_1_tab5.TabIndex = 439
+        '
+        'rdoOprion1End_tab5
+        '
+        Me.rdoOprion1End_tab5.AutoSize = True
+        Me.rdoOprion1End_tab5.Location = New System.Drawing.Point(350, 46)
+        Me.rdoOprion1End_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab5.Name = "rdoOprion1End_tab5"
+        Me.rdoOprion1End_tab5.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1End_tab5.TabIndex = 437
+        Me.rdoOprion1End_tab5.TabStop = True
+        Me.rdoOprion1End_tab5.UseVisualStyleBackColor = True
+        '
+        'Label65
+        '
+        Me.Label65.AutoSize = True
+        Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label65.Location = New System.Drawing.Point(310, 108)
+        Me.Label65.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(36, 18)
+        Me.Label65.TabIndex = 436
+        Me.Label65.Text = "mW"
+        '
+        'Label66
+        '
+        Me.Label66.AutoSize = True
+        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label66.Location = New System.Drawing.Point(310, 77)
+        Me.Label66.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(30, 18)
+        Me.Label66.TabIndex = 435
+        Me.Label66.Text = "mA"
+        '
+        'txtOption3_tab5
+        '
+        Me.txtOption3_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3_tab5.Location = New System.Drawing.Point(128, 106)
+        Me.txtOption3_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab5.Name = "txtOption3_tab5"
+        Me.txtOption3_tab5.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3_tab5.TabIndex = 434
+        '
+        'txtOption2_tab5
+        '
+        Me.txtOption2_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2_tab5.Location = New System.Drawing.Point(128, 73)
+        Me.txtOption2_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab5.Name = "txtOption2_tab5"
+        Me.txtOption2_tab5.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2_tab5.TabIndex = 433
+        '
+        'rdoOprion3_tab5
+        '
+        Me.rdoOprion3_tab5.AutoSize = True
+        Me.rdoOprion3_tab5.Location = New System.Drawing.Point(112, 110)
+        Me.rdoOprion3_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab5.Name = "rdoOprion3_tab5"
+        Me.rdoOprion3_tab5.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3_tab5.TabIndex = 432
+        Me.rdoOprion3_tab5.TabStop = True
+        Me.rdoOprion3_tab5.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2_tab5
+        '
+        Me.rdoOprion2_tab5.AutoSize = True
+        Me.rdoOprion2_tab5.Location = New System.Drawing.Point(112, 77)
+        Me.rdoOprion2_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab5.Name = "rdoOprion2_tab5"
+        Me.rdoOprion2_tab5.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2_tab5.TabIndex = 431
+        Me.rdoOprion2_tab5.TabStop = True
+        Me.rdoOprion2_tab5.UseVisualStyleBackColor = True
+        '
+        'Label67
+        '
+        Me.Label67.AutoSize = True
+        Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.Location = New System.Drawing.Point(310, 43)
+        Me.Label67.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label67.Name = "Label67"
+        Me.Label67.Size = New System.Drawing.Size(30, 18)
+        Me.Label67.TabIndex = 430
+        Me.Label67.Text = "mA"
+        '
+        'txtOption1_tab5
+        '
+        Me.txtOption1_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1_tab5.Location = New System.Drawing.Point(245, 41)
+        Me.txtOption1_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab5.Name = "txtOption1_tab5"
+        Me.txtOption1_tab5.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1_tab5.TabIndex = 427
+        '
+        'cboOption1_2_tab5
+        '
+        Me.cboOption1_2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_2_tab5.FormattingEnabled = True
+        Me.cboOption1_2_tab5.Location = New System.Drawing.Point(202, 40)
+        Me.cboOption1_2_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab5.Name = "cboOption1_2_tab5"
+        Me.cboOption1_2_tab5.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1_2_tab5.TabIndex = 429
+        '
+        'cboOption1_1_tab5
+        '
+        Me.cboOption1_1_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_1_tab5.FormattingEnabled = True
+        Me.cboOption1_1_tab5.Location = New System.Drawing.Point(128, 40)
+        Me.cboOption1_1_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab5.Name = "cboOption1_1_tab5"
+        Me.cboOption1_1_tab5.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1_1_tab5.TabIndex = 427
+        '
+        'rdoOprion1_tab5
+        '
+        Me.rdoOprion1_tab5.AutoSize = True
+        Me.rdoOprion1_tab5.Location = New System.Drawing.Point(112, 45)
+        Me.rdoOprion1_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab5.Name = "rdoOprion1_tab5"
+        Me.rdoOprion1_tab5.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1_tab5.TabIndex = 425
+        Me.rdoOprion1_tab5.TabStop = True
+        Me.rdoOprion1_tab5.UseVisualStyleBackColor = True
+        '
+        'Label68
+        '
+        Me.Label68.AutoSize = True
+        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label68.Location = New System.Drawing.Point(432, 20)
+        Me.Label68.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(34, 18)
+        Me.Label68.TabIndex = 428
+        Me.Label68.Text = "End"
+        '
+        'Label69
+        '
+        Me.Label69.AutoSize = True
+        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Location = New System.Drawing.Point(185, 20)
+        Me.Label69.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label69.Name = "Label69"
+        Me.Label69.Size = New System.Drawing.Size(39, 18)
+        Me.Label69.TabIndex = 427
+        Me.Label69.Text = "Start"
+        '
+        'Panel5
+        '
+        Me.Panel5.Controls.Add(Me.rdoParallel_tab5)
+        Me.Panel5.Controls.Add(Me.rdoEachpoint_tab5)
+        Me.Panel5.Location = New System.Drawing.Point(159, 222)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(236, 28)
+        Me.Panel5.TabIndex = 459
+        '
+        'rdoParallel_tab5
+        '
+        Me.rdoParallel_tab5.AutoSize = True
+        Me.rdoParallel_tab5.Location = New System.Drawing.Point(140, 2)
+        Me.rdoParallel_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab5.Name = "rdoParallel_tab5"
+        Me.rdoParallel_tab5.Size = New System.Drawing.Size(100, 22)
+        Me.rdoParallel_tab5.TabIndex = 424
+        Me.rdoParallel_tab5.TabStop = True
+        Me.rdoParallel_tab5.Text = "Parallel line"
+        Me.rdoParallel_tab5.UseVisualStyleBackColor = True
+        '
+        'rdoEachpoint_tab5
+        '
+        Me.rdoEachpoint_tab5.AutoSize = True
+        Me.rdoEachpoint_tab5.Location = New System.Drawing.Point(2, 2)
+        Me.rdoEachpoint_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab5.Name = "rdoEachpoint_tab5"
+        Me.rdoEachpoint_tab5.Size = New System.Drawing.Size(134, 22)
+        Me.rdoEachpoint_tab5.TabIndex = 423
+        Me.rdoEachpoint_tab5.TabStop = True
+        Me.rdoEachpoint_tab5.Text = "From each point"
+        Me.rdoEachpoint_tab5.UseVisualStyleBackColor = True
+        '
+        'Label70
+        '
+        Me.Label70.AutoSize = True
+        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label70.Location = New System.Drawing.Point(56, 226)
+        Me.Label70.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(91, 18)
+        Me.Label70.TabIndex = 458
+        Me.Label70.Text = "Kink method"
+        '
+        'txtdLdIPermis_tab5
+        '
+        Me.txtdLdIPermis_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIPermis_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIPermis_tab5.Location = New System.Drawing.Point(190, 184)
+        Me.txtdLdIPermis_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermis_tab5.Name = "txtdLdIPermis_tab5"
+        Me.txtdLdIPermis_tab5.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIPermis_tab5.TabIndex = 457
+        '
+        'Label71
+        '
+        Me.Label71.AutoSize = True
+        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.Location = New System.Drawing.Point(56, 185)
+        Me.Label71.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(146, 18)
+        Me.Label71.TabIndex = 456
+        Me.Label71.Text = "Permistion rate [%] ±"
+        '
+        'txtdLdISmoot_tab5
+        '
+        Me.txtdLdISmoot_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdISmoot_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdISmoot_tab5.Location = New System.Drawing.Point(190, 151)
+        Me.txtdLdISmoot_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab5.Name = "txtdLdISmoot_tab5"
+        Me.txtdLdISmoot_tab5.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdISmoot_tab5.TabIndex = 455
+        '
+        'Label72
+        '
+        Me.Label72.AutoSize = True
+        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label72.Location = New System.Drawing.Point(56, 150)
+        Me.Label72.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label72.Name = "Label72"
+        Me.Label72.Size = New System.Drawing.Size(100, 18)
+        Me.Label72.TabIndex = 454
+        Me.Label72.Text = "Smoothing[pt]"
+        '
+        'txtdLdIStep_tab5
+        '
+        Me.txtdLdIStep_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIStep_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIStep_tab5.Location = New System.Drawing.Point(190, 119)
+        Me.txtdLdIStep_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab5.Name = "txtdLdIStep_tab5"
+        Me.txtdLdIStep_tab5.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIStep_tab5.TabIndex = 453
+        '
+        'Label73
+        '
+        Me.Label73.AutoSize = True
+        Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label73.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label73.Location = New System.Drawing.Point(55, 91)
+        Me.Label73.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label73.Name = "Label73"
+        Me.Label73.Size = New System.Drawing.Size(53, 20)
+        Me.Label73.TabIndex = 452
+        Me.Label73.Text = "dL / dI"
+        '
+        'Label74
+        '
+        Me.Label74.AutoSize = True
+        Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.Location = New System.Drawing.Point(56, 119)
+        Me.Label74.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label74.Name = "Label74"
+        Me.Label74.Size = New System.Drawing.Size(68, 18)
+        Me.Label74.TabIndex = 451
+        Me.Label74.Text = "Step[mA]"
+        '
+        'cboSelect_tab5
+        '
+        Me.cboSelect_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboSelect_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboSelect_tab5.FormattingEnabled = True
+        Me.cboSelect_tab5.Location = New System.Drawing.Point(147, 41)
+        Me.cboSelect_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab5.Name = "cboSelect_tab5"
+        Me.cboSelect_tab5.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect_tab5.TabIndex = 450
+        '
+        'Label75
+        '
+        Me.Label75.AutoSize = True
+        Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.Location = New System.Drawing.Point(56, 45)
+        Me.Label75.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label75.Name = "Label75"
+        Me.Label75.Size = New System.Drawing.Size(49, 18)
+        Me.Label75.TabIndex = 449
+        Me.Label75.Text = "Select"
+        '
+        'ILJudg_tab6
+        '
+        Me.ILJudg_tab6.Controls.Add(Me.btnOKILjudge6)
+        Me.ILJudg_tab6.Controls.Add(Me.GroupBox11)
+        Me.ILJudg_tab6.Controls.Add(Me.GroupBox12)
+        Me.ILJudg_tab6.Controls.Add(Me.Panel6)
+        Me.ILJudg_tab6.Controls.Add(Me.Label85)
+        Me.ILJudg_tab6.Controls.Add(Me.txtdLdIPermis_tab6)
+        Me.ILJudg_tab6.Controls.Add(Me.Label86)
+        Me.ILJudg_tab6.Controls.Add(Me.txtdLdISmoot_tab6)
+        Me.ILJudg_tab6.Controls.Add(Me.Label87)
+        Me.ILJudg_tab6.Controls.Add(Me.txtdLdIStep_tab6)
+        Me.ILJudg_tab6.Controls.Add(Me.Label88)
+        Me.ILJudg_tab6.Controls.Add(Me.Label89)
+        Me.ILJudg_tab6.Controls.Add(Me.cboSelect_tab6)
+        Me.ILJudg_tab6.Controls.Add(Me.Label90)
+        Me.ILJudg_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ILJudg_tab6.Location = New System.Drawing.Point(4, 26)
+        Me.ILJudg_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab6.Name = "ILJudg_tab6"
+        Me.ILJudg_tab6.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ILJudg_tab6.Size = New System.Drawing.Size(900, 539)
+        Me.ILJudg_tab6.TabIndex = 5
+        Me.ILJudg_tab6.Text = "IL Judge6"
+        Me.ILJudg_tab6.UseVisualStyleBackColor = True
+        '
+        'btnOKILjudge6
+        '
+        Me.btnOKILjudge6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnOKILjudge6.Location = New System.Drawing.Point(750, 476)
+        Me.btnOKILjudge6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnOKILjudge6.Name = "btnOKILjudge6"
+        Me.btnOKILjudge6.Size = New System.Drawing.Size(77, 30)
+        Me.btnOKILjudge6.TabIndex = 465
+        Me.btnOKILjudge6.Text = "OK"
+        Me.btnOKILjudge6.UseVisualStyleBackColor = True
+        '
+        'GroupBox11
+        '
+        Me.GroupBox11.Controls.Add(Me.rdoSec_tab6)
+        Me.GroupBox11.Controls.Add(Me.rdoPrimary_tab6)
+        Me.GroupBox11.Controls.Add(Me.Label76)
+        Me.GroupBox11.Controls.Add(Me.txtNumpoint_tab6)
+        Me.GroupBox11.Location = New System.Drawing.Point(58, 425)
+        Me.GroupBox11.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox11.Name = "GroupBox11"
+        Me.GroupBox11.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox11.Size = New System.Drawing.Size(433, 74)
+        Me.GroupBox11.TabIndex = 461
+        Me.GroupBox11.TabStop = False
+        Me.GroupBox11.Text = "Least-squares method"
+        '
+        'rdoSec_tab6
+        '
+        Me.rdoSec_tab6.AutoSize = True
+        Me.rdoSec_tab6.Location = New System.Drawing.Point(112, 32)
+        Me.rdoSec_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoSec_tab6.Name = "rdoSec_tab6"
+        Me.rdoSec_tab6.Size = New System.Drawing.Size(97, 22)
+        Me.rdoSec_tab6.TabIndex = 425
+        Me.rdoSec_tab6.TabStop = True
+        Me.rdoSec_tab6.Text = "Secondary"
+        Me.rdoSec_tab6.UseVisualStyleBackColor = True
+        '
+        'rdoPrimary_tab6
+        '
+        Me.rdoPrimary_tab6.AutoSize = True
+        Me.rdoPrimary_tab6.Location = New System.Drawing.Point(27, 32)
+        Me.rdoPrimary_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoPrimary_tab6.Name = "rdoPrimary_tab6"
+        Me.rdoPrimary_tab6.Size = New System.Drawing.Size(77, 22)
+        Me.rdoPrimary_tab6.TabIndex = 425
+        Me.rdoPrimary_tab6.TabStop = True
+        Me.rdoPrimary_tab6.Text = "Primary"
+        Me.rdoPrimary_tab6.UseVisualStyleBackColor = True
+        '
+        'Label76
+        '
+        Me.Label76.AutoSize = True
+        Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label76.Location = New System.Drawing.Point(233, 33)
+        Me.Label76.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label76.Name = "Label76"
+        Me.Label76.Size = New System.Drawing.Size(114, 18)
+        Me.Label76.TabIndex = 421
+        Me.Label76.Text = "Number of point"
+        '
+        'txtNumpoint_tab6
+        '
+        Me.txtNumpoint_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtNumpoint_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumpoint_tab6.Location = New System.Drawing.Point(350, 32)
+        Me.txtNumpoint_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtNumpoint_tab6.Name = "txtNumpoint_tab6"
+        Me.txtNumpoint_tab6.Size = New System.Drawing.Size(60, 24)
+        Me.txtNumpoint_tab6.TabIndex = 422
+        '
+        'GroupBox12
+        '
+        Me.GroupBox12.Controls.Add(Me.Label77)
+        Me.GroupBox12.Controls.Add(Me.Label78)
+        Me.GroupBox12.Controls.Add(Me.txtOption3End_tab6)
+        Me.GroupBox12.Controls.Add(Me.txtOption2End_tab6)
+        Me.GroupBox12.Controls.Add(Me.rdoOprion3End_tab6)
+        Me.GroupBox12.Controls.Add(Me.rdoOprion2End_tab6)
+        Me.GroupBox12.Controls.Add(Me.Label79)
+        Me.GroupBox12.Controls.Add(Me.txtOption1End_tab6)
+        Me.GroupBox12.Controls.Add(Me.cboOption1End_2_tab6)
+        Me.GroupBox12.Controls.Add(Me.cboOption1End_1_tab6)
+        Me.GroupBox12.Controls.Add(Me.rdoOprion1End_tab6)
+        Me.GroupBox12.Controls.Add(Me.Label80)
+        Me.GroupBox12.Controls.Add(Me.Label81)
+        Me.GroupBox12.Controls.Add(Me.txtOption3_tab6)
+        Me.GroupBox12.Controls.Add(Me.txtOption2_tab6)
+        Me.GroupBox12.Controls.Add(Me.rdoOprion3_tab6)
+        Me.GroupBox12.Controls.Add(Me.rdoOprion2_tab6)
+        Me.GroupBox12.Controls.Add(Me.Label82)
+        Me.GroupBox12.Controls.Add(Me.txtOption1_tab6)
+        Me.GroupBox12.Controls.Add(Me.cboOption1_2_tab6)
+        Me.GroupBox12.Controls.Add(Me.cboOption1_1_tab6)
+        Me.GroupBox12.Controls.Add(Me.rdoOprion1_tab6)
+        Me.GroupBox12.Controls.Add(Me.Label83)
+        Me.GroupBox12.Controls.Add(Me.Label84)
+        Me.GroupBox12.Location = New System.Drawing.Point(58, 277)
+        Me.GroupBox12.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox12.Name = "GroupBox12"
+        Me.GroupBox12.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox12.Size = New System.Drawing.Size(632, 143)
+        Me.GroupBox12.TabIndex = 460
+        Me.GroupBox12.TabStop = False
+        Me.GroupBox12.Text = "Judgment range "
+        '
+        'Label77
+        '
+        Me.Label77.AutoSize = True
+        Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label77.Location = New System.Drawing.Point(548, 109)
+        Me.Label77.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label77.Name = "Label77"
+        Me.Label77.Size = New System.Drawing.Size(36, 18)
+        Me.Label77.TabIndex = 447
+        Me.Label77.Text = "mW"
+        '
+        'Label78
+        '
+        Me.Label78.AutoSize = True
+        Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label78.Location = New System.Drawing.Point(548, 78)
+        Me.Label78.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label78.Name = "Label78"
+        Me.Label78.Size = New System.Drawing.Size(30, 18)
+        Me.Label78.TabIndex = 446
+        Me.Label78.Text = "mA"
+        '
+        'txtOption3End_tab6
+        '
+        Me.txtOption3End_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3End_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3End_tab6.Location = New System.Drawing.Point(365, 107)
+        Me.txtOption3End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3End_tab6.Name = "txtOption3End_tab6"
+        Me.txtOption3End_tab6.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3End_tab6.TabIndex = 445
+        '
+        'txtOption2End_tab6
+        '
+        Me.txtOption2End_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2End_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2End_tab6.Location = New System.Drawing.Point(365, 74)
+        Me.txtOption2End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2End_tab6.Name = "txtOption2End_tab6"
+        Me.txtOption2End_tab6.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2End_tab6.TabIndex = 444
+        '
+        'rdoOprion3End_tab6
+        '
+        Me.rdoOprion3End_tab6.AutoSize = True
+        Me.rdoOprion3End_tab6.Location = New System.Drawing.Point(350, 111)
+        Me.rdoOprion3End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3End_tab6.Name = "rdoOprion3End_tab6"
+        Me.rdoOprion3End_tab6.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3End_tab6.TabIndex = 443
+        Me.rdoOprion3End_tab6.TabStop = True
+        Me.rdoOprion3End_tab6.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2End_tab6
+        '
+        Me.rdoOprion2End_tab6.AutoSize = True
+        Me.rdoOprion2End_tab6.Location = New System.Drawing.Point(350, 78)
+        Me.rdoOprion2End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2End_tab6.Name = "rdoOprion2End_tab6"
+        Me.rdoOprion2End_tab6.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2End_tab6.TabIndex = 442
+        Me.rdoOprion2End_tab6.TabStop = True
+        Me.rdoOprion2End_tab6.UseVisualStyleBackColor = True
+        '
+        'Label79
+        '
+        Me.Label79.AutoSize = True
+        Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label79.Location = New System.Drawing.Point(548, 44)
+        Me.Label79.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label79.Name = "Label79"
+        Me.Label79.Size = New System.Drawing.Size(30, 18)
+        Me.Label79.TabIndex = 441
+        Me.Label79.Text = "mA"
+        '
+        'txtOption1End_tab6
+        '
+        Me.txtOption1End_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1End_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1End_tab6.Location = New System.Drawing.Point(483, 41)
+        Me.txtOption1End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1End_tab6.Name = "txtOption1End_tab6"
+        Me.txtOption1End_tab6.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1End_tab6.TabIndex = 438
+        '
+        'cboOption1End_2_tab6
+        '
+        Me.cboOption1End_2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_2_tab6.FormattingEnabled = True
+        Me.cboOption1End_2_tab6.Location = New System.Drawing.Point(440, 41)
+        Me.cboOption1End_2_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_2_tab6.Name = "cboOption1End_2_tab6"
+        Me.cboOption1End_2_tab6.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1End_2_tab6.TabIndex = 440
+        '
+        'cboOption1End_1_tab6
+        '
+        Me.cboOption1End_1_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1End_1_tab6.FormattingEnabled = True
+        Me.cboOption1End_1_tab6.Location = New System.Drawing.Point(365, 41)
+        Me.cboOption1End_1_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1End_1_tab6.Name = "cboOption1End_1_tab6"
+        Me.cboOption1End_1_tab6.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1End_1_tab6.TabIndex = 439
+        '
+        'rdoOprion1End_tab6
+        '
+        Me.rdoOprion1End_tab6.AutoSize = True
+        Me.rdoOprion1End_tab6.Location = New System.Drawing.Point(350, 46)
+        Me.rdoOprion1End_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1End_tab6.Name = "rdoOprion1End_tab6"
+        Me.rdoOprion1End_tab6.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1End_tab6.TabIndex = 437
+        Me.rdoOprion1End_tab6.TabStop = True
+        Me.rdoOprion1End_tab6.UseVisualStyleBackColor = True
+        '
+        'Label80
+        '
+        Me.Label80.AutoSize = True
+        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.Location = New System.Drawing.Point(310, 108)
+        Me.Label80.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label80.Name = "Label80"
+        Me.Label80.Size = New System.Drawing.Size(36, 18)
+        Me.Label80.TabIndex = 436
+        Me.Label80.Text = "mW"
+        '
+        'Label81
+        '
+        Me.Label81.AutoSize = True
+        Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label81.Location = New System.Drawing.Point(310, 77)
+        Me.Label81.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label81.Name = "Label81"
+        Me.Label81.Size = New System.Drawing.Size(30, 18)
+        Me.Label81.TabIndex = 435
+        Me.Label81.Text = "mA"
+        '
+        'txtOption3_tab6
+        '
+        Me.txtOption3_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption3_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption3_tab6.Location = New System.Drawing.Point(128, 106)
+        Me.txtOption3_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption3_tab6.Name = "txtOption3_tab6"
+        Me.txtOption3_tab6.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption3_tab6.TabIndex = 434
+        '
+        'txtOption2_tab6
+        '
+        Me.txtOption2_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption2_tab6.Location = New System.Drawing.Point(128, 73)
+        Me.txtOption2_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption2_tab6.Name = "txtOption2_tab6"
+        Me.txtOption2_tab6.Size = New System.Drawing.Size(178, 24)
+        Me.txtOption2_tab6.TabIndex = 433
+        '
+        'rdoOprion3_tab6
+        '
+        Me.rdoOprion3_tab6.AutoSize = True
+        Me.rdoOprion3_tab6.Location = New System.Drawing.Point(112, 110)
+        Me.rdoOprion3_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion3_tab6.Name = "rdoOprion3_tab6"
+        Me.rdoOprion3_tab6.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion3_tab6.TabIndex = 432
+        Me.rdoOprion3_tab6.TabStop = True
+        Me.rdoOprion3_tab6.UseVisualStyleBackColor = True
+        '
+        'rdoOprion2_tab6
+        '
+        Me.rdoOprion2_tab6.AutoSize = True
+        Me.rdoOprion2_tab6.Location = New System.Drawing.Point(112, 77)
+        Me.rdoOprion2_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion2_tab6.Name = "rdoOprion2_tab6"
+        Me.rdoOprion2_tab6.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion2_tab6.TabIndex = 431
+        Me.rdoOprion2_tab6.TabStop = True
+        Me.rdoOprion2_tab6.UseVisualStyleBackColor = True
+        '
+        'Label82
+        '
+        Me.Label82.AutoSize = True
+        Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label82.Location = New System.Drawing.Point(310, 43)
+        Me.Label82.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label82.Name = "Label82"
+        Me.Label82.Size = New System.Drawing.Size(30, 18)
+        Me.Label82.TabIndex = 430
+        Me.Label82.Text = "mA"
+        '
+        'txtOption1_tab6
+        '
+        Me.txtOption1_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOption1_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOption1_tab6.Location = New System.Drawing.Point(245, 41)
+        Me.txtOption1_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtOption1_tab6.Name = "txtOption1_tab6"
+        Me.txtOption1_tab6.Size = New System.Drawing.Size(60, 24)
+        Me.txtOption1_tab6.TabIndex = 427
+        '
+        'cboOption1_2_tab6
+        '
+        Me.cboOption1_2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_2_tab6.FormattingEnabled = True
+        Me.cboOption1_2_tab6.Location = New System.Drawing.Point(202, 40)
+        Me.cboOption1_2_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_2_tab6.Name = "cboOption1_2_tab6"
+        Me.cboOption1_2_tab6.Size = New System.Drawing.Size(39, 25)
+        Me.cboOption1_2_tab6.TabIndex = 429
+        '
+        'cboOption1_1_tab6
+        '
+        Me.cboOption1_1_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboOption1_1_tab6.FormattingEnabled = True
+        Me.cboOption1_1_tab6.Location = New System.Drawing.Point(128, 40)
+        Me.cboOption1_1_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOption1_1_tab6.Name = "cboOption1_1_tab6"
+        Me.cboOption1_1_tab6.Size = New System.Drawing.Size(68, 25)
+        Me.cboOption1_1_tab6.TabIndex = 427
+        '
+        'rdoOprion1_tab6
+        '
+        Me.rdoOprion1_tab6.AutoSize = True
+        Me.rdoOprion1_tab6.Location = New System.Drawing.Point(112, 45)
+        Me.rdoOprion1_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoOprion1_tab6.Name = "rdoOprion1_tab6"
+        Me.rdoOprion1_tab6.Size = New System.Drawing.Size(14, 13)
+        Me.rdoOprion1_tab6.TabIndex = 425
+        Me.rdoOprion1_tab6.TabStop = True
+        Me.rdoOprion1_tab6.UseVisualStyleBackColor = True
+        '
+        'Label83
+        '
+        Me.Label83.AutoSize = True
+        Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label83.Location = New System.Drawing.Point(432, 20)
+        Me.Label83.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label83.Name = "Label83"
+        Me.Label83.Size = New System.Drawing.Size(34, 18)
+        Me.Label83.TabIndex = 428
+        Me.Label83.Text = "End"
+        '
+        'Label84
+        '
+        Me.Label84.AutoSize = True
+        Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label84.Location = New System.Drawing.Point(185, 20)
+        Me.Label84.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label84.Name = "Label84"
+        Me.Label84.Size = New System.Drawing.Size(39, 18)
+        Me.Label84.TabIndex = 427
+        Me.Label84.Text = "Start"
+        '
+        'Panel6
+        '
+        Me.Panel6.Controls.Add(Me.rdoParallel_tab6)
+        Me.Panel6.Controls.Add(Me.rdoEachpoint_tab6)
+        Me.Panel6.Location = New System.Drawing.Point(159, 222)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(236, 28)
+        Me.Panel6.TabIndex = 459
+        '
+        'rdoParallel_tab6
+        '
+        Me.rdoParallel_tab6.AutoSize = True
+        Me.rdoParallel_tab6.Location = New System.Drawing.Point(140, 2)
+        Me.rdoParallel_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoParallel_tab6.Name = "rdoParallel_tab6"
+        Me.rdoParallel_tab6.Size = New System.Drawing.Size(100, 22)
+        Me.rdoParallel_tab6.TabIndex = 424
+        Me.rdoParallel_tab6.TabStop = True
+        Me.rdoParallel_tab6.Text = "Parallel line"
+        Me.rdoParallel_tab6.UseVisualStyleBackColor = True
+        '
+        'rdoEachpoint_tab6
+        '
+        Me.rdoEachpoint_tab6.AutoSize = True
+        Me.rdoEachpoint_tab6.Location = New System.Drawing.Point(2, 2)
+        Me.rdoEachpoint_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.rdoEachpoint_tab6.Name = "rdoEachpoint_tab6"
+        Me.rdoEachpoint_tab6.Size = New System.Drawing.Size(134, 22)
+        Me.rdoEachpoint_tab6.TabIndex = 423
+        Me.rdoEachpoint_tab6.TabStop = True
+        Me.rdoEachpoint_tab6.Text = "From each point"
+        Me.rdoEachpoint_tab6.UseVisualStyleBackColor = True
+        '
+        'Label85
+        '
+        Me.Label85.AutoSize = True
+        Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label85.Location = New System.Drawing.Point(56, 226)
+        Me.Label85.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label85.Name = "Label85"
+        Me.Label85.Size = New System.Drawing.Size(91, 18)
+        Me.Label85.TabIndex = 458
+        Me.Label85.Text = "Kink method"
+        '
+        'txtdLdIPermis_tab6
+        '
+        Me.txtdLdIPermis_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIPermis_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIPermis_tab6.Location = New System.Drawing.Point(190, 184)
+        Me.txtdLdIPermis_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIPermis_tab6.Name = "txtdLdIPermis_tab6"
+        Me.txtdLdIPermis_tab6.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIPermis_tab6.TabIndex = 457
+        '
+        'Label86
+        '
+        Me.Label86.AutoSize = True
+        Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label86.Location = New System.Drawing.Point(56, 185)
+        Me.Label86.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label86.Name = "Label86"
+        Me.Label86.Size = New System.Drawing.Size(146, 18)
+        Me.Label86.TabIndex = 456
+        Me.Label86.Text = "Permistion rate [%] ±"
+        '
+        'txtdLdISmoot_tab6
+        '
+        Me.txtdLdISmoot_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdISmoot_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdISmoot_tab6.Location = New System.Drawing.Point(190, 151)
+        Me.txtdLdISmoot_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdISmoot_tab6.Name = "txtdLdISmoot_tab6"
+        Me.txtdLdISmoot_tab6.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdISmoot_tab6.TabIndex = 455
+        '
+        'Label87
+        '
+        Me.Label87.AutoSize = True
+        Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label87.Location = New System.Drawing.Point(56, 150)
+        Me.Label87.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label87.Name = "Label87"
+        Me.Label87.Size = New System.Drawing.Size(100, 18)
+        Me.Label87.TabIndex = 454
+        Me.Label87.Text = "Smoothing[pt]"
+        '
+        'txtdLdIStep_tab6
+        '
+        Me.txtdLdIStep_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdLdIStep_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdLdIStep_tab6.Location = New System.Drawing.Point(190, 119)
+        Me.txtdLdIStep_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtdLdIStep_tab6.Name = "txtdLdIStep_tab6"
+        Me.txtdLdIStep_tab6.Size = New System.Drawing.Size(60, 24)
+        Me.txtdLdIStep_tab6.TabIndex = 453
+        '
+        'Label88
+        '
+        Me.Label88.AutoSize = True
+        Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label88.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label88.Location = New System.Drawing.Point(55, 91)
+        Me.Label88.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label88.Name = "Label88"
+        Me.Label88.Size = New System.Drawing.Size(53, 20)
+        Me.Label88.TabIndex = 452
+        Me.Label88.Text = "dL / dI"
+        '
+        'Label89
+        '
+        Me.Label89.AutoSize = True
+        Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label89.Location = New System.Drawing.Point(56, 119)
+        Me.Label89.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label89.Name = "Label89"
+        Me.Label89.Size = New System.Drawing.Size(68, 18)
+        Me.Label89.TabIndex = 451
+        Me.Label89.Text = "Step[mA]"
+        '
+        'cboSelect_tab6
+        '
+        Me.cboSelect_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboSelect_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboSelect_tab6.FormattingEnabled = True
+        Me.cboSelect_tab6.Location = New System.Drawing.Point(147, 41)
+        Me.cboSelect_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect_tab6.Name = "cboSelect_tab6"
+        Me.cboSelect_tab6.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect_tab6.TabIndex = 450
+        '
+        'Label90
+        '
+        Me.Label90.AutoSize = True
+        Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label90.Location = New System.Drawing.Point(56, 45)
+        Me.Label90.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label90.Name = "Label90"
+        Me.Label90.Size = New System.Drawing.Size(49, 18)
+        Me.Label90.TabIndex = 449
+        Me.Label90.Text = "Select"
+        '
+        'frmiLJudgment
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(908, 569)
+        Me.Controls.Add(Me.txtFBGlockingTimemin_Page4)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Name = "frmiLJudgment"
+        Me.Text = "Form1"
+        Me.txtFBGlockingTimemin_Page4.ResumeLayout(False)
+        Me.ILJudg_tab1.ResumeLayout(False)
+        Me.ILJudg_tab1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.ILJudg_tab2.ResumeLayout(False)
+        Me.ILJudg_tab2.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox4.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        Me.ILJudg_tab3.ResumeLayout(False)
+        Me.ILJudg_tab3.PerformLayout()
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox5.PerformLayout()
+        Me.GroupBox6.ResumeLayout(False)
+        Me.GroupBox6.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
+        Me.ILJudg_tab4.ResumeLayout(False)
+        Me.ILJudg_tab4.PerformLayout()
+        Me.GroupBox7.ResumeLayout(False)
+        Me.GroupBox7.PerformLayout()
+        Me.GroupBox8.ResumeLayout(False)
+        Me.GroupBox8.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
+        Me.ILJudg_tab5.ResumeLayout(False)
+        Me.ILJudg_tab5.PerformLayout()
+        Me.GroupBox9.ResumeLayout(False)
+        Me.GroupBox9.PerformLayout()
+        Me.GroupBox10.ResumeLayout(False)
+        Me.GroupBox10.PerformLayout()
+        Me.Panel5.ResumeLayout(False)
+        Me.Panel5.PerformLayout()
+        Me.ILJudg_tab6.ResumeLayout(False)
+        Me.ILJudg_tab6.PerformLayout()
+        Me.GroupBox11.ResumeLayout(False)
+        Me.GroupBox11.PerformLayout()
+        Me.GroupBox12.ResumeLayout(False)
+        Me.GroupBox12.PerformLayout()
+        Me.Panel6.ResumeLayout(False)
+        Me.Panel6.PerformLayout()
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents txtFBGlockingTimemin_Page4 As TabControl
+    Friend WithEvents ILJudg_tab1 As TabPage
+    Friend WithEvents ILJudg_tab2 As TabPage
+    Friend WithEvents ILJudg_tab3 As TabPage
+    Friend WithEvents ILJudg_tab4 As TabPage
+    Friend WithEvents ILJudg_tab5 As TabPage
+    Friend WithEvents ILJudg_tab6 As TabPage
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents rdoSec_tab1 As RadioButton
+    Friend WithEvents rdoPrimary_tab1 As RadioButton
+    Friend WithEvents Label4 As Label
+    Friend WithEvents txtNumpoint_tab1 As TextBox
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents txtOption3End_tab1 As TextBox
+    Friend WithEvents txtOption2End_tab1 As TextBox
+    Friend WithEvents rdoOprion3End_tab1 As RadioButton
+    Friend WithEvents rdoOprion2End_tab1 As RadioButton
+    Friend WithEvents Label11 As Label
+    Friend WithEvents txtOption1End_tab1 As TextBox
+    Friend WithEvents cboOption1End_2_tab1 As ComboBox
+    Friend WithEvents cboOption1End_1_tab1 As ComboBox
+    Friend WithEvents rdoOprion1End_tab1 As RadioButton
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents txtOption3_tab1 As TextBox
+    Friend WithEvents txtOption2_tab1 As TextBox
+    Friend WithEvents rdoOprion3_tab1 As RadioButton
+    Friend WithEvents rdoOprion2_tab1 As RadioButton
+    Friend WithEvents Label6 As Label
+    Friend WithEvents txtOption1_tab1 As TextBox
+    Friend WithEvents cboOption1_2_tab1 As ComboBox
+    Friend WithEvents cboOption1_1_tab1 As ComboBox
+    Friend WithEvents rdoOprion1_tab1 As RadioButton
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents rdoParallel_tab1 As RadioButton
+    Friend WithEvents rdoEachpoint_tab1 As RadioButton
+    Friend WithEvents Label1 As Label
+    Friend WithEvents txtdLdIPermis_tab1 As TextBox
+    Friend WithEvents Label50 As Label
+    Friend WithEvents txtdLdISmoot_tab1 As TextBox
+    Friend WithEvents Label51 As Label
+    Friend WithEvents txtdLdIStep_tab1 As TextBox
+    Friend WithEvents Label53 As Label
+    Friend WithEvents Label54 As Label
+    Friend WithEvents cboSelect_tab1 As ComboBox
+    Friend WithEvents Label55 As Label
+    Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents rdoSec_tab2 As RadioButton
+    Friend WithEvents rdoPrimary_tab2 As RadioButton
+    Friend WithEvents Label3 As Label
+    Friend WithEvents txtNumpoint_tab2 As TextBox
+    Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents txtOption3End_tab2 As TextBox
+    Friend WithEvents txtOption2End_tab2 As TextBox
+    Friend WithEvents rdoOprion3End_tab2 As RadioButton
+    Friend WithEvents rdoOprion2End_tab2 As RadioButton
+    Friend WithEvents Label14 As Label
+    Friend WithEvents txtOption1End_tab2 As TextBox
+    Friend WithEvents cboOption1End_2_tab2 As ComboBox
+    Friend WithEvents cboOption1End_1_tab2 As ComboBox
+    Friend WithEvents rdoOprion1End_tab2 As RadioButton
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label16 As Label
+    Friend WithEvents txtOption3_tab2 As TextBox
+    Friend WithEvents txtOption2_tab2 As TextBox
+    Friend WithEvents rdoOprion3_tab2 As RadioButton
+    Friend WithEvents rdoOprion2_tab2 As RadioButton
+    Friend WithEvents Label17 As Label
+    Friend WithEvents txtOption1_tab2 As TextBox
+    Friend WithEvents cboOption1_2_tab2 As ComboBox
+    Friend WithEvents cboOption1_1_tab2 As ComboBox
+    Friend WithEvents rdoOprion1_tab2 As RadioButton
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents rdoParallel_tab2 As RadioButton
+    Friend WithEvents rdoEachpoint_tab2 As RadioButton
+    Friend WithEvents Label20 As Label
+    Friend WithEvents txtdLdIPermis_tab2 As TextBox
+    Friend WithEvents Label21 As Label
+    Friend WithEvents txtdLdISmoot_tab2 As TextBox
+    Friend WithEvents Label22 As Label
+    Friend WithEvents txtdLdIStep_tab2 As TextBox
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents cboSelect_tab2 As ComboBox
+    Friend WithEvents Label25 As Label
+    Friend WithEvents GroupBox5 As GroupBox
+    Friend WithEvents rdoSec_tab3 As RadioButton
+    Friend WithEvents rdoPrimary_tab3 As RadioButton
+    Friend WithEvents Label26 As Label
+    Friend WithEvents txtNumpoint_tab3 As TextBox
+    Friend WithEvents GroupBox6 As GroupBox
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents txtOption3End_tab3 As TextBox
+    Friend WithEvents txtOption2End_tab3 As TextBox
+    Friend WithEvents rdoOprion3End_tab3 As RadioButton
+    Friend WithEvents rdoOprion2End_tab3 As RadioButton
+    Friend WithEvents Label29 As Label
+    Friend WithEvents txtOption1End_tab3 As TextBox
+    Friend WithEvents cboOption1End_2_tab3 As ComboBox
+    Friend WithEvents cboOption1End_1_tab3 As ComboBox
+    Friend WithEvents rdoOprion1End_tab3 As RadioButton
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents txtOption3_tab3 As TextBox
+    Friend WithEvents txtOption2_tab3 As TextBox
+    Friend WithEvents rdoOprion3_tab3 As RadioButton
+    Friend WithEvents rdoOprion2_tab3 As RadioButton
+    Friend WithEvents Label32 As Label
+    Friend WithEvents txtOption1_tab3 As TextBox
+    Friend WithEvents cboOption1_2_tab3 As ComboBox
+    Friend WithEvents cboOption1_1_tab3 As ComboBox
+    Friend WithEvents rdoOprion1_tab3 As RadioButton
+    Friend WithEvents Label33 As Label
+    Friend WithEvents Label34 As Label
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents rdoParallel_tab3 As RadioButton
+    Friend WithEvents rdoEachpoint_tab3 As RadioButton
+    Friend WithEvents Label35 As Label
+    Friend WithEvents txtdLdIPermis_tab3 As TextBox
+    Friend WithEvents Label36 As Label
+    Friend WithEvents txtdLdISmoot_tab3 As TextBox
+    Friend WithEvents Label37 As Label
+    Friend WithEvents txtdLdIStep_tab3 As TextBox
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents cboSelect_tab3 As ComboBox
+    Friend WithEvents Label40 As Label
+    Friend WithEvents GroupBox7 As GroupBox
+    Friend WithEvents rdoSec_tab4 As RadioButton
+    Friend WithEvents rdoPrimary_tab4 As RadioButton
+    Friend WithEvents Label41 As Label
+    Friend WithEvents txtNumpoint_tab4 As TextBox
+    Friend WithEvents GroupBox8 As GroupBox
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label43 As Label
+    Friend WithEvents txtOption3End_tab4 As TextBox
+    Friend WithEvents txtOption2End_tab4 As TextBox
+    Friend WithEvents rdoOprion3End_tab4 As RadioButton
+    Friend WithEvents rdoOprion2End_tab4 As RadioButton
+    Friend WithEvents Label44 As Label
+    Friend WithEvents txtOption1End_tab4 As TextBox
+    Friend WithEvents cboOption1End_2_tab4 As ComboBox
+    Friend WithEvents cboOption1End_1_tab4 As ComboBox
+    Friend WithEvents rdoOprion1End_tab4 As RadioButton
+    Friend WithEvents Label45 As Label
+    Friend WithEvents Label46 As Label
+    Friend WithEvents txtOption3_tab4 As TextBox
+    Friend WithEvents txtOption2_tab4 As TextBox
+    Friend WithEvents rdoOprion3_tab4 As RadioButton
+    Friend WithEvents rdoOprion2_tab4 As RadioButton
+    Friend WithEvents Label47 As Label
+    Friend WithEvents txtOption1_tab4 As TextBox
+    Friend WithEvents cboOption1_2_tab4 As ComboBox
+    Friend WithEvents cboOption1_1_tab4 As ComboBox
+    Friend WithEvents rdoOprion1_tab4 As RadioButton
+    Friend WithEvents Label48 As Label
+    Friend WithEvents Label49 As Label
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents rdoParallel_tab4 As RadioButton
+    Friend WithEvents rdoEachpoint_tab4 As RadioButton
+    Friend WithEvents Label52 As Label
+    Friend WithEvents txtdLdIPermisrate_tab4 As TextBox
+    Friend WithEvents Label56 As Label
+    Friend WithEvents txtdLdISmoot_tab4 As TextBox
+    Friend WithEvents Label57 As Label
+    Friend WithEvents txtdLdIStep_tab4 As TextBox
+    Friend WithEvents Label58 As Label
+    Friend WithEvents Label59 As Label
+    Friend WithEvents cboSelect_tab4 As ComboBox
+    Friend WithEvents Label60 As Label
+    Friend WithEvents GroupBox9 As GroupBox
+    Friend WithEvents rdoSec_tab5 As RadioButton
+    Friend WithEvents rdoPrimary_tab5 As RadioButton
+    Friend WithEvents Label61 As Label
+    Friend WithEvents txtNumpoint_tab5 As TextBox
+    Friend WithEvents GroupBox10 As GroupBox
+    Friend WithEvents Label62 As Label
+    Friend WithEvents Label63 As Label
+    Friend WithEvents txtOption3End_tab5 As TextBox
+    Friend WithEvents txtOption2End_tab5 As TextBox
+    Friend WithEvents rdoOprion3End_tab5 As RadioButton
+    Friend WithEvents rdoOprion2End_tab5 As RadioButton
+    Friend WithEvents Label64 As Label
+    Friend WithEvents txtOption1End_tab5 As TextBox
+    Friend WithEvents cboOption1End_2_tab5 As ComboBox
+    Friend WithEvents cboOption1End_1_tab5 As ComboBox
+    Friend WithEvents rdoOprion1End_tab5 As RadioButton
+    Friend WithEvents Label65 As Label
+    Friend WithEvents Label66 As Label
+    Friend WithEvents txtOption3_tab5 As TextBox
+    Friend WithEvents txtOption2_tab5 As TextBox
+    Friend WithEvents rdoOprion3_tab5 As RadioButton
+    Friend WithEvents rdoOprion2_tab5 As RadioButton
+    Friend WithEvents Label67 As Label
+    Friend WithEvents txtOption1_tab5 As TextBox
+    Friend WithEvents cboOption1_2_tab5 As ComboBox
+    Friend WithEvents cboOption1_1_tab5 As ComboBox
+    Friend WithEvents rdoOprion1_tab5 As RadioButton
+    Friend WithEvents Label68 As Label
+    Friend WithEvents Label69 As Label
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents rdoParallel_tab5 As RadioButton
+    Friend WithEvents rdoEachpoint_tab5 As RadioButton
+    Friend WithEvents Label70 As Label
+    Friend WithEvents txtdLdIPermis_tab5 As TextBox
+    Friend WithEvents Label71 As Label
+    Friend WithEvents txtdLdISmoot_tab5 As TextBox
+    Friend WithEvents Label72 As Label
+    Friend WithEvents txtdLdIStep_tab5 As TextBox
+    Friend WithEvents Label73 As Label
+    Friend WithEvents Label74 As Label
+    Friend WithEvents cboSelect_tab5 As ComboBox
+    Friend WithEvents Label75 As Label
+    Friend WithEvents GroupBox11 As GroupBox
+    Friend WithEvents rdoSec_tab6 As RadioButton
+    Friend WithEvents rdoPrimary_tab6 As RadioButton
+    Friend WithEvents Label76 As Label
+    Friend WithEvents txtNumpoint_tab6 As TextBox
+    Friend WithEvents GroupBox12 As GroupBox
+    Friend WithEvents Label77 As Label
+    Friend WithEvents Label78 As Label
+    Friend WithEvents txtOption3End_tab6 As TextBox
+    Friend WithEvents txtOption2End_tab6 As TextBox
+    Friend WithEvents rdoOprion3End_tab6 As RadioButton
+    Friend WithEvents rdoOprion2End_tab6 As RadioButton
+    Friend WithEvents Label79 As Label
+    Friend WithEvents txtOption1End_tab6 As TextBox
+    Friend WithEvents cboOption1End_2_tab6 As ComboBox
+    Friend WithEvents cboOption1End_1_tab6 As ComboBox
+    Friend WithEvents rdoOprion1End_tab6 As RadioButton
+    Friend WithEvents Label80 As Label
+    Friend WithEvents Label81 As Label
+    Friend WithEvents txtOption3_tab6 As TextBox
+    Friend WithEvents txtOption2_tab6 As TextBox
+    Friend WithEvents rdoOprion3_tab6 As RadioButton
+    Friend WithEvents rdoOprion2_tab6 As RadioButton
+    Friend WithEvents Label82 As Label
+    Friend WithEvents txtOption1_tab6 As TextBox
+    Friend WithEvents cboOption1_2_tab6 As ComboBox
+    Friend WithEvents cboOption1_1_tab6 As ComboBox
+    Friend WithEvents rdoOprion1_tab6 As RadioButton
+    Friend WithEvents Label83 As Label
+    Friend WithEvents Label84 As Label
+    Friend WithEvents Panel6 As Panel
+    Friend WithEvents rdoParallel_tab6 As RadioButton
+    Friend WithEvents rdoEachpoint_tab6 As RadioButton
+    Friend WithEvents Label85 As Label
+    Friend WithEvents txtdLdIPermis_tab6 As TextBox
+    Friend WithEvents Label86 As Label
+    Friend WithEvents txtdLdISmoot_tab6 As TextBox
+    Friend WithEvents Label87 As Label
+    Friend WithEvents txtdLdIStep_tab6 As TextBox
+    Friend WithEvents Label88 As Label
+    Friend WithEvents Label89 As Label
+    Friend WithEvents cboSelect_tab6 As ComboBox
+    Friend WithEvents Label90 As Label
+    Friend WithEvents btnOKILjudge1 As Button
+    Friend WithEvents btnOKILjudge2 As Button
+    Friend WithEvents btnOKILjudg3 As Button
+    Friend WithEvents btnOKILjudg4 As Button
+    Friend WithEvents btnOKILjudge5 As Button
+    Friend WithEvents btnOKILjudge6 As Button
+End Class
