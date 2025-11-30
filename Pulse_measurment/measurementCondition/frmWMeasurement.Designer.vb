@@ -166,8 +166,8 @@ Partial Class frmWMeasurement
         Me.txtTriggerType_tab4 = New System.Windows.Forms.TextBox()
         Me.txtCh2Volt_tab4 = New System.Windows.Forms.TextBox()
         Me.txtCh1Volt_tab4 = New System.Windows.Forms.TextBox()
-        Me.TextBox45 = New System.Windows.Forms.TextBox()
         Me.txtDatapoint_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtTimediv_tab4 = New System.Windows.Forms.TextBox()
         Me.Label59 = New System.Windows.Forms.Label()
         Me.Label60 = New System.Windows.Forms.Label()
         Me.Label61 = New System.Windows.Forms.Label()
@@ -288,7 +288,7 @@ Partial Class frmWMeasurement
         Me.cboMeasurePoint1_tab6 = New System.Windows.Forms.ComboBox()
         Me.Label122 = New System.Windows.Forms.Label()
         Me.btnCancleILm = New System.Windows.Forms.Button()
-        Me.btnSaveILm = New System.Windows.Forms.Button()
+        Me.btnSaveWm = New System.Windows.Forms.Button()
         Me.tabsWaveform.SuspendLayout()
         Me.WaveForm1.SuspendLayout()
         Me.WaveForm2.SuspendLayout()
@@ -309,7 +309,7 @@ Partial Class frmWMeasurement
         Me.tabsWaveform.Dock = System.Windows.Forms.DockStyle.Top
         Me.tabsWaveform.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tabsWaveform.Location = New System.Drawing.Point(0, 0)
-        Me.tabsWaveform.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.tabsWaveform.Margin = New System.Windows.Forms.Padding(2)
         Me.tabsWaveform.Name = "tabsWaveform"
         Me.tabsWaveform.Padding = New System.Drawing.Point(18, 3)
         Me.tabsWaveform.SelectedIndex = 0
@@ -363,9 +363,9 @@ Partial Class frmWMeasurement
         Me.WaveForm1.Controls.Add(Me.Label2)
         Me.WaveForm1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WaveForm1.Location = New System.Drawing.Point(4, 26)
-        Me.WaveForm1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm1.Margin = New System.Windows.Forms.Padding(2)
         Me.WaveForm1.Name = "WaveForm1"
-        Me.WaveForm1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm1.Padding = New System.Windows.Forms.Padding(2)
         Me.WaveForm1.Size = New System.Drawing.Size(742, 488)
         Me.WaveForm1.TabIndex = 0
         Me.WaveForm1.Text = "WaveForm1"
@@ -375,8 +375,9 @@ Partial Class frmWMeasurement
         '
         Me.cboTrigger_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboTrigger_tab1.FormattingEnabled = True
+        Me.cboTrigger_tab1.Items.AddRange(New Object() {"CH1.", "CH."})
         Me.cboTrigger_tab1.Location = New System.Drawing.Point(457, 323)
-        Me.cboTrigger_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboTrigger_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboTrigger_tab1.Name = "cboTrigger_tab1"
         Me.cboTrigger_tab1.Size = New System.Drawing.Size(85, 25)
         Me.cboTrigger_tab1.TabIndex = 445
@@ -385,8 +386,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh2coup_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh2coup_tab1.FormattingEnabled = True
+        Me.cboCh2coup_tab1.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh2coup_tab1.Location = New System.Drawing.Point(457, 260)
-        Me.cboCh2coup_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh2coup_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh2coup_tab1.Name = "cboCh2coup_tab1"
         Me.cboCh2coup_tab1.Size = New System.Drawing.Size(85, 25)
         Me.cboCh2coup_tab1.TabIndex = 444
@@ -395,8 +397,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh1coup_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh1coup_tab1.FormattingEnabled = True
+        Me.cboCh1coup_tab1.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh1coup_tab1.Location = New System.Drawing.Point(457, 193)
-        Me.cboCh1coup_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh1coup_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh1coup_tab1.Name = "cboCh1coup_tab1"
         Me.cboCh1coup_tab1.Size = New System.Drawing.Size(85, 25)
         Me.cboCh1coup_tab1.TabIndex = 443
@@ -406,17 +409,18 @@ Partial Class frmWMeasurement
         Me.txtTriggerMode_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerMode_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerMode_tab1.Location = New System.Drawing.Point(457, 419)
-        Me.txtTriggerMode_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerMode_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerMode_tab1.Name = "txtTriggerMode_tab1"
         Me.txtTriggerMode_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerMode_tab1.TabIndex = 442
+        Me.txtTriggerMode_tab1.Text = "Single"
         '
         'txtTriggerLevel_tab1
         '
         Me.txtTriggerLevel_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerLevel_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerLevel_tab1.Location = New System.Drawing.Point(457, 388)
-        Me.txtTriggerLevel_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerLevel_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerLevel_tab1.Name = "txtTriggerLevel_tab1"
         Me.txtTriggerLevel_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerLevel_tab1.TabIndex = 441
@@ -448,10 +452,11 @@ Partial Class frmWMeasurement
         Me.txtTriggerType_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerType_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerType_tab1.Location = New System.Drawing.Point(457, 357)
-        Me.txtTriggerType_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerType_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerType_tab1.Name = "txtTriggerType_tab1"
         Me.txtTriggerType_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerType_tab1.TabIndex = 438
+        Me.txtTriggerType_tab1.Text = "EDGE"
         '
         'txtCh2Volt_tab1
         '
@@ -459,7 +464,7 @@ Partial Class frmWMeasurement
         Me.txtCh2Volt_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh2Volt_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh2Volt_tab1.Location = New System.Drawing.Point(457, 293)
-        Me.txtCh2Volt_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh2Volt_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh2Volt_tab1.Name = "txtCh2Volt_tab1"
         Me.txtCh2Volt_tab1.ReadOnly = True
         Me.txtCh2Volt_tab1.Size = New System.Drawing.Size(84, 24)
@@ -470,7 +475,7 @@ Partial Class frmWMeasurement
         Me.txtCh1Volt_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh1Volt_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh1Volt_tab1.Location = New System.Drawing.Point(457, 229)
-        Me.txtCh1Volt_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh1Volt_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh1Volt_tab1.Name = "txtCh1Volt_tab1"
         Me.txtCh1Volt_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtCh1Volt_tab1.TabIndex = 436
@@ -480,7 +485,7 @@ Partial Class frmWMeasurement
         Me.txtDatapoint_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDatapoint_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDatapoint_tab1.Location = New System.Drawing.Point(457, 162)
-        Me.txtDatapoint_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDatapoint_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDatapoint_tab1.Name = "txtDatapoint_tab1"
         Me.txtDatapoint_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtDatapoint_tab1.TabIndex = 435
@@ -490,7 +495,7 @@ Partial Class frmWMeasurement
         Me.txtTimediv_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTimediv_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTimediv_tab1.Location = New System.Drawing.Point(457, 128)
-        Me.txtTimediv_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTimediv_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTimediv_tab1.Name = "txtTimediv_tab1"
         Me.txtTimediv_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtTimediv_tab1.TabIndex = 434
@@ -600,7 +605,7 @@ Partial Class frmWMeasurement
         Me.txtAtt_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAtt_tab1.Location = New System.Drawing.Point(179, 388)
-        Me.txtAtt_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAtt_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAtt_tab1.Name = "txtAtt_tab1"
         Me.txtAtt_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtAtt_tab1.TabIndex = 424
@@ -610,7 +615,7 @@ Partial Class frmWMeasurement
         Me.txtTld_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTld_tab1.Location = New System.Drawing.Point(179, 358)
-        Me.txtTld_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTld_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTld_tab1.Name = "txtTld_tab1"
         Me.txtTld_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtTld_tab1.TabIndex = 423
@@ -620,7 +625,7 @@ Partial Class frmWMeasurement
         Me.txtTc_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTc_tab1.Location = New System.Drawing.Point(179, 327)
-        Me.txtTc_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTc_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTc_tab1.Name = "txtTc_tab1"
         Me.txtTc_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab1.TabIndex = 422
@@ -631,7 +636,7 @@ Partial Class frmWMeasurement
         Me.txtAvg_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAvg_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAvg_tab1.Location = New System.Drawing.Point(179, 293)
-        Me.txtAvg_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAvg_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAvg_tab1.Name = "txtAvg_tab1"
         Me.txtAvg_tab1.ReadOnly = True
         Me.txtAvg_tab1.Size = New System.Drawing.Size(84, 24)
@@ -642,7 +647,7 @@ Partial Class frmWMeasurement
         Me.txtDelay_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDelay_tab1.Location = New System.Drawing.Point(179, 260)
-        Me.txtDelay_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDelay_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDelay_tab1.Name = "txtDelay_tab1"
         Me.txtDelay_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtDelay_tab1.TabIndex = 420
@@ -652,7 +657,7 @@ Partial Class frmWMeasurement
         Me.txtPulse_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPulse_tab1.Location = New System.Drawing.Point(179, 229)
-        Me.txtPulse_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPulse_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPulse_tab1.Name = "txtPulse_tab1"
         Me.txtPulse_tab1.ReadOnly = True
         Me.txtPulse_tab1.Size = New System.Drawing.Size(84, 24)
@@ -663,7 +668,7 @@ Partial Class frmWMeasurement
         Me.txtDuty_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDuty_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDuty_tab1.Location = New System.Drawing.Point(179, 196)
-        Me.txtDuty_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDuty_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDuty_tab1.Name = "txtDuty_tab1"
         Me.txtDuty_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtDuty_tab1.TabIndex = 418
@@ -673,7 +678,7 @@ Partial Class frmWMeasurement
         Me.txtFrequen_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequen_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFrequen_tab1.Location = New System.Drawing.Point(179, 162)
-        Me.txtFrequen_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFrequen_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtFrequen_tab1.Name = "txtFrequen_tab1"
         Me.txtFrequen_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtFrequen_tab1.TabIndex = 417
@@ -683,7 +688,7 @@ Partial Class frmWMeasurement
         Me.txtIf_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIf_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtIf_tab1.Location = New System.Drawing.Point(179, 128)
-        Me.txtIf_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtIf_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtIf_tab1.Name = "txtIf_tab1"
         Me.txtIf_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtIf_tab1.TabIndex = 416
@@ -803,18 +808,20 @@ Partial Class frmWMeasurement
         '
         Me.cboMeasurePoint2_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab1.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab1.Location = New System.Drawing.Point(574, 171)
-        Me.cboMeasurePoint2_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint2_tab1.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab1.Location = New System.Drawing.Point(574, 165)
+        Me.cboMeasurePoint2_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab1.Name = "cboMeasurePoint2_tab1"
-        Me.cboMeasurePoint2_tab1.Size = New System.Drawing.Size(114, 25)
+        Me.cboMeasurePoint2_tab1.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint2_tab1.TabIndex = 405
         '
         'cboMeasurePoint1_tab1
         '
         Me.cboMeasurePoint1_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab1.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab1.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab1.Location = New System.Drawing.Point(574, 131)
-        Me.cboMeasurePoint1_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint1_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab1.Name = "cboMeasurePoint1_tab1"
         Me.cboMeasurePoint1_tab1.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint1_tab1.TabIndex = 404
@@ -877,9 +884,9 @@ Partial Class frmWMeasurement
         Me.WaveForm2.Controls.Add(Me.Label34)
         Me.WaveForm2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WaveForm2.Location = New System.Drawing.Point(4, 26)
-        Me.WaveForm2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm2.Margin = New System.Windows.Forms.Padding(2)
         Me.WaveForm2.Name = "WaveForm2"
-        Me.WaveForm2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm2.Padding = New System.Windows.Forms.Padding(2)
         Me.WaveForm2.Size = New System.Drawing.Size(742, 488)
         Me.WaveForm2.TabIndex = 1
         Me.WaveForm2.Text = "WaveForm2"
@@ -889,8 +896,9 @@ Partial Class frmWMeasurement
         '
         Me.cboTrigger_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboTrigger_tab2.FormattingEnabled = True
+        Me.cboTrigger_tab2.Items.AddRange(New Object() {"CH1.", "CH."})
         Me.cboTrigger_tab2.Location = New System.Drawing.Point(457, 323)
-        Me.cboTrigger_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboTrigger_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboTrigger_tab2.Name = "cboTrigger_tab2"
         Me.cboTrigger_tab2.Size = New System.Drawing.Size(85, 25)
         Me.cboTrigger_tab2.TabIndex = 445
@@ -899,8 +907,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh2coup_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh2coup_tab2.FormattingEnabled = True
+        Me.cboCh2coup_tab2.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh2coup_tab2.Location = New System.Drawing.Point(457, 260)
-        Me.cboCh2coup_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh2coup_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh2coup_tab2.Name = "cboCh2coup_tab2"
         Me.cboCh2coup_tab2.Size = New System.Drawing.Size(85, 25)
         Me.cboCh2coup_tab2.TabIndex = 444
@@ -909,8 +918,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh1coup_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh1coup_tab2.FormattingEnabled = True
+        Me.cboCh1coup_tab2.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh1coup_tab2.Location = New System.Drawing.Point(457, 193)
-        Me.cboCh1coup_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh1coup_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh1coup_tab2.Name = "cboCh1coup_tab2"
         Me.cboCh1coup_tab2.Size = New System.Drawing.Size(85, 25)
         Me.cboCh1coup_tab2.TabIndex = 443
@@ -920,17 +930,18 @@ Partial Class frmWMeasurement
         Me.txtTriggerMode_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerMode_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerMode_tab2.Location = New System.Drawing.Point(457, 419)
-        Me.txtTriggerMode_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerMode_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerMode_tab2.Name = "txtTriggerMode_tab2"
         Me.txtTriggerMode_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerMode_tab2.TabIndex = 442
+        Me.txtTriggerMode_tab2.Text = "Single"
         '
         'txtTriggerLevel_tab2
         '
         Me.txtTriggerLevel_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerLevel_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerLevel_tab2.Location = New System.Drawing.Point(457, 388)
-        Me.txtTriggerLevel_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerLevel_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerLevel_tab2.Name = "txtTriggerLevel_tab2"
         Me.txtTriggerLevel_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerLevel_tab2.TabIndex = 441
@@ -962,10 +973,11 @@ Partial Class frmWMeasurement
         Me.txtTriggerType_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerType_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerType_tab2.Location = New System.Drawing.Point(457, 357)
-        Me.txtTriggerType_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerType_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerType_tab2.Name = "txtTriggerType_tab2"
         Me.txtTriggerType_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerType_tab2.TabIndex = 438
+        Me.txtTriggerType_tab2.Text = "EDGE"
         '
         'txtCh2Volt_tab2
         '
@@ -973,7 +985,7 @@ Partial Class frmWMeasurement
         Me.txtCh2Volt_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh2Volt_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh2Volt_tab2.Location = New System.Drawing.Point(457, 293)
-        Me.txtCh2Volt_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh2Volt_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh2Volt_tab2.Name = "txtCh2Volt_tab2"
         Me.txtCh2Volt_tab2.ReadOnly = True
         Me.txtCh2Volt_tab2.Size = New System.Drawing.Size(84, 24)
@@ -984,7 +996,7 @@ Partial Class frmWMeasurement
         Me.txtCh1Volt_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh1Volt_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh1Volt_tab2.Location = New System.Drawing.Point(457, 229)
-        Me.txtCh1Volt_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh1Volt_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh1Volt_tab2.Name = "txtCh1Volt_tab2"
         Me.txtCh1Volt_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtCh1Volt_tab2.TabIndex = 436
@@ -994,7 +1006,7 @@ Partial Class frmWMeasurement
         Me.txtDatapoint_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDatapoint_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDatapoint_tab2.Location = New System.Drawing.Point(457, 162)
-        Me.txtDatapoint_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDatapoint_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDatapoint_tab2.Name = "txtDatapoint_tab2"
         Me.txtDatapoint_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtDatapoint_tab2.TabIndex = 435
@@ -1004,7 +1016,7 @@ Partial Class frmWMeasurement
         Me.txtTimediv_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTimediv_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTimediv_tab2.Location = New System.Drawing.Point(457, 128)
-        Me.txtTimediv_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTimediv_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTimediv_tab2.Name = "txtTimediv_tab2"
         Me.txtTimediv_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtTimediv_tab2.TabIndex = 434
@@ -1114,7 +1126,7 @@ Partial Class frmWMeasurement
         Me.txtAtt_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAtt_tab2.Location = New System.Drawing.Point(179, 388)
-        Me.txtAtt_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAtt_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAtt_tab2.Name = "txtAtt_tab2"
         Me.txtAtt_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtAtt_tab2.TabIndex = 424
@@ -1124,7 +1136,7 @@ Partial Class frmWMeasurement
         Me.txtTld_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTld_tab2.Location = New System.Drawing.Point(179, 358)
-        Me.txtTld_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTld_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTld_tab2.Name = "txtTld_tab2"
         Me.txtTld_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtTld_tab2.TabIndex = 423
@@ -1134,7 +1146,7 @@ Partial Class frmWMeasurement
         Me.txtTc_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTc_tab2.Location = New System.Drawing.Point(179, 327)
-        Me.txtTc_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTc_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTc_tab2.Name = "txtTc_tab2"
         Me.txtTc_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab2.TabIndex = 422
@@ -1145,7 +1157,7 @@ Partial Class frmWMeasurement
         Me.txtAvg_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAvg_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAvg_tab2.Location = New System.Drawing.Point(179, 293)
-        Me.txtAvg_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAvg_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAvg_tab2.Name = "txtAvg_tab2"
         Me.txtAvg_tab2.ReadOnly = True
         Me.txtAvg_tab2.Size = New System.Drawing.Size(84, 24)
@@ -1156,7 +1168,7 @@ Partial Class frmWMeasurement
         Me.txtDelay_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDelay_tab2.Location = New System.Drawing.Point(179, 260)
-        Me.txtDelay_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDelay_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDelay_tab2.Name = "txtDelay_tab2"
         Me.txtDelay_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtDelay_tab2.TabIndex = 420
@@ -1166,7 +1178,7 @@ Partial Class frmWMeasurement
         Me.txtPulse_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPulse_tab2.Location = New System.Drawing.Point(179, 229)
-        Me.txtPulse_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPulse_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPulse_tab2.Name = "txtPulse_tab2"
         Me.txtPulse_tab2.ReadOnly = True
         Me.txtPulse_tab2.Size = New System.Drawing.Size(84, 24)
@@ -1177,7 +1189,7 @@ Partial Class frmWMeasurement
         Me.txtDuty_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDuty_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDuty_tab2.Location = New System.Drawing.Point(179, 196)
-        Me.txtDuty_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDuty_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDuty_tab2.Name = "txtDuty_tab2"
         Me.txtDuty_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtDuty_tab2.TabIndex = 418
@@ -1187,7 +1199,7 @@ Partial Class frmWMeasurement
         Me.txtFrequen_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequen_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFrequen_tab2.Location = New System.Drawing.Point(179, 162)
-        Me.txtFrequen_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFrequen_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtFrequen_tab2.Name = "txtFrequen_tab2"
         Me.txtFrequen_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtFrequen_tab2.TabIndex = 417
@@ -1197,7 +1209,7 @@ Partial Class frmWMeasurement
         Me.txtIf_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIf_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtIf_tab2.Location = New System.Drawing.Point(179, 128)
-        Me.txtIf_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtIf_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtIf_tab2.Name = "txtIf_tab2"
         Me.txtIf_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtIf_tab2.TabIndex = 416
@@ -1317,18 +1329,20 @@ Partial Class frmWMeasurement
         '
         Me.cboMeasurePoint2_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab2.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab2.Location = New System.Drawing.Point(574, 171)
-        Me.cboMeasurePoint2_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint2_tab2.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab2.Location = New System.Drawing.Point(574, 165)
+        Me.cboMeasurePoint2_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab2.Name = "cboMeasurePoint2_tab2"
-        Me.cboMeasurePoint2_tab2.Size = New System.Drawing.Size(114, 25)
+        Me.cboMeasurePoint2_tab2.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint2_tab2.TabIndex = 405
         '
         'cboMeasurePoint1_tab2
         '
         Me.cboMeasurePoint1_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab2.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab2.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab2.Location = New System.Drawing.Point(574, 131)
-        Me.cboMeasurePoint1_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint1_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab2.Name = "cboMeasurePoint1_tab2"
         Me.cboMeasurePoint1_tab2.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint1_tab2.TabIndex = 404
@@ -1391,9 +1405,9 @@ Partial Class frmWMeasurement
         Me.WaveForm3.Controls.Add(Me.Label56)
         Me.WaveForm3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WaveForm3.Location = New System.Drawing.Point(4, 26)
-        Me.WaveForm3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm3.Margin = New System.Windows.Forms.Padding(2)
         Me.WaveForm3.Name = "WaveForm3"
-        Me.WaveForm3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm3.Padding = New System.Windows.Forms.Padding(2)
         Me.WaveForm3.Size = New System.Drawing.Size(742, 488)
         Me.WaveForm3.TabIndex = 2
         Me.WaveForm3.Text = "WaveForm3"
@@ -1403,8 +1417,9 @@ Partial Class frmWMeasurement
         '
         Me.cboTrigger_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboTrigger_tab3.FormattingEnabled = True
+        Me.cboTrigger_tab3.Items.AddRange(New Object() {"CH1.", "CH."})
         Me.cboTrigger_tab3.Location = New System.Drawing.Point(457, 323)
-        Me.cboTrigger_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboTrigger_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboTrigger_tab3.Name = "cboTrigger_tab3"
         Me.cboTrigger_tab3.Size = New System.Drawing.Size(85, 25)
         Me.cboTrigger_tab3.TabIndex = 445
@@ -1413,8 +1428,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh2coup_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh2coup_tab3.FormattingEnabled = True
+        Me.cboCh2coup_tab3.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh2coup_tab3.Location = New System.Drawing.Point(457, 260)
-        Me.cboCh2coup_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh2coup_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh2coup_tab3.Name = "cboCh2coup_tab3"
         Me.cboCh2coup_tab3.Size = New System.Drawing.Size(85, 25)
         Me.cboCh2coup_tab3.TabIndex = 444
@@ -1423,8 +1439,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh1coup_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh1coup_tab3.FormattingEnabled = True
+        Me.cboCh1coup_tab3.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh1coup_tab3.Location = New System.Drawing.Point(457, 193)
-        Me.cboCh1coup_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh1coup_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh1coup_tab3.Name = "cboCh1coup_tab3"
         Me.cboCh1coup_tab3.Size = New System.Drawing.Size(85, 25)
         Me.cboCh1coup_tab3.TabIndex = 443
@@ -1434,17 +1451,18 @@ Partial Class frmWMeasurement
         Me.txtTriggerMode_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerMode_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerMode_tab3.Location = New System.Drawing.Point(457, 419)
-        Me.txtTriggerMode_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerMode_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerMode_tab3.Name = "txtTriggerMode_tab3"
         Me.txtTriggerMode_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerMode_tab3.TabIndex = 442
+        Me.txtTriggerMode_tab3.Text = "Single"
         '
         'txtTriggerLevel_tab3
         '
         Me.txtTriggerLevel_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerLevel_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerLevel_tab3.Location = New System.Drawing.Point(457, 388)
-        Me.txtTriggerLevel_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerLevel_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerLevel_tab3.Name = "txtTriggerLevel_tab3"
         Me.txtTriggerLevel_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerLevel_tab3.TabIndex = 441
@@ -1476,10 +1494,11 @@ Partial Class frmWMeasurement
         Me.txtTriggerType_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerType_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerType_tab3.Location = New System.Drawing.Point(457, 357)
-        Me.txtTriggerType_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerType_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerType_tab3.Name = "txtTriggerType_tab3"
         Me.txtTriggerType_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerType_tab3.TabIndex = 438
+        Me.txtTriggerType_tab3.Text = "EDGE"
         '
         'txtCh2Volt_tab3
         '
@@ -1487,7 +1506,7 @@ Partial Class frmWMeasurement
         Me.txtCh2Volt_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh2Volt_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh2Volt_tab3.Location = New System.Drawing.Point(457, 293)
-        Me.txtCh2Volt_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh2Volt_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh2Volt_tab3.Name = "txtCh2Volt_tab3"
         Me.txtCh2Volt_tab3.ReadOnly = True
         Me.txtCh2Volt_tab3.Size = New System.Drawing.Size(84, 24)
@@ -1498,7 +1517,7 @@ Partial Class frmWMeasurement
         Me.txtCh1Volt_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh1Volt_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh1Volt_tab3.Location = New System.Drawing.Point(457, 229)
-        Me.txtCh1Volt_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh1Volt_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh1Volt_tab3.Name = "txtCh1Volt_tab3"
         Me.txtCh1Volt_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtCh1Volt_tab3.TabIndex = 436
@@ -1508,7 +1527,7 @@ Partial Class frmWMeasurement
         Me.txtDatapoint_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDatapoint_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDatapoint_tab3.Location = New System.Drawing.Point(457, 162)
-        Me.txtDatapoint_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDatapoint_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDatapoint_tab3.Name = "txtDatapoint_tab3"
         Me.txtDatapoint_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtDatapoint_tab3.TabIndex = 435
@@ -1518,7 +1537,7 @@ Partial Class frmWMeasurement
         Me.txtTimediv_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTimediv_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTimediv_tab3.Location = New System.Drawing.Point(457, 128)
-        Me.txtTimediv_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTimediv_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTimediv_tab3.Name = "txtTimediv_tab3"
         Me.txtTimediv_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtTimediv_tab3.TabIndex = 434
@@ -1628,7 +1647,7 @@ Partial Class frmWMeasurement
         Me.txtAtt_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAtt_tab3.Location = New System.Drawing.Point(179, 388)
-        Me.txtAtt_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAtt_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAtt_tab3.Name = "txtAtt_tab3"
         Me.txtAtt_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtAtt_tab3.TabIndex = 424
@@ -1638,7 +1657,7 @@ Partial Class frmWMeasurement
         Me.txtTld_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTld_tab3.Location = New System.Drawing.Point(179, 358)
-        Me.txtTld_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTld_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTld_tab3.Name = "txtTld_tab3"
         Me.txtTld_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtTld_tab3.TabIndex = 423
@@ -1648,7 +1667,7 @@ Partial Class frmWMeasurement
         Me.txtTc_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTc_tab3.Location = New System.Drawing.Point(179, 327)
-        Me.txtTc_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTc_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTc_tab3.Name = "txtTc_tab3"
         Me.txtTc_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab3.TabIndex = 422
@@ -1659,7 +1678,7 @@ Partial Class frmWMeasurement
         Me.txtAvg_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAvg_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAvg_tab3.Location = New System.Drawing.Point(179, 293)
-        Me.txtAvg_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAvg_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAvg_tab3.Name = "txtAvg_tab3"
         Me.txtAvg_tab3.ReadOnly = True
         Me.txtAvg_tab3.Size = New System.Drawing.Size(84, 24)
@@ -1670,7 +1689,7 @@ Partial Class frmWMeasurement
         Me.txtDelay_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDelay_tab3.Location = New System.Drawing.Point(179, 260)
-        Me.txtDelay_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDelay_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDelay_tab3.Name = "txtDelay_tab3"
         Me.txtDelay_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtDelay_tab3.TabIndex = 420
@@ -1680,7 +1699,7 @@ Partial Class frmWMeasurement
         Me.txtPulse_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPulse_tab3.Location = New System.Drawing.Point(179, 229)
-        Me.txtPulse_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPulse_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPulse_tab3.Name = "txtPulse_tab3"
         Me.txtPulse_tab3.ReadOnly = True
         Me.txtPulse_tab3.Size = New System.Drawing.Size(84, 24)
@@ -1691,7 +1710,7 @@ Partial Class frmWMeasurement
         Me.txtDuty_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDuty_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDuty_tab3.Location = New System.Drawing.Point(179, 196)
-        Me.txtDuty_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDuty_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDuty_tab3.Name = "txtDuty_tab3"
         Me.txtDuty_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtDuty_tab3.TabIndex = 418
@@ -1701,7 +1720,7 @@ Partial Class frmWMeasurement
         Me.txtFrequen_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequen_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFrequen_tab3.Location = New System.Drawing.Point(179, 162)
-        Me.txtFrequen_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFrequen_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtFrequen_tab3.Name = "txtFrequen_tab3"
         Me.txtFrequen_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtFrequen_tab3.TabIndex = 417
@@ -1711,7 +1730,7 @@ Partial Class frmWMeasurement
         Me.txtIf_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIf_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtIf_tab3.Location = New System.Drawing.Point(179, 128)
-        Me.txtIf_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtIf_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtIf_tab3.Name = "txtIf_tab3"
         Me.txtIf_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtIf_tab3.TabIndex = 416
@@ -1831,18 +1850,20 @@ Partial Class frmWMeasurement
         '
         Me.cboMeasurePoint2_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab3.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab3.Location = New System.Drawing.Point(574, 171)
-        Me.cboMeasurePoint2_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint2_tab3.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab3.Location = New System.Drawing.Point(574, 165)
+        Me.cboMeasurePoint2_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab3.Name = "cboMeasurePoint2_tab3"
-        Me.cboMeasurePoint2_tab3.Size = New System.Drawing.Size(114, 25)
+        Me.cboMeasurePoint2_tab3.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint2_tab3.TabIndex = 405
         '
         'cboMeasurePoint1_tab3
         '
         Me.cboMeasurePoint1_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab3.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab3.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab3.Location = New System.Drawing.Point(574, 131)
-        Me.cboMeasurePoint1_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint1_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab3.Name = "cboMeasurePoint1_tab3"
         Me.cboMeasurePoint1_tab3.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint1_tab3.TabIndex = 404
@@ -1870,8 +1891,8 @@ Partial Class frmWMeasurement
         Me.WaveForm4.Controls.Add(Me.txtTriggerType_tab4)
         Me.WaveForm4.Controls.Add(Me.txtCh2Volt_tab4)
         Me.WaveForm4.Controls.Add(Me.txtCh1Volt_tab4)
-        Me.WaveForm4.Controls.Add(Me.TextBox45)
         Me.WaveForm4.Controls.Add(Me.txtDatapoint_tab4)
+        Me.WaveForm4.Controls.Add(Me.txtTimediv_tab4)
         Me.WaveForm4.Controls.Add(Me.Label59)
         Me.WaveForm4.Controls.Add(Me.Label60)
         Me.WaveForm4.Controls.Add(Me.Label61)
@@ -1905,9 +1926,9 @@ Partial Class frmWMeasurement
         Me.WaveForm4.Controls.Add(Me.Label78)
         Me.WaveForm4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WaveForm4.Location = New System.Drawing.Point(4, 26)
-        Me.WaveForm4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm4.Margin = New System.Windows.Forms.Padding(2)
         Me.WaveForm4.Name = "WaveForm4"
-        Me.WaveForm4.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm4.Padding = New System.Windows.Forms.Padding(2)
         Me.WaveForm4.Size = New System.Drawing.Size(742, 488)
         Me.WaveForm4.TabIndex = 3
         Me.WaveForm4.Text = "WaveForm4"
@@ -1917,8 +1938,9 @@ Partial Class frmWMeasurement
         '
         Me.cboTrigger_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboTrigger_tab4.FormattingEnabled = True
+        Me.cboTrigger_tab4.Items.AddRange(New Object() {"CH1.", "CH."})
         Me.cboTrigger_tab4.Location = New System.Drawing.Point(457, 323)
-        Me.cboTrigger_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboTrigger_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboTrigger_tab4.Name = "cboTrigger_tab4"
         Me.cboTrigger_tab4.Size = New System.Drawing.Size(85, 25)
         Me.cboTrigger_tab4.TabIndex = 445
@@ -1927,8 +1949,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh2coup_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh2coup_tab4.FormattingEnabled = True
+        Me.cboCh2coup_tab4.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh2coup_tab4.Location = New System.Drawing.Point(457, 260)
-        Me.cboCh2coup_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh2coup_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh2coup_tab4.Name = "cboCh2coup_tab4"
         Me.cboCh2coup_tab4.Size = New System.Drawing.Size(85, 25)
         Me.cboCh2coup_tab4.TabIndex = 444
@@ -1937,8 +1960,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh1coup_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh1coup_tab4.FormattingEnabled = True
+        Me.cboCh1coup_tab4.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh1coup_tab4.Location = New System.Drawing.Point(457, 193)
-        Me.cboCh1coup_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh1coup_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh1coup_tab4.Name = "cboCh1coup_tab4"
         Me.cboCh1coup_tab4.Size = New System.Drawing.Size(85, 25)
         Me.cboCh1coup_tab4.TabIndex = 443
@@ -1948,17 +1972,18 @@ Partial Class frmWMeasurement
         Me.txtTriggerMode_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerMode_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerMode_tab4.Location = New System.Drawing.Point(457, 419)
-        Me.txtTriggerMode_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerMode_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerMode_tab4.Name = "txtTriggerMode_tab4"
         Me.txtTriggerMode_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerMode_tab4.TabIndex = 442
+        Me.txtTriggerMode_tab4.Text = "Single"
         '
         'txtTriggerLevel_tab4
         '
         Me.txtTriggerLevel_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerLevel_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerLevel_tab4.Location = New System.Drawing.Point(457, 388)
-        Me.txtTriggerLevel_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerLevel_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerLevel_tab4.Name = "txtTriggerLevel_tab4"
         Me.txtTriggerLevel_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerLevel_tab4.TabIndex = 441
@@ -1990,10 +2015,11 @@ Partial Class frmWMeasurement
         Me.txtTriggerType_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerType_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerType_tab4.Location = New System.Drawing.Point(457, 357)
-        Me.txtTriggerType_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerType_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerType_tab4.Name = "txtTriggerType_tab4"
         Me.txtTriggerType_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerType_tab4.TabIndex = 438
+        Me.txtTriggerType_tab4.Text = "EDGE"
         '
         'txtCh2Volt_tab4
         '
@@ -2001,7 +2027,7 @@ Partial Class frmWMeasurement
         Me.txtCh2Volt_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh2Volt_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh2Volt_tab4.Location = New System.Drawing.Point(457, 293)
-        Me.txtCh2Volt_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh2Volt_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh2Volt_tab4.Name = "txtCh2Volt_tab4"
         Me.txtCh2Volt_tab4.ReadOnly = True
         Me.txtCh2Volt_tab4.Size = New System.Drawing.Size(84, 24)
@@ -2012,30 +2038,30 @@ Partial Class frmWMeasurement
         Me.txtCh1Volt_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh1Volt_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh1Volt_tab4.Location = New System.Drawing.Point(457, 229)
-        Me.txtCh1Volt_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh1Volt_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh1Volt_tab4.Name = "txtCh1Volt_tab4"
         Me.txtCh1Volt_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtCh1Volt_tab4.TabIndex = 436
-        '
-        'TextBox45
-        '
-        Me.TextBox45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox45.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox45.Location = New System.Drawing.Point(457, 162)
-        Me.TextBox45.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.TextBox45.Name = "TextBox45"
-        Me.TextBox45.Size = New System.Drawing.Size(84, 24)
-        Me.TextBox45.TabIndex = 435
         '
         'txtDatapoint_tab4
         '
         Me.txtDatapoint_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDatapoint_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDatapoint_tab4.Location = New System.Drawing.Point(457, 128)
-        Me.txtDatapoint_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDatapoint_tab4.Location = New System.Drawing.Point(457, 162)
+        Me.txtDatapoint_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDatapoint_tab4.Name = "txtDatapoint_tab4"
         Me.txtDatapoint_tab4.Size = New System.Drawing.Size(84, 24)
-        Me.txtDatapoint_tab4.TabIndex = 434
+        Me.txtDatapoint_tab4.TabIndex = 435
+        '
+        'txtTimediv_tab4
+        '
+        Me.txtTimediv_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtTimediv_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTimediv_tab4.Location = New System.Drawing.Point(457, 128)
+        Me.txtTimediv_tab4.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtTimediv_tab4.Name = "txtTimediv_tab4"
+        Me.txtTimediv_tab4.Size = New System.Drawing.Size(84, 24)
+        Me.txtTimediv_tab4.TabIndex = 434
         '
         'Label59
         '
@@ -2142,7 +2168,7 @@ Partial Class frmWMeasurement
         Me.txtAtt_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAtt_tab4.Location = New System.Drawing.Point(179, 388)
-        Me.txtAtt_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAtt_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAtt_tab4.Name = "txtAtt_tab4"
         Me.txtAtt_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtAtt_tab4.TabIndex = 424
@@ -2152,7 +2178,7 @@ Partial Class frmWMeasurement
         Me.txtTld_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTld_tab4.Location = New System.Drawing.Point(179, 358)
-        Me.txtTld_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTld_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTld_tab4.Name = "txtTld_tab4"
         Me.txtTld_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtTld_tab4.TabIndex = 423
@@ -2162,7 +2188,7 @@ Partial Class frmWMeasurement
         Me.txtTc_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTc_tab4.Location = New System.Drawing.Point(179, 327)
-        Me.txtTc_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTc_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTc_tab4.Name = "txtTc_tab4"
         Me.txtTc_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab4.TabIndex = 422
@@ -2173,7 +2199,7 @@ Partial Class frmWMeasurement
         Me.txtAvg_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAvg_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAvg_tab4.Location = New System.Drawing.Point(179, 293)
-        Me.txtAvg_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAvg_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAvg_tab4.Name = "txtAvg_tab4"
         Me.txtAvg_tab4.ReadOnly = True
         Me.txtAvg_tab4.Size = New System.Drawing.Size(84, 24)
@@ -2184,7 +2210,7 @@ Partial Class frmWMeasurement
         Me.txtDelay_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDelay_tab4.Location = New System.Drawing.Point(179, 260)
-        Me.txtDelay_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDelay_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDelay_tab4.Name = "txtDelay_tab4"
         Me.txtDelay_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtDelay_tab4.TabIndex = 420
@@ -2194,7 +2220,7 @@ Partial Class frmWMeasurement
         Me.txtPulse_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPulse_tab4.Location = New System.Drawing.Point(179, 229)
-        Me.txtPulse_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPulse_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPulse_tab4.Name = "txtPulse_tab4"
         Me.txtPulse_tab4.ReadOnly = True
         Me.txtPulse_tab4.Size = New System.Drawing.Size(84, 24)
@@ -2205,7 +2231,7 @@ Partial Class frmWMeasurement
         Me.txtDuty_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDuty_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDuty_tab4.Location = New System.Drawing.Point(179, 196)
-        Me.txtDuty_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDuty_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDuty_tab4.Name = "txtDuty_tab4"
         Me.txtDuty_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtDuty_tab4.TabIndex = 418
@@ -2215,7 +2241,7 @@ Partial Class frmWMeasurement
         Me.txtFrequen_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequen_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFrequen_tab4.Location = New System.Drawing.Point(179, 162)
-        Me.txtFrequen_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFrequen_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtFrequen_tab4.Name = "txtFrequen_tab4"
         Me.txtFrequen_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtFrequen_tab4.TabIndex = 417
@@ -2225,7 +2251,7 @@ Partial Class frmWMeasurement
         Me.txtIf_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIf_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtIf_tab4.Location = New System.Drawing.Point(179, 128)
-        Me.txtIf_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtIf_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtIf_tab4.Name = "txtIf_tab4"
         Me.txtIf_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtIf_tab4.TabIndex = 416
@@ -2345,18 +2371,20 @@ Partial Class frmWMeasurement
         '
         Me.cboMeasurePoint2_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab4.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab4.Location = New System.Drawing.Point(574, 171)
-        Me.cboMeasurePoint2_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint2_tab4.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab4.Location = New System.Drawing.Point(574, 165)
+        Me.cboMeasurePoint2_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab4.Name = "cboMeasurePoint2_tab4"
-        Me.cboMeasurePoint2_tab4.Size = New System.Drawing.Size(114, 25)
+        Me.cboMeasurePoint2_tab4.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint2_tab4.TabIndex = 405
         '
         'cboMeasurePoint1_tab4
         '
         Me.cboMeasurePoint1_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab4.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab4.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab4.Location = New System.Drawing.Point(574, 131)
-        Me.cboMeasurePoint1_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint1_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab4.Name = "cboMeasurePoint1_tab4"
         Me.cboMeasurePoint1_tab4.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint1_tab4.TabIndex = 404
@@ -2419,9 +2447,9 @@ Partial Class frmWMeasurement
         Me.WaveForm5.Controls.Add(Me.Label100)
         Me.WaveForm5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WaveForm5.Location = New System.Drawing.Point(4, 26)
-        Me.WaveForm5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm5.Margin = New System.Windows.Forms.Padding(2)
         Me.WaveForm5.Name = "WaveForm5"
-        Me.WaveForm5.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm5.Padding = New System.Windows.Forms.Padding(2)
         Me.WaveForm5.Size = New System.Drawing.Size(742, 488)
         Me.WaveForm5.TabIndex = 4
         Me.WaveForm5.Text = "WaveForm5"
@@ -2431,8 +2459,9 @@ Partial Class frmWMeasurement
         '
         Me.cboTrigger_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboTrigger_tab5.FormattingEnabled = True
+        Me.cboTrigger_tab5.Items.AddRange(New Object() {"CH1.", "CH."})
         Me.cboTrigger_tab5.Location = New System.Drawing.Point(457, 323)
-        Me.cboTrigger_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboTrigger_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboTrigger_tab5.Name = "cboTrigger_tab5"
         Me.cboTrigger_tab5.Size = New System.Drawing.Size(85, 25)
         Me.cboTrigger_tab5.TabIndex = 445
@@ -2441,8 +2470,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh2coup_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh2coup_tab5.FormattingEnabled = True
+        Me.cboCh2coup_tab5.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh2coup_tab5.Location = New System.Drawing.Point(457, 260)
-        Me.cboCh2coup_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh2coup_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh2coup_tab5.Name = "cboCh2coup_tab5"
         Me.cboCh2coup_tab5.Size = New System.Drawing.Size(85, 25)
         Me.cboCh2coup_tab5.TabIndex = 444
@@ -2451,8 +2481,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh1coup_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh1coup_tab5.FormattingEnabled = True
+        Me.cboCh1coup_tab5.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh1coup_tab5.Location = New System.Drawing.Point(457, 193)
-        Me.cboCh1coup_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh1coup_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh1coup_tab5.Name = "cboCh1coup_tab5"
         Me.cboCh1coup_tab5.Size = New System.Drawing.Size(85, 25)
         Me.cboCh1coup_tab5.TabIndex = 443
@@ -2462,17 +2493,18 @@ Partial Class frmWMeasurement
         Me.txtTriggerMode_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerMode_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerMode_tab5.Location = New System.Drawing.Point(457, 419)
-        Me.txtTriggerMode_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerMode_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerMode_tab5.Name = "txtTriggerMode_tab5"
         Me.txtTriggerMode_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerMode_tab5.TabIndex = 442
+        Me.txtTriggerMode_tab5.Text = "Single"
         '
         'txtTriggerLevel_tab5
         '
         Me.txtTriggerLevel_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerLevel_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerLevel_tab5.Location = New System.Drawing.Point(457, 388)
-        Me.txtTriggerLevel_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerLevel_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerLevel_tab5.Name = "txtTriggerLevel_tab5"
         Me.txtTriggerLevel_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerLevel_tab5.TabIndex = 441
@@ -2504,10 +2536,11 @@ Partial Class frmWMeasurement
         Me.txtTriggerType_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerType_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerType_tab5.Location = New System.Drawing.Point(457, 357)
-        Me.txtTriggerType_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerType_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerType_tab5.Name = "txtTriggerType_tab5"
         Me.txtTriggerType_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerType_tab5.TabIndex = 438
+        Me.txtTriggerType_tab5.Text = "EDGE"
         '
         'txtCh2Volt_tab5
         '
@@ -2515,7 +2548,7 @@ Partial Class frmWMeasurement
         Me.txtCh2Volt_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh2Volt_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh2Volt_tab5.Location = New System.Drawing.Point(457, 293)
-        Me.txtCh2Volt_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh2Volt_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh2Volt_tab5.Name = "txtCh2Volt_tab5"
         Me.txtCh2Volt_tab5.ReadOnly = True
         Me.txtCh2Volt_tab5.Size = New System.Drawing.Size(84, 24)
@@ -2526,7 +2559,7 @@ Partial Class frmWMeasurement
         Me.txtCh1Volt_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh1Volt_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh1Volt_tab5.Location = New System.Drawing.Point(457, 229)
-        Me.txtCh1Volt_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh1Volt_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh1Volt_tab5.Name = "txtCh1Volt_tab5"
         Me.txtCh1Volt_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtCh1Volt_tab5.TabIndex = 436
@@ -2536,7 +2569,7 @@ Partial Class frmWMeasurement
         Me.txtDatapoint_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDatapoint_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDatapoint_tab5.Location = New System.Drawing.Point(457, 162)
-        Me.txtDatapoint_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDatapoint_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDatapoint_tab5.Name = "txtDatapoint_tab5"
         Me.txtDatapoint_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtDatapoint_tab5.TabIndex = 435
@@ -2546,7 +2579,7 @@ Partial Class frmWMeasurement
         Me.txtTimediv_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTimediv_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTimediv_tab5.Location = New System.Drawing.Point(457, 128)
-        Me.txtTimediv_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTimediv_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTimediv_tab5.Name = "txtTimediv_tab5"
         Me.txtTimediv_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtTimediv_tab5.TabIndex = 434
@@ -2655,8 +2688,8 @@ Partial Class frmWMeasurement
         '
         Me.txtAtt_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAtt_tab5.Location = New System.Drawing.Point(178, 388)
-        Me.txtAtt_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAtt_tab5.Location = New System.Drawing.Point(179, 388)
+        Me.txtAtt_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAtt_tab5.Name = "txtAtt_tab5"
         Me.txtAtt_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtAtt_tab5.TabIndex = 424
@@ -2665,8 +2698,8 @@ Partial Class frmWMeasurement
         '
         Me.txtTld_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTld_tab5.Location = New System.Drawing.Point(178, 358)
-        Me.txtTld_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTld_tab5.Location = New System.Drawing.Point(179, 358)
+        Me.txtTld_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTld_tab5.Name = "txtTld_tab5"
         Me.txtTld_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtTld_tab5.TabIndex = 423
@@ -2675,8 +2708,8 @@ Partial Class frmWMeasurement
         '
         Me.txtTc_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTc_tab5.Location = New System.Drawing.Point(178, 327)
-        Me.txtTc_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTc_tab5.Location = New System.Drawing.Point(179, 327)
+        Me.txtTc_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTc_tab5.Name = "txtTc_tab5"
         Me.txtTc_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab5.TabIndex = 422
@@ -2686,8 +2719,8 @@ Partial Class frmWMeasurement
         Me.txtAvg_tab5.BackColor = System.Drawing.SystemColors.Window
         Me.txtAvg_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAvg_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAvg_tab5.Location = New System.Drawing.Point(178, 293)
-        Me.txtAvg_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAvg_tab5.Location = New System.Drawing.Point(179, 293)
+        Me.txtAvg_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAvg_tab5.Name = "txtAvg_tab5"
         Me.txtAvg_tab5.ReadOnly = True
         Me.txtAvg_tab5.Size = New System.Drawing.Size(84, 24)
@@ -2697,8 +2730,8 @@ Partial Class frmWMeasurement
         '
         Me.txtDelay_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDelay_tab5.Location = New System.Drawing.Point(178, 260)
-        Me.txtDelay_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDelay_tab5.Location = New System.Drawing.Point(179, 260)
+        Me.txtDelay_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDelay_tab5.Name = "txtDelay_tab5"
         Me.txtDelay_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtDelay_tab5.TabIndex = 420
@@ -2707,8 +2740,8 @@ Partial Class frmWMeasurement
         '
         Me.txtPulse_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPulse_tab5.Location = New System.Drawing.Point(178, 229)
-        Me.txtPulse_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPulse_tab5.Location = New System.Drawing.Point(179, 229)
+        Me.txtPulse_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPulse_tab5.Name = "txtPulse_tab5"
         Me.txtPulse_tab5.ReadOnly = True
         Me.txtPulse_tab5.Size = New System.Drawing.Size(84, 24)
@@ -2718,8 +2751,8 @@ Partial Class frmWMeasurement
         '
         Me.txtDuty_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDuty_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDuty_tab5.Location = New System.Drawing.Point(178, 196)
-        Me.txtDuty_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDuty_tab5.Location = New System.Drawing.Point(179, 196)
+        Me.txtDuty_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDuty_tab5.Name = "txtDuty_tab5"
         Me.txtDuty_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtDuty_tab5.TabIndex = 418
@@ -2728,8 +2761,8 @@ Partial Class frmWMeasurement
         '
         Me.txtFrequen_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequen_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrequen_tab5.Location = New System.Drawing.Point(178, 162)
-        Me.txtFrequen_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFrequen_tab5.Location = New System.Drawing.Point(179, 162)
+        Me.txtFrequen_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtFrequen_tab5.Name = "txtFrequen_tab5"
         Me.txtFrequen_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtFrequen_tab5.TabIndex = 417
@@ -2738,8 +2771,8 @@ Partial Class frmWMeasurement
         '
         Me.txtIf_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIf_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIf_tab5.Location = New System.Drawing.Point(178, 128)
-        Me.txtIf_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtIf_tab5.Location = New System.Drawing.Point(179, 128)
+        Me.txtIf_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtIf_tab5.Name = "txtIf_tab5"
         Me.txtIf_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtIf_tab5.TabIndex = 416
@@ -2859,18 +2892,20 @@ Partial Class frmWMeasurement
         '
         Me.cboMeasurePoint2_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab5.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab5.Location = New System.Drawing.Point(574, 171)
-        Me.cboMeasurePoint2_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint2_tab5.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab5.Location = New System.Drawing.Point(574, 165)
+        Me.cboMeasurePoint2_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab5.Name = "cboMeasurePoint2_tab5"
-        Me.cboMeasurePoint2_tab5.Size = New System.Drawing.Size(114, 25)
+        Me.cboMeasurePoint2_tab5.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint2_tab5.TabIndex = 405
         '
         'cboMeasurePoint1_tab5
         '
         Me.cboMeasurePoint1_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab5.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab5.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab5.Location = New System.Drawing.Point(574, 131)
-        Me.cboMeasurePoint1_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint1_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab5.Name = "cboMeasurePoint1_tab5"
         Me.cboMeasurePoint1_tab5.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint1_tab5.TabIndex = 404
@@ -2933,9 +2968,9 @@ Partial Class frmWMeasurement
         Me.WaveForm6.Controls.Add(Me.Label122)
         Me.WaveForm6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WaveForm6.Location = New System.Drawing.Point(4, 26)
-        Me.WaveForm6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm6.Margin = New System.Windows.Forms.Padding(2)
         Me.WaveForm6.Name = "WaveForm6"
-        Me.WaveForm6.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WaveForm6.Padding = New System.Windows.Forms.Padding(2)
         Me.WaveForm6.Size = New System.Drawing.Size(742, 488)
         Me.WaveForm6.TabIndex = 5
         Me.WaveForm6.Text = "WaveForm6"
@@ -2945,8 +2980,9 @@ Partial Class frmWMeasurement
         '
         Me.cboTrigger_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboTrigger_tab6.FormattingEnabled = True
+        Me.cboTrigger_tab6.Items.AddRange(New Object() {"CH1.", "CH."})
         Me.cboTrigger_tab6.Location = New System.Drawing.Point(457, 323)
-        Me.cboTrigger_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboTrigger_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboTrigger_tab6.Name = "cboTrigger_tab6"
         Me.cboTrigger_tab6.Size = New System.Drawing.Size(85, 25)
         Me.cboTrigger_tab6.TabIndex = 445
@@ -2955,8 +2991,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh2coup_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh2coup_tab6.FormattingEnabled = True
+        Me.cboCh2coup_tab6.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh2coup_tab6.Location = New System.Drawing.Point(457, 260)
-        Me.cboCh2coup_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh2coup_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh2coup_tab6.Name = "cboCh2coup_tab6"
         Me.cboCh2coup_tab6.Size = New System.Drawing.Size(85, 25)
         Me.cboCh2coup_tab6.TabIndex = 444
@@ -2965,8 +3002,9 @@ Partial Class frmWMeasurement
         '
         Me.cboCh1coup_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboCh1coup_tab6.FormattingEnabled = True
+        Me.cboCh1coup_tab6.Items.AddRange(New Object() {"DC", "AC"})
         Me.cboCh1coup_tab6.Location = New System.Drawing.Point(457, 193)
-        Me.cboCh1coup_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboCh1coup_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboCh1coup_tab6.Name = "cboCh1coup_tab6"
         Me.cboCh1coup_tab6.Size = New System.Drawing.Size(85, 25)
         Me.cboCh1coup_tab6.TabIndex = 443
@@ -2976,17 +3014,18 @@ Partial Class frmWMeasurement
         Me.txtTriggerMode_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerMode_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerMode_tab6.Location = New System.Drawing.Point(457, 419)
-        Me.txtTriggerMode_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerMode_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerMode_tab6.Name = "txtTriggerMode_tab6"
         Me.txtTriggerMode_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerMode_tab6.TabIndex = 442
+        Me.txtTriggerMode_tab6.Text = "Single"
         '
         'txtTriggerLevel_tab6
         '
         Me.txtTriggerLevel_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerLevel_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerLevel_tab6.Location = New System.Drawing.Point(457, 388)
-        Me.txtTriggerLevel_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerLevel_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerLevel_tab6.Name = "txtTriggerLevel_tab6"
         Me.txtTriggerLevel_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerLevel_tab6.TabIndex = 441
@@ -3018,10 +3057,11 @@ Partial Class frmWMeasurement
         Me.txtTriggerType_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTriggerType_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTriggerType_tab6.Location = New System.Drawing.Point(457, 357)
-        Me.txtTriggerType_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTriggerType_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTriggerType_tab6.Name = "txtTriggerType_tab6"
         Me.txtTriggerType_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtTriggerType_tab6.TabIndex = 438
+        Me.txtTriggerType_tab6.Text = "EDGE"
         '
         'txtCh2Volt_tab6
         '
@@ -3029,7 +3069,7 @@ Partial Class frmWMeasurement
         Me.txtCh2Volt_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh2Volt_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh2Volt_tab6.Location = New System.Drawing.Point(457, 293)
-        Me.txtCh2Volt_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh2Volt_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh2Volt_tab6.Name = "txtCh2Volt_tab6"
         Me.txtCh2Volt_tab6.ReadOnly = True
         Me.txtCh2Volt_tab6.Size = New System.Drawing.Size(84, 24)
@@ -3040,7 +3080,7 @@ Partial Class frmWMeasurement
         Me.txtCh1Volt_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCh1Volt_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh1Volt_tab6.Location = New System.Drawing.Point(457, 229)
-        Me.txtCh1Volt_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtCh1Volt_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtCh1Volt_tab6.Name = "txtCh1Volt_tab6"
         Me.txtCh1Volt_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtCh1Volt_tab6.TabIndex = 436
@@ -3050,7 +3090,7 @@ Partial Class frmWMeasurement
         Me.txtDatapoint_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDatapoint_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDatapoint_tab6.Location = New System.Drawing.Point(457, 162)
-        Me.txtDatapoint_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDatapoint_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDatapoint_tab6.Name = "txtDatapoint_tab6"
         Me.txtDatapoint_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtDatapoint_tab6.TabIndex = 435
@@ -3060,7 +3100,7 @@ Partial Class frmWMeasurement
         Me.txtTimediv_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTimediv_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTimediv_tab6.Location = New System.Drawing.Point(457, 128)
-        Me.txtTimediv_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTimediv_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTimediv_tab6.Name = "txtTimediv_tab6"
         Me.txtTimediv_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtTimediv_tab6.TabIndex = 434
@@ -3169,8 +3209,8 @@ Partial Class frmWMeasurement
         '
         Me.txtAtt_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAtt_tab6.Location = New System.Drawing.Point(178, 388)
-        Me.txtAtt_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAtt_tab6.Location = New System.Drawing.Point(179, 388)
+        Me.txtAtt_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAtt_tab6.Name = "txtAtt_tab6"
         Me.txtAtt_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtAtt_tab6.TabIndex = 424
@@ -3179,8 +3219,8 @@ Partial Class frmWMeasurement
         '
         Me.txtTld_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTld_tab6.Location = New System.Drawing.Point(178, 358)
-        Me.txtTld_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTld_tab6.Location = New System.Drawing.Point(179, 358)
+        Me.txtTld_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTld_tab6.Name = "txtTld_tab6"
         Me.txtTld_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtTld_tab6.TabIndex = 423
@@ -3189,8 +3229,8 @@ Partial Class frmWMeasurement
         '
         Me.txtTc_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTc_tab6.Location = New System.Drawing.Point(178, 327)
-        Me.txtTc_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtTc_tab6.Location = New System.Drawing.Point(179, 327)
+        Me.txtTc_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtTc_tab6.Name = "txtTc_tab6"
         Me.txtTc_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab6.TabIndex = 422
@@ -3200,8 +3240,8 @@ Partial Class frmWMeasurement
         Me.txtAvg_tab6.BackColor = System.Drawing.SystemColors.Window
         Me.txtAvg_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAvg_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAvg_tab6.Location = New System.Drawing.Point(178, 293)
-        Me.txtAvg_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtAvg_tab6.Location = New System.Drawing.Point(179, 293)
+        Me.txtAvg_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtAvg_tab6.Name = "txtAvg_tab6"
         Me.txtAvg_tab6.ReadOnly = True
         Me.txtAvg_tab6.Size = New System.Drawing.Size(84, 24)
@@ -3211,8 +3251,8 @@ Partial Class frmWMeasurement
         '
         Me.txtDelay_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDelay_tab6.Location = New System.Drawing.Point(178, 260)
-        Me.txtDelay_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDelay_tab6.Location = New System.Drawing.Point(179, 260)
+        Me.txtDelay_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDelay_tab6.Name = "txtDelay_tab6"
         Me.txtDelay_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtDelay_tab6.TabIndex = 420
@@ -3221,8 +3261,8 @@ Partial Class frmWMeasurement
         '
         Me.txtPulse_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPulse_tab6.Location = New System.Drawing.Point(178, 229)
-        Me.txtPulse_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPulse_tab6.Location = New System.Drawing.Point(179, 229)
+        Me.txtPulse_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPulse_tab6.Name = "txtPulse_tab6"
         Me.txtPulse_tab6.ReadOnly = True
         Me.txtPulse_tab6.Size = New System.Drawing.Size(84, 24)
@@ -3232,8 +3272,8 @@ Partial Class frmWMeasurement
         '
         Me.txtDuty_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDuty_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDuty_tab6.Location = New System.Drawing.Point(178, 196)
-        Me.txtDuty_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDuty_tab6.Location = New System.Drawing.Point(179, 196)
+        Me.txtDuty_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDuty_tab6.Name = "txtDuty_tab6"
         Me.txtDuty_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtDuty_tab6.TabIndex = 418
@@ -3242,8 +3282,8 @@ Partial Class frmWMeasurement
         '
         Me.txtFrequen_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequen_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrequen_tab6.Location = New System.Drawing.Point(178, 162)
-        Me.txtFrequen_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFrequen_tab6.Location = New System.Drawing.Point(179, 162)
+        Me.txtFrequen_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtFrequen_tab6.Name = "txtFrequen_tab6"
         Me.txtFrequen_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtFrequen_tab6.TabIndex = 417
@@ -3252,8 +3292,8 @@ Partial Class frmWMeasurement
         '
         Me.txtIf_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIf_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIf_tab6.Location = New System.Drawing.Point(178, 128)
-        Me.txtIf_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtIf_tab6.Location = New System.Drawing.Point(179, 128)
+        Me.txtIf_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtIf_tab6.Name = "txtIf_tab6"
         Me.txtIf_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtIf_tab6.TabIndex = 416
@@ -3373,18 +3413,20 @@ Partial Class frmWMeasurement
         '
         Me.cboMeasurePoint2_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab6.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab6.Location = New System.Drawing.Point(574, 171)
-        Me.cboMeasurePoint2_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint2_tab6.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab6.Location = New System.Drawing.Point(574, 165)
+        Me.cboMeasurePoint2_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab6.Name = "cboMeasurePoint2_tab6"
-        Me.cboMeasurePoint2_tab6.Size = New System.Drawing.Size(114, 25)
+        Me.cboMeasurePoint2_tab6.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint2_tab6.TabIndex = 405
         '
         'cboMeasurePoint1_tab6
         '
         Me.cboMeasurePoint1_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab6.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab6.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab6.Location = New System.Drawing.Point(574, 131)
-        Me.cboMeasurePoint1_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboMeasurePoint1_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab6.Name = "cboMeasurePoint1_tab6"
         Me.cboMeasurePoint1_tab6.Size = New System.Drawing.Size(83, 25)
         Me.cboMeasurePoint1_tab6.TabIndex = 404
@@ -3411,16 +3453,16 @@ Partial Class frmWMeasurement
         Me.btnCancleILm.Text = "Cancle"
         Me.btnCancleILm.UseVisualStyleBackColor = True
         '
-        'btnSaveILm
+        'btnSaveWm
         '
-        Me.btnSaveILm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSaveILm.Location = New System.Drawing.Point(531, 524)
-        Me.btnSaveILm.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnSaveILm.Name = "btnSaveILm"
-        Me.btnSaveILm.Size = New System.Drawing.Size(77, 30)
-        Me.btnSaveILm.TabIndex = 469
-        Me.btnSaveILm.Text = "Save"
-        Me.btnSaveILm.UseVisualStyleBackColor = True
+        Me.btnSaveWm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSaveWm.Location = New System.Drawing.Point(531, 524)
+        Me.btnSaveWm.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnSaveWm.Name = "btnSaveWm"
+        Me.btnSaveWm.Size = New System.Drawing.Size(77, 30)
+        Me.btnSaveWm.TabIndex = 469
+        Me.btnSaveWm.Text = "Save"
+        Me.btnSaveWm.UseVisualStyleBackColor = True
         '
         'frmWMeasurement
         '
@@ -3428,10 +3470,10 @@ Partial Class frmWMeasurement
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(750, 569)
         Me.Controls.Add(Me.btnCancleILm)
-        Me.Controls.Add(Me.btnSaveILm)
+        Me.Controls.Add(Me.btnSaveWm)
         Me.Controls.Add(Me.tabsWaveform)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmWMeasurement"
         Me.Text = "frmWMeasurement"
         Me.tabsWaveform.ResumeLayout(False)
@@ -3554,8 +3596,8 @@ Partial Class frmWMeasurement
     Friend WithEvents txtTriggerType_tab4 As TextBox
     Friend WithEvents txtCh2Volt_tab4 As TextBox
     Friend WithEvents txtCh1Volt_tab4 As TextBox
-    Friend WithEvents TextBox45 As TextBox
     Friend WithEvents txtDatapoint_tab4 As TextBox
+    Friend WithEvents txtTimediv_tab4 As TextBox
     Friend WithEvents Label59 As Label
     Friend WithEvents Label60 As Label
     Friend WithEvents Label61 As Label
@@ -3717,5 +3759,5 @@ Partial Class frmWMeasurement
     Friend WithEvents cboMeasurePoint1_tab6 As ComboBox
     Friend WithEvents Label122 As Label
     Friend WithEvents btnCancleILm As Button
-    Friend WithEvents btnSaveILm As Button
+    Friend WithEvents btnSaveWm As Button
 End Class

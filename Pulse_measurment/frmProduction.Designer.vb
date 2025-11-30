@@ -55,7 +55,7 @@ Partial Class frmProduction
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.btnMeasureWL_condition = New System.Windows.Forms.Button()
-        Me.btnMeasureWaveform = New System.Windows.Forms.Button()
+        Me.btnMeasureWave_condition = New System.Windows.Forms.Button()
         Me.cbMeasure_Spectrum6 = New System.Windows.Forms.CheckBox()
         Me.cbMeasure_Spectrum5 = New System.Windows.Forms.CheckBox()
         Me.cbMeasure_Spectrum4 = New System.Windows.Forms.CheckBox()
@@ -464,16 +464,16 @@ Partial Class frmProduction
         Me.btnMeasureWL_condition.Text = "WL Condition"
         Me.btnMeasureWL_condition.UseVisualStyleBackColor = True
         '
-        'btnMeasureWaveform
+        'btnMeasureWave_condition
         '
-        Me.btnMeasureWaveform.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMeasureWaveform.Location = New System.Drawing.Point(543, 449)
-        Me.btnMeasureWaveform.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnMeasureWaveform.Name = "btnMeasureWaveform"
-        Me.btnMeasureWaveform.Size = New System.Drawing.Size(90, 24)
-        Me.btnMeasureWaveform.TabIndex = 49
-        Me.btnMeasureWaveform.Text = "Waveform Condition"
-        Me.btnMeasureWaveform.UseVisualStyleBackColor = True
+        Me.btnMeasureWave_condition.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMeasureWave_condition.Location = New System.Drawing.Point(543, 449)
+        Me.btnMeasureWave_condition.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnMeasureWave_condition.Name = "btnMeasureWave_condition"
+        Me.btnMeasureWave_condition.Size = New System.Drawing.Size(90, 24)
+        Me.btnMeasureWave_condition.TabIndex = 49
+        Me.btnMeasureWave_condition.Text = "Waveform Condition"
+        Me.btnMeasureWave_condition.UseVisualStyleBackColor = True
         '
         'cbMeasure_Spectrum6
         '
@@ -1062,7 +1062,7 @@ Partial Class frmProduction
         Me.Controls.Add(Me.cbMeasure_Spectrum3)
         Me.Controls.Add(Me.cbMeasure_Spectrum2)
         Me.Controls.Add(Me.cbMeasure_Spectrum1)
-        Me.Controls.Add(Me.btnMeasureWaveform)
+        Me.Controls.Add(Me.btnMeasureWave_condition)
         Me.Controls.Add(Me.btnMeasureWL_condition)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.txtVoltWat)
@@ -1138,7 +1138,7 @@ Partial Class frmProduction
     Friend WithEvents Label13 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents btnMeasureWL_condition As Button
-    Friend WithEvents btnMeasureWaveform As Button
+    Friend WithEvents btnMeasureWave_condition As Button
     Friend WithEvents cbMeasure_Spectrum6 As CheckBox
     Friend WithEvents cbMeasure_Spectrum5 As CheckBox
     Friend WithEvents cbMeasure_Spectrum4 As CheckBox

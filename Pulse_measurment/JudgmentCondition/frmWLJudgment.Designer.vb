@@ -78,7 +78,7 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab6 = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.btnCancleILm = New System.Windows.Forms.Button()
-        Me.btnSaveILm = New System.Windows.Forms.Button()
+        Me.btnSaveWLj = New System.Windows.Forms.Button()
         Me.tabsSPJudge.SuspendLayout()
         Me.SPJudge1.SuspendLayout()
         Me.SPJudge2.SuspendLayout()
@@ -99,7 +99,7 @@ Partial Class frmWLJudgment
         Me.tabsSPJudge.Dock = System.Windows.Forms.DockStyle.Top
         Me.tabsSPJudge.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tabsSPJudge.Location = New System.Drawing.Point(0, 0)
-        Me.tabsSPJudge.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.tabsSPJudge.Margin = New System.Windows.Forms.Padding(2)
         Me.tabsSPJudge.Name = "tabsSPJudge"
         Me.tabsSPJudge.Padding = New System.Drawing.Point(18, 3)
         Me.tabsSPJudge.SelectedIndex = 0
@@ -118,9 +118,9 @@ Partial Class frmWLJudgment
         Me.SPJudge1.Controls.Add(Me.Label102)
         Me.SPJudge1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SPJudge1.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge1.Margin = New System.Windows.Forms.Padding(2)
         Me.SPJudge1.Name = "SPJudge1"
-        Me.SPJudge1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge1.Padding = New System.Windows.Forms.Padding(2)
         Me.SPJudge1.Size = New System.Drawing.Size(742, 488)
         Me.SPJudge1.TabIndex = 0
         Me.SPJudge1.Text = "SP Judge1"
@@ -131,7 +131,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmin_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmin_tab1.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmin_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmin_tab1.Name = "txtPinBandmin_tab1"
         Me.txtPinBandmin_tab1.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmin_tab1.TabIndex = 341
@@ -163,7 +163,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmax_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmax_tab1.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmax_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmax_tab1.Name = "txtPinBandmax_tab1"
         Me.txtPinBandmax_tab1.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmax_tab1.TabIndex = 338
@@ -184,8 +184,9 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab1.FormattingEnabled = True
+        Me.cboSelect2_tab1.Items.AddRange(New Object() {"FFP"})
         Me.cboSelect2_tab1.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect2_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect2_tab1.Name = "cboSelect2_tab1"
         Me.cboSelect2_tab1.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect2_tab1.TabIndex = 335
@@ -195,8 +196,9 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab1.FormattingEnabled = True
+        Me.cboSelect1_tab1.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
         Me.cboSelect1_tab1.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect1_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab1.Name = "cboSelect1_tab1"
         Me.cboSelect1_tab1.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect1_tab1.TabIndex = 294
@@ -224,9 +226,9 @@ Partial Class frmWLJudgment
         Me.SPJudge2.Controls.Add(Me.Label8)
         Me.SPJudge2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SPJudge2.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge2.Margin = New System.Windows.Forms.Padding(2)
         Me.SPJudge2.Name = "SPJudge2"
-        Me.SPJudge2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge2.Padding = New System.Windows.Forms.Padding(2)
         Me.SPJudge2.Size = New System.Drawing.Size(742, 488)
         Me.SPJudge2.TabIndex = 1
         Me.SPJudge2.Text = "SP Judge2"
@@ -237,7 +239,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmin_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmin_tab2.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmin_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmin_tab2.Name = "txtPinBandmin_tab2"
         Me.txtPinBandmin_tab2.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmin_tab2.TabIndex = 349
@@ -269,7 +271,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmax_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmax_tab2.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmax_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmax_tab2.Name = "txtPinBandmax_tab2"
         Me.txtPinBandmax_tab2.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmax_tab2.TabIndex = 346
@@ -290,8 +292,9 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab2.FormattingEnabled = True
+        Me.cboSelect2_tab2.Items.AddRange(New Object() {"FFP"})
         Me.cboSelect2_tab2.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect2_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect2_tab2.Name = "cboSelect2_tab2"
         Me.cboSelect2_tab2.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect2_tab2.TabIndex = 344
@@ -301,8 +304,9 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab2.FormattingEnabled = True
+        Me.cboSelect1_tab2.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
         Me.cboSelect1_tab2.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect1_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab2.Name = "cboSelect1_tab2"
         Me.cboSelect1_tab2.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect1_tab2.TabIndex = 343
@@ -330,9 +334,9 @@ Partial Class frmWLJudgment
         Me.SPJudge3.Controls.Add(Me.Label12)
         Me.SPJudge3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SPJudge3.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge3.Margin = New System.Windows.Forms.Padding(2)
         Me.SPJudge3.Name = "SPJudge3"
-        Me.SPJudge3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge3.Padding = New System.Windows.Forms.Padding(2)
         Me.SPJudge3.Size = New System.Drawing.Size(742, 488)
         Me.SPJudge3.TabIndex = 2
         Me.SPJudge3.Text = "SP Judge3"
@@ -343,7 +347,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmin_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmin_tab3.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmin_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmin_tab3.Name = "txtPinBandmin_tab3"
         Me.txtPinBandmin_tab3.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmin_tab3.TabIndex = 349
@@ -375,7 +379,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmax_tab3.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmax_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmax_tab3.Name = "txtPinBandmax_tab3"
         Me.txtPinBandmax_tab3.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmax_tab3.TabIndex = 346
@@ -396,8 +400,9 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab3.FormattingEnabled = True
+        Me.cboSelect2_tab3.Items.AddRange(New Object() {"FFP"})
         Me.cboSelect2_tab3.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect2_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect2_tab3.Name = "cboSelect2_tab3"
         Me.cboSelect2_tab3.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect2_tab3.TabIndex = 344
@@ -407,8 +412,9 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab3.FormattingEnabled = True
+        Me.cboSelect1_tab3.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
         Me.cboSelect1_tab3.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect1_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab3.Name = "cboSelect1_tab3"
         Me.cboSelect1_tab3.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect1_tab3.TabIndex = 343
@@ -436,9 +442,9 @@ Partial Class frmWLJudgment
         Me.SPJudge4.Controls.Add(Me.Label16)
         Me.SPJudge4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SPJudge4.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge4.Margin = New System.Windows.Forms.Padding(2)
         Me.SPJudge4.Name = "SPJudge4"
-        Me.SPJudge4.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge4.Padding = New System.Windows.Forms.Padding(2)
         Me.SPJudge4.Size = New System.Drawing.Size(742, 488)
         Me.SPJudge4.TabIndex = 3
         Me.SPJudge4.Text = "SP Judge4"
@@ -449,7 +455,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmin_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmin_tab4.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmin_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmin_tab4.Name = "txtPinBandmin_tab4"
         Me.txtPinBandmin_tab4.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmin_tab4.TabIndex = 349
@@ -481,7 +487,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmax_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmax_tab4.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmax_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmax_tab4.Name = "txtPinBandmax_tab4"
         Me.txtPinBandmax_tab4.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmax_tab4.TabIndex = 346
@@ -502,8 +508,9 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab4.FormattingEnabled = True
+        Me.cboSelect2_tab4.Items.AddRange(New Object() {"FFP"})
         Me.cboSelect2_tab4.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect2_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect2_tab4.Name = "cboSelect2_tab4"
         Me.cboSelect2_tab4.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect2_tab4.TabIndex = 344
@@ -513,8 +520,9 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab4.FormattingEnabled = True
+        Me.cboSelect1_tab4.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
         Me.cboSelect1_tab4.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect1_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab4.Name = "cboSelect1_tab4"
         Me.cboSelect1_tab4.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect1_tab4.TabIndex = 343
@@ -542,9 +550,9 @@ Partial Class frmWLJudgment
         Me.SPJudge5.Controls.Add(Me.Label20)
         Me.SPJudge5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SPJudge5.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge5.Margin = New System.Windows.Forms.Padding(2)
         Me.SPJudge5.Name = "SPJudge5"
-        Me.SPJudge5.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge5.Padding = New System.Windows.Forms.Padding(2)
         Me.SPJudge5.Size = New System.Drawing.Size(742, 488)
         Me.SPJudge5.TabIndex = 4
         Me.SPJudge5.Text = "SP Judge5"
@@ -555,7 +563,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmin_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmin_tab5.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmin_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmin_tab5.Name = "txtPinBandmin_tab5"
         Me.txtPinBandmin_tab5.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmin_tab5.TabIndex = 349
@@ -587,7 +595,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmax_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmax_tab5.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmax_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmax_tab5.Name = "txtPinBandmax_tab5"
         Me.txtPinBandmax_tab5.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmax_tab5.TabIndex = 346
@@ -608,8 +616,9 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab5.FormattingEnabled = True
+        Me.cboSelect2_tab5.Items.AddRange(New Object() {"FFP"})
         Me.cboSelect2_tab5.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect2_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect2_tab5.Name = "cboSelect2_tab5"
         Me.cboSelect2_tab5.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect2_tab5.TabIndex = 344
@@ -619,8 +628,9 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab5.FormattingEnabled = True
+        Me.cboSelect1_tab5.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
         Me.cboSelect1_tab5.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect1_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab5.Name = "cboSelect1_tab5"
         Me.cboSelect1_tab5.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect1_tab5.TabIndex = 343
@@ -648,9 +658,9 @@ Partial Class frmWLJudgment
         Me.SPJudge6.Controls.Add(Me.Label4)
         Me.SPJudge6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SPJudge6.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge6.Margin = New System.Windows.Forms.Padding(2)
         Me.SPJudge6.Name = "SPJudge6"
-        Me.SPJudge6.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SPJudge6.Padding = New System.Windows.Forms.Padding(2)
         Me.SPJudge6.Size = New System.Drawing.Size(742, 488)
         Me.SPJudge6.TabIndex = 5
         Me.SPJudge6.Text = "SP Judge6"
@@ -661,7 +671,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmin_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmin_tab6.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmin_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmin_tab6.Name = "txtPinBandmin_tab6"
         Me.txtPinBandmin_tab6.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmin_tab6.TabIndex = 349
@@ -693,7 +703,7 @@ Partial Class frmWLJudgment
         Me.txtPinBandmax_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPinBandmax_tab6.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPinBandmax_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPinBandmax_tab6.Name = "txtPinBandmax_tab6"
         Me.txtPinBandmax_tab6.Size = New System.Drawing.Size(60, 24)
         Me.txtPinBandmax_tab6.TabIndex = 346
@@ -714,8 +724,9 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab6.FormattingEnabled = True
+        Me.cboSelect2_tab6.Items.AddRange(New Object() {"FFP"})
         Me.cboSelect2_tab6.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect2_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect2_tab6.Name = "cboSelect2_tab6"
         Me.cboSelect2_tab6.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect2_tab6.TabIndex = 344
@@ -725,8 +736,9 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab6.FormattingEnabled = True
+        Me.cboSelect1_tab6.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
         Me.cboSelect1_tab6.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboSelect1_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab6.Name = "cboSelect1_tab6"
         Me.cboSelect1_tab6.Size = New System.Drawing.Size(83, 25)
         Me.cboSelect1_tab6.TabIndex = 343
@@ -753,16 +765,16 @@ Partial Class frmWLJudgment
         Me.btnCancleILm.Text = "Cancle"
         Me.btnCancleILm.UseVisualStyleBackColor = True
         '
-        'btnSaveILm
+        'btnSaveWLj
         '
-        Me.btnSaveILm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSaveILm.Location = New System.Drawing.Point(531, 524)
-        Me.btnSaveILm.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnSaveILm.Name = "btnSaveILm"
-        Me.btnSaveILm.Size = New System.Drawing.Size(77, 30)
-        Me.btnSaveILm.TabIndex = 469
-        Me.btnSaveILm.Text = "Save"
-        Me.btnSaveILm.UseVisualStyleBackColor = True
+        Me.btnSaveWLj.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSaveWLj.Location = New System.Drawing.Point(531, 524)
+        Me.btnSaveWLj.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnSaveWLj.Name = "btnSaveWLj"
+        Me.btnSaveWLj.Size = New System.Drawing.Size(77, 30)
+        Me.btnSaveWLj.TabIndex = 469
+        Me.btnSaveWLj.Text = "Save"
+        Me.btnSaveWLj.UseVisualStyleBackColor = True
         '
         'frmWLJudgment
         '
@@ -771,9 +783,9 @@ Partial Class frmWLJudgment
         Me.ClientSize = New System.Drawing.Size(750, 569)
         Me.Controls.Add(Me.btnCancleILm)
         Me.Controls.Add(Me.tabsSPJudge)
-        Me.Controls.Add(Me.btnSaveILm)
+        Me.Controls.Add(Me.btnSaveWLj)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmWLJudgment"
         Me.Text = "frmILJudgment"
         Me.tabsSPJudge.ResumeLayout(False)
@@ -849,5 +861,5 @@ Partial Class frmWLJudgment
     Friend WithEvents cboSelect1_tab6 As ComboBox
     Friend WithEvents Label4 As Label
     Friend WithEvents btnCancleILm As Button
-    Friend WithEvents btnSaveILm As Button
+    Friend WithEvents btnSaveWLj As Button
 End Class

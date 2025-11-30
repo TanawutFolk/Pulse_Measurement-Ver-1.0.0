@@ -1135,7 +1135,7 @@ Partial Class frmILMeasurement
         '
         'txtPulse_tab1
         '
-        Me.txtPulse_tab1.BackColor = System.Drawing.SystemColors.Window
+        Me.txtPulse_tab1.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPulse_tab1.Location = New System.Drawing.Point(187, 264)
@@ -1984,7 +1984,7 @@ Partial Class frmILMeasurement
         '
         'txtPulse_tab2
         '
-        Me.txtPulse_tab2.BackColor = System.Drawing.SystemColors.Window
+        Me.txtPulse_tab2.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPulse_tab2.Location = New System.Drawing.Point(187, 264)
@@ -2833,7 +2833,7 @@ Partial Class frmILMeasurement
         '
         'txtPulse_tab3
         '
-        Me.txtPulse_tab3.BackColor = System.Drawing.SystemColors.Window
+        Me.txtPulse_tab3.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPulse_tab3.Location = New System.Drawing.Point(187, 264)
@@ -3682,7 +3682,7 @@ Partial Class frmILMeasurement
         '
         'txtPulse_tab4
         '
-        Me.txtPulse_tab4.BackColor = System.Drawing.SystemColors.Window
+        Me.txtPulse_tab4.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPulse_tab4.Location = New System.Drawing.Point(187, 264)
@@ -4531,7 +4531,7 @@ Partial Class frmILMeasurement
         '
         'txtPulse_tab5
         '
-        Me.txtPulse_tab5.BackColor = System.Drawing.SystemColors.Window
+        Me.txtPulse_tab5.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPulse_tab5.Location = New System.Drawing.Point(187, 264)
@@ -5380,7 +5380,7 @@ Partial Class frmILMeasurement
         '
         'txtPulse_tab6
         '
-        Me.txtPulse_tab6.BackColor = System.Drawing.SystemColors.Window
+        Me.txtPulse_tab6.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPulse_tab6.Location = New System.Drawing.Point(187, 264)

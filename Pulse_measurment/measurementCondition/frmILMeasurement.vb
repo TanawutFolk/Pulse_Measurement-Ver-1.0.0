@@ -4,8 +4,11 @@
     End Sub
 
     ' ---------------------btnSaveAll_Click---------------------
+    Private IL_Data As IL_Group_Settings
     Private Sub btnSaveILm_Click(sender As Object, e As EventArgs) Handles btnSaveILm.Click
+
         Try
+
             ' >>>>>>> TAB 1 <<<<<<<
             ' โซน 1
             IL_Data.L1.IfStart = CDbl(txtStart_tab1.Text)
@@ -232,8 +235,6 @@
             MessageBox.Show("กรุณากรอกตัวเลขให้ครบทุกช่อง", "Warning")
         End Try
     End Sub
-
-    Private IL_Data As IL_Group_Settings
 
     ' ------ฟังก์ชัน Load เอาข้อมูลจากตัวแปร มาแสดงในหน้าจอ--------------------
     Public Sub LoadDataToScreen(data As IL_Group_Settings)

@@ -24,7 +24,7 @@ Partial Class frmWLMeasurement
     Private Sub InitializeComponent()
         Me.Spectrum6 = New System.Windows.Forms.TabPage()
         Me.cboSen_tab6 = New System.Windows.Forms.ComboBox()
-        Me.txtSeepSpeed_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtSweepSpeed_tab6 = New System.Windows.Forms.TextBox()
         Me.txtAvgtime_tab6 = New System.Windows.Forms.TextBox()
         Me.txtPoint_tab6 = New System.Windows.Forms.TextBox()
         Me.txtResolution_tab6 = New System.Windows.Forms.TextBox()
@@ -43,9 +43,9 @@ Partial Class frmWLMeasurement
         Me.txtAtt_tab6 = New System.Windows.Forms.TextBox()
         Me.txtTld_tab6 = New System.Windows.Forms.TextBox()
         Me.txtTc_tab6 = New System.Windows.Forms.TextBox()
-        Me.TextBox84 = New System.Windows.Forms.TextBox()
+        Me.txtDelayTimeTab6 = New System.Windows.Forms.TextBox()
         Me.txtPulse_tab6 = New System.Windows.Forms.TextBox()
-        Me.txDuty_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtDuty_tab6 = New System.Windows.Forms.TextBox()
         Me.txtFrequen_tab6 = New System.Windows.Forms.TextBox()
         Me.txtIf_tab6 = New System.Windows.Forms.TextBox()
         Me.Label96 = New System.Windows.Forms.Label()
@@ -62,11 +62,11 @@ Partial Class frmWLMeasurement
         Me.Label105 = New System.Windows.Forms.Label()
         Me.Spectrum5 = New System.Windows.Forms.TabPage()
         Me.cboSen_tab5 = New System.Windows.Forms.ComboBox()
-        Me.txtSeepSpeed_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtSweepSpeed_tab5 = New System.Windows.Forms.TextBox()
         Me.txtAvgtime_tab5 = New System.Windows.Forms.TextBox()
         Me.txtPoint_tab5 = New System.Windows.Forms.TextBox()
         Me.txtResolution_tab5 = New System.Windows.Forms.TextBox()
-        Me.TextBox62 = New System.Windows.Forms.TextBox()
+        Me.txtRef_tab5 = New System.Windows.Forms.TextBox()
         Me.txtSpan_tab5 = New System.Windows.Forms.TextBox()
         Me.txtWlcenter_tab5 = New System.Windows.Forms.TextBox()
         Me.Label68 = New System.Windows.Forms.Label()
@@ -81,7 +81,7 @@ Partial Class frmWLMeasurement
         Me.txtAtt_tab5 = New System.Windows.Forms.TextBox()
         Me.txtTld_tab5 = New System.Windows.Forms.TextBox()
         Me.txtTc_tab5 = New System.Windows.Forms.TextBox()
-        Me.TextBox68 = New System.Windows.Forms.TextBox()
+        Me.txtDelayTimeTab5 = New System.Windows.Forms.TextBox()
         Me.txtPulse_tab5 = New System.Windows.Forms.TextBox()
         Me.txtDuty_tab5 = New System.Windows.Forms.TextBox()
         Me.txtFrequen_tab5 = New System.Windows.Forms.TextBox()
@@ -100,7 +100,7 @@ Partial Class frmWLMeasurement
         Me.Label86 = New System.Windows.Forms.Label()
         Me.Spectrum4 = New System.Windows.Forms.TabPage()
         Me.cboSen_tab4 = New System.Windows.Forms.ComboBox()
-        Me.txtSeepSpeed_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtSweepSpeed_tab4 = New System.Windows.Forms.TextBox()
         Me.txtAvgtime_tab4 = New System.Windows.Forms.TextBox()
         Me.txtPoint_tab4 = New System.Windows.Forms.TextBox()
         Me.txtResolution_tab4 = New System.Windows.Forms.TextBox()
@@ -119,7 +119,7 @@ Partial Class frmWLMeasurement
         Me.txtAtt_tab4 = New System.Windows.Forms.TextBox()
         Me.txtTld_tab4 = New System.Windows.Forms.TextBox()
         Me.txtTc_tab4 = New System.Windows.Forms.TextBox()
-        Me.TextBox52 = New System.Windows.Forms.TextBox()
+        Me.txtDelayTimeTab4 = New System.Windows.Forms.TextBox()
         Me.txtPulse_tab4 = New System.Windows.Forms.TextBox()
         Me.txtDuty_tab4 = New System.Windows.Forms.TextBox()
         Me.txtFrequen_tab4 = New System.Windows.Forms.TextBox()
@@ -138,7 +138,7 @@ Partial Class frmWLMeasurement
         Me.Label67 = New System.Windows.Forms.Label()
         Me.Spectrum3 = New System.Windows.Forms.TabPage()
         Me.cboSen_tab3 = New System.Windows.Forms.ComboBox()
-        Me.txtSeepSpeed_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtSweepSpeed_tab3 = New System.Windows.Forms.TextBox()
         Me.txtAvgtime_tab3 = New System.Windows.Forms.TextBox()
         Me.txtPoint_tab3 = New System.Windows.Forms.TextBox()
         Me.txtResolution_tab3 = New System.Windows.Forms.TextBox()
@@ -157,7 +157,7 @@ Partial Class frmWLMeasurement
         Me.txtAtt_tab3 = New System.Windows.Forms.TextBox()
         Me.txtTld_tab3 = New System.Windows.Forms.TextBox()
         Me.txtTc_tab3 = New System.Windows.Forms.TextBox()
-        Me.TextBox36 = New System.Windows.Forms.TextBox()
+        Me.txtDelayTimeTab3 = New System.Windows.Forms.TextBox()
         Me.txtPulse_tab3 = New System.Windows.Forms.TextBox()
         Me.txtDuty_tab3 = New System.Windows.Forms.TextBox()
         Me.txtFrequen_tab3 = New System.Windows.Forms.TextBox()
@@ -176,7 +176,7 @@ Partial Class frmWLMeasurement
         Me.Label48 = New System.Windows.Forms.Label()
         Me.Spectrum2 = New System.Windows.Forms.TabPage()
         Me.cboSen_tab2 = New System.Windows.Forms.ComboBox()
-        Me.txtSeepSpeed_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtSweepSpeed_tab2 = New System.Windows.Forms.TextBox()
         Me.txtAvgtime_tab2 = New System.Windows.Forms.TextBox()
         Me.txtPoint_tab2 = New System.Windows.Forms.TextBox()
         Me.txtResolution_tab2 = New System.Windows.Forms.TextBox()
@@ -195,7 +195,7 @@ Partial Class frmWLMeasurement
         Me.txtAtt_tab2 = New System.Windows.Forms.TextBox()
         Me.txtTld_tab2 = New System.Windows.Forms.TextBox()
         Me.txtTc_tab2 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.txtDelayTimeTab2 = New System.Windows.Forms.TextBox()
         Me.txtPulse_tab2 = New System.Windows.Forms.TextBox()
         Me.txtDuty_tab2 = New System.Windows.Forms.TextBox()
         Me.txtFrequen_tab2 = New System.Windows.Forms.TextBox()
@@ -214,7 +214,7 @@ Partial Class frmWLMeasurement
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Spectrum1 = New System.Windows.Forms.TabPage()
         Me.cboSen_tab1 = New System.Windows.Forms.ComboBox()
-        Me.txtSeepSpeed_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtSweepSpeed_tab1 = New System.Windows.Forms.TextBox()
         Me.txtAvgtime_tab1 = New System.Windows.Forms.TextBox()
         Me.txtPoint_tab1 = New System.Windows.Forms.TextBox()
         Me.txtResolution_tab1 = New System.Windows.Forms.TextBox()
@@ -233,8 +233,8 @@ Partial Class frmWLMeasurement
         Me.txtAtt_tab1 = New System.Windows.Forms.TextBox()
         Me.txtTld_tab1 = New System.Windows.Forms.TextBox()
         Me.txtTc_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtDelayTimeTab1 = New System.Windows.Forms.TextBox()
         Me.txtPulse_tab1 = New System.Windows.Forms.TextBox()
-        Me.TextBox189 = New System.Windows.Forms.TextBox()
         Me.txtDuty_tab1 = New System.Windows.Forms.TextBox()
         Me.txtFrequen_tab1 = New System.Windows.Forms.TextBox()
         Me.txtIf_tab1 = New System.Windows.Forms.TextBox()
@@ -250,22 +250,22 @@ Partial Class frmWLMeasurement
         Me.cboMeasurePoint2_tab1 = New System.Windows.Forms.ComboBox()
         Me.cboMeasurePoint1_tab1 = New System.Windows.Forms.ComboBox()
         Me.Label39 = New System.Windows.Forms.Label()
-        Me.btnOkWLF6 = New System.Windows.Forms.TabControl()
-        Me.btnCancleILm = New System.Windows.Forms.Button()
-        Me.btnSaveILm = New System.Windows.Forms.Button()
+        Me.TabsSpectrum = New System.Windows.Forms.TabControl()
+        Me.btnCancleWLm = New System.Windows.Forms.Button()
+        Me.btnSaveWLm = New System.Windows.Forms.Button()
         Me.Spectrum6.SuspendLayout()
         Me.Spectrum5.SuspendLayout()
         Me.Spectrum4.SuspendLayout()
         Me.Spectrum3.SuspendLayout()
         Me.Spectrum2.SuspendLayout()
         Me.Spectrum1.SuspendLayout()
-        Me.btnOkWLF6.SuspendLayout()
+        Me.TabsSpectrum.SuspendLayout()
         Me.SuspendLayout()
         '
         'Spectrum6
         '
         Me.Spectrum6.Controls.Add(Me.cboSen_tab6)
-        Me.Spectrum6.Controls.Add(Me.txtSeepSpeed_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtSweepSpeed_tab6)
         Me.Spectrum6.Controls.Add(Me.txtAvgtime_tab6)
         Me.Spectrum6.Controls.Add(Me.txtPoint_tab6)
         Me.Spectrum6.Controls.Add(Me.txtResolution_tab6)
@@ -284,9 +284,9 @@ Partial Class frmWLMeasurement
         Me.Spectrum6.Controls.Add(Me.txtAtt_tab6)
         Me.Spectrum6.Controls.Add(Me.txtTld_tab6)
         Me.Spectrum6.Controls.Add(Me.txtTc_tab6)
-        Me.Spectrum6.Controls.Add(Me.TextBox84)
+        Me.Spectrum6.Controls.Add(Me.txtDelayTimeTab6)
         Me.Spectrum6.Controls.Add(Me.txtPulse_tab6)
-        Me.Spectrum6.Controls.Add(Me.txDuty_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtDuty_tab6)
         Me.Spectrum6.Controls.Add(Me.txtFrequen_tab6)
         Me.Spectrum6.Controls.Add(Me.txtIf_tab6)
         Me.Spectrum6.Controls.Add(Me.Label96)
@@ -314,21 +314,22 @@ Partial Class frmWLMeasurement
         '
         Me.cboSen_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSen_tab6.FormattingEnabled = True
+        Me.cboSen_tab6.Items.AddRange(New Object() {"MID"})
         Me.cboSen_tab6.Location = New System.Drawing.Point(422, 291)
         Me.cboSen_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSen_tab6.Name = "cboSen_tab6"
         Me.cboSen_tab6.Size = New System.Drawing.Size(84, 25)
         Me.cboSen_tab6.TabIndex = 433
         '
-        'txtSeepSpeed_tab6
+        'txtSweepSpeed_tab6
         '
-        Me.txtSeepSpeed_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtSeepSpeed_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSeepSpeed_tab6.Location = New System.Drawing.Point(422, 388)
-        Me.txtSeepSpeed_tab6.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtSeepSpeed_tab6.Name = "txtSeepSpeed_tab6"
-        Me.txtSeepSpeed_tab6.Size = New System.Drawing.Size(84, 24)
-        Me.txtSeepSpeed_tab6.TabIndex = 432
+        Me.txtSweepSpeed_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSweepSpeed_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSweepSpeed_tab6.Location = New System.Drawing.Point(422, 388)
+        Me.txtSweepSpeed_tab6.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtSweepSpeed_tab6.Name = "txtSweepSpeed_tab6"
+        Me.txtSweepSpeed_tab6.Size = New System.Drawing.Size(84, 24)
+        Me.txtSweepSpeed_tab6.TabIndex = 432
         '
         'txtAvgtime_tab6
         '
@@ -522,15 +523,15 @@ Partial Class frmWLMeasurement
         Me.txtTc_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab6.TabIndex = 413
         '
-        'TextBox84
+        'txtDelayTimeTab6
         '
-        Me.TextBox84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox84.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox84.Location = New System.Drawing.Point(181, 292)
-        Me.TextBox84.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox84.Name = "TextBox84"
-        Me.TextBox84.Size = New System.Drawing.Size(84, 24)
-        Me.TextBox84.TabIndex = 412
+        Me.txtDelayTimeTab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelayTimeTab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelayTimeTab6.Location = New System.Drawing.Point(181, 292)
+        Me.txtDelayTimeTab6.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtDelayTimeTab6.Name = "txtDelayTimeTab6"
+        Me.txtDelayTimeTab6.Size = New System.Drawing.Size(84, 24)
+        Me.txtDelayTimeTab6.TabIndex = 412
         '
         'txtPulse_tab6
         '
@@ -543,15 +544,15 @@ Partial Class frmWLMeasurement
         Me.txtPulse_tab6.Size = New System.Drawing.Size(84, 24)
         Me.txtPulse_tab6.TabIndex = 411
         '
-        'txDuty_tab6
+        'txtDuty_tab6
         '
-        Me.txDuty_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txDuty_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txDuty_tab6.Location = New System.Drawing.Point(181, 228)
-        Me.txDuty_tab6.Margin = New System.Windows.Forms.Padding(2)
-        Me.txDuty_tab6.Name = "txDuty_tab6"
-        Me.txDuty_tab6.Size = New System.Drawing.Size(84, 24)
-        Me.txDuty_tab6.TabIndex = 410
+        Me.txtDuty_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDuty_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDuty_tab6.Location = New System.Drawing.Point(181, 228)
+        Me.txtDuty_tab6.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtDuty_tab6.Name = "txtDuty_tab6"
+        Me.txtDuty_tab6.Size = New System.Drawing.Size(84, 24)
+        Me.txtDuty_tab6.TabIndex = 410
         '
         'txtFrequen_tab6
         '
@@ -677,7 +678,8 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint2_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab6.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab6.Location = New System.Drawing.Point(574, 189)
+        Me.cboMeasurePoint2_tab6.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab6.Location = New System.Drawing.Point(574, 194)
         Me.cboMeasurePoint2_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab6.Name = "cboMeasurePoint2_tab6"
         Me.cboMeasurePoint2_tab6.Size = New System.Drawing.Size(83, 25)
@@ -687,6 +689,7 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint1_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab6.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab6.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab6.Location = New System.Drawing.Point(574, 162)
         Me.cboMeasurePoint1_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab6.Name = "cboMeasurePoint1_tab6"
@@ -707,11 +710,11 @@ Partial Class frmWLMeasurement
         'Spectrum5
         '
         Me.Spectrum5.Controls.Add(Me.cboSen_tab5)
-        Me.Spectrum5.Controls.Add(Me.txtSeepSpeed_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtSweepSpeed_tab5)
         Me.Spectrum5.Controls.Add(Me.txtAvgtime_tab5)
         Me.Spectrum5.Controls.Add(Me.txtPoint_tab5)
         Me.Spectrum5.Controls.Add(Me.txtResolution_tab5)
-        Me.Spectrum5.Controls.Add(Me.TextBox62)
+        Me.Spectrum5.Controls.Add(Me.txtRef_tab5)
         Me.Spectrum5.Controls.Add(Me.txtSpan_tab5)
         Me.Spectrum5.Controls.Add(Me.txtWlcenter_tab5)
         Me.Spectrum5.Controls.Add(Me.Label68)
@@ -726,7 +729,7 @@ Partial Class frmWLMeasurement
         Me.Spectrum5.Controls.Add(Me.txtAtt_tab5)
         Me.Spectrum5.Controls.Add(Me.txtTld_tab5)
         Me.Spectrum5.Controls.Add(Me.txtTc_tab5)
-        Me.Spectrum5.Controls.Add(Me.TextBox68)
+        Me.Spectrum5.Controls.Add(Me.txtDelayTimeTab5)
         Me.Spectrum5.Controls.Add(Me.txtPulse_tab5)
         Me.Spectrum5.Controls.Add(Me.txtDuty_tab5)
         Me.Spectrum5.Controls.Add(Me.txtFrequen_tab5)
@@ -756,21 +759,22 @@ Partial Class frmWLMeasurement
         '
         Me.cboSen_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSen_tab5.FormattingEnabled = True
+        Me.cboSen_tab5.Items.AddRange(New Object() {"MID"})
         Me.cboSen_tab5.Location = New System.Drawing.Point(422, 291)
         Me.cboSen_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSen_tab5.Name = "cboSen_tab5"
         Me.cboSen_tab5.Size = New System.Drawing.Size(84, 25)
         Me.cboSen_tab5.TabIndex = 434
         '
-        'txtSeepSpeed_tab5
+        'txtSweepSpeed_tab5
         '
-        Me.txtSeepSpeed_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtSeepSpeed_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSeepSpeed_tab5.Location = New System.Drawing.Point(422, 388)
-        Me.txtSeepSpeed_tab5.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtSeepSpeed_tab5.Name = "txtSeepSpeed_tab5"
-        Me.txtSeepSpeed_tab5.Size = New System.Drawing.Size(84, 24)
-        Me.txtSeepSpeed_tab5.TabIndex = 432
+        Me.txtSweepSpeed_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSweepSpeed_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSweepSpeed_tab5.Location = New System.Drawing.Point(422, 388)
+        Me.txtSweepSpeed_tab5.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtSweepSpeed_tab5.Name = "txtSweepSpeed_tab5"
+        Me.txtSweepSpeed_tab5.Size = New System.Drawing.Size(84, 24)
+        Me.txtSweepSpeed_tab5.TabIndex = 432
         '
         'txtAvgtime_tab5
         '
@@ -804,15 +808,15 @@ Partial Class frmWLMeasurement
         Me.txtResolution_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtResolution_tab5.TabIndex = 428
         '
-        'TextBox62
+        'txtRef_tab5
         '
-        Me.TextBox62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox62.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox62.Location = New System.Drawing.Point(422, 228)
-        Me.TextBox62.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox62.Name = "TextBox62"
-        Me.TextBox62.Size = New System.Drawing.Size(84, 24)
-        Me.TextBox62.TabIndex = 427
+        Me.txtRef_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRef_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRef_tab5.Location = New System.Drawing.Point(422, 228)
+        Me.txtRef_tab5.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtRef_tab5.Name = "txtRef_tab5"
+        Me.txtRef_tab5.Size = New System.Drawing.Size(84, 24)
+        Me.txtRef_tab5.TabIndex = 427
         '
         'txtSpan_tab5
         '
@@ -964,15 +968,15 @@ Partial Class frmWLMeasurement
         Me.txtTc_tab5.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab5.TabIndex = 413
         '
-        'TextBox68
+        'txtDelayTimeTab5
         '
-        Me.TextBox68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox68.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox68.Location = New System.Drawing.Point(181, 292)
-        Me.TextBox68.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox68.Name = "TextBox68"
-        Me.TextBox68.Size = New System.Drawing.Size(84, 24)
-        Me.TextBox68.TabIndex = 412
+        Me.txtDelayTimeTab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelayTimeTab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelayTimeTab5.Location = New System.Drawing.Point(181, 292)
+        Me.txtDelayTimeTab5.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtDelayTimeTab5.Name = "txtDelayTimeTab5"
+        Me.txtDelayTimeTab5.Size = New System.Drawing.Size(84, 24)
+        Me.txtDelayTimeTab5.TabIndex = 412
         '
         'txtPulse_tab5
         '
@@ -1119,7 +1123,8 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint2_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab5.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab5.Location = New System.Drawing.Point(574, 189)
+        Me.cboMeasurePoint2_tab5.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab5.Location = New System.Drawing.Point(574, 194)
         Me.cboMeasurePoint2_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab5.Name = "cboMeasurePoint2_tab5"
         Me.cboMeasurePoint2_tab5.Size = New System.Drawing.Size(83, 25)
@@ -1129,6 +1134,7 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint1_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab5.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab5.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab5.Location = New System.Drawing.Point(574, 162)
         Me.cboMeasurePoint1_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab5.Name = "cboMeasurePoint1_tab5"
@@ -1149,7 +1155,7 @@ Partial Class frmWLMeasurement
         'Spectrum4
         '
         Me.Spectrum4.Controls.Add(Me.cboSen_tab4)
-        Me.Spectrum4.Controls.Add(Me.txtSeepSpeed_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtSweepSpeed_tab4)
         Me.Spectrum4.Controls.Add(Me.txtAvgtime_tab4)
         Me.Spectrum4.Controls.Add(Me.txtPoint_tab4)
         Me.Spectrum4.Controls.Add(Me.txtResolution_tab4)
@@ -1168,7 +1174,7 @@ Partial Class frmWLMeasurement
         Me.Spectrum4.Controls.Add(Me.txtAtt_tab4)
         Me.Spectrum4.Controls.Add(Me.txtTld_tab4)
         Me.Spectrum4.Controls.Add(Me.txtTc_tab4)
-        Me.Spectrum4.Controls.Add(Me.TextBox52)
+        Me.Spectrum4.Controls.Add(Me.txtDelayTimeTab4)
         Me.Spectrum4.Controls.Add(Me.txtPulse_tab4)
         Me.Spectrum4.Controls.Add(Me.txtDuty_tab4)
         Me.Spectrum4.Controls.Add(Me.txtFrequen_tab4)
@@ -1198,21 +1204,22 @@ Partial Class frmWLMeasurement
         '
         Me.cboSen_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSen_tab4.FormattingEnabled = True
+        Me.cboSen_tab4.Items.AddRange(New Object() {"MID"})
         Me.cboSen_tab4.Location = New System.Drawing.Point(422, 291)
         Me.cboSen_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSen_tab4.Name = "cboSen_tab4"
         Me.cboSen_tab4.Size = New System.Drawing.Size(84, 25)
         Me.cboSen_tab4.TabIndex = 434
         '
-        'txtSeepSpeed_tab4
+        'txtSweepSpeed_tab4
         '
-        Me.txtSeepSpeed_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtSeepSpeed_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSeepSpeed_tab4.Location = New System.Drawing.Point(422, 388)
-        Me.txtSeepSpeed_tab4.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtSeepSpeed_tab4.Name = "txtSeepSpeed_tab4"
-        Me.txtSeepSpeed_tab4.Size = New System.Drawing.Size(84, 24)
-        Me.txtSeepSpeed_tab4.TabIndex = 432
+        Me.txtSweepSpeed_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSweepSpeed_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSweepSpeed_tab4.Location = New System.Drawing.Point(422, 388)
+        Me.txtSweepSpeed_tab4.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtSweepSpeed_tab4.Name = "txtSweepSpeed_tab4"
+        Me.txtSweepSpeed_tab4.Size = New System.Drawing.Size(84, 24)
+        Me.txtSweepSpeed_tab4.TabIndex = 432
         '
         'txtAvgtime_tab4
         '
@@ -1406,15 +1413,15 @@ Partial Class frmWLMeasurement
         Me.txtTc_tab4.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab4.TabIndex = 413
         '
-        'TextBox52
+        'txtDelayTimeTab4
         '
-        Me.TextBox52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox52.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox52.Location = New System.Drawing.Point(181, 292)
-        Me.TextBox52.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.Size = New System.Drawing.Size(84, 24)
-        Me.TextBox52.TabIndex = 412
+        Me.txtDelayTimeTab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelayTimeTab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelayTimeTab4.Location = New System.Drawing.Point(181, 292)
+        Me.txtDelayTimeTab4.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtDelayTimeTab4.Name = "txtDelayTimeTab4"
+        Me.txtDelayTimeTab4.Size = New System.Drawing.Size(84, 24)
+        Me.txtDelayTimeTab4.TabIndex = 412
         '
         'txtPulse_tab4
         '
@@ -1561,7 +1568,8 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint2_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab4.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab4.Location = New System.Drawing.Point(574, 189)
+        Me.cboMeasurePoint2_tab4.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab4.Location = New System.Drawing.Point(574, 194)
         Me.cboMeasurePoint2_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab4.Name = "cboMeasurePoint2_tab4"
         Me.cboMeasurePoint2_tab4.Size = New System.Drawing.Size(83, 25)
@@ -1571,6 +1579,7 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint1_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab4.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab4.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab4.Location = New System.Drawing.Point(574, 162)
         Me.cboMeasurePoint1_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab4.Name = "cboMeasurePoint1_tab4"
@@ -1591,7 +1600,7 @@ Partial Class frmWLMeasurement
         'Spectrum3
         '
         Me.Spectrum3.Controls.Add(Me.cboSen_tab3)
-        Me.Spectrum3.Controls.Add(Me.txtSeepSpeed_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtSweepSpeed_tab3)
         Me.Spectrum3.Controls.Add(Me.txtAvgtime_tab3)
         Me.Spectrum3.Controls.Add(Me.txtPoint_tab3)
         Me.Spectrum3.Controls.Add(Me.txtResolution_tab3)
@@ -1610,7 +1619,7 @@ Partial Class frmWLMeasurement
         Me.Spectrum3.Controls.Add(Me.txtAtt_tab3)
         Me.Spectrum3.Controls.Add(Me.txtTld_tab3)
         Me.Spectrum3.Controls.Add(Me.txtTc_tab3)
-        Me.Spectrum3.Controls.Add(Me.TextBox36)
+        Me.Spectrum3.Controls.Add(Me.txtDelayTimeTab3)
         Me.Spectrum3.Controls.Add(Me.txtPulse_tab3)
         Me.Spectrum3.Controls.Add(Me.txtDuty_tab3)
         Me.Spectrum3.Controls.Add(Me.txtFrequen_tab3)
@@ -1640,21 +1649,22 @@ Partial Class frmWLMeasurement
         '
         Me.cboSen_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSen_tab3.FormattingEnabled = True
+        Me.cboSen_tab3.Items.AddRange(New Object() {"MID"})
         Me.cboSen_tab3.Location = New System.Drawing.Point(422, 291)
         Me.cboSen_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSen_tab3.Name = "cboSen_tab3"
         Me.cboSen_tab3.Size = New System.Drawing.Size(84, 25)
         Me.cboSen_tab3.TabIndex = 434
         '
-        'txtSeepSpeed_tab3
+        'txtSweepSpeed_tab3
         '
-        Me.txtSeepSpeed_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtSeepSpeed_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSeepSpeed_tab3.Location = New System.Drawing.Point(422, 388)
-        Me.txtSeepSpeed_tab3.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtSeepSpeed_tab3.Name = "txtSeepSpeed_tab3"
-        Me.txtSeepSpeed_tab3.Size = New System.Drawing.Size(84, 24)
-        Me.txtSeepSpeed_tab3.TabIndex = 432
+        Me.txtSweepSpeed_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSweepSpeed_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSweepSpeed_tab3.Location = New System.Drawing.Point(422, 388)
+        Me.txtSweepSpeed_tab3.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtSweepSpeed_tab3.Name = "txtSweepSpeed_tab3"
+        Me.txtSweepSpeed_tab3.Size = New System.Drawing.Size(84, 24)
+        Me.txtSweepSpeed_tab3.TabIndex = 432
         '
         'txtAvgtime_tab3
         '
@@ -1848,15 +1858,15 @@ Partial Class frmWLMeasurement
         Me.txtTc_tab3.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab3.TabIndex = 413
         '
-        'TextBox36
+        'txtDelayTimeTab3
         '
-        Me.TextBox36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox36.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox36.Location = New System.Drawing.Point(181, 292)
-        Me.TextBox36.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New System.Drawing.Size(84, 24)
-        Me.TextBox36.TabIndex = 412
+        Me.txtDelayTimeTab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelayTimeTab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelayTimeTab3.Location = New System.Drawing.Point(181, 292)
+        Me.txtDelayTimeTab3.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtDelayTimeTab3.Name = "txtDelayTimeTab3"
+        Me.txtDelayTimeTab3.Size = New System.Drawing.Size(84, 24)
+        Me.txtDelayTimeTab3.TabIndex = 412
         '
         'txtPulse_tab3
         '
@@ -2003,7 +2013,8 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint2_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab3.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab3.Location = New System.Drawing.Point(574, 189)
+        Me.cboMeasurePoint2_tab3.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab3.Location = New System.Drawing.Point(574, 194)
         Me.cboMeasurePoint2_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab3.Name = "cboMeasurePoint2_tab3"
         Me.cboMeasurePoint2_tab3.Size = New System.Drawing.Size(83, 25)
@@ -2013,6 +2024,7 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint1_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab3.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab3.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab3.Location = New System.Drawing.Point(574, 162)
         Me.cboMeasurePoint1_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab3.Name = "cboMeasurePoint1_tab3"
@@ -2033,7 +2045,7 @@ Partial Class frmWLMeasurement
         'Spectrum2
         '
         Me.Spectrum2.Controls.Add(Me.cboSen_tab2)
-        Me.Spectrum2.Controls.Add(Me.txtSeepSpeed_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtSweepSpeed_tab2)
         Me.Spectrum2.Controls.Add(Me.txtAvgtime_tab2)
         Me.Spectrum2.Controls.Add(Me.txtPoint_tab2)
         Me.Spectrum2.Controls.Add(Me.txtResolution_tab2)
@@ -2052,7 +2064,7 @@ Partial Class frmWLMeasurement
         Me.Spectrum2.Controls.Add(Me.txtAtt_tab2)
         Me.Spectrum2.Controls.Add(Me.txtTld_tab2)
         Me.Spectrum2.Controls.Add(Me.txtTc_tab2)
-        Me.Spectrum2.Controls.Add(Me.TextBox20)
+        Me.Spectrum2.Controls.Add(Me.txtDelayTimeTab2)
         Me.Spectrum2.Controls.Add(Me.txtPulse_tab2)
         Me.Spectrum2.Controls.Add(Me.txtDuty_tab2)
         Me.Spectrum2.Controls.Add(Me.txtFrequen_tab2)
@@ -2082,21 +2094,22 @@ Partial Class frmWLMeasurement
         '
         Me.cboSen_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSen_tab2.FormattingEnabled = True
+        Me.cboSen_tab2.Items.AddRange(New Object() {"MID"})
         Me.cboSen_tab2.Location = New System.Drawing.Point(422, 291)
         Me.cboSen_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSen_tab2.Name = "cboSen_tab2"
         Me.cboSen_tab2.Size = New System.Drawing.Size(84, 25)
         Me.cboSen_tab2.TabIndex = 434
         '
-        'txtSeepSpeed_tab2
+        'txtSweepSpeed_tab2
         '
-        Me.txtSeepSpeed_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtSeepSpeed_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSeepSpeed_tab2.Location = New System.Drawing.Point(422, 388)
-        Me.txtSeepSpeed_tab2.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtSeepSpeed_tab2.Name = "txtSeepSpeed_tab2"
-        Me.txtSeepSpeed_tab2.Size = New System.Drawing.Size(84, 24)
-        Me.txtSeepSpeed_tab2.TabIndex = 432
+        Me.txtSweepSpeed_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSweepSpeed_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSweepSpeed_tab2.Location = New System.Drawing.Point(422, 388)
+        Me.txtSweepSpeed_tab2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtSweepSpeed_tab2.Name = "txtSweepSpeed_tab2"
+        Me.txtSweepSpeed_tab2.Size = New System.Drawing.Size(84, 24)
+        Me.txtSweepSpeed_tab2.TabIndex = 432
         '
         'txtAvgtime_tab2
         '
@@ -2290,15 +2303,15 @@ Partial Class frmWLMeasurement
         Me.txtTc_tab2.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab2.TabIndex = 413
         '
-        'TextBox20
+        'txtDelayTimeTab2
         '
-        Me.TextBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox20.Location = New System.Drawing.Point(181, 292)
-        Me.TextBox20.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(84, 24)
-        Me.TextBox20.TabIndex = 412
+        Me.txtDelayTimeTab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelayTimeTab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelayTimeTab2.Location = New System.Drawing.Point(181, 292)
+        Me.txtDelayTimeTab2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtDelayTimeTab2.Name = "txtDelayTimeTab2"
+        Me.txtDelayTimeTab2.Size = New System.Drawing.Size(84, 24)
+        Me.txtDelayTimeTab2.TabIndex = 412
         '
         'txtPulse_tab2
         '
@@ -2445,7 +2458,8 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint2_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab2.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab2.Location = New System.Drawing.Point(574, 189)
+        Me.cboMeasurePoint2_tab2.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab2.Location = New System.Drawing.Point(574, 194)
         Me.cboMeasurePoint2_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab2.Name = "cboMeasurePoint2_tab2"
         Me.cboMeasurePoint2_tab2.Size = New System.Drawing.Size(83, 25)
@@ -2455,6 +2469,7 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint1_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab2.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab2.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab2.Location = New System.Drawing.Point(574, 162)
         Me.cboMeasurePoint1_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab2.Name = "cboMeasurePoint1_tab2"
@@ -2475,7 +2490,7 @@ Partial Class frmWLMeasurement
         'Spectrum1
         '
         Me.Spectrum1.Controls.Add(Me.cboSen_tab1)
-        Me.Spectrum1.Controls.Add(Me.txtSeepSpeed_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtSweepSpeed_tab1)
         Me.Spectrum1.Controls.Add(Me.txtAvgtime_tab1)
         Me.Spectrum1.Controls.Add(Me.txtPoint_tab1)
         Me.Spectrum1.Controls.Add(Me.txtResolution_tab1)
@@ -2494,8 +2509,8 @@ Partial Class frmWLMeasurement
         Me.Spectrum1.Controls.Add(Me.txtAtt_tab1)
         Me.Spectrum1.Controls.Add(Me.txtTld_tab1)
         Me.Spectrum1.Controls.Add(Me.txtTc_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtDelayTimeTab1)
         Me.Spectrum1.Controls.Add(Me.txtPulse_tab1)
-        Me.Spectrum1.Controls.Add(Me.TextBox189)
         Me.Spectrum1.Controls.Add(Me.txtDuty_tab1)
         Me.Spectrum1.Controls.Add(Me.txtFrequen_tab1)
         Me.Spectrum1.Controls.Add(Me.txtIf_tab1)
@@ -2524,21 +2539,22 @@ Partial Class frmWLMeasurement
         '
         Me.cboSen_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSen_tab1.FormattingEnabled = True
+        Me.cboSen_tab1.Items.AddRange(New Object() {"MID"})
         Me.cboSen_tab1.Location = New System.Drawing.Point(422, 291)
         Me.cboSen_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSen_tab1.Name = "cboSen_tab1"
         Me.cboSen_tab1.Size = New System.Drawing.Size(84, 25)
         Me.cboSen_tab1.TabIndex = 434
         '
-        'txtSeepSpeed_tab1
+        'txtSweepSpeed_tab1
         '
-        Me.txtSeepSpeed_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtSeepSpeed_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSeepSpeed_tab1.Location = New System.Drawing.Point(422, 388)
-        Me.txtSeepSpeed_tab1.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtSeepSpeed_tab1.Name = "txtSeepSpeed_tab1"
-        Me.txtSeepSpeed_tab1.Size = New System.Drawing.Size(84, 24)
-        Me.txtSeepSpeed_tab1.TabIndex = 432
+        Me.txtSweepSpeed_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSweepSpeed_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSweepSpeed_tab1.Location = New System.Drawing.Point(422, 388)
+        Me.txtSweepSpeed_tab1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtSweepSpeed_tab1.Name = "txtSweepSpeed_tab1"
+        Me.txtSweepSpeed_tab1.Size = New System.Drawing.Size(84, 24)
+        Me.txtSweepSpeed_tab1.TabIndex = 432
         '
         'txtAvgtime_tab1
         '
@@ -2732,26 +2748,26 @@ Partial Class frmWLMeasurement
         Me.txtTc_tab1.Size = New System.Drawing.Size(84, 24)
         Me.txtTc_tab1.TabIndex = 413
         '
+        'txtDelayTimeTab1
+        '
+        Me.txtDelayTimeTab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelayTimeTab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelayTimeTab1.Location = New System.Drawing.Point(181, 292)
+        Me.txtDelayTimeTab1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtDelayTimeTab1.Name = "txtDelayTimeTab1"
+        Me.txtDelayTimeTab1.Size = New System.Drawing.Size(84, 24)
+        Me.txtDelayTimeTab1.TabIndex = 412
+        '
         'txtPulse_tab1
         '
         Me.txtPulse_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPulse_tab1.Location = New System.Drawing.Point(181, 292)
+        Me.txtPulse_tab1.Location = New System.Drawing.Point(181, 261)
         Me.txtPulse_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPulse_tab1.Name = "txtPulse_tab1"
+        Me.txtPulse_tab1.ReadOnly = True
         Me.txtPulse_tab1.Size = New System.Drawing.Size(84, 24)
-        Me.txtPulse_tab1.TabIndex = 412
-        '
-        'TextBox189
-        '
-        Me.TextBox189.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox189.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox189.Location = New System.Drawing.Point(181, 261)
-        Me.TextBox189.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox189.Name = "TextBox189"
-        Me.TextBox189.ReadOnly = True
-        Me.TextBox189.Size = New System.Drawing.Size(84, 24)
-        Me.TextBox189.TabIndex = 411
+        Me.txtPulse_tab1.TabIndex = 411
         '
         'txtDuty_tab1
         '
@@ -2887,7 +2903,8 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint2_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint2_tab1.FormattingEnabled = True
-        Me.cboMeasurePoint2_tab1.Location = New System.Drawing.Point(574, 189)
+        Me.cboMeasurePoint2_tab1.Items.AddRange(New Object() {"FFP"})
+        Me.cboMeasurePoint2_tab1.Location = New System.Drawing.Point(574, 194)
         Me.cboMeasurePoint2_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint2_tab1.Name = "cboMeasurePoint2_tab1"
         Me.cboMeasurePoint2_tab1.Size = New System.Drawing.Size(83, 25)
@@ -2897,6 +2914,7 @@ Partial Class frmWLMeasurement
         '
         Me.cboMeasurePoint1_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMeasurePoint1_tab1.FormattingEnabled = True
+        Me.cboMeasurePoint1_tab1.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboMeasurePoint1_tab1.Location = New System.Drawing.Point(574, 162)
         Me.cboMeasurePoint1_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboMeasurePoint1_tab1.Name = "cboMeasurePoint1_tab1"
@@ -2914,54 +2932,54 @@ Partial Class frmWLMeasurement
         Me.Label39.TabIndex = 396
         Me.Label39.Text = "Measurement point"
         '
-        'btnOkWLF6
+        'TabsSpectrum
         '
-        Me.btnOkWLF6.Controls.Add(Me.Spectrum1)
-        Me.btnOkWLF6.Controls.Add(Me.Spectrum2)
-        Me.btnOkWLF6.Controls.Add(Me.Spectrum3)
-        Me.btnOkWLF6.Controls.Add(Me.Spectrum4)
-        Me.btnOkWLF6.Controls.Add(Me.Spectrum5)
-        Me.btnOkWLF6.Controls.Add(Me.Spectrum6)
-        Me.btnOkWLF6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnOkWLF6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnOkWLF6.Location = New System.Drawing.Point(0, 0)
-        Me.btnOkWLF6.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnOkWLF6.Name = "btnOkWLF6"
-        Me.btnOkWLF6.Padding = New System.Drawing.Point(18, 3)
-        Me.btnOkWLF6.SelectedIndex = 0
-        Me.btnOkWLF6.Size = New System.Drawing.Size(750, 518)
-        Me.btnOkWLF6.TabIndex = 1
+        Me.TabsSpectrum.Controls.Add(Me.Spectrum1)
+        Me.TabsSpectrum.Controls.Add(Me.Spectrum2)
+        Me.TabsSpectrum.Controls.Add(Me.Spectrum3)
+        Me.TabsSpectrum.Controls.Add(Me.Spectrum4)
+        Me.TabsSpectrum.Controls.Add(Me.Spectrum5)
+        Me.TabsSpectrum.Controls.Add(Me.Spectrum6)
+        Me.TabsSpectrum.Dock = System.Windows.Forms.DockStyle.Top
+        Me.TabsSpectrum.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabsSpectrum.Location = New System.Drawing.Point(0, 0)
+        Me.TabsSpectrum.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabsSpectrum.Name = "TabsSpectrum"
+        Me.TabsSpectrum.Padding = New System.Drawing.Point(18, 3)
+        Me.TabsSpectrum.SelectedIndex = 0
+        Me.TabsSpectrum.Size = New System.Drawing.Size(750, 518)
+        Me.TabsSpectrum.TabIndex = 1
         '
-        'btnCancleILm
+        'btnCancleWLm
         '
-        Me.btnCancleILm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancleILm.Location = New System.Drawing.Point(623, 524)
-        Me.btnCancleILm.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnCancleILm.Name = "btnCancleILm"
-        Me.btnCancleILm.Size = New System.Drawing.Size(77, 30)
-        Me.btnCancleILm.TabIndex = 468
-        Me.btnCancleILm.Text = "Cancle"
-        Me.btnCancleILm.UseVisualStyleBackColor = True
+        Me.btnCancleWLm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancleWLm.Location = New System.Drawing.Point(623, 524)
+        Me.btnCancleWLm.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnCancleWLm.Name = "btnCancleWLm"
+        Me.btnCancleWLm.Size = New System.Drawing.Size(77, 30)
+        Me.btnCancleWLm.TabIndex = 468
+        Me.btnCancleWLm.Text = "Cancle"
+        Me.btnCancleWLm.UseVisualStyleBackColor = True
         '
-        'btnSaveILm
+        'btnSaveWLm
         '
-        Me.btnSaveILm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSaveILm.Location = New System.Drawing.Point(531, 524)
-        Me.btnSaveILm.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnSaveILm.Name = "btnSaveILm"
-        Me.btnSaveILm.Size = New System.Drawing.Size(77, 30)
-        Me.btnSaveILm.TabIndex = 467
-        Me.btnSaveILm.Text = "Save"
-        Me.btnSaveILm.UseVisualStyleBackColor = True
+        Me.btnSaveWLm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSaveWLm.Location = New System.Drawing.Point(531, 524)
+        Me.btnSaveWLm.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnSaveWLm.Name = "btnSaveWLm"
+        Me.btnSaveWLm.Size = New System.Drawing.Size(77, 30)
+        Me.btnSaveWLm.TabIndex = 467
+        Me.btnSaveWLm.Text = "Save"
+        Me.btnSaveWLm.UseVisualStyleBackColor = True
         '
         'frmWLMeasurement
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(750, 569)
-        Me.Controls.Add(Me.btnCancleILm)
-        Me.Controls.Add(Me.btnOkWLF6)
-        Me.Controls.Add(Me.btnSaveILm)
+        Me.Controls.Add(Me.btnCancleWLm)
+        Me.Controls.Add(Me.TabsSpectrum)
+        Me.Controls.Add(Me.btnSaveWLm)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmWLMeasurement"
@@ -2978,7 +2996,7 @@ Partial Class frmWLMeasurement
         Me.Spectrum2.PerformLayout()
         Me.Spectrum1.ResumeLayout(False)
         Me.Spectrum1.PerformLayout()
-        Me.btnOkWLF6.ResumeLayout(False)
+        Me.TabsSpectrum.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -2989,8 +3007,8 @@ Partial Class frmWLMeasurement
     Friend WithEvents Spectrum3 As TabPage
     Friend WithEvents Spectrum2 As TabPage
     Friend WithEvents Spectrum1 As TabPage
-    Friend WithEvents btnOkWLF6 As TabControl
-    Friend WithEvents txtSeepSpeed_tab6 As TextBox
+    Friend WithEvents TabsSpectrum As TabControl
+    Friend WithEvents txtSweepSpeed_tab6 As TextBox
     Friend WithEvents txtAvgtime_tab6 As TextBox
     Friend WithEvents txtPoint_tab6 As TextBox
     Friend WithEvents txtResolution_tab6 As TextBox
@@ -3009,9 +3027,9 @@ Partial Class frmWLMeasurement
     Friend WithEvents txtAtt_tab6 As TextBox
     Friend WithEvents txtTld_tab6 As TextBox
     Friend WithEvents txtTc_tab6 As TextBox
-    Friend WithEvents TextBox84 As TextBox
+    Friend WithEvents txtDelayTimeTab6 As TextBox
     Friend WithEvents txtPulse_tab6 As TextBox
-    Friend WithEvents txDuty_tab6 As TextBox
+    Friend WithEvents txtDuty_tab6 As TextBox
     Friend WithEvents txtFrequen_tab6 As TextBox
     Friend WithEvents txtIf_tab6 As TextBox
     Friend WithEvents Label96 As Label
@@ -3026,11 +3044,11 @@ Partial Class frmWLMeasurement
     Friend WithEvents cboMeasurePoint2_tab6 As ComboBox
     Friend WithEvents cboMeasurePoint1_tab6 As ComboBox
     Friend WithEvents Label105 As Label
-    Friend WithEvents txtSeepSpeed_tab5 As TextBox
+    Friend WithEvents txtSweepSpeed_tab5 As TextBox
     Friend WithEvents txtAvgtime_tab5 As TextBox
     Friend WithEvents txtPoint_tab5 As TextBox
     Friend WithEvents txtResolution_tab5 As TextBox
-    Friend WithEvents TextBox62 As TextBox
+    Friend WithEvents txtRef_tab5 As TextBox
     Friend WithEvents txtSpan_tab5 As TextBox
     Friend WithEvents txtWlcenter_tab5 As TextBox
     Friend WithEvents Label68 As Label
@@ -3045,7 +3063,7 @@ Partial Class frmWLMeasurement
     Friend WithEvents txtAtt_tab5 As TextBox
     Friend WithEvents txtTld_tab5 As TextBox
     Friend WithEvents txtTc_tab5 As TextBox
-    Friend WithEvents TextBox68 As TextBox
+    Friend WithEvents txtDelayTimeTab5 As TextBox
     Friend WithEvents txtPulse_tab5 As TextBox
     Friend WithEvents txtDuty_tab5 As TextBox
     Friend WithEvents txtFrequen_tab5 As TextBox
@@ -3062,7 +3080,7 @@ Partial Class frmWLMeasurement
     Friend WithEvents cboMeasurePoint2_tab5 As ComboBox
     Friend WithEvents cboMeasurePoint1_tab5 As ComboBox
     Friend WithEvents Label86 As Label
-    Friend WithEvents txtSeepSpeed_tab4 As TextBox
+    Friend WithEvents txtSweepSpeed_tab4 As TextBox
     Friend WithEvents txtAvgtime_tab4 As TextBox
     Friend WithEvents txtPoint_tab4 As TextBox
     Friend WithEvents txtResolution_tab4 As TextBox
@@ -3081,7 +3099,7 @@ Partial Class frmWLMeasurement
     Friend WithEvents txtAtt_tab4 As TextBox
     Friend WithEvents txtTld_tab4 As TextBox
     Friend WithEvents txtTc_tab4 As TextBox
-    Friend WithEvents TextBox52 As TextBox
+    Friend WithEvents txtDelayTimeTab4 As TextBox
     Friend WithEvents txtPulse_tab4 As TextBox
     Friend WithEvents txtDuty_tab4 As TextBox
     Friend WithEvents txtFrequen_tab4 As TextBox
@@ -3098,7 +3116,7 @@ Partial Class frmWLMeasurement
     Friend WithEvents cboMeasurePoint2_tab4 As ComboBox
     Friend WithEvents cboMeasurePoint1_tab4 As ComboBox
     Friend WithEvents Label67 As Label
-    Friend WithEvents txtSeepSpeed_tab3 As TextBox
+    Friend WithEvents txtSweepSpeed_tab3 As TextBox
     Friend WithEvents txtAvgtime_tab3 As TextBox
     Friend WithEvents txtPoint_tab3 As TextBox
     Friend WithEvents txtResolution_tab3 As TextBox
@@ -3117,7 +3135,7 @@ Partial Class frmWLMeasurement
     Friend WithEvents txtAtt_tab3 As TextBox
     Friend WithEvents txtTld_tab3 As TextBox
     Friend WithEvents txtTc_tab3 As TextBox
-    Friend WithEvents TextBox36 As TextBox
+    Friend WithEvents txtDelayTimeTab3 As TextBox
     Friend WithEvents txtPulse_tab3 As TextBox
     Friend WithEvents txtDuty_tab3 As TextBox
     Friend WithEvents txtFrequen_tab3 As TextBox
@@ -3134,7 +3152,7 @@ Partial Class frmWLMeasurement
     Friend WithEvents cboMeasurePoint2_tab3 As ComboBox
     Friend WithEvents cboMeasurePoint1_tab3 As ComboBox
     Friend WithEvents Label48 As Label
-    Friend WithEvents txtSeepSpeed_tab2 As TextBox
+    Friend WithEvents txtSweepSpeed_tab2 As TextBox
     Friend WithEvents txtAvgtime_tab2 As TextBox
     Friend WithEvents txtPoint_tab2 As TextBox
     Friend WithEvents txtResolution_tab2 As TextBox
@@ -3153,7 +3171,7 @@ Partial Class frmWLMeasurement
     Friend WithEvents txtAtt_tab2 As TextBox
     Friend WithEvents txtTld_tab2 As TextBox
     Friend WithEvents txtTc_tab2 As TextBox
-    Friend WithEvents TextBox20 As TextBox
+    Friend WithEvents txtDelayTimeTab2 As TextBox
     Friend WithEvents txtPulse_tab2 As TextBox
     Friend WithEvents txtDuty_tab2 As TextBox
     Friend WithEvents txtFrequen_tab2 As TextBox
@@ -3170,7 +3188,7 @@ Partial Class frmWLMeasurement
     Friend WithEvents cboMeasurePoint2_tab2 As ComboBox
     Friend WithEvents cboMeasurePoint1_tab2 As ComboBox
     Friend WithEvents Label28 As Label
-    Friend WithEvents txtSeepSpeed_tab1 As TextBox
+    Friend WithEvents txtSweepSpeed_tab1 As TextBox
     Friend WithEvents txtAvgtime_tab1 As TextBox
     Friend WithEvents txtPoint_tab1 As TextBox
     Friend WithEvents txtResolution_tab1 As TextBox
@@ -3189,8 +3207,8 @@ Partial Class frmWLMeasurement
     Friend WithEvents txtAtt_tab1 As TextBox
     Friend WithEvents txtTld_tab1 As TextBox
     Friend WithEvents txtTc_tab1 As TextBox
+    Friend WithEvents txtDelayTimeTab1 As TextBox
     Friend WithEvents txtPulse_tab1 As TextBox
-    Friend WithEvents TextBox189 As TextBox
     Friend WithEvents txtDuty_tab1 As TextBox
     Friend WithEvents txtFrequen_tab1 As TextBox
     Friend WithEvents txtIf_tab1 As TextBox
@@ -3212,6 +3230,6 @@ Partial Class frmWLMeasurement
     Friend WithEvents cboSen_tab3 As ComboBox
     Friend WithEvents cboSen_tab2 As ComboBox
     Friend WithEvents cboSen_tab1 As ComboBox
-    Friend WithEvents btnCancleILm As Button
-    Friend WithEvents btnSaveILm As Button
+    Friend WithEvents btnCancleWLm As Button
+    Friend WithEvents btnSaveWLm As Button
 End Class

@@ -101,20 +101,6 @@ Public Class frmProduction
         End If
     End Sub
 
-    ' =========================================================
-    ' 4. ปุ่ม IL Condition (เปิดหน้าลูก)
-    ' =========================================================
-    Private Sub btnMeasureIL_condition_Click(sender As Object, e As EventArgs) Handles btnMeasureIL_condition.Click
-        Dim frm As New frmILMeasurement()
-
-        ' ส่งข้อมูลก้อน IL ไปให้หน้าลูก
-        frm.LoadDataToScreen(CurrentRecipe.Meas_IL_Settings)
-
-        If frm.ShowDialog() = DialogResult.OK Then
-            ' เปลี่ยนสีปุ่ม เพื่อให้รู้ว่ามีการตั้งค่าแล้ว
-            btnMeasureIL_condition.BackColor = Color.LightGreen
-        End If
-    End Sub
 
     ' =========================================================
     ' Helper Sub: ย้ายข้อมูลจาก Class -> หน้าจอ
@@ -122,6 +108,7 @@ Public Class frmProduction
     Private Sub UpdateScreenFromRecipe()
         ' Header Info
         txtMachineNO.Text = CurrentRecipe.MachineNo
+        cboOperator.Text = CurrentRecipe.OperatorName
         txtPathNumber.Text = CurrentRecipe.PartNumber
         txtLotNumber.Text = CurrentRecipe.LotNumber
         txtSerialNumber.Text = CurrentRecipe.SerialNumber
@@ -130,7 +117,7 @@ Public Class frmProduction
         txtDatafolder.Text = CurrentRecipe.DataFolder
         txtVoltWat.Text = CurrentRecipe.PowerCorrection.ToString()
 
-        cbMeasure_Use_calory_meter.Checked = CurrentRecipe.Meas_UseCaloryMeter
+        ' Measurement Checkboxes
         cbMeasureIL1.Checked = CurrentRecipe.Meas_Enable_IL1
         cbMeasureIL2.Checked = CurrentRecipe.Meas_Enable_IL2
         cbMeasureIL3.Checked = CurrentRecipe.Meas_Enable_IL3
@@ -152,6 +139,10 @@ Public Class frmProduction
         cbMeasure_Waveform5.Checked = CurrentRecipe.Meas_Enable_Wave5
         cbMeasure_Waveform6.Checked = CurrentRecipe.Meas_Enable_Wave6
 
+        ' Use Calory Meter
+        cbMeasure_Use_calory_meter.Checked = CurrentRecipe.Meas_UseCaloryMeter
+
+        'Judgment Checkboxes
         cbJudgIL1.Checked = CurrentRecipe.Judge_Enable_IL1
         cbJudgIL2.Checked = CurrentRecipe.Judge_Enable_IL2
         cbJudgIL3.Checked = CurrentRecipe.Judge_Enable_IL3
@@ -180,6 +171,7 @@ Public Class frmProduction
     Private Sub UpdateRecipeFromScreen()
         ' Header Info
         CurrentRecipe.ParameterFile = txtParameterFile.Text
+        CurrentRecipe.OperatorName = cboOperator.Text
         CurrentRecipe.MachineNo = txtMachineNO.Text
         CurrentRecipe.PartNumber = txtPathNumber.Text
         CurrentRecipe.LotNumber = txtLotNumber.Text
@@ -188,11 +180,10 @@ Public Class frmProduction
         CurrentRecipe.FBG2 = txtFBG2.Text
         CurrentRecipe.DataFolder = txtDatafolder.Text
 
-        ' แปลงตัวเลข (ใช้ TryParse กัน Error)
+        ' แปลงตัวเลข ใช้ TryParse กัน Error
         Double.TryParse(txtVoltWat.Text, CurrentRecipe.PowerCorrection)
 
-        ' Checkbox
-        CurrentRecipe.Meas_UseCaloryMeter = cbMeasure_Use_calory_meter.Checked
+        ' Measurement Checkboxes
         CurrentRecipe.Meas_Enable_IL1 = cbMeasureIL1.Checked
         CurrentRecipe.Meas_Enable_IL2 = cbMeasureIL2.Checked
         CurrentRecipe.Meas_Enable_IL3 = cbMeasureIL3.Checked
@@ -214,6 +205,10 @@ Public Class frmProduction
         CurrentRecipe.Meas_Enable_Wave5 = cbMeasure_Waveform5.Checked
         CurrentRecipe.Meas_Enable_Wave6 = cbMeasure_Waveform6.Checked
 
+        ' Use Calory Meter
+        CurrentRecipe.Meas_UseCaloryMeter = cbMeasure_Use_calory_meter.Checked
+
+        ' Judgment Checkboxes
         CurrentRecipe.Judge_Enable_IL1 = cbJudgIL1.Checked
         CurrentRecipe.Judge_Enable_IL2 = cbJudgIL2.Checked
         CurrentRecipe.Judge_Enable_IL3 = cbJudgIL3.Checked
@@ -236,7 +231,7 @@ Public Class frmProduction
         CurrentRecipe.Judge_Enable_Wave6 = cbJudg_Waveform6.Checked
     End Sub
 
-    ' ปุ่ม Add Operator (เพิ่มคนงานใหม่)
+    'btnAdd Operator ------------------------------------------------ 
     Private Sub btnOperatorAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
         Dim newName As String = InputBox("กรุณากรอกชื่อ Operator:", "Add Operator")
         If newName <> "" Then
@@ -250,9 +245,87 @@ Public Class frmProduction
         End If
     End Sub
 
-    ' ปุ่ม Return (ปิดหน้า)
+    ' btnReturn ------------------------------------------------
     Private Sub btnReturn_Click(sender As Object, e As EventArgs) Handles btnReturn.Click
         Me.Close()
     End Sub
 
+
+    '---------------- btn IL , WL , W Measurement ------------------------------------------------------------------------------------
+    ' btn IL Condition Measurement
+    ' =========================================================
+    Private Sub btnMeasureIL_condition_Click(sender As Object, e As EventArgs) Handles btnMeasureIL_condition.Click
+
+        Dim frm As New frmILMeasurement()
+
+        frm.LoadDataToScreen(CurrentRecipe.Meas_IL_Settings)
+
+        If frm.ShowDialog() = DialogResult.OK Then
+            btnMeasureIL_condition.BackColor = Color.LightGreen
+        End If
+    End Sub
+
+
+    ' btn WL Condition Measurement
+    ' =========================================================
+    Private Sub btnMeasureWL_condition_Click(sender As Object, e As EventArgs) Handles btnMeasureWL_condition.Click
+        Dim frm As New frmWLMeasurement()
+
+        frm.LoadDataToScreen(CurrentRecipe.Meas_WL_Settings)
+
+        If frm.ShowDialog() = DialogResult.OK Then
+            btnMeasureWL_condition.BackColor = Color.LightGreen
+        End If
+    End Sub
+
+    ' btn Waveform Condition Measurement
+    ' =========================================================
+    Private Sub btnMeasureWave_condition_Click(sender As Object, e As EventArgs) Handles btnMeasureWave_condition.Click
+        Dim frm As New frmWMeasurement()
+
+        frm.LoadDataToScreen(CurrentRecipe.Meas_W_Settings)
+        If frm.ShowDialog() = DialogResult.OK Then
+            btnMeasureWave_condition.BackColor = Color.LightGreen
+        End If
+    End Sub
+
+    '---------------- btn IL , WL , W Judgment ------------------------------------------------------------------------------------
+    ' btn IL Condition Judgment
+    ' =========================================================
+    Private Sub btnJudgIL_condition_Click(sender As Object, e As EventArgs) Handles btnJudgIL_condition.Click
+        Dim frm As New frmiLJudgment()
+
+        ' ส่งข้อมูล Judge IL ไป
+        frm.LoadDataToScreen(CurrentRecipe.Judge_IL_Settings)
+
+        If frm.ShowDialog() = DialogResult.OK Then
+            btnJudgIL_condition.BackColor = Color.LightGreen
+        End If
+    End Sub
+
+    ' btn WL Condition Judgment
+    ' =========================================================
+    Private Sub btnJudgWL_condition_Click(sender As Object, e As EventArgs) Handles btnJudgWL_condition.Click
+        Dim frm As New frmWLJudgment()
+
+        ' ส่งข้อมูล Judge WL ไป
+        frm.LoadDataToScreen(CurrentRecipe.Judge_WL_Settings)
+
+        If frm.ShowDialog() = DialogResult.OK Then
+            btnJudgWL_condition.BackColor = Color.LightGreen
+        End If
+    End Sub
+
+    ' btn W Condition Judgment
+    ' =========================================================
+    Private Sub btnJudgW_condition_Click(sender As Object, e As EventArgs) Handles btnJudgW_condition.Click
+        Dim frm As New frmWJudgment()
+
+        ' ส่งข้อมูล Judge Wave ไป
+        frm.LoadDataToScreen(CurrentRecipe.Judge_W_Settings)
+
+        If frm.ShowDialog() = DialogResult.OK Then
+            btnJudgW_condition.BackColor = Color.LightGreen
+        End If
+    End Sub
 End Class

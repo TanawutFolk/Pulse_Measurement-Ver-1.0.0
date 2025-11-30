@@ -23,7 +23,7 @@ Partial Class frmWJudgment
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.WaveFormJudge6 = New System.Windows.Forms.TabPage()
-        Me.txtFallStopa_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtFallStop_tab6 = New System.Windows.Forms.TextBox()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.txtFallStart_tab6 = New System.Windows.Forms.TextBox()
         Me.Label46 = New System.Windows.Forms.Label()
@@ -34,7 +34,7 @@ Partial Class frmWJudgment
         Me.txtSlew_tab6 = New System.Windows.Forms.TextBox()
         Me.txtSlewmax_tab6 = New System.Windows.Forms.TextBox()
         Me.Label49 = New System.Windows.Forms.Label()
-        Me.txtFbgLocktime_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtFbgLocktimemin_tab6 = New System.Windows.Forms.TextBox()
         Me.txtFbgLocktimemax_tab6 = New System.Windows.Forms.TextBox()
         Me.Label50 = New System.Windows.Forms.Label()
         Me.txtFallmin_tab6 = New System.Windows.Forms.TextBox()
@@ -49,7 +49,7 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab6 = New System.Windows.Forms.ComboBox()
         Me.Label55 = New System.Windows.Forms.Label()
         Me.WaveFormJudge2 = New System.Windows.Forms.TabPage()
-        Me.txtFallStopa_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtFallStop_tab2 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtFallStart_tab2 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -60,7 +60,7 @@ Partial Class frmWJudgment
         Me.txtSlew_tab2 = New System.Windows.Forms.TextBox()
         Me.txtSlewmax_tab2 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.txtFbgLocktime_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtFbgLocktimemin_tab2 = New System.Windows.Forms.TextBox()
         Me.txtFbgLocktimemax_tab2 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtFallmin_tab2 = New System.Windows.Forms.TextBox()
@@ -75,7 +75,7 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab2 = New System.Windows.Forms.ComboBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.WaveFormJudge4 = New System.Windows.Forms.TabPage()
-        Me.txtFallStopa_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtFallStop_tab4 = New System.Windows.Forms.TextBox()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.txtFallStart_tab4 = New System.Windows.Forms.TextBox()
         Me.Label24 = New System.Windows.Forms.Label()
@@ -86,7 +86,7 @@ Partial Class frmWJudgment
         Me.txtSlew_tab4 = New System.Windows.Forms.TextBox()
         Me.txtSlewmax_tab4 = New System.Windows.Forms.TextBox()
         Me.Label27 = New System.Windows.Forms.Label()
-        Me.txtFbgLocktime_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtFbgLocktimemin_tab4 = New System.Windows.Forms.TextBox()
         Me.txtFbgLocktimemax_tab4 = New System.Windows.Forms.TextBox()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.txtFallmin_tab4 = New System.Windows.Forms.TextBox()
@@ -101,7 +101,7 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab4 = New System.Windows.Forms.ComboBox()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.WaveFormJudge1 = New System.Windows.Forms.TabPage()
-        Me.txtFallStopa_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtFallStop_tab1 = New System.Windows.Forms.TextBox()
         Me.Label93 = New System.Windows.Forms.Label()
         Me.txtFallStart_tab1 = New System.Windows.Forms.TextBox()
         Me.Label94 = New System.Windows.Forms.Label()
@@ -112,7 +112,7 @@ Partial Class frmWJudgment
         Me.txtSlew_tab1 = New System.Windows.Forms.TextBox()
         Me.txtSlewmax_tab1 = New System.Windows.Forms.TextBox()
         Me.Label90 = New System.Windows.Forms.Label()
-        Me.txtFbgLocktime_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtFbgLocktimemin_tab1 = New System.Windows.Forms.TextBox()
         Me.txtFbgLocktimemax_tab1 = New System.Windows.Forms.TextBox()
         Me.Label89 = New System.Windows.Forms.Label()
         Me.txtFallmin_tab1 = New System.Windows.Forms.TextBox()
@@ -128,7 +128,7 @@ Partial Class frmWJudgment
         Me.Label102 = New System.Windows.Forms.Label()
         Me.txtFBGlockingTimemin_Page4 = New System.Windows.Forms.TabControl()
         Me.WaveFormJudge3 = New System.Windows.Forms.TabPage()
-        Me.txtFallStopa_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtFallStop_tab3 = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.txtFallStart_tab3 = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
@@ -139,7 +139,7 @@ Partial Class frmWJudgment
         Me.txtSlew_tab3 = New System.Windows.Forms.TextBox()
         Me.txtSlewmax_tab3 = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.txtFbgLocktime_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtFbgLocktimemin_tab3 = New System.Windows.Forms.TextBox()
         Me.txtFbgLocktimemax_tab3 = New System.Windows.Forms.TextBox()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.txtFallmin_tab3 = New System.Windows.Forms.TextBox()
@@ -154,7 +154,7 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab3 = New System.Windows.Forms.ComboBox()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.WaveFormJudge5 = New System.Windows.Forms.TabPage()
-        Me.txtFallStopa_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtFallStop_tab5 = New System.Windows.Forms.TextBox()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.txtFallStart_tab5 = New System.Windows.Forms.TextBox()
         Me.Label35 = New System.Windows.Forms.Label()
@@ -165,7 +165,7 @@ Partial Class frmWJudgment
         Me.txtSlew_tab5 = New System.Windows.Forms.TextBox()
         Me.txtSlewmax_tab5 = New System.Windows.Forms.TextBox()
         Me.Label38 = New System.Windows.Forms.Label()
-        Me.txtFbgLocktime_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtFbgLocktimemin_tab5 = New System.Windows.Forms.TextBox()
         Me.txtFbgLocktimemax_tab5 = New System.Windows.Forms.TextBox()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.txtFallmin_tab5 = New System.Windows.Forms.TextBox()
@@ -180,7 +180,7 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab5 = New System.Windows.Forms.ComboBox()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.btnCancleILm = New System.Windows.Forms.Button()
-        Me.btnSaveILm = New System.Windows.Forms.Button()
+        Me.btnSaveWj = New System.Windows.Forms.Button()
         Me.WaveFormJudge6.SuspendLayout()
         Me.WaveFormJudge2.SuspendLayout()
         Me.WaveFormJudge4.SuspendLayout()
@@ -192,7 +192,7 @@ Partial Class frmWJudgment
         '
         'WaveFormJudge6
         '
-        Me.WaveFormJudge6.Controls.Add(Me.txtFallStopa_tab6)
+        Me.WaveFormJudge6.Controls.Add(Me.txtFallStop_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.Label45)
         Me.WaveFormJudge6.Controls.Add(Me.txtFallStart_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.Label46)
@@ -203,7 +203,7 @@ Partial Class frmWJudgment
         Me.WaveFormJudge6.Controls.Add(Me.txtSlew_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.txtSlewmax_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.Label49)
-        Me.WaveFormJudge6.Controls.Add(Me.txtFbgLocktime_tab6)
+        Me.WaveFormJudge6.Controls.Add(Me.txtFbgLocktimemin_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.txtFbgLocktimemax_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.Label50)
         Me.WaveFormJudge6.Controls.Add(Me.txtFallmin_tab6)
@@ -227,15 +227,15 @@ Partial Class frmWJudgment
         Me.WaveFormJudge6.Text = "WaveForm Judge6"
         Me.WaveFormJudge6.UseVisualStyleBackColor = True
         '
-        'txtFallStopa_tab6
+        'txtFallStop_tab6
         '
-        Me.txtFallStopa_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFallStopa_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFallStopa_tab6.Location = New System.Drawing.Point(495, 142)
-        Me.txtFallStopa_tab6.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFallStopa_tab6.Name = "txtFallStopa_tab6"
-        Me.txtFallStopa_tab6.Size = New System.Drawing.Size(32, 24)
-        Me.txtFallStopa_tab6.TabIndex = 392
+        Me.txtFallStop_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFallStop_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFallStop_tab6.Location = New System.Drawing.Point(495, 142)
+        Me.txtFallStop_tab6.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFallStop_tab6.Name = "txtFallStop_tab6"
+        Me.txtFallStop_tab6.Size = New System.Drawing.Size(32, 24)
+        Me.txtFallStop_tab6.TabIndex = 392
         '
         'Label45
         '
@@ -342,15 +342,15 @@ Partial Class frmWJudgment
         Me.Label49.TabIndex = 382
         Me.Label49.Text = "Slew rate [ns]"
         '
-        'txtFbgLocktime_tab6
+        'txtFbgLocktimemin_tab6
         '
-        Me.txtFbgLocktime_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFbgLocktime_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFbgLocktime_tab6.Location = New System.Drawing.Point(164, 179)
-        Me.txtFbgLocktime_tab6.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFbgLocktime_tab6.Name = "txtFbgLocktime_tab6"
-        Me.txtFbgLocktime_tab6.Size = New System.Drawing.Size(60, 24)
-        Me.txtFbgLocktime_tab6.TabIndex = 381
+        Me.txtFbgLocktimemin_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFbgLocktimemin_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFbgLocktimemin_tab6.Location = New System.Drawing.Point(164, 179)
+        Me.txtFbgLocktimemin_tab6.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFbgLocktimemin_tab6.Name = "txtFbgLocktimemin_tab6"
+        Me.txtFbgLocktimemin_tab6.Size = New System.Drawing.Size(60, 24)
+        Me.txtFbgLocktimemin_tab6.TabIndex = 381
         '
         'txtFbgLocktimemax_tab6
         '
@@ -473,6 +473,7 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab6.FormattingEnabled = True
+        Me.cboSelect1_tab6.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboSelect1_tab6.Location = New System.Drawing.Point(154, 55)
         Me.cboSelect1_tab6.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab6.Name = "cboSelect1_tab6"
@@ -492,7 +493,7 @@ Partial Class frmWJudgment
         '
         'WaveFormJudge2
         '
-        Me.WaveFormJudge2.Controls.Add(Me.txtFallStopa_tab2)
+        Me.WaveFormJudge2.Controls.Add(Me.txtFallStop_tab2)
         Me.WaveFormJudge2.Controls.Add(Me.Label1)
         Me.WaveFormJudge2.Controls.Add(Me.txtFallStart_tab2)
         Me.WaveFormJudge2.Controls.Add(Me.Label2)
@@ -503,7 +504,7 @@ Partial Class frmWJudgment
         Me.WaveFormJudge2.Controls.Add(Me.txtSlew_tab2)
         Me.WaveFormJudge2.Controls.Add(Me.txtSlewmax_tab2)
         Me.WaveFormJudge2.Controls.Add(Me.Label5)
-        Me.WaveFormJudge2.Controls.Add(Me.txtFbgLocktime_tab2)
+        Me.WaveFormJudge2.Controls.Add(Me.txtFbgLocktimemin_tab2)
         Me.WaveFormJudge2.Controls.Add(Me.txtFbgLocktimemax_tab2)
         Me.WaveFormJudge2.Controls.Add(Me.Label6)
         Me.WaveFormJudge2.Controls.Add(Me.txtFallmin_tab2)
@@ -527,15 +528,15 @@ Partial Class frmWJudgment
         Me.WaveFormJudge2.Text = "WaveForm Judge2"
         Me.WaveFormJudge2.UseVisualStyleBackColor = True
         '
-        'txtFallStopa_tab2
+        'txtFallStop_tab2
         '
-        Me.txtFallStopa_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFallStopa_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFallStopa_tab2.Location = New System.Drawing.Point(495, 142)
-        Me.txtFallStopa_tab2.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFallStopa_tab2.Name = "txtFallStopa_tab2"
-        Me.txtFallStopa_tab2.Size = New System.Drawing.Size(32, 24)
-        Me.txtFallStopa_tab2.TabIndex = 392
+        Me.txtFallStop_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFallStop_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFallStop_tab2.Location = New System.Drawing.Point(495, 142)
+        Me.txtFallStop_tab2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFallStop_tab2.Name = "txtFallStop_tab2"
+        Me.txtFallStop_tab2.Size = New System.Drawing.Size(32, 24)
+        Me.txtFallStop_tab2.TabIndex = 392
         '
         'Label1
         '
@@ -642,15 +643,15 @@ Partial Class frmWJudgment
         Me.Label5.TabIndex = 382
         Me.Label5.Text = "Slew rate [ns]"
         '
-        'txtFbgLocktime_tab2
+        'txtFbgLocktimemin_tab2
         '
-        Me.txtFbgLocktime_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFbgLocktime_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFbgLocktime_tab2.Location = New System.Drawing.Point(164, 179)
-        Me.txtFbgLocktime_tab2.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFbgLocktime_tab2.Name = "txtFbgLocktime_tab2"
-        Me.txtFbgLocktime_tab2.Size = New System.Drawing.Size(60, 24)
-        Me.txtFbgLocktime_tab2.TabIndex = 381
+        Me.txtFbgLocktimemin_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFbgLocktimemin_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFbgLocktimemin_tab2.Location = New System.Drawing.Point(164, 179)
+        Me.txtFbgLocktimemin_tab2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFbgLocktimemin_tab2.Name = "txtFbgLocktimemin_tab2"
+        Me.txtFbgLocktimemin_tab2.Size = New System.Drawing.Size(60, 24)
+        Me.txtFbgLocktimemin_tab2.TabIndex = 381
         '
         'txtFbgLocktimemax_tab2
         '
@@ -773,6 +774,7 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab2.FormattingEnabled = True
+        Me.cboSelect1_tab2.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboSelect1_tab2.Location = New System.Drawing.Point(154, 55)
         Me.cboSelect1_tab2.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab2.Name = "cboSelect1_tab2"
@@ -792,7 +794,7 @@ Partial Class frmWJudgment
         '
         'WaveFormJudge4
         '
-        Me.WaveFormJudge4.Controls.Add(Me.txtFallStopa_tab4)
+        Me.WaveFormJudge4.Controls.Add(Me.txtFallStop_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.Label23)
         Me.WaveFormJudge4.Controls.Add(Me.txtFallStart_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.Label24)
@@ -803,7 +805,7 @@ Partial Class frmWJudgment
         Me.WaveFormJudge4.Controls.Add(Me.txtSlew_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.txtSlewmax_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.Label27)
-        Me.WaveFormJudge4.Controls.Add(Me.txtFbgLocktime_tab4)
+        Me.WaveFormJudge4.Controls.Add(Me.txtFbgLocktimemin_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.txtFbgLocktimemax_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.Label28)
         Me.WaveFormJudge4.Controls.Add(Me.txtFallmin_tab4)
@@ -827,15 +829,15 @@ Partial Class frmWJudgment
         Me.WaveFormJudge4.Text = "WaveForm Judge4"
         Me.WaveFormJudge4.UseVisualStyleBackColor = True
         '
-        'txtFallStopa_tab4
+        'txtFallStop_tab4
         '
-        Me.txtFallStopa_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFallStopa_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFallStopa_tab4.Location = New System.Drawing.Point(495, 142)
-        Me.txtFallStopa_tab4.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFallStopa_tab4.Name = "txtFallStopa_tab4"
-        Me.txtFallStopa_tab4.Size = New System.Drawing.Size(32, 24)
-        Me.txtFallStopa_tab4.TabIndex = 392
+        Me.txtFallStop_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFallStop_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFallStop_tab4.Location = New System.Drawing.Point(495, 142)
+        Me.txtFallStop_tab4.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFallStop_tab4.Name = "txtFallStop_tab4"
+        Me.txtFallStop_tab4.Size = New System.Drawing.Size(32, 24)
+        Me.txtFallStop_tab4.TabIndex = 392
         '
         'Label23
         '
@@ -942,15 +944,15 @@ Partial Class frmWJudgment
         Me.Label27.TabIndex = 382
         Me.Label27.Text = "Slew rate [ns]"
         '
-        'txtFbgLocktime_tab4
+        'txtFbgLocktimemin_tab4
         '
-        Me.txtFbgLocktime_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFbgLocktime_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFbgLocktime_tab4.Location = New System.Drawing.Point(164, 179)
-        Me.txtFbgLocktime_tab4.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFbgLocktime_tab4.Name = "txtFbgLocktime_tab4"
-        Me.txtFbgLocktime_tab4.Size = New System.Drawing.Size(60, 24)
-        Me.txtFbgLocktime_tab4.TabIndex = 381
+        Me.txtFbgLocktimemin_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFbgLocktimemin_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFbgLocktimemin_tab4.Location = New System.Drawing.Point(164, 179)
+        Me.txtFbgLocktimemin_tab4.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFbgLocktimemin_tab4.Name = "txtFbgLocktimemin_tab4"
+        Me.txtFbgLocktimemin_tab4.Size = New System.Drawing.Size(60, 24)
+        Me.txtFbgLocktimemin_tab4.TabIndex = 381
         '
         'txtFbgLocktimemax_tab4
         '
@@ -1073,6 +1075,7 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab4.FormattingEnabled = True
+        Me.cboSelect1_tab4.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboSelect1_tab4.Location = New System.Drawing.Point(154, 55)
         Me.cboSelect1_tab4.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab4.Name = "cboSelect1_tab4"
@@ -1092,7 +1095,7 @@ Partial Class frmWJudgment
         '
         'WaveFormJudge1
         '
-        Me.WaveFormJudge1.Controls.Add(Me.txtFallStopa_tab1)
+        Me.WaveFormJudge1.Controls.Add(Me.txtFallStop_tab1)
         Me.WaveFormJudge1.Controls.Add(Me.Label93)
         Me.WaveFormJudge1.Controls.Add(Me.txtFallStart_tab1)
         Me.WaveFormJudge1.Controls.Add(Me.Label94)
@@ -1103,7 +1106,7 @@ Partial Class frmWJudgment
         Me.WaveFormJudge1.Controls.Add(Me.txtSlew_tab1)
         Me.WaveFormJudge1.Controls.Add(Me.txtSlewmax_tab1)
         Me.WaveFormJudge1.Controls.Add(Me.Label90)
-        Me.WaveFormJudge1.Controls.Add(Me.txtFbgLocktime_tab1)
+        Me.WaveFormJudge1.Controls.Add(Me.txtFbgLocktimemin_tab1)
         Me.WaveFormJudge1.Controls.Add(Me.txtFbgLocktimemax_tab1)
         Me.WaveFormJudge1.Controls.Add(Me.Label89)
         Me.WaveFormJudge1.Controls.Add(Me.txtFallmin_tab1)
@@ -1127,15 +1130,15 @@ Partial Class frmWJudgment
         Me.WaveFormJudge1.Text = "WaveForm Judge1"
         Me.WaveFormJudge1.UseVisualStyleBackColor = True
         '
-        'txtFallStopa_tab1
+        'txtFallStop_tab1
         '
-        Me.txtFallStopa_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFallStopa_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFallStopa_tab1.Location = New System.Drawing.Point(495, 142)
-        Me.txtFallStopa_tab1.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFallStopa_tab1.Name = "txtFallStopa_tab1"
-        Me.txtFallStopa_tab1.Size = New System.Drawing.Size(32, 24)
-        Me.txtFallStopa_tab1.TabIndex = 392
+        Me.txtFallStop_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFallStop_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFallStop_tab1.Location = New System.Drawing.Point(495, 142)
+        Me.txtFallStop_tab1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFallStop_tab1.Name = "txtFallStop_tab1"
+        Me.txtFallStop_tab1.Size = New System.Drawing.Size(32, 24)
+        Me.txtFallStop_tab1.TabIndex = 392
         '
         'Label93
         '
@@ -1242,15 +1245,15 @@ Partial Class frmWJudgment
         Me.Label90.TabIndex = 382
         Me.Label90.Text = "Slew rate [ns]"
         '
-        'txtFbgLocktime_tab1
+        'txtFbgLocktimemin_tab1
         '
-        Me.txtFbgLocktime_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFbgLocktime_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFbgLocktime_tab1.Location = New System.Drawing.Point(164, 179)
-        Me.txtFbgLocktime_tab1.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFbgLocktime_tab1.Name = "txtFbgLocktime_tab1"
-        Me.txtFbgLocktime_tab1.Size = New System.Drawing.Size(60, 24)
-        Me.txtFbgLocktime_tab1.TabIndex = 381
+        Me.txtFbgLocktimemin_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFbgLocktimemin_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFbgLocktimemin_tab1.Location = New System.Drawing.Point(164, 179)
+        Me.txtFbgLocktimemin_tab1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFbgLocktimemin_tab1.Name = "txtFbgLocktimemin_tab1"
+        Me.txtFbgLocktimemin_tab1.Size = New System.Drawing.Size(60, 24)
+        Me.txtFbgLocktimemin_tab1.TabIndex = 381
         '
         'txtFbgLocktimemax_tab1
         '
@@ -1373,6 +1376,7 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab1.FormattingEnabled = True
+        Me.cboSelect1_tab1.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboSelect1_tab1.Location = New System.Drawing.Point(154, 55)
         Me.cboSelect1_tab1.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab1.Name = "cboSelect1_tab1"
@@ -1410,7 +1414,7 @@ Partial Class frmWJudgment
         '
         'WaveFormJudge3
         '
-        Me.WaveFormJudge3.Controls.Add(Me.txtFallStopa_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtFallStop_tab3)
         Me.WaveFormJudge3.Controls.Add(Me.Label12)
         Me.WaveFormJudge3.Controls.Add(Me.txtFallStart_tab3)
         Me.WaveFormJudge3.Controls.Add(Me.Label13)
@@ -1421,7 +1425,7 @@ Partial Class frmWJudgment
         Me.WaveFormJudge3.Controls.Add(Me.txtSlew_tab3)
         Me.WaveFormJudge3.Controls.Add(Me.txtSlewmax_tab3)
         Me.WaveFormJudge3.Controls.Add(Me.Label16)
-        Me.WaveFormJudge3.Controls.Add(Me.txtFbgLocktime_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtFbgLocktimemin_tab3)
         Me.WaveFormJudge3.Controls.Add(Me.txtFbgLocktimemax_tab3)
         Me.WaveFormJudge3.Controls.Add(Me.Label17)
         Me.WaveFormJudge3.Controls.Add(Me.txtFallmin_tab3)
@@ -1445,15 +1449,15 @@ Partial Class frmWJudgment
         Me.WaveFormJudge3.Text = "WaveForm Judge3"
         Me.WaveFormJudge3.UseVisualStyleBackColor = True
         '
-        'txtFallStopa_tab3
+        'txtFallStop_tab3
         '
-        Me.txtFallStopa_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFallStopa_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFallStopa_tab3.Location = New System.Drawing.Point(495, 142)
-        Me.txtFallStopa_tab3.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFallStopa_tab3.Name = "txtFallStopa_tab3"
-        Me.txtFallStopa_tab3.Size = New System.Drawing.Size(32, 24)
-        Me.txtFallStopa_tab3.TabIndex = 392
+        Me.txtFallStop_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFallStop_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFallStop_tab3.Location = New System.Drawing.Point(495, 142)
+        Me.txtFallStop_tab3.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFallStop_tab3.Name = "txtFallStop_tab3"
+        Me.txtFallStop_tab3.Size = New System.Drawing.Size(32, 24)
+        Me.txtFallStop_tab3.TabIndex = 392
         '
         'Label12
         '
@@ -1560,15 +1564,15 @@ Partial Class frmWJudgment
         Me.Label16.TabIndex = 382
         Me.Label16.Text = "Slew rate [ns]"
         '
-        'txtFbgLocktime_tab3
+        'txtFbgLocktimemin_tab3
         '
-        Me.txtFbgLocktime_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFbgLocktime_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFbgLocktime_tab3.Location = New System.Drawing.Point(164, 179)
-        Me.txtFbgLocktime_tab3.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFbgLocktime_tab3.Name = "txtFbgLocktime_tab3"
-        Me.txtFbgLocktime_tab3.Size = New System.Drawing.Size(60, 24)
-        Me.txtFbgLocktime_tab3.TabIndex = 381
+        Me.txtFbgLocktimemin_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFbgLocktimemin_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFbgLocktimemin_tab3.Location = New System.Drawing.Point(164, 179)
+        Me.txtFbgLocktimemin_tab3.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFbgLocktimemin_tab3.Name = "txtFbgLocktimemin_tab3"
+        Me.txtFbgLocktimemin_tab3.Size = New System.Drawing.Size(60, 24)
+        Me.txtFbgLocktimemin_tab3.TabIndex = 381
         '
         'txtFbgLocktimemax_tab3
         '
@@ -1691,6 +1695,7 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab3.FormattingEnabled = True
+        Me.cboSelect1_tab3.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboSelect1_tab3.Location = New System.Drawing.Point(154, 55)
         Me.cboSelect1_tab3.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab3.Name = "cboSelect1_tab3"
@@ -1710,7 +1715,7 @@ Partial Class frmWJudgment
         '
         'WaveFormJudge5
         '
-        Me.WaveFormJudge5.Controls.Add(Me.txtFallStopa_tab5)
+        Me.WaveFormJudge5.Controls.Add(Me.txtFallStop_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.Label34)
         Me.WaveFormJudge5.Controls.Add(Me.txtFallStart_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.Label35)
@@ -1721,7 +1726,7 @@ Partial Class frmWJudgment
         Me.WaveFormJudge5.Controls.Add(Me.txtSlew_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.txtSlewmax_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.Label38)
-        Me.WaveFormJudge5.Controls.Add(Me.txtFbgLocktime_tab5)
+        Me.WaveFormJudge5.Controls.Add(Me.txtFbgLocktimemin_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.txtFbgLocktimemax_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.Label39)
         Me.WaveFormJudge5.Controls.Add(Me.txtFallmin_tab5)
@@ -1745,15 +1750,15 @@ Partial Class frmWJudgment
         Me.WaveFormJudge5.Text = "WaveForm Judge5"
         Me.WaveFormJudge5.UseVisualStyleBackColor = True
         '
-        'txtFallStopa_tab5
+        'txtFallStop_tab5
         '
-        Me.txtFallStopa_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFallStopa_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFallStopa_tab5.Location = New System.Drawing.Point(495, 142)
-        Me.txtFallStopa_tab5.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFallStopa_tab5.Name = "txtFallStopa_tab5"
-        Me.txtFallStopa_tab5.Size = New System.Drawing.Size(32, 24)
-        Me.txtFallStopa_tab5.TabIndex = 392
+        Me.txtFallStop_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFallStop_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFallStop_tab5.Location = New System.Drawing.Point(495, 142)
+        Me.txtFallStop_tab5.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFallStop_tab5.Name = "txtFallStop_tab5"
+        Me.txtFallStop_tab5.Size = New System.Drawing.Size(32, 24)
+        Me.txtFallStop_tab5.TabIndex = 392
         '
         'Label34
         '
@@ -1860,15 +1865,15 @@ Partial Class frmWJudgment
         Me.Label38.TabIndex = 382
         Me.Label38.Text = "Slew rate [ns]"
         '
-        'txtFbgLocktime_tab5
+        'txtFbgLocktimemin_tab5
         '
-        Me.txtFbgLocktime_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFbgLocktime_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFbgLocktime_tab5.Location = New System.Drawing.Point(164, 179)
-        Me.txtFbgLocktime_tab5.Margin = New System.Windows.Forms.Padding(2)
-        Me.txtFbgLocktime_tab5.Name = "txtFbgLocktime_tab5"
-        Me.txtFbgLocktime_tab5.Size = New System.Drawing.Size(60, 24)
-        Me.txtFbgLocktime_tab5.TabIndex = 381
+        Me.txtFbgLocktimemin_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFbgLocktimemin_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFbgLocktimemin_tab5.Location = New System.Drawing.Point(164, 179)
+        Me.txtFbgLocktimemin_tab5.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtFbgLocktimemin_tab5.Name = "txtFbgLocktimemin_tab5"
+        Me.txtFbgLocktimemin_tab5.Size = New System.Drawing.Size(60, 24)
+        Me.txtFbgLocktimemin_tab5.TabIndex = 381
         '
         'txtFbgLocktimemax_tab5
         '
@@ -1991,6 +1996,7 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSelect1_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab5.FormattingEnabled = True
+        Me.cboSelect1_tab5.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
         Me.cboSelect1_tab5.Location = New System.Drawing.Point(154, 55)
         Me.cboSelect1_tab5.Margin = New System.Windows.Forms.Padding(2)
         Me.cboSelect1_tab5.Name = "cboSelect1_tab5"
@@ -2019,16 +2025,16 @@ Partial Class frmWJudgment
         Me.btnCancleILm.Text = "Cancle"
         Me.btnCancleILm.UseVisualStyleBackColor = True
         '
-        'btnSaveILm
+        'btnSaveWj
         '
-        Me.btnSaveILm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSaveILm.Location = New System.Drawing.Point(531, 524)
-        Me.btnSaveILm.Margin = New System.Windows.Forms.Padding(2)
-        Me.btnSaveILm.Name = "btnSaveILm"
-        Me.btnSaveILm.Size = New System.Drawing.Size(77, 30)
-        Me.btnSaveILm.TabIndex = 469
-        Me.btnSaveILm.Text = "Save"
-        Me.btnSaveILm.UseVisualStyleBackColor = True
+        Me.btnSaveWj.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSaveWj.Location = New System.Drawing.Point(531, 524)
+        Me.btnSaveWj.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnSaveWj.Name = "btnSaveWj"
+        Me.btnSaveWj.Size = New System.Drawing.Size(77, 30)
+        Me.btnSaveWj.TabIndex = 469
+        Me.btnSaveWj.Text = "Save"
+        Me.btnSaveWj.UseVisualStyleBackColor = True
         '
         'frmWJudgment
         '
@@ -2037,7 +2043,7 @@ Partial Class frmWJudgment
         Me.ClientSize = New System.Drawing.Size(750, 569)
         Me.Controls.Add(Me.btnCancleILm)
         Me.Controls.Add(Me.txtFBGlockingTimemin_Page4)
-        Me.Controls.Add(Me.btnSaveILm)
+        Me.Controls.Add(Me.btnSaveWj)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmWJudgment"
@@ -2066,7 +2072,7 @@ Partial Class frmWJudgment
     Friend WithEvents txtFBGlockingTimemin_Page4 As TabControl
     Friend WithEvents WaveFormJudge3 As TabPage
     Friend WithEvents WaveFormJudge5 As TabPage
-    Friend WithEvents txtFallStopa_tab2 As TextBox
+    Friend WithEvents txtFallStop_tab2 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents txtFallStart_tab2 As TextBox
     Friend WithEvents Label2 As Label
@@ -2077,7 +2083,7 @@ Partial Class frmWJudgment
     Friend WithEvents txtSlew_tab2 As TextBox
     Friend WithEvents txtSlewmax_tab2 As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents txtFbgLocktime_tab2 As TextBox
+    Friend WithEvents txtFbgLocktimemin_tab2 As TextBox
     Friend WithEvents txtFbgLocktimemax_tab2 As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents txtFallmin_tab2 As TextBox
@@ -2091,7 +2097,7 @@ Partial Class frmWJudgment
     Friend WithEvents cboSelect2_tab2 As ComboBox
     Friend WithEvents cboSelect1_tab2 As ComboBox
     Friend WithEvents Label11 As Label
-    Friend WithEvents txtFallStopa_tab1 As TextBox
+    Friend WithEvents txtFallStop_tab1 As TextBox
     Friend WithEvents Label93 As Label
     Friend WithEvents txtFallStart_tab1 As TextBox
     Friend WithEvents Label94 As Label
@@ -2102,7 +2108,7 @@ Partial Class frmWJudgment
     Friend WithEvents txtSlew_tab1 As TextBox
     Friend WithEvents txtSlewmax_tab1 As TextBox
     Friend WithEvents Label90 As Label
-    Friend WithEvents txtFbgLocktime_tab1 As TextBox
+    Friend WithEvents txtFbgLocktimemin_tab1 As TextBox
     Friend WithEvents txtFbgLocktimemax_tab1 As TextBox
     Friend WithEvents Label89 As Label
     Friend WithEvents txtFallmin_tab1 As TextBox
@@ -2116,7 +2122,7 @@ Partial Class frmWJudgment
     Friend WithEvents cboSelect2_tab1 As ComboBox
     Friend WithEvents cboSelect1_tab1 As ComboBox
     Friend WithEvents Label102 As Label
-    Friend WithEvents txtFallStopa_tab3 As TextBox
+    Friend WithEvents txtFallStop_tab3 As TextBox
     Friend WithEvents Label12 As Label
     Friend WithEvents txtFallStart_tab3 As TextBox
     Friend WithEvents Label13 As Label
@@ -2127,7 +2133,7 @@ Partial Class frmWJudgment
     Friend WithEvents txtSlew_tab3 As TextBox
     Friend WithEvents txtSlewmax_tab3 As TextBox
     Friend WithEvents Label16 As Label
-    Friend WithEvents txtFbgLocktime_tab3 As TextBox
+    Friend WithEvents txtFbgLocktimemin_tab3 As TextBox
     Friend WithEvents txtFbgLocktimemax_tab3 As TextBox
     Friend WithEvents Label17 As Label
     Friend WithEvents txtFallmin_tab3 As TextBox
@@ -2141,7 +2147,7 @@ Partial Class frmWJudgment
     Friend WithEvents cboSelect2_tab3 As ComboBox
     Friend WithEvents cboSelect1_tab3 As ComboBox
     Friend WithEvents Label22 As Label
-    Friend WithEvents txtFallStopa_tab4 As TextBox
+    Friend WithEvents txtFallStop_tab4 As TextBox
     Friend WithEvents Label23 As Label
     Friend WithEvents txtFallStart_tab4 As TextBox
     Friend WithEvents Label24 As Label
@@ -2152,7 +2158,7 @@ Partial Class frmWJudgment
     Friend WithEvents txtSlew_tab4 As TextBox
     Friend WithEvents txtSlewmax_tab4 As TextBox
     Friend WithEvents Label27 As Label
-    Friend WithEvents txtFbgLocktime_tab4 As TextBox
+    Friend WithEvents txtFbgLocktimemin_tab4 As TextBox
     Friend WithEvents txtFbgLocktimemax_tab4 As TextBox
     Friend WithEvents Label28 As Label
     Friend WithEvents txtFallmin_tab4 As TextBox
@@ -2166,7 +2172,7 @@ Partial Class frmWJudgment
     Friend WithEvents cboSelect2_tab4 As ComboBox
     Friend WithEvents cboSelect1_tab4 As ComboBox
     Friend WithEvents Label33 As Label
-    Friend WithEvents txtFallStopa_tab5 As TextBox
+    Friend WithEvents txtFallStop_tab5 As TextBox
     Friend WithEvents Label34 As Label
     Friend WithEvents txtFallStart_tab5 As TextBox
     Friend WithEvents Label35 As Label
@@ -2177,7 +2183,7 @@ Partial Class frmWJudgment
     Friend WithEvents txtSlew_tab5 As TextBox
     Friend WithEvents txtSlewmax_tab5 As TextBox
     Friend WithEvents Label38 As Label
-    Friend WithEvents txtFbgLocktime_tab5 As TextBox
+    Friend WithEvents txtFbgLocktimemin_tab5 As TextBox
     Friend WithEvents txtFbgLocktimemax_tab5 As TextBox
     Friend WithEvents Label39 As Label
     Friend WithEvents txtFallmin_tab5 As TextBox
@@ -2191,7 +2197,7 @@ Partial Class frmWJudgment
     Friend WithEvents cboSelect2_tab5 As ComboBox
     Friend WithEvents cboSelect1_tab5 As ComboBox
     Friend WithEvents Label44 As Label
-    Friend WithEvents txtFallStopa_tab6 As TextBox
+    Friend WithEvents txtFallStop_tab6 As TextBox
     Friend WithEvents Label45 As Label
     Friend WithEvents txtFallStart_tab6 As TextBox
     Friend WithEvents Label46 As Label
@@ -2202,7 +2208,7 @@ Partial Class frmWJudgment
     Friend WithEvents txtSlew_tab6 As TextBox
     Friend WithEvents txtSlewmax_tab6 As TextBox
     Friend WithEvents Label49 As Label
-    Friend WithEvents txtFbgLocktime_tab6 As TextBox
+    Friend WithEvents txtFbgLocktimemin_tab6 As TextBox
     Friend WithEvents txtFbgLocktimemax_tab6 As TextBox
     Friend WithEvents Label50 As Label
     Friend WithEvents txtFallmin_tab6 As TextBox
@@ -2217,5 +2223,5 @@ Partial Class frmWJudgment
     Friend WithEvents cboSelect1_tab6 As ComboBox
     Friend WithEvents Label55 As Label
     Friend WithEvents btnCancleILm As Button
-    Friend WithEvents btnSaveILm As Button
+    Friend WithEvents btnSaveWj As Button
 End Class

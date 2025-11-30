@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Tanaw\\OneDrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\PulseSave\\Pulse_measurment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanaw\\onedrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\pulsesave\\pulse_measurment\\pulse_measurment\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanaw\\onedrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\pulsesave\\pulse_measurment\\pulse_measurment\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanaw\\onedrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\pulsesave\\pulse_measurment\\pulse_measurment\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanaw\\onedrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\pulsesave\\pulse_measurment\\pulse_measurment\\productionparameters.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\productionparameters.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanaw\\onedrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\pulsesave\\pulse_measurment\\pulse_measurment\\judgmentcondition\\frmwjudgment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\judgmentcondition\\frmwjudgment.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +21,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 212,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 131,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,35 +33,51 @@
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmPreferance.vb",
-              "DocumentMoniker": "C:\\Users\\Tanaw\\OneDrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\PulseSave\\Pulse_measurment\\Pulse_measurment\\frmPreferance.vb",
-              "RelativeDocumentMoniker": "Pulse_measurment\\frmPreferance.vb",
-              "ToolTip": "C:\\Users\\Tanaw\\OneDrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\PulseSave\\Pulse_measurment\\Pulse_measurment\\frmPreferance.vb",
-              "RelativeToolTip": "Pulse_measurment\\frmPreferance.vb",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-28T14:50:40.535Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 188,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmPreferance.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Tanaw\\OneDrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\PulseSave\\Pulse_measurment\\Pulse_measurment\\frmPreferance.vb",
-              "RelativeDocumentMoniker": "Pulse_measurment\\frmPreferance.vb",
-              "ToolTip": "C:\\Users\\Tanaw\\OneDrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\PulseSave\\Pulse_measurment\\Pulse_measurment\\frmPreferance.vb [Design]",
-              "RelativeToolTip": "Pulse_measurment\\frmPreferance.vb [Design]",
+              "Title": "ProductionParameters.vb",
+              "DocumentMoniker": "C:\\Users\\Tanaw\\OneDrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\PulseSave\\Pulse_measurment\\Pulse_measurment\\ProductionParameters.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\ProductionParameters.vb",
+              "ToolTip": "C:\\Users\\Tanaw\\OneDrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\PulseSave\\Pulse_measurment\\Pulse_measurment\\ProductionParameters.vb",
+              "RelativeToolTip": "Pulse_measurment\\ProductionParameters.vb",
+              "ViewState": "AgIAABcAAAAAAAAAAAA6wB8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-28T14:20:33.126Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-30T13:35:24.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmWJudgment.vb",
+              "DocumentMoniker": "C:\\Users\\Tanaw\\OneDrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\PulseSave\\Pulse_measurment\\Pulse_measurment\\JudgmentCondition\\frmWJudgment.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\JudgmentCondition\\frmWJudgment.vb",
+              "ToolTip": "C:\\Users\\Tanaw\\OneDrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\PulseSave\\Pulse_measurment\\Pulse_measurment\\JudgmentCondition\\frmWJudgment.vb",
+              "RelativeToolTip": "Pulse_measurment\\JudgmentCondition\\frmWJudgment.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-30T14:35:16.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmProduction.vb",
+              "DocumentMoniker": "C:\\Users\\Tanaw\\OneDrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\PulseSave\\Pulse_measurment\\Pulse_measurment\\frmProduction.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\frmProduction.vb",
+              "ToolTip": "C:\\Users\\Tanaw\\OneDrive\\\u0E40\u0E14\u0E2A\u0E01\u0E4C\u0E17\u0E47\u0E2D\u0E1B\\PulseSave\\Pulse_measurment\\Pulse_measurment\\frmProduction.vb",
+              "RelativeToolTip": "Pulse_measurment\\frmProduction.vb",
+              "ViewState": "AgIAADABAAAAAAAAAAAjwM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-30T14:50:08.774Z",
+              "EditorCaption": ""
             }
           ]
         }
