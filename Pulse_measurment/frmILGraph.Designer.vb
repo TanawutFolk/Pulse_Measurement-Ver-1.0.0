@@ -255,7 +255,7 @@ Partial Class frmILGraph
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel4)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmILGraph"
         Me.Text = "frmILGraph"
         Me.Panel3.ResumeLayout(False)

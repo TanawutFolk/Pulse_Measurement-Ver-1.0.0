@@ -12,7 +12,7 @@
             WL_Data.Spec1.IfPulse = CDbl(txtIf_tab1.Text)
             WL_Data.Spec1.Frequency = CDbl(txtFrequen_tab1.Text)
             WL_Data.Spec1.DutyCycle = CDbl(txtDuty_tab1.Text)
-            WL_Data.Spec1.PulseWidth = CDbl(txtPulse_tab1.Text)
+            WL_Data.Spec1.PulseWidth = GetVal(txtPulse_tab1.Text)
             WL_Data.Spec1.DelayTime = CDbl(txtDelayTimeTab1.Text)
             WL_Data.Spec1.Tc = CDbl(txtTc_tab1.Text)
             WL_Data.Spec1.Tld = CDbl(txtTld_tab1.Text)
@@ -35,7 +35,7 @@
             WL_Data.Spec2.IfPulse = CDbl(txtIf_tab2.Text)
             WL_Data.Spec2.Frequency = CDbl(txtFrequen_tab2.Text)
             WL_Data.Spec2.DutyCycle = CDbl(txtDuty_tab2.Text)
-            WL_Data.Spec2.PulseWidth = CDbl(txtPulse_tab2.Text)
+            WL_Data.Spec2.PulseWidth = GetVal(txtPulse_tab2.Text)
             WL_Data.Spec2.DelayTime = CDbl(txtDelayTimeTab2.Text)
             WL_Data.Spec2.Tc = CDbl(txtTc_tab2.Text)
             WL_Data.Spec2.Tld = CDbl(txtTld_tab2.Text)
@@ -58,7 +58,7 @@
             WL_Data.Spec3.IfPulse = CDbl(txtIf_tab3.Text)
             WL_Data.Spec3.Frequency = CDbl(txtFrequen_tab3.Text)
             WL_Data.Spec3.DutyCycle = CDbl(txtDuty_tab3.Text)
-            WL_Data.Spec3.PulseWidth = CDbl(txtPulse_tab3.Text)
+            WL_Data.Spec3.PulseWidth = GetVal(txtPulse_tab3.Text)
             WL_Data.Spec3.DelayTime = CDbl(txtDelayTimeTab3.Text)
             WL_Data.Spec3.Tc = CDbl(txtTc_tab3.Text)
             WL_Data.Spec3.Tld = CDbl(txtTld_tab3.Text)
@@ -81,7 +81,7 @@
             WL_Data.Spec4.IfPulse = CDbl(txtIf_tab4.Text)
             WL_Data.Spec4.Frequency = CDbl(txtFrequen_tab4.Text)
             WL_Data.Spec4.DutyCycle = CDbl(txtDuty_tab4.Text)
-            WL_Data.Spec4.PulseWidth = CDbl(txtPulse_tab4.Text)
+            WL_Data.Spec4.PulseWidth = GetVal(txtPulse_tab4.Text)
             WL_Data.Spec4.DelayTime = CDbl(txtDelayTimeTab4.Text)
             WL_Data.Spec4.Tc = CDbl(txtTc_tab4.Text)
             WL_Data.Spec4.Tld = CDbl(txtTld_tab4.Text)
@@ -104,7 +104,7 @@
             WL_Data.Spec5.IfPulse = CDbl(txtIf_tab5.Text)
             WL_Data.Spec5.Frequency = CDbl(txtFrequen_tab5.Text)
             WL_Data.Spec5.DutyCycle = CDbl(txtDuty_tab5.Text)
-            WL_Data.Spec5.PulseWidth = CDbl(txtPulse_tab5.Text)
+            WL_Data.Spec5.PulseWidth = GetVal(txtPulse_tab5.Text)
             WL_Data.Spec5.DelayTime = CDbl(txtDelayTimeTab5.Text)
             WL_Data.Spec5.Tc = CDbl(txtTc_tab5.Text)
             WL_Data.Spec5.Tld = CDbl(txtTld_tab5.Text)
@@ -127,7 +127,7 @@
             WL_Data.Spec6.IfPulse = CDbl(txtIf_tab6.Text)
             WL_Data.Spec6.Frequency = CDbl(txtFrequen_tab6.Text)
             WL_Data.Spec6.DutyCycle = CDbl(txtDuty_tab6.Text)
-            WL_Data.Spec6.PulseWidth = CDbl(txtPulse_tab6.Text)
+            WL_Data.Spec6.PulseWidth = GetVal(txtPulse_tab6.Text)
             WL_Data.Spec6.DelayTime = CDbl(txtDelayTimeTab6.Text)
             WL_Data.Spec6.Tc = CDbl(txtTc_tab6.Text)
             WL_Data.Spec6.Tld = CDbl(txtTld_tab6.Text)
@@ -290,5 +290,20 @@
         cboMeasurePoint2_tab6.Text = WL_Data.Spec6.Point2
 
     End Sub
+
+    Private Function GetVal(text As String) As Double
+        If text Is Nothing Then Return 0
+        text = text.Trim()
+
+        If text = "" Or text = "-" Then
+            Return 0
+        End If
+
+        If IsNumeric(text) Then
+            Return CDbl(text)
+        Else
+            Return 0
+        End If
+    End Function
 
 End Class

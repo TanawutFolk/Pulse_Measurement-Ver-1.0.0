@@ -16,7 +16,7 @@
             IL_Data.L1.IfStop = CDbl(txStop_tab1.Text)
             IL_Data.L1.Frequency = CDbl(txtFrequn_tab1.Text)
             IL_Data.L1.DutyCycle = CDbl(txtDutycycle_tab1.Text)
-            IL_Data.L1.PulseWidth = CDbl(txtPulse_tab1.Text)
+            IL_Data.L1.PulseWidth = GetVal(txtPulse_tab1.Text)
             IL_Data.L1.DelayTime = CDbl(txtDelay_tab1.Text)
             IL_Data.L1.PowerAvg = CInt(txtPoweravg_tab1.Text)
             IL_Data.L1.Tc = CDbl(txtTc_tab1.Text)
@@ -54,7 +54,7 @@
             IL_Data.L2.IfStop = CDbl(txStop_tab2.Text)
             IL_Data.L2.Frequency = CDbl(txtFrequn_tab2.Text)
             IL_Data.L2.DutyCycle = CDbl(txtDutycycle_tab2.Text)
-            IL_Data.L2.PulseWidth = CDbl(txtPulse_tab2.Text)
+            IL_Data.L2.PulseWidth = GetVal(txtPulse_tab2.Text)
             IL_Data.L2.DelayTime = CDbl(txtDelay_tab2.Text)
             IL_Data.L2.PowerAvg = CInt(txtPoweravg_tab2.Text)
             IL_Data.L2.Tc = CDbl(txtTc_tab2.Text)
@@ -90,7 +90,7 @@
             IL_Data.L3.IfStop = CDbl(txStop_tab3.Text)
             IL_Data.L3.Frequency = CDbl(txtFrequn_tab3.Text)
             IL_Data.L3.DutyCycle = CDbl(txtDutycycle_tab3.Text)
-            IL_Data.L3.PulseWidth = CDbl(txtPulse_tab3.Text)
+            IL_Data.L3.PulseWidth = GetVal(txtPulse_tab3.Text)
             IL_Data.L3.DelayTime = CDbl(txtDelay_tab3.Text)
             IL_Data.L3.PowerAvg = CInt(txtPoweravg_tab3.Text)
             IL_Data.L3.Tc = CDbl(txtTc_tab3.Text)
@@ -126,7 +126,7 @@
             IL_Data.L4.IfStop = CDbl(txStop_tab4.Text)
             IL_Data.L4.Frequency = CDbl(txtFrequn_tab4.Text)
             IL_Data.L4.DutyCycle = CDbl(txtDutycycle_tab4.Text)
-            IL_Data.L4.PulseWidth = CDbl(txtPulse_tab4.Text)
+            IL_Data.L4.PulseWidth = GetVal(txtPulse_tab4.Text)
             IL_Data.L4.DelayTime = CDbl(txtDelay_tab4.Text)
             IL_Data.L4.PowerAvg = CInt(txtPoweravg_tab4.Text)
             IL_Data.L4.Tc = CDbl(txtTc_tab4.Text)
@@ -162,7 +162,7 @@
             IL_Data.L5.IfStop = CDbl(txStop_tab5.Text)
             IL_Data.L5.Frequency = CDbl(txtFrequn_tab5.Text)
             IL_Data.L5.DutyCycle = CDbl(txtDutycycle_tab5.Text)
-            IL_Data.L5.PulseWidth = CDbl(txtPulse_tab5.Text)
+            IL_Data.L5.PulseWidth = GetVal(txtPulse_tab5.Text)
             IL_Data.L5.DelayTime = CDbl(txtDelay_tab5.Text)
             IL_Data.L5.PowerAvg = CInt(txtPoweravg_tab5.Text)
             IL_Data.L5.Tc = CDbl(txtTc_tab5.Text)
@@ -198,7 +198,7 @@
             IL_Data.L6.IfStop = CDbl(txStop_tab6.Text)
             IL_Data.L6.Frequency = CDbl(txtFrequn_tab6.Text)
             IL_Data.L6.DutyCycle = CDbl(txtDutycycle_tab6.Text)
-            IL_Data.L6.PulseWidth = CDbl(txtPulse_tab6.Text)
+            IL_Data.L6.PulseWidth = GetVal(txtPulse_tab6.Text)
             IL_Data.L6.DelayTime = CDbl(txtDelay_tab6.Text)
             IL_Data.L6.PowerAvg = CInt(txtPoweravg_tab6.Text)
             IL_Data.L6.Tc = CDbl(txtTc_tab6.Text)
@@ -509,5 +509,20 @@
         txtImscale_tab6.Text = IL_Data.L6.Scale_Im.ToString()
         txtImdiv_tab6.Text = IL_Data.L6.Div_Im.ToString()
     End Sub
+
+    Private Function GetVal(text As String) As Double
+        If text Is Nothing Then Return 0
+        text = text.Trim()
+
+        If text = "" Or text = "-" Then
+            Return 0
+        End If
+
+        If IsNumeric(text) Then
+            Return CDbl(text)
+        Else
+            Return 0
+        End If
+    End Function
 
 End Class

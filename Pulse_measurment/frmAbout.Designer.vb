@@ -90,7 +90,7 @@ Partial Class frmAbout
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "frmAbout"
         Me.Text = "frmAbout"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

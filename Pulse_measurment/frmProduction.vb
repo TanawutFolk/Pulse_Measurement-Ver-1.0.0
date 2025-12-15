@@ -3,14 +3,14 @@ Imports Newtonsoft.Json
 
 Public Class frmProduction
 
-    ' ตัวแปรสูตรกลาง (ถังพักข้อมูล)
+    ' ตัวแปรสูตรกลาง 
     Public CurrentRecipe As New ProductionParameters()
 
     ' =========================================================
-    ' 1. Form Load: ตั้งค่าเริ่มต้นเมื่อเปิดหน้าจอ
+    ' 1. Form Load ตั้งค่าเริ่มต้นเมื่อเปิดหน้าจอ
     ' =========================================================
     Private Sub frmProduction_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' โหลดรายชื่อ Operator จากไฟล์ Text (ถ้ามี)
+        ' โหลดรายชื่อ Operator จากไฟล์ Opearator.txt 
         Dim opFile As String = Path.Combine(Application.StartupPath, "SampleData\Operator.txt")
         If File.Exists(opFile) Then
             Dim lines As String() = File.ReadAllLines(opFile)
@@ -47,13 +47,11 @@ Public Class frmProduction
     ' ----------------------------------------------------------
     Private Sub btnSaveParam_Click(sender As Object, e As EventArgs) Handles btnSave.Click
 
-        ' --- เพิ่ม Logic ตรงนี้ครับ ---
-        ' ถ้าในกล่องข้อความยังว่างเปล่า (แปลว่าเป็นสูตรใหม่ หรือยังไม่ได้เลือกที่เก็บ)
         If txtParameterFile.Text = "" Then
             Dim dlg As New SaveFileDialog()
             dlg.Filter = "JSON Files|*.json|All Files|*.*"
             dlg.Title = "บันทึกสูตรการผลิต (Save Recipe)"
-            dlg.FileName = "NewRecipe.json" ' ตั้งชื่อ Default ให้หน่อย
+            dlg.FileName = "NewRecipe.json" ' ตั้งชื่อ Default 
 
             ' ให้ User เลือกที่เซฟ
             If dlg.ShowDialog() = DialogResult.OK Then
@@ -66,7 +64,6 @@ Public Class frmProduction
         End If
         ' -----------------------------
 
-        ' (ส่วนข้างล่างนี้เหมือนเดิมครับ คือการบันทึก)
         Try
             ' 1. เอาค่าจากหน้าจอ เก็บลงตัวแปร
             UpdateRecipeFromScreen()
@@ -115,7 +112,7 @@ Public Class frmProduction
         txtFBG1.Text = CurrentRecipe.FBG1
         txtFBG2.Text = CurrentRecipe.FBG2
         txtDatafolder.Text = CurrentRecipe.DataFolder
-        txtVoltWat.Text = CurrentRecipe.PowerCorrection.ToString()
+        txtVoltWat.Text = CurrentRecipe.PowerCorrection
 
         ' Measurement Checkboxes
         cbMeasureIL1.Checked = CurrentRecipe.Meas_Enable_IL1
@@ -231,17 +228,31 @@ Public Class frmProduction
         CurrentRecipe.Judge_Enable_Wave6 = cbJudg_Waveform6.Checked
     End Sub
 
-    'btnAdd Operator ------------------------------------------------ 
     Private Sub btnOperatorAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
-        Dim newName As String = InputBox("กรุณากรอกชื่อ Operator:", "Add Operator")
+        Dim newName As String = InputBox("กรุณากรอกชื่อ Operator", "Add Operator")
+
+        ' ตัดช่องว่างหน้าหลังออก กัน user เคาะวรรคเล่น
+        newName = newName.Trim()
+
         If newName <> "" Then
-            ' เพิ่มลง ComboBox
+            ' 1. เพิ่มลง ComboBox และเลือก
             cboOperator.Items.Add(newName)
             cboOperator.SelectedItem = newName
 
-            ' บันทึกต่อท้ายไฟล์ Text
-            Dim opFile As String = Path.Combine(Application.StartupPath, "SampleData\Operator.txt")
-            File.AppendAllText(opFile, newName & vbCrLf)
+            ' 2. บันทึกลงไฟล์
+            Try
+                Dim opFile As String = Path.Combine(Application.StartupPath, "SampleData\Operator.txt")
+
+                ' เช็คก่อนว่ามีโฟลเดอร์ SampleData ไหม ถ้าไม่มี ให้สร้างใหม่
+                Dim dir As String = Path.GetDirectoryName(opFile)
+                If Not Directory.Exists(dir) Then Directory.CreateDirectory(dir)
+
+                ' เขียนต่อท้ายไฟล์ Append
+                File.AppendAllText(opFile, newName & vbCrLf)
+
+            Catch ex As Exception
+                MessageBox.Show("บันทึกชื่อลงไฟล์ไม่สำเร็จ  " & ex.Message)
+            End Try
         End If
     End Sub
 
@@ -328,4 +339,7 @@ Public Class frmProduction
             btnJudgW_condition.BackColor = Color.LightGreen
         End If
     End Sub
+
+
+
 End Class

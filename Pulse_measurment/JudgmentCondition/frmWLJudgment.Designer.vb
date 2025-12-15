@@ -99,11 +99,11 @@ Partial Class frmWLJudgment
         Me.tabsSPJudge.Dock = System.Windows.Forms.DockStyle.Top
         Me.tabsSPJudge.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tabsSPJudge.Location = New System.Drawing.Point(0, 0)
-        Me.tabsSPJudge.Margin = New System.Windows.Forms.Padding(2)
+        Me.tabsSPJudge.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.tabsSPJudge.Name = "tabsSPJudge"
         Me.tabsSPJudge.Padding = New System.Drawing.Point(18, 3)
         Me.tabsSPJudge.SelectedIndex = 0
-        Me.tabsSPJudge.Size = New System.Drawing.Size(750, 518)
+        Me.tabsSPJudge.Size = New System.Drawing.Size(1000, 638)
         Me.tabsSPJudge.TabIndex = 0
         '
         'SPJudge1
@@ -117,11 +117,11 @@ Partial Class frmWLJudgment
         Me.SPJudge1.Controls.Add(Me.cboSelect1_tab1)
         Me.SPJudge1.Controls.Add(Me.Label102)
         Me.SPJudge1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SPJudge1.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge1.Margin = New System.Windows.Forms.Padding(2)
+        Me.SPJudge1.Location = New System.Drawing.Point(4, 31)
+        Me.SPJudge1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.SPJudge1.Name = "SPJudge1"
-        Me.SPJudge1.Padding = New System.Windows.Forms.Padding(2)
-        Me.SPJudge1.Size = New System.Drawing.Size(742, 488)
+        Me.SPJudge1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.SPJudge1.Size = New System.Drawing.Size(992, 603)
         Me.SPJudge1.TabIndex = 0
         Me.SPJudge1.Text = "SP Judge1"
         Me.SPJudge1.UseVisualStyleBackColor = True
@@ -130,20 +130,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmin_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmin_tab1.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmin_tab1.Location = New System.Drawing.Point(233, 178)
+        Me.txtPinBandmin_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmin_tab1.Name = "txtPinBandmin_tab1"
-        Me.txtPinBandmin_tab1.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmin_tab1.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmin_tab1.TabIndex = 341
         '
         'Label87
         '
         Me.Label87.AutoSize = True
         Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label87.Location = New System.Drawing.Point(262, 127)
-        Me.Label87.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label87.Location = New System.Drawing.Point(349, 156)
         Me.Label87.Name = "Label87"
-        Me.Label87.Size = New System.Drawing.Size(36, 18)
+        Me.Label87.Size = New System.Drawing.Size(43, 22)
         Me.Label87.TabIndex = 340
         Me.Label87.Text = "max"
         '
@@ -151,10 +150,9 @@ Partial Class frmWLJudgment
         '
         Me.Label86.AutoSize = True
         Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label86.Location = New System.Drawing.Point(190, 127)
-        Me.Label86.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label86.Location = New System.Drawing.Point(253, 156)
         Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(32, 18)
+        Me.Label86.Size = New System.Drawing.Size(38, 22)
         Me.Label86.TabIndex = 339
         Me.Label86.Text = "min"
         '
@@ -162,20 +160,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmax_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmax_tab1.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab1.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmax_tab1.Location = New System.Drawing.Point(331, 178)
+        Me.txtPinBandmax_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmax_tab1.Name = "txtPinBandmax_tab1"
-        Me.txtPinBandmax_tab1.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmax_tab1.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmax_tab1.TabIndex = 338
         '
         'Label103
         '
         Me.Label103.AutoSize = True
         Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label103.Location = New System.Drawing.Point(88, 145)
-        Me.Label103.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label103.Location = New System.Drawing.Point(117, 178)
         Me.Label103.Name = "Label103"
-        Me.Label103.Size = New System.Drawing.Size(84, 18)
+        Me.Label103.Size = New System.Drawing.Size(104, 22)
         Me.Label103.TabIndex = 336
         Me.Label103.Text = "PinBand[%]"
         '
@@ -185,10 +182,10 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab1.FormattingEnabled = True
         Me.cboSelect2_tab1.Items.AddRange(New Object() {"FFP"})
-        Me.cboSelect2_tab1.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab1.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect2_tab1.Location = New System.Drawing.Point(332, 107)
+        Me.cboSelect2_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect2_tab1.Name = "cboSelect2_tab1"
-        Me.cboSelect2_tab1.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect2_tab1.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect2_tab1.TabIndex = 335
         '
         'cboSelect1_tab1
@@ -197,20 +194,19 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab1.FormattingEnabled = True
         Me.cboSelect1_tab1.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
-        Me.cboSelect1_tab1.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab1.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect1_tab1.Location = New System.Drawing.Point(200, 107)
+        Me.cboSelect1_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect1_tab1.Name = "cboSelect1_tab1"
-        Me.cboSelect1_tab1.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect1_tab1.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect1_tab1.TabIndex = 294
         '
         'Label102
         '
         Me.Label102.AutoSize = True
         Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label102.Location = New System.Drawing.Point(88, 90)
-        Me.Label102.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label102.Location = New System.Drawing.Point(117, 111)
         Me.Label102.Name = "Label102"
-        Me.Label102.Size = New System.Drawing.Size(49, 18)
+        Me.Label102.Size = New System.Drawing.Size(60, 22)
         Me.Label102.TabIndex = 293
         Me.Label102.Text = "Select"
         '
@@ -225,11 +221,11 @@ Partial Class frmWLJudgment
         Me.SPJudge2.Controls.Add(Me.cboSelect1_tab2)
         Me.SPJudge2.Controls.Add(Me.Label8)
         Me.SPJudge2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SPJudge2.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge2.Margin = New System.Windows.Forms.Padding(2)
+        Me.SPJudge2.Location = New System.Drawing.Point(4, 31)
+        Me.SPJudge2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.SPJudge2.Name = "SPJudge2"
-        Me.SPJudge2.Padding = New System.Windows.Forms.Padding(2)
-        Me.SPJudge2.Size = New System.Drawing.Size(742, 488)
+        Me.SPJudge2.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.SPJudge2.Size = New System.Drawing.Size(992, 603)
         Me.SPJudge2.TabIndex = 1
         Me.SPJudge2.Text = "SP Judge2"
         Me.SPJudge2.UseVisualStyleBackColor = True
@@ -238,20 +234,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmin_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmin_tab2.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmin_tab2.Location = New System.Drawing.Point(233, 178)
+        Me.txtPinBandmin_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmin_tab2.Name = "txtPinBandmin_tab2"
-        Me.txtPinBandmin_tab2.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmin_tab2.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmin_tab2.TabIndex = 349
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(262, 127)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label5.Location = New System.Drawing.Point(349, 156)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(36, 18)
+        Me.Label5.Size = New System.Drawing.Size(43, 22)
         Me.Label5.TabIndex = 348
         Me.Label5.Text = "max"
         '
@@ -259,10 +254,9 @@ Partial Class frmWLJudgment
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(190, 127)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Location = New System.Drawing.Point(253, 156)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(32, 18)
+        Me.Label6.Size = New System.Drawing.Size(38, 22)
         Me.Label6.TabIndex = 347
         Me.Label6.Text = "min"
         '
@@ -270,20 +264,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmax_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmax_tab2.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab2.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmax_tab2.Location = New System.Drawing.Point(331, 178)
+        Me.txtPinBandmax_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmax_tab2.Name = "txtPinBandmax_tab2"
-        Me.txtPinBandmax_tab2.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmax_tab2.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmax_tab2.TabIndex = 346
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(88, 145)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Location = New System.Drawing.Point(117, 178)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(84, 18)
+        Me.Label7.Size = New System.Drawing.Size(104, 22)
         Me.Label7.TabIndex = 345
         Me.Label7.Text = "PinBand[%]"
         '
@@ -293,10 +286,10 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab2.FormattingEnabled = True
         Me.cboSelect2_tab2.Items.AddRange(New Object() {"FFP"})
-        Me.cboSelect2_tab2.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab2.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect2_tab2.Location = New System.Drawing.Point(332, 107)
+        Me.cboSelect2_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect2_tab2.Name = "cboSelect2_tab2"
-        Me.cboSelect2_tab2.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect2_tab2.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect2_tab2.TabIndex = 344
         '
         'cboSelect1_tab2
@@ -305,20 +298,19 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab2.FormattingEnabled = True
         Me.cboSelect1_tab2.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
-        Me.cboSelect1_tab2.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab2.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect1_tab2.Location = New System.Drawing.Point(200, 107)
+        Me.cboSelect1_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect1_tab2.Name = "cboSelect1_tab2"
-        Me.cboSelect1_tab2.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect1_tab2.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect1_tab2.TabIndex = 343
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(88, 90)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Location = New System.Drawing.Point(117, 111)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(49, 18)
+        Me.Label8.Size = New System.Drawing.Size(60, 22)
         Me.Label8.TabIndex = 342
         Me.Label8.Text = "Select"
         '
@@ -333,11 +325,11 @@ Partial Class frmWLJudgment
         Me.SPJudge3.Controls.Add(Me.cboSelect1_tab3)
         Me.SPJudge3.Controls.Add(Me.Label12)
         Me.SPJudge3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SPJudge3.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge3.Margin = New System.Windows.Forms.Padding(2)
+        Me.SPJudge3.Location = New System.Drawing.Point(4, 31)
+        Me.SPJudge3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.SPJudge3.Name = "SPJudge3"
-        Me.SPJudge3.Padding = New System.Windows.Forms.Padding(2)
-        Me.SPJudge3.Size = New System.Drawing.Size(742, 488)
+        Me.SPJudge3.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.SPJudge3.Size = New System.Drawing.Size(992, 603)
         Me.SPJudge3.TabIndex = 2
         Me.SPJudge3.Text = "SP Judge3"
         Me.SPJudge3.UseVisualStyleBackColor = True
@@ -346,20 +338,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmin_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmin_tab3.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab3.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmin_tab3.Location = New System.Drawing.Point(233, 178)
+        Me.txtPinBandmin_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmin_tab3.Name = "txtPinBandmin_tab3"
-        Me.txtPinBandmin_tab3.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmin_tab3.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmin_tab3.TabIndex = 349
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(262, 127)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label9.Location = New System.Drawing.Point(349, 156)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(36, 18)
+        Me.Label9.Size = New System.Drawing.Size(43, 22)
         Me.Label9.TabIndex = 348
         Me.Label9.Text = "max"
         '
@@ -367,10 +358,9 @@ Partial Class frmWLJudgment
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(190, 127)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label10.Location = New System.Drawing.Point(253, 156)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(32, 18)
+        Me.Label10.Size = New System.Drawing.Size(38, 22)
         Me.Label10.TabIndex = 347
         Me.Label10.Text = "min"
         '
@@ -378,20 +368,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmax_tab3.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab3.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmax_tab3.Location = New System.Drawing.Point(331, 178)
+        Me.txtPinBandmax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmax_tab3.Name = "txtPinBandmax_tab3"
-        Me.txtPinBandmax_tab3.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmax_tab3.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmax_tab3.TabIndex = 346
         '
         'Label11
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(88, 145)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label11.Location = New System.Drawing.Point(117, 178)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(84, 18)
+        Me.Label11.Size = New System.Drawing.Size(104, 22)
         Me.Label11.TabIndex = 345
         Me.Label11.Text = "PinBand[%]"
         '
@@ -401,10 +390,10 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab3.FormattingEnabled = True
         Me.cboSelect2_tab3.Items.AddRange(New Object() {"FFP"})
-        Me.cboSelect2_tab3.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab3.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect2_tab3.Location = New System.Drawing.Point(332, 107)
+        Me.cboSelect2_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect2_tab3.Name = "cboSelect2_tab3"
-        Me.cboSelect2_tab3.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect2_tab3.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect2_tab3.TabIndex = 344
         '
         'cboSelect1_tab3
@@ -413,20 +402,19 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab3.FormattingEnabled = True
         Me.cboSelect1_tab3.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
-        Me.cboSelect1_tab3.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab3.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect1_tab3.Location = New System.Drawing.Point(200, 107)
+        Me.cboSelect1_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect1_tab3.Name = "cboSelect1_tab3"
-        Me.cboSelect1_tab3.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect1_tab3.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect1_tab3.TabIndex = 343
         '
         'Label12
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(88, 90)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label12.Location = New System.Drawing.Point(117, 111)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(49, 18)
+        Me.Label12.Size = New System.Drawing.Size(60, 22)
         Me.Label12.TabIndex = 342
         Me.Label12.Text = "Select"
         '
@@ -441,11 +429,11 @@ Partial Class frmWLJudgment
         Me.SPJudge4.Controls.Add(Me.cboSelect1_tab4)
         Me.SPJudge4.Controls.Add(Me.Label16)
         Me.SPJudge4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SPJudge4.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge4.Margin = New System.Windows.Forms.Padding(2)
+        Me.SPJudge4.Location = New System.Drawing.Point(4, 31)
+        Me.SPJudge4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.SPJudge4.Name = "SPJudge4"
-        Me.SPJudge4.Padding = New System.Windows.Forms.Padding(2)
-        Me.SPJudge4.Size = New System.Drawing.Size(742, 488)
+        Me.SPJudge4.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.SPJudge4.Size = New System.Drawing.Size(992, 603)
         Me.SPJudge4.TabIndex = 3
         Me.SPJudge4.Text = "SP Judge4"
         Me.SPJudge4.UseVisualStyleBackColor = True
@@ -454,20 +442,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmin_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmin_tab4.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab4.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmin_tab4.Location = New System.Drawing.Point(233, 178)
+        Me.txtPinBandmin_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmin_tab4.Name = "txtPinBandmin_tab4"
-        Me.txtPinBandmin_tab4.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmin_tab4.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmin_tab4.TabIndex = 349
         '
         'Label13
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(262, 127)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label13.Location = New System.Drawing.Point(349, 156)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(36, 18)
+        Me.Label13.Size = New System.Drawing.Size(43, 22)
         Me.Label13.TabIndex = 348
         Me.Label13.Text = "max"
         '
@@ -475,10 +462,9 @@ Partial Class frmWLJudgment
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(190, 127)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label14.Location = New System.Drawing.Point(253, 156)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(32, 18)
+        Me.Label14.Size = New System.Drawing.Size(38, 22)
         Me.Label14.TabIndex = 347
         Me.Label14.Text = "min"
         '
@@ -486,20 +472,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmax_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmax_tab4.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab4.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmax_tab4.Location = New System.Drawing.Point(331, 178)
+        Me.txtPinBandmax_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmax_tab4.Name = "txtPinBandmax_tab4"
-        Me.txtPinBandmax_tab4.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmax_tab4.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmax_tab4.TabIndex = 346
         '
         'Label15
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(88, 145)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label15.Location = New System.Drawing.Point(117, 178)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(84, 18)
+        Me.Label15.Size = New System.Drawing.Size(104, 22)
         Me.Label15.TabIndex = 345
         Me.Label15.Text = "PinBand[%]"
         '
@@ -509,10 +494,10 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab4.FormattingEnabled = True
         Me.cboSelect2_tab4.Items.AddRange(New Object() {"FFP"})
-        Me.cboSelect2_tab4.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab4.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect2_tab4.Location = New System.Drawing.Point(332, 107)
+        Me.cboSelect2_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect2_tab4.Name = "cboSelect2_tab4"
-        Me.cboSelect2_tab4.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect2_tab4.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect2_tab4.TabIndex = 344
         '
         'cboSelect1_tab4
@@ -521,20 +506,19 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab4.FormattingEnabled = True
         Me.cboSelect1_tab4.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
-        Me.cboSelect1_tab4.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab4.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect1_tab4.Location = New System.Drawing.Point(200, 107)
+        Me.cboSelect1_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect1_tab4.Name = "cboSelect1_tab4"
-        Me.cboSelect1_tab4.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect1_tab4.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect1_tab4.TabIndex = 343
         '
         'Label16
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(88, 90)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label16.Location = New System.Drawing.Point(117, 111)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(49, 18)
+        Me.Label16.Size = New System.Drawing.Size(60, 22)
         Me.Label16.TabIndex = 342
         Me.Label16.Text = "Select"
         '
@@ -549,11 +533,11 @@ Partial Class frmWLJudgment
         Me.SPJudge5.Controls.Add(Me.cboSelect1_tab5)
         Me.SPJudge5.Controls.Add(Me.Label20)
         Me.SPJudge5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SPJudge5.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge5.Margin = New System.Windows.Forms.Padding(2)
+        Me.SPJudge5.Location = New System.Drawing.Point(4, 31)
+        Me.SPJudge5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.SPJudge5.Name = "SPJudge5"
-        Me.SPJudge5.Padding = New System.Windows.Forms.Padding(2)
-        Me.SPJudge5.Size = New System.Drawing.Size(742, 488)
+        Me.SPJudge5.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.SPJudge5.Size = New System.Drawing.Size(992, 603)
         Me.SPJudge5.TabIndex = 4
         Me.SPJudge5.Text = "SP Judge5"
         Me.SPJudge5.UseVisualStyleBackColor = True
@@ -562,20 +546,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmin_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmin_tab5.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab5.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmin_tab5.Location = New System.Drawing.Point(233, 178)
+        Me.txtPinBandmin_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmin_tab5.Name = "txtPinBandmin_tab5"
-        Me.txtPinBandmin_tab5.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmin_tab5.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmin_tab5.TabIndex = 349
         '
         'Label17
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(262, 127)
-        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label17.Location = New System.Drawing.Point(349, 156)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(36, 18)
+        Me.Label17.Size = New System.Drawing.Size(43, 22)
         Me.Label17.TabIndex = 348
         Me.Label17.Text = "max"
         '
@@ -583,10 +566,9 @@ Partial Class frmWLJudgment
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(190, 127)
-        Me.Label18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label18.Location = New System.Drawing.Point(253, 156)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(32, 18)
+        Me.Label18.Size = New System.Drawing.Size(38, 22)
         Me.Label18.TabIndex = 347
         Me.Label18.Text = "min"
         '
@@ -594,20 +576,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmax_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmax_tab5.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab5.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmax_tab5.Location = New System.Drawing.Point(331, 178)
+        Me.txtPinBandmax_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmax_tab5.Name = "txtPinBandmax_tab5"
-        Me.txtPinBandmax_tab5.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmax_tab5.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmax_tab5.TabIndex = 346
         '
         'Label19
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(88, 145)
-        Me.Label19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label19.Location = New System.Drawing.Point(117, 178)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(84, 18)
+        Me.Label19.Size = New System.Drawing.Size(104, 22)
         Me.Label19.TabIndex = 345
         Me.Label19.Text = "PinBand[%]"
         '
@@ -617,10 +598,10 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab5.FormattingEnabled = True
         Me.cboSelect2_tab5.Items.AddRange(New Object() {"FFP"})
-        Me.cboSelect2_tab5.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab5.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect2_tab5.Location = New System.Drawing.Point(332, 107)
+        Me.cboSelect2_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect2_tab5.Name = "cboSelect2_tab5"
-        Me.cboSelect2_tab5.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect2_tab5.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect2_tab5.TabIndex = 344
         '
         'cboSelect1_tab5
@@ -629,20 +610,19 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab5.FormattingEnabled = True
         Me.cboSelect1_tab5.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
-        Me.cboSelect1_tab5.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab5.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect1_tab5.Location = New System.Drawing.Point(200, 107)
+        Me.cboSelect1_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect1_tab5.Name = "cboSelect1_tab5"
-        Me.cboSelect1_tab5.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect1_tab5.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect1_tab5.TabIndex = 343
         '
         'Label20
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(88, 90)
-        Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label20.Location = New System.Drawing.Point(117, 111)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(49, 18)
+        Me.Label20.Size = New System.Drawing.Size(60, 22)
         Me.Label20.TabIndex = 342
         Me.Label20.Text = "Select"
         '
@@ -657,11 +637,11 @@ Partial Class frmWLJudgment
         Me.SPJudge6.Controls.Add(Me.cboSelect1_tab6)
         Me.SPJudge6.Controls.Add(Me.Label4)
         Me.SPJudge6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SPJudge6.Location = New System.Drawing.Point(4, 26)
-        Me.SPJudge6.Margin = New System.Windows.Forms.Padding(2)
+        Me.SPJudge6.Location = New System.Drawing.Point(4, 31)
+        Me.SPJudge6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.SPJudge6.Name = "SPJudge6"
-        Me.SPJudge6.Padding = New System.Windows.Forms.Padding(2)
-        Me.SPJudge6.Size = New System.Drawing.Size(742, 488)
+        Me.SPJudge6.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.SPJudge6.Size = New System.Drawing.Size(992, 603)
         Me.SPJudge6.TabIndex = 5
         Me.SPJudge6.Text = "SP Judge6"
         Me.SPJudge6.UseVisualStyleBackColor = True
@@ -670,20 +650,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmin_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmin_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmin_tab6.Location = New System.Drawing.Point(175, 145)
-        Me.txtPinBandmin_tab6.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmin_tab6.Location = New System.Drawing.Point(233, 178)
+        Me.txtPinBandmin_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmin_tab6.Name = "txtPinBandmin_tab6"
-        Me.txtPinBandmin_tab6.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmin_tab6.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmin_tab6.TabIndex = 349
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(262, 127)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(349, 156)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(36, 18)
+        Me.Label1.Size = New System.Drawing.Size(43, 22)
         Me.Label1.TabIndex = 348
         Me.Label1.Text = "max"
         '
@@ -691,10 +670,9 @@ Partial Class frmWLJudgment
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(190, 127)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(253, 156)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(32, 18)
+        Me.Label2.Size = New System.Drawing.Size(38, 22)
         Me.Label2.TabIndex = 347
         Me.Label2.Text = "min"
         '
@@ -702,20 +680,19 @@ Partial Class frmWLJudgment
         '
         Me.txtPinBandmax_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPinBandmax_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPinBandmax_tab6.Location = New System.Drawing.Point(248, 145)
-        Me.txtPinBandmax_tab6.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPinBandmax_tab6.Location = New System.Drawing.Point(331, 178)
+        Me.txtPinBandmax_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPinBandmax_tab6.Name = "txtPinBandmax_tab6"
-        Me.txtPinBandmax_tab6.Size = New System.Drawing.Size(60, 24)
+        Me.txtPinBandmax_tab6.Size = New System.Drawing.Size(79, 28)
         Me.txtPinBandmax_tab6.TabIndex = 346
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(88, 145)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Location = New System.Drawing.Point(117, 178)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(84, 18)
+        Me.Label3.Size = New System.Drawing.Size(104, 22)
         Me.Label3.TabIndex = 345
         Me.Label3.Text = "PinBand[%]"
         '
@@ -725,10 +702,10 @@ Partial Class frmWLJudgment
         Me.cboSelect2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect2_tab6.FormattingEnabled = True
         Me.cboSelect2_tab6.Items.AddRange(New Object() {"FFP"})
-        Me.cboSelect2_tab6.Location = New System.Drawing.Point(249, 87)
-        Me.cboSelect2_tab6.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect2_tab6.Location = New System.Drawing.Point(332, 107)
+        Me.cboSelect2_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect2_tab6.Name = "cboSelect2_tab6"
-        Me.cboSelect2_tab6.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect2_tab6.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect2_tab6.TabIndex = 344
         '
         'cboSelect1_tab6
@@ -737,30 +714,29 @@ Partial Class frmWLJudgment
         Me.cboSelect1_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSelect1_tab6.FormattingEnabled = True
         Me.cboSelect1_tab6.Items.AddRange(New Object() {"SP1", "SP2", "SP3", "SP4", "SP5", "SP6"})
-        Me.cboSelect1_tab6.Location = New System.Drawing.Point(150, 87)
-        Me.cboSelect1_tab6.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboSelect1_tab6.Location = New System.Drawing.Point(200, 107)
+        Me.cboSelect1_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboSelect1_tab6.Name = "cboSelect1_tab6"
-        Me.cboSelect1_tab6.Size = New System.Drawing.Size(83, 25)
+        Me.cboSelect1_tab6.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect1_tab6.TabIndex = 343
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(88, 90)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Location = New System.Drawing.Point(117, 111)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(49, 18)
+        Me.Label4.Size = New System.Drawing.Size(60, 22)
         Me.Label4.TabIndex = 342
         Me.Label4.Text = "Select"
         '
         'btnCancleILm
         '
         Me.btnCancleILm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancleILm.Location = New System.Drawing.Point(623, 524)
-        Me.btnCancleILm.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnCancleILm.Location = New System.Drawing.Point(831, 645)
+        Me.btnCancleILm.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnCancleILm.Name = "btnCancleILm"
-        Me.btnCancleILm.Size = New System.Drawing.Size(77, 30)
+        Me.btnCancleILm.Size = New System.Drawing.Size(103, 37)
         Me.btnCancleILm.TabIndex = 470
         Me.btnCancleILm.Text = "Cancle"
         Me.btnCancleILm.UseVisualStyleBackColor = True
@@ -768,24 +744,24 @@ Partial Class frmWLJudgment
         'btnSaveWLj
         '
         Me.btnSaveWLj.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSaveWLj.Location = New System.Drawing.Point(531, 524)
-        Me.btnSaveWLj.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnSaveWLj.Location = New System.Drawing.Point(708, 645)
+        Me.btnSaveWLj.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnSaveWLj.Name = "btnSaveWLj"
-        Me.btnSaveWLj.Size = New System.Drawing.Size(77, 30)
+        Me.btnSaveWLj.Size = New System.Drawing.Size(103, 37)
         Me.btnSaveWLj.TabIndex = 469
         Me.btnSaveWLj.Text = "Save"
         Me.btnSaveWLj.UseVisualStyleBackColor = True
         '
         'frmWLJudgment
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(750, 569)
+        Me.ClientSize = New System.Drawing.Size(1000, 700)
         Me.Controls.Add(Me.btnCancleILm)
         Me.Controls.Add(Me.tabsSPJudge)
         Me.Controls.Add(Me.btnSaveWLj)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "frmWLJudgment"
         Me.Text = "frmILJudgment"
         Me.tabsSPJudge.ResumeLayout(False)

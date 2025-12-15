@@ -277,7 +277,7 @@ Partial Class frmWLgraph
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel4)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmWLgraph"
         Me.Text = "WLgraph"
         Me.Panel1.ResumeLayout(False)

@@ -14,7 +14,7 @@
             W_Data.Wave1.IfPulse = CDbl(txtIf_tab1.Text)
             W_Data.Wave1.Frequency = CDbl(txtFrequen_tab1.Text)
             W_Data.Wave1.DutyCycle = CDbl(txtDuty_tab1.Text)
-            W_Data.Wave1.PulseWidth = CDbl(txtPulse_tab1.Text)
+            W_Data.Wave1.PulseWidth = GetVal(txtPulse_tab1.Text)
             W_Data.Wave1.DelayTime = CDbl(txtDelay_tab1.Text)
             W_Data.Wave1.Average = CDbl(txtAvg_tab1.Text)
             W_Data.Wave1.Tc = CDbl(txtTc_tab1.Text)
@@ -45,7 +45,7 @@
             W_Data.Wave2.IfPulse = CDbl(txtIf_tab2.Text)
             W_Data.Wave2.Frequency = CDbl(txtFrequen_tab2.Text)
             W_Data.Wave2.DutyCycle = CDbl(txtDuty_tab2.Text)
-            W_Data.Wave2.PulseWidth = CDbl(txtPulse_tab2.Text)
+            W_Data.Wave2.PulseWidth = GetVal(txtPulse_tab2.Text)
             W_Data.Wave2.DelayTime = CDbl(txtDelay_tab2.Text)
             W_Data.Wave2.Average = CDbl(txtAvg_tab2.Text)
             W_Data.Wave2.Tc = CDbl(txtTc_tab2.Text)
@@ -76,7 +76,7 @@
             W_Data.Wave3.IfPulse = CDbl(txtIf_tab3.Text)
             W_Data.Wave3.Frequency = CDbl(txtFrequen_tab3.Text)
             W_Data.Wave3.DutyCycle = CDbl(txtDuty_tab3.Text)
-            W_Data.Wave3.PulseWidth = CDbl(txtPulse_tab3.Text)
+            W_Data.Wave3.PulseWidth = GetVal(txtPulse_tab3.Text)
             W_Data.Wave3.DelayTime = CDbl(txtDelay_tab3.Text)
             W_Data.Wave3.Average = CDbl(txtAvg_tab3.Text)
             W_Data.Wave3.Tc = CDbl(txtTc_tab3.Text)
@@ -107,7 +107,7 @@
             W_Data.Wave4.IfPulse = CDbl(txtIf_tab4.Text)
             W_Data.Wave4.Frequency = CDbl(txtFrequen_tab4.Text)
             W_Data.Wave4.DutyCycle = CDbl(txtDuty_tab4.Text)
-            W_Data.Wave4.PulseWidth = CDbl(txtPulse_tab4.Text)
+            W_Data.Wave4.PulseWidth = GetVal(txtPulse_tab4.Text)
             W_Data.Wave4.DelayTime = CDbl(txtDelay_tab4.Text)
             W_Data.Wave4.Average = CDbl(txtAvg_tab4.Text)
             W_Data.Wave4.Tc = CDbl(txtTc_tab4.Text)
@@ -138,7 +138,7 @@
             W_Data.Wave5.IfPulse = CDbl(txtIf_tab5.Text)
             W_Data.Wave5.Frequency = CDbl(txtFrequen_tab5.Text)
             W_Data.Wave5.DutyCycle = CDbl(txtDuty_tab5.Text)
-            W_Data.Wave5.PulseWidth = CDbl(txtPulse_tab5.Text)
+            W_Data.Wave5.PulseWidth = GetVal(txtPulse_tab5.Text)
             W_Data.Wave5.DelayTime = CDbl(txtDelay_tab5.Text)
             W_Data.Wave5.Average = CDbl(txtAvg_tab5.Text)
             W_Data.Wave5.Tc = CDbl(txtTc_tab5.Text)
@@ -169,7 +169,7 @@
             W_Data.Wave6.IfPulse = CDbl(txtIf_tab6.Text)
             W_Data.Wave6.Frequency = CDbl(txtFrequen_tab6.Text)
             W_Data.Wave6.DutyCycle = CDbl(txtDuty_tab6.Text)
-            W_Data.Wave6.PulseWidth = CDbl(txtPulse_tab6.Text)
+            W_Data.Wave6.PulseWidth = GetVal(txtPulse_tab6.Text)
             W_Data.Wave6.DelayTime = CDbl(txtDelay_tab6.Text)
             W_Data.Wave6.Average = CDbl(txtAvg_tab6.Text)
             W_Data.Wave6.Tc = CDbl(txtTc_tab6.Text)
@@ -375,4 +375,21 @@
         cboMeasurePoint2_tab6.Text = W_Data.Wave6.Point2
 
     End Sub
+
+    Private Function GetVal(text As String) As Double
+        If text Is Nothing Then Return 0
+        text = text.Trim()
+
+        If text = "" Or text = "-" Then
+            Return 0
+        End If
+
+        If IsNumeric(text) Then
+            Return CDbl(text)
+        Else
+            Return 0
+        End If
+    End Function
+
+
 End Class

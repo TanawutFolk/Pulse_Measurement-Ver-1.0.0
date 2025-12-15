@@ -27,10 +27,11 @@ Public Class frmPreferance
         SaveAllData()
     End Sub
 
-    '-------------------------------- btnSelectparasFolder --------------------------------
+    '-------------------------------- btnSelectParameterFolder --------------------------------
     Private Sub btnSelectparasFolder_Click(sender As Object, e As EventArgs) Handles btnSelectparasFolder.Click
         Dim dlg As New FolderBrowserDialog()
-        dlg.Description = "เลือกโฟลเดอร์สำหรับเก็บ Parameters"
+        dlg.Description = "เลือกโฟลเดอร์สำหรับเก็บ Parameters
+ Select a Parameter Folder "
 
         If txtParamsFolder.Text <> "" Then dlg.SelectedPath = txtParamsFolder.Text
 
@@ -38,10 +39,11 @@ Public Class frmPreferance
             txtParamsFolder.Text = dlg.SelectedPath
         End If
     End Sub
-    '-------------------------------- btnSelectdataFolder --------------------------------
+    '-------------------------------- btnSelectDataFolder --------------------------------
     Private Sub btnSelectdataFolder_Click(sender As Object, e As EventArgs) Handles btnSelectdataFolder.Click
         Dim dlg As New FolderBrowserDialog()
-        dlg.Description = "เลือกโฟลเดอร์สำหรับเก็บ Data"
+        dlg.Description = "เลือกโฟลเดอร์สำหรับเก็บ Data
+ Select a Data Folder"
 
         If txtDataFolder.Text <> "" Then dlg.SelectedPath = txtDataFolder.Text
 
@@ -56,68 +58,68 @@ Public Class frmPreferance
             Dim data As New PreferanceConfig()
 
             ' Tab 1: GPIB 
-            data.GPIB.LDT_5910C_TempControlLD = CDbl(txtLDT_5910CTempControlLD.Text)
-            data.GPIB.AQ6370D_OpticSpectAnalyz = CDbl(txtAQ6370D_OpticspAnalyz.Text)
-            data.GPIB.OVA_100_OpticAttenua = CDbl(txtOVA_100_OpticAttenua.Text)
-            data.GPIB.AQ2211_OpticSwitch = CDbl(txtAQ2211_Opticswich.Text)
-            data.GPIB.DSO_X_4154GOsciloscope = CDbl(txtDSO_X_4154GOsciloscope.Text)
-            data.GPIB.SYSTEMAT_845TempControlBase = CDbl(txtSYSTEMAT_845TempControlBase.Text)
-            data.GPIB.Key34416A_Digitlmultimeter = CDbl(txtKey34416A_Digitlmultimeter.Text)
+            data.GPIB_address.LDT_5910C_TempControlLD = CDbl(txtLDT_5910CTempControlLD.Text)
+            data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz = CDbl(txtAQ6370D_OpticspAnalyz.Text)
+            data.GPIB_address.SANTEC_OVA_100_OpticAttenua = CDbl(txtOVA_100_OpticAttenua.Text)
+            data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch = CDbl(txtAQ2211_Opticswich.Text)
+            data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope = CDbl(txtDSO_X_4154GOsciloscope.Text)
+            data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase = CDbl(txtSYSTEMAT_845TempControlBase.Text)
+            data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter = CDbl(txtKey34416A_Digitlmultimeter.Text)
 
             ' Tab 2: Power Measurement
-            data.Power.Laser_comport = CDbl(txtLasercomport.Text)
-            data.Power.Delaytime = CDbl(txtDelaytime.Text)
-            data.Power.Average = CDbl(txtAverage.Text)
+            data.Power_Measurement.LaserStar_comport = CDbl(txtLasercomport.Text)
+            data.Power_Measurement.Delaytime = CDbl(txtDelaytime.Text)
+            data.Power_Measurement.Average = CDbl(txtAverage.Text)
 
             ' Tab 3: Various Folder (String อยู่แล้ว ไม่ต้องแปลง)
-            data.Folders.ParamsFolder = txtParamsFolder.Text
-            data.Folders.DataFolder = txtDataFolder.Text
+            data.VariousKinds_Folders.ParamsFolder = txtParamsFolder.Text
+            data.VariousKinds_Folders.DataFolder = txtDataFolder.Text
 
             ' Tab 4: R cable
-            data.Cable.Rprobe = CDbl(txtRprobe.Text)
-            data.Cable.Rtec = CDbl(txtRtec.Text)
+            data.Rcable.Rprobe = CDbl(txtRprobe.Text)
+            data.Rcable.Rtec = CDbl(txtRtec.Text)
 
             ' Tab 5: TEC Condition
             ' --- Zone 1 ---
-            data.TEC.Case_WaitFactor = CDbl(txtCase_WaitFactor.Text)
-            data.TEC.Case_WaitBase = CDbl(txtCase_WaitBase.Text)
-            data.TEC.Case_Error = CDbl(txtCase_Error.Text)
+            data.TEC_Condition.Case_Waitmultiply = CDbl(txtCase_WaitFactor.Text)
+            data.TEC_Condition.Case_WaitPlus = CDbl(txtCase_WaitBase.Text)
+            data.TEC_Condition.Case_Error = CDbl(txtCase_Error.Text)
             ' --- Zone 2 ---
-            data.TEC.LD_WaitFactor = CDbl(txtLD_WaitFactor.Text)
-            data.TEC.LD_WaitBase = CDbl(txtLD_WaitBase.Text)
-            data.TEC.LD_Error = CDbl(txtLD_Error.Text)
+            data.TEC_Condition.LD_Waitmultiply = CDbl(txtLD_WaitFactor.Text)
+            data.TEC_Condition.LD_WaitPlus = CDbl(txtLD_WaitBase.Text)
+            data.TEC_Condition.LD_Error = CDbl(txtLD_Error.Text)
             ' --- Zone 3 ---
-            data.TEC.Det_WaitFactor = CDbl(txtDet_WaitFactor.Text)
-            data.TEC.Det_WaitBase = CDbl(txtDet_WaitBase.Text)
-            data.TEC.Det_Error = CDbl(txtDet_Error.Text)
-            data.TEC.Det_SetTemp = CDbl(txtDet_SetTemp.Text)
+            data.TEC_Condition.Det_WaitFactor = CDbl(txtDet_WaitFactor.Text)
+            data.TEC_Condition.Det_WaitBase = CDbl(txtDet_WaitBase.Text)
+            data.TEC_Condition.Det_Error = CDbl(txtDet_Error.Text)
+            data.TEC_Condition.Det_SetTemp = CDbl(txtDet_SetTemp.Text)
             ' --- Timeout ---
-            data.TEC.Timeout = CDbl(txtTecTimeout.Text)
+            data.TEC_Condition.Timeout = CDbl(txtTecTimeout.Text)
 
             ' --- Gain (Radio Button) ---
-            If rbGain1.Checked Then data.TEC.GainValue = 1
-            If rbGain3.Checked Then data.TEC.GainValue = 3
-            If rbGain10.Checked Then data.TEC.GainValue = 10
-            If rbGain30.Checked Then data.TEC.GainValue = 30
-            If rbGain100.Checked Then data.TEC.GainValue = 100
-            If rbGain300.Checked Then data.TEC.GainValue = 300
+            If rbGain1.Checked Then data.TEC_Condition.GainValue = 1
+            If rbGain3.Checked Then data.TEC_Condition.GainValue = 3
+            If rbGain10.Checked Then data.TEC_Condition.GainValue = 10
+            If rbGain30.Checked Then data.TEC_Condition.GainValue = 30
+            If rbGain100.Checked Then data.TEC_Condition.GainValue = 100
+            If rbGain300.Checked Then data.TEC_Condition.GainValue = 300
 
             ' Tab 6: CCS HPP
-            data.CCS.MaxAvgCurrent = CDbl(txtMaxAvgCurrent.Text)
-            data.CCS.MaximumCWCurrent = CDbl(txtMaximumCWCurrent.Text)
-            data.CCS.MaxpeakCurrent = CDbl(txtMaxpeakCurrent.Text)
+            data.CCS_HPP.MaxAvgCurrent = CDbl(txtMaxAvgCurrent.Text)
+            data.CCS_HPP.MaximumCWCurrent = CDbl(txtMaximumCWCurrent.Text)
+            data.CCS_HPP.MaxpeakCurrent = CDbl(txtMaxpeakCurrent.Text)
 
-            data.CCS.Lasermode = cboLasermode.Text
-            data.CCS.duration = cboduration.Text
+            data.CCS_HPP.Lasermode = cboLasermode.Text
+            data.CCS_HPP.duration = cboduration.Text
 
-            data.CCS.BFMgain = CDbl(txtBFMgain.Text)
-            data.CCS.BFMconvers = CDbl(txtBFMconvers.Text)
+            data.CCS_HPP.BFMgain = CDbl(txtBFMgain.Text)
+            data.CCS_HPP.BFMconvers = CDbl(txtBFMconvers.Text)
 
-            data.CCS.Comport = (txtComport.Text)
-            data.CCS.Baudrate = CInt(txtBaudrate.Text)
+            data.CCS_HPP.Comport = (txtComport.Text)
+            data.CCS_HPP.Baudrate = CInt(txtBaudrate.Text)
 
             ' Tab 7: General Set
-            data.General.DelayTimeOffset = CDbl(txtDelaygeneral.Text)
+            data.General_Setting.DelayTimeOffset = CDbl(txtDelaygeneral.Text)
 
             ' Save to JSON file
             Dim json As String = JsonConvert.SerializeObject(data, Formatting.Indented)
@@ -154,45 +156,45 @@ Public Class frmPreferance
                 ' 3. เอาค่าไปหยอดใส่ TextBox ทีละช่อง ย้อนศรกับตอน Save
 
                 ' --- Tab 1: GPIB ---
-                txtLDT_5910CTempControlLD.Text = data.GPIB.LDT_5910C_TempControlLD.ToString()
-                txtAQ6370D_OpticspAnalyz.Text = data.GPIB.AQ6370D_OpticSpectAnalyz.ToString()
-                txtOVA_100_OpticAttenua.Text = data.GPIB.OVA_100_OpticAttenua.ToString()
-                txtAQ2211_Opticswich.Text = data.GPIB.AQ2211_OpticSwitch.ToString()
-                txtDSO_X_4154GOsciloscope.Text = data.GPIB.DSO_X_4154GOsciloscope.ToString()
-                txtSYSTEMAT_845TempControlBase.Text = data.GPIB.SYSTEMAT_845TempControlBase.ToString()
-                txtKey34416A_Digitlmultimeter.Text = data.GPIB.Key34416A_Digitlmultimeter.ToString()
+                txtLDT_5910CTempControlLD.Text = data.GPIB_address.LDT_5910C_TempControlLD.ToString()
+                txtAQ6370D_OpticspAnalyz.Text = data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz.ToString()
+                txtOVA_100_OpticAttenua.Text = data.GPIB_address.SANTEC_OVA_100_OpticAttenua.ToString()
+                txtAQ2211_Opticswich.Text = data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch.ToString()
+                txtDSO_X_4154GOsciloscope.Text = data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope.ToString()
+                txtSYSTEMAT_845TempControlBase.Text = data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase.ToString()
+                txtKey34416A_Digitlmultimeter.Text = data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter.ToString()
 
                 ' --- Tab 2: Power ---
-                txtLasercomport.Text = data.Power.Laser_comport.ToString()
-                txtDelaytime.Text = data.Power.Delaytime.ToString()
-                txtAverage.Text = data.Power.Average.ToString()
+                txtLasercomport.Text = data.Power_Measurement.LaserStar_comport.ToString()
+                txtDelaytime.Text = data.Power_Measurement.Delaytime.ToString()
+                txtAverage.Text = data.Power_Measurement.Average.ToString()
 
                 ' --- Tab 3: Folders ---
-                txtParamsFolder.Text = data.Folders.ParamsFolder
-                txtDataFolder.Text = data.Folders.DataFolder
+                txtParamsFolder.Text = data.VariousKinds_Folders.ParamsFolder
+                txtDataFolder.Text = data.VariousKinds_Folders.DataFolder
 
                 ' --- Tab 4: Cable ---
-                txtRprobe.Text = data.Cable.Rprobe.ToString()
-                txtRtec.Text = data.Cable.Rtec.ToString()
+                txtRprobe.Text = data.Rcable.Rprobe.ToString()
+                txtRtec.Text = data.Rcable.Rtec.ToString()
 
                 ' --- Tab 5: TEC ---
-                txtCase_WaitFactor.Text = data.TEC.Case_WaitFactor.ToString()
-                txtCase_WaitBase.Text = data.TEC.Case_WaitBase.ToString()
-                txtCase_Error.Text = data.TEC.Case_Error.ToString()
+                txtCase_WaitFactor.Text = data.TEC_Condition.Case_Waitmultiply.ToString()
+                txtCase_WaitBase.Text = data.TEC_Condition.Case_WaitPlus.ToString()
+                txtCase_Error.Text = data.TEC_Condition.Case_Error.ToString()
 
-                txtLD_WaitFactor.Text = data.TEC.LD_WaitFactor.ToString()
-                txtLD_WaitBase.Text = data.TEC.LD_WaitBase.ToString()
-                txtLD_Error.Text = data.TEC.LD_Error.ToString()
+                txtLD_WaitFactor.Text = data.TEC_Condition.LD_Waitmultiply.ToString()
+                txtLD_WaitBase.Text = data.TEC_Condition.LD_WaitPlus.ToString()
+                txtLD_Error.Text = data.TEC_Condition.LD_Error.ToString()
 
-                txtDet_WaitFactor.Text = data.TEC.Det_WaitFactor.ToString()
-                txtDet_WaitBase.Text = data.TEC.Det_WaitBase.ToString()
-                txtDet_Error.Text = data.TEC.Det_Error.ToString()
-                txtDet_SetTemp.Text = data.TEC.Det_SetTemp.ToString()
+                txtDet_WaitFactor.Text = data.TEC_Condition.Det_WaitFactor.ToString()
+                txtDet_WaitBase.Text = data.TEC_Condition.Det_WaitBase.ToString()
+                txtDet_Error.Text = data.TEC_Condition.Det_Error.ToString()
+                txtDet_SetTemp.Text = data.TEC_Condition.Det_SetTemp.ToString()
 
-                txtTecTimeout.Text = data.TEC.Timeout.ToString()
+                txtTecTimeout.Text = data.TEC_Condition.Timeout.ToString()
 
                 ' Radio Button (Gain)
-                Select Case data.TEC.GainValue
+                Select Case data.TEC_Condition.GainValue
                     Case 1 : rbGain1.Checked = True
                     Case 3 : rbGain3.Checked = True
                     Case 10 : rbGain10.Checked = True
@@ -202,23 +204,23 @@ Public Class frmPreferance
                 End Select
 
                 ' --- Tab 6: CCS ---
-                txtMaxAvgCurrent.Text = data.CCS.MaxAvgCurrent.ToString()
-                txtMaximumCWCurrent.Text = data.CCS.MaximumCWCurrent.ToString()
-                txtMaxpeakCurrent.Text = data.CCS.MaxpeakCurrent.ToString()
+                txtMaxAvgCurrent.Text = data.CCS_HPP.MaxAvgCurrent.ToString()
+                txtMaximumCWCurrent.Text = data.CCS_HPP.MaximumCWCurrent.ToString()
+                txtMaxpeakCurrent.Text = data.CCS_HPP.MaxpeakCurrent.ToString()
 
                 ' ComboBox คืนค่าString 
-                cboLasermode.Text = data.CCS.Lasermode
-                cboduration.Text = data.CCS.duration
+                cboLasermode.Text = data.CCS_HPP.Lasermode
+                cboduration.Text = data.CCS_HPP.duration
 
-                txtBFMgain.Text = data.CCS.BFMgain.ToString()
-                txtBFMconvers.Text = data.CCS.BFMconvers.ToString()
+                txtBFMgain.Text = data.CCS_HPP.BFMgain.ToString()
+                txtBFMconvers.Text = data.CCS_HPP.BFMconvers.ToString()
                 'ComboBox คืนค่าString 
-                txtComport.Text = data.CCS.Comport
+                txtComport.Text = data.CCS_HPP.Comport
 
-                txtBaudrate.Text = data.CCS.Baudrate.ToString()
+                txtBaudrate.Text = data.CCS_HPP.Baudrate.ToString()
 
                 ' --- Tab 7: General ---
-                txtDelaygeneral.Text = data.General.DelayTimeOffset.ToString()
+                txtDelaygeneral.Text = data.General_Setting.DelayTimeOffset.ToString()
 
             Catch ex As Exception
                 MessageBox.Show("โหลดข้อมูลเก่าไม่สำเร็จ: " & ex.Message)
@@ -242,17 +244,17 @@ End Class
 Public Class GPIBSettings
 
     Public Property LDT_5910C_TempControlLD As Double
-    Public Property AQ6370D_OpticSpectAnalyz As Double
-    Public Property OVA_100_OpticAttenua As Double
-    Public Property AQ2211_OpticSwitch As Double
-    Public Property DSO_X_4154GOsciloscope As Double
-    Public Property SYSTEMAT_845TempControlBase As Double
-    Public Property Key34416A_Digitlmultimeter As Double
+    Public Property YOKOGAWA_AQ6370D_OpticSpectAnalyz As Double
+    Public Property SANTEC_OVA_100_OpticAttenua As Double
+    Public Property YOKOGAWA_AQ2211_OpticSwitch As Double
+    Public Property KEYSIGHT_DSO_X_4154GOsciloscope As Double
+    Public Property FUKKO_SYSTEMAT_845TempControlBase As Double
+    Public Property KEYSIGHT_34416A_Digitlmultimeter As Double
 
 End Class
 Public Class PowerMeasurement
 
-    Public Property Laser_comport As Double
+    Public Property LaserStar_comport As Double
     Public Property Delaytime As Double
     Public Property Average As Double
 End Class
@@ -270,13 +272,13 @@ Public Class Rcable
 End Class
 Public Class TEC_Condition
     ' --- Zone 1: Case ---
-    Public Property Case_WaitFactor As Double
-    Public Property Case_WaitBase As Double
+    Public Property Case_Waitmultiply As Double
+    Public Property Case_WaitPlus As Double
     Public Property Case_Error As Double
 
     ' --- Zone 2: LD ---
-    Public Property LD_WaitFactor As Double
-    Public Property LD_WaitBase As Double
+    Public Property LD_Waitmultiply As Double
+    Public Property LD_WaitPlus As Double
     Public Property LD_Error As Double
 
     ' --- Zone 3: Detector ---
@@ -313,13 +315,13 @@ Public Class GeneralSet
 End Class
 '-------------------------------- PreferanceConfig --------------------------------
 Public Class PreferanceConfig
-    Public Property GPIB As New GPIBSettings()
-    Public Property Power As New PowerMeasurement()
-    Public Property Folders As New VariousFolder()
-    Public Property Cable As New Rcable()
-    Public Property TEC As New TEC_Condition()
-    Public Property CCS As New CCS_HPP()
-    Public Property General As New GeneralSet()
+    Public Property GPIB_address As New GPIBSettings()
+    Public Property Power_Measurement As New PowerMeasurement()
+    Public Property VariousKinds_Folders As New VariousFolder()
+    Public Property Rcable As New Rcable()
+    Public Property TEC_Condition As New TEC_Condition()
+    Public Property CCS_HPP As New CCS_HPP()
+    Public Property General_Setting As New GeneralSet()
 End Class
 
 
