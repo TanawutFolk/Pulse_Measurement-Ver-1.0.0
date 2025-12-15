@@ -1002,7 +1002,7 @@ Partial Class frmProduction
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(10, 10)
         Me.AutoScrollMinSize = New System.Drawing.Size(10, 30)
-        Me.ClientSize = New System.Drawing.Size(1069, 1053)
+        Me.ClientSize = New System.Drawing.Size(1069, 653)
         Me.Controls.Add(Me.btnMeasureIL_condition)
         Me.Controls.Add(Me.cbMeasureIL2)
         Me.Controls.Add(Me.cbMeasureIL6)
