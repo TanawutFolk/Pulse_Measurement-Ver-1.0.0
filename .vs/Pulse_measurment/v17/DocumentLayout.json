@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tanawut.pat\\Desktop\\VSRepo \u0E41\u0E01\u0E49window \u0E02\u0E22\u0E31\u0E1A\u0E44\u0E14\u0E49\\",
+  "WorkspaceRootPath": "C:\\Users\\tanawut.pat\\Desktop\\PULSE-V1\\Pulse_measurment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\vsrepo \u0E41\u0E01\u0E49window \u0E02\u0E22\u0E31\u0E1A\u0E44\u0E14\u0E49\\pulse_measurment\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse-v1\\pulse_measurment\\pulse_measurment\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
@@ -14,15 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "frmProduction.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\VSRepo \u0E41\u0E01\u0E49window \u0E02\u0E22\u0E31\u0E1A\u0E44\u0E14\u0E49\\Pulse_measurment\\frmProduction.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\PULSE-V1\\Pulse_measurment\\Pulse_measurment\\frmProduction.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmProduction.vb",
-              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\VSRepo \u0E41\u0E01\u0E49window \u0E02\u0E22\u0E31\u0E1A\u0E44\u0E14\u0E49\\Pulse_measurment\\frmProduction.vb [Design]",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\PULSE-V1\\Pulse_measurment\\Pulse_measurment\\frmProduction.vb [Design]",
               "RelativeToolTip": "Pulse_measurment\\frmProduction.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-12-15T10:27:23.445Z",
