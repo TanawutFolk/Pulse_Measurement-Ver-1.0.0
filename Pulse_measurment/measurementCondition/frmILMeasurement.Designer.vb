@@ -884,18 +884,16 @@ Partial Class frmILMeasurement
         Me.txtFpp4_tab1.Name = "txtFpp4_tab1"
         Me.txtFpp4_tab1.Size = New System.Drawing.Size(73, 28)
         Me.txtFpp4_tab1.TabIndex = 298
-        Me.txtFpp4_tab1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtFpp3_tab1
         '
         Me.txtFpp3_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab1.Location = New System.Drawing.Point(485, 327)
+        Me.txtFpp3_tab1.Location = New System.Drawing.Point(485, 330)
         Me.txtFpp3_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab1.Name = "txtFpp3_tab1"
         Me.txtFpp3_tab1.Size = New System.Drawing.Size(73, 28)
         Me.txtFpp3_tab1.TabIndex = 297
-        Me.txtFpp3_tab1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtFrp2_tab1
         '
@@ -906,7 +904,6 @@ Partial Class frmILMeasurement
         Me.txtFrp2_tab1.Name = "txtFrp2_tab1"
         Me.txtFrp2_tab1.Size = New System.Drawing.Size(73, 28)
         Me.txtFrp2_tab1.TabIndex = 296
-        Me.txtFrp2_tab1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtFpp2_tab1
         '
@@ -917,7 +914,6 @@ Partial Class frmILMeasurement
         Me.txtFpp2_tab1.Name = "txtFpp2_tab1"
         Me.txtFpp2_tab1.Size = New System.Drawing.Size(73, 28)
         Me.txtFpp2_tab1.TabIndex = 295
-        Me.txtFpp2_tab1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtFcp2_tab1
         '
@@ -928,7 +924,6 @@ Partial Class frmILMeasurement
         Me.txtFcp2_tab1.Name = "txtFcp2_tab1"
         Me.txtFcp2_tab1.Size = New System.Drawing.Size(73, 28)
         Me.txtFcp2_tab1.TabIndex = 294
-        Me.txtFcp2_tab1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtFrp_tab1
         '
@@ -939,18 +934,16 @@ Partial Class frmILMeasurement
         Me.txtFrp_tab1.Name = "txtFrp_tab1"
         Me.txtFrp_tab1.Size = New System.Drawing.Size(73, 28)
         Me.txtFrp_tab1.TabIndex = 293
-        Me.txtFrp_tab1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtFpp_tab1
         '
         Me.txtFpp_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab1.Location = New System.Drawing.Point(485, 158)
+        Me.txtFpp_tab1.Location = New System.Drawing.Point(485, 157)
         Me.txtFpp_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab1.Name = "txtFpp_tab1"
         Me.txtFpp_tab1.Size = New System.Drawing.Size(73, 28)
         Me.txtFpp_tab1.TabIndex = 292
-        Me.txtFpp_tab1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtFcp_tab1
         '
@@ -961,7 +954,6 @@ Partial Class frmILMeasurement
         Me.txtFcp_tab1.Name = "txtFcp_tab1"
         Me.txtFcp_tab1.Size = New System.Drawing.Size(73, 28)
         Me.txtFcp_tab1.TabIndex = 291
-        Me.txtFcp_tab1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label19
         '
@@ -1706,7 +1698,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp3_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab2.Location = New System.Drawing.Point(485, 327)
+        Me.txtFpp3_tab2.Location = New System.Drawing.Point(485, 330)
         Me.txtFpp3_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab2.Name = "txtFpp3_tab2"
         Me.txtFpp3_tab2.Size = New System.Drawing.Size(73, 28)
@@ -1756,7 +1748,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab2.Location = New System.Drawing.Point(485, 158)
+        Me.txtFpp_tab2.Location = New System.Drawing.Point(485, 157)
         Me.txtFpp_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab2.Name = "txtFpp_tab2"
         Me.txtFpp_tab2.Size = New System.Drawing.Size(73, 28)
@@ -2515,7 +2507,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp3_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab3.Location = New System.Drawing.Point(485, 327)
+        Me.txtFpp3_tab3.Location = New System.Drawing.Point(485, 330)
         Me.txtFpp3_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab3.Name = "txtFpp3_tab3"
         Me.txtFpp3_tab3.Size = New System.Drawing.Size(73, 28)
@@ -2565,7 +2557,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab3.Location = New System.Drawing.Point(485, 158)
+        Me.txtFpp_tab3.Location = New System.Drawing.Point(485, 157)
         Me.txtFpp_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab3.Name = "txtFpp_tab3"
         Me.txtFpp_tab3.Size = New System.Drawing.Size(73, 28)
@@ -3324,7 +3316,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp3_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab4.Location = New System.Drawing.Point(485, 327)
+        Me.txtFpp3_tab4.Location = New System.Drawing.Point(485, 330)
         Me.txtFpp3_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab4.Name = "txtFpp3_tab4"
         Me.txtFpp3_tab4.Size = New System.Drawing.Size(73, 28)
@@ -3374,7 +3366,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab4.Location = New System.Drawing.Point(485, 158)
+        Me.txtFpp_tab4.Location = New System.Drawing.Point(485, 157)
         Me.txtFpp_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab4.Name = "txtFpp_tab4"
         Me.txtFpp_tab4.Size = New System.Drawing.Size(73, 28)
@@ -4133,7 +4125,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp3_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab5.Location = New System.Drawing.Point(485, 327)
+        Me.txtFpp3_tab5.Location = New System.Drawing.Point(485, 330)
         Me.txtFpp3_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab5.Name = "txtFpp3_tab5"
         Me.txtFpp3_tab5.Size = New System.Drawing.Size(73, 28)
@@ -4183,7 +4175,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab5.Location = New System.Drawing.Point(485, 158)
+        Me.txtFpp_tab5.Location = New System.Drawing.Point(485, 157)
         Me.txtFpp_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab5.Name = "txtFpp_tab5"
         Me.txtFpp_tab5.Size = New System.Drawing.Size(73, 28)
@@ -4942,7 +4934,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp3_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab6.Location = New System.Drawing.Point(485, 327)
+        Me.txtFpp3_tab6.Location = New System.Drawing.Point(485, 330)
         Me.txtFpp3_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab6.Name = "txtFpp3_tab6"
         Me.txtFpp3_tab6.Size = New System.Drawing.Size(73, 28)
@@ -4992,7 +4984,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab6.Location = New System.Drawing.Point(485, 158)
+        Me.txtFpp_tab6.Location = New System.Drawing.Point(485, 157)
         Me.txtFpp_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab6.Name = "txtFpp_tab6"
         Me.txtFpp_tab6.Size = New System.Drawing.Size(73, 28)

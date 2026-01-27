@@ -3,43 +3,55 @@
   "WorkspaceRootPath": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\frmilgraph.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmilgraph.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\productionparameters.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\productionparameters.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\frmwlgraph.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmwlgraph.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\frmtemperaturecontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmtemperaturecontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\frmpcalmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\measurementcondition\\frmwlmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\measurementcondition\\frmwlmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\productionparameters.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\productionparameters.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\measurementcondition\\frmwlmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\measurementcondition\\frmwlmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\frmilgraph.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmilgraph.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\frmwlgraph.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmwlgraph.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\frmtemperaturecontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmtemperaturecontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\frmpcalmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmpcalmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\frmmain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\frmmain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmmain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\frmabout.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\frmabout.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmabout.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
@@ -50,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,70 +70,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "frmILMeasurement.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmILMeasurement.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\measurementCondition\\frmILMeasurement.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-27T06:01:20.689Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmWLMeasurement.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-27T06:01:15.817Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmILMeasurement.vb",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
               "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
               "RelativeToolTip": "Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
-              "ViewState": "AgIAAPcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAN8BAAAAAAAAAAAuwAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-01-27T04:24:45.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmILGraph.vb",
-              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmILGraph.vb",
-              "RelativeDocumentMoniker": "Pulse_measurment\\frmILGraph.vb",
-              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmILGraph.vb",
-              "RelativeToolTip": "Pulse_measurment\\frmILGraph.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-27T04:24:34.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProductionParameters.vb",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\ProductionParameters.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\ProductionParameters.vb",
               "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\ProductionParameters.vb",
               "RelativeToolTip": "Pulse_measurment\\ProductionParameters.vb",
-              "ViewState": "AgIAADYBAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAWwFUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-27T03:19:51.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T03:19:51.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmWLgraph.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmWLgraph.vb",
-              "RelativeDocumentMoniker": "Pulse_measurment\\frmWLgraph.vb",
-              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmWLgraph.vb [Design]",
-              "RelativeToolTip": "Pulse_measurment\\frmWLgraph.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-27T03:19:43.428Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmTemperatureControl.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmTemperatureControl.vb",
-              "RelativeDocumentMoniker": "Pulse_measurment\\frmTemperatureControl.vb",
-              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmTemperatureControl.vb [Design]",
-              "RelativeToolTip": "Pulse_measurment\\frmTemperatureControl.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-27T03:19:32.448Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "frmPreferance.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmPreferance.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmPreferance.vb",
@@ -133,51 +131,94 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmWLMeasurement.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb",
+              "RelativeToolTip": "Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb",
+              "ViewState": "AgIAACUBAAAAAAAAAIA0wDUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-27T06:01:47.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmILGraph.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmILGraph.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\frmILGraph.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmILGraph.vb",
+              "RelativeToolTip": "Pulse_measurment\\frmILGraph.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-27T04:24:34.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmWLgraph.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmWLgraph.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\frmWLgraph.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmWLgraph.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\frmWLgraph.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-27T03:19:43.428Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "frmTemperatureControl.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmTemperatureControl.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\frmTemperatureControl.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmTemperatureControl.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\frmTemperatureControl.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-27T03:19:32.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "frmMain.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmMain.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmMain.vb",
               "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmMain.vb [Design]",
               "RelativeToolTip": "Pulse_measurment\\frmMain.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-27T03:14:28.362Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-27T03:14:28.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "frmAbout.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmAbout.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmAbout.vb",
               "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmAbout.vb [Design]",
               "RelativeToolTip": "Pulse_measurment\\frmAbout.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-27T03:13:34.006Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-27T03:13:34.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "frmPcalmeasurement.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmPcalmeasurement.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmPcalmeasurement.vb",
               "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmPcalmeasurement.vb [Design]",
               "RelativeToolTip": "Pulse_measurment\\frmPcalmeasurement.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-27T03:13:27.608Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-27T03:13:27.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "frmProduction.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmProduction.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmProduction.vb",
               "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmProduction.vb [Design]",
               "RelativeToolTip": "Pulse_measurment\\frmProduction.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-15T10:27:23.445Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-15T10:27:23.445Z"
             }
           ]
         }

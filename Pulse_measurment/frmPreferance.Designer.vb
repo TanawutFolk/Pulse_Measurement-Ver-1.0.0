@@ -248,7 +248,7 @@ Partial Class frmPreferance
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(445, 293)
+        Me.Label6.Location = New System.Drawing.Point(440, 291)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(147, 22)
         Me.Label6.TabIndex = 221
@@ -258,7 +258,7 @@ Partial Class frmPreferance
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(445, 252)
+        Me.Label10.Location = New System.Drawing.Point(440, 252)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(268, 22)
         Me.Label10.TabIndex = 220
@@ -268,7 +268,7 @@ Partial Class frmPreferance
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(445, 212)
+        Me.Label11.Location = New System.Drawing.Point(440, 211)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(112, 22)
         Me.Label11.TabIndex = 219
@@ -278,7 +278,7 @@ Partial Class frmPreferance
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(447, 174)
+        Me.Label12.Location = New System.Drawing.Point(440, 170)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(148, 22)
         Me.Label12.TabIndex = 218
@@ -288,7 +288,7 @@ Partial Class frmPreferance
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(445, 129)
+        Me.Label14.Location = New System.Drawing.Point(440, 130)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(154, 22)
         Me.Label14.TabIndex = 217
@@ -298,7 +298,7 @@ Partial Class frmPreferance
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(445, 89)
+        Me.Label15.Location = New System.Drawing.Point(440, 89)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(221, 22)
         Me.Label15.TabIndex = 216
@@ -308,7 +308,7 @@ Partial Class frmPreferance
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(447, 43)
+        Me.Label16.Location = New System.Drawing.Point(441, 44)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(250, 22)
         Me.Label16.TabIndex = 215
@@ -1626,7 +1626,7 @@ Partial Class frmPreferance
         '
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(357, 39)
+        Me.Label35.Location = New System.Drawing.Point(342, 40)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(48, 22)
         Me.Label35.TabIndex = 249
