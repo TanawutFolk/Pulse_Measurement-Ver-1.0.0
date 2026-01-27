@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\measurementcondition\\frmwmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\measurementcondition\\frmwmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\measurementcondition\\frmwlmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\measurementcondition\\frmwlmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse measurement\\pulse_measurment\\pulse_measurment\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\pulse_measurment\\productionparameters.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -54,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +74,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmWMeasurement.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmWMeasurement.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\measurementCondition\\frmWMeasurement.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmWMeasurement.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\measurementCondition\\frmWMeasurement.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-27T09:11:54.913Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmWLMeasurement.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-27T09:05:52.386Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmILMeasurement.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
+              "RelativeToolTip": "Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
+              "ViewState": "AgIAAP4BAAAAAAAAAAAnwA4CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-27T08:41:16.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmPreferance.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmPreferance.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmPreferance.vb",
@@ -74,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmILMeasurement.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\measurementCondition\\frmILMeasurement.vb",
@@ -86,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ProductionParameters.vb",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\ProductionParameters.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\ProductionParameters.vb",
@@ -98,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "frmWLMeasurement.vb",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\measurementCondition\\frmWLMeasurement.vb",
@@ -111,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "frmILGraph.vb",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmILGraph.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmILGraph.vb",
@@ -123,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "frmWLgraph.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmWLgraph.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmWLgraph.vb",
@@ -134,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "frmTemperatureControl.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmTemperatureControl.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmTemperatureControl.vb",
@@ -145,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "frmMain.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmMain.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmMain.vb",
@@ -156,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "frmAbout.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmAbout.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmAbout.vb",
@@ -167,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "frmPcalmeasurement.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmPcalmeasurement.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmPcalmeasurement.vb",
@@ -178,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "frmProduction.vb [Design]",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse Measurement\\Pulse_measurment\\Pulse_measurment\\frmProduction.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmProduction.vb",
