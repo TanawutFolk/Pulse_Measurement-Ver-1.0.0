@@ -24,30 +24,21 @@ Partial Class frmWJudgment
     Private Sub InitializeComponent()
         Me.WaveFormJudge6 = New System.Windows.Forms.TabPage()
         Me.txtFallStop_tab6 = New System.Windows.Forms.TextBox()
-        Me.Label45 = New System.Windows.Forms.Label()
         Me.txtFallStart_tab6 = New System.Windows.Forms.TextBox()
-        Me.Label46 = New System.Windows.Forms.Label()
         Me.txtRiseStop_tab6 = New System.Windows.Forms.TextBox()
-        Me.Label47 = New System.Windows.Forms.Label()
         Me.txtRiseStart_tab6 = New System.Windows.Forms.TextBox()
-        Me.Label48 = New System.Windows.Forms.Label()
         Me.txtSlew_tab6 = New System.Windows.Forms.TextBox()
         Me.txtSlewmax_tab6 = New System.Windows.Forms.TextBox()
-        Me.Label49 = New System.Windows.Forms.Label()
         Me.txtFbgLocktimemin_tab6 = New System.Windows.Forms.TextBox()
         Me.txtFbgLocktimemax_tab6 = New System.Windows.Forms.TextBox()
-        Me.Label50 = New System.Windows.Forms.Label()
         Me.txtFallmin_tab6 = New System.Windows.Forms.TextBox()
         Me.txtFallmax_tab6 = New System.Windows.Forms.TextBox()
-        Me.Label51 = New System.Windows.Forms.Label()
         Me.txtRisemin_tab6 = New System.Windows.Forms.TextBox()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.txtRisemax_tab6 = New System.Windows.Forms.TextBox()
-        Me.Label54 = New System.Windows.Forms.Label()
         Me.cboSelect2_tab6 = New System.Windows.Forms.ComboBox()
         Me.cboSelect1_tab6 = New System.Windows.Forms.ComboBox()
-        Me.Label55 = New System.Windows.Forms.Label()
         Me.WaveFormJudge2 = New System.Windows.Forms.TabPage()
         Me.txtFallStop_tab2 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -62,7 +53,6 @@ Partial Class frmWJudgment
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtFbgLocktimemin_tab2 = New System.Windows.Forms.TextBox()
         Me.txtFbgLocktimemax_tab2 = New System.Windows.Forms.TextBox()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.txtFallmin_tab2 = New System.Windows.Forms.TextBox()
         Me.txtFallmax_tab2 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -76,31 +66,23 @@ Partial Class frmWJudgment
         Me.Label11 = New System.Windows.Forms.Label()
         Me.WaveFormJudge4 = New System.Windows.Forms.TabPage()
         Me.txtFallStop_tab4 = New System.Windows.Forms.TextBox()
-        Me.Label23 = New System.Windows.Forms.Label()
         Me.txtFallStart_tab4 = New System.Windows.Forms.TextBox()
-        Me.Label24 = New System.Windows.Forms.Label()
         Me.txtRiseStop_tab4 = New System.Windows.Forms.TextBox()
-        Me.Label25 = New System.Windows.Forms.Label()
         Me.txtRiseStart_tab4 = New System.Windows.Forms.TextBox()
-        Me.Label26 = New System.Windows.Forms.Label()
         Me.txtSlew_tab4 = New System.Windows.Forms.TextBox()
         Me.txtSlewmax_tab4 = New System.Windows.Forms.TextBox()
-        Me.Label27 = New System.Windows.Forms.Label()
         Me.txtFbgLocktimemin_tab4 = New System.Windows.Forms.TextBox()
         Me.txtFbgLocktimemax_tab4 = New System.Windows.Forms.TextBox()
-        Me.Label28 = New System.Windows.Forms.Label()
         Me.txtFallmin_tab4 = New System.Windows.Forms.TextBox()
         Me.txtFallmax_tab4 = New System.Windows.Forms.TextBox()
-        Me.Label29 = New System.Windows.Forms.Label()
         Me.txtRisemin_tab4 = New System.Windows.Forms.TextBox()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.txtRisemax_tab4 = New System.Windows.Forms.TextBox()
-        Me.Label32 = New System.Windows.Forms.Label()
         Me.cboSelect2_tab4 = New System.Windows.Forms.ComboBox()
         Me.cboSelect1_tab4 = New System.Windows.Forms.ComboBox()
-        Me.Label33 = New System.Windows.Forms.Label()
         Me.WaveFormJudge1 = New System.Windows.Forms.TabPage()
+        Me.Label56 = New System.Windows.Forms.Label()
         Me.txtFallStop_tab1 = New System.Windows.Forms.TextBox()
         Me.Label93 = New System.Windows.Forms.Label()
         Me.txtFallStart_tab1 = New System.Windows.Forms.TextBox()
@@ -114,7 +96,6 @@ Partial Class frmWJudgment
         Me.Label90 = New System.Windows.Forms.Label()
         Me.txtFbgLocktimemin_tab1 = New System.Windows.Forms.TextBox()
         Me.txtFbgLocktimemax_tab1 = New System.Windows.Forms.TextBox()
-        Me.Label89 = New System.Windows.Forms.Label()
         Me.txtFallmin_tab1 = New System.Windows.Forms.TextBox()
         Me.txtFallmax_tab1 = New System.Windows.Forms.TextBox()
         Me.Label88 = New System.Windows.Forms.Label()
@@ -127,96 +108,115 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab1 = New System.Windows.Forms.ComboBox()
         Me.Label102 = New System.Windows.Forms.Label()
         Me.txtFBGlockingTimemin_Page4 = New System.Windows.Forms.TabControl()
-        Me.WaveFormJudge3 = New System.Windows.Forms.TabPage()
-        Me.txtFallStop_tab3 = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.txtFallStart_tab3 = New System.Windows.Forms.TextBox()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.txtRiseStop_tab3 = New System.Windows.Forms.TextBox()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.txtRiseStart_tab3 = New System.Windows.Forms.TextBox()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.txtSlew_tab3 = New System.Windows.Forms.TextBox()
-        Me.txtSlewmax_tab3 = New System.Windows.Forms.TextBox()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.txtFbgLocktimemin_tab3 = New System.Windows.Forms.TextBox()
-        Me.txtFbgLocktimemax_tab3 = New System.Windows.Forms.TextBox()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.txtFallmin_tab3 = New System.Windows.Forms.TextBox()
-        Me.txtFallmax_tab3 = New System.Windows.Forms.TextBox()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.txtRisemin_tab3 = New System.Windows.Forms.TextBox()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.txtRisemax_tab3 = New System.Windows.Forms.TextBox()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.cboSelect2_tab3 = New System.Windows.Forms.ComboBox()
-        Me.cboSelect1_tab3 = New System.Windows.Forms.ComboBox()
-        Me.Label22 = New System.Windows.Forms.Label()
         Me.WaveFormJudge5 = New System.Windows.Forms.TabPage()
         Me.txtFallStop_tab5 = New System.Windows.Forms.TextBox()
-        Me.Label34 = New System.Windows.Forms.Label()
         Me.txtFallStart_tab5 = New System.Windows.Forms.TextBox()
-        Me.Label35 = New System.Windows.Forms.Label()
         Me.txtRiseStop_tab5 = New System.Windows.Forms.TextBox()
-        Me.Label36 = New System.Windows.Forms.Label()
         Me.txtRiseStart_tab5 = New System.Windows.Forms.TextBox()
-        Me.Label37 = New System.Windows.Forms.Label()
         Me.txtSlew_tab5 = New System.Windows.Forms.TextBox()
         Me.txtSlewmax_tab5 = New System.Windows.Forms.TextBox()
-        Me.Label38 = New System.Windows.Forms.Label()
         Me.txtFbgLocktimemin_tab5 = New System.Windows.Forms.TextBox()
         Me.txtFbgLocktimemax_tab5 = New System.Windows.Forms.TextBox()
-        Me.Label39 = New System.Windows.Forms.Label()
         Me.txtFallmin_tab5 = New System.Windows.Forms.TextBox()
         Me.txtFallmax_tab5 = New System.Windows.Forms.TextBox()
-        Me.Label40 = New System.Windows.Forms.Label()
         Me.txtRisemin_tab5 = New System.Windows.Forms.TextBox()
         Me.Label41 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.txtRisemax_tab5 = New System.Windows.Forms.TextBox()
-        Me.Label43 = New System.Windows.Forms.Label()
         Me.cboSelect2_tab5 = New System.Windows.Forms.ComboBox()
         Me.cboSelect1_tab5 = New System.Windows.Forms.ComboBox()
-        Me.Label44 = New System.Windows.Forms.Label()
         Me.btnCancleILm = New System.Windows.Forms.Button()
         Me.btnSaveWj = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.cboSelect1_tab3 = New System.Windows.Forms.ComboBox()
+        Me.cboSelect2_tab3 = New System.Windows.Forms.ComboBox()
+        Me.txtRisemax_tab3 = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.txtRisemin_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtFallmax_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtFallmin_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtFbgLocktimemax_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtFbgLocktimemin_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtSlewmax_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtSlew_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtRiseStart_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtRiseStop_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtFallStart_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtFallStop_tab3 = New System.Windows.Forms.TextBox()
+        Me.WaveFormJudge3 = New System.Windows.Forms.TabPage()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.Label49 = New System.Windows.Forms.Label()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.Label51 = New System.Windows.Forms.Label()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.Label55 = New System.Windows.Forms.Label()
         Me.WaveFormJudge6.SuspendLayout()
         Me.WaveFormJudge2.SuspendLayout()
         Me.WaveFormJudge4.SuspendLayout()
         Me.WaveFormJudge1.SuspendLayout()
         Me.txtFBGlockingTimemin_Page4.SuspendLayout()
-        Me.WaveFormJudge3.SuspendLayout()
         Me.WaveFormJudge5.SuspendLayout()
+        Me.WaveFormJudge3.SuspendLayout()
         Me.SuspendLayout()
         '
         'WaveFormJudge6
         '
-        Me.WaveFormJudge6.Controls.Add(Me.txtFallStop_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.Label45)
-        Me.WaveFormJudge6.Controls.Add(Me.txtFallStart_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.Label46)
-        Me.WaveFormJudge6.Controls.Add(Me.txtRiseStop_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.Label47)
-        Me.WaveFormJudge6.Controls.Add(Me.txtRiseStart_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.Label48)
+        Me.WaveFormJudge6.Controls.Add(Me.Label49)
+        Me.WaveFormJudge6.Controls.Add(Me.Label50)
+        Me.WaveFormJudge6.Controls.Add(Me.Label51)
+        Me.WaveFormJudge6.Controls.Add(Me.Label54)
+        Me.WaveFormJudge6.Controls.Add(Me.Label55)
+        Me.WaveFormJudge6.Controls.Add(Me.txtFallStop_tab6)
+        Me.WaveFormJudge6.Controls.Add(Me.txtFallStart_tab6)
+        Me.WaveFormJudge6.Controls.Add(Me.txtRiseStop_tab6)
+        Me.WaveFormJudge6.Controls.Add(Me.txtRiseStart_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.txtSlew_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.txtSlewmax_tab6)
-        Me.WaveFormJudge6.Controls.Add(Me.Label49)
         Me.WaveFormJudge6.Controls.Add(Me.txtFbgLocktimemin_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.txtFbgLocktimemax_tab6)
-        Me.WaveFormJudge6.Controls.Add(Me.Label50)
         Me.WaveFormJudge6.Controls.Add(Me.txtFallmin_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.txtFallmax_tab6)
-        Me.WaveFormJudge6.Controls.Add(Me.Label51)
         Me.WaveFormJudge6.Controls.Add(Me.txtRisemin_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.Label52)
         Me.WaveFormJudge6.Controls.Add(Me.Label53)
         Me.WaveFormJudge6.Controls.Add(Me.txtRisemax_tab6)
-        Me.WaveFormJudge6.Controls.Add(Me.Label54)
         Me.WaveFormJudge6.Controls.Add(Me.cboSelect2_tab6)
         Me.WaveFormJudge6.Controls.Add(Me.cboSelect1_tab6)
-        Me.WaveFormJudge6.Controls.Add(Me.Label55)
         Me.WaveFormJudge6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WaveFormJudge6.Location = New System.Drawing.Point(4, 31)
         Me.WaveFormJudge6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -237,16 +237,6 @@ Partial Class frmWJudgment
         Me.txtFallStop_tab6.Size = New System.Drawing.Size(42, 28)
         Me.txtFallStop_tab6.TabIndex = 392
         '
-        'Label45
-        '
-        Me.Label45.AutoSize = True
-        Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(577, 177)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(78, 22)
-        Me.Label45.TabIndex = 391
-        Me.Label45.Text = "Stop [%]"
-        '
         'txtFallStart_tab6
         '
         Me.txtFallStart_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -256,16 +246,6 @@ Partial Class frmWJudgment
         Me.txtFallStart_tab6.Name = "txtFallStart_tab6"
         Me.txtFallStart_tab6.Size = New System.Drawing.Size(42, 28)
         Me.txtFallStart_tab6.TabIndex = 390
-        '
-        'Label46
-        '
-        Me.Label46.AutoSize = True
-        Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(417, 176)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(79, 22)
-        Me.Label46.TabIndex = 389
-        Me.Label46.Text = "Start [%]"
         '
         'txtRiseStop_tab6
         '
@@ -277,16 +257,6 @@ Partial Class frmWJudgment
         Me.txtRiseStop_tab6.Size = New System.Drawing.Size(42, 28)
         Me.txtRiseStop_tab6.TabIndex = 388
         '
-        'Label47
-        '
-        Me.Label47.AutoSize = True
-        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.Location = New System.Drawing.Point(577, 142)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(78, 22)
-        Me.Label47.TabIndex = 387
-        Me.Label47.Text = "Stop [%]"
-        '
         'txtRiseStart_tab6
         '
         Me.txtRiseStart_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -296,16 +266,6 @@ Partial Class frmWJudgment
         Me.txtRiseStart_tab6.Name = "txtRiseStart_tab6"
         Me.txtRiseStart_tab6.Size = New System.Drawing.Size(42, 28)
         Me.txtRiseStart_tab6.TabIndex = 386
-        '
-        'Label48
-        '
-        Me.Label48.AutoSize = True
-        Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.Location = New System.Drawing.Point(417, 142)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(79, 22)
-        Me.Label48.TabIndex = 385
-        Me.Label48.Text = "Start [%]"
         '
         'txtSlew_tab6
         '
@@ -327,16 +287,6 @@ Partial Class frmWJudgment
         Me.txtSlewmax_tab6.Size = New System.Drawing.Size(79, 28)
         Me.txtSlewmax_tab6.TabIndex = 383
         '
-        'Label49
-        '
-        Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(83, 267)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(119, 22)
-        Me.Label49.TabIndex = 382
-        Me.Label49.Text = "Slew rate [ns]"
-        '
         'txtFbgLocktimemin_tab6
         '
         Me.txtFbgLocktimemin_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -357,16 +307,6 @@ Partial Class frmWJudgment
         Me.txtFbgLocktimemax_tab6.Size = New System.Drawing.Size(79, 28)
         Me.txtFbgLocktimemax_tab6.TabIndex = 380
         '
-        'Label50
-        '
-        Me.Label50.AutoSize = True
-        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(83, 215)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(119, 44)
-        Me.Label50.TabIndex = 379
-        Me.Label50.Text = "FBG Locking " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "time [ns]"
-        '
         'txtFallmin_tab6
         '
         Me.txtFallmin_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -386,16 +326,6 @@ Partial Class frmWJudgment
         Me.txtFallmax_tab6.Name = "txtFallmax_tab6"
         Me.txtFallmax_tab6.Size = New System.Drawing.Size(79, 28)
         Me.txtFallmax_tab6.TabIndex = 377
-        '
-        'Label51
-        '
-        Me.Label51.AutoSize = True
-        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(83, 178)
-        Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(111, 22)
-        Me.Label51.TabIndex = 376
-        Me.Label51.Text = "Fall time [ns]"
         '
         'txtRisemin_tab6
         '
@@ -437,16 +367,6 @@ Partial Class frmWJudgment
         Me.txtRisemax_tab6.Size = New System.Drawing.Size(79, 28)
         Me.txtRisemax_tab6.TabIndex = 372
         '
-        'Label54
-        '
-        Me.Label54.AutoSize = True
-        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.Location = New System.Drawing.Point(83, 140)
-        Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(118, 22)
-        Me.Label54.TabIndex = 371
-        Me.Label54.Text = "Rise time [ns]"
-        '
         'cboSelect2_tab6
         '
         Me.cboSelect2_tab6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
@@ -470,18 +390,9 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab6.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect1_tab6.TabIndex = 369
         '
-        'Label55
-        '
-        Me.Label55.AutoSize = True
-        Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(83, 71)
-        Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(60, 22)
-        Me.Label55.TabIndex = 368
-        Me.Label55.Text = "Select"
-        '
         'WaveFormJudge2
         '
+        Me.WaveFormJudge2.Controls.Add(Me.Label6)
         Me.WaveFormJudge2.Controls.Add(Me.txtFallStop_tab2)
         Me.WaveFormJudge2.Controls.Add(Me.Label1)
         Me.WaveFormJudge2.Controls.Add(Me.txtFallStart_tab2)
@@ -495,7 +406,6 @@ Partial Class frmWJudgment
         Me.WaveFormJudge2.Controls.Add(Me.Label5)
         Me.WaveFormJudge2.Controls.Add(Me.txtFbgLocktimemin_tab2)
         Me.WaveFormJudge2.Controls.Add(Me.txtFbgLocktimemax_tab2)
-        Me.WaveFormJudge2.Controls.Add(Me.Label6)
         Me.WaveFormJudge2.Controls.Add(Me.txtFallmin_tab2)
         Me.WaveFormJudge2.Controls.Add(Me.txtFallmax_tab2)
         Me.WaveFormJudge2.Controls.Add(Me.Label7)
@@ -531,7 +441,7 @@ Partial Class frmWJudgment
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(577, 177)
+        Me.Label1.Location = New System.Drawing.Point(579, 178)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(78, 22)
         Me.Label1.TabIndex = 391
@@ -551,7 +461,7 @@ Partial Class frmWJudgment
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(417, 176)
+        Me.Label2.Location = New System.Drawing.Point(418, 178)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(79, 22)
         Me.Label2.TabIndex = 389
@@ -571,7 +481,7 @@ Partial Class frmWJudgment
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(577, 142)
+        Me.Label3.Location = New System.Drawing.Point(579, 143)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(78, 22)
         Me.Label3.TabIndex = 387
@@ -591,7 +501,7 @@ Partial Class frmWJudgment
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(417, 142)
+        Me.Label4.Location = New System.Drawing.Point(418, 143)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(79, 22)
         Me.Label4.TabIndex = 385
@@ -621,7 +531,7 @@ Partial Class frmWJudgment
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(83, 267)
+        Me.Label5.Location = New System.Drawing.Point(97, 269)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(119, 22)
         Me.Label5.TabIndex = 382
@@ -647,16 +557,6 @@ Partial Class frmWJudgment
         Me.txtFbgLocktimemax_tab2.Size = New System.Drawing.Size(79, 28)
         Me.txtFbgLocktimemax_tab2.TabIndex = 380
         '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(83, 215)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(119, 44)
-        Me.Label6.TabIndex = 379
-        Me.Label6.Text = "FBG Locking " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "time [ns]"
-        '
         'txtFallmin_tab2
         '
         Me.txtFallmin_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -681,7 +581,7 @@ Partial Class frmWJudgment
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(83, 178)
+        Me.Label7.Location = New System.Drawing.Point(105, 183)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(111, 22)
         Me.Label7.TabIndex = 376
@@ -731,7 +631,7 @@ Partial Class frmWJudgment
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(83, 140)
+        Me.Label10.Location = New System.Drawing.Point(98, 145)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(118, 22)
         Me.Label10.TabIndex = 371
@@ -764,7 +664,7 @@ Partial Class frmWJudgment
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(83, 71)
+        Me.Label11.Location = New System.Drawing.Point(142, 72)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(60, 22)
         Me.Label11.TabIndex = 368
@@ -772,31 +672,31 @@ Partial Class frmWJudgment
         '
         'WaveFormJudge4
         '
-        Me.WaveFormJudge4.Controls.Add(Me.txtFallStop_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.Label23)
-        Me.WaveFormJudge4.Controls.Add(Me.txtFallStart_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.Label24)
-        Me.WaveFormJudge4.Controls.Add(Me.txtRiseStop_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.Label25)
-        Me.WaveFormJudge4.Controls.Add(Me.txtRiseStart_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.Label26)
+        Me.WaveFormJudge4.Controls.Add(Me.Label27)
+        Me.WaveFormJudge4.Controls.Add(Me.Label28)
+        Me.WaveFormJudge4.Controls.Add(Me.Label29)
+        Me.WaveFormJudge4.Controls.Add(Me.Label32)
+        Me.WaveFormJudge4.Controls.Add(Me.Label33)
+        Me.WaveFormJudge4.Controls.Add(Me.txtFallStop_tab4)
+        Me.WaveFormJudge4.Controls.Add(Me.txtFallStart_tab4)
+        Me.WaveFormJudge4.Controls.Add(Me.txtRiseStop_tab4)
+        Me.WaveFormJudge4.Controls.Add(Me.txtRiseStart_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.txtSlew_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.txtSlewmax_tab4)
-        Me.WaveFormJudge4.Controls.Add(Me.Label27)
         Me.WaveFormJudge4.Controls.Add(Me.txtFbgLocktimemin_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.txtFbgLocktimemax_tab4)
-        Me.WaveFormJudge4.Controls.Add(Me.Label28)
         Me.WaveFormJudge4.Controls.Add(Me.txtFallmin_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.txtFallmax_tab4)
-        Me.WaveFormJudge4.Controls.Add(Me.Label29)
         Me.WaveFormJudge4.Controls.Add(Me.txtRisemin_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.Label30)
         Me.WaveFormJudge4.Controls.Add(Me.Label31)
         Me.WaveFormJudge4.Controls.Add(Me.txtRisemax_tab4)
-        Me.WaveFormJudge4.Controls.Add(Me.Label32)
         Me.WaveFormJudge4.Controls.Add(Me.cboSelect2_tab4)
         Me.WaveFormJudge4.Controls.Add(Me.cboSelect1_tab4)
-        Me.WaveFormJudge4.Controls.Add(Me.Label33)
         Me.WaveFormJudge4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WaveFormJudge4.Location = New System.Drawing.Point(4, 31)
         Me.WaveFormJudge4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -817,16 +717,6 @@ Partial Class frmWJudgment
         Me.txtFallStop_tab4.Size = New System.Drawing.Size(42, 28)
         Me.txtFallStop_tab4.TabIndex = 392
         '
-        'Label23
-        '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(577, 177)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(78, 22)
-        Me.Label23.TabIndex = 391
-        Me.Label23.Text = "Stop [%]"
-        '
         'txtFallStart_tab4
         '
         Me.txtFallStart_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -836,16 +726,6 @@ Partial Class frmWJudgment
         Me.txtFallStart_tab4.Name = "txtFallStart_tab4"
         Me.txtFallStart_tab4.Size = New System.Drawing.Size(42, 28)
         Me.txtFallStart_tab4.TabIndex = 390
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(417, 176)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(79, 22)
-        Me.Label24.TabIndex = 389
-        Me.Label24.Text = "Start [%]"
         '
         'txtRiseStop_tab4
         '
@@ -857,16 +737,6 @@ Partial Class frmWJudgment
         Me.txtRiseStop_tab4.Size = New System.Drawing.Size(42, 28)
         Me.txtRiseStop_tab4.TabIndex = 388
         '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(577, 142)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(78, 22)
-        Me.Label25.TabIndex = 387
-        Me.Label25.Text = "Stop [%]"
-        '
         'txtRiseStart_tab4
         '
         Me.txtRiseStart_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -876,16 +746,6 @@ Partial Class frmWJudgment
         Me.txtRiseStart_tab4.Name = "txtRiseStart_tab4"
         Me.txtRiseStart_tab4.Size = New System.Drawing.Size(42, 28)
         Me.txtRiseStart_tab4.TabIndex = 386
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(417, 142)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(79, 22)
-        Me.Label26.TabIndex = 385
-        Me.Label26.Text = "Start [%]"
         '
         'txtSlew_tab4
         '
@@ -907,16 +767,6 @@ Partial Class frmWJudgment
         Me.txtSlewmax_tab4.Size = New System.Drawing.Size(79, 28)
         Me.txtSlewmax_tab4.TabIndex = 383
         '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(83, 267)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(119, 22)
-        Me.Label27.TabIndex = 382
-        Me.Label27.Text = "Slew rate [ns]"
-        '
         'txtFbgLocktimemin_tab4
         '
         Me.txtFbgLocktimemin_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -937,16 +787,6 @@ Partial Class frmWJudgment
         Me.txtFbgLocktimemax_tab4.Size = New System.Drawing.Size(79, 28)
         Me.txtFbgLocktimemax_tab4.TabIndex = 380
         '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(83, 215)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(119, 44)
-        Me.Label28.TabIndex = 379
-        Me.Label28.Text = "FBG Locking " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "time [ns]"
-        '
         'txtFallmin_tab4
         '
         Me.txtFallmin_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -966,16 +806,6 @@ Partial Class frmWJudgment
         Me.txtFallmax_tab4.Name = "txtFallmax_tab4"
         Me.txtFallmax_tab4.Size = New System.Drawing.Size(79, 28)
         Me.txtFallmax_tab4.TabIndex = 377
-        '
-        'Label29
-        '
-        Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(83, 178)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(111, 22)
-        Me.Label29.TabIndex = 376
-        Me.Label29.Text = "Fall time [ns]"
         '
         'txtRisemin_tab4
         '
@@ -1017,16 +847,6 @@ Partial Class frmWJudgment
         Me.txtRisemax_tab4.Size = New System.Drawing.Size(79, 28)
         Me.txtRisemax_tab4.TabIndex = 372
         '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(83, 140)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(118, 22)
-        Me.Label32.TabIndex = 371
-        Me.Label32.Text = "Rise time [ns]"
-        '
         'cboSelect2_tab4
         '
         Me.cboSelect2_tab4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
@@ -1050,18 +870,9 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab4.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect1_tab4.TabIndex = 369
         '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(83, 71)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(60, 22)
-        Me.Label33.TabIndex = 368
-        Me.Label33.Text = "Select"
-        '
         'WaveFormJudge1
         '
+        Me.WaveFormJudge1.Controls.Add(Me.Label56)
         Me.WaveFormJudge1.Controls.Add(Me.txtFallStop_tab1)
         Me.WaveFormJudge1.Controls.Add(Me.Label93)
         Me.WaveFormJudge1.Controls.Add(Me.txtFallStart_tab1)
@@ -1075,7 +886,6 @@ Partial Class frmWJudgment
         Me.WaveFormJudge1.Controls.Add(Me.Label90)
         Me.WaveFormJudge1.Controls.Add(Me.txtFbgLocktimemin_tab1)
         Me.WaveFormJudge1.Controls.Add(Me.txtFbgLocktimemax_tab1)
-        Me.WaveFormJudge1.Controls.Add(Me.Label89)
         Me.WaveFormJudge1.Controls.Add(Me.txtFallmin_tab1)
         Me.WaveFormJudge1.Controls.Add(Me.txtFallmax_tab1)
         Me.WaveFormJudge1.Controls.Add(Me.Label88)
@@ -1097,6 +907,16 @@ Partial Class frmWJudgment
         Me.WaveFormJudge1.Text = "WaveForm Judge1"
         Me.WaveFormJudge1.UseVisualStyleBackColor = True
         '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.Location = New System.Drawing.Point(30, 223)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(186, 22)
+        Me.Label56.TabIndex = 393
+        Me.Label56.Text = "FBG Locking time [ns]"
+        '
         'txtFallStop_tab1
         '
         Me.txtFallStop_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -1111,7 +931,7 @@ Partial Class frmWJudgment
         '
         Me.Label93.AutoSize = True
         Me.Label93.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label93.Location = New System.Drawing.Point(577, 177)
+        Me.Label93.Location = New System.Drawing.Point(579, 178)
         Me.Label93.Name = "Label93"
         Me.Label93.Size = New System.Drawing.Size(78, 22)
         Me.Label93.TabIndex = 391
@@ -1131,7 +951,7 @@ Partial Class frmWJudgment
         '
         Me.Label94.AutoSize = True
         Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label94.Location = New System.Drawing.Point(417, 176)
+        Me.Label94.Location = New System.Drawing.Point(418, 178)
         Me.Label94.Name = "Label94"
         Me.Label94.Size = New System.Drawing.Size(79, 22)
         Me.Label94.TabIndex = 389
@@ -1151,7 +971,7 @@ Partial Class frmWJudgment
         '
         Me.Label92.AutoSize = True
         Me.Label92.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label92.Location = New System.Drawing.Point(577, 142)
+        Me.Label92.Location = New System.Drawing.Point(579, 143)
         Me.Label92.Name = "Label92"
         Me.Label92.Size = New System.Drawing.Size(78, 22)
         Me.Label92.TabIndex = 387
@@ -1171,7 +991,7 @@ Partial Class frmWJudgment
         '
         Me.Label91.AutoSize = True
         Me.Label91.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label91.Location = New System.Drawing.Point(417, 142)
+        Me.Label91.Location = New System.Drawing.Point(418, 143)
         Me.Label91.Name = "Label91"
         Me.Label91.Size = New System.Drawing.Size(79, 22)
         Me.Label91.TabIndex = 385
@@ -1201,7 +1021,7 @@ Partial Class frmWJudgment
         '
         Me.Label90.AutoSize = True
         Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label90.Location = New System.Drawing.Point(83, 267)
+        Me.Label90.Location = New System.Drawing.Point(97, 269)
         Me.Label90.Name = "Label90"
         Me.Label90.Size = New System.Drawing.Size(119, 22)
         Me.Label90.TabIndex = 382
@@ -1227,16 +1047,6 @@ Partial Class frmWJudgment
         Me.txtFbgLocktimemax_tab1.Size = New System.Drawing.Size(79, 28)
         Me.txtFbgLocktimemax_tab1.TabIndex = 380
         '
-        'Label89
-        '
-        Me.Label89.AutoSize = True
-        Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label89.Location = New System.Drawing.Point(83, 215)
-        Me.Label89.Name = "Label89"
-        Me.Label89.Size = New System.Drawing.Size(119, 44)
-        Me.Label89.TabIndex = 379
-        Me.Label89.Text = "FBG Locking " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "time [ns]"
-        '
         'txtFallmin_tab1
         '
         Me.txtFallmin_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -1261,7 +1071,7 @@ Partial Class frmWJudgment
         '
         Me.Label88.AutoSize = True
         Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label88.Location = New System.Drawing.Point(83, 178)
+        Me.Label88.Location = New System.Drawing.Point(105, 183)
         Me.Label88.Name = "Label88"
         Me.Label88.Size = New System.Drawing.Size(111, 22)
         Me.Label88.TabIndex = 376
@@ -1311,7 +1121,7 @@ Partial Class frmWJudgment
         '
         Me.Label103.AutoSize = True
         Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label103.Location = New System.Drawing.Point(83, 140)
+        Me.Label103.Location = New System.Drawing.Point(98, 145)
         Me.Label103.Name = "Label103"
         Me.Label103.Size = New System.Drawing.Size(118, 22)
         Me.Label103.TabIndex = 371
@@ -1344,7 +1154,7 @@ Partial Class frmWJudgment
         '
         Me.Label102.AutoSize = True
         Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label102.Location = New System.Drawing.Point(83, 71)
+        Me.Label102.Location = New System.Drawing.Point(142, 72)
         Me.Label102.Name = "Label102"
         Me.Label102.Size = New System.Drawing.Size(60, 22)
         Me.Label102.TabIndex = 368
@@ -1368,323 +1178,33 @@ Partial Class frmWJudgment
         Me.txtFBGlockingTimemin_Page4.Size = New System.Drawing.Size(1000, 638)
         Me.txtFBGlockingTimemin_Page4.TabIndex = 2
         '
-        'WaveFormJudge3
-        '
-        Me.WaveFormJudge3.Controls.Add(Me.txtFallStop_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.Label12)
-        Me.WaveFormJudge3.Controls.Add(Me.txtFallStart_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.Label13)
-        Me.WaveFormJudge3.Controls.Add(Me.txtRiseStop_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.Label14)
-        Me.WaveFormJudge3.Controls.Add(Me.txtRiseStart_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.Label15)
-        Me.WaveFormJudge3.Controls.Add(Me.txtSlew_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.txtSlewmax_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.Label16)
-        Me.WaveFormJudge3.Controls.Add(Me.txtFbgLocktimemin_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.txtFbgLocktimemax_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.Label17)
-        Me.WaveFormJudge3.Controls.Add(Me.txtFallmin_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.txtFallmax_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.Label18)
-        Me.WaveFormJudge3.Controls.Add(Me.txtRisemin_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.Label19)
-        Me.WaveFormJudge3.Controls.Add(Me.Label20)
-        Me.WaveFormJudge3.Controls.Add(Me.txtRisemax_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.Label21)
-        Me.WaveFormJudge3.Controls.Add(Me.cboSelect2_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.cboSelect1_tab3)
-        Me.WaveFormJudge3.Controls.Add(Me.Label22)
-        Me.WaveFormJudge3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.WaveFormJudge3.Location = New System.Drawing.Point(4, 31)
-        Me.WaveFormJudge3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.WaveFormJudge3.Name = "WaveFormJudge3"
-        Me.WaveFormJudge3.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.WaveFormJudge3.Size = New System.Drawing.Size(992, 603)
-        Me.WaveFormJudge3.TabIndex = 2
-        Me.WaveFormJudge3.Text = "WaveForm Judge3"
-        Me.WaveFormJudge3.UseVisualStyleBackColor = True
-        '
-        'txtFallStop_tab3
-        '
-        Me.txtFallStop_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFallStop_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFallStop_tab3.Location = New System.Drawing.Point(660, 175)
-        Me.txtFallStop_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtFallStop_tab3.Name = "txtFallStop_tab3"
-        Me.txtFallStop_tab3.Size = New System.Drawing.Size(42, 28)
-        Me.txtFallStop_tab3.TabIndex = 392
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(577, 177)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(78, 22)
-        Me.Label12.TabIndex = 391
-        Me.Label12.Text = "Stop [%]"
-        '
-        'txtFallStart_tab3
-        '
-        Me.txtFallStart_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFallStart_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFallStart_tab3.Location = New System.Drawing.Point(500, 175)
-        Me.txtFallStart_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtFallStart_tab3.Name = "txtFallStart_tab3"
-        Me.txtFallStart_tab3.Size = New System.Drawing.Size(42, 28)
-        Me.txtFallStart_tab3.TabIndex = 390
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(417, 176)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(79, 22)
-        Me.Label13.TabIndex = 389
-        Me.Label13.Text = "Start [%]"
-        '
-        'txtRiseStop_tab3
-        '
-        Me.txtRiseStop_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtRiseStop_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRiseStop_tab3.Location = New System.Drawing.Point(660, 140)
-        Me.txtRiseStop_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtRiseStop_tab3.Name = "txtRiseStop_tab3"
-        Me.txtRiseStop_tab3.Size = New System.Drawing.Size(42, 28)
-        Me.txtRiseStop_tab3.TabIndex = 388
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(577, 142)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(78, 22)
-        Me.Label14.TabIndex = 387
-        Me.Label14.Text = "Stop [%]"
-        '
-        'txtRiseStart_tab3
-        '
-        Me.txtRiseStart_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtRiseStart_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRiseStart_tab3.Location = New System.Drawing.Point(500, 140)
-        Me.txtRiseStart_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtRiseStart_tab3.Name = "txtRiseStart_tab3"
-        Me.txtRiseStart_tab3.Size = New System.Drawing.Size(42, 28)
-        Me.txtRiseStart_tab3.TabIndex = 386
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(417, 142)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(79, 22)
-        Me.Label15.TabIndex = 385
-        Me.Label15.Text = "Start [%]"
-        '
-        'txtSlew_tab3
-        '
-        Me.txtSlew_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtSlew_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSlew_tab3.Location = New System.Drawing.Point(219, 266)
-        Me.txtSlew_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtSlew_tab3.Name = "txtSlew_tab3"
-        Me.txtSlew_tab3.Size = New System.Drawing.Size(79, 28)
-        Me.txtSlew_tab3.TabIndex = 384
-        '
-        'txtSlewmax_tab3
-        '
-        Me.txtSlewmax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtSlewmax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSlewmax_tab3.Location = New System.Drawing.Point(304, 266)
-        Me.txtSlewmax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtSlewmax_tab3.Name = "txtSlewmax_tab3"
-        Me.txtSlewmax_tab3.Size = New System.Drawing.Size(79, 28)
-        Me.txtSlewmax_tab3.TabIndex = 383
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(83, 267)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(119, 22)
-        Me.Label16.TabIndex = 382
-        Me.Label16.Text = "Slew rate [ns]"
-        '
-        'txtFbgLocktimemin_tab3
-        '
-        Me.txtFbgLocktimemin_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFbgLocktimemin_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFbgLocktimemin_tab3.Location = New System.Drawing.Point(219, 220)
-        Me.txtFbgLocktimemin_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtFbgLocktimemin_tab3.Name = "txtFbgLocktimemin_tab3"
-        Me.txtFbgLocktimemin_tab3.Size = New System.Drawing.Size(79, 28)
-        Me.txtFbgLocktimemin_tab3.TabIndex = 381
-        '
-        'txtFbgLocktimemax_tab3
-        '
-        Me.txtFbgLocktimemax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFbgLocktimemax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFbgLocktimemax_tab3.Location = New System.Drawing.Point(304, 220)
-        Me.txtFbgLocktimemax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtFbgLocktimemax_tab3.Name = "txtFbgLocktimemax_tab3"
-        Me.txtFbgLocktimemax_tab3.Size = New System.Drawing.Size(79, 28)
-        Me.txtFbgLocktimemax_tab3.TabIndex = 380
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(83, 215)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(119, 44)
-        Me.Label17.TabIndex = 379
-        Me.Label17.Text = "FBG Locking " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "time [ns]"
-        '
-        'txtFallmin_tab3
-        '
-        Me.txtFallmin_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFallmin_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFallmin_tab3.Location = New System.Drawing.Point(219, 180)
-        Me.txtFallmin_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtFallmin_tab3.Name = "txtFallmin_tab3"
-        Me.txtFallmin_tab3.Size = New System.Drawing.Size(79, 28)
-        Me.txtFallmin_tab3.TabIndex = 378
-        '
-        'txtFallmax_tab3
-        '
-        Me.txtFallmax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtFallmax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFallmax_tab3.Location = New System.Drawing.Point(304, 180)
-        Me.txtFallmax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtFallmax_tab3.Name = "txtFallmax_tab3"
-        Me.txtFallmax_tab3.Size = New System.Drawing.Size(79, 28)
-        Me.txtFallmax_tab3.TabIndex = 377
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(83, 178)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(111, 22)
-        Me.Label18.TabIndex = 376
-        Me.Label18.Text = "Fall time [ns]"
-        '
-        'txtRisemin_tab3
-        '
-        Me.txtRisemin_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtRisemin_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRisemin_tab3.Location = New System.Drawing.Point(219, 142)
-        Me.txtRisemin_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtRisemin_tab3.Name = "txtRisemin_tab3"
-        Me.txtRisemin_tab3.Size = New System.Drawing.Size(79, 28)
-        Me.txtRisemin_tab3.TabIndex = 375
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(323, 114)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(43, 22)
-        Me.Label19.TabIndex = 374
-        Me.Label19.Text = "max"
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(243, 114)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(38, 22)
-        Me.Label20.TabIndex = 373
-        Me.Label20.Text = "min"
-        '
-        'txtRisemax_tab3
-        '
-        Me.txtRisemax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtRisemax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRisemax_tab3.Location = New System.Drawing.Point(304, 142)
-        Me.txtRisemax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtRisemax_tab3.Name = "txtRisemax_tab3"
-        Me.txtRisemax_tab3.Size = New System.Drawing.Size(79, 28)
-        Me.txtRisemax_tab3.TabIndex = 372
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(83, 140)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(118, 22)
-        Me.Label21.TabIndex = 371
-        Me.Label21.Text = "Rise time [ns]"
-        '
-        'cboSelect2_tab3
-        '
-        Me.cboSelect2_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cboSelect2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboSelect2_tab3.FormattingEnabled = True
-        Me.cboSelect2_tab3.Location = New System.Drawing.Point(325, 68)
-        Me.cboSelect2_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.cboSelect2_tab3.Name = "cboSelect2_tab3"
-        Me.cboSelect2_tab3.Size = New System.Drawing.Size(109, 30)
-        Me.cboSelect2_tab3.TabIndex = 370
-        '
-        'cboSelect1_tab3
-        '
-        Me.cboSelect1_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cboSelect1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboSelect1_tab3.FormattingEnabled = True
-        Me.cboSelect1_tab3.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
-        Me.cboSelect1_tab3.Location = New System.Drawing.Point(205, 68)
-        Me.cboSelect1_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.cboSelect1_tab3.Name = "cboSelect1_tab3"
-        Me.cboSelect1_tab3.Size = New System.Drawing.Size(109, 30)
-        Me.cboSelect1_tab3.TabIndex = 369
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(83, 71)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(60, 22)
-        Me.Label22.TabIndex = 368
-        Me.Label22.Text = "Select"
-        '
         'WaveFormJudge5
         '
-        Me.WaveFormJudge5.Controls.Add(Me.txtFallStop_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.Label34)
-        Me.WaveFormJudge5.Controls.Add(Me.txtFallStart_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.Label35)
-        Me.WaveFormJudge5.Controls.Add(Me.txtRiseStop_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.Label36)
-        Me.WaveFormJudge5.Controls.Add(Me.txtRiseStart_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.Label37)
+        Me.WaveFormJudge5.Controls.Add(Me.Label38)
+        Me.WaveFormJudge5.Controls.Add(Me.Label39)
+        Me.WaveFormJudge5.Controls.Add(Me.Label40)
+        Me.WaveFormJudge5.Controls.Add(Me.Label43)
+        Me.WaveFormJudge5.Controls.Add(Me.Label44)
+        Me.WaveFormJudge5.Controls.Add(Me.txtFallStop_tab5)
+        Me.WaveFormJudge5.Controls.Add(Me.txtFallStart_tab5)
+        Me.WaveFormJudge5.Controls.Add(Me.txtRiseStop_tab5)
+        Me.WaveFormJudge5.Controls.Add(Me.txtRiseStart_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.txtSlew_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.txtSlewmax_tab5)
-        Me.WaveFormJudge5.Controls.Add(Me.Label38)
         Me.WaveFormJudge5.Controls.Add(Me.txtFbgLocktimemin_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.txtFbgLocktimemax_tab5)
-        Me.WaveFormJudge5.Controls.Add(Me.Label39)
         Me.WaveFormJudge5.Controls.Add(Me.txtFallmin_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.txtFallmax_tab5)
-        Me.WaveFormJudge5.Controls.Add(Me.Label40)
         Me.WaveFormJudge5.Controls.Add(Me.txtRisemin_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.Label41)
         Me.WaveFormJudge5.Controls.Add(Me.Label42)
         Me.WaveFormJudge5.Controls.Add(Me.txtRisemax_tab5)
-        Me.WaveFormJudge5.Controls.Add(Me.Label43)
         Me.WaveFormJudge5.Controls.Add(Me.cboSelect2_tab5)
         Me.WaveFormJudge5.Controls.Add(Me.cboSelect1_tab5)
-        Me.WaveFormJudge5.Controls.Add(Me.Label44)
         Me.WaveFormJudge5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WaveFormJudge5.Location = New System.Drawing.Point(4, 31)
         Me.WaveFormJudge5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -1705,16 +1225,6 @@ Partial Class frmWJudgment
         Me.txtFallStop_tab5.Size = New System.Drawing.Size(42, 28)
         Me.txtFallStop_tab5.TabIndex = 392
         '
-        'Label34
-        '
-        Me.Label34.AutoSize = True
-        Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(577, 177)
-        Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(78, 22)
-        Me.Label34.TabIndex = 391
-        Me.Label34.Text = "Stop [%]"
-        '
         'txtFallStart_tab5
         '
         Me.txtFallStart_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -1724,16 +1234,6 @@ Partial Class frmWJudgment
         Me.txtFallStart_tab5.Name = "txtFallStart_tab5"
         Me.txtFallStart_tab5.Size = New System.Drawing.Size(42, 28)
         Me.txtFallStart_tab5.TabIndex = 390
-        '
-        'Label35
-        '
-        Me.Label35.AutoSize = True
-        Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(417, 176)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(79, 22)
-        Me.Label35.TabIndex = 389
-        Me.Label35.Text = "Start [%]"
         '
         'txtRiseStop_tab5
         '
@@ -1745,16 +1245,6 @@ Partial Class frmWJudgment
         Me.txtRiseStop_tab5.Size = New System.Drawing.Size(42, 28)
         Me.txtRiseStop_tab5.TabIndex = 388
         '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(577, 142)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(78, 22)
-        Me.Label36.TabIndex = 387
-        Me.Label36.Text = "Stop [%]"
-        '
         'txtRiseStart_tab5
         '
         Me.txtRiseStart_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -1764,16 +1254,6 @@ Partial Class frmWJudgment
         Me.txtRiseStart_tab5.Name = "txtRiseStart_tab5"
         Me.txtRiseStart_tab5.Size = New System.Drawing.Size(42, 28)
         Me.txtRiseStart_tab5.TabIndex = 386
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(417, 142)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(79, 22)
-        Me.Label37.TabIndex = 385
-        Me.Label37.Text = "Start [%]"
         '
         'txtSlew_tab5
         '
@@ -1795,16 +1275,6 @@ Partial Class frmWJudgment
         Me.txtSlewmax_tab5.Size = New System.Drawing.Size(79, 28)
         Me.txtSlewmax_tab5.TabIndex = 383
         '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(83, 267)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(119, 22)
-        Me.Label38.TabIndex = 382
-        Me.Label38.Text = "Slew rate [ns]"
-        '
         'txtFbgLocktimemin_tab5
         '
         Me.txtFbgLocktimemin_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -1825,16 +1295,6 @@ Partial Class frmWJudgment
         Me.txtFbgLocktimemax_tab5.Size = New System.Drawing.Size(79, 28)
         Me.txtFbgLocktimemax_tab5.TabIndex = 380
         '
-        'Label39
-        '
-        Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(83, 215)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(119, 44)
-        Me.Label39.TabIndex = 379
-        Me.Label39.Text = "FBG Locking " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "time [ns]"
-        '
         'txtFallmin_tab5
         '
         Me.txtFallmin_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -1854,16 +1314,6 @@ Partial Class frmWJudgment
         Me.txtFallmax_tab5.Name = "txtFallmax_tab5"
         Me.txtFallmax_tab5.Size = New System.Drawing.Size(79, 28)
         Me.txtFallmax_tab5.TabIndex = 377
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(83, 178)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(111, 22)
-        Me.Label40.TabIndex = 376
-        Me.Label40.Text = "Fall time [ns]"
         '
         'txtRisemin_tab5
         '
@@ -1905,16 +1355,6 @@ Partial Class frmWJudgment
         Me.txtRisemax_tab5.Size = New System.Drawing.Size(79, 28)
         Me.txtRisemax_tab5.TabIndex = 372
         '
-        'Label43
-        '
-        Me.Label43.AutoSize = True
-        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(83, 140)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(118, 22)
-        Me.Label43.TabIndex = 371
-        Me.Label43.Text = "Rise time [ns]"
-        '
         'cboSelect2_tab5
         '
         Me.cboSelect2_tab5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
@@ -1938,16 +1378,6 @@ Partial Class frmWJudgment
         Me.cboSelect1_tab5.Size = New System.Drawing.Size(109, 30)
         Me.cboSelect1_tab5.TabIndex = 369
         '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.Location = New System.Drawing.Point(83, 71)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(60, 22)
-        Me.Label44.TabIndex = 368
-        Me.Label44.Text = "Select"
-        '
         'btnCancleILm
         '
         Me.btnCancleILm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1970,6 +1400,576 @@ Partial Class frmWJudgment
         Me.btnSaveWj.Text = "Save"
         Me.btnSaveWj.UseVisualStyleBackColor = True
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(30, 223)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(186, 22)
+        Me.Label6.TabIndex = 394
+        Me.Label6.Text = "FBG Locking time [ns]"
+        '
+        'cboSelect1_tab3
+        '
+        Me.cboSelect1_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboSelect1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboSelect1_tab3.FormattingEnabled = True
+        Me.cboSelect1_tab3.Items.AddRange(New Object() {"IL1", "IL2", "IL3", "IL4", "IL5", "IL6"})
+        Me.cboSelect1_tab3.Location = New System.Drawing.Point(205, 68)
+        Me.cboSelect1_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.cboSelect1_tab3.Name = "cboSelect1_tab3"
+        Me.cboSelect1_tab3.Size = New System.Drawing.Size(109, 30)
+        Me.cboSelect1_tab3.TabIndex = 369
+        '
+        'cboSelect2_tab3
+        '
+        Me.cboSelect2_tab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboSelect2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboSelect2_tab3.FormattingEnabled = True
+        Me.cboSelect2_tab3.Location = New System.Drawing.Point(325, 68)
+        Me.cboSelect2_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.cboSelect2_tab3.Name = "cboSelect2_tab3"
+        Me.cboSelect2_tab3.Size = New System.Drawing.Size(109, 30)
+        Me.cboSelect2_tab3.TabIndex = 370
+        '
+        'txtRisemax_tab3
+        '
+        Me.txtRisemax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRisemax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRisemax_tab3.Location = New System.Drawing.Point(304, 142)
+        Me.txtRisemax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRisemax_tab3.Name = "txtRisemax_tab3"
+        Me.txtRisemax_tab3.Size = New System.Drawing.Size(79, 28)
+        Me.txtRisemax_tab3.TabIndex = 372
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(243, 114)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(38, 22)
+        Me.Label20.TabIndex = 373
+        Me.Label20.Text = "min"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(323, 114)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(43, 22)
+        Me.Label19.TabIndex = 374
+        Me.Label19.Text = "max"
+        '
+        'txtRisemin_tab3
+        '
+        Me.txtRisemin_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRisemin_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRisemin_tab3.Location = New System.Drawing.Point(219, 142)
+        Me.txtRisemin_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRisemin_tab3.Name = "txtRisemin_tab3"
+        Me.txtRisemin_tab3.Size = New System.Drawing.Size(79, 28)
+        Me.txtRisemin_tab3.TabIndex = 375
+        '
+        'txtFallmax_tab3
+        '
+        Me.txtFallmax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFallmax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFallmax_tab3.Location = New System.Drawing.Point(304, 180)
+        Me.txtFallmax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFallmax_tab3.Name = "txtFallmax_tab3"
+        Me.txtFallmax_tab3.Size = New System.Drawing.Size(79, 28)
+        Me.txtFallmax_tab3.TabIndex = 377
+        '
+        'txtFallmin_tab3
+        '
+        Me.txtFallmin_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFallmin_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFallmin_tab3.Location = New System.Drawing.Point(219, 180)
+        Me.txtFallmin_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFallmin_tab3.Name = "txtFallmin_tab3"
+        Me.txtFallmin_tab3.Size = New System.Drawing.Size(79, 28)
+        Me.txtFallmin_tab3.TabIndex = 378
+        '
+        'txtFbgLocktimemax_tab3
+        '
+        Me.txtFbgLocktimemax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFbgLocktimemax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFbgLocktimemax_tab3.Location = New System.Drawing.Point(304, 220)
+        Me.txtFbgLocktimemax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFbgLocktimemax_tab3.Name = "txtFbgLocktimemax_tab3"
+        Me.txtFbgLocktimemax_tab3.Size = New System.Drawing.Size(79, 28)
+        Me.txtFbgLocktimemax_tab3.TabIndex = 380
+        '
+        'txtFbgLocktimemin_tab3
+        '
+        Me.txtFbgLocktimemin_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFbgLocktimemin_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFbgLocktimemin_tab3.Location = New System.Drawing.Point(219, 220)
+        Me.txtFbgLocktimemin_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFbgLocktimemin_tab3.Name = "txtFbgLocktimemin_tab3"
+        Me.txtFbgLocktimemin_tab3.Size = New System.Drawing.Size(79, 28)
+        Me.txtFbgLocktimemin_tab3.TabIndex = 381
+        '
+        'txtSlewmax_tab3
+        '
+        Me.txtSlewmax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSlewmax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSlewmax_tab3.Location = New System.Drawing.Point(304, 266)
+        Me.txtSlewmax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSlewmax_tab3.Name = "txtSlewmax_tab3"
+        Me.txtSlewmax_tab3.Size = New System.Drawing.Size(79, 28)
+        Me.txtSlewmax_tab3.TabIndex = 383
+        '
+        'txtSlew_tab3
+        '
+        Me.txtSlew_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSlew_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSlew_tab3.Location = New System.Drawing.Point(219, 266)
+        Me.txtSlew_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSlew_tab3.Name = "txtSlew_tab3"
+        Me.txtSlew_tab3.Size = New System.Drawing.Size(79, 28)
+        Me.txtSlew_tab3.TabIndex = 384
+        '
+        'txtRiseStart_tab3
+        '
+        Me.txtRiseStart_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRiseStart_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRiseStart_tab3.Location = New System.Drawing.Point(500, 140)
+        Me.txtRiseStart_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRiseStart_tab3.Name = "txtRiseStart_tab3"
+        Me.txtRiseStart_tab3.Size = New System.Drawing.Size(42, 28)
+        Me.txtRiseStart_tab3.TabIndex = 386
+        '
+        'txtRiseStop_tab3
+        '
+        Me.txtRiseStop_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRiseStop_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRiseStop_tab3.Location = New System.Drawing.Point(660, 140)
+        Me.txtRiseStop_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRiseStop_tab3.Name = "txtRiseStop_tab3"
+        Me.txtRiseStop_tab3.Size = New System.Drawing.Size(42, 28)
+        Me.txtRiseStop_tab3.TabIndex = 388
+        '
+        'txtFallStart_tab3
+        '
+        Me.txtFallStart_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFallStart_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFallStart_tab3.Location = New System.Drawing.Point(500, 175)
+        Me.txtFallStart_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFallStart_tab3.Name = "txtFallStart_tab3"
+        Me.txtFallStart_tab3.Size = New System.Drawing.Size(42, 28)
+        Me.txtFallStart_tab3.TabIndex = 390
+        '
+        'txtFallStop_tab3
+        '
+        Me.txtFallStop_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFallStop_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFallStop_tab3.Location = New System.Drawing.Point(660, 175)
+        Me.txtFallStop_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFallStop_tab3.Name = "txtFallStop_tab3"
+        Me.txtFallStop_tab3.Size = New System.Drawing.Size(42, 28)
+        Me.txtFallStop_tab3.TabIndex = 392
+        '
+        'WaveFormJudge3
+        '
+        Me.WaveFormJudge3.Controls.Add(Me.Label12)
+        Me.WaveFormJudge3.Controls.Add(Me.Label13)
+        Me.WaveFormJudge3.Controls.Add(Me.Label14)
+        Me.WaveFormJudge3.Controls.Add(Me.Label15)
+        Me.WaveFormJudge3.Controls.Add(Me.Label16)
+        Me.WaveFormJudge3.Controls.Add(Me.Label17)
+        Me.WaveFormJudge3.Controls.Add(Me.Label18)
+        Me.WaveFormJudge3.Controls.Add(Me.Label21)
+        Me.WaveFormJudge3.Controls.Add(Me.Label22)
+        Me.WaveFormJudge3.Controls.Add(Me.txtFallStop_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtFallStart_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtRiseStop_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtRiseStart_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtSlew_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtSlewmax_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtFbgLocktimemin_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtFbgLocktimemax_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtFallmin_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtFallmax_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.txtRisemin_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.Label19)
+        Me.WaveFormJudge3.Controls.Add(Me.Label20)
+        Me.WaveFormJudge3.Controls.Add(Me.txtRisemax_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.cboSelect2_tab3)
+        Me.WaveFormJudge3.Controls.Add(Me.cboSelect1_tab3)
+        Me.WaveFormJudge3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.WaveFormJudge3.Location = New System.Drawing.Point(4, 31)
+        Me.WaveFormJudge3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.WaveFormJudge3.Name = "WaveFormJudge3"
+        Me.WaveFormJudge3.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.WaveFormJudge3.Size = New System.Drawing.Size(992, 603)
+        Me.WaveFormJudge3.TabIndex = 2
+        Me.WaveFormJudge3.Text = "WaveForm Judge3"
+        Me.WaveFormJudge3.UseVisualStyleBackColor = True
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(30, 223)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(186, 22)
+        Me.Label12.TabIndex = 403
+        Me.Label12.Text = "FBG Locking time [ns]"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(579, 178)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(78, 22)
+        Me.Label13.TabIndex = 402
+        Me.Label13.Text = "Stop [%]"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(418, 178)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(79, 22)
+        Me.Label14.TabIndex = 401
+        Me.Label14.Text = "Start [%]"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(579, 143)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(78, 22)
+        Me.Label15.TabIndex = 400
+        Me.Label15.Text = "Stop [%]"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(418, 143)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(79, 22)
+        Me.Label16.TabIndex = 399
+        Me.Label16.Text = "Start [%]"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(97, 269)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(119, 22)
+        Me.Label17.TabIndex = 398
+        Me.Label17.Text = "Slew rate [ns]"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(105, 183)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(111, 22)
+        Me.Label18.TabIndex = 397
+        Me.Label18.Text = "Fall time [ns]"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(98, 145)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(118, 22)
+        Me.Label21.TabIndex = 396
+        Me.Label21.Text = "Rise time [ns]"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(142, 72)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(60, 22)
+        Me.Label22.TabIndex = 395
+        Me.Label22.Text = "Select"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(30, 223)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(186, 22)
+        Me.Label23.TabIndex = 403
+        Me.Label23.Text = "FBG Locking time [ns]"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(579, 178)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(78, 22)
+        Me.Label24.TabIndex = 402
+        Me.Label24.Text = "Stop [%]"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(418, 178)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(79, 22)
+        Me.Label25.TabIndex = 401
+        Me.Label25.Text = "Start [%]"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(579, 143)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(78, 22)
+        Me.Label26.TabIndex = 400
+        Me.Label26.Text = "Stop [%]"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(418, 143)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(79, 22)
+        Me.Label27.TabIndex = 399
+        Me.Label27.Text = "Start [%]"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(97, 269)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(119, 22)
+        Me.Label28.TabIndex = 398
+        Me.Label28.Text = "Slew rate [ns]"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(105, 183)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(111, 22)
+        Me.Label29.TabIndex = 397
+        Me.Label29.Text = "Fall time [ns]"
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Location = New System.Drawing.Point(98, 145)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(118, 22)
+        Me.Label32.TabIndex = 396
+        Me.Label32.Text = "Rise time [ns]"
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(142, 72)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(60, 22)
+        Me.Label33.TabIndex = 395
+        Me.Label33.Text = "Select"
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.Location = New System.Drawing.Point(30, 223)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(186, 22)
+        Me.Label34.TabIndex = 403
+        Me.Label34.Text = "FBG Locking time [ns]"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.Location = New System.Drawing.Point(579, 178)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(78, 22)
+        Me.Label35.TabIndex = 402
+        Me.Label35.Text = "Stop [%]"
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Location = New System.Drawing.Point(418, 178)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(79, 22)
+        Me.Label36.TabIndex = 401
+        Me.Label36.Text = "Start [%]"
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Location = New System.Drawing.Point(579, 143)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(78, 22)
+        Me.Label37.TabIndex = 400
+        Me.Label37.Text = "Stop [%]"
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Location = New System.Drawing.Point(418, 143)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(79, 22)
+        Me.Label38.TabIndex = 399
+        Me.Label38.Text = "Start [%]"
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(97, 269)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(119, 22)
+        Me.Label39.TabIndex = 398
+        Me.Label39.Text = "Slew rate [ns]"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Location = New System.Drawing.Point(105, 183)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(111, 22)
+        Me.Label40.TabIndex = 397
+        Me.Label40.Text = "Fall time [ns]"
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Location = New System.Drawing.Point(98, 145)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(118, 22)
+        Me.Label43.TabIndex = 396
+        Me.Label43.Text = "Rise time [ns]"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Location = New System.Drawing.Point(142, 72)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(60, 22)
+        Me.Label44.TabIndex = 395
+        Me.Label44.Text = "Select"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label45.Location = New System.Drawing.Point(30, 223)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(186, 22)
+        Me.Label45.TabIndex = 403
+        Me.Label45.Text = "FBG Locking time [ns]"
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label46.Location = New System.Drawing.Point(579, 178)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(78, 22)
+        Me.Label46.TabIndex = 402
+        Me.Label46.Text = "Stop [%]"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.Location = New System.Drawing.Point(418, 178)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(79, 22)
+        Me.Label47.TabIndex = 401
+        Me.Label47.Text = "Start [%]"
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.Location = New System.Drawing.Point(579, 143)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(78, 22)
+        Me.Label48.TabIndex = 400
+        Me.Label48.Text = "Stop [%]"
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label49.Location = New System.Drawing.Point(418, 143)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(79, 22)
+        Me.Label49.TabIndex = 399
+        Me.Label49.Text = "Start [%]"
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Location = New System.Drawing.Point(97, 269)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(119, 22)
+        Me.Label50.TabIndex = 398
+        Me.Label50.Text = "Slew rate [ns]"
+        '
+        'Label51
+        '
+        Me.Label51.AutoSize = True
+        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label51.Location = New System.Drawing.Point(105, 183)
+        Me.Label51.Name = "Label51"
+        Me.Label51.Size = New System.Drawing.Size(111, 22)
+        Me.Label51.TabIndex = 397
+        Me.Label51.Text = "Fall time [ns]"
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label54.Location = New System.Drawing.Point(98, 145)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(118, 22)
+        Me.Label54.TabIndex = 396
+        Me.Label54.Text = "Rise time [ns]"
+        '
+        'Label55
+        '
+        Me.Label55.AutoSize = True
+        Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label55.Location = New System.Drawing.Point(142, 72)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(60, 22)
+        Me.Label55.TabIndex = 395
+        Me.Label55.Text = "Select"
+        '
         'frmWJudgment
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -1991,10 +1991,10 @@ Partial Class frmWJudgment
         Me.WaveFormJudge1.ResumeLayout(False)
         Me.WaveFormJudge1.PerformLayout()
         Me.txtFBGlockingTimemin_Page4.ResumeLayout(False)
-        Me.WaveFormJudge3.ResumeLayout(False)
-        Me.WaveFormJudge3.PerformLayout()
         Me.WaveFormJudge5.ResumeLayout(False)
         Me.WaveFormJudge5.PerformLayout()
+        Me.WaveFormJudge3.ResumeLayout(False)
+        Me.WaveFormJudge3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2004,7 +2004,6 @@ Partial Class frmWJudgment
     Friend WithEvents WaveFormJudge4 As TabPage
     Friend WithEvents WaveFormJudge1 As TabPage
     Friend WithEvents txtFBGlockingTimemin_Page4 As TabControl
-    Friend WithEvents WaveFormJudge3 As TabPage
     Friend WithEvents WaveFormJudge5 As TabPage
     Friend WithEvents txtFallStop_tab2 As TextBox
     Friend WithEvents Label1 As Label
@@ -2019,7 +2018,6 @@ Partial Class frmWJudgment
     Friend WithEvents Label5 As Label
     Friend WithEvents txtFbgLocktimemin_tab2 As TextBox
     Friend WithEvents txtFbgLocktimemax_tab2 As TextBox
-    Friend WithEvents Label6 As Label
     Friend WithEvents txtFallmin_tab2 As TextBox
     Friend WithEvents txtFallmax_tab2 As TextBox
     Friend WithEvents Label7 As Label
@@ -2044,7 +2042,6 @@ Partial Class frmWJudgment
     Friend WithEvents Label90 As Label
     Friend WithEvents txtFbgLocktimemin_tab1 As TextBox
     Friend WithEvents txtFbgLocktimemax_tab1 As TextBox
-    Friend WithEvents Label89 As Label
     Friend WithEvents txtFallmin_tab1 As TextBox
     Friend WithEvents txtFallmax_tab1 As TextBox
     Friend WithEvents Label88 As Label
@@ -2056,106 +2053,109 @@ Partial Class frmWJudgment
     Friend WithEvents cboSelect2_tab1 As ComboBox
     Friend WithEvents cboSelect1_tab1 As ComboBox
     Friend WithEvents Label102 As Label
-    Friend WithEvents txtFallStop_tab3 As TextBox
-    Friend WithEvents Label12 As Label
-    Friend WithEvents txtFallStart_tab3 As TextBox
-    Friend WithEvents Label13 As Label
-    Friend WithEvents txtRiseStop_tab3 As TextBox
-    Friend WithEvents Label14 As Label
-    Friend WithEvents txtRiseStart_tab3 As TextBox
-    Friend WithEvents Label15 As Label
-    Friend WithEvents txtSlew_tab3 As TextBox
-    Friend WithEvents txtSlewmax_tab3 As TextBox
-    Friend WithEvents Label16 As Label
-    Friend WithEvents txtFbgLocktimemin_tab3 As TextBox
-    Friend WithEvents txtFbgLocktimemax_tab3 As TextBox
-    Friend WithEvents Label17 As Label
-    Friend WithEvents txtFallmin_tab3 As TextBox
-    Friend WithEvents txtFallmax_tab3 As TextBox
-    Friend WithEvents Label18 As Label
-    Friend WithEvents txtRisemin_tab3 As TextBox
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Label20 As Label
-    Friend WithEvents txtRisemax_tab3 As TextBox
-    Friend WithEvents Label21 As Label
-    Friend WithEvents cboSelect2_tab3 As ComboBox
-    Friend WithEvents cboSelect1_tab3 As ComboBox
-    Friend WithEvents Label22 As Label
     Friend WithEvents txtFallStop_tab4 As TextBox
-    Friend WithEvents Label23 As Label
     Friend WithEvents txtFallStart_tab4 As TextBox
-    Friend WithEvents Label24 As Label
     Friend WithEvents txtRiseStop_tab4 As TextBox
-    Friend WithEvents Label25 As Label
     Friend WithEvents txtRiseStart_tab4 As TextBox
-    Friend WithEvents Label26 As Label
     Friend WithEvents txtSlew_tab4 As TextBox
     Friend WithEvents txtSlewmax_tab4 As TextBox
-    Friend WithEvents Label27 As Label
     Friend WithEvents txtFbgLocktimemin_tab4 As TextBox
     Friend WithEvents txtFbgLocktimemax_tab4 As TextBox
-    Friend WithEvents Label28 As Label
     Friend WithEvents txtFallmin_tab4 As TextBox
     Friend WithEvents txtFallmax_tab4 As TextBox
-    Friend WithEvents Label29 As Label
     Friend WithEvents txtRisemin_tab4 As TextBox
     Friend WithEvents Label30 As Label
     Friend WithEvents Label31 As Label
     Friend WithEvents txtRisemax_tab4 As TextBox
-    Friend WithEvents Label32 As Label
     Friend WithEvents cboSelect2_tab4 As ComboBox
     Friend WithEvents cboSelect1_tab4 As ComboBox
-    Friend WithEvents Label33 As Label
     Friend WithEvents txtFallStop_tab5 As TextBox
-    Friend WithEvents Label34 As Label
     Friend WithEvents txtFallStart_tab5 As TextBox
-    Friend WithEvents Label35 As Label
     Friend WithEvents txtRiseStop_tab5 As TextBox
-    Friend WithEvents Label36 As Label
     Friend WithEvents txtRiseStart_tab5 As TextBox
-    Friend WithEvents Label37 As Label
     Friend WithEvents txtSlew_tab5 As TextBox
     Friend WithEvents txtSlewmax_tab5 As TextBox
-    Friend WithEvents Label38 As Label
     Friend WithEvents txtFbgLocktimemin_tab5 As TextBox
     Friend WithEvents txtFbgLocktimemax_tab5 As TextBox
-    Friend WithEvents Label39 As Label
     Friend WithEvents txtFallmin_tab5 As TextBox
     Friend WithEvents txtFallmax_tab5 As TextBox
-    Friend WithEvents Label40 As Label
     Friend WithEvents txtRisemin_tab5 As TextBox
     Friend WithEvents Label41 As Label
     Friend WithEvents Label42 As Label
     Friend WithEvents txtRisemax_tab5 As TextBox
-    Friend WithEvents Label43 As Label
     Friend WithEvents cboSelect2_tab5 As ComboBox
     Friend WithEvents cboSelect1_tab5 As ComboBox
-    Friend WithEvents Label44 As Label
     Friend WithEvents txtFallStop_tab6 As TextBox
-    Friend WithEvents Label45 As Label
     Friend WithEvents txtFallStart_tab6 As TextBox
-    Friend WithEvents Label46 As Label
     Friend WithEvents txtRiseStop_tab6 As TextBox
-    Friend WithEvents Label47 As Label
     Friend WithEvents txtRiseStart_tab6 As TextBox
-    Friend WithEvents Label48 As Label
     Friend WithEvents txtSlew_tab6 As TextBox
     Friend WithEvents txtSlewmax_tab6 As TextBox
-    Friend WithEvents Label49 As Label
     Friend WithEvents txtFbgLocktimemin_tab6 As TextBox
     Friend WithEvents txtFbgLocktimemax_tab6 As TextBox
-    Friend WithEvents Label50 As Label
     Friend WithEvents txtFallmin_tab6 As TextBox
     Friend WithEvents txtFallmax_tab6 As TextBox
-    Friend WithEvents Label51 As Label
     Friend WithEvents txtRisemin_tab6 As TextBox
     Friend WithEvents Label52 As Label
     Friend WithEvents Label53 As Label
     Friend WithEvents txtRisemax_tab6 As TextBox
-    Friend WithEvents Label54 As Label
     Friend WithEvents cboSelect2_tab6 As ComboBox
     Friend WithEvents cboSelect1_tab6 As ComboBox
-    Friend WithEvents Label55 As Label
     Friend WithEvents btnCancleILm As Button
     Friend WithEvents btnSaveWj As Button
+    Friend WithEvents Label56 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label32 As Label
+    Friend WithEvents Label33 As Label
+    Friend WithEvents WaveFormJudge3 As TabPage
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents txtFallStop_tab3 As TextBox
+    Friend WithEvents txtFallStart_tab3 As TextBox
+    Friend WithEvents txtRiseStop_tab3 As TextBox
+    Friend WithEvents txtRiseStart_tab3 As TextBox
+    Friend WithEvents txtSlew_tab3 As TextBox
+    Friend WithEvents txtSlewmax_tab3 As TextBox
+    Friend WithEvents txtFbgLocktimemin_tab3 As TextBox
+    Friend WithEvents txtFbgLocktimemax_tab3 As TextBox
+    Friend WithEvents txtFallmin_tab3 As TextBox
+    Friend WithEvents txtFallmax_tab3 As TextBox
+    Friend WithEvents txtRisemin_tab3 As TextBox
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents txtRisemax_tab3 As TextBox
+    Friend WithEvents cboSelect2_tab3 As ComboBox
+    Friend WithEvents cboSelect1_tab3 As ComboBox
+    Friend WithEvents Label45 As Label
+    Friend WithEvents Label46 As Label
+    Friend WithEvents Label47 As Label
+    Friend WithEvents Label48 As Label
+    Friend WithEvents Label49 As Label
+    Friend WithEvents Label50 As Label
+    Friend WithEvents Label51 As Label
+    Friend WithEvents Label54 As Label
+    Friend WithEvents Label55 As Label
+    Friend WithEvents Label34 As Label
+    Friend WithEvents Label35 As Label
+    Friend WithEvents Label36 As Label
+    Friend WithEvents Label37 As Label
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents Label40 As Label
+    Friend WithEvents Label43 As Label
+    Friend WithEvents Label44 As Label
 End Class

@@ -262,4 +262,5 @@
         txtSlew_tab6.Text = Judge_Data.Wave6.SlewRate_Min.ToString()
         txtSlewmax_tab6.Text = Judge_Data.Wave6.SlewRate_Max.ToString()
     End Sub
+
 End Class

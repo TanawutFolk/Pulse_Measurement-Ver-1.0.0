@@ -24,6 +24,17 @@ Partial Class frmILMeasurement
     Private Sub InitializeComponent()
         Me.tabsSweep = New System.Windows.Forms.TabControl()
         Me.ILSweep1 = New System.Windows.Forms.TabPage()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
         Me.Label241 = New System.Windows.Forms.Label()
         Me.txtImdiv_tab1 = New System.Windows.Forms.TextBox()
         Me.txtImscale_tab1 = New System.Windows.Forms.TextBox()
@@ -86,6 +97,9 @@ Partial Class frmILMeasurement
         Me.Label38 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.ILSweep2 = New System.Windows.Forms.TabPage()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.Label71 = New System.Windows.Forms.Label()
+        Me.Label204 = New System.Windows.Forms.Label()
         Me.Label232 = New System.Windows.Forms.Label()
         Me.Label233 = New System.Windows.Forms.Label()
         Me.Label234 = New System.Windows.Forms.Label()
@@ -156,6 +170,9 @@ Partial Class frmILMeasurement
         Me.txStep_tab2 = New System.Windows.Forms.TextBox()
         Me.txtStart_tab2 = New System.Windows.Forms.TextBox()
         Me.ILSweep3 = New System.Windows.Forms.TabPage()
+        Me.Label90 = New System.Windows.Forms.Label()
+        Me.Label107 = New System.Windows.Forms.Label()
+        Me.Label120 = New System.Windows.Forms.Label()
         Me.Label41 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Label43 = New System.Windows.Forms.Label()
@@ -226,6 +243,9 @@ Partial Class frmILMeasurement
         Me.txStep_tab3 = New System.Windows.Forms.TextBox()
         Me.txtStart_tab3 = New System.Windows.Forms.TextBox()
         Me.ILSweep4 = New System.Windows.Forms.TabPage()
+        Me.Label130 = New System.Windows.Forms.Label()
+        Me.Label147 = New System.Windows.Forms.Label()
+        Me.Label160 = New System.Windows.Forms.Label()
         Me.Label81 = New System.Windows.Forms.Label()
         Me.Label82 = New System.Windows.Forms.Label()
         Me.Label83 = New System.Windows.Forms.Label()
@@ -296,6 +316,9 @@ Partial Class frmILMeasurement
         Me.txStep_tab4 = New System.Windows.Forms.TextBox()
         Me.txtStart_tab4 = New System.Windows.Forms.TextBox()
         Me.ILSweep5 = New System.Windows.Forms.TabPage()
+        Me.Label170 = New System.Windows.Forms.Label()
+        Me.Label187 = New System.Windows.Forms.Label()
+        Me.Label200 = New System.Windows.Forms.Label()
         Me.Label121 = New System.Windows.Forms.Label()
         Me.Label122 = New System.Windows.Forms.Label()
         Me.Label123 = New System.Windows.Forms.Label()
@@ -440,29 +463,6 @@ Partial Class frmILMeasurement
         Me.Label240 = New System.Windows.Forms.Label()
         Me.btnCancleILm = New System.Windows.Forms.Button()
         Me.btnSaveILm = New System.Windows.Forms.Button()
-        Me.Label170 = New System.Windows.Forms.Label()
-        Me.Label187 = New System.Windows.Forms.Label()
-        Me.Label200 = New System.Windows.Forms.Label()
-        Me.Label130 = New System.Windows.Forms.Label()
-        Me.Label147 = New System.Windows.Forms.Label()
-        Me.Label160 = New System.Windows.Forms.Label()
-        Me.Label90 = New System.Windows.Forms.Label()
-        Me.Label107 = New System.Windows.Forms.Label()
-        Me.Label120 = New System.Windows.Forms.Label()
-        Me.Label54 = New System.Windows.Forms.Label()
-        Me.Label71 = New System.Windows.Forms.Label()
-        Me.Label204 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
         Me.tabsSweep.SuspendLayout()
         Me.ILSweep1.SuspendLayout()
         Me.ILSweep2.SuspendLayout()
@@ -573,6 +573,119 @@ Partial Class frmILMeasurement
         Me.ILSweep1.TabIndex = 0
         Me.ILSweep1.Text = "IL Sweep1"
         Me.ILSweep1.UseVisualStyleBackColor = True
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(560, 342)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(41, 22)
+        Me.Label11.TabIndex = 340
+        Me.Label11.Text = "mW"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(560, 306)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(41, 22)
+        Me.Label12.TabIndex = 339
+        Me.Label12.Text = "mW"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(560, 272)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(26, 22)
+        Me.Label13.TabIndex = 338
+        Me.Label13.Text = "%"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(560, 235)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(41, 22)
+        Me.Label14.TabIndex = 337
+        Me.Label14.Text = "mW"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(560, 202)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(36, 22)
+        Me.Label15.TabIndex = 336
+        Me.Label15.Text = "mA"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(560, 169)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(26, 22)
+        Me.Label16.TabIndex = 335
+        Me.Label16.Text = "%"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(560, 132)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(41, 22)
+        Me.Label17.TabIndex = 334
+        Me.Label17.Text = "mW"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(560, 100)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(36, 22)
+        Me.Label18.TabIndex = 333
+        Me.Label18.Text = "mA"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label10.Location = New System.Drawing.Point(750, 56)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(134, 22)
+        Me.Label10.TabIndex = 332
+        Me.Label10.Text = "if Sweep Graph"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label27.Location = New System.Drawing.Point(488, 56)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(68, 22)
+        Me.Label27.TabIndex = 331
+        Me.Label27.Text = "IL point"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label40.Location = New System.Drawing.Point(219, 56)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(79, 22)
+        Me.Label40.TabIndex = 330
+        Me.Label40.Text = "If Sweep"
         '
         'Label241
         '
@@ -1269,6 +1382,39 @@ Partial Class frmILMeasurement
         Me.ILSweep2.TabIndex = 1
         Me.ILSweep2.Text = "IL Sweep2"
         Me.ILSweep2.UseVisualStyleBackColor = True
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label54.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label54.Location = New System.Drawing.Point(750, 56)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(134, 22)
+        Me.Label54.TabIndex = 359
+        Me.Label54.Text = "if Sweep Graph"
+        '
+        'Label71
+        '
+        Me.Label71.AutoSize = True
+        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label71.Location = New System.Drawing.Point(488, 56)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(68, 22)
+        Me.Label71.TabIndex = 358
+        Me.Label71.Text = "IL point"
+        '
+        'Label204
+        '
+        Me.Label204.AutoSize = True
+        Me.Label204.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label204.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label204.Location = New System.Drawing.Point(219, 56)
+        Me.Label204.Name = "Label204"
+        Me.Label204.Size = New System.Drawing.Size(79, 22)
+        Me.Label204.TabIndex = 357
+        Me.Label204.Text = "If Sweep"
         '
         'Label232
         '
@@ -2046,6 +2192,39 @@ Partial Class frmILMeasurement
         Me.ILSweep3.Text = "IL Sweep3"
         Me.ILSweep3.UseVisualStyleBackColor = True
         '
+        'Label90
+        '
+        Me.Label90.AutoSize = True
+        Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label90.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label90.Location = New System.Drawing.Point(750, 56)
+        Me.Label90.Name = "Label90"
+        Me.Label90.Size = New System.Drawing.Size(134, 22)
+        Me.Label90.TabIndex = 359
+        Me.Label90.Text = "if Sweep Graph"
+        '
+        'Label107
+        '
+        Me.Label107.AutoSize = True
+        Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label107.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label107.Location = New System.Drawing.Point(488, 56)
+        Me.Label107.Name = "Label107"
+        Me.Label107.Size = New System.Drawing.Size(68, 22)
+        Me.Label107.TabIndex = 358
+        Me.Label107.Text = "IL point"
+        '
+        'Label120
+        '
+        Me.Label120.AutoSize = True
+        Me.Label120.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label120.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label120.Location = New System.Drawing.Point(219, 56)
+        Me.Label120.Name = "Label120"
+        Me.Label120.Size = New System.Drawing.Size(79, 22)
+        Me.Label120.TabIndex = 357
+        Me.Label120.Text = "If Sweep"
+        '
         'Label41
         '
         Me.Label41.AutoSize = True
@@ -2822,6 +3001,39 @@ Partial Class frmILMeasurement
         Me.ILSweep4.Text = "IL Sweep4"
         Me.ILSweep4.UseVisualStyleBackColor = True
         '
+        'Label130
+        '
+        Me.Label130.AutoSize = True
+        Me.Label130.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label130.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label130.Location = New System.Drawing.Point(750, 56)
+        Me.Label130.Name = "Label130"
+        Me.Label130.Size = New System.Drawing.Size(134, 22)
+        Me.Label130.TabIndex = 359
+        Me.Label130.Text = "if Sweep Graph"
+        '
+        'Label147
+        '
+        Me.Label147.AutoSize = True
+        Me.Label147.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label147.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label147.Location = New System.Drawing.Point(488, 56)
+        Me.Label147.Name = "Label147"
+        Me.Label147.Size = New System.Drawing.Size(68, 22)
+        Me.Label147.TabIndex = 358
+        Me.Label147.Text = "IL point"
+        '
+        'Label160
+        '
+        Me.Label160.AutoSize = True
+        Me.Label160.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label160.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label160.Location = New System.Drawing.Point(219, 56)
+        Me.Label160.Name = "Label160"
+        Me.Label160.Size = New System.Drawing.Size(79, 22)
+        Me.Label160.TabIndex = 357
+        Me.Label160.Text = "If Sweep"
+        '
         'Label81
         '
         Me.Label81.AutoSize = True
@@ -3597,6 +3809,39 @@ Partial Class frmILMeasurement
         Me.ILSweep5.TabIndex = 4
         Me.ILSweep5.Text = "IL Sweep5"
         Me.ILSweep5.UseVisualStyleBackColor = True
+        '
+        'Label170
+        '
+        Me.Label170.AutoSize = True
+        Me.Label170.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label170.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label170.Location = New System.Drawing.Point(750, 56)
+        Me.Label170.Name = "Label170"
+        Me.Label170.Size = New System.Drawing.Size(134, 22)
+        Me.Label170.TabIndex = 359
+        Me.Label170.Text = "if Sweep Graph"
+        '
+        'Label187
+        '
+        Me.Label187.AutoSize = True
+        Me.Label187.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label187.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label187.Location = New System.Drawing.Point(488, 56)
+        Me.Label187.Name = "Label187"
+        Me.Label187.Size = New System.Drawing.Size(68, 22)
+        Me.Label187.TabIndex = 358
+        Me.Label187.Text = "IL point"
+        '
+        'Label200
+        '
+        Me.Label200.AutoSize = True
+        Me.Label200.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label200.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label200.Location = New System.Drawing.Point(219, 56)
+        Me.Label200.Name = "Label200"
+        Me.Label200.Size = New System.Drawing.Size(79, 22)
+        Me.Label200.TabIndex = 357
+        Me.Label200.Text = "If Sweep"
         '
         'Label121
         '
@@ -5120,251 +5365,6 @@ Partial Class frmILMeasurement
         Me.btnSaveILm.TabIndex = 465
         Me.btnSaveILm.Text = "Save"
         Me.btnSaveILm.UseVisualStyleBackColor = True
-        '
-        'Label170
-        '
-        Me.Label170.AutoSize = True
-        Me.Label170.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label170.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label170.Location = New System.Drawing.Point(750, 56)
-        Me.Label170.Name = "Label170"
-        Me.Label170.Size = New System.Drawing.Size(134, 22)
-        Me.Label170.TabIndex = 359
-        Me.Label170.Text = "if Sweep Graph"
-        '
-        'Label187
-        '
-        Me.Label187.AutoSize = True
-        Me.Label187.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label187.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label187.Location = New System.Drawing.Point(488, 56)
-        Me.Label187.Name = "Label187"
-        Me.Label187.Size = New System.Drawing.Size(68, 22)
-        Me.Label187.TabIndex = 358
-        Me.Label187.Text = "IL point"
-        '
-        'Label200
-        '
-        Me.Label200.AutoSize = True
-        Me.Label200.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label200.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label200.Location = New System.Drawing.Point(219, 56)
-        Me.Label200.Name = "Label200"
-        Me.Label200.Size = New System.Drawing.Size(79, 22)
-        Me.Label200.TabIndex = 357
-        Me.Label200.Text = "If Sweep"
-        '
-        'Label130
-        '
-        Me.Label130.AutoSize = True
-        Me.Label130.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label130.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label130.Location = New System.Drawing.Point(750, 56)
-        Me.Label130.Name = "Label130"
-        Me.Label130.Size = New System.Drawing.Size(134, 22)
-        Me.Label130.TabIndex = 359
-        Me.Label130.Text = "if Sweep Graph"
-        '
-        'Label147
-        '
-        Me.Label147.AutoSize = True
-        Me.Label147.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label147.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label147.Location = New System.Drawing.Point(488, 56)
-        Me.Label147.Name = "Label147"
-        Me.Label147.Size = New System.Drawing.Size(68, 22)
-        Me.Label147.TabIndex = 358
-        Me.Label147.Text = "IL point"
-        '
-        'Label160
-        '
-        Me.Label160.AutoSize = True
-        Me.Label160.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label160.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label160.Location = New System.Drawing.Point(219, 56)
-        Me.Label160.Name = "Label160"
-        Me.Label160.Size = New System.Drawing.Size(79, 22)
-        Me.Label160.TabIndex = 357
-        Me.Label160.Text = "If Sweep"
-        '
-        'Label90
-        '
-        Me.Label90.AutoSize = True
-        Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label90.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label90.Location = New System.Drawing.Point(750, 56)
-        Me.Label90.Name = "Label90"
-        Me.Label90.Size = New System.Drawing.Size(134, 22)
-        Me.Label90.TabIndex = 359
-        Me.Label90.Text = "if Sweep Graph"
-        '
-        'Label107
-        '
-        Me.Label107.AutoSize = True
-        Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label107.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label107.Location = New System.Drawing.Point(488, 56)
-        Me.Label107.Name = "Label107"
-        Me.Label107.Size = New System.Drawing.Size(68, 22)
-        Me.Label107.TabIndex = 358
-        Me.Label107.Text = "IL point"
-        '
-        'Label120
-        '
-        Me.Label120.AutoSize = True
-        Me.Label120.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label120.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label120.Location = New System.Drawing.Point(219, 56)
-        Me.Label120.Name = "Label120"
-        Me.Label120.Size = New System.Drawing.Size(79, 22)
-        Me.Label120.TabIndex = 357
-        Me.Label120.Text = "If Sweep"
-        '
-        'Label54
-        '
-        Me.Label54.AutoSize = True
-        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label54.Location = New System.Drawing.Point(750, 56)
-        Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(134, 22)
-        Me.Label54.TabIndex = 359
-        Me.Label54.Text = "if Sweep Graph"
-        '
-        'Label71
-        '
-        Me.Label71.AutoSize = True
-        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label71.Location = New System.Drawing.Point(488, 56)
-        Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(68, 22)
-        Me.Label71.TabIndex = 358
-        Me.Label71.Text = "IL point"
-        '
-        'Label204
-        '
-        Me.Label204.AutoSize = True
-        Me.Label204.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label204.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label204.Location = New System.Drawing.Point(219, 56)
-        Me.Label204.Name = "Label204"
-        Me.Label204.Size = New System.Drawing.Size(79, 22)
-        Me.Label204.TabIndex = 357
-        Me.Label204.Text = "If Sweep"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label10.Location = New System.Drawing.Point(750, 56)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(134, 22)
-        Me.Label10.TabIndex = 332
-        Me.Label10.Text = "if Sweep Graph"
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label27.Location = New System.Drawing.Point(488, 56)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(68, 22)
-        Me.Label27.TabIndex = 331
-        Me.Label27.Text = "IL point"
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label40.Location = New System.Drawing.Point(219, 56)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(79, 22)
-        Me.Label40.TabIndex = 330
-        Me.Label40.Text = "If Sweep"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(560, 342)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(41, 22)
-        Me.Label11.TabIndex = 340
-        Me.Label11.Text = "mW"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(560, 306)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(41, 22)
-        Me.Label12.TabIndex = 339
-        Me.Label12.Text = "mW"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(560, 272)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(26, 22)
-        Me.Label13.TabIndex = 338
-        Me.Label13.Text = "%"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(560, 235)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(41, 22)
-        Me.Label14.TabIndex = 337
-        Me.Label14.Text = "mW"
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(560, 202)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(36, 22)
-        Me.Label15.TabIndex = 336
-        Me.Label15.Text = "mA"
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(560, 169)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(26, 22)
-        Me.Label16.TabIndex = 335
-        Me.Label16.Text = "%"
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(560, 132)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(41, 22)
-        Me.Label17.TabIndex = 334
-        Me.Label17.Text = "mW"
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(560, 100)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(36, 22)
-        Me.Label18.TabIndex = 333
-        Me.Label18.Text = "mA"
         '
         'frmILMeasurement
         '

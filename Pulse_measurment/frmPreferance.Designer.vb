@@ -318,7 +318,7 @@ Partial Class frmPreferance
         '
         Me.txtKey34416A_Digitlmultimeter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtKey34416A_Digitlmultimeter.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKey34416A_Digitlmultimeter.Location = New System.Drawing.Point(311, 288)
+        Me.txtKey34416A_Digitlmultimeter.Location = New System.Drawing.Point(297, 288)
         Me.txtKey34416A_Digitlmultimeter.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtKey34416A_Digitlmultimeter.Name = "txtKey34416A_Digitlmultimeter"
         Me.txtKey34416A_Digitlmultimeter.Size = New System.Drawing.Size(126, 28)
@@ -328,7 +328,7 @@ Partial Class frmPreferance
         '
         Me.txtSYSTEMAT_845TempControlBase.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSYSTEMAT_845TempControlBase.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSYSTEMAT_845TempControlBase.Location = New System.Drawing.Point(311, 249)
+        Me.txtSYSTEMAT_845TempControlBase.Location = New System.Drawing.Point(297, 249)
         Me.txtSYSTEMAT_845TempControlBase.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSYSTEMAT_845TempControlBase.Name = "txtSYSTEMAT_845TempControlBase"
         Me.txtSYSTEMAT_845TempControlBase.Size = New System.Drawing.Size(126, 28)
@@ -338,7 +338,7 @@ Partial Class frmPreferance
         '
         Me.txtDSO_X_4154GOsciloscope.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDSO_X_4154GOsciloscope.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDSO_X_4154GOsciloscope.Location = New System.Drawing.Point(311, 208)
+        Me.txtDSO_X_4154GOsciloscope.Location = New System.Drawing.Point(297, 208)
         Me.txtDSO_X_4154GOsciloscope.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDSO_X_4154GOsciloscope.Name = "txtDSO_X_4154GOsciloscope"
         Me.txtDSO_X_4154GOsciloscope.Size = New System.Drawing.Size(126, 28)
@@ -348,7 +348,7 @@ Partial Class frmPreferance
         '
         Me.txtAQ2211_Opticswich.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAQ2211_Opticswich.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAQ2211_Opticswich.Location = New System.Drawing.Point(311, 167)
+        Me.txtAQ2211_Opticswich.Location = New System.Drawing.Point(297, 167)
         Me.txtAQ2211_Opticswich.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAQ2211_Opticswich.Name = "txtAQ2211_Opticswich"
         Me.txtAQ2211_Opticswich.Size = New System.Drawing.Size(126, 28)
@@ -358,7 +358,7 @@ Partial Class frmPreferance
         '
         Me.txtOVA_100_OpticAttenua.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOVA_100_OpticAttenua.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtOVA_100_OpticAttenua.Location = New System.Drawing.Point(311, 127)
+        Me.txtOVA_100_OpticAttenua.Location = New System.Drawing.Point(297, 127)
         Me.txtOVA_100_OpticAttenua.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtOVA_100_OpticAttenua.Name = "txtOVA_100_OpticAttenua"
         Me.txtOVA_100_OpticAttenua.Size = New System.Drawing.Size(126, 28)
@@ -368,7 +368,7 @@ Partial Class frmPreferance
         '
         Me.txtAQ6370D_OpticspAnalyz.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAQ6370D_OpticspAnalyz.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAQ6370D_OpticspAnalyz.Location = New System.Drawing.Point(311, 86)
+        Me.txtAQ6370D_OpticspAnalyz.Location = New System.Drawing.Point(297, 86)
         Me.txtAQ6370D_OpticspAnalyz.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAQ6370D_OpticspAnalyz.Name = "txtAQ6370D_OpticspAnalyz"
         Me.txtAQ6370D_OpticspAnalyz.Size = New System.Drawing.Size(126, 28)
@@ -378,7 +378,7 @@ Partial Class frmPreferance
         '
         Me.txtLDT_5910CTempControlLD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtLDT_5910CTempControlLD.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLDT_5910CTempControlLD.Location = New System.Drawing.Point(311, 41)
+        Me.txtLDT_5910CTempControlLD.Location = New System.Drawing.Point(297, 41)
         Me.txtLDT_5910CTempControlLD.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtLDT_5910CTempControlLD.Name = "txtLDT_5910CTempControlLD"
         Me.txtLDT_5910CTempControlLD.Size = New System.Drawing.Size(126, 28)
@@ -1382,7 +1382,7 @@ Partial Class frmPreferance
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label29.Location = New System.Drawing.Point(40, 278)
+        Me.Label29.Location = New System.Drawing.Point(161, 278)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(164, 22)
         Me.Label29.TabIndex = 238
@@ -1487,7 +1487,7 @@ Partial Class frmPreferance
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label26.Location = New System.Drawing.Point(40, 41)
+        Me.Label26.Location = New System.Drawing.Point(193, 41)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(91, 22)
         Me.Label26.TabIndex = 227

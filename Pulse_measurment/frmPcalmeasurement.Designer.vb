@@ -33,7 +33,7 @@ Partial Class frmPcalmeasurement
         'btnRemeasurement
         '
         Me.btnRemeasurement.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnRemeasurement.Location = New System.Drawing.Point(12, 150)
+        Me.btnRemeasurement.Location = New System.Drawing.Point(24, 150)
         Me.btnRemeasurement.Name = "btnRemeasurement"
         Me.btnRemeasurement.Size = New System.Drawing.Size(193, 39)
         Me.btnRemeasurement.TabIndex = 0
@@ -43,7 +43,7 @@ Partial Class frmPcalmeasurement
         'btnCancle
         '
         Me.btnCancle.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancle.Location = New System.Drawing.Point(211, 150)
+        Me.btnCancle.Location = New System.Drawing.Point(223, 150)
         Me.btnCancle.Name = "btnCancle"
         Me.btnCancle.Size = New System.Drawing.Size(121, 39)
         Me.btnCancle.TabIndex = 1
@@ -53,37 +53,37 @@ Partial Class frmPcalmeasurement
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(168, 60)
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(168, 77)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(78, 32)
+        Me.Label1.Size = New System.Drawing.Size(82, 34)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Pcal:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(333, 60)
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(333, 77)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(63, 32)
+        Me.Label2.Size = New System.Drawing.Size(66, 34)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "mW"
         '
         'lblPcalmW
         '
         Me.lblPcalmW.AutoSize = True
-        Me.lblPcalmW.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPcalmW.Location = New System.Drawing.Point(258, 60)
+        Me.lblPcalmW.Font = New System.Drawing.Font("Century Gothic", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPcalmW.Location = New System.Drawing.Point(258, 77)
         Me.lblPcalmW.Name = "lblPcalmW"
-        Me.lblPcalmW.Size = New System.Drawing.Size(62, 32)
+        Me.lblPcalmW.Size = New System.Drawing.Size(63, 34)
         Me.lblPcalmW.TabIndex = 5
         Me.lblPcalmW.Text = "000"
         '
         'btnNextprocedure
         '
         Me.btnNextprocedure.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnNextprocedure.Location = New System.Drawing.Point(338, 150)
+        Me.btnNextprocedure.Location = New System.Drawing.Point(350, 150)
         Me.btnNextprocedure.Name = "btnNextprocedure"
         Me.btnNextprocedure.Size = New System.Drawing.Size(219, 39)
         Me.btnNextprocedure.TabIndex = 6
