@@ -602,7 +602,7 @@ Partial Class frmTemperatureControl
         Me.Controls.Add(Me.Label2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmTemperatureControl"
-        Me.Text = "frmTemperatureControl"
+        Me.Text = "Temperature Control"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

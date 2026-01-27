@@ -92,7 +92,7 @@ Partial Class frmAbout
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "frmAbout"
-        Me.Text = "frmAbout"
+        Me.Text = "About Pulse Measurement"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

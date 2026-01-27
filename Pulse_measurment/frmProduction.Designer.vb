@@ -1002,7 +1002,7 @@ Partial Class frmProduction
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(10, 10)
         Me.AutoScrollMinSize = New System.Drawing.Size(10, 30)
-        Me.ClientSize = New System.Drawing.Size(1069, 968)
+        Me.ClientSize = New System.Drawing.Size(1069, 1017)
         Me.Controls.Add(Me.btnMeasureIL_condition)
         Me.Controls.Add(Me.cbMeasureIL2)
         Me.Controls.Add(Me.cbMeasureIL6)
@@ -1085,7 +1085,7 @@ Partial Class frmProduction
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "frmProduction"
-        Me.Text = " ,"
+        Me.Text = "Production Pulse Measurement"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
