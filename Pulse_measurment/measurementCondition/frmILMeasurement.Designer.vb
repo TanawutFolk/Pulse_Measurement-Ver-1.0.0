@@ -578,7 +578,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImdiv_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImdiv_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImdiv_tab1.Location = New System.Drawing.Point(847, 373)
+        Me.txtImdiv_tab1.Location = New System.Drawing.Point(847, 345)
         Me.txtImdiv_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImdiv_tab1.Name = "txtImdiv_tab1"
         Me.txtImdiv_tab1.Size = New System.Drawing.Size(63, 28)
@@ -588,7 +588,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImscale_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImscale_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImscale_tab1.Location = New System.Drawing.Point(777, 373)
+        Me.txtImscale_tab1.Location = New System.Drawing.Point(777, 345)
         Me.txtImscale_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImscale_tab1.Name = "txtImscale_tab1"
         Me.txtImscale_tab1.Size = New System.Drawing.Size(63, 28)
@@ -598,7 +598,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRddiv_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRddiv_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRddiv_tab1.Location = New System.Drawing.Point(847, 327)
+        Me.txtRddiv_tab1.Location = New System.Drawing.Point(847, 299)
         Me.txtRddiv_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRddiv_tab1.Name = "txtRddiv_tab1"
         Me.txtRddiv_tab1.Size = New System.Drawing.Size(63, 28)
@@ -608,7 +608,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRdscale_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRdscale_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRdscale_tab1.Location = New System.Drawing.Point(777, 327)
+        Me.txtRdscale_tab1.Location = New System.Drawing.Point(777, 299)
         Me.txtRdscale_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRdscale_tab1.Name = "txtRdscale_tab1"
         Me.txtRdscale_tab1.Size = New System.Drawing.Size(63, 28)
@@ -618,7 +618,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSediv_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSediv_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSediv_tab1.Location = New System.Drawing.Point(847, 283)
+        Me.txtSediv_tab1.Location = New System.Drawing.Point(847, 255)
         Me.txtSediv_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSediv_tab1.Name = "txtSediv_tab1"
         Me.txtSediv_tab1.Size = New System.Drawing.Size(63, 28)
@@ -628,7 +628,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSescale_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSescale_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSescale_tab1.Location = New System.Drawing.Point(777, 283)
+        Me.txtSescale_tab1.Location = New System.Drawing.Point(777, 255)
         Me.txtSescale_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSescale_tab1.Name = "txtSescale_tab1"
         Me.txtSescale_tab1.Size = New System.Drawing.Size(63, 28)
@@ -638,7 +638,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPodiv_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPodiv_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPodiv_tab1.Location = New System.Drawing.Point(847, 239)
+        Me.txtPodiv_tab1.Location = New System.Drawing.Point(847, 211)
         Me.txtPodiv_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPodiv_tab1.Name = "txtPodiv_tab1"
         Me.txtPodiv_tab1.Size = New System.Drawing.Size(63, 28)
@@ -648,7 +648,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoscale_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoscale_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoscale_tab1.Location = New System.Drawing.Point(777, 239)
+        Me.txtPoscale_tab1.Location = New System.Drawing.Point(777, 211)
         Me.txtPoscale_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoscale_tab1.Name = "txtPoscale_tab1"
         Me.txtPoscale_tab1.Size = New System.Drawing.Size(63, 28)
@@ -658,7 +658,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfdiv_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfdiv_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfdiv_tab1.Location = New System.Drawing.Point(847, 194)
+        Me.txtVfdiv_tab1.Location = New System.Drawing.Point(847, 166)
         Me.txtVfdiv_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfdiv_tab1.Name = "txtVfdiv_tab1"
         Me.txtVfdiv_tab1.Size = New System.Drawing.Size(63, 28)
@@ -668,7 +668,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfscale_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfscale_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfscale_tab1.Location = New System.Drawing.Point(777, 194)
+        Me.txtVfscale_tab1.Location = New System.Drawing.Point(777, 166)
         Me.txtVfscale_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfscale_tab1.Name = "txtVfscale_tab1"
         Me.txtVfscale_tab1.Size = New System.Drawing.Size(63, 28)
@@ -678,7 +678,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfdiv_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfdiv_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfdiv_tab1.Location = New System.Drawing.Point(847, 153)
+        Me.txtIfdiv_tab1.Location = New System.Drawing.Point(847, 125)
         Me.txtIfdiv_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfdiv_tab1.Name = "txtIfdiv_tab1"
         Me.txtIfdiv_tab1.Size = New System.Drawing.Size(63, 28)
@@ -688,7 +688,7 @@ Partial Class frmILMeasurement
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(683, 377)
+        Me.Label1.Location = New System.Drawing.Point(683, 349)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(69, 22)
         Me.Label1.TabIndex = 317
@@ -698,7 +698,7 @@ Partial Class frmILMeasurement
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(683, 332)
+        Me.Label2.Location = New System.Drawing.Point(683, 304)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(82, 22)
         Me.Label2.TabIndex = 316
@@ -708,7 +708,7 @@ Partial Class frmILMeasurement
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(683, 288)
+        Me.Label3.Location = New System.Drawing.Point(683, 260)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(83, 22)
         Me.Label3.TabIndex = 315
@@ -718,7 +718,7 @@ Partial Class frmILMeasurement
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(683, 242)
+        Me.Label4.Location = New System.Drawing.Point(683, 214)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(78, 22)
         Me.Label4.TabIndex = 314
@@ -728,7 +728,7 @@ Partial Class frmILMeasurement
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(683, 197)
+        Me.Label5.Location = New System.Drawing.Point(683, 169)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(68, 22)
         Me.Label5.TabIndex = 313
@@ -738,7 +738,7 @@ Partial Class frmILMeasurement
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(857, 126)
+        Me.Label6.Location = New System.Drawing.Point(857, 98)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(36, 22)
         Me.Label6.TabIndex = 312
@@ -748,7 +748,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfscale_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfscale_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfscale_tab1.Location = New System.Drawing.Point(777, 153)
+        Me.txtIfscale_tab1.Location = New System.Drawing.Point(777, 125)
         Me.txtIfscale_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfscale_tab1.Name = "txtIfscale_tab1"
         Me.txtIfscale_tab1.Size = New System.Drawing.Size(63, 28)
@@ -758,7 +758,7 @@ Partial Class frmILMeasurement
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(683, 159)
+        Me.Label7.Location = New System.Drawing.Point(683, 131)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(60, 22)
         Me.Label7.TabIndex = 310
@@ -768,7 +768,7 @@ Partial Class frmILMeasurement
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(783, 126)
+        Me.Label8.Location = New System.Drawing.Point(783, 98)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(55, 22)
         Me.Label8.TabIndex = 309
@@ -778,7 +778,7 @@ Partial Class frmILMeasurement
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(683, 126)
+        Me.Label9.Location = New System.Drawing.Point(683, 98)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(43, 22)
         Me.Label9.TabIndex = 308
@@ -789,7 +789,7 @@ Partial Class frmILMeasurement
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label10.Location = New System.Drawing.Point(676, 84)
+        Me.Label10.Location = New System.Drawing.Point(676, 56)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(134, 22)
         Me.Label10.TabIndex = 307
@@ -799,7 +799,7 @@ Partial Class frmILMeasurement
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(560, 370)
+        Me.Label11.Location = New System.Drawing.Point(560, 342)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(41, 22)
         Me.Label11.TabIndex = 306
@@ -809,7 +809,7 @@ Partial Class frmILMeasurement
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(560, 334)
+        Me.Label12.Location = New System.Drawing.Point(560, 306)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(41, 22)
         Me.Label12.TabIndex = 305
@@ -819,7 +819,7 @@ Partial Class frmILMeasurement
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(560, 300)
+        Me.Label13.Location = New System.Drawing.Point(560, 272)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(26, 22)
         Me.Label13.TabIndex = 304
@@ -829,7 +829,7 @@ Partial Class frmILMeasurement
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(560, 263)
+        Me.Label14.Location = New System.Drawing.Point(560, 235)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(41, 22)
         Me.Label14.TabIndex = 303
@@ -839,7 +839,7 @@ Partial Class frmILMeasurement
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(560, 230)
+        Me.Label15.Location = New System.Drawing.Point(560, 202)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(36, 22)
         Me.Label15.TabIndex = 302
@@ -849,7 +849,7 @@ Partial Class frmILMeasurement
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(560, 197)
+        Me.Label16.Location = New System.Drawing.Point(560, 169)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(26, 22)
         Me.Label16.TabIndex = 301
@@ -859,7 +859,7 @@ Partial Class frmILMeasurement
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(560, 160)
+        Me.Label17.Location = New System.Drawing.Point(560, 132)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(41, 22)
         Me.Label17.TabIndex = 300
@@ -869,7 +869,7 @@ Partial Class frmILMeasurement
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(560, 128)
+        Me.Label18.Location = New System.Drawing.Point(560, 100)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(36, 22)
         Me.Label18.TabIndex = 299
@@ -879,7 +879,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp4_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp4_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp4_tab1.Location = New System.Drawing.Point(485, 366)
+        Me.txtFpp4_tab1.Location = New System.Drawing.Point(485, 338)
         Me.txtFpp4_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp4_tab1.Name = "txtFpp4_tab1"
         Me.txtFpp4_tab1.Size = New System.Drawing.Size(73, 28)
@@ -889,7 +889,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp3_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab1.Location = New System.Drawing.Point(485, 330)
+        Me.txtFpp3_tab1.Location = New System.Drawing.Point(485, 302)
         Me.txtFpp3_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab1.Name = "txtFpp3_tab1"
         Me.txtFpp3_tab1.Size = New System.Drawing.Size(73, 28)
@@ -899,7 +899,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp2_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp2_tab1.Location = New System.Drawing.Point(485, 295)
+        Me.txtFrp2_tab1.Location = New System.Drawing.Point(485, 267)
         Me.txtFrp2_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp2_tab1.Name = "txtFrp2_tab1"
         Me.txtFrp2_tab1.Size = New System.Drawing.Size(73, 28)
@@ -909,7 +909,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp2_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp2_tab1.Location = New System.Drawing.Point(485, 258)
+        Me.txtFpp2_tab1.Location = New System.Drawing.Point(485, 230)
         Me.txtFpp2_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp2_tab1.Name = "txtFpp2_tab1"
         Me.txtFpp2_tab1.Size = New System.Drawing.Size(73, 28)
@@ -919,7 +919,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp2_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp2_tab1.Location = New System.Drawing.Point(485, 224)
+        Me.txtFcp2_tab1.Location = New System.Drawing.Point(485, 196)
         Me.txtFcp2_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp2_tab1.Name = "txtFcp2_tab1"
         Me.txtFcp2_tab1.Size = New System.Drawing.Size(73, 28)
@@ -929,7 +929,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp_tab1.Location = New System.Drawing.Point(485, 191)
+        Me.txtFrp_tab1.Location = New System.Drawing.Point(485, 163)
         Me.txtFrp_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp_tab1.Name = "txtFrp_tab1"
         Me.txtFrp_tab1.Size = New System.Drawing.Size(73, 28)
@@ -939,7 +939,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab1.Location = New System.Drawing.Point(485, 157)
+        Me.txtFpp_tab1.Location = New System.Drawing.Point(485, 129)
         Me.txtFpp_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab1.Name = "txtFpp_tab1"
         Me.txtFpp_tab1.Size = New System.Drawing.Size(73, 28)
@@ -949,7 +949,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp_tab1.Location = New System.Drawing.Point(485, 122)
+        Me.txtFcp_tab1.Location = New System.Drawing.Point(485, 94)
         Me.txtFcp_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp_tab1.Name = "txtFcp_tab1"
         Me.txtFcp_tab1.Size = New System.Drawing.Size(73, 28)
@@ -959,7 +959,7 @@ Partial Class frmILMeasurement
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(417, 368)
+        Me.Label19.Location = New System.Drawing.Point(417, 340)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(55, 22)
         Me.Label19.TabIndex = 290
@@ -969,7 +969,7 @@ Partial Class frmILMeasurement
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(417, 331)
+        Me.Label20.Location = New System.Drawing.Point(417, 303)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(55, 22)
         Me.Label20.TabIndex = 289
@@ -979,7 +979,7 @@ Partial Class frmILMeasurement
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(417, 297)
+        Me.Label21.Location = New System.Drawing.Point(417, 269)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(56, 22)
         Me.Label21.TabIndex = 288
@@ -989,7 +989,7 @@ Partial Class frmILMeasurement
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(417, 260)
+        Me.Label22.Location = New System.Drawing.Point(417, 232)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(55, 22)
         Me.Label22.TabIndex = 287
@@ -999,7 +999,7 @@ Partial Class frmILMeasurement
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(419, 226)
+        Me.Label23.Location = New System.Drawing.Point(419, 198)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(56, 22)
         Me.Label23.TabIndex = 286
@@ -1009,7 +1009,7 @@ Partial Class frmILMeasurement
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(423, 194)
+        Me.Label24.Location = New System.Drawing.Point(423, 166)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(46, 22)
         Me.Label24.TabIndex = 285
@@ -1019,7 +1019,7 @@ Partial Class frmILMeasurement
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(424, 159)
+        Me.Label25.Location = New System.Drawing.Point(424, 131)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(45, 22)
         Me.Label25.TabIndex = 284
@@ -1029,7 +1029,7 @@ Partial Class frmILMeasurement
         '
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(424, 126)
+        Me.Label26.Location = New System.Drawing.Point(424, 98)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(46, 22)
         Me.Label26.TabIndex = 283
@@ -1040,7 +1040,7 @@ Partial Class frmILMeasurement
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label27.Location = New System.Drawing.Point(417, 84)
+        Me.Label27.Location = New System.Drawing.Point(417, 56)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(68, 22)
         Me.Label27.TabIndex = 282
@@ -1050,7 +1050,7 @@ Partial Class frmILMeasurement
         '
         Me.txtAtt_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAtt_tab1.Location = New System.Drawing.Point(249, 553)
+        Me.txtAtt_tab1.Location = New System.Drawing.Point(249, 525)
         Me.txtAtt_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAtt_tab1.Name = "txtAtt_tab1"
         Me.txtAtt_tab1.Size = New System.Drawing.Size(111, 28)
@@ -1060,7 +1060,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIcal_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIcal_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIcal_tab1.Location = New System.Drawing.Point(249, 514)
+        Me.txtIcal_tab1.Location = New System.Drawing.Point(249, 486)
         Me.txtIcal_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIcal_tab1.Name = "txtIcal_tab1"
         Me.txtIcal_tab1.Size = New System.Drawing.Size(111, 28)
@@ -1070,7 +1070,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTld_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTld_tab1.Location = New System.Drawing.Point(249, 478)
+        Me.txtTld_tab1.Location = New System.Drawing.Point(249, 450)
         Me.txtTld_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTld_tab1.Name = "txtTld_tab1"
         Me.txtTld_tab1.Size = New System.Drawing.Size(111, 28)
@@ -1080,7 +1080,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTc_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTc_tab1.Location = New System.Drawing.Point(249, 441)
+        Me.txtTc_tab1.Location = New System.Drawing.Point(249, 413)
         Me.txtTc_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTc_tab1.Name = "txtTc_tab1"
         Me.txtTc_tab1.Size = New System.Drawing.Size(111, 28)
@@ -1090,7 +1090,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoweravg_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoweravg_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoweravg_tab1.Location = New System.Drawing.Point(249, 402)
+        Me.txtPoweravg_tab1.Location = New System.Drawing.Point(249, 374)
         Me.txtPoweravg_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoweravg_tab1.Name = "txtPoweravg_tab1"
         Me.txtPoweravg_tab1.Size = New System.Drawing.Size(111, 28)
@@ -1100,7 +1100,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDelay_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDelay_tab1.Location = New System.Drawing.Point(249, 364)
+        Me.txtDelay_tab1.Location = New System.Drawing.Point(249, 336)
         Me.txtDelay_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDelay_tab1.Name = "txtDelay_tab1"
         Me.txtDelay_tab1.Size = New System.Drawing.Size(111, 28)
@@ -1111,7 +1111,7 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab1.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPulse_tab1.Location = New System.Drawing.Point(249, 325)
+        Me.txtPulse_tab1.Location = New System.Drawing.Point(249, 297)
         Me.txtPulse_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPulse_tab1.Name = "txtPulse_tab1"
         Me.txtPulse_tab1.ReadOnly = True
@@ -1122,7 +1122,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDutycycle_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDutycycle_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDutycycle_tab1.Location = New System.Drawing.Point(249, 284)
+        Me.txtDutycycle_tab1.Location = New System.Drawing.Point(249, 256)
         Me.txtDutycycle_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDutycycle_tab1.Name = "txtDutycycle_tab1"
         Me.txtDutycycle_tab1.Size = New System.Drawing.Size(111, 28)
@@ -1132,7 +1132,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrequn_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequn_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrequn_tab1.Location = New System.Drawing.Point(249, 246)
+        Me.txtFrequn_tab1.Location = New System.Drawing.Point(249, 218)
         Me.txtFrequn_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrequn_tab1.Name = "txtFrequn_tab1"
         Me.txtFrequn_tab1.Size = New System.Drawing.Size(111, 28)
@@ -1142,7 +1142,7 @@ Partial Class frmILMeasurement
         '
         Me.txStop_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStop_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab1.Location = New System.Drawing.Point(249, 206)
+        Me.txStop_tab1.Location = New System.Drawing.Point(249, 178)
         Me.txStop_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStop_tab1.Name = "txStop_tab1"
         Me.txStop_tab1.Size = New System.Drawing.Size(111, 28)
@@ -1152,7 +1152,7 @@ Partial Class frmILMeasurement
         '
         Me.txStep_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStep_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab1.Location = New System.Drawing.Point(249, 164)
+        Me.txStep_tab1.Location = New System.Drawing.Point(249, 136)
         Me.txStep_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStep_tab1.Name = "txStep_tab1"
         Me.txStep_tab1.Size = New System.Drawing.Size(111, 28)
@@ -1162,7 +1162,7 @@ Partial Class frmILMeasurement
         '
         Me.txtStart_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtStart_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtStart_tab1.Location = New System.Drawing.Point(249, 122)
+        Me.txtStart_tab1.Location = New System.Drawing.Point(249, 94)
         Me.txtStart_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtStart_tab1.Name = "txtStart_tab1"
         Me.txtStart_tab1.Size = New System.Drawing.Size(111, 28)
@@ -1172,7 +1172,7 @@ Partial Class frmILMeasurement
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(93, 553)
+        Me.Label28.Location = New System.Drawing.Point(93, 525)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(83, 22)
         Me.Label28.TabIndex = 269
@@ -1182,7 +1182,7 @@ Partial Class frmILMeasurement
         '
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(93, 513)
+        Me.Label29.Location = New System.Drawing.Point(93, 485)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(90, 22)
         Me.Label29.TabIndex = 268
@@ -1192,7 +1192,7 @@ Partial Class frmILMeasurement
         '
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(93, 480)
+        Me.Label30.Location = New System.Drawing.Point(93, 452)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(70, 22)
         Me.Label30.TabIndex = 267
@@ -1202,7 +1202,7 @@ Partial Class frmILMeasurement
         '
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(92, 442)
+        Me.Label31.Location = New System.Drawing.Point(92, 414)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(65, 22)
         Me.Label31.TabIndex = 266
@@ -1212,7 +1212,7 @@ Partial Class frmILMeasurement
         '
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(92, 395)
+        Me.Label32.Location = New System.Drawing.Point(92, 367)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(131, 44)
         Me.Label32.TabIndex = 265
@@ -1222,7 +1222,7 @@ Partial Class frmILMeasurement
         '
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(92, 366)
+        Me.Label33.Location = New System.Drawing.Point(92, 338)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(123, 22)
         Me.Label33.TabIndex = 264
@@ -1232,7 +1232,7 @@ Partial Class frmILMeasurement
         '
         Me.Label34.AutoSize = True
         Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(92, 327)
+        Me.Label34.Location = New System.Drawing.Point(92, 299)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(140, 22)
         Me.Label34.TabIndex = 263
@@ -1242,7 +1242,7 @@ Partial Class frmILMeasurement
         '
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(92, 286)
+        Me.Label35.Location = New System.Drawing.Point(92, 258)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(124, 22)
         Me.Label35.TabIndex = 262
@@ -1252,7 +1252,7 @@ Partial Class frmILMeasurement
         '
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(93, 249)
+        Me.Label36.Location = New System.Drawing.Point(93, 221)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(143, 22)
         Me.Label36.TabIndex = 261
@@ -1262,7 +1262,7 @@ Partial Class frmILMeasurement
         '
         Me.Label37.AutoSize = True
         Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(92, 206)
+        Me.Label37.Location = New System.Drawing.Point(92, 178)
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(102, 22)
         Me.Label37.TabIndex = 260
@@ -1272,7 +1272,7 @@ Partial Class frmILMeasurement
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(92, 164)
+        Me.Label38.Location = New System.Drawing.Point(92, 136)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(102, 22)
         Me.Label38.TabIndex = 259
@@ -1282,7 +1282,7 @@ Partial Class frmILMeasurement
         '
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(93, 122)
+        Me.Label39.Location = New System.Drawing.Point(93, 94)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(103, 22)
         Me.Label39.TabIndex = 258
@@ -1293,7 +1293,7 @@ Partial Class frmILMeasurement
         Me.Label40.AutoSize = True
         Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label40.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label40.Location = New System.Drawing.Point(92, 84)
+        Me.Label40.Location = New System.Drawing.Point(92, 56)
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(79, 22)
         Me.Label40.TabIndex = 257
@@ -1387,7 +1387,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImdiv_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImdiv_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImdiv_tab2.Location = New System.Drawing.Point(847, 373)
+        Me.txtImdiv_tab2.Location = New System.Drawing.Point(847, 345)
         Me.txtImdiv_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImdiv_tab2.Name = "txtImdiv_tab2"
         Me.txtImdiv_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1397,7 +1397,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImscale_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImscale_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImscale_tab2.Location = New System.Drawing.Point(777, 373)
+        Me.txtImscale_tab2.Location = New System.Drawing.Point(777, 345)
         Me.txtImscale_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImscale_tab2.Name = "txtImscale_tab2"
         Me.txtImscale_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1407,7 +1407,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRddiv_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRddiv_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRddiv_tab2.Location = New System.Drawing.Point(847, 327)
+        Me.txtRddiv_tab2.Location = New System.Drawing.Point(847, 299)
         Me.txtRddiv_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRddiv_tab2.Name = "txtRddiv_tab2"
         Me.txtRddiv_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1417,7 +1417,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRdscale_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRdscale_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRdscale_tab2.Location = New System.Drawing.Point(777, 327)
+        Me.txtRdscale_tab2.Location = New System.Drawing.Point(777, 299)
         Me.txtRdscale_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRdscale_tab2.Name = "txtRdscale_tab2"
         Me.txtRdscale_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1427,7 +1427,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSediv_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSediv_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSediv_tab2.Location = New System.Drawing.Point(847, 283)
+        Me.txtSediv_tab2.Location = New System.Drawing.Point(847, 255)
         Me.txtSediv_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSediv_tab2.Name = "txtSediv_tab2"
         Me.txtSediv_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1437,7 +1437,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSescale_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSescale_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSescale_tab2.Location = New System.Drawing.Point(777, 283)
+        Me.txtSescale_tab2.Location = New System.Drawing.Point(777, 255)
         Me.txtSescale_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSescale_tab2.Name = "txtSescale_tab2"
         Me.txtSescale_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1447,7 +1447,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPodiv_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPodiv_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPodiv_tab2.Location = New System.Drawing.Point(847, 239)
+        Me.txtPodiv_tab2.Location = New System.Drawing.Point(847, 211)
         Me.txtPodiv_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPodiv_tab2.Name = "txtPodiv_tab2"
         Me.txtPodiv_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1457,7 +1457,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoscale_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoscale_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoscale_tab2.Location = New System.Drawing.Point(777, 239)
+        Me.txtPoscale_tab2.Location = New System.Drawing.Point(777, 211)
         Me.txtPoscale_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoscale_tab2.Name = "txtPoscale_tab2"
         Me.txtPoscale_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1467,7 +1467,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfdiv_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfdiv_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfdiv_tab2.Location = New System.Drawing.Point(847, 194)
+        Me.txtVfdiv_tab2.Location = New System.Drawing.Point(847, 166)
         Me.txtVfdiv_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfdiv_tab2.Name = "txtVfdiv_tab2"
         Me.txtVfdiv_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1477,7 +1477,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfscale_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfscale_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfscale_tab2.Location = New System.Drawing.Point(777, 194)
+        Me.txtVfscale_tab2.Location = New System.Drawing.Point(777, 166)
         Me.txtVfscale_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfscale_tab2.Name = "txtVfscale_tab2"
         Me.txtVfscale_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1487,7 +1487,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfdiv_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfdiv_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfdiv_tab2.Location = New System.Drawing.Point(847, 153)
+        Me.txtIfdiv_tab2.Location = New System.Drawing.Point(847, 125)
         Me.txtIfdiv_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfdiv_tab2.Name = "txtIfdiv_tab2"
         Me.txtIfdiv_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1497,7 +1497,7 @@ Partial Class frmILMeasurement
         '
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(683, 377)
+        Me.Label45.Location = New System.Drawing.Point(683, 349)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(69, 22)
         Me.Label45.TabIndex = 317
@@ -1507,7 +1507,7 @@ Partial Class frmILMeasurement
         '
         Me.Label46.AutoSize = True
         Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(683, 332)
+        Me.Label46.Location = New System.Drawing.Point(683, 304)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(82, 22)
         Me.Label46.TabIndex = 316
@@ -1517,7 +1517,7 @@ Partial Class frmILMeasurement
         '
         Me.Label47.AutoSize = True
         Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.Location = New System.Drawing.Point(683, 288)
+        Me.Label47.Location = New System.Drawing.Point(683, 260)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(83, 22)
         Me.Label47.TabIndex = 315
@@ -1527,7 +1527,7 @@ Partial Class frmILMeasurement
         '
         Me.Label48.AutoSize = True
         Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.Location = New System.Drawing.Point(683, 242)
+        Me.Label48.Location = New System.Drawing.Point(683, 214)
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(78, 22)
         Me.Label48.TabIndex = 314
@@ -1537,7 +1537,7 @@ Partial Class frmILMeasurement
         '
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(683, 197)
+        Me.Label49.Location = New System.Drawing.Point(683, 169)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(68, 22)
         Me.Label49.TabIndex = 313
@@ -1547,7 +1547,7 @@ Partial Class frmILMeasurement
         '
         Me.Label50.AutoSize = True
         Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(857, 126)
+        Me.Label50.Location = New System.Drawing.Point(857, 98)
         Me.Label50.Name = "Label50"
         Me.Label50.Size = New System.Drawing.Size(36, 22)
         Me.Label50.TabIndex = 312
@@ -1557,7 +1557,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfscale_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfscale_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfscale_tab2.Location = New System.Drawing.Point(777, 153)
+        Me.txtIfscale_tab2.Location = New System.Drawing.Point(777, 125)
         Me.txtIfscale_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfscale_tab2.Name = "txtIfscale_tab2"
         Me.txtIfscale_tab2.Size = New System.Drawing.Size(63, 28)
@@ -1567,7 +1567,7 @@ Partial Class frmILMeasurement
         '
         Me.Label51.AutoSize = True
         Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(683, 159)
+        Me.Label51.Location = New System.Drawing.Point(683, 131)
         Me.Label51.Name = "Label51"
         Me.Label51.Size = New System.Drawing.Size(60, 22)
         Me.Label51.TabIndex = 310
@@ -1577,7 +1577,7 @@ Partial Class frmILMeasurement
         '
         Me.Label52.AutoSize = True
         Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label52.Location = New System.Drawing.Point(783, 126)
+        Me.Label52.Location = New System.Drawing.Point(783, 98)
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(55, 22)
         Me.Label52.TabIndex = 309
@@ -1587,7 +1587,7 @@ Partial Class frmILMeasurement
         '
         Me.Label53.AutoSize = True
         Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(683, 126)
+        Me.Label53.Location = New System.Drawing.Point(683, 98)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(43, 22)
         Me.Label53.TabIndex = 308
@@ -1598,7 +1598,7 @@ Partial Class frmILMeasurement
         Me.Label54.AutoSize = True
         Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label54.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label54.Location = New System.Drawing.Point(676, 84)
+        Me.Label54.Location = New System.Drawing.Point(676, 56)
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(134, 22)
         Me.Label54.TabIndex = 307
@@ -1608,7 +1608,7 @@ Partial Class frmILMeasurement
         '
         Me.Label55.AutoSize = True
         Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(560, 370)
+        Me.Label55.Location = New System.Drawing.Point(560, 342)
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(41, 22)
         Me.Label55.TabIndex = 306
@@ -1618,7 +1618,7 @@ Partial Class frmILMeasurement
         '
         Me.Label56.AutoSize = True
         Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.Location = New System.Drawing.Point(560, 334)
+        Me.Label56.Location = New System.Drawing.Point(560, 306)
         Me.Label56.Name = "Label56"
         Me.Label56.Size = New System.Drawing.Size(41, 22)
         Me.Label56.TabIndex = 305
@@ -1628,7 +1628,7 @@ Partial Class frmILMeasurement
         '
         Me.Label57.AutoSize = True
         Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.Location = New System.Drawing.Point(560, 300)
+        Me.Label57.Location = New System.Drawing.Point(560, 272)
         Me.Label57.Name = "Label57"
         Me.Label57.Size = New System.Drawing.Size(26, 22)
         Me.Label57.TabIndex = 304
@@ -1638,7 +1638,7 @@ Partial Class frmILMeasurement
         '
         Me.Label58.AutoSize = True
         Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.Location = New System.Drawing.Point(560, 263)
+        Me.Label58.Location = New System.Drawing.Point(560, 235)
         Me.Label58.Name = "Label58"
         Me.Label58.Size = New System.Drawing.Size(41, 22)
         Me.Label58.TabIndex = 303
@@ -1648,7 +1648,7 @@ Partial Class frmILMeasurement
         '
         Me.Label59.AutoSize = True
         Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.Location = New System.Drawing.Point(560, 230)
+        Me.Label59.Location = New System.Drawing.Point(560, 202)
         Me.Label59.Name = "Label59"
         Me.Label59.Size = New System.Drawing.Size(36, 22)
         Me.Label59.TabIndex = 302
@@ -1658,7 +1658,7 @@ Partial Class frmILMeasurement
         '
         Me.Label60.AutoSize = True
         Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label60.Location = New System.Drawing.Point(560, 197)
+        Me.Label60.Location = New System.Drawing.Point(560, 169)
         Me.Label60.Name = "Label60"
         Me.Label60.Size = New System.Drawing.Size(26, 22)
         Me.Label60.TabIndex = 301
@@ -1668,7 +1668,7 @@ Partial Class frmILMeasurement
         '
         Me.Label61.AutoSize = True
         Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.Location = New System.Drawing.Point(560, 160)
+        Me.Label61.Location = New System.Drawing.Point(560, 132)
         Me.Label61.Name = "Label61"
         Me.Label61.Size = New System.Drawing.Size(41, 22)
         Me.Label61.TabIndex = 300
@@ -1678,7 +1678,7 @@ Partial Class frmILMeasurement
         '
         Me.Label62.AutoSize = True
         Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label62.Location = New System.Drawing.Point(560, 128)
+        Me.Label62.Location = New System.Drawing.Point(560, 100)
         Me.Label62.Name = "Label62"
         Me.Label62.Size = New System.Drawing.Size(36, 22)
         Me.Label62.TabIndex = 299
@@ -1688,7 +1688,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp4_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp4_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp4_tab2.Location = New System.Drawing.Point(485, 366)
+        Me.txtFpp4_tab2.Location = New System.Drawing.Point(485, 338)
         Me.txtFpp4_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp4_tab2.Name = "txtFpp4_tab2"
         Me.txtFpp4_tab2.Size = New System.Drawing.Size(73, 28)
@@ -1698,7 +1698,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp3_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab2.Location = New System.Drawing.Point(485, 330)
+        Me.txtFpp3_tab2.Location = New System.Drawing.Point(485, 302)
         Me.txtFpp3_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab2.Name = "txtFpp3_tab2"
         Me.txtFpp3_tab2.Size = New System.Drawing.Size(73, 28)
@@ -1708,7 +1708,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp2_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp2_tab2.Location = New System.Drawing.Point(485, 295)
+        Me.txtFrp2_tab2.Location = New System.Drawing.Point(485, 267)
         Me.txtFrp2_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp2_tab2.Name = "txtFrp2_tab2"
         Me.txtFrp2_tab2.Size = New System.Drawing.Size(73, 28)
@@ -1718,7 +1718,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp2_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp2_tab2.Location = New System.Drawing.Point(485, 258)
+        Me.txtFpp2_tab2.Location = New System.Drawing.Point(485, 230)
         Me.txtFpp2_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp2_tab2.Name = "txtFpp2_tab2"
         Me.txtFpp2_tab2.Size = New System.Drawing.Size(73, 28)
@@ -1728,7 +1728,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp2_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp2_tab2.Location = New System.Drawing.Point(485, 224)
+        Me.txtFcp2_tab2.Location = New System.Drawing.Point(485, 196)
         Me.txtFcp2_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp2_tab2.Name = "txtFcp2_tab2"
         Me.txtFcp2_tab2.Size = New System.Drawing.Size(73, 28)
@@ -1738,7 +1738,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp_tab2.Location = New System.Drawing.Point(485, 191)
+        Me.txtFrp_tab2.Location = New System.Drawing.Point(485, 163)
         Me.txtFrp_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp_tab2.Name = "txtFrp_tab2"
         Me.txtFrp_tab2.Size = New System.Drawing.Size(73, 28)
@@ -1748,7 +1748,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab2.Location = New System.Drawing.Point(485, 157)
+        Me.txtFpp_tab2.Location = New System.Drawing.Point(485, 129)
         Me.txtFpp_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab2.Name = "txtFpp_tab2"
         Me.txtFpp_tab2.Size = New System.Drawing.Size(73, 28)
@@ -1758,7 +1758,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp_tab2.Location = New System.Drawing.Point(485, 122)
+        Me.txtFcp_tab2.Location = New System.Drawing.Point(485, 94)
         Me.txtFcp_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp_tab2.Name = "txtFcp_tab2"
         Me.txtFcp_tab2.Size = New System.Drawing.Size(73, 28)
@@ -1768,7 +1768,7 @@ Partial Class frmILMeasurement
         '
         Me.Label63.AutoSize = True
         Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(417, 368)
+        Me.Label63.Location = New System.Drawing.Point(417, 340)
         Me.Label63.Name = "Label63"
         Me.Label63.Size = New System.Drawing.Size(55, 22)
         Me.Label63.TabIndex = 290
@@ -1778,7 +1778,7 @@ Partial Class frmILMeasurement
         '
         Me.Label64.AutoSize = True
         Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label64.Location = New System.Drawing.Point(417, 331)
+        Me.Label64.Location = New System.Drawing.Point(417, 303)
         Me.Label64.Name = "Label64"
         Me.Label64.Size = New System.Drawing.Size(55, 22)
         Me.Label64.TabIndex = 289
@@ -1788,7 +1788,7 @@ Partial Class frmILMeasurement
         '
         Me.Label65.AutoSize = True
         Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label65.Location = New System.Drawing.Point(417, 297)
+        Me.Label65.Location = New System.Drawing.Point(417, 269)
         Me.Label65.Name = "Label65"
         Me.Label65.Size = New System.Drawing.Size(56, 22)
         Me.Label65.TabIndex = 288
@@ -1798,7 +1798,7 @@ Partial Class frmILMeasurement
         '
         Me.Label66.AutoSize = True
         Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.Location = New System.Drawing.Point(417, 260)
+        Me.Label66.Location = New System.Drawing.Point(417, 232)
         Me.Label66.Name = "Label66"
         Me.Label66.Size = New System.Drawing.Size(55, 22)
         Me.Label66.TabIndex = 287
@@ -1808,7 +1808,7 @@ Partial Class frmILMeasurement
         '
         Me.Label67.AutoSize = True
         Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.Location = New System.Drawing.Point(419, 226)
+        Me.Label67.Location = New System.Drawing.Point(419, 198)
         Me.Label67.Name = "Label67"
         Me.Label67.Size = New System.Drawing.Size(56, 22)
         Me.Label67.TabIndex = 286
@@ -1818,7 +1818,7 @@ Partial Class frmILMeasurement
         '
         Me.Label68.AutoSize = True
         Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label68.Location = New System.Drawing.Point(423, 194)
+        Me.Label68.Location = New System.Drawing.Point(423, 166)
         Me.Label68.Name = "Label68"
         Me.Label68.Size = New System.Drawing.Size(46, 22)
         Me.Label68.TabIndex = 285
@@ -1828,7 +1828,7 @@ Partial Class frmILMeasurement
         '
         Me.Label69.AutoSize = True
         Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label69.Location = New System.Drawing.Point(424, 159)
+        Me.Label69.Location = New System.Drawing.Point(424, 131)
         Me.Label69.Name = "Label69"
         Me.Label69.Size = New System.Drawing.Size(45, 22)
         Me.Label69.TabIndex = 284
@@ -1838,7 +1838,7 @@ Partial Class frmILMeasurement
         '
         Me.Label70.AutoSize = True
         Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.Location = New System.Drawing.Point(424, 126)
+        Me.Label70.Location = New System.Drawing.Point(424, 98)
         Me.Label70.Name = "Label70"
         Me.Label70.Size = New System.Drawing.Size(46, 22)
         Me.Label70.TabIndex = 283
@@ -1849,7 +1849,7 @@ Partial Class frmILMeasurement
         Me.Label71.AutoSize = True
         Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label71.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label71.Location = New System.Drawing.Point(417, 84)
+        Me.Label71.Location = New System.Drawing.Point(417, 56)
         Me.Label71.Name = "Label71"
         Me.Label71.Size = New System.Drawing.Size(68, 22)
         Me.Label71.TabIndex = 282
@@ -1859,7 +1859,7 @@ Partial Class frmILMeasurement
         '
         Me.txtAtt_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAtt_tab2.Location = New System.Drawing.Point(249, 553)
+        Me.txtAtt_tab2.Location = New System.Drawing.Point(249, 525)
         Me.txtAtt_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAtt_tab2.Name = "txtAtt_tab2"
         Me.txtAtt_tab2.Size = New System.Drawing.Size(111, 28)
@@ -1869,7 +1869,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIcal_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIcal_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIcal_tab2.Location = New System.Drawing.Point(249, 514)
+        Me.txtIcal_tab2.Location = New System.Drawing.Point(249, 486)
         Me.txtIcal_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIcal_tab2.Name = "txtIcal_tab2"
         Me.txtIcal_tab2.Size = New System.Drawing.Size(111, 28)
@@ -1879,7 +1879,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTld_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTld_tab2.Location = New System.Drawing.Point(249, 478)
+        Me.txtTld_tab2.Location = New System.Drawing.Point(249, 450)
         Me.txtTld_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTld_tab2.Name = "txtTld_tab2"
         Me.txtTld_tab2.Size = New System.Drawing.Size(111, 28)
@@ -1889,7 +1889,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTc_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTc_tab2.Location = New System.Drawing.Point(249, 441)
+        Me.txtTc_tab2.Location = New System.Drawing.Point(249, 413)
         Me.txtTc_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTc_tab2.Name = "txtTc_tab2"
         Me.txtTc_tab2.Size = New System.Drawing.Size(111, 28)
@@ -1899,7 +1899,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoweravg_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoweravg_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoweravg_tab2.Location = New System.Drawing.Point(249, 402)
+        Me.txtPoweravg_tab2.Location = New System.Drawing.Point(249, 374)
         Me.txtPoweravg_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoweravg_tab2.Name = "txtPoweravg_tab2"
         Me.txtPoweravg_tab2.Size = New System.Drawing.Size(111, 28)
@@ -1909,7 +1909,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDelay_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDelay_tab2.Location = New System.Drawing.Point(249, 364)
+        Me.txtDelay_tab2.Location = New System.Drawing.Point(249, 336)
         Me.txtDelay_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDelay_tab2.Name = "txtDelay_tab2"
         Me.txtDelay_tab2.Size = New System.Drawing.Size(111, 28)
@@ -1920,7 +1920,7 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab2.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPulse_tab2.Location = New System.Drawing.Point(249, 325)
+        Me.txtPulse_tab2.Location = New System.Drawing.Point(249, 297)
         Me.txtPulse_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPulse_tab2.Name = "txtPulse_tab2"
         Me.txtPulse_tab2.ReadOnly = True
@@ -1931,7 +1931,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDutycycle_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDutycycle_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDutycycle_tab2.Location = New System.Drawing.Point(249, 284)
+        Me.txtDutycycle_tab2.Location = New System.Drawing.Point(249, 256)
         Me.txtDutycycle_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDutycycle_tab2.Name = "txtDutycycle_tab2"
         Me.txtDutycycle_tab2.Size = New System.Drawing.Size(111, 28)
@@ -1941,7 +1941,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrequn_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequn_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrequn_tab2.Location = New System.Drawing.Point(249, 246)
+        Me.txtFrequn_tab2.Location = New System.Drawing.Point(249, 218)
         Me.txtFrequn_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrequn_tab2.Name = "txtFrequn_tab2"
         Me.txtFrequn_tab2.Size = New System.Drawing.Size(111, 28)
@@ -1951,7 +1951,7 @@ Partial Class frmILMeasurement
         '
         Me.txStop_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStop_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab2.Location = New System.Drawing.Point(249, 206)
+        Me.txStop_tab2.Location = New System.Drawing.Point(249, 178)
         Me.txStop_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStop_tab2.Name = "txStop_tab2"
         Me.txStop_tab2.Size = New System.Drawing.Size(111, 28)
@@ -1961,7 +1961,7 @@ Partial Class frmILMeasurement
         '
         Me.txStep_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStep_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab2.Location = New System.Drawing.Point(249, 164)
+        Me.txStep_tab2.Location = New System.Drawing.Point(249, 136)
         Me.txStep_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStep_tab2.Name = "txStep_tab2"
         Me.txStep_tab2.Size = New System.Drawing.Size(111, 28)
@@ -1971,7 +1971,7 @@ Partial Class frmILMeasurement
         '
         Me.txtStart_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtStart_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtStart_tab2.Location = New System.Drawing.Point(249, 122)
+        Me.txtStart_tab2.Location = New System.Drawing.Point(249, 94)
         Me.txtStart_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtStart_tab2.Name = "txtStart_tab2"
         Me.txtStart_tab2.Size = New System.Drawing.Size(111, 28)
@@ -1981,7 +1981,7 @@ Partial Class frmILMeasurement
         '
         Me.Label72.AutoSize = True
         Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.Location = New System.Drawing.Point(93, 553)
+        Me.Label72.Location = New System.Drawing.Point(93, 525)
         Me.Label72.Name = "Label72"
         Me.Label72.Size = New System.Drawing.Size(83, 22)
         Me.Label72.TabIndex = 269
@@ -1991,7 +1991,7 @@ Partial Class frmILMeasurement
         '
         Me.Label73.AutoSize = True
         Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(93, 513)
+        Me.Label73.Location = New System.Drawing.Point(93, 485)
         Me.Label73.Name = "Label73"
         Me.Label73.Size = New System.Drawing.Size(90, 22)
         Me.Label73.TabIndex = 268
@@ -2001,7 +2001,7 @@ Partial Class frmILMeasurement
         '
         Me.Label74.AutoSize = True
         Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.Location = New System.Drawing.Point(93, 480)
+        Me.Label74.Location = New System.Drawing.Point(93, 452)
         Me.Label74.Name = "Label74"
         Me.Label74.Size = New System.Drawing.Size(70, 22)
         Me.Label74.TabIndex = 267
@@ -2011,7 +2011,7 @@ Partial Class frmILMeasurement
         '
         Me.Label75.AutoSize = True
         Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label75.Location = New System.Drawing.Point(92, 442)
+        Me.Label75.Location = New System.Drawing.Point(92, 414)
         Me.Label75.Name = "Label75"
         Me.Label75.Size = New System.Drawing.Size(65, 22)
         Me.Label75.TabIndex = 266
@@ -2021,7 +2021,7 @@ Partial Class frmILMeasurement
         '
         Me.Label76.AutoSize = True
         Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label76.Location = New System.Drawing.Point(92, 395)
+        Me.Label76.Location = New System.Drawing.Point(92, 367)
         Me.Label76.Name = "Label76"
         Me.Label76.Size = New System.Drawing.Size(131, 44)
         Me.Label76.TabIndex = 265
@@ -2031,7 +2031,7 @@ Partial Class frmILMeasurement
         '
         Me.Label77.AutoSize = True
         Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label77.Location = New System.Drawing.Point(92, 366)
+        Me.Label77.Location = New System.Drawing.Point(92, 338)
         Me.Label77.Name = "Label77"
         Me.Label77.Size = New System.Drawing.Size(123, 22)
         Me.Label77.TabIndex = 264
@@ -2041,7 +2041,7 @@ Partial Class frmILMeasurement
         '
         Me.Label78.AutoSize = True
         Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label78.Location = New System.Drawing.Point(92, 327)
+        Me.Label78.Location = New System.Drawing.Point(92, 299)
         Me.Label78.Name = "Label78"
         Me.Label78.Size = New System.Drawing.Size(140, 22)
         Me.Label78.TabIndex = 263
@@ -2051,7 +2051,7 @@ Partial Class frmILMeasurement
         '
         Me.Label79.AutoSize = True
         Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label79.Location = New System.Drawing.Point(92, 286)
+        Me.Label79.Location = New System.Drawing.Point(92, 258)
         Me.Label79.Name = "Label79"
         Me.Label79.Size = New System.Drawing.Size(124, 22)
         Me.Label79.TabIndex = 262
@@ -2061,7 +2061,7 @@ Partial Class frmILMeasurement
         '
         Me.Label80.AutoSize = True
         Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label80.Location = New System.Drawing.Point(93, 249)
+        Me.Label80.Location = New System.Drawing.Point(93, 221)
         Me.Label80.Name = "Label80"
         Me.Label80.Size = New System.Drawing.Size(143, 22)
         Me.Label80.TabIndex = 261
@@ -2071,7 +2071,7 @@ Partial Class frmILMeasurement
         '
         Me.Label201.AutoSize = True
         Me.Label201.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label201.Location = New System.Drawing.Point(92, 206)
+        Me.Label201.Location = New System.Drawing.Point(92, 178)
         Me.Label201.Name = "Label201"
         Me.Label201.Size = New System.Drawing.Size(102, 22)
         Me.Label201.TabIndex = 260
@@ -2081,7 +2081,7 @@ Partial Class frmILMeasurement
         '
         Me.Label202.AutoSize = True
         Me.Label202.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label202.Location = New System.Drawing.Point(92, 164)
+        Me.Label202.Location = New System.Drawing.Point(92, 136)
         Me.Label202.Name = "Label202"
         Me.Label202.Size = New System.Drawing.Size(102, 22)
         Me.Label202.TabIndex = 259
@@ -2091,7 +2091,7 @@ Partial Class frmILMeasurement
         '
         Me.Label203.AutoSize = True
         Me.Label203.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label203.Location = New System.Drawing.Point(93, 122)
+        Me.Label203.Location = New System.Drawing.Point(93, 94)
         Me.Label203.Name = "Label203"
         Me.Label203.Size = New System.Drawing.Size(103, 22)
         Me.Label203.TabIndex = 258
@@ -2102,7 +2102,7 @@ Partial Class frmILMeasurement
         Me.Label204.AutoSize = True
         Me.Label204.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label204.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label204.Location = New System.Drawing.Point(92, 84)
+        Me.Label204.Location = New System.Drawing.Point(92, 56)
         Me.Label204.Name = "Label204"
         Me.Label204.Size = New System.Drawing.Size(79, 22)
         Me.Label204.TabIndex = 257
@@ -2196,7 +2196,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImdiv_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImdiv_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImdiv_tab3.Location = New System.Drawing.Point(847, 373)
+        Me.txtImdiv_tab3.Location = New System.Drawing.Point(847, 345)
         Me.txtImdiv_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImdiv_tab3.Name = "txtImdiv_tab3"
         Me.txtImdiv_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2206,7 +2206,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImscale_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImscale_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImscale_tab3.Location = New System.Drawing.Point(777, 373)
+        Me.txtImscale_tab3.Location = New System.Drawing.Point(777, 345)
         Me.txtImscale_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImscale_tab3.Name = "txtImscale_tab3"
         Me.txtImscale_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2216,7 +2216,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRddiv_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRddiv_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRddiv_tab3.Location = New System.Drawing.Point(847, 327)
+        Me.txtRddiv_tab3.Location = New System.Drawing.Point(847, 299)
         Me.txtRddiv_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRddiv_tab3.Name = "txtRddiv_tab3"
         Me.txtRddiv_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2226,7 +2226,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRdscale_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRdscale_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRdscale_tab3.Location = New System.Drawing.Point(777, 327)
+        Me.txtRdscale_tab3.Location = New System.Drawing.Point(777, 299)
         Me.txtRdscale_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRdscale_tab3.Name = "txtRdscale_tab3"
         Me.txtRdscale_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2236,7 +2236,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSediv_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSediv_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSediv_tab3.Location = New System.Drawing.Point(847, 283)
+        Me.txtSediv_tab3.Location = New System.Drawing.Point(847, 255)
         Me.txtSediv_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSediv_tab3.Name = "txtSediv_tab3"
         Me.txtSediv_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2246,7 +2246,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSescale_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSescale_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSescale_tab3.Location = New System.Drawing.Point(777, 283)
+        Me.txtSescale_tab3.Location = New System.Drawing.Point(777, 255)
         Me.txtSescale_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSescale_tab3.Name = "txtSescale_tab3"
         Me.txtSescale_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2256,7 +2256,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPodiv_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPodiv_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPodiv_tab3.Location = New System.Drawing.Point(847, 239)
+        Me.txtPodiv_tab3.Location = New System.Drawing.Point(847, 211)
         Me.txtPodiv_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPodiv_tab3.Name = "txtPodiv_tab3"
         Me.txtPodiv_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2266,7 +2266,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoscale_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoscale_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoscale_tab3.Location = New System.Drawing.Point(777, 239)
+        Me.txtPoscale_tab3.Location = New System.Drawing.Point(777, 211)
         Me.txtPoscale_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoscale_tab3.Name = "txtPoscale_tab3"
         Me.txtPoscale_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2276,7 +2276,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfdiv_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfdiv_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfdiv_tab3.Location = New System.Drawing.Point(847, 194)
+        Me.txtVfdiv_tab3.Location = New System.Drawing.Point(847, 166)
         Me.txtVfdiv_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfdiv_tab3.Name = "txtVfdiv_tab3"
         Me.txtVfdiv_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2286,7 +2286,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfscale_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfscale_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfscale_tab3.Location = New System.Drawing.Point(777, 194)
+        Me.txtVfscale_tab3.Location = New System.Drawing.Point(777, 166)
         Me.txtVfscale_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfscale_tab3.Name = "txtVfscale_tab3"
         Me.txtVfscale_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2296,7 +2296,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfdiv_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfdiv_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfdiv_tab3.Location = New System.Drawing.Point(847, 153)
+        Me.txtIfdiv_tab3.Location = New System.Drawing.Point(847, 125)
         Me.txtIfdiv_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfdiv_tab3.Name = "txtIfdiv_tab3"
         Me.txtIfdiv_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2306,7 +2306,7 @@ Partial Class frmILMeasurement
         '
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(683, 377)
+        Me.Label41.Location = New System.Drawing.Point(683, 349)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(69, 22)
         Me.Label41.TabIndex = 317
@@ -2316,7 +2316,7 @@ Partial Class frmILMeasurement
         '
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(683, 332)
+        Me.Label42.Location = New System.Drawing.Point(683, 304)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(82, 22)
         Me.Label42.TabIndex = 316
@@ -2326,7 +2326,7 @@ Partial Class frmILMeasurement
         '
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(683, 288)
+        Me.Label43.Location = New System.Drawing.Point(683, 260)
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(83, 22)
         Me.Label43.TabIndex = 315
@@ -2336,7 +2336,7 @@ Partial Class frmILMeasurement
         '
         Me.Label44.AutoSize = True
         Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.Location = New System.Drawing.Point(683, 242)
+        Me.Label44.Location = New System.Drawing.Point(683, 214)
         Me.Label44.Name = "Label44"
         Me.Label44.Size = New System.Drawing.Size(78, 22)
         Me.Label44.TabIndex = 314
@@ -2346,7 +2346,7 @@ Partial Class frmILMeasurement
         '
         Me.Label85.AutoSize = True
         Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label85.Location = New System.Drawing.Point(683, 197)
+        Me.Label85.Location = New System.Drawing.Point(683, 169)
         Me.Label85.Name = "Label85"
         Me.Label85.Size = New System.Drawing.Size(68, 22)
         Me.Label85.TabIndex = 313
@@ -2356,7 +2356,7 @@ Partial Class frmILMeasurement
         '
         Me.Label86.AutoSize = True
         Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label86.Location = New System.Drawing.Point(857, 126)
+        Me.Label86.Location = New System.Drawing.Point(857, 98)
         Me.Label86.Name = "Label86"
         Me.Label86.Size = New System.Drawing.Size(36, 22)
         Me.Label86.TabIndex = 312
@@ -2366,7 +2366,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfscale_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfscale_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfscale_tab3.Location = New System.Drawing.Point(777, 153)
+        Me.txtIfscale_tab3.Location = New System.Drawing.Point(777, 125)
         Me.txtIfscale_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfscale_tab3.Name = "txtIfscale_tab3"
         Me.txtIfscale_tab3.Size = New System.Drawing.Size(63, 28)
@@ -2376,7 +2376,7 @@ Partial Class frmILMeasurement
         '
         Me.Label87.AutoSize = True
         Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label87.Location = New System.Drawing.Point(683, 159)
+        Me.Label87.Location = New System.Drawing.Point(683, 131)
         Me.Label87.Name = "Label87"
         Me.Label87.Size = New System.Drawing.Size(60, 22)
         Me.Label87.TabIndex = 310
@@ -2386,7 +2386,7 @@ Partial Class frmILMeasurement
         '
         Me.Label88.AutoSize = True
         Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label88.Location = New System.Drawing.Point(783, 126)
+        Me.Label88.Location = New System.Drawing.Point(783, 98)
         Me.Label88.Name = "Label88"
         Me.Label88.Size = New System.Drawing.Size(55, 22)
         Me.Label88.TabIndex = 309
@@ -2396,7 +2396,7 @@ Partial Class frmILMeasurement
         '
         Me.Label89.AutoSize = True
         Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label89.Location = New System.Drawing.Point(683, 126)
+        Me.Label89.Location = New System.Drawing.Point(683, 98)
         Me.Label89.Name = "Label89"
         Me.Label89.Size = New System.Drawing.Size(43, 22)
         Me.Label89.TabIndex = 308
@@ -2407,7 +2407,7 @@ Partial Class frmILMeasurement
         Me.Label90.AutoSize = True
         Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label90.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label90.Location = New System.Drawing.Point(676, 84)
+        Me.Label90.Location = New System.Drawing.Point(676, 56)
         Me.Label90.Name = "Label90"
         Me.Label90.Size = New System.Drawing.Size(134, 22)
         Me.Label90.TabIndex = 307
@@ -2417,7 +2417,7 @@ Partial Class frmILMeasurement
         '
         Me.Label91.AutoSize = True
         Me.Label91.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label91.Location = New System.Drawing.Point(560, 370)
+        Me.Label91.Location = New System.Drawing.Point(560, 342)
         Me.Label91.Name = "Label91"
         Me.Label91.Size = New System.Drawing.Size(41, 22)
         Me.Label91.TabIndex = 306
@@ -2427,7 +2427,7 @@ Partial Class frmILMeasurement
         '
         Me.Label92.AutoSize = True
         Me.Label92.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label92.Location = New System.Drawing.Point(560, 334)
+        Me.Label92.Location = New System.Drawing.Point(560, 306)
         Me.Label92.Name = "Label92"
         Me.Label92.Size = New System.Drawing.Size(41, 22)
         Me.Label92.TabIndex = 305
@@ -2437,7 +2437,7 @@ Partial Class frmILMeasurement
         '
         Me.Label93.AutoSize = True
         Me.Label93.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label93.Location = New System.Drawing.Point(560, 300)
+        Me.Label93.Location = New System.Drawing.Point(560, 272)
         Me.Label93.Name = "Label93"
         Me.Label93.Size = New System.Drawing.Size(26, 22)
         Me.Label93.TabIndex = 304
@@ -2447,7 +2447,7 @@ Partial Class frmILMeasurement
         '
         Me.Label94.AutoSize = True
         Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label94.Location = New System.Drawing.Point(560, 263)
+        Me.Label94.Location = New System.Drawing.Point(560, 235)
         Me.Label94.Name = "Label94"
         Me.Label94.Size = New System.Drawing.Size(41, 22)
         Me.Label94.TabIndex = 303
@@ -2457,7 +2457,7 @@ Partial Class frmILMeasurement
         '
         Me.Label95.AutoSize = True
         Me.Label95.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label95.Location = New System.Drawing.Point(560, 230)
+        Me.Label95.Location = New System.Drawing.Point(560, 202)
         Me.Label95.Name = "Label95"
         Me.Label95.Size = New System.Drawing.Size(36, 22)
         Me.Label95.TabIndex = 302
@@ -2467,7 +2467,7 @@ Partial Class frmILMeasurement
         '
         Me.Label96.AutoSize = True
         Me.Label96.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label96.Location = New System.Drawing.Point(560, 197)
+        Me.Label96.Location = New System.Drawing.Point(560, 169)
         Me.Label96.Name = "Label96"
         Me.Label96.Size = New System.Drawing.Size(26, 22)
         Me.Label96.TabIndex = 301
@@ -2477,7 +2477,7 @@ Partial Class frmILMeasurement
         '
         Me.Label97.AutoSize = True
         Me.Label97.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label97.Location = New System.Drawing.Point(560, 160)
+        Me.Label97.Location = New System.Drawing.Point(560, 132)
         Me.Label97.Name = "Label97"
         Me.Label97.Size = New System.Drawing.Size(41, 22)
         Me.Label97.TabIndex = 300
@@ -2487,7 +2487,7 @@ Partial Class frmILMeasurement
         '
         Me.Label98.AutoSize = True
         Me.Label98.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label98.Location = New System.Drawing.Point(560, 128)
+        Me.Label98.Location = New System.Drawing.Point(560, 100)
         Me.Label98.Name = "Label98"
         Me.Label98.Size = New System.Drawing.Size(36, 22)
         Me.Label98.TabIndex = 299
@@ -2497,7 +2497,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp4_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp4_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp4_tab3.Location = New System.Drawing.Point(485, 366)
+        Me.txtFpp4_tab3.Location = New System.Drawing.Point(485, 338)
         Me.txtFpp4_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp4_tab3.Name = "txtFpp4_tab3"
         Me.txtFpp4_tab3.Size = New System.Drawing.Size(73, 28)
@@ -2507,7 +2507,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp3_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab3.Location = New System.Drawing.Point(485, 330)
+        Me.txtFpp3_tab3.Location = New System.Drawing.Point(485, 302)
         Me.txtFpp3_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab3.Name = "txtFpp3_tab3"
         Me.txtFpp3_tab3.Size = New System.Drawing.Size(73, 28)
@@ -2517,7 +2517,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp2_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp2_tab3.Location = New System.Drawing.Point(485, 295)
+        Me.txtFrp2_tab3.Location = New System.Drawing.Point(485, 267)
         Me.txtFrp2_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp2_tab3.Name = "txtFrp2_tab3"
         Me.txtFrp2_tab3.Size = New System.Drawing.Size(73, 28)
@@ -2527,7 +2527,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp2_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp2_tab3.Location = New System.Drawing.Point(485, 258)
+        Me.txtFpp2_tab3.Location = New System.Drawing.Point(485, 230)
         Me.txtFpp2_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp2_tab3.Name = "txtFpp2_tab3"
         Me.txtFpp2_tab3.Size = New System.Drawing.Size(73, 28)
@@ -2537,7 +2537,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp2_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp2_tab3.Location = New System.Drawing.Point(485, 224)
+        Me.txtFcp2_tab3.Location = New System.Drawing.Point(485, 196)
         Me.txtFcp2_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp2_tab3.Name = "txtFcp2_tab3"
         Me.txtFcp2_tab3.Size = New System.Drawing.Size(73, 28)
@@ -2547,7 +2547,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp_tab3.Location = New System.Drawing.Point(485, 191)
+        Me.txtFrp_tab3.Location = New System.Drawing.Point(485, 163)
         Me.txtFrp_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp_tab3.Name = "txtFrp_tab3"
         Me.txtFrp_tab3.Size = New System.Drawing.Size(73, 28)
@@ -2557,7 +2557,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab3.Location = New System.Drawing.Point(485, 157)
+        Me.txtFpp_tab3.Location = New System.Drawing.Point(485, 129)
         Me.txtFpp_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab3.Name = "txtFpp_tab3"
         Me.txtFpp_tab3.Size = New System.Drawing.Size(73, 28)
@@ -2567,7 +2567,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp_tab3.Location = New System.Drawing.Point(485, 122)
+        Me.txtFcp_tab3.Location = New System.Drawing.Point(485, 94)
         Me.txtFcp_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp_tab3.Name = "txtFcp_tab3"
         Me.txtFcp_tab3.Size = New System.Drawing.Size(73, 28)
@@ -2577,7 +2577,7 @@ Partial Class frmILMeasurement
         '
         Me.Label99.AutoSize = True
         Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label99.Location = New System.Drawing.Point(417, 368)
+        Me.Label99.Location = New System.Drawing.Point(417, 340)
         Me.Label99.Name = "Label99"
         Me.Label99.Size = New System.Drawing.Size(55, 22)
         Me.Label99.TabIndex = 290
@@ -2587,7 +2587,7 @@ Partial Class frmILMeasurement
         '
         Me.Label100.AutoSize = True
         Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label100.Location = New System.Drawing.Point(417, 331)
+        Me.Label100.Location = New System.Drawing.Point(417, 303)
         Me.Label100.Name = "Label100"
         Me.Label100.Size = New System.Drawing.Size(55, 22)
         Me.Label100.TabIndex = 289
@@ -2597,7 +2597,7 @@ Partial Class frmILMeasurement
         '
         Me.Label101.AutoSize = True
         Me.Label101.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label101.Location = New System.Drawing.Point(417, 297)
+        Me.Label101.Location = New System.Drawing.Point(417, 269)
         Me.Label101.Name = "Label101"
         Me.Label101.Size = New System.Drawing.Size(56, 22)
         Me.Label101.TabIndex = 288
@@ -2607,7 +2607,7 @@ Partial Class frmILMeasurement
         '
         Me.Label102.AutoSize = True
         Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label102.Location = New System.Drawing.Point(417, 260)
+        Me.Label102.Location = New System.Drawing.Point(417, 232)
         Me.Label102.Name = "Label102"
         Me.Label102.Size = New System.Drawing.Size(55, 22)
         Me.Label102.TabIndex = 287
@@ -2617,7 +2617,7 @@ Partial Class frmILMeasurement
         '
         Me.Label103.AutoSize = True
         Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label103.Location = New System.Drawing.Point(419, 226)
+        Me.Label103.Location = New System.Drawing.Point(419, 198)
         Me.Label103.Name = "Label103"
         Me.Label103.Size = New System.Drawing.Size(56, 22)
         Me.Label103.TabIndex = 286
@@ -2627,7 +2627,7 @@ Partial Class frmILMeasurement
         '
         Me.Label104.AutoSize = True
         Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label104.Location = New System.Drawing.Point(423, 194)
+        Me.Label104.Location = New System.Drawing.Point(423, 166)
         Me.Label104.Name = "Label104"
         Me.Label104.Size = New System.Drawing.Size(46, 22)
         Me.Label104.TabIndex = 285
@@ -2637,7 +2637,7 @@ Partial Class frmILMeasurement
         '
         Me.Label105.AutoSize = True
         Me.Label105.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label105.Location = New System.Drawing.Point(424, 159)
+        Me.Label105.Location = New System.Drawing.Point(424, 131)
         Me.Label105.Name = "Label105"
         Me.Label105.Size = New System.Drawing.Size(45, 22)
         Me.Label105.TabIndex = 284
@@ -2647,7 +2647,7 @@ Partial Class frmILMeasurement
         '
         Me.Label106.AutoSize = True
         Me.Label106.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label106.Location = New System.Drawing.Point(424, 126)
+        Me.Label106.Location = New System.Drawing.Point(424, 98)
         Me.Label106.Name = "Label106"
         Me.Label106.Size = New System.Drawing.Size(46, 22)
         Me.Label106.TabIndex = 283
@@ -2658,7 +2658,7 @@ Partial Class frmILMeasurement
         Me.Label107.AutoSize = True
         Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label107.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label107.Location = New System.Drawing.Point(417, 84)
+        Me.Label107.Location = New System.Drawing.Point(417, 56)
         Me.Label107.Name = "Label107"
         Me.Label107.Size = New System.Drawing.Size(68, 22)
         Me.Label107.TabIndex = 282
@@ -2668,7 +2668,7 @@ Partial Class frmILMeasurement
         '
         Me.txtAtt_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAtt_tab3.Location = New System.Drawing.Point(249, 553)
+        Me.txtAtt_tab3.Location = New System.Drawing.Point(249, 525)
         Me.txtAtt_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAtt_tab3.Name = "txtAtt_tab3"
         Me.txtAtt_tab3.Size = New System.Drawing.Size(111, 28)
@@ -2678,7 +2678,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIcal_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIcal_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIcal_tab3.Location = New System.Drawing.Point(249, 514)
+        Me.txtIcal_tab3.Location = New System.Drawing.Point(249, 486)
         Me.txtIcal_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIcal_tab3.Name = "txtIcal_tab3"
         Me.txtIcal_tab3.Size = New System.Drawing.Size(111, 28)
@@ -2688,7 +2688,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTld_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTld_tab3.Location = New System.Drawing.Point(249, 478)
+        Me.txtTld_tab3.Location = New System.Drawing.Point(249, 450)
         Me.txtTld_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTld_tab3.Name = "txtTld_tab3"
         Me.txtTld_tab3.Size = New System.Drawing.Size(111, 28)
@@ -2698,7 +2698,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTc_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTc_tab3.Location = New System.Drawing.Point(249, 441)
+        Me.txtTc_tab3.Location = New System.Drawing.Point(249, 413)
         Me.txtTc_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTc_tab3.Name = "txtTc_tab3"
         Me.txtTc_tab3.Size = New System.Drawing.Size(111, 28)
@@ -2708,7 +2708,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoweravg_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoweravg_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoweravg_tab3.Location = New System.Drawing.Point(249, 402)
+        Me.txtPoweravg_tab3.Location = New System.Drawing.Point(249, 374)
         Me.txtPoweravg_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoweravg_tab3.Name = "txtPoweravg_tab3"
         Me.txtPoweravg_tab3.Size = New System.Drawing.Size(111, 28)
@@ -2718,7 +2718,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDelay_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDelay_tab3.Location = New System.Drawing.Point(249, 364)
+        Me.txtDelay_tab3.Location = New System.Drawing.Point(249, 336)
         Me.txtDelay_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDelay_tab3.Name = "txtDelay_tab3"
         Me.txtDelay_tab3.Size = New System.Drawing.Size(111, 28)
@@ -2729,7 +2729,7 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab3.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPulse_tab3.Location = New System.Drawing.Point(249, 325)
+        Me.txtPulse_tab3.Location = New System.Drawing.Point(249, 297)
         Me.txtPulse_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPulse_tab3.Name = "txtPulse_tab3"
         Me.txtPulse_tab3.ReadOnly = True
@@ -2740,7 +2740,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDutycycle_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDutycycle_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDutycycle_tab3.Location = New System.Drawing.Point(249, 284)
+        Me.txtDutycycle_tab3.Location = New System.Drawing.Point(249, 256)
         Me.txtDutycycle_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDutycycle_tab3.Name = "txtDutycycle_tab3"
         Me.txtDutycycle_tab3.Size = New System.Drawing.Size(111, 28)
@@ -2750,7 +2750,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrequn_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequn_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrequn_tab3.Location = New System.Drawing.Point(249, 246)
+        Me.txtFrequn_tab3.Location = New System.Drawing.Point(249, 218)
         Me.txtFrequn_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrequn_tab3.Name = "txtFrequn_tab3"
         Me.txtFrequn_tab3.Size = New System.Drawing.Size(111, 28)
@@ -2760,7 +2760,7 @@ Partial Class frmILMeasurement
         '
         Me.txStop_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStop_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab3.Location = New System.Drawing.Point(249, 206)
+        Me.txStop_tab3.Location = New System.Drawing.Point(249, 178)
         Me.txStop_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStop_tab3.Name = "txStop_tab3"
         Me.txStop_tab3.Size = New System.Drawing.Size(111, 28)
@@ -2770,7 +2770,7 @@ Partial Class frmILMeasurement
         '
         Me.txStep_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStep_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab3.Location = New System.Drawing.Point(249, 164)
+        Me.txStep_tab3.Location = New System.Drawing.Point(249, 136)
         Me.txStep_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStep_tab3.Name = "txStep_tab3"
         Me.txStep_tab3.Size = New System.Drawing.Size(111, 28)
@@ -2780,7 +2780,7 @@ Partial Class frmILMeasurement
         '
         Me.txtStart_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtStart_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtStart_tab3.Location = New System.Drawing.Point(249, 122)
+        Me.txtStart_tab3.Location = New System.Drawing.Point(249, 94)
         Me.txtStart_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtStart_tab3.Name = "txtStart_tab3"
         Me.txtStart_tab3.Size = New System.Drawing.Size(111, 28)
@@ -2790,7 +2790,7 @@ Partial Class frmILMeasurement
         '
         Me.Label108.AutoSize = True
         Me.Label108.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label108.Location = New System.Drawing.Point(93, 553)
+        Me.Label108.Location = New System.Drawing.Point(93, 525)
         Me.Label108.Name = "Label108"
         Me.Label108.Size = New System.Drawing.Size(83, 22)
         Me.Label108.TabIndex = 269
@@ -2800,7 +2800,7 @@ Partial Class frmILMeasurement
         '
         Me.Label109.AutoSize = True
         Me.Label109.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label109.Location = New System.Drawing.Point(93, 513)
+        Me.Label109.Location = New System.Drawing.Point(93, 485)
         Me.Label109.Name = "Label109"
         Me.Label109.Size = New System.Drawing.Size(90, 22)
         Me.Label109.TabIndex = 268
@@ -2810,7 +2810,7 @@ Partial Class frmILMeasurement
         '
         Me.Label110.AutoSize = True
         Me.Label110.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label110.Location = New System.Drawing.Point(93, 480)
+        Me.Label110.Location = New System.Drawing.Point(93, 452)
         Me.Label110.Name = "Label110"
         Me.Label110.Size = New System.Drawing.Size(70, 22)
         Me.Label110.TabIndex = 267
@@ -2820,7 +2820,7 @@ Partial Class frmILMeasurement
         '
         Me.Label111.AutoSize = True
         Me.Label111.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label111.Location = New System.Drawing.Point(92, 442)
+        Me.Label111.Location = New System.Drawing.Point(92, 414)
         Me.Label111.Name = "Label111"
         Me.Label111.Size = New System.Drawing.Size(65, 22)
         Me.Label111.TabIndex = 266
@@ -2830,7 +2830,7 @@ Partial Class frmILMeasurement
         '
         Me.Label112.AutoSize = True
         Me.Label112.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label112.Location = New System.Drawing.Point(92, 395)
+        Me.Label112.Location = New System.Drawing.Point(92, 367)
         Me.Label112.Name = "Label112"
         Me.Label112.Size = New System.Drawing.Size(131, 44)
         Me.Label112.TabIndex = 265
@@ -2840,7 +2840,7 @@ Partial Class frmILMeasurement
         '
         Me.Label113.AutoSize = True
         Me.Label113.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label113.Location = New System.Drawing.Point(92, 366)
+        Me.Label113.Location = New System.Drawing.Point(92, 338)
         Me.Label113.Name = "Label113"
         Me.Label113.Size = New System.Drawing.Size(123, 22)
         Me.Label113.TabIndex = 264
@@ -2850,7 +2850,7 @@ Partial Class frmILMeasurement
         '
         Me.Label114.AutoSize = True
         Me.Label114.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label114.Location = New System.Drawing.Point(92, 327)
+        Me.Label114.Location = New System.Drawing.Point(92, 299)
         Me.Label114.Name = "Label114"
         Me.Label114.Size = New System.Drawing.Size(140, 22)
         Me.Label114.TabIndex = 263
@@ -2860,7 +2860,7 @@ Partial Class frmILMeasurement
         '
         Me.Label115.AutoSize = True
         Me.Label115.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label115.Location = New System.Drawing.Point(92, 286)
+        Me.Label115.Location = New System.Drawing.Point(92, 258)
         Me.Label115.Name = "Label115"
         Me.Label115.Size = New System.Drawing.Size(124, 22)
         Me.Label115.TabIndex = 262
@@ -2870,7 +2870,7 @@ Partial Class frmILMeasurement
         '
         Me.Label116.AutoSize = True
         Me.Label116.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label116.Location = New System.Drawing.Point(93, 249)
+        Me.Label116.Location = New System.Drawing.Point(93, 221)
         Me.Label116.Name = "Label116"
         Me.Label116.Size = New System.Drawing.Size(143, 22)
         Me.Label116.TabIndex = 261
@@ -2880,7 +2880,7 @@ Partial Class frmILMeasurement
         '
         Me.Label117.AutoSize = True
         Me.Label117.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label117.Location = New System.Drawing.Point(92, 206)
+        Me.Label117.Location = New System.Drawing.Point(92, 178)
         Me.Label117.Name = "Label117"
         Me.Label117.Size = New System.Drawing.Size(102, 22)
         Me.Label117.TabIndex = 260
@@ -2890,7 +2890,7 @@ Partial Class frmILMeasurement
         '
         Me.Label118.AutoSize = True
         Me.Label118.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label118.Location = New System.Drawing.Point(92, 164)
+        Me.Label118.Location = New System.Drawing.Point(92, 136)
         Me.Label118.Name = "Label118"
         Me.Label118.Size = New System.Drawing.Size(102, 22)
         Me.Label118.TabIndex = 259
@@ -2900,7 +2900,7 @@ Partial Class frmILMeasurement
         '
         Me.Label119.AutoSize = True
         Me.Label119.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label119.Location = New System.Drawing.Point(93, 122)
+        Me.Label119.Location = New System.Drawing.Point(93, 94)
         Me.Label119.Name = "Label119"
         Me.Label119.Size = New System.Drawing.Size(103, 22)
         Me.Label119.TabIndex = 258
@@ -2911,7 +2911,7 @@ Partial Class frmILMeasurement
         Me.Label120.AutoSize = True
         Me.Label120.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label120.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label120.Location = New System.Drawing.Point(92, 84)
+        Me.Label120.Location = New System.Drawing.Point(92, 56)
         Me.Label120.Name = "Label120"
         Me.Label120.Size = New System.Drawing.Size(79, 22)
         Me.Label120.TabIndex = 257
@@ -3005,7 +3005,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImdiv_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImdiv_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImdiv_tab4.Location = New System.Drawing.Point(847, 373)
+        Me.txtImdiv_tab4.Location = New System.Drawing.Point(847, 345)
         Me.txtImdiv_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImdiv_tab4.Name = "txtImdiv_tab4"
         Me.txtImdiv_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3015,7 +3015,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImscale_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImscale_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImscale_tab4.Location = New System.Drawing.Point(777, 373)
+        Me.txtImscale_tab4.Location = New System.Drawing.Point(777, 345)
         Me.txtImscale_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImscale_tab4.Name = "txtImscale_tab4"
         Me.txtImscale_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3025,7 +3025,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRddiv_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRddiv_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRddiv_tab4.Location = New System.Drawing.Point(847, 327)
+        Me.txtRddiv_tab4.Location = New System.Drawing.Point(847, 299)
         Me.txtRddiv_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRddiv_tab4.Name = "txtRddiv_tab4"
         Me.txtRddiv_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3035,7 +3035,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRdscale_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRdscale_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRdscale_tab4.Location = New System.Drawing.Point(777, 327)
+        Me.txtRdscale_tab4.Location = New System.Drawing.Point(777, 299)
         Me.txtRdscale_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRdscale_tab4.Name = "txtRdscale_tab4"
         Me.txtRdscale_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3045,7 +3045,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSediv_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSediv_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSediv_tab4.Location = New System.Drawing.Point(847, 283)
+        Me.txtSediv_tab4.Location = New System.Drawing.Point(847, 255)
         Me.txtSediv_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSediv_tab4.Name = "txtSediv_tab4"
         Me.txtSediv_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3055,7 +3055,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSescale_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSescale_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSescale_tab4.Location = New System.Drawing.Point(777, 283)
+        Me.txtSescale_tab4.Location = New System.Drawing.Point(777, 255)
         Me.txtSescale_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSescale_tab4.Name = "txtSescale_tab4"
         Me.txtSescale_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3065,7 +3065,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPodiv_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPodiv_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPodiv_tab4.Location = New System.Drawing.Point(847, 239)
+        Me.txtPodiv_tab4.Location = New System.Drawing.Point(847, 211)
         Me.txtPodiv_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPodiv_tab4.Name = "txtPodiv_tab4"
         Me.txtPodiv_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3075,7 +3075,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoscale_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoscale_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoscale_tab4.Location = New System.Drawing.Point(777, 239)
+        Me.txtPoscale_tab4.Location = New System.Drawing.Point(777, 211)
         Me.txtPoscale_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoscale_tab4.Name = "txtPoscale_tab4"
         Me.txtPoscale_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3085,7 +3085,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfdiv_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfdiv_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfdiv_tab4.Location = New System.Drawing.Point(847, 194)
+        Me.txtVfdiv_tab4.Location = New System.Drawing.Point(847, 166)
         Me.txtVfdiv_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfdiv_tab4.Name = "txtVfdiv_tab4"
         Me.txtVfdiv_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3095,7 +3095,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfscale_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfscale_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfscale_tab4.Location = New System.Drawing.Point(777, 194)
+        Me.txtVfscale_tab4.Location = New System.Drawing.Point(777, 166)
         Me.txtVfscale_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfscale_tab4.Name = "txtVfscale_tab4"
         Me.txtVfscale_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3105,7 +3105,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfdiv_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfdiv_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfdiv_tab4.Location = New System.Drawing.Point(847, 153)
+        Me.txtIfdiv_tab4.Location = New System.Drawing.Point(847, 125)
         Me.txtIfdiv_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfdiv_tab4.Name = "txtIfdiv_tab4"
         Me.txtIfdiv_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3115,7 +3115,7 @@ Partial Class frmILMeasurement
         '
         Me.Label81.AutoSize = True
         Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label81.Location = New System.Drawing.Point(683, 377)
+        Me.Label81.Location = New System.Drawing.Point(683, 349)
         Me.Label81.Name = "Label81"
         Me.Label81.Size = New System.Drawing.Size(69, 22)
         Me.Label81.TabIndex = 317
@@ -3125,7 +3125,7 @@ Partial Class frmILMeasurement
         '
         Me.Label82.AutoSize = True
         Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label82.Location = New System.Drawing.Point(683, 332)
+        Me.Label82.Location = New System.Drawing.Point(683, 304)
         Me.Label82.Name = "Label82"
         Me.Label82.Size = New System.Drawing.Size(82, 22)
         Me.Label82.TabIndex = 316
@@ -3135,7 +3135,7 @@ Partial Class frmILMeasurement
         '
         Me.Label83.AutoSize = True
         Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label83.Location = New System.Drawing.Point(683, 288)
+        Me.Label83.Location = New System.Drawing.Point(683, 260)
         Me.Label83.Name = "Label83"
         Me.Label83.Size = New System.Drawing.Size(83, 22)
         Me.Label83.TabIndex = 315
@@ -3145,7 +3145,7 @@ Partial Class frmILMeasurement
         '
         Me.Label84.AutoSize = True
         Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label84.Location = New System.Drawing.Point(683, 242)
+        Me.Label84.Location = New System.Drawing.Point(683, 214)
         Me.Label84.Name = "Label84"
         Me.Label84.Size = New System.Drawing.Size(78, 22)
         Me.Label84.TabIndex = 314
@@ -3155,7 +3155,7 @@ Partial Class frmILMeasurement
         '
         Me.Label125.AutoSize = True
         Me.Label125.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label125.Location = New System.Drawing.Point(683, 197)
+        Me.Label125.Location = New System.Drawing.Point(683, 169)
         Me.Label125.Name = "Label125"
         Me.Label125.Size = New System.Drawing.Size(68, 22)
         Me.Label125.TabIndex = 313
@@ -3165,7 +3165,7 @@ Partial Class frmILMeasurement
         '
         Me.Label126.AutoSize = True
         Me.Label126.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label126.Location = New System.Drawing.Point(857, 126)
+        Me.Label126.Location = New System.Drawing.Point(857, 98)
         Me.Label126.Name = "Label126"
         Me.Label126.Size = New System.Drawing.Size(36, 22)
         Me.Label126.TabIndex = 312
@@ -3175,7 +3175,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfscale_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfscale_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfscale_tab4.Location = New System.Drawing.Point(777, 153)
+        Me.txtIfscale_tab4.Location = New System.Drawing.Point(777, 125)
         Me.txtIfscale_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfscale_tab4.Name = "txtIfscale_tab4"
         Me.txtIfscale_tab4.Size = New System.Drawing.Size(63, 28)
@@ -3185,7 +3185,7 @@ Partial Class frmILMeasurement
         '
         Me.Label127.AutoSize = True
         Me.Label127.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label127.Location = New System.Drawing.Point(683, 159)
+        Me.Label127.Location = New System.Drawing.Point(683, 131)
         Me.Label127.Name = "Label127"
         Me.Label127.Size = New System.Drawing.Size(60, 22)
         Me.Label127.TabIndex = 310
@@ -3195,7 +3195,7 @@ Partial Class frmILMeasurement
         '
         Me.Label128.AutoSize = True
         Me.Label128.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label128.Location = New System.Drawing.Point(783, 126)
+        Me.Label128.Location = New System.Drawing.Point(783, 98)
         Me.Label128.Name = "Label128"
         Me.Label128.Size = New System.Drawing.Size(55, 22)
         Me.Label128.TabIndex = 309
@@ -3205,7 +3205,7 @@ Partial Class frmILMeasurement
         '
         Me.Label129.AutoSize = True
         Me.Label129.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label129.Location = New System.Drawing.Point(683, 126)
+        Me.Label129.Location = New System.Drawing.Point(683, 98)
         Me.Label129.Name = "Label129"
         Me.Label129.Size = New System.Drawing.Size(43, 22)
         Me.Label129.TabIndex = 308
@@ -3216,7 +3216,7 @@ Partial Class frmILMeasurement
         Me.Label130.AutoSize = True
         Me.Label130.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label130.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label130.Location = New System.Drawing.Point(676, 84)
+        Me.Label130.Location = New System.Drawing.Point(676, 56)
         Me.Label130.Name = "Label130"
         Me.Label130.Size = New System.Drawing.Size(134, 22)
         Me.Label130.TabIndex = 307
@@ -3226,7 +3226,7 @@ Partial Class frmILMeasurement
         '
         Me.Label131.AutoSize = True
         Me.Label131.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label131.Location = New System.Drawing.Point(560, 370)
+        Me.Label131.Location = New System.Drawing.Point(560, 342)
         Me.Label131.Name = "Label131"
         Me.Label131.Size = New System.Drawing.Size(41, 22)
         Me.Label131.TabIndex = 306
@@ -3236,7 +3236,7 @@ Partial Class frmILMeasurement
         '
         Me.Label132.AutoSize = True
         Me.Label132.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label132.Location = New System.Drawing.Point(560, 334)
+        Me.Label132.Location = New System.Drawing.Point(560, 306)
         Me.Label132.Name = "Label132"
         Me.Label132.Size = New System.Drawing.Size(41, 22)
         Me.Label132.TabIndex = 305
@@ -3246,7 +3246,7 @@ Partial Class frmILMeasurement
         '
         Me.Label133.AutoSize = True
         Me.Label133.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label133.Location = New System.Drawing.Point(560, 300)
+        Me.Label133.Location = New System.Drawing.Point(560, 272)
         Me.Label133.Name = "Label133"
         Me.Label133.Size = New System.Drawing.Size(26, 22)
         Me.Label133.TabIndex = 304
@@ -3256,7 +3256,7 @@ Partial Class frmILMeasurement
         '
         Me.Label134.AutoSize = True
         Me.Label134.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label134.Location = New System.Drawing.Point(560, 263)
+        Me.Label134.Location = New System.Drawing.Point(560, 235)
         Me.Label134.Name = "Label134"
         Me.Label134.Size = New System.Drawing.Size(41, 22)
         Me.Label134.TabIndex = 303
@@ -3266,7 +3266,7 @@ Partial Class frmILMeasurement
         '
         Me.Label135.AutoSize = True
         Me.Label135.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label135.Location = New System.Drawing.Point(560, 230)
+        Me.Label135.Location = New System.Drawing.Point(560, 202)
         Me.Label135.Name = "Label135"
         Me.Label135.Size = New System.Drawing.Size(36, 22)
         Me.Label135.TabIndex = 302
@@ -3276,7 +3276,7 @@ Partial Class frmILMeasurement
         '
         Me.Label136.AutoSize = True
         Me.Label136.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label136.Location = New System.Drawing.Point(560, 197)
+        Me.Label136.Location = New System.Drawing.Point(560, 169)
         Me.Label136.Name = "Label136"
         Me.Label136.Size = New System.Drawing.Size(26, 22)
         Me.Label136.TabIndex = 301
@@ -3286,7 +3286,7 @@ Partial Class frmILMeasurement
         '
         Me.Label137.AutoSize = True
         Me.Label137.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label137.Location = New System.Drawing.Point(560, 160)
+        Me.Label137.Location = New System.Drawing.Point(560, 132)
         Me.Label137.Name = "Label137"
         Me.Label137.Size = New System.Drawing.Size(41, 22)
         Me.Label137.TabIndex = 300
@@ -3296,7 +3296,7 @@ Partial Class frmILMeasurement
         '
         Me.Label138.AutoSize = True
         Me.Label138.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label138.Location = New System.Drawing.Point(560, 128)
+        Me.Label138.Location = New System.Drawing.Point(560, 100)
         Me.Label138.Name = "Label138"
         Me.Label138.Size = New System.Drawing.Size(36, 22)
         Me.Label138.TabIndex = 299
@@ -3306,7 +3306,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp4_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp4_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp4_tab4.Location = New System.Drawing.Point(485, 366)
+        Me.txtFpp4_tab4.Location = New System.Drawing.Point(485, 338)
         Me.txtFpp4_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp4_tab4.Name = "txtFpp4_tab4"
         Me.txtFpp4_tab4.Size = New System.Drawing.Size(73, 28)
@@ -3316,7 +3316,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp3_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab4.Location = New System.Drawing.Point(485, 330)
+        Me.txtFpp3_tab4.Location = New System.Drawing.Point(485, 302)
         Me.txtFpp3_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab4.Name = "txtFpp3_tab4"
         Me.txtFpp3_tab4.Size = New System.Drawing.Size(73, 28)
@@ -3326,7 +3326,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp2_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp2_tab4.Location = New System.Drawing.Point(485, 295)
+        Me.txtFrp2_tab4.Location = New System.Drawing.Point(485, 267)
         Me.txtFrp2_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp2_tab4.Name = "txtFrp2_tab4"
         Me.txtFrp2_tab4.Size = New System.Drawing.Size(73, 28)
@@ -3336,7 +3336,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp2_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp2_tab4.Location = New System.Drawing.Point(485, 258)
+        Me.txtFpp2_tab4.Location = New System.Drawing.Point(485, 230)
         Me.txtFpp2_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp2_tab4.Name = "txtFpp2_tab4"
         Me.txtFpp2_tab4.Size = New System.Drawing.Size(73, 28)
@@ -3346,7 +3346,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp2_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp2_tab4.Location = New System.Drawing.Point(485, 224)
+        Me.txtFcp2_tab4.Location = New System.Drawing.Point(485, 196)
         Me.txtFcp2_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp2_tab4.Name = "txtFcp2_tab4"
         Me.txtFcp2_tab4.Size = New System.Drawing.Size(73, 28)
@@ -3356,7 +3356,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp_tab4.Location = New System.Drawing.Point(485, 191)
+        Me.txtFrp_tab4.Location = New System.Drawing.Point(485, 163)
         Me.txtFrp_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp_tab4.Name = "txtFrp_tab4"
         Me.txtFrp_tab4.Size = New System.Drawing.Size(73, 28)
@@ -3366,7 +3366,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab4.Location = New System.Drawing.Point(485, 157)
+        Me.txtFpp_tab4.Location = New System.Drawing.Point(485, 129)
         Me.txtFpp_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab4.Name = "txtFpp_tab4"
         Me.txtFpp_tab4.Size = New System.Drawing.Size(73, 28)
@@ -3376,7 +3376,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp_tab4.Location = New System.Drawing.Point(485, 122)
+        Me.txtFcp_tab4.Location = New System.Drawing.Point(485, 94)
         Me.txtFcp_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp_tab4.Name = "txtFcp_tab4"
         Me.txtFcp_tab4.Size = New System.Drawing.Size(73, 28)
@@ -3386,7 +3386,7 @@ Partial Class frmILMeasurement
         '
         Me.Label139.AutoSize = True
         Me.Label139.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label139.Location = New System.Drawing.Point(417, 368)
+        Me.Label139.Location = New System.Drawing.Point(417, 340)
         Me.Label139.Name = "Label139"
         Me.Label139.Size = New System.Drawing.Size(55, 22)
         Me.Label139.TabIndex = 290
@@ -3396,7 +3396,7 @@ Partial Class frmILMeasurement
         '
         Me.Label140.AutoSize = True
         Me.Label140.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label140.Location = New System.Drawing.Point(417, 331)
+        Me.Label140.Location = New System.Drawing.Point(417, 303)
         Me.Label140.Name = "Label140"
         Me.Label140.Size = New System.Drawing.Size(55, 22)
         Me.Label140.TabIndex = 289
@@ -3406,7 +3406,7 @@ Partial Class frmILMeasurement
         '
         Me.Label141.AutoSize = True
         Me.Label141.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label141.Location = New System.Drawing.Point(417, 297)
+        Me.Label141.Location = New System.Drawing.Point(417, 269)
         Me.Label141.Name = "Label141"
         Me.Label141.Size = New System.Drawing.Size(56, 22)
         Me.Label141.TabIndex = 288
@@ -3416,7 +3416,7 @@ Partial Class frmILMeasurement
         '
         Me.Label142.AutoSize = True
         Me.Label142.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label142.Location = New System.Drawing.Point(417, 260)
+        Me.Label142.Location = New System.Drawing.Point(417, 232)
         Me.Label142.Name = "Label142"
         Me.Label142.Size = New System.Drawing.Size(55, 22)
         Me.Label142.TabIndex = 287
@@ -3426,7 +3426,7 @@ Partial Class frmILMeasurement
         '
         Me.Label143.AutoSize = True
         Me.Label143.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label143.Location = New System.Drawing.Point(419, 226)
+        Me.Label143.Location = New System.Drawing.Point(419, 198)
         Me.Label143.Name = "Label143"
         Me.Label143.Size = New System.Drawing.Size(56, 22)
         Me.Label143.TabIndex = 286
@@ -3436,7 +3436,7 @@ Partial Class frmILMeasurement
         '
         Me.Label144.AutoSize = True
         Me.Label144.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label144.Location = New System.Drawing.Point(423, 194)
+        Me.Label144.Location = New System.Drawing.Point(423, 166)
         Me.Label144.Name = "Label144"
         Me.Label144.Size = New System.Drawing.Size(46, 22)
         Me.Label144.TabIndex = 285
@@ -3446,7 +3446,7 @@ Partial Class frmILMeasurement
         '
         Me.Label145.AutoSize = True
         Me.Label145.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label145.Location = New System.Drawing.Point(424, 159)
+        Me.Label145.Location = New System.Drawing.Point(424, 131)
         Me.Label145.Name = "Label145"
         Me.Label145.Size = New System.Drawing.Size(45, 22)
         Me.Label145.TabIndex = 284
@@ -3456,7 +3456,7 @@ Partial Class frmILMeasurement
         '
         Me.Label146.AutoSize = True
         Me.Label146.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label146.Location = New System.Drawing.Point(424, 126)
+        Me.Label146.Location = New System.Drawing.Point(424, 98)
         Me.Label146.Name = "Label146"
         Me.Label146.Size = New System.Drawing.Size(46, 22)
         Me.Label146.TabIndex = 283
@@ -3467,7 +3467,7 @@ Partial Class frmILMeasurement
         Me.Label147.AutoSize = True
         Me.Label147.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label147.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label147.Location = New System.Drawing.Point(417, 84)
+        Me.Label147.Location = New System.Drawing.Point(417, 56)
         Me.Label147.Name = "Label147"
         Me.Label147.Size = New System.Drawing.Size(68, 22)
         Me.Label147.TabIndex = 282
@@ -3477,7 +3477,7 @@ Partial Class frmILMeasurement
         '
         Me.txtAtt_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAtt_tab4.Location = New System.Drawing.Point(249, 553)
+        Me.txtAtt_tab4.Location = New System.Drawing.Point(249, 525)
         Me.txtAtt_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAtt_tab4.Name = "txtAtt_tab4"
         Me.txtAtt_tab4.Size = New System.Drawing.Size(111, 28)
@@ -3487,7 +3487,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIcal_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIcal_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIcal_tab4.Location = New System.Drawing.Point(249, 514)
+        Me.txtIcal_tab4.Location = New System.Drawing.Point(249, 486)
         Me.txtIcal_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIcal_tab4.Name = "txtIcal_tab4"
         Me.txtIcal_tab4.Size = New System.Drawing.Size(111, 28)
@@ -3497,7 +3497,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTld_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTld_tab4.Location = New System.Drawing.Point(249, 478)
+        Me.txtTld_tab4.Location = New System.Drawing.Point(249, 450)
         Me.txtTld_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTld_tab4.Name = "txtTld_tab4"
         Me.txtTld_tab4.Size = New System.Drawing.Size(111, 28)
@@ -3507,7 +3507,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTc_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTc_tab4.Location = New System.Drawing.Point(249, 441)
+        Me.txtTc_tab4.Location = New System.Drawing.Point(249, 413)
         Me.txtTc_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTc_tab4.Name = "txtTc_tab4"
         Me.txtTc_tab4.Size = New System.Drawing.Size(111, 28)
@@ -3517,7 +3517,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoweravg_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoweravg_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoweravg_tab4.Location = New System.Drawing.Point(249, 402)
+        Me.txtPoweravg_tab4.Location = New System.Drawing.Point(249, 374)
         Me.txtPoweravg_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoweravg_tab4.Name = "txtPoweravg_tab4"
         Me.txtPoweravg_tab4.Size = New System.Drawing.Size(111, 28)
@@ -3527,7 +3527,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDelay_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDelay_tab4.Location = New System.Drawing.Point(249, 364)
+        Me.txtDelay_tab4.Location = New System.Drawing.Point(249, 336)
         Me.txtDelay_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDelay_tab4.Name = "txtDelay_tab4"
         Me.txtDelay_tab4.Size = New System.Drawing.Size(111, 28)
@@ -3538,7 +3538,7 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab4.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPulse_tab4.Location = New System.Drawing.Point(249, 325)
+        Me.txtPulse_tab4.Location = New System.Drawing.Point(249, 297)
         Me.txtPulse_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPulse_tab4.Name = "txtPulse_tab4"
         Me.txtPulse_tab4.ReadOnly = True
@@ -3549,7 +3549,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDutycycle_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDutycycle_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDutycycle_tab4.Location = New System.Drawing.Point(249, 284)
+        Me.txtDutycycle_tab4.Location = New System.Drawing.Point(249, 256)
         Me.txtDutycycle_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDutycycle_tab4.Name = "txtDutycycle_tab4"
         Me.txtDutycycle_tab4.Size = New System.Drawing.Size(111, 28)
@@ -3559,7 +3559,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrequn_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequn_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrequn_tab4.Location = New System.Drawing.Point(249, 246)
+        Me.txtFrequn_tab4.Location = New System.Drawing.Point(249, 218)
         Me.txtFrequn_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrequn_tab4.Name = "txtFrequn_tab4"
         Me.txtFrequn_tab4.Size = New System.Drawing.Size(111, 28)
@@ -3569,7 +3569,7 @@ Partial Class frmILMeasurement
         '
         Me.txStop_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStop_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab4.Location = New System.Drawing.Point(249, 206)
+        Me.txStop_tab4.Location = New System.Drawing.Point(249, 178)
         Me.txStop_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStop_tab4.Name = "txStop_tab4"
         Me.txStop_tab4.Size = New System.Drawing.Size(111, 28)
@@ -3579,7 +3579,7 @@ Partial Class frmILMeasurement
         '
         Me.txStep_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStep_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab4.Location = New System.Drawing.Point(249, 164)
+        Me.txStep_tab4.Location = New System.Drawing.Point(249, 136)
         Me.txStep_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStep_tab4.Name = "txStep_tab4"
         Me.txStep_tab4.Size = New System.Drawing.Size(111, 28)
@@ -3589,7 +3589,7 @@ Partial Class frmILMeasurement
         '
         Me.txtStart_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtStart_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtStart_tab4.Location = New System.Drawing.Point(249, 122)
+        Me.txtStart_tab4.Location = New System.Drawing.Point(249, 94)
         Me.txtStart_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtStart_tab4.Name = "txtStart_tab4"
         Me.txtStart_tab4.Size = New System.Drawing.Size(111, 28)
@@ -3599,7 +3599,7 @@ Partial Class frmILMeasurement
         '
         Me.Label148.AutoSize = True
         Me.Label148.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label148.Location = New System.Drawing.Point(93, 553)
+        Me.Label148.Location = New System.Drawing.Point(93, 525)
         Me.Label148.Name = "Label148"
         Me.Label148.Size = New System.Drawing.Size(83, 22)
         Me.Label148.TabIndex = 269
@@ -3609,7 +3609,7 @@ Partial Class frmILMeasurement
         '
         Me.Label149.AutoSize = True
         Me.Label149.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label149.Location = New System.Drawing.Point(93, 513)
+        Me.Label149.Location = New System.Drawing.Point(93, 485)
         Me.Label149.Name = "Label149"
         Me.Label149.Size = New System.Drawing.Size(90, 22)
         Me.Label149.TabIndex = 268
@@ -3619,7 +3619,7 @@ Partial Class frmILMeasurement
         '
         Me.Label150.AutoSize = True
         Me.Label150.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label150.Location = New System.Drawing.Point(93, 480)
+        Me.Label150.Location = New System.Drawing.Point(93, 452)
         Me.Label150.Name = "Label150"
         Me.Label150.Size = New System.Drawing.Size(70, 22)
         Me.Label150.TabIndex = 267
@@ -3629,7 +3629,7 @@ Partial Class frmILMeasurement
         '
         Me.Label151.AutoSize = True
         Me.Label151.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label151.Location = New System.Drawing.Point(92, 442)
+        Me.Label151.Location = New System.Drawing.Point(92, 414)
         Me.Label151.Name = "Label151"
         Me.Label151.Size = New System.Drawing.Size(65, 22)
         Me.Label151.TabIndex = 266
@@ -3639,7 +3639,7 @@ Partial Class frmILMeasurement
         '
         Me.Label152.AutoSize = True
         Me.Label152.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label152.Location = New System.Drawing.Point(92, 395)
+        Me.Label152.Location = New System.Drawing.Point(92, 367)
         Me.Label152.Name = "Label152"
         Me.Label152.Size = New System.Drawing.Size(131, 44)
         Me.Label152.TabIndex = 265
@@ -3649,7 +3649,7 @@ Partial Class frmILMeasurement
         '
         Me.Label153.AutoSize = True
         Me.Label153.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label153.Location = New System.Drawing.Point(92, 366)
+        Me.Label153.Location = New System.Drawing.Point(92, 338)
         Me.Label153.Name = "Label153"
         Me.Label153.Size = New System.Drawing.Size(123, 22)
         Me.Label153.TabIndex = 264
@@ -3659,7 +3659,7 @@ Partial Class frmILMeasurement
         '
         Me.Label154.AutoSize = True
         Me.Label154.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label154.Location = New System.Drawing.Point(92, 327)
+        Me.Label154.Location = New System.Drawing.Point(92, 299)
         Me.Label154.Name = "Label154"
         Me.Label154.Size = New System.Drawing.Size(140, 22)
         Me.Label154.TabIndex = 263
@@ -3669,7 +3669,7 @@ Partial Class frmILMeasurement
         '
         Me.Label155.AutoSize = True
         Me.Label155.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label155.Location = New System.Drawing.Point(92, 286)
+        Me.Label155.Location = New System.Drawing.Point(92, 258)
         Me.Label155.Name = "Label155"
         Me.Label155.Size = New System.Drawing.Size(124, 22)
         Me.Label155.TabIndex = 262
@@ -3679,7 +3679,7 @@ Partial Class frmILMeasurement
         '
         Me.Label156.AutoSize = True
         Me.Label156.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label156.Location = New System.Drawing.Point(93, 249)
+        Me.Label156.Location = New System.Drawing.Point(93, 221)
         Me.Label156.Name = "Label156"
         Me.Label156.Size = New System.Drawing.Size(143, 22)
         Me.Label156.TabIndex = 261
@@ -3689,7 +3689,7 @@ Partial Class frmILMeasurement
         '
         Me.Label157.AutoSize = True
         Me.Label157.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label157.Location = New System.Drawing.Point(92, 206)
+        Me.Label157.Location = New System.Drawing.Point(92, 178)
         Me.Label157.Name = "Label157"
         Me.Label157.Size = New System.Drawing.Size(102, 22)
         Me.Label157.TabIndex = 260
@@ -3699,7 +3699,7 @@ Partial Class frmILMeasurement
         '
         Me.Label158.AutoSize = True
         Me.Label158.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label158.Location = New System.Drawing.Point(92, 164)
+        Me.Label158.Location = New System.Drawing.Point(92, 136)
         Me.Label158.Name = "Label158"
         Me.Label158.Size = New System.Drawing.Size(102, 22)
         Me.Label158.TabIndex = 259
@@ -3709,7 +3709,7 @@ Partial Class frmILMeasurement
         '
         Me.Label159.AutoSize = True
         Me.Label159.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label159.Location = New System.Drawing.Point(93, 122)
+        Me.Label159.Location = New System.Drawing.Point(93, 94)
         Me.Label159.Name = "Label159"
         Me.Label159.Size = New System.Drawing.Size(103, 22)
         Me.Label159.TabIndex = 258
@@ -3720,7 +3720,7 @@ Partial Class frmILMeasurement
         Me.Label160.AutoSize = True
         Me.Label160.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label160.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label160.Location = New System.Drawing.Point(92, 84)
+        Me.Label160.Location = New System.Drawing.Point(92, 56)
         Me.Label160.Name = "Label160"
         Me.Label160.Size = New System.Drawing.Size(79, 22)
         Me.Label160.TabIndex = 257
@@ -3814,7 +3814,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImdiv_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImdiv_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImdiv_tab5.Location = New System.Drawing.Point(847, 373)
+        Me.txtImdiv_tab5.Location = New System.Drawing.Point(847, 345)
         Me.txtImdiv_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImdiv_tab5.Name = "txtImdiv_tab5"
         Me.txtImdiv_tab5.Size = New System.Drawing.Size(63, 28)
@@ -3824,7 +3824,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImscale_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImscale_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImscale_tab5.Location = New System.Drawing.Point(777, 373)
+        Me.txtImscale_tab5.Location = New System.Drawing.Point(777, 345)
         Me.txtImscale_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImscale_tab5.Name = "txtImscale_tab5"
         Me.txtImscale_tab5.Size = New System.Drawing.Size(63, 28)
@@ -3834,7 +3834,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRddiv_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRddiv_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRddiv_tab5.Location = New System.Drawing.Point(847, 327)
+        Me.txtRddiv_tab5.Location = New System.Drawing.Point(847, 299)
         Me.txtRddiv_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRddiv_tab5.Name = "txtRddiv_tab5"
         Me.txtRddiv_tab5.Size = New System.Drawing.Size(63, 28)
@@ -3844,7 +3844,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRdscale_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRdscale_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRdscale_tab5.Location = New System.Drawing.Point(777, 327)
+        Me.txtRdscale_tab5.Location = New System.Drawing.Point(777, 299)
         Me.txtRdscale_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRdscale_tab5.Name = "txtRdscale_tab5"
         Me.txtRdscale_tab5.Size = New System.Drawing.Size(63, 28)
@@ -3854,7 +3854,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSediv_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSediv_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSediv_tab5.Location = New System.Drawing.Point(847, 283)
+        Me.txtSediv_tab5.Location = New System.Drawing.Point(847, 255)
         Me.txtSediv_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSediv_tab5.Name = "txtSediv_tab5"
         Me.txtSediv_tab5.Size = New System.Drawing.Size(63, 28)
@@ -3864,7 +3864,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSescale_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSescale_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSescale_tab5.Location = New System.Drawing.Point(777, 283)
+        Me.txtSescale_tab5.Location = New System.Drawing.Point(777, 255)
         Me.txtSescale_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSescale_tab5.Name = "txtSescale_tab5"
         Me.txtSescale_tab5.Size = New System.Drawing.Size(63, 28)
@@ -3874,7 +3874,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPodiv_tab.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPodiv_tab.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPodiv_tab.Location = New System.Drawing.Point(847, 239)
+        Me.txtPodiv_tab.Location = New System.Drawing.Point(847, 211)
         Me.txtPodiv_tab.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPodiv_tab.Name = "txtPodiv_tab"
         Me.txtPodiv_tab.Size = New System.Drawing.Size(63, 28)
@@ -3884,7 +3884,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoscale_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoscale_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoscale_tab5.Location = New System.Drawing.Point(777, 239)
+        Me.txtPoscale_tab5.Location = New System.Drawing.Point(777, 211)
         Me.txtPoscale_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoscale_tab5.Name = "txtPoscale_tab5"
         Me.txtPoscale_tab5.Size = New System.Drawing.Size(63, 28)
@@ -3894,7 +3894,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfdiv_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfdiv_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfdiv_tab5.Location = New System.Drawing.Point(847, 194)
+        Me.txtVfdiv_tab5.Location = New System.Drawing.Point(847, 166)
         Me.txtVfdiv_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfdiv_tab5.Name = "txtVfdiv_tab5"
         Me.txtVfdiv_tab5.Size = New System.Drawing.Size(63, 28)
@@ -3904,7 +3904,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfscale_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfscale_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfscale_tab5.Location = New System.Drawing.Point(777, 194)
+        Me.txtVfscale_tab5.Location = New System.Drawing.Point(777, 166)
         Me.txtVfscale_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfscale_tab5.Name = "txtVfscale_tab5"
         Me.txtVfscale_tab5.Size = New System.Drawing.Size(63, 28)
@@ -3914,7 +3914,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfdiv_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfdiv_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfdiv_tab5.Location = New System.Drawing.Point(847, 153)
+        Me.txtIfdiv_tab5.Location = New System.Drawing.Point(847, 125)
         Me.txtIfdiv_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfdiv_tab5.Name = "txtIfdiv_tab5"
         Me.txtIfdiv_tab5.Size = New System.Drawing.Size(63, 28)
@@ -3924,7 +3924,7 @@ Partial Class frmILMeasurement
         '
         Me.Label121.AutoSize = True
         Me.Label121.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label121.Location = New System.Drawing.Point(683, 377)
+        Me.Label121.Location = New System.Drawing.Point(683, 349)
         Me.Label121.Name = "Label121"
         Me.Label121.Size = New System.Drawing.Size(69, 22)
         Me.Label121.TabIndex = 317
@@ -3934,7 +3934,7 @@ Partial Class frmILMeasurement
         '
         Me.Label122.AutoSize = True
         Me.Label122.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label122.Location = New System.Drawing.Point(683, 332)
+        Me.Label122.Location = New System.Drawing.Point(683, 304)
         Me.Label122.Name = "Label122"
         Me.Label122.Size = New System.Drawing.Size(82, 22)
         Me.Label122.TabIndex = 316
@@ -3944,7 +3944,7 @@ Partial Class frmILMeasurement
         '
         Me.Label123.AutoSize = True
         Me.Label123.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label123.Location = New System.Drawing.Point(683, 288)
+        Me.Label123.Location = New System.Drawing.Point(683, 260)
         Me.Label123.Name = "Label123"
         Me.Label123.Size = New System.Drawing.Size(83, 22)
         Me.Label123.TabIndex = 315
@@ -3954,7 +3954,7 @@ Partial Class frmILMeasurement
         '
         Me.Label124.AutoSize = True
         Me.Label124.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label124.Location = New System.Drawing.Point(683, 242)
+        Me.Label124.Location = New System.Drawing.Point(683, 214)
         Me.Label124.Name = "Label124"
         Me.Label124.Size = New System.Drawing.Size(78, 22)
         Me.Label124.TabIndex = 314
@@ -3964,7 +3964,7 @@ Partial Class frmILMeasurement
         '
         Me.Label165.AutoSize = True
         Me.Label165.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label165.Location = New System.Drawing.Point(683, 197)
+        Me.Label165.Location = New System.Drawing.Point(683, 169)
         Me.Label165.Name = "Label165"
         Me.Label165.Size = New System.Drawing.Size(68, 22)
         Me.Label165.TabIndex = 313
@@ -3974,7 +3974,7 @@ Partial Class frmILMeasurement
         '
         Me.Label166.AutoSize = True
         Me.Label166.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label166.Location = New System.Drawing.Point(857, 126)
+        Me.Label166.Location = New System.Drawing.Point(857, 98)
         Me.Label166.Name = "Label166"
         Me.Label166.Size = New System.Drawing.Size(36, 22)
         Me.Label166.TabIndex = 312
@@ -3984,7 +3984,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfscale_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfscale_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfscale_tab5.Location = New System.Drawing.Point(777, 153)
+        Me.txtIfscale_tab5.Location = New System.Drawing.Point(777, 125)
         Me.txtIfscale_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfscale_tab5.Name = "txtIfscale_tab5"
         Me.txtIfscale_tab5.Size = New System.Drawing.Size(63, 28)
@@ -3994,7 +3994,7 @@ Partial Class frmILMeasurement
         '
         Me.Label167.AutoSize = True
         Me.Label167.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label167.Location = New System.Drawing.Point(683, 159)
+        Me.Label167.Location = New System.Drawing.Point(683, 131)
         Me.Label167.Name = "Label167"
         Me.Label167.Size = New System.Drawing.Size(60, 22)
         Me.Label167.TabIndex = 310
@@ -4004,7 +4004,7 @@ Partial Class frmILMeasurement
         '
         Me.Label168.AutoSize = True
         Me.Label168.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label168.Location = New System.Drawing.Point(783, 126)
+        Me.Label168.Location = New System.Drawing.Point(783, 98)
         Me.Label168.Name = "Label168"
         Me.Label168.Size = New System.Drawing.Size(55, 22)
         Me.Label168.TabIndex = 309
@@ -4014,7 +4014,7 @@ Partial Class frmILMeasurement
         '
         Me.Label169.AutoSize = True
         Me.Label169.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label169.Location = New System.Drawing.Point(683, 126)
+        Me.Label169.Location = New System.Drawing.Point(683, 98)
         Me.Label169.Name = "Label169"
         Me.Label169.Size = New System.Drawing.Size(43, 22)
         Me.Label169.TabIndex = 308
@@ -4025,7 +4025,7 @@ Partial Class frmILMeasurement
         Me.Label170.AutoSize = True
         Me.Label170.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label170.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label170.Location = New System.Drawing.Point(676, 84)
+        Me.Label170.Location = New System.Drawing.Point(676, 56)
         Me.Label170.Name = "Label170"
         Me.Label170.Size = New System.Drawing.Size(134, 22)
         Me.Label170.TabIndex = 307
@@ -4035,7 +4035,7 @@ Partial Class frmILMeasurement
         '
         Me.Label171.AutoSize = True
         Me.Label171.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label171.Location = New System.Drawing.Point(560, 370)
+        Me.Label171.Location = New System.Drawing.Point(560, 342)
         Me.Label171.Name = "Label171"
         Me.Label171.Size = New System.Drawing.Size(41, 22)
         Me.Label171.TabIndex = 306
@@ -4045,7 +4045,7 @@ Partial Class frmILMeasurement
         '
         Me.Label172.AutoSize = True
         Me.Label172.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label172.Location = New System.Drawing.Point(560, 334)
+        Me.Label172.Location = New System.Drawing.Point(560, 306)
         Me.Label172.Name = "Label172"
         Me.Label172.Size = New System.Drawing.Size(41, 22)
         Me.Label172.TabIndex = 305
@@ -4055,7 +4055,7 @@ Partial Class frmILMeasurement
         '
         Me.Label173.AutoSize = True
         Me.Label173.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label173.Location = New System.Drawing.Point(560, 300)
+        Me.Label173.Location = New System.Drawing.Point(560, 272)
         Me.Label173.Name = "Label173"
         Me.Label173.Size = New System.Drawing.Size(26, 22)
         Me.Label173.TabIndex = 304
@@ -4065,7 +4065,7 @@ Partial Class frmILMeasurement
         '
         Me.Label174.AutoSize = True
         Me.Label174.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label174.Location = New System.Drawing.Point(560, 263)
+        Me.Label174.Location = New System.Drawing.Point(560, 235)
         Me.Label174.Name = "Label174"
         Me.Label174.Size = New System.Drawing.Size(41, 22)
         Me.Label174.TabIndex = 303
@@ -4075,7 +4075,7 @@ Partial Class frmILMeasurement
         '
         Me.Label175.AutoSize = True
         Me.Label175.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label175.Location = New System.Drawing.Point(560, 230)
+        Me.Label175.Location = New System.Drawing.Point(560, 202)
         Me.Label175.Name = "Label175"
         Me.Label175.Size = New System.Drawing.Size(36, 22)
         Me.Label175.TabIndex = 302
@@ -4085,7 +4085,7 @@ Partial Class frmILMeasurement
         '
         Me.Label176.AutoSize = True
         Me.Label176.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label176.Location = New System.Drawing.Point(560, 197)
+        Me.Label176.Location = New System.Drawing.Point(560, 169)
         Me.Label176.Name = "Label176"
         Me.Label176.Size = New System.Drawing.Size(26, 22)
         Me.Label176.TabIndex = 301
@@ -4095,7 +4095,7 @@ Partial Class frmILMeasurement
         '
         Me.Label177.AutoSize = True
         Me.Label177.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label177.Location = New System.Drawing.Point(560, 160)
+        Me.Label177.Location = New System.Drawing.Point(560, 132)
         Me.Label177.Name = "Label177"
         Me.Label177.Size = New System.Drawing.Size(41, 22)
         Me.Label177.TabIndex = 300
@@ -4105,7 +4105,7 @@ Partial Class frmILMeasurement
         '
         Me.Label178.AutoSize = True
         Me.Label178.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label178.Location = New System.Drawing.Point(560, 128)
+        Me.Label178.Location = New System.Drawing.Point(560, 100)
         Me.Label178.Name = "Label178"
         Me.Label178.Size = New System.Drawing.Size(36, 22)
         Me.Label178.TabIndex = 299
@@ -4115,7 +4115,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp4_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp4_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp4_tab5.Location = New System.Drawing.Point(485, 366)
+        Me.txtFpp4_tab5.Location = New System.Drawing.Point(485, 338)
         Me.txtFpp4_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp4_tab5.Name = "txtFpp4_tab5"
         Me.txtFpp4_tab5.Size = New System.Drawing.Size(73, 28)
@@ -4125,7 +4125,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp3_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab5.Location = New System.Drawing.Point(485, 330)
+        Me.txtFpp3_tab5.Location = New System.Drawing.Point(485, 302)
         Me.txtFpp3_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab5.Name = "txtFpp3_tab5"
         Me.txtFpp3_tab5.Size = New System.Drawing.Size(73, 28)
@@ -4135,7 +4135,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp2_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp2_tab5.Location = New System.Drawing.Point(485, 295)
+        Me.txtFrp2_tab5.Location = New System.Drawing.Point(485, 267)
         Me.txtFrp2_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp2_tab5.Name = "txtFrp2_tab5"
         Me.txtFrp2_tab5.Size = New System.Drawing.Size(73, 28)
@@ -4145,7 +4145,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp2_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp2_tab5.Location = New System.Drawing.Point(485, 258)
+        Me.txtFpp2_tab5.Location = New System.Drawing.Point(485, 230)
         Me.txtFpp2_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp2_tab5.Name = "txtFpp2_tab5"
         Me.txtFpp2_tab5.Size = New System.Drawing.Size(73, 28)
@@ -4155,7 +4155,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp2_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp2_tab5.Location = New System.Drawing.Point(485, 224)
+        Me.txtFcp2_tab5.Location = New System.Drawing.Point(485, 196)
         Me.txtFcp2_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp2_tab5.Name = "txtFcp2_tab5"
         Me.txtFcp2_tab5.Size = New System.Drawing.Size(73, 28)
@@ -4165,7 +4165,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp_tab5.Location = New System.Drawing.Point(485, 191)
+        Me.txtFrp_tab5.Location = New System.Drawing.Point(485, 163)
         Me.txtFrp_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp_tab5.Name = "txtFrp_tab5"
         Me.txtFrp_tab5.Size = New System.Drawing.Size(73, 28)
@@ -4175,7 +4175,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab5.Location = New System.Drawing.Point(485, 157)
+        Me.txtFpp_tab5.Location = New System.Drawing.Point(485, 129)
         Me.txtFpp_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab5.Name = "txtFpp_tab5"
         Me.txtFpp_tab5.Size = New System.Drawing.Size(73, 28)
@@ -4185,7 +4185,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp_tab5.Location = New System.Drawing.Point(485, 122)
+        Me.txtFcp_tab5.Location = New System.Drawing.Point(485, 94)
         Me.txtFcp_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp_tab5.Name = "txtFcp_tab5"
         Me.txtFcp_tab5.Size = New System.Drawing.Size(73, 28)
@@ -4195,7 +4195,7 @@ Partial Class frmILMeasurement
         '
         Me.Label179.AutoSize = True
         Me.Label179.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label179.Location = New System.Drawing.Point(417, 368)
+        Me.Label179.Location = New System.Drawing.Point(417, 340)
         Me.Label179.Name = "Label179"
         Me.Label179.Size = New System.Drawing.Size(55, 22)
         Me.Label179.TabIndex = 290
@@ -4205,7 +4205,7 @@ Partial Class frmILMeasurement
         '
         Me.Label180.AutoSize = True
         Me.Label180.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label180.Location = New System.Drawing.Point(417, 331)
+        Me.Label180.Location = New System.Drawing.Point(417, 303)
         Me.Label180.Name = "Label180"
         Me.Label180.Size = New System.Drawing.Size(55, 22)
         Me.Label180.TabIndex = 289
@@ -4215,7 +4215,7 @@ Partial Class frmILMeasurement
         '
         Me.Label181.AutoSize = True
         Me.Label181.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label181.Location = New System.Drawing.Point(417, 297)
+        Me.Label181.Location = New System.Drawing.Point(417, 269)
         Me.Label181.Name = "Label181"
         Me.Label181.Size = New System.Drawing.Size(56, 22)
         Me.Label181.TabIndex = 288
@@ -4225,7 +4225,7 @@ Partial Class frmILMeasurement
         '
         Me.Label182.AutoSize = True
         Me.Label182.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label182.Location = New System.Drawing.Point(417, 260)
+        Me.Label182.Location = New System.Drawing.Point(417, 232)
         Me.Label182.Name = "Label182"
         Me.Label182.Size = New System.Drawing.Size(55, 22)
         Me.Label182.TabIndex = 287
@@ -4235,7 +4235,7 @@ Partial Class frmILMeasurement
         '
         Me.Label183.AutoSize = True
         Me.Label183.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label183.Location = New System.Drawing.Point(419, 226)
+        Me.Label183.Location = New System.Drawing.Point(419, 198)
         Me.Label183.Name = "Label183"
         Me.Label183.Size = New System.Drawing.Size(56, 22)
         Me.Label183.TabIndex = 286
@@ -4245,7 +4245,7 @@ Partial Class frmILMeasurement
         '
         Me.Label184.AutoSize = True
         Me.Label184.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label184.Location = New System.Drawing.Point(423, 194)
+        Me.Label184.Location = New System.Drawing.Point(423, 166)
         Me.Label184.Name = "Label184"
         Me.Label184.Size = New System.Drawing.Size(46, 22)
         Me.Label184.TabIndex = 285
@@ -4255,7 +4255,7 @@ Partial Class frmILMeasurement
         '
         Me.Label185.AutoSize = True
         Me.Label185.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label185.Location = New System.Drawing.Point(424, 159)
+        Me.Label185.Location = New System.Drawing.Point(424, 131)
         Me.Label185.Name = "Label185"
         Me.Label185.Size = New System.Drawing.Size(45, 22)
         Me.Label185.TabIndex = 284
@@ -4265,7 +4265,7 @@ Partial Class frmILMeasurement
         '
         Me.Label186.AutoSize = True
         Me.Label186.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label186.Location = New System.Drawing.Point(424, 126)
+        Me.Label186.Location = New System.Drawing.Point(424, 98)
         Me.Label186.Name = "Label186"
         Me.Label186.Size = New System.Drawing.Size(46, 22)
         Me.Label186.TabIndex = 283
@@ -4276,7 +4276,7 @@ Partial Class frmILMeasurement
         Me.Label187.AutoSize = True
         Me.Label187.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label187.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label187.Location = New System.Drawing.Point(417, 84)
+        Me.Label187.Location = New System.Drawing.Point(417, 56)
         Me.Label187.Name = "Label187"
         Me.Label187.Size = New System.Drawing.Size(68, 22)
         Me.Label187.TabIndex = 282
@@ -4286,7 +4286,7 @@ Partial Class frmILMeasurement
         '
         Me.txtAtt_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAtt_tab5.Location = New System.Drawing.Point(249, 553)
+        Me.txtAtt_tab5.Location = New System.Drawing.Point(249, 525)
         Me.txtAtt_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAtt_tab5.Name = "txtAtt_tab5"
         Me.txtAtt_tab5.Size = New System.Drawing.Size(111, 28)
@@ -4296,7 +4296,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIcal_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIcal_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIcal_tab5.Location = New System.Drawing.Point(249, 514)
+        Me.txtIcal_tab5.Location = New System.Drawing.Point(249, 486)
         Me.txtIcal_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIcal_tab5.Name = "txtIcal_tab5"
         Me.txtIcal_tab5.Size = New System.Drawing.Size(111, 28)
@@ -4306,7 +4306,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTld_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTld_tab5.Location = New System.Drawing.Point(249, 478)
+        Me.txtTld_tab5.Location = New System.Drawing.Point(249, 450)
         Me.txtTld_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTld_tab5.Name = "txtTld_tab5"
         Me.txtTld_tab5.Size = New System.Drawing.Size(111, 28)
@@ -4316,7 +4316,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTc_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTc_tab5.Location = New System.Drawing.Point(249, 441)
+        Me.txtTc_tab5.Location = New System.Drawing.Point(249, 413)
         Me.txtTc_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTc_tab5.Name = "txtTc_tab5"
         Me.txtTc_tab5.Size = New System.Drawing.Size(111, 28)
@@ -4326,7 +4326,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoweravg_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoweravg_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoweravg_tab5.Location = New System.Drawing.Point(249, 402)
+        Me.txtPoweravg_tab5.Location = New System.Drawing.Point(249, 374)
         Me.txtPoweravg_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoweravg_tab5.Name = "txtPoweravg_tab5"
         Me.txtPoweravg_tab5.Size = New System.Drawing.Size(111, 28)
@@ -4336,7 +4336,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDelay_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDelay_tab5.Location = New System.Drawing.Point(249, 364)
+        Me.txtDelay_tab5.Location = New System.Drawing.Point(249, 336)
         Me.txtDelay_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDelay_tab5.Name = "txtDelay_tab5"
         Me.txtDelay_tab5.Size = New System.Drawing.Size(111, 28)
@@ -4347,7 +4347,7 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab5.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPulse_tab5.Location = New System.Drawing.Point(249, 325)
+        Me.txtPulse_tab5.Location = New System.Drawing.Point(249, 297)
         Me.txtPulse_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPulse_tab5.Name = "txtPulse_tab5"
         Me.txtPulse_tab5.ReadOnly = True
@@ -4358,7 +4358,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDutycycle_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDutycycle_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDutycycle_tab5.Location = New System.Drawing.Point(249, 284)
+        Me.txtDutycycle_tab5.Location = New System.Drawing.Point(249, 256)
         Me.txtDutycycle_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDutycycle_tab5.Name = "txtDutycycle_tab5"
         Me.txtDutycycle_tab5.Size = New System.Drawing.Size(111, 28)
@@ -4368,7 +4368,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrequn_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequn_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrequn_tab5.Location = New System.Drawing.Point(249, 246)
+        Me.txtFrequn_tab5.Location = New System.Drawing.Point(249, 218)
         Me.txtFrequn_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrequn_tab5.Name = "txtFrequn_tab5"
         Me.txtFrequn_tab5.Size = New System.Drawing.Size(111, 28)
@@ -4378,7 +4378,7 @@ Partial Class frmILMeasurement
         '
         Me.txStop_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStop_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab5.Location = New System.Drawing.Point(249, 206)
+        Me.txStop_tab5.Location = New System.Drawing.Point(249, 178)
         Me.txStop_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStop_tab5.Name = "txStop_tab5"
         Me.txStop_tab5.Size = New System.Drawing.Size(111, 28)
@@ -4388,7 +4388,7 @@ Partial Class frmILMeasurement
         '
         Me.txStep_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStep_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab5.Location = New System.Drawing.Point(249, 164)
+        Me.txStep_tab5.Location = New System.Drawing.Point(249, 136)
         Me.txStep_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStep_tab5.Name = "txStep_tab5"
         Me.txStep_tab5.Size = New System.Drawing.Size(111, 28)
@@ -4398,7 +4398,7 @@ Partial Class frmILMeasurement
         '
         Me.txtStart_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtStart_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtStart_tab5.Location = New System.Drawing.Point(249, 122)
+        Me.txtStart_tab5.Location = New System.Drawing.Point(249, 94)
         Me.txtStart_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtStart_tab5.Name = "txtStart_tab5"
         Me.txtStart_tab5.Size = New System.Drawing.Size(111, 28)
@@ -4408,7 +4408,7 @@ Partial Class frmILMeasurement
         '
         Me.Label188.AutoSize = True
         Me.Label188.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label188.Location = New System.Drawing.Point(93, 553)
+        Me.Label188.Location = New System.Drawing.Point(93, 525)
         Me.Label188.Name = "Label188"
         Me.Label188.Size = New System.Drawing.Size(83, 22)
         Me.Label188.TabIndex = 269
@@ -4418,7 +4418,7 @@ Partial Class frmILMeasurement
         '
         Me.Label189.AutoSize = True
         Me.Label189.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label189.Location = New System.Drawing.Point(93, 513)
+        Me.Label189.Location = New System.Drawing.Point(93, 485)
         Me.Label189.Name = "Label189"
         Me.Label189.Size = New System.Drawing.Size(90, 22)
         Me.Label189.TabIndex = 268
@@ -4428,7 +4428,7 @@ Partial Class frmILMeasurement
         '
         Me.Label190.AutoSize = True
         Me.Label190.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label190.Location = New System.Drawing.Point(93, 480)
+        Me.Label190.Location = New System.Drawing.Point(93, 452)
         Me.Label190.Name = "Label190"
         Me.Label190.Size = New System.Drawing.Size(70, 22)
         Me.Label190.TabIndex = 267
@@ -4438,7 +4438,7 @@ Partial Class frmILMeasurement
         '
         Me.Label191.AutoSize = True
         Me.Label191.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label191.Location = New System.Drawing.Point(92, 442)
+        Me.Label191.Location = New System.Drawing.Point(92, 414)
         Me.Label191.Name = "Label191"
         Me.Label191.Size = New System.Drawing.Size(65, 22)
         Me.Label191.TabIndex = 266
@@ -4448,7 +4448,7 @@ Partial Class frmILMeasurement
         '
         Me.Label192.AutoSize = True
         Me.Label192.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label192.Location = New System.Drawing.Point(92, 395)
+        Me.Label192.Location = New System.Drawing.Point(92, 367)
         Me.Label192.Name = "Label192"
         Me.Label192.Size = New System.Drawing.Size(131, 44)
         Me.Label192.TabIndex = 265
@@ -4458,7 +4458,7 @@ Partial Class frmILMeasurement
         '
         Me.Label193.AutoSize = True
         Me.Label193.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label193.Location = New System.Drawing.Point(92, 366)
+        Me.Label193.Location = New System.Drawing.Point(92, 338)
         Me.Label193.Name = "Label193"
         Me.Label193.Size = New System.Drawing.Size(123, 22)
         Me.Label193.TabIndex = 264
@@ -4468,7 +4468,7 @@ Partial Class frmILMeasurement
         '
         Me.Label194.AutoSize = True
         Me.Label194.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label194.Location = New System.Drawing.Point(92, 327)
+        Me.Label194.Location = New System.Drawing.Point(92, 299)
         Me.Label194.Name = "Label194"
         Me.Label194.Size = New System.Drawing.Size(140, 22)
         Me.Label194.TabIndex = 263
@@ -4478,7 +4478,7 @@ Partial Class frmILMeasurement
         '
         Me.Label195.AutoSize = True
         Me.Label195.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label195.Location = New System.Drawing.Point(92, 286)
+        Me.Label195.Location = New System.Drawing.Point(92, 258)
         Me.Label195.Name = "Label195"
         Me.Label195.Size = New System.Drawing.Size(124, 22)
         Me.Label195.TabIndex = 262
@@ -4488,7 +4488,7 @@ Partial Class frmILMeasurement
         '
         Me.Label196.AutoSize = True
         Me.Label196.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label196.Location = New System.Drawing.Point(93, 249)
+        Me.Label196.Location = New System.Drawing.Point(93, 221)
         Me.Label196.Name = "Label196"
         Me.Label196.Size = New System.Drawing.Size(143, 22)
         Me.Label196.TabIndex = 261
@@ -4498,7 +4498,7 @@ Partial Class frmILMeasurement
         '
         Me.Label197.AutoSize = True
         Me.Label197.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label197.Location = New System.Drawing.Point(92, 206)
+        Me.Label197.Location = New System.Drawing.Point(92, 178)
         Me.Label197.Name = "Label197"
         Me.Label197.Size = New System.Drawing.Size(102, 22)
         Me.Label197.TabIndex = 260
@@ -4508,7 +4508,7 @@ Partial Class frmILMeasurement
         '
         Me.Label198.AutoSize = True
         Me.Label198.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label198.Location = New System.Drawing.Point(92, 164)
+        Me.Label198.Location = New System.Drawing.Point(92, 136)
         Me.Label198.Name = "Label198"
         Me.Label198.Size = New System.Drawing.Size(102, 22)
         Me.Label198.TabIndex = 259
@@ -4518,7 +4518,7 @@ Partial Class frmILMeasurement
         '
         Me.Label199.AutoSize = True
         Me.Label199.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label199.Location = New System.Drawing.Point(93, 122)
+        Me.Label199.Location = New System.Drawing.Point(93, 94)
         Me.Label199.Name = "Label199"
         Me.Label199.Size = New System.Drawing.Size(103, 22)
         Me.Label199.TabIndex = 258
@@ -4529,7 +4529,7 @@ Partial Class frmILMeasurement
         Me.Label200.AutoSize = True
         Me.Label200.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label200.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label200.Location = New System.Drawing.Point(92, 84)
+        Me.Label200.Location = New System.Drawing.Point(92, 56)
         Me.Label200.Name = "Label200"
         Me.Label200.Size = New System.Drawing.Size(79, 22)
         Me.Label200.TabIndex = 257
@@ -4623,7 +4623,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImdiv_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImdiv_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImdiv_tab6.Location = New System.Drawing.Point(847, 373)
+        Me.txtImdiv_tab6.Location = New System.Drawing.Point(847, 345)
         Me.txtImdiv_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImdiv_tab6.Name = "txtImdiv_tab6"
         Me.txtImdiv_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4633,7 +4633,7 @@ Partial Class frmILMeasurement
         '
         Me.txtImscale_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtImscale_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImscale_tab6.Location = New System.Drawing.Point(777, 373)
+        Me.txtImscale_tab6.Location = New System.Drawing.Point(777, 345)
         Me.txtImscale_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtImscale_tab6.Name = "txtImscale_tab6"
         Me.txtImscale_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4643,7 +4643,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRddiv_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRddiv_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRddiv_tab6.Location = New System.Drawing.Point(847, 327)
+        Me.txtRddiv_tab6.Location = New System.Drawing.Point(847, 299)
         Me.txtRddiv_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRddiv_tab6.Name = "txtRddiv_tab6"
         Me.txtRddiv_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4653,7 +4653,7 @@ Partial Class frmILMeasurement
         '
         Me.txtRdscale_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtRdscale_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtRdscale_tab6.Location = New System.Drawing.Point(777, 327)
+        Me.txtRdscale_tab6.Location = New System.Drawing.Point(777, 299)
         Me.txtRdscale_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtRdscale_tab6.Name = "txtRdscale_tab6"
         Me.txtRdscale_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4663,7 +4663,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSediv_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSediv_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSediv_tab6.Location = New System.Drawing.Point(847, 283)
+        Me.txtSediv_tab6.Location = New System.Drawing.Point(847, 255)
         Me.txtSediv_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSediv_tab6.Name = "txtSediv_tab6"
         Me.txtSediv_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4673,7 +4673,7 @@ Partial Class frmILMeasurement
         '
         Me.txtSescale_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSescale_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSescale_tab6.Location = New System.Drawing.Point(777, 283)
+        Me.txtSescale_tab6.Location = New System.Drawing.Point(777, 255)
         Me.txtSescale_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSescale_tab6.Name = "txtSescale_tab6"
         Me.txtSescale_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4683,7 +4683,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPodiv_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPodiv_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPodiv_tab6.Location = New System.Drawing.Point(847, 239)
+        Me.txtPodiv_tab6.Location = New System.Drawing.Point(847, 211)
         Me.txtPodiv_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPodiv_tab6.Name = "txtPodiv_tab6"
         Me.txtPodiv_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4693,7 +4693,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoscale_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoscale_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoscale_tab6.Location = New System.Drawing.Point(777, 239)
+        Me.txtPoscale_tab6.Location = New System.Drawing.Point(777, 211)
         Me.txtPoscale_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoscale_tab6.Name = "txtPoscale_tab6"
         Me.txtPoscale_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4703,7 +4703,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfdiv_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfdiv_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfdiv_tab6.Location = New System.Drawing.Point(847, 194)
+        Me.txtVfdiv_tab6.Location = New System.Drawing.Point(847, 166)
         Me.txtVfdiv_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfdiv_tab6.Name = "txtVfdiv_tab6"
         Me.txtVfdiv_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4713,7 +4713,7 @@ Partial Class frmILMeasurement
         '
         Me.txtVfscale_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVfscale_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVfscale_tab6.Location = New System.Drawing.Point(777, 194)
+        Me.txtVfscale_tab6.Location = New System.Drawing.Point(777, 166)
         Me.txtVfscale_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVfscale_tab6.Name = "txtVfscale_tab6"
         Me.txtVfscale_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4723,7 +4723,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfdiv_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfdiv_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfdiv_tab6.Location = New System.Drawing.Point(847, 153)
+        Me.txtIfdiv_tab6.Location = New System.Drawing.Point(847, 125)
         Me.txtIfdiv_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfdiv_tab6.Name = "txtIfdiv_tab6"
         Me.txtIfdiv_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4733,7 +4733,7 @@ Partial Class frmILMeasurement
         '
         Me.Label161.AutoSize = True
         Me.Label161.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label161.Location = New System.Drawing.Point(683, 377)
+        Me.Label161.Location = New System.Drawing.Point(683, 349)
         Me.Label161.Name = "Label161"
         Me.Label161.Size = New System.Drawing.Size(69, 22)
         Me.Label161.TabIndex = 317
@@ -4743,7 +4743,7 @@ Partial Class frmILMeasurement
         '
         Me.Label162.AutoSize = True
         Me.Label162.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label162.Location = New System.Drawing.Point(683, 332)
+        Me.Label162.Location = New System.Drawing.Point(683, 304)
         Me.Label162.Name = "Label162"
         Me.Label162.Size = New System.Drawing.Size(82, 22)
         Me.Label162.TabIndex = 316
@@ -4753,7 +4753,7 @@ Partial Class frmILMeasurement
         '
         Me.Label163.AutoSize = True
         Me.Label163.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label163.Location = New System.Drawing.Point(683, 288)
+        Me.Label163.Location = New System.Drawing.Point(683, 260)
         Me.Label163.Name = "Label163"
         Me.Label163.Size = New System.Drawing.Size(83, 22)
         Me.Label163.TabIndex = 315
@@ -4763,7 +4763,7 @@ Partial Class frmILMeasurement
         '
         Me.Label164.AutoSize = True
         Me.Label164.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label164.Location = New System.Drawing.Point(683, 242)
+        Me.Label164.Location = New System.Drawing.Point(683, 214)
         Me.Label164.Name = "Label164"
         Me.Label164.Size = New System.Drawing.Size(78, 22)
         Me.Label164.TabIndex = 314
@@ -4773,7 +4773,7 @@ Partial Class frmILMeasurement
         '
         Me.Label205.AutoSize = True
         Me.Label205.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label205.Location = New System.Drawing.Point(683, 197)
+        Me.Label205.Location = New System.Drawing.Point(683, 169)
         Me.Label205.Name = "Label205"
         Me.Label205.Size = New System.Drawing.Size(68, 22)
         Me.Label205.TabIndex = 313
@@ -4783,7 +4783,7 @@ Partial Class frmILMeasurement
         '
         Me.Label206.AutoSize = True
         Me.Label206.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label206.Location = New System.Drawing.Point(857, 126)
+        Me.Label206.Location = New System.Drawing.Point(857, 98)
         Me.Label206.Name = "Label206"
         Me.Label206.Size = New System.Drawing.Size(36, 22)
         Me.Label206.TabIndex = 312
@@ -4793,7 +4793,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIfscale_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIfscale_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIfscale_tab6.Location = New System.Drawing.Point(777, 153)
+        Me.txtIfscale_tab6.Location = New System.Drawing.Point(777, 125)
         Me.txtIfscale_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIfscale_tab6.Name = "txtIfscale_tab6"
         Me.txtIfscale_tab6.Size = New System.Drawing.Size(63, 28)
@@ -4803,7 +4803,7 @@ Partial Class frmILMeasurement
         '
         Me.Label207.AutoSize = True
         Me.Label207.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label207.Location = New System.Drawing.Point(683, 159)
+        Me.Label207.Location = New System.Drawing.Point(683, 131)
         Me.Label207.Name = "Label207"
         Me.Label207.Size = New System.Drawing.Size(60, 22)
         Me.Label207.TabIndex = 310
@@ -4813,7 +4813,7 @@ Partial Class frmILMeasurement
         '
         Me.Label208.AutoSize = True
         Me.Label208.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label208.Location = New System.Drawing.Point(783, 126)
+        Me.Label208.Location = New System.Drawing.Point(783, 98)
         Me.Label208.Name = "Label208"
         Me.Label208.Size = New System.Drawing.Size(55, 22)
         Me.Label208.TabIndex = 309
@@ -4823,7 +4823,7 @@ Partial Class frmILMeasurement
         '
         Me.Label209.AutoSize = True
         Me.Label209.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label209.Location = New System.Drawing.Point(683, 126)
+        Me.Label209.Location = New System.Drawing.Point(683, 98)
         Me.Label209.Name = "Label209"
         Me.Label209.Size = New System.Drawing.Size(43, 22)
         Me.Label209.TabIndex = 308
@@ -4834,7 +4834,7 @@ Partial Class frmILMeasurement
         Me.Label210.AutoSize = True
         Me.Label210.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label210.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label210.Location = New System.Drawing.Point(676, 84)
+        Me.Label210.Location = New System.Drawing.Point(676, 56)
         Me.Label210.Name = "Label210"
         Me.Label210.Size = New System.Drawing.Size(134, 22)
         Me.Label210.TabIndex = 307
@@ -4844,7 +4844,7 @@ Partial Class frmILMeasurement
         '
         Me.Label211.AutoSize = True
         Me.Label211.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label211.Location = New System.Drawing.Point(560, 370)
+        Me.Label211.Location = New System.Drawing.Point(560, 342)
         Me.Label211.Name = "Label211"
         Me.Label211.Size = New System.Drawing.Size(41, 22)
         Me.Label211.TabIndex = 306
@@ -4854,7 +4854,7 @@ Partial Class frmILMeasurement
         '
         Me.Label212.AutoSize = True
         Me.Label212.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label212.Location = New System.Drawing.Point(560, 334)
+        Me.Label212.Location = New System.Drawing.Point(560, 306)
         Me.Label212.Name = "Label212"
         Me.Label212.Size = New System.Drawing.Size(41, 22)
         Me.Label212.TabIndex = 305
@@ -4864,7 +4864,7 @@ Partial Class frmILMeasurement
         '
         Me.Label213.AutoSize = True
         Me.Label213.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label213.Location = New System.Drawing.Point(560, 300)
+        Me.Label213.Location = New System.Drawing.Point(560, 272)
         Me.Label213.Name = "Label213"
         Me.Label213.Size = New System.Drawing.Size(26, 22)
         Me.Label213.TabIndex = 304
@@ -4874,7 +4874,7 @@ Partial Class frmILMeasurement
         '
         Me.Label214.AutoSize = True
         Me.Label214.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label214.Location = New System.Drawing.Point(560, 263)
+        Me.Label214.Location = New System.Drawing.Point(560, 235)
         Me.Label214.Name = "Label214"
         Me.Label214.Size = New System.Drawing.Size(41, 22)
         Me.Label214.TabIndex = 303
@@ -4884,7 +4884,7 @@ Partial Class frmILMeasurement
         '
         Me.Label215.AutoSize = True
         Me.Label215.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label215.Location = New System.Drawing.Point(560, 230)
+        Me.Label215.Location = New System.Drawing.Point(560, 202)
         Me.Label215.Name = "Label215"
         Me.Label215.Size = New System.Drawing.Size(36, 22)
         Me.Label215.TabIndex = 302
@@ -4894,7 +4894,7 @@ Partial Class frmILMeasurement
         '
         Me.Label216.AutoSize = True
         Me.Label216.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label216.Location = New System.Drawing.Point(560, 197)
+        Me.Label216.Location = New System.Drawing.Point(560, 169)
         Me.Label216.Name = "Label216"
         Me.Label216.Size = New System.Drawing.Size(26, 22)
         Me.Label216.TabIndex = 301
@@ -4904,7 +4904,7 @@ Partial Class frmILMeasurement
         '
         Me.Label217.AutoSize = True
         Me.Label217.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label217.Location = New System.Drawing.Point(560, 160)
+        Me.Label217.Location = New System.Drawing.Point(560, 132)
         Me.Label217.Name = "Label217"
         Me.Label217.Size = New System.Drawing.Size(41, 22)
         Me.Label217.TabIndex = 300
@@ -4914,7 +4914,7 @@ Partial Class frmILMeasurement
         '
         Me.Label218.AutoSize = True
         Me.Label218.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label218.Location = New System.Drawing.Point(560, 128)
+        Me.Label218.Location = New System.Drawing.Point(560, 100)
         Me.Label218.Name = "Label218"
         Me.Label218.Size = New System.Drawing.Size(36, 22)
         Me.Label218.TabIndex = 299
@@ -4924,7 +4924,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp4_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp4_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp4_tab6.Location = New System.Drawing.Point(485, 366)
+        Me.txtFpp4_tab6.Location = New System.Drawing.Point(485, 338)
         Me.txtFpp4_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp4_tab6.Name = "txtFpp4_tab6"
         Me.txtFpp4_tab6.Size = New System.Drawing.Size(73, 28)
@@ -4934,7 +4934,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp3_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp3_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp3_tab6.Location = New System.Drawing.Point(485, 330)
+        Me.txtFpp3_tab6.Location = New System.Drawing.Point(485, 302)
         Me.txtFpp3_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp3_tab6.Name = "txtFpp3_tab6"
         Me.txtFpp3_tab6.Size = New System.Drawing.Size(73, 28)
@@ -4944,7 +4944,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp2_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp2_tab6.Location = New System.Drawing.Point(485, 295)
+        Me.txtFrp2_tab6.Location = New System.Drawing.Point(485, 267)
         Me.txtFrp2_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp2_tab6.Name = "txtFrp2_tab6"
         Me.txtFrp2_tab6.Size = New System.Drawing.Size(73, 28)
@@ -4954,7 +4954,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp2_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp2_tab6.Location = New System.Drawing.Point(485, 258)
+        Me.txtFpp2_tab6.Location = New System.Drawing.Point(485, 230)
         Me.txtFpp2_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp2_tab6.Name = "txtFpp2_tab6"
         Me.txtFpp2_tab6.Size = New System.Drawing.Size(73, 28)
@@ -4964,7 +4964,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp2_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp2_tab6.Location = New System.Drawing.Point(485, 224)
+        Me.txtFcp2_tab6.Location = New System.Drawing.Point(485, 196)
         Me.txtFcp2_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp2_tab6.Name = "txtFcp2_tab6"
         Me.txtFcp2_tab6.Size = New System.Drawing.Size(73, 28)
@@ -4974,7 +4974,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrp_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrp_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrp_tab6.Location = New System.Drawing.Point(485, 191)
+        Me.txtFrp_tab6.Location = New System.Drawing.Point(485, 163)
         Me.txtFrp_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrp_tab6.Name = "txtFrp_tab6"
         Me.txtFrp_tab6.Size = New System.Drawing.Size(73, 28)
@@ -4984,7 +4984,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFpp_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFpp_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFpp_tab6.Location = New System.Drawing.Point(485, 157)
+        Me.txtFpp_tab6.Location = New System.Drawing.Point(485, 129)
         Me.txtFpp_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFpp_tab6.Name = "txtFpp_tab6"
         Me.txtFpp_tab6.Size = New System.Drawing.Size(73, 28)
@@ -4994,7 +4994,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFcp_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFcp_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFcp_tab6.Location = New System.Drawing.Point(485, 122)
+        Me.txtFcp_tab6.Location = New System.Drawing.Point(485, 94)
         Me.txtFcp_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFcp_tab6.Name = "txtFcp_tab6"
         Me.txtFcp_tab6.Size = New System.Drawing.Size(73, 28)
@@ -5004,7 +5004,7 @@ Partial Class frmILMeasurement
         '
         Me.Label219.AutoSize = True
         Me.Label219.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label219.Location = New System.Drawing.Point(417, 368)
+        Me.Label219.Location = New System.Drawing.Point(417, 340)
         Me.Label219.Name = "Label219"
         Me.Label219.Size = New System.Drawing.Size(55, 22)
         Me.Label219.TabIndex = 290
@@ -5014,7 +5014,7 @@ Partial Class frmILMeasurement
         '
         Me.Label220.AutoSize = True
         Me.Label220.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label220.Location = New System.Drawing.Point(417, 331)
+        Me.Label220.Location = New System.Drawing.Point(417, 303)
         Me.Label220.Name = "Label220"
         Me.Label220.Size = New System.Drawing.Size(55, 22)
         Me.Label220.TabIndex = 289
@@ -5024,7 +5024,7 @@ Partial Class frmILMeasurement
         '
         Me.Label221.AutoSize = True
         Me.Label221.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label221.Location = New System.Drawing.Point(417, 297)
+        Me.Label221.Location = New System.Drawing.Point(417, 269)
         Me.Label221.Name = "Label221"
         Me.Label221.Size = New System.Drawing.Size(56, 22)
         Me.Label221.TabIndex = 288
@@ -5034,7 +5034,7 @@ Partial Class frmILMeasurement
         '
         Me.Label222.AutoSize = True
         Me.Label222.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label222.Location = New System.Drawing.Point(417, 260)
+        Me.Label222.Location = New System.Drawing.Point(417, 232)
         Me.Label222.Name = "Label222"
         Me.Label222.Size = New System.Drawing.Size(55, 22)
         Me.Label222.TabIndex = 287
@@ -5044,7 +5044,7 @@ Partial Class frmILMeasurement
         '
         Me.Label223.AutoSize = True
         Me.Label223.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label223.Location = New System.Drawing.Point(419, 226)
+        Me.Label223.Location = New System.Drawing.Point(419, 198)
         Me.Label223.Name = "Label223"
         Me.Label223.Size = New System.Drawing.Size(56, 22)
         Me.Label223.TabIndex = 286
@@ -5054,7 +5054,7 @@ Partial Class frmILMeasurement
         '
         Me.Label224.AutoSize = True
         Me.Label224.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label224.Location = New System.Drawing.Point(423, 194)
+        Me.Label224.Location = New System.Drawing.Point(423, 166)
         Me.Label224.Name = "Label224"
         Me.Label224.Size = New System.Drawing.Size(46, 22)
         Me.Label224.TabIndex = 285
@@ -5064,7 +5064,7 @@ Partial Class frmILMeasurement
         '
         Me.Label225.AutoSize = True
         Me.Label225.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label225.Location = New System.Drawing.Point(424, 159)
+        Me.Label225.Location = New System.Drawing.Point(424, 131)
         Me.Label225.Name = "Label225"
         Me.Label225.Size = New System.Drawing.Size(45, 22)
         Me.Label225.TabIndex = 284
@@ -5074,7 +5074,7 @@ Partial Class frmILMeasurement
         '
         Me.Label226.AutoSize = True
         Me.Label226.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label226.Location = New System.Drawing.Point(424, 126)
+        Me.Label226.Location = New System.Drawing.Point(424, 98)
         Me.Label226.Name = "Label226"
         Me.Label226.Size = New System.Drawing.Size(46, 22)
         Me.Label226.TabIndex = 283
@@ -5085,7 +5085,7 @@ Partial Class frmILMeasurement
         Me.Label227.AutoSize = True
         Me.Label227.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label227.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label227.Location = New System.Drawing.Point(417, 84)
+        Me.Label227.Location = New System.Drawing.Point(417, 56)
         Me.Label227.Name = "Label227"
         Me.Label227.Size = New System.Drawing.Size(68, 22)
         Me.Label227.TabIndex = 282
@@ -5095,7 +5095,7 @@ Partial Class frmILMeasurement
         '
         Me.txtAtt_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAtt_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAtt_tab6.Location = New System.Drawing.Point(249, 553)
+        Me.txtAtt_tab6.Location = New System.Drawing.Point(249, 525)
         Me.txtAtt_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAtt_tab6.Name = "txtAtt_tab6"
         Me.txtAtt_tab6.Size = New System.Drawing.Size(111, 28)
@@ -5105,7 +5105,7 @@ Partial Class frmILMeasurement
         '
         Me.txtIcal_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtIcal_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIcal_tab6.Location = New System.Drawing.Point(249, 514)
+        Me.txtIcal_tab6.Location = New System.Drawing.Point(249, 486)
         Me.txtIcal_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtIcal_tab6.Name = "txtIcal_tab6"
         Me.txtIcal_tab6.Size = New System.Drawing.Size(111, 28)
@@ -5115,7 +5115,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTld_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTld_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTld_tab6.Location = New System.Drawing.Point(249, 478)
+        Me.txtTld_tab6.Location = New System.Drawing.Point(249, 450)
         Me.txtTld_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTld_tab6.Name = "txtTld_tab6"
         Me.txtTld_tab6.Size = New System.Drawing.Size(111, 28)
@@ -5125,7 +5125,7 @@ Partial Class frmILMeasurement
         '
         Me.txtTc_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtTc_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTc_tab6.Location = New System.Drawing.Point(249, 441)
+        Me.txtTc_tab6.Location = New System.Drawing.Point(249, 413)
         Me.txtTc_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtTc_tab6.Name = "txtTc_tab6"
         Me.txtTc_tab6.Size = New System.Drawing.Size(111, 28)
@@ -5135,7 +5135,7 @@ Partial Class frmILMeasurement
         '
         Me.txtPoweravg_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPoweravg_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPoweravg_tab6.Location = New System.Drawing.Point(249, 402)
+        Me.txtPoweravg_tab6.Location = New System.Drawing.Point(249, 374)
         Me.txtPoweravg_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPoweravg_tab6.Name = "txtPoweravg_tab6"
         Me.txtPoweravg_tab6.Size = New System.Drawing.Size(111, 28)
@@ -5145,7 +5145,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDelay_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDelay_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDelay_tab6.Location = New System.Drawing.Point(249, 364)
+        Me.txtDelay_tab6.Location = New System.Drawing.Point(249, 336)
         Me.txtDelay_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDelay_tab6.Name = "txtDelay_tab6"
         Me.txtDelay_tab6.Size = New System.Drawing.Size(111, 28)
@@ -5156,7 +5156,7 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab6.BackColor = System.Drawing.SystemColors.Control
         Me.txtPulse_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPulse_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPulse_tab6.Location = New System.Drawing.Point(249, 325)
+        Me.txtPulse_tab6.Location = New System.Drawing.Point(249, 297)
         Me.txtPulse_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPulse_tab6.Name = "txtPulse_tab6"
         Me.txtPulse_tab6.ReadOnly = True
@@ -5167,7 +5167,7 @@ Partial Class frmILMeasurement
         '
         Me.txtDutycycle_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDutycycle_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDutycycle_tab6.Location = New System.Drawing.Point(249, 284)
+        Me.txtDutycycle_tab6.Location = New System.Drawing.Point(249, 256)
         Me.txtDutycycle_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDutycycle_tab6.Name = "txtDutycycle_tab6"
         Me.txtDutycycle_tab6.Size = New System.Drawing.Size(111, 28)
@@ -5177,7 +5177,7 @@ Partial Class frmILMeasurement
         '
         Me.txtFrequn_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFrequn_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFrequn_tab6.Location = New System.Drawing.Point(249, 246)
+        Me.txtFrequn_tab6.Location = New System.Drawing.Point(249, 218)
         Me.txtFrequn_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFrequn_tab6.Name = "txtFrequn_tab6"
         Me.txtFrequn_tab6.Size = New System.Drawing.Size(111, 28)
@@ -5187,7 +5187,7 @@ Partial Class frmILMeasurement
         '
         Me.txStop_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStop_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab6.Location = New System.Drawing.Point(249, 206)
+        Me.txStop_tab6.Location = New System.Drawing.Point(249, 178)
         Me.txStop_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStop_tab6.Name = "txStop_tab6"
         Me.txStop_tab6.Size = New System.Drawing.Size(111, 28)
@@ -5197,7 +5197,7 @@ Partial Class frmILMeasurement
         '
         Me.txStep_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txStep_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab6.Location = New System.Drawing.Point(249, 164)
+        Me.txStep_tab6.Location = New System.Drawing.Point(249, 136)
         Me.txStep_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txStep_tab6.Name = "txStep_tab6"
         Me.txStep_tab6.Size = New System.Drawing.Size(111, 28)
@@ -5207,7 +5207,7 @@ Partial Class frmILMeasurement
         '
         Me.txtStart_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtStart_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtStart_tab6.Location = New System.Drawing.Point(249, 122)
+        Me.txtStart_tab6.Location = New System.Drawing.Point(249, 94)
         Me.txtStart_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtStart_tab6.Name = "txtStart_tab6"
         Me.txtStart_tab6.Size = New System.Drawing.Size(111, 28)
@@ -5217,7 +5217,7 @@ Partial Class frmILMeasurement
         '
         Me.Label228.AutoSize = True
         Me.Label228.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label228.Location = New System.Drawing.Point(93, 553)
+        Me.Label228.Location = New System.Drawing.Point(93, 525)
         Me.Label228.Name = "Label228"
         Me.Label228.Size = New System.Drawing.Size(83, 22)
         Me.Label228.TabIndex = 269
@@ -5227,7 +5227,7 @@ Partial Class frmILMeasurement
         '
         Me.Label229.AutoSize = True
         Me.Label229.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label229.Location = New System.Drawing.Point(93, 513)
+        Me.Label229.Location = New System.Drawing.Point(93, 485)
         Me.Label229.Name = "Label229"
         Me.Label229.Size = New System.Drawing.Size(90, 22)
         Me.Label229.TabIndex = 268
@@ -5237,7 +5237,7 @@ Partial Class frmILMeasurement
         '
         Me.Label230.AutoSize = True
         Me.Label230.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label230.Location = New System.Drawing.Point(93, 480)
+        Me.Label230.Location = New System.Drawing.Point(93, 452)
         Me.Label230.Name = "Label230"
         Me.Label230.Size = New System.Drawing.Size(70, 22)
         Me.Label230.TabIndex = 267
@@ -5247,7 +5247,7 @@ Partial Class frmILMeasurement
         '
         Me.Label231.AutoSize = True
         Me.Label231.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label231.Location = New System.Drawing.Point(92, 442)
+        Me.Label231.Location = New System.Drawing.Point(92, 414)
         Me.Label231.Name = "Label231"
         Me.Label231.Size = New System.Drawing.Size(65, 22)
         Me.Label231.TabIndex = 266
@@ -5257,7 +5257,7 @@ Partial Class frmILMeasurement
         '
         Me.Label232.AutoSize = True
         Me.Label232.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label232.Location = New System.Drawing.Point(92, 395)
+        Me.Label232.Location = New System.Drawing.Point(92, 367)
         Me.Label232.Name = "Label232"
         Me.Label232.Size = New System.Drawing.Size(131, 44)
         Me.Label232.TabIndex = 265
@@ -5267,7 +5267,7 @@ Partial Class frmILMeasurement
         '
         Me.Label233.AutoSize = True
         Me.Label233.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label233.Location = New System.Drawing.Point(92, 366)
+        Me.Label233.Location = New System.Drawing.Point(92, 338)
         Me.Label233.Name = "Label233"
         Me.Label233.Size = New System.Drawing.Size(123, 22)
         Me.Label233.TabIndex = 264
@@ -5277,7 +5277,7 @@ Partial Class frmILMeasurement
         '
         Me.Label234.AutoSize = True
         Me.Label234.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label234.Location = New System.Drawing.Point(92, 327)
+        Me.Label234.Location = New System.Drawing.Point(92, 299)
         Me.Label234.Name = "Label234"
         Me.Label234.Size = New System.Drawing.Size(140, 22)
         Me.Label234.TabIndex = 263
@@ -5287,7 +5287,7 @@ Partial Class frmILMeasurement
         '
         Me.Label235.AutoSize = True
         Me.Label235.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label235.Location = New System.Drawing.Point(92, 286)
+        Me.Label235.Location = New System.Drawing.Point(92, 258)
         Me.Label235.Name = "Label235"
         Me.Label235.Size = New System.Drawing.Size(124, 22)
         Me.Label235.TabIndex = 262
@@ -5297,7 +5297,7 @@ Partial Class frmILMeasurement
         '
         Me.Label236.AutoSize = True
         Me.Label236.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label236.Location = New System.Drawing.Point(93, 249)
+        Me.Label236.Location = New System.Drawing.Point(93, 221)
         Me.Label236.Name = "Label236"
         Me.Label236.Size = New System.Drawing.Size(143, 22)
         Me.Label236.TabIndex = 261
@@ -5307,7 +5307,7 @@ Partial Class frmILMeasurement
         '
         Me.Label237.AutoSize = True
         Me.Label237.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label237.Location = New System.Drawing.Point(92, 206)
+        Me.Label237.Location = New System.Drawing.Point(92, 178)
         Me.Label237.Name = "Label237"
         Me.Label237.Size = New System.Drawing.Size(102, 22)
         Me.Label237.TabIndex = 260
@@ -5317,7 +5317,7 @@ Partial Class frmILMeasurement
         '
         Me.Label238.AutoSize = True
         Me.Label238.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label238.Location = New System.Drawing.Point(92, 164)
+        Me.Label238.Location = New System.Drawing.Point(92, 136)
         Me.Label238.Name = "Label238"
         Me.Label238.Size = New System.Drawing.Size(102, 22)
         Me.Label238.TabIndex = 259
@@ -5327,7 +5327,7 @@ Partial Class frmILMeasurement
         '
         Me.Label239.AutoSize = True
         Me.Label239.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label239.Location = New System.Drawing.Point(93, 122)
+        Me.Label239.Location = New System.Drawing.Point(93, 94)
         Me.Label239.Name = "Label239"
         Me.Label239.Size = New System.Drawing.Size(103, 22)
         Me.Label239.TabIndex = 258
@@ -5338,7 +5338,7 @@ Partial Class frmILMeasurement
         Me.Label240.AutoSize = True
         Me.Label240.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label240.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label240.Location = New System.Drawing.Point(92, 84)
+        Me.Label240.Location = New System.Drawing.Point(92, 56)
         Me.Label240.Name = "Label240"
         Me.Label240.Size = New System.Drawing.Size(79, 22)
         Me.Label240.TabIndex = 257
