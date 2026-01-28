@@ -1,5 +1,4 @@
-﻿' ==========================================
-' 1. Class แม่พิมพ์หลัก ProductionParameters
+﻿' 1. Class แม่พิมพ์หลัก ProductionParameters
 Public Class ProductionParameters
 
     ' --- Header Production ---
