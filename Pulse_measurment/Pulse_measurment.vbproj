@@ -77,10 +77,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAbout.Designer.vb">
+    <Compile Include="Views\About\frmAbout.Designer.vb">
       <DependentUpon>frmAbout.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmAbout.vb">
+    <Compile Include="Views\About\frmAbout.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmILGraph.Designer.vb">
@@ -95,22 +95,22 @@
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\JudgmentCondition\frmiLJudgment.Designer.vb">
+    <Compile Include="Views\Production\JudgmentCondition\frmiLJudgment.Designer.vb">
       <DependentUpon>frmiLJudgment.vb</DependentUpon>
     </Compile>
-    <Compile Include="Views\JudgmentCondition\frmiLJudgment.vb">
+    <Compile Include="Views\Production\JudgmentCondition\frmiLJudgment.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\JudgmentCondition\frmWLJudgment.Designer.vb">
+    <Compile Include="Views\Production\JudgmentCondition\frmWLJudgment.Designer.vb">
       <DependentUpon>frmWLJudgment.vb</DependentUpon>
     </Compile>
-    <Compile Include="Views\JudgmentCondition\frmWLJudgment.vb">
+    <Compile Include="Views\Production\JudgmentCondition\frmWLJudgment.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\measurementCondition\frmILMeasurement.Designer.vb">
+    <Compile Include="Views\Production\measurementCondition\frmILMeasurement.Designer.vb">
       <DependentUpon>frmILMeasurement.vb</DependentUpon>
     </Compile>
-    <Compile Include="Views\measurementCondition\frmILMeasurement.vb">
+    <Compile Include="Views\Production\measurementCondition\frmILMeasurement.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPcalmeasurement.Designer.vb">
@@ -119,16 +119,16 @@
     <Compile Include="frmPcalmeasurement.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPreferance.Designer.vb">
+    <Compile Include="Views\Preferance\frmPreferance.Designer.vb">
       <DependentUpon>frmPreferance.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmPreferance.vb">
+    <Compile Include="Views\Preferance\frmPreferance.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmProduction.Designer.vb">
+    <Compile Include="Views\Production\frmProduction.Designer.vb">
       <DependentUpon>frmProduction.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmProduction.vb">
+    <Compile Include="Views\Production\frmProduction.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmTemperatureControl.Designer.vb">
@@ -137,22 +137,22 @@
     <Compile Include="frmTemperatureControl.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\JudgmentCondition\frmWJudgment.Designer.vb">
+    <Compile Include="Views\Production\JudgmentCondition\frmWJudgment.Designer.vb">
       <DependentUpon>frmWJudgment.vb</DependentUpon>
     </Compile>
-    <Compile Include="Views\JudgmentCondition\frmWJudgment.vb">
+    <Compile Include="Views\Production\JudgmentCondition\frmWJudgment.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\measurementCondition\frmWLMeasurement.Designer.vb">
+    <Compile Include="Views\Production\measurementCondition\frmWLMeasurement.Designer.vb">
       <DependentUpon>frmWLMeasurement.vb</DependentUpon>
     </Compile>
-    <Compile Include="Views\measurementCondition\frmWLMeasurement.vb">
+    <Compile Include="Views\Production\measurementCondition\frmWLMeasurement.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\measurementCondition\frmWMeasurement.Designer.vb">
+    <Compile Include="Views\Production\measurementCondition\frmWMeasurement.Designer.vb">
       <DependentUpon>frmWMeasurement.vb</DependentUpon>
     </Compile>
-    <Compile Include="Views\measurementCondition\frmWMeasurement.vb">
+    <Compile Include="Views\Production\measurementCondition\frmWMeasurement.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -179,7 +179,7 @@
     <Compile Include="ProductionParameters.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmAbout.resx">
+    <EmbeddedResource Include="Views\About\frmAbout.resx">
       <DependentUpon>frmAbout.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmILGraph.resx">
@@ -188,34 +188,34 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\JudgmentCondition\frmiLJudgment.resx">
+    <EmbeddedResource Include="Views\Production\JudgmentCondition\frmiLJudgment.resx">
       <DependentUpon>frmiLJudgment.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\JudgmentCondition\frmWLJudgment.resx">
+    <EmbeddedResource Include="Views\Production\JudgmentCondition\frmWLJudgment.resx">
       <DependentUpon>frmWLJudgment.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\measurementCondition\frmILMeasurement.resx">
+    <EmbeddedResource Include="Views\Production\measurementCondition\frmILMeasurement.resx">
       <DependentUpon>frmILMeasurement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPcalmeasurement.resx">
       <DependentUpon>frmPcalmeasurement.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPreferance.resx">
+    <EmbeddedResource Include="Views\Preferance\frmPreferance.resx">
       <DependentUpon>frmPreferance.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmProduction.resx">
+    <EmbeddedResource Include="Views\Production\frmProduction.resx">
       <DependentUpon>frmProduction.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTemperatureControl.resx">
       <DependentUpon>frmTemperatureControl.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\JudgmentCondition\frmWJudgment.resx">
+    <EmbeddedResource Include="Views\Production\JudgmentCondition\frmWJudgment.resx">
       <DependentUpon>frmWJudgment.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\measurementCondition\frmWLMeasurement.resx">
+    <EmbeddedResource Include="Views\Production\measurementCondition\frmWLMeasurement.resx">
       <DependentUpon>frmWLMeasurement.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\measurementCondition\frmWMeasurement.resx">
+    <EmbeddedResource Include="Views\Production\measurementCondition\frmWMeasurement.resx">
       <DependentUpon>frmWMeasurement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
