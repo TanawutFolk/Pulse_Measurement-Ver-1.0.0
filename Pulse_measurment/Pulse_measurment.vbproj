@@ -77,6 +77,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\PreferanceConfig.vb" />
     <Compile Include="Views\About\frmAbout.Designer.vb">
       <DependentUpon>frmAbout.vb</DependentUpon>
     </Compile>
@@ -176,7 +177,7 @@
     <Compile Include="frmWLgraph.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductionParameters.vb" />
+    <Compile Include="Models\ProductionParameters.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\About\frmAbout.resx">

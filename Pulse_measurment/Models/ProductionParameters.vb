@@ -77,9 +77,7 @@ Public Class ProductionParameters
 
 End Class
 
-' ------------------------------------------------------------------------------------
-' Class กลุ่ม รวม IL_Measurement ทั้ง 6 Tabs ไว้ด้วยกัน
-' ------------------------------------------------------------------------------------
+' Class กลุ่ม รวม IL_Measurement ทั้ง 6 Tabs ------------------------------------------------------------
 Public Class IL_Group_Settings
     Public Property L1 As New ILParameter()
     Public Property L2 As New ILParameter()
@@ -89,9 +87,7 @@ Public Class IL_Group_Settings
     Public Property L6 As New ILParameter()
 End Class
 
-' ------------------------------------------------------------------------------------
-' Class กลุ่ม รวม WL_Measurement ทั้ง 6 Tabs
-' ------------------------------------------------------------------------------------
+' Class กลุ่ม รวม WL_Measurement ทั้ง 6 Tabs ------------------------------------------------------------
 Public Class WL_Group_Settings
     Public Property Spec1 As New WLParameter()
     Public Property Spec2 As New WLParameter()
@@ -101,9 +97,7 @@ Public Class WL_Group_Settings
     Public Property Spec6 As New WLParameter()
 End Class
 
-' ------------------------------------------------------------------------------------
-' Class กลุ่ม รวม W_Measurement ทั้ง 6 Tabs
-' ------------------------------------------------------------------------------------
+' Class กลุ่ม รวม W_Measurement ทั้ง 6 Tabs ------------------------------------------------------------
 Public Class W_Group_Settings
     Public Property Wave1 As New WaveformParameter()
     Public Property Wave2 As New WaveformParameter()
@@ -113,9 +107,7 @@ Public Class W_Group_Settings
     Public Property Wave6 As New WaveformParameter()
 End Class
 
-' ------------------------------------------------------------------------------------
-' Class กลุ่ม รวม IL_Judgment ทั้ง 6 Tabs
-' ------------------------------------------------------------------------------------
+' Class กลุ่ม รวม IL_Judgment ทั้ง 6 Tabs ------------------------------------------------------------
 Public Class IL_Judge_Group
     Public Property L1 As New IL_Judge_Parameter()
     Public Property L2 As New IL_Judge_Parameter()
@@ -125,9 +117,7 @@ Public Class IL_Judge_Group
     Public Property L6 As New IL_Judge_Parameter()
 End Class
 
-' ------------------------------------------------------------------------------------
-' Class กลุ่ม รวม WL_Judgment ทั้ง 6 Tabs
-' ------------------------------------------------------------------------------------
+' Class กลุ่ม รวม WL_Judgment ทั้ง 6 Tabs ------------------------------------------------------------
 Public Class WL_Judge_Group
     Public Property Spec1 As New WL_Judge_Parameter()
     Public Property Spec2 As New WL_Judge_Parameter()
@@ -137,9 +127,7 @@ Public Class WL_Judge_Group
     Public Property Spec6 As New WL_Judge_Parameter()
 End Class
 
-' ------------------------------------------------------------------------------------
-' Class กลุ่ม รวม W_Judgment ทั้ง 6 Tabs
-' ------------------------------------------------------------------------------------
+' Class กลุ่ม รวม W_Judgment ทั้ง 6 Tabs ------------------------------------------------------------
 Public Class Wave_Judge_Group
     Public Property Wave1 As New W_Judge_Parameter()
     Public Property Wave2 As New W_Judge_Parameter()
@@ -149,7 +137,7 @@ Public Class Wave_Judge_Group
     Public Property Wave6 As New W_Judge_Parameter()
 End Class
 
-' ========== Class IL_Measurement Parameter 1 Tab =====================================
+'-------------- Class IL_Measurement Parameter 1 Tab ------------------------------------------------------------
 Public Class ILParameter
     ' โซน 1: If Sweep
     Public Property IfStart As Double
@@ -190,7 +178,7 @@ Public Class ILParameter
     Public Property Div_Im As Double
 End Class
 
-' ========== Class WL_Measurement Parameter 1 Tab =====================================
+'-------------- Class WL_Measurement Parameter 1 Tab ------------------------------------------------------------
 Public Class WLParameter
     ' --- Pulse Condition (ซ้าย) ---
     Public Property IfPulse As Double    ' If [mA]
@@ -217,7 +205,7 @@ Public Class WLParameter
     Public Property Point2 As String        ' FFP
 End Class
 
-' ========== Class W_Measurement Parameter 1 Tab =====================================
+' ------------- Class W_Measurement Parameter 1 Tab -------------------------------------------------------------
 Public Class WaveformParameter
     ' --- Pulse Condition ซ้าย ---
     Public Property IfPulse As Double
@@ -250,9 +238,7 @@ Public Class WaveformParameter
     Public Property Point2 As String
 End Class
 
-' ====================================================================================
-' ------------ Class IL_judge_Parameter 1 Tab ------------
-
+' ------------- Class IL_judge_Parameter 1 Tab -------------------------------------------------------------
 Public Class IL_Judge_Parameter
     ' --- ส่วนบน ---
     Public Property SelectPoint As String
@@ -291,8 +277,8 @@ Public Class IL_Judge_Parameter
     Public Property LeastSquaresMode As Integer ' 0=Primary, 1=Secondary
     Public Property NumOfPoint As Integer
 End Class
-' ====================================================================================
-' ------------ Class WL_judge_Parameter 1 Tab ------------
+
+' ------------ Class WL_judge_Parameter 1 Tab -------------------------------------------------------------
 Public Class WL_Judge_Parameter
     Public Property Select1 As String       ' Select (ซ้าย)
     Public Property Select2 As String       ' Select (ขวา)
@@ -302,8 +288,7 @@ Public Class WL_Judge_Parameter
     Public Property PinBand_Max As Double
 End Class
 
-' ====================================================================================
-' ------------ Class W_judge_Parameter 1 Tab ------------
+' ------------ Class W_judge_Parameter 1 Tab -------------------------------------------------------------
 Public Class W_Judge_Parameter
     Public Property Select1 As String
     Public Property Select2 As String
