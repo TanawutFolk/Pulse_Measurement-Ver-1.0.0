@@ -64,14 +64,13 @@ Public Class frmPreferance
             Dim data As New PreferanceConfig()
 
             ' --- Tab 1: GPIB ---
-            data.GPIB_address.LDT_5910C_TempControlLD = CDbl(txtLDT_5910CTempControlLD.Text)
-            data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz = CDbl(txtAQ6370D_OpticspAnalyz.Text)
-            data.GPIB_address.SANTEC_OVA_100_OpticAttenua = CDbl(txtOVA_100_OpticAttenua.Text)
-            data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch = CDbl(txtAQ2211_Opticswich.Text)
-            data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope = CDbl(txtDSO_X_4154GOsciloscope.Text)
-            data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase = CDbl(txtSYSTEMAT_845TempControlBase.Text)
-            data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter = CDbl(txtKey34416A_Digitlmultimeter.Text)
-            data.GPIB_address.
+            data.GPIB_address.LDT_5910C_TempControlLD = txtLDT_5910CTempControlLD.Text
+            data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz = txtAQ6370D_OpticspAnalyz.Text
+            data.GPIB_address.SANTEC_OVA_100_OpticAttenua = txtOVA_100_OpticAttenua.Text
+            data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch = txtAQ2211_Opticswich.Text
+            data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope = txtDSO_X_4154GOsciloscope.Text
+            data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase = txtSYSTEMAT_845TempControlBase.Text
+            data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter = txtKey34416A_Digitlmultimeter.Text
 
             ' --- Tab 2: Power Measurement ---
             data.Power_Measurement.LaserStar_comport = CDbl(txtLasercomport.Text)
@@ -120,7 +119,7 @@ Public Class frmPreferance
             data.CCS_HPP.BFMgain = CDbl(txtBFMgain.Text)
             data.CCS_HPP.BFMconvers = CDbl(txtBFMconvers.Text)
             data.CCS_HPP.Comport = txtComport.Text
-            data.CCS_HPP.Baudrate = CInt(txtBaudrate.Text)
+            data.CCS_HPP.Baudrate = CDbl(txtBaudrate.Text)
 
             ' --- Tab 7: General Set ---
             data.General_Setting.DelayTimeOffset = CDbl(txtDelaygeneral.Text)
@@ -177,13 +176,13 @@ Public Class frmPreferance
                 ' 3. เอาค่าใส่ TextBox ทีละช่อง
 
                 ' --- Tab 1: GPIB ---
-                txtLDT_5910CTempControlLD.Text = data.GPIB_address.LDT_5910C_TempControlLD.ToString()
-                txtAQ6370D_OpticspAnalyz.Text = data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz.ToString()
-                txtOVA_100_OpticAttenua.Text = data.GPIB_address.SANTEC_OVA_100_OpticAttenua.ToString()
-                txtAQ2211_Opticswich.Text = data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch.ToString()
-                txtDSO_X_4154GOsciloscope.Text = data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope.ToString()
-                txtSYSTEMAT_845TempControlBase.Text = data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase.ToString()
-                txtKey34416A_Digitlmultimeter.Text = data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter.ToString()
+                txtLDT_5910CTempControlLD.Text = data.GPIB_address.LDT_5910C_TempControlLD
+                txtAQ6370D_OpticspAnalyz.Text = data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz
+                txtOVA_100_OpticAttenua.Text = data.GPIB_address.SANTEC_OVA_100_OpticAttenua
+                txtAQ2211_Opticswich.Text = data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch
+                txtDSO_X_4154GOsciloscope.Text = data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope
+                txtSYSTEMAT_845TempControlBase.Text = data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase
+                txtKey34416A_Digitlmultimeter.Text = data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter
 
                 ' --- Tab 2: Power ---
                 txtLasercomport.Text = data.Power_Measurement.LaserStar_comport.ToString()

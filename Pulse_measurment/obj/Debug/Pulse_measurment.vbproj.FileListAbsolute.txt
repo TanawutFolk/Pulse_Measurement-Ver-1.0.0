@@ -182,7 +182,6 @@ C:\Users\Tanaw\Desktop\Pulse_measurment\Pulse_measurment\obj\Debug\Pulse_me.DAFD
 C:\Users\Tanaw\Desktop\Pulse_measurment\Pulse_measurment\obj\Debug\Pulse_measurment.exe
 C:\Users\Tanaw\Desktop\Pulse_measurment\Pulse_measurment\obj\Debug\Pulse_measurment.xml
 C:\Users\Tanaw\Desktop\Pulse_measurment\Pulse_measurment\obj\Debug\Pulse_measurment.pdb
-C:\Users\Tanaw\Desktop\Pulse_measurment\Pulse_measurment\obj\Debug\Pulse_measurment.exe.config
 \\192.168.2.197\Butterfly1480\50-48-Documents\03-Meeting\1480 Group Meeting\2025\20250910 Pulse measurment installation\Program\Pulse_measurmen ล่าสุด\Pulse_measurment\bin\Debug\SampleData\Operator.txt
 \\192.168.2.197\Butterfly1480\50-48-Documents\03-Meeting\1480 Group Meeting\2025\20250910 Pulse measurment installation\Program\Pulse_measurmen ล่าสุด\Pulse_measurment\bin\Debug\SampleData\Production.json
 \\192.168.2.197\Butterfly1480\50-48-Documents\03-Meeting\1480 Group Meeting\2025\20250910 Pulse measurment installation\Program\Pulse_measurmen ล่าสุด\Pulse_measurment\bin\Debug\Pulse_measurment.exe.config
@@ -276,3 +275,4 @@ C:\Users\tanawut.pat\Desktop\Pulse_Folk\Pulse_measurmen ver 1.0.0\Pulse_measurme
 C:\Users\tanawut.pat\Desktop\Pulse_Folk\Pulse_measurmen ver 1.0.0\Pulse_measurment\obj\Debug\Pulse_measurment.xml
 C:\Users\tanawut.pat\Desktop\Pulse_Folk\Pulse_measurmen ver 1.0.0\Pulse_measurment\obj\Debug\Pulse_measurment.pdb
 C:\Users\tanawut.pat\Desktop\Pulse_Folk\Pulse_measurmen ver 1.0.0\Pulse_measurment\obj\Debug\Pulse_measurment.exe.config
+C:\Users\Tanaw\Desktop\Pulse_measurment\Pulse_measurment\obj\Debug\Pulse_measurment.exe.config
