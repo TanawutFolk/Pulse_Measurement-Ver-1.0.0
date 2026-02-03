@@ -77,6 +77,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\GlobalVariables.vb" />
     <Compile Include="Models\PreferanceConfig.vb" />
     <Compile Include="Views\About\frmAbout.Designer.vb">
       <DependentUpon>frmAbout.vb</DependentUpon>

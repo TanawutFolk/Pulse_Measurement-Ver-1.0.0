@@ -3,8 +3,60 @@ Imports Newtonsoft.Json
 
 Public Class frmProduction
 
-    ' ตัวแปรสูตรกลาง 
-    Public CurrentRecipe As New ProductionParameters()
+    Private Function GetProductListPath() As String
+        Dim appPath As String = Application.StartupPath
+        ' ถอยออกมา 1 ขั้น -> เข้าโฟลเดอร์ PRF -> ไฟล์ ProductList.txt
+        Dim pathFile As String = Path.Combine(Directory.GetParent(appPath).FullName, "PRF", "ProductList.txt")
+        Return pathFile
+    End Function
+
+    ' 3. เมื่อ User เลือกสินค้า (Event)
+    Private Sub cboProduct_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProduct.SelectedIndexChanged
+        ' ส่งค่าไปบอกตัวแปร Global ว่าตอนนี้เลือกสินค้ารุ่นนี้นะ
+        GlobalVariables.CurrentProduct = cboProduct.Text
+    End Sub
+
+    ' 1. โหลดรายชื่อเข้า Dropdown (ใส่ใน Form_Load)
+    ' =============================================================
+    Private Sub frmMainMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        LoadProductList()
+    End Sub
+
+    Private Sub LoadProductList()
+        Dim filePath As String = GetProductListPath()
+
+        ' เคลียร์ของเก่าก่อน
+        cboProduct.Items.Clear()
+
+        ' ถ้ามีไฟล์ ให้โหลดมาใส่
+        If File.Exists(filePath) Then
+            Dim lines As String() = File.ReadAllLines(filePath)
+
+            For Each line As String In lines
+                ' ตัดช่องว่างหน้าหลัง และเช็คว่าไม่ใช่บรรทัดว่าง
+                If line.Trim() <> "" Then
+                    cboProduct.Items.Add(line.Trim())
+                End If
+            Next
+        Else
+            ' ถ้ายังไม่มีไฟล์ (เปิดครั้งแรก) ให้สร้างไฟล์เปล่ารอไว้ หรือใส่ค่า Default
+            Try
+                Dim dir As String = Path.GetDirectoryName(filePath)
+                If Not Directory.Exists(dir) Then Directory.CreateDirectory(dir)
+
+                ' สร้างไฟล์พร้อมค่าเริ่มต้น
+                File.WriteAllText(filePath, "1480" & vbCrLf & "980")
+
+                ' โหลดค่าเริ่มต้นเข้า Dropdown
+                cboProduct.Items.Add("1480")
+                cboProduct.Items.Add("980")
+            Catch ex As Exception
+                ' กัน Error เรื่อง Permission
+            End Try
+        End If
+    End Sub
+    '' ตัวแปรสูตรกลาง 
+    'Public CurrentRecipe As New ProductionParameters() ย้ายไปไฟล์
 
     ' =========================================================
     ' 1. Form Load ตั้งค่าเริ่มต้นเมื่อเปิดหน้าจอ
@@ -47,39 +99,53 @@ Public Class frmProduction
     ' ----------------------------------------------------------
     Private Sub btnSaveParam_Click(sender As Object, e As EventArgs) Handles btnSave.Click
 
-        If txtParameterFile.Text = "" Then
-            Dim dlg As New SaveFileDialog()
-            dlg.Filter = "JSON Files|*.json|All Files|*.*"
-            dlg.Title = "บันทึกสูตรการผลิต (Save Recipe)"
-            dlg.FileName = "NewRecipe.json" ' ตั้งชื่อ Default 
-
-            ' ให้ User เลือกที่เซฟ
-            If dlg.ShowDialog() = DialogResult.OK Then
-                ' พอเลือกเสร็จ เอา Path มาใส่ในกล่องข้อความ
-                txtParameterFile.Text = dlg.FileName
-            Else
-                ' ถ้า User กด Cancel ก็ให้ออกไปเลย ไม่ต้องเซฟ
-                Return
-            End If
+        ' --- ส่วนที่ 1: ตรวจสอบก่อนว่าเลือก Product หรือยัง ---
+        ' (สมมติว่าคุณเก็บชื่อรุ่นปัจจุบันไว้ใน GlobalSettings.CurrentProduct จากหน้า Main Menu)
+        If String.IsNullOrEmpty(GlobalVariables.CurrentProduct) Then
+            MessageBox.Show("กรุณาเลือกรุ่นสินค้า (Product) จากหน้าเมนูหลักก่อนครับ", "แจ้งเตือน")
+            Return
         End If
-        ' -----------------------------
 
+        ' --- ส่วนที่ 2: สร้างชื่อไฟล์และ Path อัตโนมัติ (หัวใจสำคัญ) ---
+        ' ไม่ใช้ SaveFileDialog แล้ว แต่กำหนดเองเลยตามโจทย์
+        ' ชื่อไฟล์ = Pulse_ + รุ่น + .json
+        Dim fileName As String = "Pulse_" & GlobalVariables.CurrentProduct & ".json"
+
+        ' หา Path ของโฟลเดอร์ PRF (ใช้ฟังก์ชัน GetPRFPath ที่แนะนำไปรอบที่แล้ว)
+        Dim fullPath As String = Path.Combine(GetPRFPath(), fileName)
+
+        ' -----------------------------
         Try
-            ' 1. เอาค่าจากหน้าจอ เก็บลงตัวแปร
+            ' 1. เอาค่าจากหน้าจอ เก็บลงตัวแปร Class (โค้ดเดิม)
             UpdateRecipeFromScreen()
 
-            ' 2. แปลงตัวแปรเป็น JSON
+            ' 2. แปลงตัวแปรเป็น JSON (โค้ดเดิม)
             Dim json As String = JsonConvert.SerializeObject(CurrentRecipe, Formatting.Indented)
 
-            ' 3. เขียนลงไฟล์ (ตาม Path ที่ได้มาข้างบน)
-            File.WriteAllText(txtParameterFile.Text, json)
+            ' 3. เขียนลงไฟล์ (ใช้ Path ใหม่ที่เราสร้างเอง)
+            File.WriteAllText(fullPath, json)
 
-            MessageBox.Show("บันทึกเรียบร้อยแล้ว!", "Success")
+            ' 4. โชว์ Path ให้ User เห็นในกล่องข้อความหน่อย จะได้ไม่งงว่าเซฟไปไหน
+            txtParameterFile.Text = fullPath
+
+            MessageBox.Show("บันทึกสูตรรุ่น " & GlobalVariables.CurrentProduct & " เรียบร้อยแล้ว!", "Success")
 
         Catch ex As Exception
             MessageBox.Show("บันทึกไม่ได้: " & ex.Message)
         End Try
     End Sub
+
+    ' ฟังก์ชันสำหรับหาที่อยู่ของโฟลเดอร์ PRF
+    Private Function GetPRFPath() As String
+        ' ถอยออกมา 1 ขั้นจากโฟลเดอร์โปรแกรม (.exe) เพื่อหาโฟลเดอร์ PRF
+        Dim appPath As String = Application.StartupPath
+        Dim prfPath As String = Path.Combine(Directory.GetParent(appPath).FullName, "PRF")
+
+        ' ถ้ายังไม่มีโฟลเดอร์นี้ ให้สร้างรอไว้เลย
+        If Not Directory.Exists(prfPath) Then Directory.CreateDirectory(prfPath)
+
+        Return prfPath
+    End Function
 
     ' btnSelectDataFolder เลือกโฟลเดอร์เก็บData--------------------------
     Private Sub btnSelectDataFolder_Click(sender As Object, e As EventArgs) Handles btnSelectDataFolder.Click
@@ -340,6 +406,7 @@ Public Class frmProduction
         End If
     End Sub
 
+    Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
 
-
+    End Sub
 End Class

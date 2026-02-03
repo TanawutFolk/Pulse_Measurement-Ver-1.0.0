@@ -152,6 +152,16 @@ Partial Class frmPreferance
         Me.Label35 = New System.Windows.Forms.Label()
         Me.txtDelaygeneral = New System.Windows.Forms.TextBox()
         Me.Label36 = New System.Windows.Forms.Label()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label58 = New System.Windows.Forms.Label()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.btnCancleOscilloscope = New System.Windows.Forms.Button()
+        Me.btnSaveOscilloScope = New System.Windows.Forms.Button()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.txtOFS1000 = New System.Windows.Forms.TextBox()
+        Me.Label63 = New System.Windows.Forms.Label()
         Me.tabsPreference.SuspendLayout()
         Me.GPIBaddress.SuspendLayout()
         Me.Power.SuspendLayout()
@@ -166,6 +176,7 @@ Partial Class frmPreferance
         Me.GroupBox3.SuspendLayout()
         Me.CcsHpp.SuspendLayout()
         Me.Generalsetting.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
         Me.SuspendLayout()
         '
         'tabsPreference
@@ -177,6 +188,7 @@ Partial Class frmPreferance
         Me.tabsPreference.Controls.Add(Me.Tec)
         Me.tabsPreference.Controls.Add(Me.CcsHpp)
         Me.tabsPreference.Controls.Add(Me.Generalsetting)
+        Me.tabsPreference.Controls.Add(Me.TabPage1)
         Me.tabsPreference.Dock = System.Windows.Forms.DockStyle.Fill
         Me.tabsPreference.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tabsPreference.Location = New System.Drawing.Point(0, 0)
@@ -189,6 +201,9 @@ Partial Class frmPreferance
         '
         'GPIBaddress
         '
+        Me.GPIBaddress.Controls.Add(Me.Label62)
+        Me.GPIBaddress.Controls.Add(Me.txtOFS1000)
+        Me.GPIBaddress.Controls.Add(Me.Label63)
         Me.GPIBaddress.Controls.Add(Me.btnCancle)
         Me.GPIBaddress.Controls.Add(Me.btnSaveGPIBaddress)
         Me.GPIBaddress.Controls.Add(Me.Label6)
@@ -248,7 +263,7 @@ Partial Class frmPreferance
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(440, 291)
+        Me.Label6.Location = New System.Drawing.Point(440, 331)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(147, 22)
         Me.Label6.TabIndex = 221
@@ -318,7 +333,7 @@ Partial Class frmPreferance
         '
         Me.txtKey34416A_Digitlmultimeter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtKey34416A_Digitlmultimeter.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKey34416A_Digitlmultimeter.Location = New System.Drawing.Point(297, 288)
+        Me.txtKey34416A_Digitlmultimeter.Location = New System.Drawing.Point(305, 328)
         Me.txtKey34416A_Digitlmultimeter.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtKey34416A_Digitlmultimeter.Name = "txtKey34416A_Digitlmultimeter"
         Me.txtKey34416A_Digitlmultimeter.Size = New System.Drawing.Size(126, 28)
@@ -328,7 +343,7 @@ Partial Class frmPreferance
         '
         Me.txtSYSTEMAT_845TempControlBase.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSYSTEMAT_845TempControlBase.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSYSTEMAT_845TempControlBase.Location = New System.Drawing.Point(297, 249)
+        Me.txtSYSTEMAT_845TempControlBase.Location = New System.Drawing.Point(305, 249)
         Me.txtSYSTEMAT_845TempControlBase.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSYSTEMAT_845TempControlBase.Name = "txtSYSTEMAT_845TempControlBase"
         Me.txtSYSTEMAT_845TempControlBase.Size = New System.Drawing.Size(126, 28)
@@ -338,7 +353,7 @@ Partial Class frmPreferance
         '
         Me.txtDSO_X_4154GOsciloscope.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDSO_X_4154GOsciloscope.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDSO_X_4154GOsciloscope.Location = New System.Drawing.Point(297, 208)
+        Me.txtDSO_X_4154GOsciloscope.Location = New System.Drawing.Point(305, 208)
         Me.txtDSO_X_4154GOsciloscope.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDSO_X_4154GOsciloscope.Name = "txtDSO_X_4154GOsciloscope"
         Me.txtDSO_X_4154GOsciloscope.Size = New System.Drawing.Size(126, 28)
@@ -348,7 +363,7 @@ Partial Class frmPreferance
         '
         Me.txtAQ2211_Opticswich.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAQ2211_Opticswich.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAQ2211_Opticswich.Location = New System.Drawing.Point(297, 167)
+        Me.txtAQ2211_Opticswich.Location = New System.Drawing.Point(305, 167)
         Me.txtAQ2211_Opticswich.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAQ2211_Opticswich.Name = "txtAQ2211_Opticswich"
         Me.txtAQ2211_Opticswich.Size = New System.Drawing.Size(126, 28)
@@ -358,7 +373,7 @@ Partial Class frmPreferance
         '
         Me.txtOVA_100_OpticAttenua.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOVA_100_OpticAttenua.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtOVA_100_OpticAttenua.Location = New System.Drawing.Point(297, 127)
+        Me.txtOVA_100_OpticAttenua.Location = New System.Drawing.Point(305, 127)
         Me.txtOVA_100_OpticAttenua.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtOVA_100_OpticAttenua.Name = "txtOVA_100_OpticAttenua"
         Me.txtOVA_100_OpticAttenua.Size = New System.Drawing.Size(126, 28)
@@ -368,7 +383,7 @@ Partial Class frmPreferance
         '
         Me.txtAQ6370D_OpticspAnalyz.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAQ6370D_OpticspAnalyz.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAQ6370D_OpticspAnalyz.Location = New System.Drawing.Point(297, 86)
+        Me.txtAQ6370D_OpticspAnalyz.Location = New System.Drawing.Point(305, 86)
         Me.txtAQ6370D_OpticspAnalyz.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAQ6370D_OpticspAnalyz.Name = "txtAQ6370D_OpticspAnalyz"
         Me.txtAQ6370D_OpticspAnalyz.Size = New System.Drawing.Size(126, 28)
@@ -378,7 +393,7 @@ Partial Class frmPreferance
         '
         Me.txtLDT_5910CTempControlLD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtLDT_5910CTempControlLD.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLDT_5910CTempControlLD.Location = New System.Drawing.Point(297, 41)
+        Me.txtLDT_5910CTempControlLD.Location = New System.Drawing.Point(305, 41)
         Me.txtLDT_5910CTempControlLD.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtLDT_5910CTempControlLD.Name = "txtLDT_5910CTempControlLD"
         Me.txtLDT_5910CTempControlLD.Size = New System.Drawing.Size(126, 28)
@@ -388,7 +403,7 @@ Partial Class frmPreferance
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(61, 290)
+        Me.Label7.Location = New System.Drawing.Point(61, 330)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(168, 22)
         Me.Label7.TabIndex = 205
@@ -1652,6 +1667,114 @@ Partial Class frmPreferance
         Me.Label36.TabIndex = 247
         Me.Label36.Text = "Delay time offset "
         '
+        'TabPage1
+        '
+        Me.TabPage1.Controls.Add(Me.btnCancleOscilloscope)
+        Me.TabPage1.Controls.Add(Me.btnSaveOscilloScope)
+        Me.TabPage1.Controls.Add(Me.TextBox1)
+        Me.TabPage1.Controls.Add(Me.TextBox2)
+        Me.TabPage1.Controls.Add(Me.Label58)
+        Me.TabPage1.Controls.Add(Me.Label61)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 39)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(992, 657)
+        Me.TabPage1.TabIndex = 7
+        Me.TabPage1.Text = "Oscilloscope"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(267, 79)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(126, 28)
+        Me.TextBox1.TabIndex = 246
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(267, 43)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(126, 28)
+        Me.TextBox2.TabIndex = 245
+        '
+        'Label58
+        '
+        Me.Label58.AutoSize = True
+        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label58.Location = New System.Drawing.Point(53, 82)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(83, 22)
+        Me.Label58.TabIndex = 244
+        Me.Label58.Text = "Baudrate"
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.Location = New System.Drawing.Point(54, 46)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(78, 22)
+        Me.Label61.TabIndex = 243
+        Me.Label61.Text = "Comport"
+        '
+        'btnCancleOscilloscope
+        '
+        Me.btnCancleOscilloscope.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancleOscilloscope.Location = New System.Drawing.Point(803, 576)
+        Me.btnCancleOscilloscope.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnCancleOscilloscope.Name = "btnCancleOscilloscope"
+        Me.btnCancleOscilloscope.Size = New System.Drawing.Size(115, 37)
+        Me.btnCancleOscilloscope.TabIndex = 253
+        Me.btnCancleOscilloscope.Text = "Cancle"
+        Me.btnCancleOscilloscope.UseVisualStyleBackColor = True
+        '
+        'btnSaveOscilloScope
+        '
+        Me.btnSaveOscilloScope.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSaveOscilloScope.Location = New System.Drawing.Point(683, 576)
+        Me.btnSaveOscilloScope.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnSaveOscilloScope.Name = "btnSaveOscilloScope"
+        Me.btnSaveOscilloScope.Size = New System.Drawing.Size(115, 37)
+        Me.btnSaveOscilloScope.TabIndex = 252
+        Me.btnSaveOscilloScope.Text = "Save"
+        Me.btnSaveOscilloScope.UseVisualStyleBackColor = True
+        '
+        'Label62
+        '
+        Me.Label62.AutoSize = True
+        Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label62.Location = New System.Drawing.Point(440, 293)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(268, 22)
+        Me.Label62.TabIndex = 226
+        Me.Label62.Text = "Temperature Controller for Base"
+        '
+        'txtOFS1000
+        '
+        Me.txtOFS1000.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOFS1000.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOFS1000.Location = New System.Drawing.Point(305, 290)
+        Me.txtOFS1000.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtOFS1000.Name = "txtOFS1000"
+        Me.txtOFS1000.Size = New System.Drawing.Size(126, 28)
+        Me.txtOFS1000.TabIndex = 225
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.Location = New System.Drawing.Point(61, 291)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(92, 22)
+        Me.Label63.TabIndex = 224
+        Me.Label63.Text = "OFS 1000"
+        '
         'frmPreferance
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -1688,6 +1811,8 @@ Partial Class frmPreferance
         Me.CcsHpp.PerformLayout()
         Me.Generalsetting.ResumeLayout(False)
         Me.Generalsetting.PerformLayout()
+        Me.TabPage1.ResumeLayout(False)
+        Me.TabPage1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1822,4 +1947,14 @@ Partial Class frmPreferance
     Friend WithEvents btnSaveTEC As Button
     Friend WithEvents btnCancleGeneralSet As Button
     Friend WithEvents btnSaveGeneralSet As Button
+    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents btnCancleOscilloscope As Button
+    Friend WithEvents btnSaveOscilloScope As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label58 As Label
+    Friend WithEvents Label61 As Label
+    Friend WithEvents Label62 As Label
+    Friend WithEvents txtOFS1000 As TextBox
+    Friend WithEvents Label63 As Label
 End Class

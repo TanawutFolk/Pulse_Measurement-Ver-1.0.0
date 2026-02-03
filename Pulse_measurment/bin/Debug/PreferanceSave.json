@@ -1,12 +1,12 @@
 {
   "GPIB_address": {
-    "LDT_5910C_TempControlLD": 0.0,
-    "YOKOGAWA_AQ6370D_OpticSpectAnalyz": 400.0,
-    "SANTEC_OVA_100_OpticAttenua": 0.5,
-    "YOKOGAWA_AQ2211_OpticSwitch": 0.1,
-    "KEYSIGHT_DSO_X_4154GOsciloscope": 25.0,
-    "FUKKO_SYSTEMAT_845TempControlBase": 35.0,
-    "KEYSIGHT_34416A_Digitlmultimeter": 35.0
+    "LDT_5910C_TempControlLD": "1",
+    "YOKOGAWA_AQ6370D_OpticSpectAnalyz": "2",
+    "SANTEC_OVA_100_OpticAttenua": "3",
+    "YOKOGAWA_AQ2211_OpticSwitch": "4",
+    "KEYSIGHT_DSO_X_4154GOsciloscope": "25",
+    "FUKKO_SYSTEMAT_845TempControlBase": "35",
+    "KEYSIGHT_34416A_Digitlmultimeter": "35"
   },
   "Power_Measurement": {
     "LaserStar_comport": 1.0,
