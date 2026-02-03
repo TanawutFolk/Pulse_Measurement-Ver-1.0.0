@@ -11,7 +11,8 @@ Public Class frmPreferance
         btnCanclercable.Click,
         btnCancletec.Click,
         btnCancleccs.Click,
-        btnCancleGeneralSet.Click
+        btnCancleGeneralSet.Click,
+        btnCancleOscilloscope.Click
 
         Me.Close()
     End Sub
@@ -24,7 +25,8 @@ Public Class frmPreferance
             btnSaveRcable.Click,
             btnSaveTEC.Click,
             btnSaveCCS_HPP.Click,
-            btnSaveGeneralSet.Click
+            btnSaveGeneralSet.Click,
+            btnSaveOscilloScope.Click
         SaveAllData()
     End Sub
 
@@ -70,6 +72,7 @@ Public Class frmPreferance
             data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch = txtAQ2211_Opticswich.Text
             data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope = txtDSO_X_4154GOsciloscope.Text
             data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase = txtSYSTEMAT_845TempControlBase.Text
+            data.GPIB_address.OFS_1000_TempControlBase = txtOFS1000.Text
             data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter = txtKey34416A_Digitlmultimeter.Text
 
             ' --- Tab 2: Power Measurement ---
@@ -124,9 +127,15 @@ Public Class frmPreferance
             ' --- Tab 7: General Set ---
             data.General_Setting.DelayTimeOffset = CDbl(txtDelaygeneral.Text)
 
-            ' -------------------------------------------------------------
-            ' ส่วนที่แก้ไข: สร้างชื่อไฟล์ตามรุ่น Product และเซฟลง PRF Folder
-            ' -------------------------------------------------------------
+            ' --- Tab 8: Oscilloscope ---
+            data.Oscilloscope_Setting.Comport = txtComportOCS.Text
+            ' ตรวจสอบก่อนว่ามีค่าหรือไม่ ถ้าว่างให้ใส่ 9600
+            If txtBaudrateOCS.Text.Trim() <> "" AndAlso IsNumeric(txtBaudrateOCS.Text) Then
+                data.Oscilloscope_Setting.Baudrate = CDbl(txtBaudrateOCS.Text)
+            Else
+                data.Oscilloscope_Setting.Baudrate = 9600
+            End If
+
             ' ชื่อไฟล์ = Pulse_รุ่น.json
             Dim fileName As String = "Pulse_" & GlobalVariables.CurrentProduct & ".json"
 
@@ -137,7 +146,15 @@ Public Class frmPreferance
             Dim json As String = JsonConvert.SerializeObject(data, Formatting.Indented)
             File.WriteAllText(fullPath, json)
 
-            MessageBox.Show("บันทึกการตั้งค่า (Preference) สำหรับรุ่น " & GlobalVariables.CurrentProduct & " เรียบร้อยแล้วที่:" & vbCrLf & fullPath, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            ' Debug: แสดง Path ที่บันทึกไฟล์
+            Dim debugMsg As String = ""
+            debugMsg &= "บันทึกการตั้งค่า (Preference) สำเร็จ!" & vbCrLf & vbCrLf
+            debugMsg &= "รุ่น: " & GlobalVariables.CurrentProduct & vbCrLf
+            debugMsg &= "ชื่อไฟล์: " & fileName & vbCrLf & vbCrLf
+            debugMsg &= "Path เต็ม:" & vbCrLf & fullPath & vbCrLf & vbCrLf
+            debugMsg &= "โฟลเดอร์ PRF:" & vbCrLf & GlobalVariables.GetPRFPath()
+
+            MessageBox.Show(debugMsg, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
             Me.Close()
 
@@ -164,6 +181,8 @@ Public Class frmPreferance
         Dim fileName As String = "Pulse_" & GlobalVariables.CurrentProduct & ".json"
         Dim fullPath As String = Path.Combine(GlobalVariables.GetPRFPath(), fileName)
 
+        Dim data As PreferanceConfig
+
         ' เช็คว่ามีไฟล์นี้จริงไหม
         If File.Exists(fullPath) Then
             Try
@@ -171,76 +190,87 @@ Public Class frmPreferance
                 Dim json As String = File.ReadAllText(fullPath)
 
                 ' 2. แปลงจากข้อความ JSON กลับเป็น Class
-                Dim data As PreferanceConfig = JsonConvert.DeserializeObject(Of PreferanceConfig)(json)
-
-                ' 3. เอาค่าใส่ TextBox ทีละช่อง
-
-                ' --- Tab 1: GPIB ---
-                txtLDT_5910CTempControlLD.Text = data.GPIB_address.LDT_5910C_TempControlLD
-                txtAQ6370D_OpticspAnalyz.Text = data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz
-                txtOVA_100_OpticAttenua.Text = data.GPIB_address.SANTEC_OVA_100_OpticAttenua
-                txtAQ2211_Opticswich.Text = data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch
-                txtDSO_X_4154GOsciloscope.Text = data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope
-                txtSYSTEMAT_845TempControlBase.Text = data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase
-                txtKey34416A_Digitlmultimeter.Text = data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter
-
-                ' --- Tab 2: Power ---
-                txtLasercomport.Text = data.Power_Measurement.LaserStar_comport.ToString()
-                txtDelaytime.Text = data.Power_Measurement.Delaytime.ToString()
-                txtAverage.Text = data.Power_Measurement.Average.ToString()
-
-                ' --- Tab 3: Folders ---
-                txtParamsFolder.Text = data.VariousKinds_Folders.ParamsFolder
-                txtDataFolder.Text = data.VariousKinds_Folders.DataFolder
-
-                ' --- Tab 4: Cable ---
-                txtRprobe.Text = data.Rcable.Rprobe.ToString()
-                txtRtec.Text = data.Rcable.Rtec.ToString()
-
-                ' --- Tab 5: TEC ---
-                txtCase_WaitFactor.Text = data.TEC_Condition.Case_Waitmultiply.ToString()
-                txtCase_WaitBase.Text = data.TEC_Condition.Case_WaitPlus.ToString()
-                txtCase_Error.Text = data.TEC_Condition.Case_Error.ToString()
-
-                txtLD_WaitFactor.Text = data.TEC_Condition.LD_Waitmultiply.ToString()
-                txtLD_WaitBase.Text = data.TEC_Condition.LD_WaitPlus.ToString()
-                txtLD_Error.Text = data.TEC_Condition.LD_Error.ToString()
-
-                txtDet_WaitFactor.Text = data.TEC_Condition.Det_WaitFactor.ToString()
-                txtDet_WaitBase.Text = data.TEC_Condition.Det_WaitBase.ToString()
-                txtDet_Error.Text = data.TEC_Condition.Det_Error.ToString()
-                txtDet_SetTemp.Text = data.TEC_Condition.Det_SetTemp.ToString()
-
-                txtTecTimeout.Text = data.TEC_Condition.Timeout.ToString()
-
-                ' Radio Button (Gain)
-                Select Case data.TEC_Condition.GainValue
-                    Case 1 : rbGain1.Checked = True
-                    Case 3 : rbGain3.Checked = True
-                    Case 10 : rbGain10.Checked = True
-                    Case 30 : rbGain30.Checked = True
-                    Case 100 : rbGain100.Checked = True
-                    Case 300 : rbGain300.Checked = True
-                End Select
-
-                ' --- Tab 6: CCS ---
-                txtMaxAvgCurrent.Text = data.CCS_HPP.MaxAvgCurrent.ToString()
-                txtMaximumCWCurrent.Text = data.CCS_HPP.MaximumCWCurrent.ToString()
-                txtMaxpeakCurrent.Text = data.CCS_HPP.MaxpeakCurrent.ToString()
-                cboLasermode.Text = data.CCS_HPP.Lasermode
-                cboduration.Text = data.CCS_HPP.duration
-                txtBFMgain.Text = data.CCS_HPP.BFMgain.ToString()
-                txtBFMconvers.Text = data.CCS_HPP.BFMconvers.ToString()
-                txtComport.Text = data.CCS_HPP.Comport
-                txtBaudrate.Text = data.CCS_HPP.Baudrate.ToString()
-
-                ' --- Tab 7: General ---
-                txtDelaygeneral.Text = data.General_Setting.DelayTimeOffset.ToString()
+                data = JsonConvert.DeserializeObject(Of PreferanceConfig)(json)
 
             Catch ex As Exception
                 MessageBox.Show("โหลดข้อมูลไม่สำเร็จ: " & ex.Message)
+                ' ถ้าโหลดไม่สำเร็จ ให้สร้างค่าเริ่มต้นใหม่
+                data = New PreferanceConfig()
             End Try
+        Else
+            ' ถ้ายังไม่มีไฟล์ ให้สร้างค่าเริ่มต้น
+            data = New PreferanceConfig()
         End If
+
+        ' 3. เอาค่าใส่ TextBox ทีละช่อง
+
+        ' --- Tab 1: GPIB ---
+        txtLDT_5910CTempControlLD.Text = data.GPIB_address.LDT_5910C_TempControlLD
+        txtAQ6370D_OpticspAnalyz.Text = data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz
+        txtOVA_100_OpticAttenua.Text = data.GPIB_address.SANTEC_OVA_100_OpticAttenua
+        txtAQ2211_Opticswich.Text = data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch
+        txtDSO_X_4154GOsciloscope.Text = data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope
+        txtSYSTEMAT_845TempControlBase.Text = data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase
+        txtOFS1000.Text = data.GPIB_address.OFS_1000_TempControlBase
+        txtKey34416A_Digitlmultimeter.Text = data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter
+
+        ' --- Tab 2: Power ---
+        txtLasercomport.Text = data.Power_Measurement.LaserStar_comport.ToString()
+        txtDelaytime.Text = data.Power_Measurement.Delaytime.ToString()
+        txtAverage.Text = data.Power_Measurement.Average.ToString()
+
+        ' --- Tab 3: Folders ---
+        txtParamsFolder.Text = data.VariousKinds_Folders.ParamsFolder
+        txtDataFolder.Text = data.VariousKinds_Folders.DataFolder
+
+        ' --- Tab 4: Cable ---
+        txtRprobe.Text = data.Rcable.Rprobe.ToString()
+        txtRtec.Text = data.Rcable.Rtec.ToString()
+
+        ' --- Tab 5: TEC ---
+        txtCase_WaitFactor.Text = data.TEC_Condition.Case_Waitmultiply.ToString()
+        txtCase_WaitBase.Text = data.TEC_Condition.Case_WaitPlus.ToString()
+        txtCase_Error.Text = data.TEC_Condition.Case_Error.ToString()
+
+        txtLD_WaitFactor.Text = data.TEC_Condition.LD_Waitmultiply.ToString()
+        txtLD_WaitBase.Text = data.TEC_Condition.LD_WaitPlus.ToString()
+        txtLD_Error.Text = data.TEC_Condition.LD_Error.ToString()
+
+        txtDet_WaitFactor.Text = data.TEC_Condition.Det_WaitFactor.ToString()
+        txtDet_WaitBase.Text = data.TEC_Condition.Det_WaitBase.ToString()
+        txtDet_Error.Text = data.TEC_Condition.Det_Error.ToString()
+        txtDet_SetTemp.Text = data.TEC_Condition.Det_SetTemp.ToString()
+
+        txtTecTimeout.Text = data.TEC_Condition.Timeout.ToString()
+
+        ' Radio Button (Gain)
+        Select Case data.TEC_Condition.GainValue
+            Case 1 : rbGain1.Checked = True
+            Case 3 : rbGain3.Checked = True
+            Case 10 : rbGain10.Checked = True
+            Case 30 : rbGain30.Checked = True
+            Case 100 : rbGain100.Checked = True
+            Case 300 : rbGain300.Checked = True
+            Case Else : rbGain1.Checked = True ' ค่าเริ่มต้น
+        End Select
+
+        ' --- Tab 6: CCS ---
+        txtMaxAvgCurrent.Text = data.CCS_HPP.MaxAvgCurrent.ToString()
+        txtMaximumCWCurrent.Text = data.CCS_HPP.MaximumCWCurrent.ToString()
+        txtMaxpeakCurrent.Text = data.CCS_HPP.MaxpeakCurrent.ToString()
+        cboLasermode.Text = data.CCS_HPP.Lasermode
+        cboduration.Text = data.CCS_HPP.duration
+        txtBFMgain.Text = data.CCS_HPP.BFMgain.ToString()
+        txtBFMconvers.Text = data.CCS_HPP.BFMconvers.ToString()
+        txtComport.Text = data.CCS_HPP.Comport
+        txtBaudrate.Text = data.CCS_HPP.Baudrate.ToString()
+
+        ' --- Tab 7: General ---
+        txtDelaygeneral.Text = data.General_Setting.DelayTimeOffset.ToString()
+
+        ' --- Tab 8: Oscilloscope ---
+        txtComportOCS.Text = data.Oscilloscope_Setting.Comport
+        txtBaudrateOCS.Text = data.Oscilloscope_Setting.Baudrate.ToString()
     End Sub
 
     Private Sub frmPreferance_Load(sender As Object, e As EventArgs) Handles Me.Load

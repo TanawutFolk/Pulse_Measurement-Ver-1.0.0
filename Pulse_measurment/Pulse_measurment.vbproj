@@ -242,13 +242,12 @@
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="SampleData\Production.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="SampleData\Production.prm" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Logo.png" />
+    <Content Include="SampleData\Product.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="SampleData\Operator.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

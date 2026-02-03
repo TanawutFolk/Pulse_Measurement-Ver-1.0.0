@@ -1,0 +1,57 @@
+{
+  "GPIB_address": {
+    "LDT_5910C_TempControlLD": "1",
+    "YOKOGAWA_AQ6370D_OpticSpectAnalyz": "2",
+    "SANTEC_OVA_100_OpticAttenua": "3",
+    "YOKOGAWA_AQ2211_OpticSwitch": "4",
+    "KEYSIGHT_DSO_X_4154GOsciloscope": "5",
+    "FUKKO_SYSTEMAT_845TempControlBase": "6",
+    "OFS_1000_TempControlBase": "7",
+    "KEYSIGHT_34416A_Digitlmultimeter": "8"
+  },
+  "Power_Measurement": {
+    "LaserStar_comport": 2.0,
+    "Delaytime": 0.5,
+    "Average": 4.0
+  },
+  "VariousKinds_Folders": {
+    "ParamsFolder": "",
+    "DataFolder": ""
+  },
+  "Rcable": {
+    "Rprobe": 2.0,
+    "Rtec": 3.0
+  },
+  "TEC_Condition": {
+    "Case_Waitmultiply": 0.0,
+    "Case_WaitPlus": 0.0,
+    "Case_Error": 0.0,
+    "LD_Waitmultiply": 0.0,
+    "LD_WaitPlus": 0.0,
+    "LD_Error": 0.0,
+    "Det_WaitFactor": 0.0,
+    "Det_WaitBase": 0.0,
+    "Det_Error": 0.0,
+    "Det_SetTemp": 0.0,
+    "Timeout": 0.0,
+    "GainValue": 10
+  },
+  "CCS_HPP": {
+    "MaxAvgCurrent": 0.0,
+    "MaximumCWCurrent": 0.0,
+    "MaxpeakCurrent": 0.0,
+    "Lasermode": "ACC",
+    "duration": "int",
+    "BFMgain": 0.0,
+    "BFMconvers": 0.0,
+    "Comport": "Comport2",
+    "Baudrate": 9600.0
+  },
+  "General_Setting": {
+    "DelayTimeOffset": 0.0
+  },
+  "Oscilloscope_Setting": {
+    "Comport": "Comport2",
+    "Baudrate": 9600.0
+  }
+}

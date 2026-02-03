@@ -1,10 +1,10 @@
-﻿Public Class frmMain
+﻿Imports System.IO
+
+Public Class frmMain
     Private Sub btnAbout_Click(sender As Object, e As EventArgs) Handles btnAbout.Click
         ' 
         Dim aboutWindow As New frmAbout()
 
-        ' สั่งโชว์แบบ Dialog 
-        ' (User ต้องกดปิดหน้า About ก่อน ถึงจะกลับไปกดหน้า Main ได้)
         aboutWindow.ShowDialog()
     End Sub
 
@@ -25,5 +25,20 @@
     Private Sub btnEnd_Click(sender As Object, e As EventArgs) Handles btnEnd.Click
         Me.Close()
 
+    End Sub
+
+    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim opFile As String = Path.Combine(Application.StartupPath, "SampleData\Product.txt")
+        If File.Exists(opFile) Then
+            Dim lines As String() = File.ReadAllLines(opFile)
+            cboProduct.Items.AddRange(lines)
+        End If
+    End Sub
+
+    Private Sub cboProduct_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProduct.SelectedIndexChanged
+        ' เมื่อผู้ใช้เลือก Product จาก dropdown ให้บันทึกลง GlobalVariables
+        If cboProduct.SelectedItem IsNot Nothing Then
+            GlobalVariables.CurrentProduct = cboProduct.SelectedItem.ToString()
+        End If
     End Sub
 End Class
