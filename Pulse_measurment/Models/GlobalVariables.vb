@@ -1,14 +1,27 @@
 ﻿Imports System.IO
 Imports Newtonsoft.Json
-Imports NationalInstruments.Visa
+Imports Ivi.Visa.Interop
 
 Module GlobalVariables
 
+    '--- product Dropdown & Save Preference
     Public CurrentProduct As String = ""
     Public CurrentRecipe As New ProductionParameters()
     Public CurrentPreferance As New PreferanceConfig()
 
+    Dim resoureceManager As New ResourceManager()
 
+    'GPIB
+    Dim instrument1 As MessageBasedSession 'LDT-5910C
+    Dim instrument2 As MessageBasedSession 'YOKOGAWA AQ6370D
+    Dim instrument3 As MessageBasedSession 'SANTEC OVA-100
+    Dim instrument4 As MessageBasedSession 'YOKOGAWA AQ2211
+    Dim instrument5 As MessageBasedSession 'FUKKO SYSTEM T-845
+    Dim instrument6 As MessageBasedSession 'OFS 1000
+    Dim instrument7 As MessageBasedSession 'KEYSIGHT 34416A
+    'USB
+    Dim usbIntrument1 As MessageBasedSession 'CCS-HPP
+    Dim usbIntrument2 As MessageBasedSession 'Oscilloscope
 
 
 

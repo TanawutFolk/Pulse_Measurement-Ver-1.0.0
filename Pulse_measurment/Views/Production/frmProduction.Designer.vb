@@ -107,10 +107,9 @@ Partial Class frmProduction
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(62, 28)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(83, 34)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(197, 18)
+        Me.Label1.Size = New System.Drawing.Size(231, 22)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "Production measurement"
         '
@@ -118,10 +117,9 @@ Partial Class frmProduction
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(62, 71)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(83, 87)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(100, 17)
+        Me.Label2.Size = New System.Drawing.Size(119, 20)
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "Parameter File"
         '
@@ -129,10 +127,9 @@ Partial Class frmProduction
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(62, 101)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Location = New System.Drawing.Point(83, 124)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(65, 17)
+        Me.Label3.Size = New System.Drawing.Size(75, 20)
         Me.Label3.TabIndex = 10
         Me.Label3.Text = "Operator"
         '
@@ -140,10 +137,9 @@ Partial Class frmProduction
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(62, 137)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Location = New System.Drawing.Point(83, 169)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(87, 17)
+        Me.Label4.Size = New System.Drawing.Size(102, 20)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Machine No."
         '
@@ -151,10 +147,9 @@ Partial Class frmProduction
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(62, 169)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label5.Location = New System.Drawing.Point(83, 208)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(86, 17)
+        Me.Label5.Size = New System.Drawing.Size(101, 20)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "Part number"
         '
@@ -162,19 +157,19 @@ Partial Class frmProduction
         '
         Me.txtParameterFile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtParameterFile.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtParameterFile.Location = New System.Drawing.Point(176, 71)
-        Me.txtParameterFile.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtParameterFile.Location = New System.Drawing.Point(235, 87)
+        Me.txtParameterFile.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtParameterFile.Name = "txtParameterFile"
-        Me.txtParameterFile.Size = New System.Drawing.Size(458, 23)
+        Me.txtParameterFile.Size = New System.Drawing.Size(610, 27)
         Me.txtParameterFile.TabIndex = 13
         '
         'btnSelect
         '
         Me.btnSelect.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSelect.Location = New System.Drawing.Point(650, 70)
-        Me.btnSelect.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnSelect.Location = New System.Drawing.Point(867, 86)
+        Me.btnSelect.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnSelect.Name = "btnSelect"
-        Me.btnSelect.Size = New System.Drawing.Size(63, 24)
+        Me.btnSelect.Size = New System.Drawing.Size(84, 30)
         Me.btnSelect.TabIndex = 14
         Me.btnSelect.Text = "Select"
         Me.btnSelect.UseVisualStyleBackColor = True
@@ -182,10 +177,10 @@ Partial Class frmProduction
         'btnSave
         '
         Me.btnSave.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSave.Location = New System.Drawing.Point(717, 70)
-        Me.btnSave.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnSave.Location = New System.Drawing.Point(956, 86)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(63, 24)
+        Me.btnSave.Size = New System.Drawing.Size(84, 30)
         Me.btnSave.TabIndex = 15
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
@@ -193,10 +188,10 @@ Partial Class frmProduction
         'btnAdd
         '
         Me.btnAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdd.Location = New System.Drawing.Point(650, 102)
-        Me.btnAdd.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnAdd.Location = New System.Drawing.Point(867, 126)
+        Me.btnAdd.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(63, 24)
+        Me.btnAdd.Size = New System.Drawing.Size(84, 30)
         Me.btnAdd.TabIndex = 16
         Me.btnAdd.Text = "Add"
         Me.btnAdd.UseVisualStyleBackColor = True
@@ -205,40 +200,39 @@ Partial Class frmProduction
         '
         Me.cboOperator.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboOperator.FormattingEnabled = True
-        Me.cboOperator.Location = New System.Drawing.Point(176, 101)
-        Me.cboOperator.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cboOperator.Location = New System.Drawing.Point(235, 124)
+        Me.cboOperator.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboOperator.Name = "cboOperator"
-        Me.cboOperator.Size = New System.Drawing.Size(195, 25)
+        Me.cboOperator.Size = New System.Drawing.Size(259, 28)
         Me.cboOperator.TabIndex = 17
         '
         'txtMachineNO
         '
         Me.txtMachineNO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtMachineNO.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtMachineNO.Location = New System.Drawing.Point(176, 137)
-        Me.txtMachineNO.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtMachineNO.Location = New System.Drawing.Point(235, 169)
+        Me.txtMachineNO.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtMachineNO.Name = "txtMachineNO"
-        Me.txtMachineNO.Size = New System.Drawing.Size(458, 23)
+        Me.txtMachineNO.Size = New System.Drawing.Size(610, 27)
         Me.txtMachineNO.TabIndex = 18
         '
         'txtPathNumber
         '
         Me.txtPathNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtPathNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPathNumber.Location = New System.Drawing.Point(176, 170)
-        Me.txtPathNumber.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtPathNumber.Location = New System.Drawing.Point(235, 209)
+        Me.txtPathNumber.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPathNumber.Name = "txtPathNumber"
-        Me.txtPathNumber.Size = New System.Drawing.Size(458, 23)
+        Me.txtPathNumber.Size = New System.Drawing.Size(610, 27)
         Me.txtPathNumber.TabIndex = 19
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(62, 202)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Location = New System.Drawing.Point(83, 249)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(69, 17)
+        Me.Label6.Size = New System.Drawing.Size(80, 20)
         Me.Label6.TabIndex = 20
         Me.Label6.Text = "Lot nuber"
         '
@@ -246,10 +240,9 @@ Partial Class frmProduction
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(62, 236)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Location = New System.Drawing.Point(83, 290)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(96, 17)
+        Me.Label7.Size = New System.Drawing.Size(113, 20)
         Me.Label7.TabIndex = 21
         Me.Label7.Text = "Serial number"
         '
@@ -257,10 +250,9 @@ Partial Class frmProduction
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(62, 270)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Location = New System.Drawing.Point(83, 332)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(44, 17)
+        Me.Label8.Size = New System.Drawing.Size(53, 20)
         Me.Label8.TabIndex = 22
         Me.Label8.Text = "FBG1"
         '
@@ -268,40 +260,39 @@ Partial Class frmProduction
         '
         Me.txtLotNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtLotNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLotNumber.Location = New System.Drawing.Point(176, 202)
-        Me.txtLotNumber.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtLotNumber.Location = New System.Drawing.Point(235, 249)
+        Me.txtLotNumber.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtLotNumber.Name = "txtLotNumber"
-        Me.txtLotNumber.Size = New System.Drawing.Size(458, 23)
+        Me.txtLotNumber.Size = New System.Drawing.Size(610, 27)
         Me.txtLotNumber.TabIndex = 23
         '
         'txtSerialNumber
         '
         Me.txtSerialNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSerialNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSerialNumber.Location = New System.Drawing.Point(176, 236)
-        Me.txtSerialNumber.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtSerialNumber.Location = New System.Drawing.Point(235, 290)
+        Me.txtSerialNumber.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSerialNumber.Name = "txtSerialNumber"
-        Me.txtSerialNumber.Size = New System.Drawing.Size(458, 23)
+        Me.txtSerialNumber.Size = New System.Drawing.Size(610, 27)
         Me.txtSerialNumber.TabIndex = 24
         '
         'txtFBG1
         '
         Me.txtFBG1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFBG1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFBG1.Location = New System.Drawing.Point(176, 270)
-        Me.txtFBG1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFBG1.Location = New System.Drawing.Point(235, 332)
+        Me.txtFBG1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFBG1.Name = "txtFBG1"
-        Me.txtFBG1.Size = New System.Drawing.Size(458, 23)
+        Me.txtFBG1.Size = New System.Drawing.Size(610, 27)
         Me.txtFBG1.TabIndex = 25
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(62, 306)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label9.Location = New System.Drawing.Point(83, 377)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(44, 17)
+        Me.Label9.Size = New System.Drawing.Size(53, 20)
         Me.Label9.TabIndex = 26
         Me.Label9.Tag = ""
         Me.Label9.Text = "FBG2"
@@ -310,20 +301,19 @@ Partial Class frmProduction
         '
         Me.txtFBG2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtFBG2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFBG2.Location = New System.Drawing.Point(176, 306)
-        Me.txtFBG2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtFBG2.Location = New System.Drawing.Point(235, 377)
+        Me.txtFBG2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtFBG2.Name = "txtFBG2"
-        Me.txtFBG2.Size = New System.Drawing.Size(458, 23)
+        Me.txtFBG2.Size = New System.Drawing.Size(610, 27)
         Me.txtFBG2.TabIndex = 27
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(62, 341)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label10.Location = New System.Drawing.Point(83, 420)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(78, 17)
+        Me.Label10.Size = New System.Drawing.Size(92, 20)
         Me.Label10.TabIndex = 28
         Me.Label10.Tag = ""
         Me.Label10.Text = "Data folder"
@@ -331,10 +321,10 @@ Partial Class frmProduction
         'btnCLRPathnumber
         '
         Me.btnCLRPathnumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCLRPathnumber.Location = New System.Drawing.Point(650, 169)
-        Me.btnCLRPathnumber.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnCLRPathnumber.Location = New System.Drawing.Point(867, 208)
+        Me.btnCLRPathnumber.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnCLRPathnumber.Name = "btnCLRPathnumber"
-        Me.btnCLRPathnumber.Size = New System.Drawing.Size(63, 24)
+        Me.btnCLRPathnumber.Size = New System.Drawing.Size(84, 30)
         Me.btnCLRPathnumber.TabIndex = 29
         Me.btnCLRPathnumber.Text = "CLR"
         Me.btnCLRPathnumber.UseVisualStyleBackColor = True
@@ -342,10 +332,10 @@ Partial Class frmProduction
         'btnCLRLotNumber
         '
         Me.btnCLRLotNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCLRLotNumber.Location = New System.Drawing.Point(650, 202)
-        Me.btnCLRLotNumber.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnCLRLotNumber.Location = New System.Drawing.Point(867, 249)
+        Me.btnCLRLotNumber.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnCLRLotNumber.Name = "btnCLRLotNumber"
-        Me.btnCLRLotNumber.Size = New System.Drawing.Size(63, 24)
+        Me.btnCLRLotNumber.Size = New System.Drawing.Size(84, 30)
         Me.btnCLRLotNumber.TabIndex = 30
         Me.btnCLRLotNumber.Text = "CLR"
         Me.btnCLRLotNumber.UseVisualStyleBackColor = True
@@ -353,10 +343,10 @@ Partial Class frmProduction
         'btnCLRSerialNumber
         '
         Me.btnCLRSerialNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCLRSerialNumber.Location = New System.Drawing.Point(650, 235)
-        Me.btnCLRSerialNumber.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnCLRSerialNumber.Location = New System.Drawing.Point(867, 289)
+        Me.btnCLRSerialNumber.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnCLRSerialNumber.Name = "btnCLRSerialNumber"
-        Me.btnCLRSerialNumber.Size = New System.Drawing.Size(63, 24)
+        Me.btnCLRSerialNumber.Size = New System.Drawing.Size(84, 30)
         Me.btnCLRSerialNumber.TabIndex = 31
         Me.btnCLRSerialNumber.Text = "CLR"
         Me.btnCLRSerialNumber.UseVisualStyleBackColor = True
@@ -364,10 +354,10 @@ Partial Class frmProduction
         'btnCLRFBG1
         '
         Me.btnCLRFBG1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCLRFBG1.Location = New System.Drawing.Point(650, 269)
-        Me.btnCLRFBG1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnCLRFBG1.Location = New System.Drawing.Point(867, 331)
+        Me.btnCLRFBG1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnCLRFBG1.Name = "btnCLRFBG1"
-        Me.btnCLRFBG1.Size = New System.Drawing.Size(63, 24)
+        Me.btnCLRFBG1.Size = New System.Drawing.Size(84, 30)
         Me.btnCLRFBG1.TabIndex = 32
         Me.btnCLRFBG1.Text = "CLR"
         Me.btnCLRFBG1.UseVisualStyleBackColor = True
@@ -375,10 +365,10 @@ Partial Class frmProduction
         'btnCLRFBG2
         '
         Me.btnCLRFBG2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCLRFBG2.Location = New System.Drawing.Point(650, 305)
-        Me.btnCLRFBG2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnCLRFBG2.Location = New System.Drawing.Point(867, 375)
+        Me.btnCLRFBG2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnCLRFBG2.Name = "btnCLRFBG2"
-        Me.btnCLRFBG2.Size = New System.Drawing.Size(63, 24)
+        Me.btnCLRFBG2.Size = New System.Drawing.Size(84, 30)
         Me.btnCLRFBG2.TabIndex = 33
         Me.btnCLRFBG2.Text = "CLR"
         Me.btnCLRFBG2.UseVisualStyleBackColor = True
@@ -387,20 +377,20 @@ Partial Class frmProduction
         '
         Me.txtDatafolder.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtDatafolder.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDatafolder.Location = New System.Drawing.Point(176, 341)
-        Me.txtDatafolder.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtDatafolder.Location = New System.Drawing.Point(235, 420)
+        Me.txtDatafolder.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtDatafolder.Name = "txtDatafolder"
         Me.txtDatafolder.ReadOnly = True
-        Me.txtDatafolder.Size = New System.Drawing.Size(458, 23)
+        Me.txtDatafolder.Size = New System.Drawing.Size(610, 27)
         Me.txtDatafolder.TabIndex = 34
         '
         'btnSelectDataFolder
         '
         Me.btnSelectDataFolder.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSelectDataFolder.Location = New System.Drawing.Point(650, 341)
-        Me.btnSelectDataFolder.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnSelectDataFolder.Location = New System.Drawing.Point(867, 420)
+        Me.btnSelectDataFolder.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnSelectDataFolder.Name = "btnSelectDataFolder"
-        Me.btnSelectDataFolder.Size = New System.Drawing.Size(63, 24)
+        Me.btnSelectDataFolder.Size = New System.Drawing.Size(84, 30)
         Me.btnSelectDataFolder.TabIndex = 35
         Me.btnSelectDataFolder.Text = "Select"
         Me.btnSelectDataFolder.UseVisualStyleBackColor = True
@@ -409,10 +399,9 @@ Partial Class frmProduction
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(62, 382)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label11.Location = New System.Drawing.Point(83, 470)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(114, 17)
+        Me.Label11.Size = New System.Drawing.Size(136, 20)
         Me.Label11.TabIndex = 36
         Me.Label11.Tag = ""
         Me.Label11.Text = "Power correction"
@@ -421,11 +410,11 @@ Partial Class frmProduction
         '
         Me.txtVoltWat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtVoltWat.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtVoltWat.Location = New System.Drawing.Point(176, 382)
-        Me.txtVoltWat.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtVoltWat.Location = New System.Drawing.Point(235, 470)
+        Me.txtVoltWat.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtVoltWat.Name = "txtVoltWat"
         Me.txtVoltWat.ReadOnly = True
-        Me.txtVoltWat.Size = New System.Drawing.Size(125, 23)
+        Me.txtVoltWat.Size = New System.Drawing.Size(166, 27)
         Me.txtVoltWat.TabIndex = 39
         '
         'Label13
@@ -433,10 +422,9 @@ Partial Class frmProduction
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label13.Location = New System.Drawing.Point(72, 418)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label13.Location = New System.Drawing.Point(96, 514)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(105, 17)
+        Me.Label13.Size = New System.Drawing.Size(122, 20)
         Me.Label13.TabIndex = 40
         Me.Label13.Tag = ""
         Me.Label13.Text = "Measurement"
@@ -445,10 +433,9 @@ Partial Class frmProduction
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(304, 386)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label12.Location = New System.Drawing.Point(405, 475)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(34, 17)
+        Me.Label12.Size = New System.Drawing.Size(41, 20)
         Me.Label12.TabIndex = 38
         Me.Label12.Tag = ""
         Me.Label12.Text = "V/W"
@@ -456,10 +443,10 @@ Partial Class frmProduction
         'btnMeasureWL_condition
         '
         Me.btnMeasureWL_condition.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMeasureWL_condition.Location = New System.Drawing.Point(296, 451)
-        Me.btnMeasureWL_condition.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnMeasureWL_condition.Location = New System.Drawing.Point(395, 555)
+        Me.btnMeasureWL_condition.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnMeasureWL_condition.Name = "btnMeasureWL_condition"
-        Me.btnMeasureWL_condition.Size = New System.Drawing.Size(90, 24)
+        Me.btnMeasureWL_condition.Size = New System.Drawing.Size(120, 30)
         Me.btnMeasureWL_condition.TabIndex = 48
         Me.btnMeasureWL_condition.Text = "WL Condition"
         Me.btnMeasureWL_condition.UseVisualStyleBackColor = True
@@ -467,10 +454,10 @@ Partial Class frmProduction
         'btnMeasureWave_condition
         '
         Me.btnMeasureWave_condition.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMeasureWave_condition.Location = New System.Drawing.Point(543, 451)
-        Me.btnMeasureWave_condition.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnMeasureWave_condition.Location = New System.Drawing.Point(724, 555)
+        Me.btnMeasureWave_condition.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnMeasureWave_condition.Name = "btnMeasureWave_condition"
-        Me.btnMeasureWave_condition.Size = New System.Drawing.Size(90, 24)
+        Me.btnMeasureWave_condition.Size = New System.Drawing.Size(120, 30)
         Me.btnMeasureWave_condition.TabIndex = 49
         Me.btnMeasureWave_condition.Text = "Waveform Condition"
         Me.btnMeasureWave_condition.UseVisualStyleBackColor = True
@@ -479,10 +466,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Spectrum6.AutoSize = True
         Me.cbMeasure_Spectrum6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Spectrum6.Location = New System.Drawing.Point(397, 561)
-        Me.cbMeasure_Spectrum6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Spectrum6.Location = New System.Drawing.Point(529, 690)
+        Me.cbMeasure_Spectrum6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Spectrum6.Name = "cbMeasure_Spectrum6"
-        Me.cbMeasure_Spectrum6.Size = New System.Drawing.Size(95, 21)
+        Me.cbMeasure_Spectrum6.Size = New System.Drawing.Size(112, 24)
         Me.cbMeasure_Spectrum6.TabIndex = 55
         Me.cbMeasure_Spectrum6.Text = "Spectrum6"
         Me.cbMeasure_Spectrum6.UseVisualStyleBackColor = True
@@ -491,10 +478,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Spectrum5.AutoSize = True
         Me.cbMeasure_Spectrum5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Spectrum5.Location = New System.Drawing.Point(397, 540)
-        Me.cbMeasure_Spectrum5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Spectrum5.Location = New System.Drawing.Point(529, 665)
+        Me.cbMeasure_Spectrum5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Spectrum5.Name = "cbMeasure_Spectrum5"
-        Me.cbMeasure_Spectrum5.Size = New System.Drawing.Size(95, 21)
+        Me.cbMeasure_Spectrum5.Size = New System.Drawing.Size(112, 24)
         Me.cbMeasure_Spectrum5.TabIndex = 54
         Me.cbMeasure_Spectrum5.Text = "Spectrum5"
         Me.cbMeasure_Spectrum5.UseVisualStyleBackColor = True
@@ -503,10 +490,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Spectrum4.AutoSize = True
         Me.cbMeasure_Spectrum4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Spectrum4.Location = New System.Drawing.Point(397, 520)
-        Me.cbMeasure_Spectrum4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Spectrum4.Location = New System.Drawing.Point(529, 640)
+        Me.cbMeasure_Spectrum4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Spectrum4.Name = "cbMeasure_Spectrum4"
-        Me.cbMeasure_Spectrum4.Size = New System.Drawing.Size(95, 21)
+        Me.cbMeasure_Spectrum4.Size = New System.Drawing.Size(112, 24)
         Me.cbMeasure_Spectrum4.TabIndex = 53
         Me.cbMeasure_Spectrum4.Text = "Spectrum4"
         Me.cbMeasure_Spectrum4.UseVisualStyleBackColor = True
@@ -515,10 +502,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Spectrum3.AutoSize = True
         Me.cbMeasure_Spectrum3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Spectrum3.Location = New System.Drawing.Point(397, 497)
-        Me.cbMeasure_Spectrum3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Spectrum3.Location = New System.Drawing.Point(529, 612)
+        Me.cbMeasure_Spectrum3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Spectrum3.Name = "cbMeasure_Spectrum3"
-        Me.cbMeasure_Spectrum3.Size = New System.Drawing.Size(95, 21)
+        Me.cbMeasure_Spectrum3.Size = New System.Drawing.Size(112, 24)
         Me.cbMeasure_Spectrum3.TabIndex = 52
         Me.cbMeasure_Spectrum3.Text = "Spectrum3"
         Me.cbMeasure_Spectrum3.UseVisualStyleBackColor = True
@@ -527,10 +514,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Spectrum2.AutoSize = True
         Me.cbMeasure_Spectrum2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Spectrum2.Location = New System.Drawing.Point(397, 477)
-        Me.cbMeasure_Spectrum2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Spectrum2.Location = New System.Drawing.Point(529, 587)
+        Me.cbMeasure_Spectrum2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Spectrum2.Name = "cbMeasure_Spectrum2"
-        Me.cbMeasure_Spectrum2.Size = New System.Drawing.Size(95, 21)
+        Me.cbMeasure_Spectrum2.Size = New System.Drawing.Size(112, 24)
         Me.cbMeasure_Spectrum2.TabIndex = 51
         Me.cbMeasure_Spectrum2.Text = "Spectrum2"
         Me.cbMeasure_Spectrum2.UseVisualStyleBackColor = True
@@ -539,10 +526,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Spectrum1.AutoSize = True
         Me.cbMeasure_Spectrum1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Spectrum1.Location = New System.Drawing.Point(397, 455)
-        Me.cbMeasure_Spectrum1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Spectrum1.Location = New System.Drawing.Point(529, 560)
+        Me.cbMeasure_Spectrum1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Spectrum1.Name = "cbMeasure_Spectrum1"
-        Me.cbMeasure_Spectrum1.Size = New System.Drawing.Size(95, 21)
+        Me.cbMeasure_Spectrum1.Size = New System.Drawing.Size(112, 24)
         Me.cbMeasure_Spectrum1.TabIndex = 50
         Me.cbMeasure_Spectrum1.Text = "Spectrum1"
         Me.cbMeasure_Spectrum1.UseVisualStyleBackColor = True
@@ -551,10 +538,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Waveform6.AutoSize = True
         Me.cbMeasure_Waveform6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Waveform6.Location = New System.Drawing.Point(646, 561)
-        Me.cbMeasure_Waveform6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Waveform6.Location = New System.Drawing.Point(861, 690)
+        Me.cbMeasure_Waveform6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Waveform6.Name = "cbMeasure_Waveform6"
-        Me.cbMeasure_Waveform6.Size = New System.Drawing.Size(99, 21)
+        Me.cbMeasure_Waveform6.Size = New System.Drawing.Size(116, 24)
         Me.cbMeasure_Waveform6.TabIndex = 61
         Me.cbMeasure_Waveform6.Text = "Waveform6"
         Me.cbMeasure_Waveform6.UseVisualStyleBackColor = True
@@ -563,10 +550,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Waveform5.AutoSize = True
         Me.cbMeasure_Waveform5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Waveform5.Location = New System.Drawing.Point(646, 540)
-        Me.cbMeasure_Waveform5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Waveform5.Location = New System.Drawing.Point(861, 665)
+        Me.cbMeasure_Waveform5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Waveform5.Name = "cbMeasure_Waveform5"
-        Me.cbMeasure_Waveform5.Size = New System.Drawing.Size(99, 21)
+        Me.cbMeasure_Waveform5.Size = New System.Drawing.Size(116, 24)
         Me.cbMeasure_Waveform5.TabIndex = 60
         Me.cbMeasure_Waveform5.Text = "Waveform5"
         Me.cbMeasure_Waveform5.UseVisualStyleBackColor = True
@@ -575,10 +562,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Waveform4.AutoSize = True
         Me.cbMeasure_Waveform4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Waveform4.Location = New System.Drawing.Point(646, 520)
-        Me.cbMeasure_Waveform4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Waveform4.Location = New System.Drawing.Point(861, 640)
+        Me.cbMeasure_Waveform4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Waveform4.Name = "cbMeasure_Waveform4"
-        Me.cbMeasure_Waveform4.Size = New System.Drawing.Size(99, 21)
+        Me.cbMeasure_Waveform4.Size = New System.Drawing.Size(116, 24)
         Me.cbMeasure_Waveform4.TabIndex = 59
         Me.cbMeasure_Waveform4.Text = "Waveform4"
         Me.cbMeasure_Waveform4.UseVisualStyleBackColor = True
@@ -587,10 +574,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Waveform3.AutoSize = True
         Me.cbMeasure_Waveform3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Waveform3.Location = New System.Drawing.Point(646, 497)
-        Me.cbMeasure_Waveform3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Waveform3.Location = New System.Drawing.Point(861, 612)
+        Me.cbMeasure_Waveform3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Waveform3.Name = "cbMeasure_Waveform3"
-        Me.cbMeasure_Waveform3.Size = New System.Drawing.Size(99, 21)
+        Me.cbMeasure_Waveform3.Size = New System.Drawing.Size(116, 24)
         Me.cbMeasure_Waveform3.TabIndex = 58
         Me.cbMeasure_Waveform3.Text = "Waveform3"
         Me.cbMeasure_Waveform3.UseVisualStyleBackColor = True
@@ -599,10 +586,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Waveform2.AutoSize = True
         Me.cbMeasure_Waveform2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Waveform2.Location = New System.Drawing.Point(646, 477)
-        Me.cbMeasure_Waveform2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Waveform2.Location = New System.Drawing.Point(861, 587)
+        Me.cbMeasure_Waveform2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Waveform2.Name = "cbMeasure_Waveform2"
-        Me.cbMeasure_Waveform2.Size = New System.Drawing.Size(99, 21)
+        Me.cbMeasure_Waveform2.Size = New System.Drawing.Size(116, 24)
         Me.cbMeasure_Waveform2.TabIndex = 57
         Me.cbMeasure_Waveform2.Text = "Waveform2"
         Me.cbMeasure_Waveform2.UseVisualStyleBackColor = True
@@ -611,10 +598,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Waveform1.AutoSize = True
         Me.cbMeasure_Waveform1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Waveform1.Location = New System.Drawing.Point(646, 455)
-        Me.cbMeasure_Waveform1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Waveform1.Location = New System.Drawing.Point(861, 560)
+        Me.cbMeasure_Waveform1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Waveform1.Name = "cbMeasure_Waveform1"
-        Me.cbMeasure_Waveform1.Size = New System.Drawing.Size(99, 21)
+        Me.cbMeasure_Waveform1.Size = New System.Drawing.Size(116, 24)
         Me.cbMeasure_Waveform1.TabIndex = 56
         Me.cbMeasure_Waveform1.Text = "Waveform1"
         Me.cbMeasure_Waveform1.UseVisualStyleBackColor = True
@@ -623,10 +610,10 @@ Partial Class frmProduction
         '
         Me.cbMeasure_Use_calory_meter.AutoSize = True
         Me.cbMeasure_Use_calory_meter.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasure_Use_calory_meter.Location = New System.Drawing.Point(68, 595)
-        Me.cbMeasure_Use_calory_meter.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasure_Use_calory_meter.Location = New System.Drawing.Point(91, 732)
+        Me.cbMeasure_Use_calory_meter.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasure_Use_calory_meter.Name = "cbMeasure_Use_calory_meter"
-        Me.cbMeasure_Use_calory_meter.Size = New System.Drawing.Size(142, 21)
+        Me.cbMeasure_Use_calory_meter.Size = New System.Drawing.Size(169, 24)
         Me.cbMeasure_Use_calory_meter.TabIndex = 62
         Me.cbMeasure_Use_calory_meter.Text = "  Use calory meter"
         Me.cbMeasure_Use_calory_meter.UseVisualStyleBackColor = True
@@ -635,10 +622,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Waveform6.AutoSize = True
         Me.cbJudg_Waveform6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Waveform6.Location = New System.Drawing.Point(646, 763)
-        Me.cbJudg_Waveform6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Waveform6.Location = New System.Drawing.Point(861, 939)
+        Me.cbJudg_Waveform6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Waveform6.Name = "cbJudg_Waveform6"
-        Me.cbJudg_Waveform6.Size = New System.Drawing.Size(99, 21)
+        Me.cbJudg_Waveform6.Size = New System.Drawing.Size(116, 24)
         Me.cbJudg_Waveform6.TabIndex = 84
         Me.cbJudg_Waveform6.Text = "Waveform6"
         Me.cbJudg_Waveform6.UseVisualStyleBackColor = True
@@ -647,10 +634,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Waveform5.AutoSize = True
         Me.cbJudg_Waveform5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Waveform5.Location = New System.Drawing.Point(646, 741)
-        Me.cbJudg_Waveform5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Waveform5.Location = New System.Drawing.Point(861, 912)
+        Me.cbJudg_Waveform5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Waveform5.Name = "cbJudg_Waveform5"
-        Me.cbJudg_Waveform5.Size = New System.Drawing.Size(99, 21)
+        Me.cbJudg_Waveform5.Size = New System.Drawing.Size(116, 24)
         Me.cbJudg_Waveform5.TabIndex = 83
         Me.cbJudg_Waveform5.Text = "Waveform5"
         Me.cbJudg_Waveform5.UseVisualStyleBackColor = True
@@ -659,10 +646,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Waveform4.AutoSize = True
         Me.cbJudg_Waveform4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Waveform4.Location = New System.Drawing.Point(646, 720)
-        Me.cbJudg_Waveform4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Waveform4.Location = New System.Drawing.Point(861, 886)
+        Me.cbJudg_Waveform4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Waveform4.Name = "cbJudg_Waveform4"
-        Me.cbJudg_Waveform4.Size = New System.Drawing.Size(99, 21)
+        Me.cbJudg_Waveform4.Size = New System.Drawing.Size(116, 24)
         Me.cbJudg_Waveform4.TabIndex = 82
         Me.cbJudg_Waveform4.Text = "Waveform4"
         Me.cbJudg_Waveform4.UseVisualStyleBackColor = True
@@ -671,10 +658,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Waveform3.AutoSize = True
         Me.cbJudg_Waveform3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Waveform3.Location = New System.Drawing.Point(646, 699)
-        Me.cbJudg_Waveform3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Waveform3.Location = New System.Drawing.Point(861, 860)
+        Me.cbJudg_Waveform3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Waveform3.Name = "cbJudg_Waveform3"
-        Me.cbJudg_Waveform3.Size = New System.Drawing.Size(99, 21)
+        Me.cbJudg_Waveform3.Size = New System.Drawing.Size(116, 24)
         Me.cbJudg_Waveform3.TabIndex = 81
         Me.cbJudg_Waveform3.Text = "Waveform3"
         Me.cbJudg_Waveform3.UseVisualStyleBackColor = True
@@ -683,10 +670,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Waveform2.AutoSize = True
         Me.cbJudg_Waveform2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Waveform2.Location = New System.Drawing.Point(646, 678)
-        Me.cbJudg_Waveform2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Waveform2.Location = New System.Drawing.Point(861, 834)
+        Me.cbJudg_Waveform2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Waveform2.Name = "cbJudg_Waveform2"
-        Me.cbJudg_Waveform2.Size = New System.Drawing.Size(99, 21)
+        Me.cbJudg_Waveform2.Size = New System.Drawing.Size(116, 24)
         Me.cbJudg_Waveform2.TabIndex = 80
         Me.cbJudg_Waveform2.Text = "Waveform2"
         Me.cbJudg_Waveform2.UseVisualStyleBackColor = True
@@ -695,10 +682,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Waveform1.AutoSize = True
         Me.cbJudg_Waveform1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Waveform1.Location = New System.Drawing.Point(646, 657)
-        Me.cbJudg_Waveform1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Waveform1.Location = New System.Drawing.Point(861, 809)
+        Me.cbJudg_Waveform1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Waveform1.Name = "cbJudg_Waveform1"
-        Me.cbJudg_Waveform1.Size = New System.Drawing.Size(99, 21)
+        Me.cbJudg_Waveform1.Size = New System.Drawing.Size(116, 24)
         Me.cbJudg_Waveform1.TabIndex = 79
         Me.cbJudg_Waveform1.Text = "Waveform1"
         Me.cbJudg_Waveform1.UseVisualStyleBackColor = True
@@ -707,10 +694,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Spectrum6.AutoSize = True
         Me.cbJudg_Spectrum6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Spectrum6.Location = New System.Drawing.Point(397, 763)
-        Me.cbJudg_Spectrum6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Spectrum6.Location = New System.Drawing.Point(529, 939)
+        Me.cbJudg_Spectrum6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Spectrum6.Name = "cbJudg_Spectrum6"
-        Me.cbJudg_Spectrum6.Size = New System.Drawing.Size(95, 21)
+        Me.cbJudg_Spectrum6.Size = New System.Drawing.Size(112, 24)
         Me.cbJudg_Spectrum6.TabIndex = 78
         Me.cbJudg_Spectrum6.Text = "Spectrum6"
         Me.cbJudg_Spectrum6.UseVisualStyleBackColor = True
@@ -719,10 +706,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Spectrum5.AutoSize = True
         Me.cbJudg_Spectrum5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Spectrum5.Location = New System.Drawing.Point(397, 741)
-        Me.cbJudg_Spectrum5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Spectrum5.Location = New System.Drawing.Point(529, 912)
+        Me.cbJudg_Spectrum5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Spectrum5.Name = "cbJudg_Spectrum5"
-        Me.cbJudg_Spectrum5.Size = New System.Drawing.Size(95, 21)
+        Me.cbJudg_Spectrum5.Size = New System.Drawing.Size(112, 24)
         Me.cbJudg_Spectrum5.TabIndex = 77
         Me.cbJudg_Spectrum5.Text = "Spectrum5"
         Me.cbJudg_Spectrum5.UseVisualStyleBackColor = True
@@ -731,10 +718,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Spectrum4.AutoSize = True
         Me.cbJudg_Spectrum4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Spectrum4.Location = New System.Drawing.Point(397, 720)
-        Me.cbJudg_Spectrum4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Spectrum4.Location = New System.Drawing.Point(529, 886)
+        Me.cbJudg_Spectrum4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Spectrum4.Name = "cbJudg_Spectrum4"
-        Me.cbJudg_Spectrum4.Size = New System.Drawing.Size(95, 21)
+        Me.cbJudg_Spectrum4.Size = New System.Drawing.Size(112, 24)
         Me.cbJudg_Spectrum4.TabIndex = 76
         Me.cbJudg_Spectrum4.Text = "Spectrum4"
         Me.cbJudg_Spectrum4.UseVisualStyleBackColor = True
@@ -743,10 +730,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Spectrum3.AutoSize = True
         Me.cbJudg_Spectrum3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Spectrum3.Location = New System.Drawing.Point(397, 699)
-        Me.cbJudg_Spectrum3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Spectrum3.Location = New System.Drawing.Point(529, 860)
+        Me.cbJudg_Spectrum3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Spectrum3.Name = "cbJudg_Spectrum3"
-        Me.cbJudg_Spectrum3.Size = New System.Drawing.Size(95, 21)
+        Me.cbJudg_Spectrum3.Size = New System.Drawing.Size(112, 24)
         Me.cbJudg_Spectrum3.TabIndex = 75
         Me.cbJudg_Spectrum3.Text = "Spectrum3"
         Me.cbJudg_Spectrum3.UseVisualStyleBackColor = True
@@ -755,10 +742,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Spectrum2.AutoSize = True
         Me.cbJudg_Spectrum2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Spectrum2.Location = New System.Drawing.Point(397, 678)
-        Me.cbJudg_Spectrum2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Spectrum2.Location = New System.Drawing.Point(529, 834)
+        Me.cbJudg_Spectrum2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Spectrum2.Name = "cbJudg_Spectrum2"
-        Me.cbJudg_Spectrum2.Size = New System.Drawing.Size(95, 21)
+        Me.cbJudg_Spectrum2.Size = New System.Drawing.Size(112, 24)
         Me.cbJudg_Spectrum2.TabIndex = 74
         Me.cbJudg_Spectrum2.Text = "Spectrum2"
         Me.cbJudg_Spectrum2.UseVisualStyleBackColor = True
@@ -767,10 +754,10 @@ Partial Class frmProduction
         '
         Me.cbJudg_Spectrum1.AutoSize = True
         Me.cbJudg_Spectrum1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudg_Spectrum1.Location = New System.Drawing.Point(397, 657)
-        Me.cbJudg_Spectrum1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudg_Spectrum1.Location = New System.Drawing.Point(529, 809)
+        Me.cbJudg_Spectrum1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudg_Spectrum1.Name = "cbJudg_Spectrum1"
-        Me.cbJudg_Spectrum1.Size = New System.Drawing.Size(95, 21)
+        Me.cbJudg_Spectrum1.Size = New System.Drawing.Size(112, 24)
         Me.cbJudg_Spectrum1.TabIndex = 73
         Me.cbJudg_Spectrum1.Text = "Spectrum1"
         Me.cbJudg_Spectrum1.UseVisualStyleBackColor = True
@@ -778,10 +765,10 @@ Partial Class frmProduction
         'btnJudgW_condition
         '
         Me.btnJudgW_condition.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnJudgW_condition.Location = New System.Drawing.Point(543, 652)
-        Me.btnJudgW_condition.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnJudgW_condition.Location = New System.Drawing.Point(724, 802)
+        Me.btnJudgW_condition.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnJudgW_condition.Name = "btnJudgW_condition"
-        Me.btnJudgW_condition.Size = New System.Drawing.Size(90, 24)
+        Me.btnJudgW_condition.Size = New System.Drawing.Size(120, 30)
         Me.btnJudgW_condition.TabIndex = 72
         Me.btnJudgW_condition.Text = "Waveform Condition"
         Me.btnJudgW_condition.UseVisualStyleBackColor = True
@@ -789,10 +776,10 @@ Partial Class frmProduction
         'btnJudgWL_condition
         '
         Me.btnJudgWL_condition.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnJudgWL_condition.Location = New System.Drawing.Point(296, 652)
-        Me.btnJudgWL_condition.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnJudgWL_condition.Location = New System.Drawing.Point(395, 802)
+        Me.btnJudgWL_condition.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnJudgWL_condition.Name = "btnJudgWL_condition"
-        Me.btnJudgWL_condition.Size = New System.Drawing.Size(90, 24)
+        Me.btnJudgWL_condition.Size = New System.Drawing.Size(120, 30)
         Me.btnJudgWL_condition.TabIndex = 71
         Me.btnJudgWL_condition.Text = "WL Condition"
         Me.btnJudgWL_condition.UseVisualStyleBackColor = True
@@ -801,10 +788,10 @@ Partial Class frmProduction
         '
         Me.cbJudgIL6.AutoSize = True
         Me.cbJudgIL6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudgIL6.Location = New System.Drawing.Point(169, 763)
-        Me.cbJudgIL6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudgIL6.Location = New System.Drawing.Point(225, 939)
+        Me.cbJudgIL6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudgIL6.Name = "cbJudgIL6"
-        Me.cbJudgIL6.Size = New System.Drawing.Size(51, 21)
+        Me.cbJudgIL6.Size = New System.Drawing.Size(60, 24)
         Me.cbJudgIL6.TabIndex = 70
         Me.cbJudgIL6.Text = "I-L6"
         Me.cbJudgIL6.UseVisualStyleBackColor = True
@@ -813,10 +800,10 @@ Partial Class frmProduction
         '
         Me.cbJudgIL5.AutoSize = True
         Me.cbJudgIL5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudgIL5.Location = New System.Drawing.Point(169, 741)
-        Me.cbJudgIL5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudgIL5.Location = New System.Drawing.Point(225, 912)
+        Me.cbJudgIL5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudgIL5.Name = "cbJudgIL5"
-        Me.cbJudgIL5.Size = New System.Drawing.Size(51, 21)
+        Me.cbJudgIL5.Size = New System.Drawing.Size(60, 24)
         Me.cbJudgIL5.TabIndex = 69
         Me.cbJudgIL5.Text = "I-L5"
         Me.cbJudgIL5.UseVisualStyleBackColor = True
@@ -825,10 +812,10 @@ Partial Class frmProduction
         '
         Me.cbJudgIL4.AutoSize = True
         Me.cbJudgIL4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudgIL4.Location = New System.Drawing.Point(169, 720)
-        Me.cbJudgIL4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudgIL4.Location = New System.Drawing.Point(225, 886)
+        Me.cbJudgIL4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudgIL4.Name = "cbJudgIL4"
-        Me.cbJudgIL4.Size = New System.Drawing.Size(51, 21)
+        Me.cbJudgIL4.Size = New System.Drawing.Size(60, 24)
         Me.cbJudgIL4.TabIndex = 68
         Me.cbJudgIL4.Text = "I-L4"
         Me.cbJudgIL4.UseVisualStyleBackColor = True
@@ -837,10 +824,10 @@ Partial Class frmProduction
         '
         Me.cbJudgIL3.AutoSize = True
         Me.cbJudgIL3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudgIL3.Location = New System.Drawing.Point(169, 699)
-        Me.cbJudgIL3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudgIL3.Location = New System.Drawing.Point(225, 860)
+        Me.cbJudgIL3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudgIL3.Name = "cbJudgIL3"
-        Me.cbJudgIL3.Size = New System.Drawing.Size(51, 21)
+        Me.cbJudgIL3.Size = New System.Drawing.Size(60, 24)
         Me.cbJudgIL3.TabIndex = 67
         Me.cbJudgIL3.Text = "I-L3"
         Me.cbJudgIL3.UseVisualStyleBackColor = True
@@ -849,10 +836,10 @@ Partial Class frmProduction
         '
         Me.cbJudgIL1.AutoSize = True
         Me.cbJudgIL1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudgIL1.Location = New System.Drawing.Point(169, 657)
-        Me.cbJudgIL1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudgIL1.Location = New System.Drawing.Point(225, 809)
+        Me.cbJudgIL1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudgIL1.Name = "cbJudgIL1"
-        Me.cbJudgIL1.Size = New System.Drawing.Size(51, 21)
+        Me.cbJudgIL1.Size = New System.Drawing.Size(60, 24)
         Me.cbJudgIL1.TabIndex = 65
         Me.cbJudgIL1.Text = "I-L1"
         Me.cbJudgIL1.UseVisualStyleBackColor = True
@@ -860,10 +847,10 @@ Partial Class frmProduction
         'btnJudgIL_condition
         '
         Me.btnJudgIL_condition.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnJudgIL_condition.Location = New System.Drawing.Point(68, 652)
-        Me.btnJudgIL_condition.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnJudgIL_condition.Location = New System.Drawing.Point(91, 802)
+        Me.btnJudgIL_condition.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnJudgIL_condition.Name = "btnJudgIL_condition"
-        Me.btnJudgIL_condition.Size = New System.Drawing.Size(90, 24)
+        Me.btnJudgIL_condition.Size = New System.Drawing.Size(120, 30)
         Me.btnJudgIL_condition.TabIndex = 64
         Me.btnJudgIL_condition.Text = "IL Condition"
         Me.btnJudgIL_condition.UseVisualStyleBackColor = True
@@ -873,10 +860,9 @@ Partial Class frmProduction
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label14.Location = New System.Drawing.Point(72, 620)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label14.Location = New System.Drawing.Point(96, 763)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(74, 17)
+        Me.Label14.Size = New System.Drawing.Size(85, 20)
         Me.Label14.TabIndex = 63
         Me.Label14.Tag = ""
         Me.Label14.Text = "judgment"
@@ -884,10 +870,10 @@ Partial Class frmProduction
         'btnRelease
         '
         Me.btnRelease.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnRelease.Location = New System.Drawing.Point(68, 803)
-        Me.btnRelease.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnRelease.Location = New System.Drawing.Point(91, 988)
+        Me.btnRelease.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnRelease.Name = "btnRelease"
-        Me.btnRelease.Size = New System.Drawing.Size(90, 24)
+        Me.btnRelease.Size = New System.Drawing.Size(120, 30)
         Me.btnRelease.TabIndex = 85
         Me.btnRelease.Text = "Release"
         Me.btnRelease.UseVisualStyleBackColor = True
@@ -895,10 +881,10 @@ Partial Class frmProduction
         'btnStart
         '
         Me.btnStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnStart.Location = New System.Drawing.Point(506, 810)
-        Me.btnStart.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnStart.Location = New System.Drawing.Point(675, 997)
+        Me.btnStart.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(127, 56)
+        Me.btnStart.Size = New System.Drawing.Size(169, 69)
         Me.btnStart.TabIndex = 86
         Me.btnStart.Text = "Start"
         Me.btnStart.UseVisualStyleBackColor = True
@@ -906,10 +892,10 @@ Partial Class frmProduction
         'btnReturn
         '
         Me.btnReturn.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReturn.Location = New System.Drawing.Point(661, 810)
-        Me.btnReturn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnReturn.Location = New System.Drawing.Point(881, 997)
+        Me.btnReturn.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnReturn.Name = "btnReturn"
-        Me.btnReturn.Size = New System.Drawing.Size(127, 56)
+        Me.btnReturn.Size = New System.Drawing.Size(169, 69)
         Me.btnReturn.TabIndex = 87
         Me.btnReturn.Text = "Return"
         Me.btnReturn.UseVisualStyleBackColor = True
@@ -918,10 +904,10 @@ Partial Class frmProduction
         '
         Me.cbJudgIL2.AutoSize = True
         Me.cbJudgIL2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbJudgIL2.Location = New System.Drawing.Point(169, 678)
-        Me.cbJudgIL2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbJudgIL2.Location = New System.Drawing.Point(225, 834)
+        Me.cbJudgIL2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbJudgIL2.Name = "cbJudgIL2"
-        Me.cbJudgIL2.Size = New System.Drawing.Size(51, 21)
+        Me.cbJudgIL2.Size = New System.Drawing.Size(60, 24)
         Me.cbJudgIL2.TabIndex = 88
         Me.cbJudgIL2.Text = "I-L2"
         Me.cbJudgIL2.UseVisualStyleBackColor = True
@@ -930,10 +916,10 @@ Partial Class frmProduction
         '
         Me.cbMeasureIL2.AutoSize = True
         Me.cbMeasureIL2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasureIL2.Location = New System.Drawing.Point(169, 477)
-        Me.cbMeasureIL2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasureIL2.Location = New System.Drawing.Point(225, 587)
+        Me.cbMeasureIL2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasureIL2.Name = "cbMeasureIL2"
-        Me.cbMeasureIL2.Size = New System.Drawing.Size(51, 21)
+        Me.cbMeasureIL2.Size = New System.Drawing.Size(60, 24)
         Me.cbMeasureIL2.TabIndex = 94
         Me.cbMeasureIL2.Text = "I-L2"
         Me.cbMeasureIL2.UseVisualStyleBackColor = True
@@ -942,10 +928,10 @@ Partial Class frmProduction
         '
         Me.cbMeasureIL6.AutoSize = True
         Me.cbMeasureIL6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasureIL6.Location = New System.Drawing.Point(169, 561)
-        Me.cbMeasureIL6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasureIL6.Location = New System.Drawing.Point(225, 690)
+        Me.cbMeasureIL6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasureIL6.Name = "cbMeasureIL6"
-        Me.cbMeasureIL6.Size = New System.Drawing.Size(51, 21)
+        Me.cbMeasureIL6.Size = New System.Drawing.Size(60, 24)
         Me.cbMeasureIL6.TabIndex = 93
         Me.cbMeasureIL6.Text = "I-L6"
         Me.cbMeasureIL6.UseVisualStyleBackColor = True
@@ -954,10 +940,10 @@ Partial Class frmProduction
         '
         Me.cbMeasureIL5.AutoSize = True
         Me.cbMeasureIL5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasureIL5.Location = New System.Drawing.Point(169, 540)
-        Me.cbMeasureIL5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasureIL5.Location = New System.Drawing.Point(225, 665)
+        Me.cbMeasureIL5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasureIL5.Name = "cbMeasureIL5"
-        Me.cbMeasureIL5.Size = New System.Drawing.Size(51, 21)
+        Me.cbMeasureIL5.Size = New System.Drawing.Size(60, 24)
         Me.cbMeasureIL5.TabIndex = 92
         Me.cbMeasureIL5.Text = "I-L5"
         Me.cbMeasureIL5.UseVisualStyleBackColor = True
@@ -966,10 +952,10 @@ Partial Class frmProduction
         '
         Me.cbMeasureIL4.AutoSize = True
         Me.cbMeasureIL4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasureIL4.Location = New System.Drawing.Point(169, 520)
-        Me.cbMeasureIL4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasureIL4.Location = New System.Drawing.Point(225, 640)
+        Me.cbMeasureIL4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasureIL4.Name = "cbMeasureIL4"
-        Me.cbMeasureIL4.Size = New System.Drawing.Size(51, 21)
+        Me.cbMeasureIL4.Size = New System.Drawing.Size(60, 24)
         Me.cbMeasureIL4.TabIndex = 91
         Me.cbMeasureIL4.Text = "I-L4"
         Me.cbMeasureIL4.UseVisualStyleBackColor = True
@@ -978,10 +964,10 @@ Partial Class frmProduction
         '
         Me.cbMeasureIL3.AutoSize = True
         Me.cbMeasureIL3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasureIL3.Location = New System.Drawing.Point(169, 497)
-        Me.cbMeasureIL3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasureIL3.Location = New System.Drawing.Point(225, 612)
+        Me.cbMeasureIL3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasureIL3.Name = "cbMeasureIL3"
-        Me.cbMeasureIL3.Size = New System.Drawing.Size(51, 21)
+        Me.cbMeasureIL3.Size = New System.Drawing.Size(60, 24)
         Me.cbMeasureIL3.TabIndex = 90
         Me.cbMeasureIL3.Text = "I-L3"
         Me.cbMeasureIL3.UseVisualStyleBackColor = True
@@ -990,10 +976,10 @@ Partial Class frmProduction
         '
         Me.cbMeasureIL1.AutoSize = True
         Me.cbMeasureIL1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbMeasureIL1.Location = New System.Drawing.Point(169, 455)
-        Me.cbMeasureIL1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.cbMeasureIL1.Location = New System.Drawing.Point(225, 560)
+        Me.cbMeasureIL1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cbMeasureIL1.Name = "cbMeasureIL1"
-        Me.cbMeasureIL1.Size = New System.Drawing.Size(51, 21)
+        Me.cbMeasureIL1.Size = New System.Drawing.Size(60, 24)
         Me.cbMeasureIL1.TabIndex = 89
         Me.cbMeasureIL1.Text = "I-L1"
         Me.cbMeasureIL1.UseVisualStyleBackColor = True
@@ -1001,22 +987,22 @@ Partial Class frmProduction
         'btnMeasureIL_condition
         '
         Me.btnMeasureIL_condition.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMeasureIL_condition.Location = New System.Drawing.Point(68, 451)
-        Me.btnMeasureIL_condition.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnMeasureIL_condition.Location = New System.Drawing.Point(91, 555)
+        Me.btnMeasureIL_condition.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnMeasureIL_condition.Name = "btnMeasureIL_condition"
-        Me.btnMeasureIL_condition.Size = New System.Drawing.Size(90, 24)
+        Me.btnMeasureIL_condition.Size = New System.Drawing.Size(120, 30)
         Me.btnMeasureIL_condition.TabIndex = 95
         Me.btnMeasureIL_condition.Text = "IL Condition"
         Me.btnMeasureIL_condition.UseVisualStyleBackColor = True
         '
         'frmProduction
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(10, 10)
         Me.AutoScrollMinSize = New System.Drawing.Size(10, 30)
-        Me.ClientSize = New System.Drawing.Size(802, 863)
+        Me.ClientSize = New System.Drawing.Size(1069, 1062)
         Me.Controls.Add(Me.btnMeasureIL_condition)
         Me.Controls.Add(Me.cbMeasureIL2)
         Me.Controls.Add(Me.cbMeasureIL6)
@@ -1097,8 +1083,9 @@ Partial Class frmProduction
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "frmProduction"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Production Pulse Measurement"
         Me.ResumeLayout(False)
         Me.PerformLayout()

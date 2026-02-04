@@ -1,5 +1,6 @@
-﻿Imports Newtonsoft.Json
-Imports System.IO
+﻿Imports System.IO
+Imports System.Resources
+Imports Newtonsoft.Json
 
 Public Class frmPreferance
 
@@ -65,14 +66,14 @@ Public Class frmPreferance
             Dim data As New PreferanceConfig()
 
             ' --- Tab 1: GPIB ---
-            data.GPIB_address.LDT_5910C_TempControlLD = txtLDT_5910CTempControlLD.Text
-            data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz = txtAQ6370D_OpticspAnalyz.Text
-            data.GPIB_address.SANTEC_OVA_100_OpticAttenua = txtOVA_100_OpticAttenua.Text
-            data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch = txtAQ2211_Opticswich.Text
+            data.GPIB_address.LDT_5910C_TempControlLD = txtAddress1.Text
+            data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz = txtAddress2.Text
+            data.GPIB_address.SANTEC_OVA_100_OpticAttenua = txtAddress3.Text
+            data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch = txtAddress4.Text
             'data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope = txtDSO_X_4154GOsciloscope.Text
-            data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase = txtSYSTEMAT_845TempControlBase.Text
-            data.GPIB_address.OFS_1000_TempControlBase = txtOFS1000.Text
-            data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter = txtKey34416A_Digitlmultimeter.Text
+            data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase = txtAddress5.Text
+            data.GPIB_address.OFS_1000_TempControlBase = txtAddress6.Text
+            data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter = txtAddress7.Text
 
             ' --- Tab 2: Power Measurement ---
             data.Power_Measurement.LaserStar_comport = CDbl(txtLasercomport.Text)
@@ -204,14 +205,14 @@ Public Class frmPreferance
         ' 3. เอาค่าใส่ TextBox ทีละช่อง
 
         ' --- Tab 1: GPIB ---
-        txtLDT_5910CTempControlLD.Text = data.GPIB_address.LDT_5910C_TempControlLD
-        txtAQ6370D_OpticspAnalyz.Text = data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz
-        txtOVA_100_OpticAttenua.Text = data.GPIB_address.SANTEC_OVA_100_OpticAttenua
-        txtAQ2211_Opticswich.Text = data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch
+        txtAddress1.Text = data.GPIB_address.LDT_5910C_TempControlLD
+        txtAddress2.Text = data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz
+        txtAddress3.Text = data.GPIB_address.SANTEC_OVA_100_OpticAttenua
+        txtAddress4.Text = data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch
         'txtDSO_X_4154GOsciloscope.Text = data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope
-        txtSYSTEMAT_845TempControlBase.Text = data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase
-        txtOFS1000.Text = data.GPIB_address.OFS_1000_TempControlBase
-        txtKey34416A_Digitlmultimeter.Text = data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter
+        txtAddress5.Text = data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase
+        txtAddress6.Text = data.GPIB_address.OFS_1000_TempControlBase
+        txtAddress7.Text = data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter
 
         ' --- Tab 2: Power ---
         txtLasercomport.Text = data.Power_Measurement.LaserStar_comport.ToString()
@@ -284,5 +285,38 @@ Public Class frmPreferance
 
 
         LoadData()
+    End Sub
+    '----------- Connect All Devices -----------------
+    Public Sub ConnectDevices()
+        Try
+            'Todo: กี่เครื่องไม่รุ้ตอนนี้ 
+            instrument1 = resoureceManager.Open("GPIB0::" & txtAddress1.Text & "::INSTR")
+            instrument1.TimeoutMilliseconds = 5000
+
+            instrument2 = resoureceManager.Open("GPIB0::" & txtAddress2.Text & "::INSTR")
+            instrument2.TimeoutMilliseconds = 5000
+
+            instrument3 = resoureceManager.Open("GPIB0::" & txtAddress3.Text & "::INSTR")
+            instrument3.TimeoutMilliseconds = 5000
+
+            instrument4 = resoureceManager.Open("GPIB0::" & txtAddress4.Text & "::INSTR")
+            instrument4.TimeoutMilliseconds = 5000
+
+            instrument5 = resoureceManager.Open("GPIB0::" & txtAddress5.Text & "::INSTR")
+            instrument5.TimeoutMilliseconds = 5000
+
+            instrument6 = resoureceManager.Open("GPIB0::" & txtAddress6.Text & "::INSTR")
+            instrument6.TimeoutMilliseconds = 5000
+
+            'Todo: พี่ย้งบอกมี 2 เครื่องเป็น USB CCS-HHP, keysight oscilloscope
+            usbInstrument1 = rm.Open("USB0::0x0123::0x4567::SN12345::0::INSTR")
+            usbIntrument1.TimeoutMillisecond = 5000
+            usbInstrument2 = rm.Open("USB0::0x0987::0x6543::SN67890::0::INSTR")
+            usbIntrument2.TimeoutMillisecond = 5000
+
+            MessageBox.Show("Connected All Devices ♥ ")
+        Catch ex As Exception
+            MessageBox.Show("Connect Error !!!!!" & ex.Message)
+        End Try
     End Sub
 End Class

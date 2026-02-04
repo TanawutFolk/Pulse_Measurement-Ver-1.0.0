@@ -25,7 +25,7 @@ Partial Class frmPreferance
         Me.tabsPreference = New System.Windows.Forms.TabControl()
         Me.GPIBaddress = New System.Windows.Forms.TabPage()
         Me.Label62 = New System.Windows.Forms.Label()
-        Me.txtOFS1000 = New System.Windows.Forms.TextBox()
+        Me.txtAddress6 = New System.Windows.Forms.TextBox()
         Me.Label63 = New System.Windows.Forms.Label()
         Me.btnCancle = New System.Windows.Forms.Button()
         Me.btnSaveGPIBaddress = New System.Windows.Forms.Button()
@@ -35,12 +35,12 @@ Partial Class frmPreferance
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.txtKey34416A_Digitlmultimeter = New System.Windows.Forms.TextBox()
-        Me.txtSYSTEMAT_845TempControlBase = New System.Windows.Forms.TextBox()
-        Me.txtAQ2211_Opticswich = New System.Windows.Forms.TextBox()
-        Me.txtOVA_100_OpticAttenua = New System.Windows.Forms.TextBox()
-        Me.txtAQ6370D_OpticspAnalyz = New System.Windows.Forms.TextBox()
-        Me.txtLDT_5910CTempControlLD = New System.Windows.Forms.TextBox()
+        Me.txtAddress7 = New System.Windows.Forms.TextBox()
+        Me.txtAddress5 = New System.Windows.Forms.TextBox()
+        Me.txtAddress4 = New System.Windows.Forms.TextBox()
+        Me.txtAddress3 = New System.Windows.Forms.TextBox()
+        Me.txtAddress2 = New System.Windows.Forms.TextBox()
+        Me.txtAddress1 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -199,7 +199,7 @@ Partial Class frmPreferance
         'GPIBaddress
         '
         Me.GPIBaddress.Controls.Add(Me.Label62)
-        Me.GPIBaddress.Controls.Add(Me.txtOFS1000)
+        Me.GPIBaddress.Controls.Add(Me.txtAddress6)
         Me.GPIBaddress.Controls.Add(Me.Label63)
         Me.GPIBaddress.Controls.Add(Me.btnCancle)
         Me.GPIBaddress.Controls.Add(Me.btnSaveGPIBaddress)
@@ -209,12 +209,12 @@ Partial Class frmPreferance
         Me.GPIBaddress.Controls.Add(Me.Label14)
         Me.GPIBaddress.Controls.Add(Me.Label15)
         Me.GPIBaddress.Controls.Add(Me.Label16)
-        Me.GPIBaddress.Controls.Add(Me.txtKey34416A_Digitlmultimeter)
-        Me.GPIBaddress.Controls.Add(Me.txtSYSTEMAT_845TempControlBase)
-        Me.GPIBaddress.Controls.Add(Me.txtAQ2211_Opticswich)
-        Me.GPIBaddress.Controls.Add(Me.txtOVA_100_OpticAttenua)
-        Me.GPIBaddress.Controls.Add(Me.txtAQ6370D_OpticspAnalyz)
-        Me.GPIBaddress.Controls.Add(Me.txtLDT_5910CTempControlLD)
+        Me.GPIBaddress.Controls.Add(Me.txtAddress7)
+        Me.GPIBaddress.Controls.Add(Me.txtAddress5)
+        Me.GPIBaddress.Controls.Add(Me.txtAddress4)
+        Me.GPIBaddress.Controls.Add(Me.txtAddress3)
+        Me.GPIBaddress.Controls.Add(Me.txtAddress2)
+        Me.GPIBaddress.Controls.Add(Me.txtAddress1)
         Me.GPIBaddress.Controls.Add(Me.Label7)
         Me.GPIBaddress.Controls.Add(Me.Label8)
         Me.GPIBaddress.Controls.Add(Me.Label5)
@@ -241,15 +241,15 @@ Partial Class frmPreferance
         Me.Label62.TabIndex = 226
         Me.Label62.Text = "Temperature Controller for Base"
         '
-        'txtOFS1000
+        'txtAddress6
         '
-        Me.txtOFS1000.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtOFS1000.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtOFS1000.Location = New System.Drawing.Point(305, 247)
-        Me.txtOFS1000.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtOFS1000.Name = "txtOFS1000"
-        Me.txtOFS1000.Size = New System.Drawing.Size(126, 28)
-        Me.txtOFS1000.TabIndex = 225
+        Me.txtAddress6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAddress6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAddress6.Location = New System.Drawing.Point(305, 247)
+        Me.txtAddress6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAddress6.Name = "txtAddress6"
+        Me.txtAddress6.Size = New System.Drawing.Size(126, 28)
+        Me.txtAddress6.TabIndex = 225
         '
         'Label63
         '
@@ -343,65 +343,65 @@ Partial Class frmPreferance
         Me.Label16.TabIndex = 215
         Me.Label16.Text = "Temperature Controller for LD"
         '
-        'txtKey34416A_Digitlmultimeter
+        'txtAddress7
         '
-        Me.txtKey34416A_Digitlmultimeter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtKey34416A_Digitlmultimeter.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtKey34416A_Digitlmultimeter.Location = New System.Drawing.Point(305, 284)
-        Me.txtKey34416A_Digitlmultimeter.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtKey34416A_Digitlmultimeter.Name = "txtKey34416A_Digitlmultimeter"
-        Me.txtKey34416A_Digitlmultimeter.Size = New System.Drawing.Size(126, 28)
-        Me.txtKey34416A_Digitlmultimeter.TabIndex = 213
+        Me.txtAddress7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAddress7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAddress7.Location = New System.Drawing.Point(305, 284)
+        Me.txtAddress7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAddress7.Name = "txtAddress7"
+        Me.txtAddress7.Size = New System.Drawing.Size(126, 28)
+        Me.txtAddress7.TabIndex = 213
         '
-        'txtSYSTEMAT_845TempControlBase
+        'txtAddress5
         '
-        Me.txtSYSTEMAT_845TempControlBase.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtSYSTEMAT_845TempControlBase.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSYSTEMAT_845TempControlBase.Location = New System.Drawing.Point(305, 206)
-        Me.txtSYSTEMAT_845TempControlBase.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtSYSTEMAT_845TempControlBase.Name = "txtSYSTEMAT_845TempControlBase"
-        Me.txtSYSTEMAT_845TempControlBase.Size = New System.Drawing.Size(126, 28)
-        Me.txtSYSTEMAT_845TempControlBase.TabIndex = 212
+        Me.txtAddress5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAddress5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAddress5.Location = New System.Drawing.Point(305, 206)
+        Me.txtAddress5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAddress5.Name = "txtAddress5"
+        Me.txtAddress5.Size = New System.Drawing.Size(126, 28)
+        Me.txtAddress5.TabIndex = 212
         '
-        'txtAQ2211_Opticswich
+        'txtAddress4
         '
-        Me.txtAQ2211_Opticswich.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtAQ2211_Opticswich.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAQ2211_Opticswich.Location = New System.Drawing.Point(305, 167)
-        Me.txtAQ2211_Opticswich.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtAQ2211_Opticswich.Name = "txtAQ2211_Opticswich"
-        Me.txtAQ2211_Opticswich.Size = New System.Drawing.Size(126, 28)
-        Me.txtAQ2211_Opticswich.TabIndex = 210
+        Me.txtAddress4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAddress4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAddress4.Location = New System.Drawing.Point(305, 167)
+        Me.txtAddress4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAddress4.Name = "txtAddress4"
+        Me.txtAddress4.Size = New System.Drawing.Size(126, 28)
+        Me.txtAddress4.TabIndex = 210
         '
-        'txtOVA_100_OpticAttenua
+        'txtAddress3
         '
-        Me.txtOVA_100_OpticAttenua.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtOVA_100_OpticAttenua.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtOVA_100_OpticAttenua.Location = New System.Drawing.Point(305, 127)
-        Me.txtOVA_100_OpticAttenua.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtOVA_100_OpticAttenua.Name = "txtOVA_100_OpticAttenua"
-        Me.txtOVA_100_OpticAttenua.Size = New System.Drawing.Size(126, 28)
-        Me.txtOVA_100_OpticAttenua.TabIndex = 209
+        Me.txtAddress3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAddress3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAddress3.Location = New System.Drawing.Point(305, 127)
+        Me.txtAddress3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAddress3.Name = "txtAddress3"
+        Me.txtAddress3.Size = New System.Drawing.Size(126, 28)
+        Me.txtAddress3.TabIndex = 209
         '
-        'txtAQ6370D_OpticspAnalyz
+        'txtAddress2
         '
-        Me.txtAQ6370D_OpticspAnalyz.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtAQ6370D_OpticspAnalyz.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAQ6370D_OpticspAnalyz.Location = New System.Drawing.Point(305, 86)
-        Me.txtAQ6370D_OpticspAnalyz.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtAQ6370D_OpticspAnalyz.Name = "txtAQ6370D_OpticspAnalyz"
-        Me.txtAQ6370D_OpticspAnalyz.Size = New System.Drawing.Size(126, 28)
-        Me.txtAQ6370D_OpticspAnalyz.TabIndex = 208
+        Me.txtAddress2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAddress2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAddress2.Location = New System.Drawing.Point(305, 86)
+        Me.txtAddress2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAddress2.Name = "txtAddress2"
+        Me.txtAddress2.Size = New System.Drawing.Size(126, 28)
+        Me.txtAddress2.TabIndex = 208
         '
-        'txtLDT_5910CTempControlLD
+        'txtAddress1
         '
-        Me.txtLDT_5910CTempControlLD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtLDT_5910CTempControlLD.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLDT_5910CTempControlLD.Location = New System.Drawing.Point(305, 41)
-        Me.txtLDT_5910CTempControlLD.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtLDT_5910CTempControlLD.Name = "txtLDT_5910CTempControlLD"
-        Me.txtLDT_5910CTempControlLD.Size = New System.Drawing.Size(126, 28)
-        Me.txtLDT_5910CTempControlLD.TabIndex = 207
+        Me.txtAddress1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAddress1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAddress1.Location = New System.Drawing.Point(305, 41)
+        Me.txtAddress1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAddress1.Name = "txtAddress1"
+        Me.txtAddress1.Size = New System.Drawing.Size(126, 28)
+        Me.txtAddress1.TabIndex = 207
         '
         'Label7
         '
@@ -1749,6 +1749,7 @@ Partial Class frmPreferance
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "frmPreferance"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmPreferance"
         Me.tabsPreference.ResumeLayout(False)
         Me.GPIBaddress.ResumeLayout(False)
@@ -1795,12 +1796,12 @@ Partial Class frmPreferance
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
-    Friend WithEvents txtKey34416A_Digitlmultimeter As TextBox
-    Friend WithEvents txtSYSTEMAT_845TempControlBase As TextBox
-    Friend WithEvents txtAQ2211_Opticswich As TextBox
-    Friend WithEvents txtOVA_100_OpticAttenua As TextBox
-    Friend WithEvents txtAQ6370D_OpticspAnalyz As TextBox
-    Friend WithEvents txtLDT_5910CTempControlLD As TextBox
+    Friend WithEvents txtAddress7 As TextBox
+    Friend WithEvents txtAddress5 As TextBox
+    Friend WithEvents txtAddress4 As TextBox
+    Friend WithEvents txtAddress3 As TextBox
+    Friend WithEvents txtAddress2 As TextBox
+    Friend WithEvents txtAddress1 As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label5 As Label
@@ -1917,6 +1918,6 @@ Partial Class frmPreferance
     Friend WithEvents Label58 As Label
     Friend WithEvents Label61 As Label
     Friend WithEvents Label62 As Label
-    Friend WithEvents txtOFS1000 As TextBox
+    Friend WithEvents txtAddress6 As TextBox
     Friend WithEvents Label63 As Label
 End Class
