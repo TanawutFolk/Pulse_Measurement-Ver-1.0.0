@@ -28,11 +28,17 @@ Public Class frmMain
     End Sub
 
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'load product
         Dim opFile As String = Path.Combine(Application.StartupPath, "SampleData\Product.txt")
         If File.Exists(opFile) Then
             Dim lines As String() = File.ReadAllLines(opFile)
             cboProduct.Items.AddRange(lines)
         End If
+
+        cboProduct.Text = ("1480")
+        'disable preference
+        btnPreference.Enabled = (cboProduct.Text <> "")
+
     End Sub
 
     Private Sub cboProduct_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProduct.SelectedIndexChanged
@@ -40,5 +46,6 @@ Public Class frmMain
         If cboProduct.SelectedItem IsNot Nothing Then
             GlobalVariables.CurrentProduct = cboProduct.SelectedItem.ToString()
         End If
+        btnPreference.Enabled = (cboProduct.Text <> "")
     End Sub
 End Class

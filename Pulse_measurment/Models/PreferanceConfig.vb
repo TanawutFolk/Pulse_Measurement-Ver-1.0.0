@@ -5,7 +5,7 @@ Public Class GPIBSettings
     Public Property YOKOGAWA_AQ6370D_OpticSpectAnalyz As String = ""
     Public Property SANTEC_OVA_100_OpticAttenua As String = ""
     Public Property YOKOGAWA_AQ2211_OpticSwitch As String = ""
-    Public Property KEYSIGHT_DSO_X_4154GOsciloscope As String = ""
+    'Public Property KEYSIGHT_DSO_X_4154GOsciloscope As String = ""
     Public Property FUKKO_SYSTEMAT_845TempControlBase As String = ""
     Public Property OFS_1000_TempControlBase As String = ""
     Public Property KEYSIGHT_34416A_Digitlmultimeter As String = ""
@@ -54,14 +54,15 @@ Public Class CCS_HPP
     Public Property Baudrate As Double = 9600
 End Class
 
-Public Class GeneralSet
-    Public Property DelayTimeOffset As Double = 0
-End Class
-
 Public Class OscilloscopeSettings
     Public Property Comport As String = ""
     Public Property Baudrate As Double = 9600
 End Class
+
+Public Class GeneralSet
+    Public Property DelayTimeOffset As Double = 0
+End Class
+
 
 Public Class PreferanceConfig
     Public Property GPIB_address As New GPIBSettings()

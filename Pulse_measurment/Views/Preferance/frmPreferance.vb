@@ -57,9 +57,8 @@ Public Class frmPreferance
     '-------------------------------- SaveAllData Function (หัวใจหลัก) --------------------------------
     Private Sub SaveAllData()
         Try
-            ' 1. ตรวจสอบก่อนว่า User เลือก Product หรือยัง (จากหน้า Main Menu)
             If GlobalVariables.CurrentProduct = "" Then
-                MessageBox.Show("กรุณาเลือกรุ่นสินค้า (Product) ที่หน้าเมนูหลักก่อนครับ", "แจ้งเตือน", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                MessageBox.Show("กรุณาเลือกรุ่นสินค้า Product ที่หน้าเมนูหลักก่อน", "แจ้งเตือน", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 Return
             End If
 
@@ -70,7 +69,7 @@ Public Class frmPreferance
             data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz = txtAQ6370D_OpticspAnalyz.Text
             data.GPIB_address.SANTEC_OVA_100_OpticAttenua = txtOVA_100_OpticAttenua.Text
             data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch = txtAQ2211_Opticswich.Text
-            data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope = txtDSO_X_4154GOsciloscope.Text
+            'data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope = txtDSO_X_4154GOsciloscope.Text
             data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase = txtSYSTEMAT_845TempControlBase.Text
             data.GPIB_address.OFS_1000_TempControlBase = txtOFS1000.Text
             data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter = txtKey34416A_Digitlmultimeter.Text
@@ -124,35 +123,34 @@ Public Class frmPreferance
             data.CCS_HPP.Comport = txtComport.Text
             data.CCS_HPP.Baudrate = CDbl(txtBaudrate.Text)
 
-            ' --- Tab 7: General Set ---
-            data.General_Setting.DelayTimeOffset = CDbl(txtDelaygeneral.Text)
-
-            ' --- Tab 8: Oscilloscope ---
             data.Oscilloscope_Setting.Comport = txtComportOCS.Text
-            ' ตรวจสอบก่อนว่ามีค่าหรือไม่ ถ้าว่างให้ใส่ 9600
             If txtBaudrateOCS.Text.Trim() <> "" AndAlso IsNumeric(txtBaudrateOCS.Text) Then
                 data.Oscilloscope_Setting.Baudrate = CDbl(txtBaudrateOCS.Text)
             Else
                 data.Oscilloscope_Setting.Baudrate = 9600
             End If
 
-            ' ชื่อไฟล์ = Pulse_รุ่น.json
+            ' --- Tab 8: General Set ---
+            data.General_Setting.DelayTimeOffset = CDbl(txtDelaygeneral.Text)
+
+
+            ' JSON SAVE
             Dim fileName As String = "Pulse_" & GlobalVariables.CurrentProduct & ".json"
 
-            ' หา Path ของโฟลเดอร์ PRF (ใช้ฟังก์ชันจาก GlobalVariables)
+            ' Find Path Folder PRF (From GlobalVariables)
             Dim fullPath As String = Path.Combine(GlobalVariables.GetPRFPath(), fileName)
 
             ' แปลงเป็น JSON และบันทึกไฟล์
             Dim json As String = JsonConvert.SerializeObject(data, Formatting.Indented)
             File.WriteAllText(fullPath, json)
 
-            ' Debug: แสดง Path ที่บันทึกไฟล์
+            ' Debug
             Dim debugMsg As String = ""
             debugMsg &= "บันทึกการตั้งค่า (Preference) สำเร็จ!" & vbCrLf & vbCrLf
-            debugMsg &= "รุ่น: " & GlobalVariables.CurrentProduct & vbCrLf
-            debugMsg &= "ชื่อไฟล์: " & fileName & vbCrLf & vbCrLf
-            debugMsg &= "Path เต็ม:" & vbCrLf & fullPath & vbCrLf & vbCrLf
-            debugMsg &= "โฟลเดอร์ PRF:" & vbCrLf & GlobalVariables.GetPRFPath()
+            'debugMsg &= "รุ่น: " & GlobalVariables.CurrentProduct & vbCrLf
+            'debugMsg &= "ชื่อไฟล์: " & fileName & vbCrLf & vbCrLf
+            'debugMsg &= "Path เต็ม:" & vbCrLf & fullPath & vbCrLf & vbCrLf
+            'debugMsg &= "โฟลเดอร์ PRF:" & vbCrLf & GlobalVariables.GetPRFPath()
 
             MessageBox.Show(debugMsg, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
@@ -172,12 +170,13 @@ Public Class frmPreferance
         End Try
     End Sub
 
-    '-------------------------------- LoadData Function (หัวใจหลัก) --------------------------------
+    '-------------------------------- LoadData Function  --------------------------------
     Private Sub LoadData()
-        ' ถ้ายังไม่เลือก Product ก็ไม่ต้องโหลด
+
+        'if ""
         If GlobalVariables.CurrentProduct = "" Then Return
 
-        ' สร้างชื่อไฟล์ที่ต้องการโหลด: Pulse_รุ่น.json
+        ' Create file name
         Dim fileName As String = "Pulse_" & GlobalVariables.CurrentProduct & ".json"
         Dim fullPath As String = Path.Combine(GlobalVariables.GetPRFPath(), fileName)
 
@@ -209,7 +208,7 @@ Public Class frmPreferance
         txtAQ6370D_OpticspAnalyz.Text = data.GPIB_address.YOKOGAWA_AQ6370D_OpticSpectAnalyz
         txtOVA_100_OpticAttenua.Text = data.GPIB_address.SANTEC_OVA_100_OpticAttenua
         txtAQ2211_Opticswich.Text = data.GPIB_address.YOKOGAWA_AQ2211_OpticSwitch
-        txtDSO_X_4154GOsciloscope.Text = data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope
+        'txtDSO_X_4154GOsciloscope.Text = data.GPIB_address.KEYSIGHT_DSO_X_4154GOsciloscope
         txtSYSTEMAT_845TempControlBase.Text = data.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase
         txtOFS1000.Text = data.GPIB_address.OFS_1000_TempControlBase
         txtKey34416A_Digitlmultimeter.Text = data.GPIB_address.KEYSIGHT_34416A_Digitlmultimeter
@@ -283,7 +282,7 @@ Public Class frmPreferance
         cboduration.Items.Add("int")
         cboduration.Items.Add("int")
 
-        ' โหลดข้อมูล (ถ้ามีการเลือก Product มาแล้ว)
+
         LoadData()
     End Sub
 End Class
