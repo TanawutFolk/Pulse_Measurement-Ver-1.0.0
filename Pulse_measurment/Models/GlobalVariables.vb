@@ -23,20 +23,15 @@ Module GlobalVariables
     'Dim usbIntrument1 As MessageBasedSession 'CCS-HPP
     'Dim usbIntrument2 As MessageBasedSession 'Oscilloscope
 
-    ' =========================================================
-    ' 1. เพิ่มตัวแปร Object เครื่องมือ (ประกาศให้ครบตามที่ต้องใช้)
-    ' =========================================================
-    ' ตัวอย่าง: สำหรับควบคุมอุณหภูมิ (Temperature Control)
-    Public clsTc_ILX As New clsILX_LDC37xx ' ตัวคุมอุณหภูมิ Case (สมมติ)
-    Public clsTs_ILX As New clsILX_LDC37xx ' ตัวคุมอุณหภูมิ Laser/Sink (สมมติ)
-
-    ' ตัวอย่าง: สำหรับ LD Source (ถ้ามี)
+    ' 1. ประกาศตัวแปรเครื่องมือ (ให้เหมือนโปรเจกต์เก่า)
     Public clsLD1_ILX As New clsILX_LDC37xx
     Public clsLD2_ILX As New clsILX_LDC37xx
+    Public clsTc_ILX As New clsILX_LDC37xx
+    Public clsTs_ILX As New clsILX_LDC37xx
 
-    ' ตัวแปร Set point อุณหภูมิ (เพื่อให้ frmLDTempWait มองเห็น)
-    Public dblTcSet As Double = 25.0
-    Public dblTsSet As Double = 25.0
+    ' 2. ประกาศตัวแปรอุณหภูมิ (เพื่อให้ frmLDTempWait เรียกใช้ได้)
+    Public dblTcSet As Double
+    Public dblTsSet As Double
     Public dblTc_act As Double
     Public dblTs_act As Double
 
