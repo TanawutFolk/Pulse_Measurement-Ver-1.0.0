@@ -43,7 +43,7 @@ Partial Class frmLDTempWait
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.lblTldactual = New System.Windows.Forms.Label()
         Me.txtTldset = New System.Windows.Forms.TextBox()
-        Me.bgworkerTempCtrl = New System.ComponentModel.BackgroundWorker()
+        'Me.bgworkerTempCtrl = New System.ComponentModel.BackgroundWorker()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -250,11 +250,11 @@ Partial Class frmLDTempWait
         Me.txtTldset.ReadOnly = True
         Me.txtTldset.Size = New System.Drawing.Size(72, 24)
         Me.txtTldset.TabIndex = 0
-        '
-        'bgworkerTempCtrl
-        '
-        Me.bgworkerTempCtrl.WorkerReportsProgress = True
-        Me.bgworkerTempCtrl.WorkerSupportsCancellation = True
+        ''
+        ''bgworkerTempCtrl
+        ''
+        'Me.bgworkerTempCtrl.WorkerReportsProgress = True
+        'Me.bgworkerTempCtrl.WorkerSupportsCancellation = True
         '
         'frmLDTempWait
         '
