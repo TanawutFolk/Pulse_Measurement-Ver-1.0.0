@@ -64,7 +64,7 @@ Public Class GeneralSet
 End Class
 
 
-Public Class PreferanceConfig
+Public Class PreferanceParameter
     Public Property GPIB_address As New GPIBSettings()
     Public Property Power_Measurement As New PowerMeasurement()
     Public Property VariousKinds_Folders As New VariousFolder()

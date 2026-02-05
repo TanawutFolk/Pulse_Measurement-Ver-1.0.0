@@ -67,9 +67,9 @@ Public Class ProductionParameters
     ' ------------------------------------------------------------------------------------
     ' เชื่อมกับ Class ย่อยด้านล่าง
     ' ------------------------------------------------------------------------------------
-    Public Property Meas_IL_Settings As New IL_Group_Settings()
-    Public Property Meas_WL_Settings As New WL_Group_Settings()
-    Public Property Meas_W_Settings As New W_Group_Settings()
+    Public Property Meas_IL_Settings As New IL_Measure_Settings()
+    Public Property Meas_WL_Settings As New WL_Measure_Settings()
+    Public Property Meas_W_Settings As New W_Measure_Settings()
 
     Public Property Judge_IL_Settings As New IL_Judge_Group()
     Public Property Judge_WL_Settings As New WL_Judge_Group()
@@ -78,7 +78,7 @@ Public Class ProductionParameters
 End Class
 
 ' Class กลุ่ม รวม IL_Measurement ทั้ง 6 Tabs ------------------------------------------------------------
-Public Class IL_Group_Settings
+Public Class IL_Measure_Settings
     Public Property L1 As New ILParameter()
     Public Property L2 As New ILParameter()
     Public Property L3 As New ILParameter()
@@ -88,7 +88,7 @@ Public Class IL_Group_Settings
 End Class
 
 ' Class กลุ่ม รวม WL_Measurement ทั้ง 6 Tabs ------------------------------------------------------------
-Public Class WL_Group_Settings
+Public Class WL_Measure_Settings
     Public Property Spec1 As New WLParameter()
     Public Property Spec2 As New WLParameter()
     Public Property Spec3 As New WLParameter()
@@ -98,7 +98,7 @@ Public Class WL_Group_Settings
 End Class
 
 ' Class กลุ่ม รวม W_Measurement ทั้ง 6 Tabs ------------------------------------------------------------
-Public Class W_Group_Settings
+Public Class W_Measure_Settings
     Public Property Wave1 As New WaveformParameter()
     Public Property Wave2 As New WaveformParameter()
     Public Property Wave3 As New WaveformParameter()
@@ -199,6 +199,8 @@ Public Class WLParameter
     Public Property Points As Integer       ' Points
     Public Property Average As Integer      ' Average [Tims]
     Public Property SweepSpeed As Integer   ' Sweep Speed
+    Public Property WavelengthA As Integer  ' Wavelength A
+    Public Property WavelengthB As Integer  ' Wavelength B
 
     ' --- Measurement Point (ขวา) ---
     Public Property Point1 As String        ' IL1

@@ -82,8 +82,8 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab1 = New System.Windows.Forms.TextBox()
         Me.txtDutycycle_tab1 = New System.Windows.Forms.TextBox()
         Me.txtFrequn_tab1 = New System.Windows.Forms.TextBox()
-        Me.txStop_tab1 = New System.Windows.Forms.TextBox()
-        Me.txStep_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtStop_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtStep_tab1 = New System.Windows.Forms.TextBox()
         Me.txtStart_tab1 = New System.Windows.Forms.TextBox()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
@@ -166,8 +166,8 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab2 = New System.Windows.Forms.TextBox()
         Me.txtDutycycle_tab2 = New System.Windows.Forms.TextBox()
         Me.txtFrequn_tab2 = New System.Windows.Forms.TextBox()
-        Me.txStop_tab2 = New System.Windows.Forms.TextBox()
-        Me.txStep_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtStop_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtStep_tab2 = New System.Windows.Forms.TextBox()
         Me.txtStart_tab2 = New System.Windows.Forms.TextBox()
         Me.ILSweep3 = New System.Windows.Forms.TabPage()
         Me.Label90 = New System.Windows.Forms.Label()
@@ -239,8 +239,8 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab3 = New System.Windows.Forms.TextBox()
         Me.txtDutycycle_tab3 = New System.Windows.Forms.TextBox()
         Me.txtFrequn_tab3 = New System.Windows.Forms.TextBox()
-        Me.txStop_tab3 = New System.Windows.Forms.TextBox()
-        Me.txStep_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtStop_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtStep_tab3 = New System.Windows.Forms.TextBox()
         Me.txtStart_tab3 = New System.Windows.Forms.TextBox()
         Me.ILSweep4 = New System.Windows.Forms.TabPage()
         Me.Label130 = New System.Windows.Forms.Label()
@@ -312,8 +312,8 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab4 = New System.Windows.Forms.TextBox()
         Me.txtDutycycle_tab4 = New System.Windows.Forms.TextBox()
         Me.txtFrequn_tab4 = New System.Windows.Forms.TextBox()
-        Me.txStop_tab4 = New System.Windows.Forms.TextBox()
-        Me.txStep_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtStop_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtStep_tab4 = New System.Windows.Forms.TextBox()
         Me.txtStart_tab4 = New System.Windows.Forms.TextBox()
         Me.ILSweep5 = New System.Windows.Forms.TabPage()
         Me.Label170 = New System.Windows.Forms.Label()
@@ -385,8 +385,8 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab5 = New System.Windows.Forms.TextBox()
         Me.txtDutycycle_tab5 = New System.Windows.Forms.TextBox()
         Me.txtFrequn_tab5 = New System.Windows.Forms.TextBox()
-        Me.txStop_tab5 = New System.Windows.Forms.TextBox()
-        Me.txStep_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtStop_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtStep_tab5 = New System.Windows.Forms.TextBox()
         Me.txtStart_tab5 = New System.Windows.Forms.TextBox()
         Me.ILSweep6 = New System.Windows.Forms.TabPage()
         Me.Label161 = New System.Windows.Forms.Label()
@@ -457,8 +457,8 @@ Partial Class frmILMeasurement
         Me.txtPulse_tab6 = New System.Windows.Forms.TextBox()
         Me.txtDutycycle_tab6 = New System.Windows.Forms.TextBox()
         Me.txtFrequn_tab6 = New System.Windows.Forms.TextBox()
-        Me.txStop_tab6 = New System.Windows.Forms.TextBox()
-        Me.txStep_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtStop_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtStep_tab6 = New System.Windows.Forms.TextBox()
         Me.txtStart_tab6 = New System.Windows.Forms.TextBox()
         Me.Label240 = New System.Windows.Forms.Label()
         Me.btnCancleILm = New System.Windows.Forms.Button()
@@ -550,8 +550,8 @@ Partial Class frmILMeasurement
         Me.ILSweep1.Controls.Add(Me.txtPulse_tab1)
         Me.ILSweep1.Controls.Add(Me.txtDutycycle_tab1)
         Me.ILSweep1.Controls.Add(Me.txtFrequn_tab1)
-        Me.ILSweep1.Controls.Add(Me.txStop_tab1)
-        Me.ILSweep1.Controls.Add(Me.txStep_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtStop_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtStep_tab1)
         Me.ILSweep1.Controls.Add(Me.txtStart_tab1)
         Me.ILSweep1.Controls.Add(Me.Label28)
         Me.ILSweep1.Controls.Add(Me.Label29)
@@ -1159,25 +1159,25 @@ Partial Class frmILMeasurement
         Me.txtFrequn_tab1.Size = New System.Drawing.Size(111, 28)
         Me.txtFrequn_tab1.TabIndex = 273
         '
-        'txStop_tab1
+        'txtStop_tab1
         '
-        Me.txStop_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStop_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab1.Location = New System.Drawing.Point(249, 178)
-        Me.txStop_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStop_tab1.Name = "txStop_tab1"
-        Me.txStop_tab1.Size = New System.Drawing.Size(111, 28)
-        Me.txStop_tab1.TabIndex = 272
+        Me.txtStop_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStop_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStop_tab1.Location = New System.Drawing.Point(249, 178)
+        Me.txtStop_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStop_tab1.Name = "txtStop_tab1"
+        Me.txtStop_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtStop_tab1.TabIndex = 272
         '
-        'txStep_tab1
+        'txtStep_tab1
         '
-        Me.txStep_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStep_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab1.Location = New System.Drawing.Point(249, 136)
-        Me.txStep_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStep_tab1.Name = "txStep_tab1"
-        Me.txStep_tab1.Size = New System.Drawing.Size(111, 28)
-        Me.txStep_tab1.TabIndex = 271
+        Me.txtStep_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStep_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStep_tab1.Location = New System.Drawing.Point(249, 136)
+        Me.txtStep_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStep_tab1.Name = "txtStep_tab1"
+        Me.txtStep_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtStep_tab1.TabIndex = 271
         '
         'txtStart_tab1
         '
@@ -1370,8 +1370,8 @@ Partial Class frmILMeasurement
         Me.ILSweep2.Controls.Add(Me.txtPulse_tab2)
         Me.ILSweep2.Controls.Add(Me.txtDutycycle_tab2)
         Me.ILSweep2.Controls.Add(Me.txtFrequn_tab2)
-        Me.ILSweep2.Controls.Add(Me.txStop_tab2)
-        Me.ILSweep2.Controls.Add(Me.txStep_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtStop_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtStep_tab2)
         Me.ILSweep2.Controls.Add(Me.txtStart_tab2)
         Me.ILSweep2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ILSweep2.Location = New System.Drawing.Point(4, 31)
@@ -2078,25 +2078,25 @@ Partial Class frmILMeasurement
         Me.txtFrequn_tab2.Size = New System.Drawing.Size(111, 28)
         Me.txtFrequn_tab2.TabIndex = 273
         '
-        'txStop_tab2
+        'txtStop_tab2
         '
-        Me.txStop_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStop_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab2.Location = New System.Drawing.Point(249, 178)
-        Me.txStop_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStop_tab2.Name = "txStop_tab2"
-        Me.txStop_tab2.Size = New System.Drawing.Size(111, 28)
-        Me.txStop_tab2.TabIndex = 272
+        Me.txtStop_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStop_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStop_tab2.Location = New System.Drawing.Point(249, 178)
+        Me.txtStop_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStop_tab2.Name = "txtStop_tab2"
+        Me.txtStop_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtStop_tab2.TabIndex = 272
         '
-        'txStep_tab2
+        'txtStep_tab2
         '
-        Me.txStep_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStep_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab2.Location = New System.Drawing.Point(249, 136)
-        Me.txStep_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStep_tab2.Name = "txStep_tab2"
-        Me.txStep_tab2.Size = New System.Drawing.Size(111, 28)
-        Me.txStep_tab2.TabIndex = 271
+        Me.txtStep_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStep_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStep_tab2.Location = New System.Drawing.Point(249, 136)
+        Me.txtStep_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStep_tab2.Name = "txtStep_tab2"
+        Me.txtStep_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtStep_tab2.TabIndex = 271
         '
         'txtStart_tab2
         '
@@ -2179,8 +2179,8 @@ Partial Class frmILMeasurement
         Me.ILSweep3.Controls.Add(Me.txtPulse_tab3)
         Me.ILSweep3.Controls.Add(Me.txtDutycycle_tab3)
         Me.ILSweep3.Controls.Add(Me.txtFrequn_tab3)
-        Me.ILSweep3.Controls.Add(Me.txStop_tab3)
-        Me.ILSweep3.Controls.Add(Me.txStep_tab3)
+        Me.ILSweep3.Controls.Add(Me.txtStop_tab3)
+        Me.ILSweep3.Controls.Add(Me.txtStep_tab3)
         Me.ILSweep3.Controls.Add(Me.txtStart_tab3)
         Me.ILSweep3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ILSweep3.Location = New System.Drawing.Point(4, 31)
@@ -2887,25 +2887,25 @@ Partial Class frmILMeasurement
         Me.txtFrequn_tab3.Size = New System.Drawing.Size(111, 28)
         Me.txtFrequn_tab3.TabIndex = 273
         '
-        'txStop_tab3
+        'txtStop_tab3
         '
-        Me.txStop_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStop_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab3.Location = New System.Drawing.Point(249, 178)
-        Me.txStop_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStop_tab3.Name = "txStop_tab3"
-        Me.txStop_tab3.Size = New System.Drawing.Size(111, 28)
-        Me.txStop_tab3.TabIndex = 272
+        Me.txtStop_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStop_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStop_tab3.Location = New System.Drawing.Point(249, 178)
+        Me.txtStop_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStop_tab3.Name = "txtStop_tab3"
+        Me.txtStop_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtStop_tab3.TabIndex = 272
         '
-        'txStep_tab3
+        'txtStep_tab3
         '
-        Me.txStep_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStep_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab3.Location = New System.Drawing.Point(249, 136)
-        Me.txStep_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStep_tab3.Name = "txStep_tab3"
-        Me.txStep_tab3.Size = New System.Drawing.Size(111, 28)
-        Me.txStep_tab3.TabIndex = 271
+        Me.txtStep_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStep_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStep_tab3.Location = New System.Drawing.Point(249, 136)
+        Me.txtStep_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStep_tab3.Name = "txtStep_tab3"
+        Me.txtStep_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtStep_tab3.TabIndex = 271
         '
         'txtStart_tab3
         '
@@ -2988,8 +2988,8 @@ Partial Class frmILMeasurement
         Me.ILSweep4.Controls.Add(Me.txtPulse_tab4)
         Me.ILSweep4.Controls.Add(Me.txtDutycycle_tab4)
         Me.ILSweep4.Controls.Add(Me.txtFrequn_tab4)
-        Me.ILSweep4.Controls.Add(Me.txStop_tab4)
-        Me.ILSweep4.Controls.Add(Me.txStep_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtStop_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtStep_tab4)
         Me.ILSweep4.Controls.Add(Me.txtStart_tab4)
         Me.ILSweep4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ILSweep4.Location = New System.Drawing.Point(4, 31)
@@ -3696,25 +3696,25 @@ Partial Class frmILMeasurement
         Me.txtFrequn_tab4.Size = New System.Drawing.Size(111, 28)
         Me.txtFrequn_tab4.TabIndex = 273
         '
-        'txStop_tab4
+        'txtStop_tab4
         '
-        Me.txStop_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStop_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab4.Location = New System.Drawing.Point(249, 178)
-        Me.txStop_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStop_tab4.Name = "txStop_tab4"
-        Me.txStop_tab4.Size = New System.Drawing.Size(111, 28)
-        Me.txStop_tab4.TabIndex = 272
+        Me.txtStop_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStop_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStop_tab4.Location = New System.Drawing.Point(249, 178)
+        Me.txtStop_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStop_tab4.Name = "txtStop_tab4"
+        Me.txtStop_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtStop_tab4.TabIndex = 272
         '
-        'txStep_tab4
+        'txtStep_tab4
         '
-        Me.txStep_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStep_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab4.Location = New System.Drawing.Point(249, 136)
-        Me.txStep_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStep_tab4.Name = "txStep_tab4"
-        Me.txStep_tab4.Size = New System.Drawing.Size(111, 28)
-        Me.txStep_tab4.TabIndex = 271
+        Me.txtStep_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStep_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStep_tab4.Location = New System.Drawing.Point(249, 136)
+        Me.txtStep_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStep_tab4.Name = "txtStep_tab4"
+        Me.txtStep_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtStep_tab4.TabIndex = 271
         '
         'txtStart_tab4
         '
@@ -3797,8 +3797,8 @@ Partial Class frmILMeasurement
         Me.ILSweep5.Controls.Add(Me.txtPulse_tab5)
         Me.ILSweep5.Controls.Add(Me.txtDutycycle_tab5)
         Me.ILSweep5.Controls.Add(Me.txtFrequn_tab5)
-        Me.ILSweep5.Controls.Add(Me.txStop_tab5)
-        Me.ILSweep5.Controls.Add(Me.txStep_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtStop_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtStep_tab5)
         Me.ILSweep5.Controls.Add(Me.txtStart_tab5)
         Me.ILSweep5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ILSweep5.Location = New System.Drawing.Point(4, 31)
@@ -4505,25 +4505,25 @@ Partial Class frmILMeasurement
         Me.txtFrequn_tab5.Size = New System.Drawing.Size(111, 28)
         Me.txtFrequn_tab5.TabIndex = 273
         '
-        'txStop_tab5
+        'txtStop_tab5
         '
-        Me.txStop_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStop_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab5.Location = New System.Drawing.Point(249, 178)
-        Me.txStop_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStop_tab5.Name = "txStop_tab5"
-        Me.txStop_tab5.Size = New System.Drawing.Size(111, 28)
-        Me.txStop_tab5.TabIndex = 272
+        Me.txtStop_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStop_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStop_tab5.Location = New System.Drawing.Point(249, 178)
+        Me.txtStop_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStop_tab5.Name = "txtStop_tab5"
+        Me.txtStop_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtStop_tab5.TabIndex = 272
         '
-        'txStep_tab5
+        'txtStep_tab5
         '
-        Me.txStep_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStep_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab5.Location = New System.Drawing.Point(249, 136)
-        Me.txStep_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStep_tab5.Name = "txStep_tab5"
-        Me.txStep_tab5.Size = New System.Drawing.Size(111, 28)
-        Me.txStep_tab5.TabIndex = 271
+        Me.txtStep_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStep_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStep_tab5.Location = New System.Drawing.Point(249, 136)
+        Me.txtStep_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStep_tab5.Name = "txtStep_tab5"
+        Me.txtStep_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtStep_tab5.TabIndex = 271
         '
         'txtStart_tab5
         '
@@ -4605,8 +4605,8 @@ Partial Class frmILMeasurement
         Me.ILSweep6.Controls.Add(Me.txtPulse_tab6)
         Me.ILSweep6.Controls.Add(Me.txtDutycycle_tab6)
         Me.ILSweep6.Controls.Add(Me.txtFrequn_tab6)
-        Me.ILSweep6.Controls.Add(Me.txStop_tab6)
-        Me.ILSweep6.Controls.Add(Me.txStep_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtStop_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtStep_tab6)
         Me.ILSweep6.Controls.Add(Me.txtStart_tab6)
         Me.ILSweep6.Controls.Add(Me.Label240)
         Me.ILSweep6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -5303,25 +5303,25 @@ Partial Class frmILMeasurement
         Me.txtFrequn_tab6.Size = New System.Drawing.Size(111, 28)
         Me.txtFrequn_tab6.TabIndex = 273
         '
-        'txStop_tab6
+        'txtStop_tab6
         '
-        Me.txStop_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStop_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStop_tab6.Location = New System.Drawing.Point(249, 178)
-        Me.txStop_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStop_tab6.Name = "txStop_tab6"
-        Me.txStop_tab6.Size = New System.Drawing.Size(111, 28)
-        Me.txStop_tab6.TabIndex = 272
+        Me.txtStop_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStop_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStop_tab6.Location = New System.Drawing.Point(249, 178)
+        Me.txtStop_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStop_tab6.Name = "txtStop_tab6"
+        Me.txtStop_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtStop_tab6.TabIndex = 272
         '
-        'txStep_tab6
+        'txtStep_tab6
         '
-        Me.txStep_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txStep_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txStep_tab6.Location = New System.Drawing.Point(249, 136)
-        Me.txStep_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txStep_tab6.Name = "txStep_tab6"
-        Me.txStep_tab6.Size = New System.Drawing.Size(111, 28)
-        Me.txStep_tab6.TabIndex = 271
+        Me.txtStep_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtStep_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStep_tab6.Location = New System.Drawing.Point(249, 136)
+        Me.txtStep_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtStep_tab6.Name = "txtStep_tab6"
+        Me.txtStep_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtStep_tab6.TabIndex = 271
         '
         'txtStart_tab6
         '
@@ -5448,8 +5448,8 @@ Partial Class frmILMeasurement
     Friend WithEvents txtPulse_tab1 As TextBox
     Friend WithEvents txtDutycycle_tab1 As TextBox
     Friend WithEvents txtFrequn_tab1 As TextBox
-    Friend WithEvents txStop_tab1 As TextBox
-    Friend WithEvents txStep_tab1 As TextBox
+    Friend WithEvents txtStop_tab1 As TextBox
+    Friend WithEvents txtStep_tab1 As TextBox
     Friend WithEvents txtStart_tab1 As TextBox
     Friend WithEvents Label28 As Label
     Friend WithEvents Label29 As Label
@@ -5501,8 +5501,8 @@ Partial Class frmILMeasurement
     Friend WithEvents txtPulse_tab2 As TextBox
     Friend WithEvents txtDutycycle_tab2 As TextBox
     Friend WithEvents txtFrequn_tab2 As TextBox
-    Friend WithEvents txStop_tab2 As TextBox
-    Friend WithEvents txStep_tab2 As TextBox
+    Friend WithEvents txtStop_tab2 As TextBox
+    Friend WithEvents txtStep_tab2 As TextBox
     Friend WithEvents txtStart_tab2 As TextBox
     Friend WithEvents txtImdiv_tab3 As TextBox
     Friend WithEvents txtImscale_tab3 As TextBox
@@ -5543,8 +5543,8 @@ Partial Class frmILMeasurement
     Friend WithEvents txtPulse_tab3 As TextBox
     Friend WithEvents txtDutycycle_tab3 As TextBox
     Friend WithEvents txtFrequn_tab3 As TextBox
-    Friend WithEvents txStop_tab3 As TextBox
-    Friend WithEvents txStep_tab3 As TextBox
+    Friend WithEvents txtStop_tab3 As TextBox
+    Friend WithEvents txtStep_tab3 As TextBox
     Friend WithEvents txtStart_tab3 As TextBox
     Friend WithEvents txtImdiv_tab4 As TextBox
     Friend WithEvents txtImscale_tab4 As TextBox
@@ -5585,8 +5585,8 @@ Partial Class frmILMeasurement
     Friend WithEvents txtPulse_tab4 As TextBox
     Friend WithEvents txtDutycycle_tab4 As TextBox
     Friend WithEvents txtFrequn_tab4 As TextBox
-    Friend WithEvents txStop_tab4 As TextBox
-    Friend WithEvents txStep_tab4 As TextBox
+    Friend WithEvents txtStop_tab4 As TextBox
+    Friend WithEvents txtStep_tab4 As TextBox
     Friend WithEvents txtStart_tab4 As TextBox
     Friend WithEvents txtImdiv_tab5 As TextBox
     Friend WithEvents txtImscale_tab5 As TextBox
@@ -5627,8 +5627,8 @@ Partial Class frmILMeasurement
     Friend WithEvents txtPulse_tab5 As TextBox
     Friend WithEvents txtDutycycle_tab5 As TextBox
     Friend WithEvents txtFrequn_tab5 As TextBox
-    Friend WithEvents txStop_tab5 As TextBox
-    Friend WithEvents txStep_tab5 As TextBox
+    Friend WithEvents txtStop_tab5 As TextBox
+    Friend WithEvents txtStep_tab5 As TextBox
     Friend WithEvents txtStart_tab5 As TextBox
     Friend WithEvents txtImdiv_tab6 As TextBox
     Friend WithEvents txtImscale_tab6 As TextBox
@@ -5671,8 +5671,8 @@ Partial Class frmILMeasurement
     Friend WithEvents txtPulse_tab6 As TextBox
     Friend WithEvents txtDutycycle_tab6 As TextBox
     Friend WithEvents txtFrequn_tab6 As TextBox
-    Friend WithEvents txStop_tab6 As TextBox
-    Friend WithEvents txStep_tab6 As TextBox
+    Friend WithEvents txtStop_tab6 As TextBox
+    Friend WithEvents txtStep_tab6 As TextBox
     Friend WithEvents txtStart_tab6 As TextBox
     Friend WithEvents Label240 As Label
     Friend WithEvents btnCancleILm As Button

@@ -4,7 +4,7 @@
     End Sub
 
     ' ---------------------btnSaveAll_Click---------------------
-    Private WL_Data As WL_Group_Settings
+    Private WL_Data As WL_Measure_Settings
     Private Sub btnSaveWLm_Click(sender As Object, e As EventArgs) Handles btnSaveWLm.Click
 
         Try
@@ -26,6 +26,8 @@
             WL_Data.Spec1.Points = CInt(txtPoint_tab1.Text)
             WL_Data.Spec1.Average = CInt(txtAvgtime_tab1.Text)
             WL_Data.Spec1.SweepSpeed = CInt(txtSweepSpeed_tab1.Text)
+            WL_Data.Spec1.WavelengthA = CInt(txtWavelengthA_tab1.Text)
+            WL_Data.Spec1.WavelengthB = CInt(txtWavelengthB_tab1.Text)
 
             WL_Data.Spec1.Point1 = cboMeasurePoint1_tab1.Text ' (String)
             WL_Data.Spec1.Point2 = cboMeasurePoint2_tab1.Text ' (String)
@@ -49,6 +51,8 @@
             WL_Data.Spec2.Points = CInt(txtPoint_tab2.Text)
             WL_Data.Spec2.Average = CInt(txtAvgtime_tab2.Text)
             WL_Data.Spec2.SweepSpeed = CInt(txtSweepSpeed_tab2.Text)
+            WL_Data.Spec2.WavelengthA = CInt(txtWavelengthA_tab2.Text)
+            WL_Data.Spec2.WavelengthB = CInt(txtWavelengthB_tab2.Text)
 
             WL_Data.Spec2.Point1 = cboMeasurePoint1_tab2.Text
             WL_Data.Spec2.Point2 = cboMeasurePoint2_tab2.Text
@@ -72,6 +76,8 @@
             WL_Data.Spec3.Points = CInt(txtPoint_tab3.Text)
             WL_Data.Spec3.Average = CInt(txtAvgtime_tab3.Text)
             WL_Data.Spec3.SweepSpeed = CInt(txtSweepSpeed_tab3.Text)
+            WL_Data.Spec3.WavelengthA = CInt(txtWavelengthA_tab3.Text)
+            WL_Data.Spec3.WavelengthB = CInt(txtWavelengthB_tab3.Text)
 
             WL_Data.Spec3.Point1 = cboMeasurePoint1_tab3.Text
             WL_Data.Spec3.Point2 = cboMeasurePoint2_tab3.Text
@@ -95,6 +101,8 @@
             WL_Data.Spec4.Points = CInt(txtPoint_tab4.Text)
             WL_Data.Spec4.Average = CInt(txtAvgtime_tab4.Text)
             WL_Data.Spec4.SweepSpeed = CInt(txtSweepSpeed_tab4.Text)
+            WL_Data.Spec4.WavelengthA = CInt(txtWavelengthA_tab4.Text)
+            WL_Data.Spec4.WavelengthB = CInt(txtWavelengthB_tab4.Text)
 
             WL_Data.Spec4.Point1 = cboMeasurePoint1_tab4.Text
             WL_Data.Spec4.Point2 = cboMeasurePoint2_tab4.Text
@@ -118,6 +126,8 @@
             WL_Data.Spec5.Points = CInt(txtPoint_tab5.Text)
             WL_Data.Spec5.Average = CInt(txtAvgtime_tab5.Text)
             WL_Data.Spec5.SweepSpeed = CInt(txtSweepSpeed_tab5.Text)
+            WL_Data.Spec5.WavelengthA = CInt(txtWavelengthA_tab5.Text)
+            WL_Data.Spec5.WavelengthB = CInt(txtWavelengthB_tab5.Text)
 
             WL_Data.Spec5.Point1 = cboMeasurePoint1_tab5.Text
             WL_Data.Spec5.Point2 = cboMeasurePoint2_tab5.Text
@@ -141,6 +151,8 @@
             WL_Data.Spec6.Points = CInt(txtPoint_tab6.Text)
             WL_Data.Spec6.Average = CInt(txtAvgtime_tab6.Text)
             WL_Data.Spec6.SweepSpeed = CInt(txtSweepSpeed_tab6.Text)
+            WL_Data.Spec6.WavelengthA = CInt(txtWavelengthA_tab6.Text)
+            WL_Data.Spec6.WavelengthB = CInt(txtWavelengthB_tab6.Text)
 
             WL_Data.Spec6.Point1 = cboMeasurePoint1_tab6.Text
             WL_Data.Spec6.Point2 = cboMeasurePoint2_tab6.Text
@@ -154,7 +166,7 @@
     End Sub
 
     ' --------------------- ฟังก์ชัน Load ดึงข้อมูลมาโชว์ ---------------------
-    Public Sub LoadDataToScreen(data As WL_Group_Settings)
+    Public Sub LoadDataToScreen(data As WL_Measure_Settings)
         WL_Data = data
 
         ' >>>>>>> TAB 1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

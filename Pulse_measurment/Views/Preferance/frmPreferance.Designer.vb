@@ -235,17 +235,17 @@ Partial Class frmPreferance
         '
         Me.Label62.AutoSize = True
         Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label62.Location = New System.Drawing.Point(440, 250)
+        Me.Label62.Location = New System.Drawing.Point(440, 289)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(268, 22)
+        Me.Label62.Size = New System.Drawing.Size(315, 22)
         Me.Label62.TabIndex = 226
-        Me.Label62.Text = "Temperature Controller for Base"
+        Me.Label62.Text = "LD power supply && Thermal Controller"
         '
         'txtAddress6
         '
         Me.txtAddress6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAddress6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAddress6.Location = New System.Drawing.Point(305, 247)
+        Me.txtAddress6.Location = New System.Drawing.Point(305, 286)
         Me.txtAddress6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAddress6.Name = "txtAddress6"
         Me.txtAddress6.Size = New System.Drawing.Size(126, 28)
@@ -255,7 +255,7 @@ Partial Class frmPreferance
         '
         Me.Label63.AutoSize = True
         Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(61, 247)
+        Me.Label63.Location = New System.Drawing.Point(61, 286)
         Me.Label63.Name = "Label63"
         Me.Label63.Size = New System.Drawing.Size(92, 22)
         Me.Label63.TabIndex = 224
@@ -287,7 +287,7 @@ Partial Class frmPreferance
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(440, 288)
+        Me.Label6.Location = New System.Drawing.Point(440, 250)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(147, 22)
         Me.Label6.TabIndex = 221
@@ -347,7 +347,7 @@ Partial Class frmPreferance
         '
         Me.txtAddress7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAddress7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAddress7.Location = New System.Drawing.Point(305, 284)
+        Me.txtAddress7.Location = New System.Drawing.Point(305, 246)
         Me.txtAddress7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAddress7.Name = "txtAddress7"
         Me.txtAddress7.Size = New System.Drawing.Size(126, 28)
@@ -407,7 +407,7 @@ Partial Class frmPreferance
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(61, 287)
+        Me.Label7.Location = New System.Drawing.Point(61, 249)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(168, 22)
         Me.Label7.TabIndex = 205
@@ -461,7 +461,7 @@ Partial Class frmPreferance
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(104, 22)
         Me.Label2.TabIndex = 199
-        Me.Label2.Text = "LDT-5910C"
+        Me.Label2.Text = "LDT-3724C"
         '
         'Power
         '

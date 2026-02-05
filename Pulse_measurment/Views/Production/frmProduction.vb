@@ -6,17 +6,10 @@ Public Class frmProduction
 
     ' --- Load 
     Private Sub frmProduction_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Load Operator From Opearator.txt 
-        Dim opFile As String = Path.Combine(Application.StartupPath, "SampleData\Operator.txt")
-        If File.Exists(opFile) Then
-            Dim lines As String() = File.ReadAllLines(opFile)
-            cboOperator.Items.AddRange(lines)
-        End If
+
     End Sub
 
-    ' =========================================================
-    ' 2. ปุ่ม Select Parameter (โหลดไฟล์สูตร)
-    ' =========================================================
+    ' --- btnSelect Parameter โหลดไฟล์สูตร
     Private Sub btnSelectParam_Click(sender As Object, e As EventArgs) Handles btnSelect.Click
         Dim dlg As New OpenFileDialog()
         dlg.Filter = "JSON Files|*.json|All Files|*.*"
@@ -30,22 +23,21 @@ Public Class frmProduction
 
                 UpdateScreenFromRecipe()
 
-                MessageBox.Show("โหลดสูตรสำเร็จ!")
+                MessageBox.Show("Load Parameters File Complete")
 
             Catch ex As Exception
-                MessageBox.Show("อ่านไฟล์ไม่ได้: " & ex.Message)
+                MessageBox.Show("Can not read file: " & ex.Message)
             End Try
         End If
     End Sub
 
 
-    ' 3. ปุ่ม Save Parameter (บันทึกสูตร)
-    ' ----------------------------------------------------------
+    ' --- btnSave Parameter บันทึกสูตร
     Private Sub btnSaveParam_Click(sender As Object, e As EventArgs) Handles btnSave.Click
-        ' ใช้ SaveFileDialog ให้ User เลือก Path เอง
+
         Dim dlg As New SaveFileDialog()
         dlg.Filter = "JSON Files|*.json|All Files|*.*"
-        dlg.Title = "บันทึกไฟล์ Parameter"
+        dlg.Title = "Save File"
 
         ' ตั้ง Initial Directory ไปที่ SampleData
         Dim sampleDataPath As String = Path.Combine(Application.StartupPath, "SampleData")
@@ -75,19 +67,7 @@ Public Class frmProduction
         End If
     End Sub
 
-    ' ฟังก์ชันสำหรับหาที่อยู่ของโฟลเดอร์ PRF
-    Private Function GetPRFPath() As String
-        ' ถอยออกมา 1 ขั้นจากโฟลเดอร์โปรแกรม (.exe) เพื่อหาโฟลเดอร์ PRF
-        Dim appPath As String = Application.StartupPath
-        Dim prfPath As String = Path.Combine(Directory.GetParent(appPath).FullName, "PRF")
-
-        ' ถ้ายังไม่มีโฟลเดอร์นี้ ให้สร้างรอไว้เลย
-        If Not Directory.Exists(prfPath) Then Directory.CreateDirectory(prfPath)
-
-        Return prfPath
-    End Function
-
-    ' btnSelectDataFolder เลือกโฟลเดอร์เก็บData--------------------------
+    ' ---btnSelectData folder
     Private Sub btnSelectDataFolder_Click(sender As Object, e As EventArgs) Handles btnSelectDataFolder.Click
         ' ใช้ FolderBrowserDialog (เลือกโฟลเดอร์ ไม่ใช่เลือกไฟล์)
         Dim dlg As New FolderBrowserDialog()
@@ -111,7 +91,7 @@ Public Class frmProduction
     Private Sub UpdateScreenFromRecipe()
         ' Header Info
         txtMachineNO.Text = CurrentRecipe.MachineNo
-        cboOperator.Text = CurrentRecipe.OperatorName
+        txtOperator.Text = CurrentRecipe.OperatorName
         txtPathNumber.Text = CurrentRecipe.PartNumber
         txtLotNumber.Text = CurrentRecipe.LotNumber
         txtSerialNumber.Text = CurrentRecipe.SerialNumber
@@ -174,7 +154,7 @@ Public Class frmProduction
     Private Sub UpdateRecipeFromScreen()
         ' Header Info
         CurrentRecipe.ParameterFile = txtParameterFile.Text
-        CurrentRecipe.OperatorName = cboOperator.Text
+        CurrentRecipe.OperatorName = txtOperator.Text
         CurrentRecipe.MachineNo = txtMachineNO.Text
         CurrentRecipe.PartNumber = txtPathNumber.Text
         CurrentRecipe.LotNumber = txtLotNumber.Text
@@ -234,43 +214,8 @@ Public Class frmProduction
         CurrentRecipe.Judge_Enable_Wave6 = cbJudg_Waveform6.Checked
     End Sub
 
-    Private Sub btnOperatorAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
-        Dim newName As String = InputBox("กรุณากรอกชื่อ Operator", "Add Operator")
-
-        ' ตัดช่องว่างหน้าหลังออก กัน user เคาะวรรคเล่น
-        newName = newName.Trim()
-
-        If newName <> "" Then
-            ' 1. เพิ่มลง ComboBox และเลือก
-            cboOperator.Items.Add(newName)
-            cboOperator.SelectedItem = newName
-
-            ' 2. บันทึกลงไฟล์
-            Try
-                Dim opFile As String = Path.Combine(Application.StartupPath, "SampleData\Operator.txt")
-
-                ' เช็คก่อนว่ามีโฟลเดอร์ SampleData ไหม ถ้าไม่มี ให้สร้างใหม่
-                Dim dir As String = Path.GetDirectoryName(opFile)
-                If Not Directory.Exists(dir) Then Directory.CreateDirectory(dir)
-
-                ' เขียนต่อท้ายไฟล์ Append
-                File.AppendAllText(opFile, newName & vbCrLf)
-
-            Catch ex As Exception
-                MessageBox.Show("บันทึกชื่อลงไฟล์ไม่สำเร็จ  " & ex.Message)
-            End Try
-        End If
-    End Sub
-
-    ' btnReturn ------------------------------------------------
-    Private Sub btnReturn_Click(sender As Object, e As EventArgs) Handles btnReturn.Click
-        Me.Close()
-    End Sub
-
-
-    '---------------- btn IL , WL , W Measurement ------------------------------------------------------------------------------------
-    ' btn IL Condition Measurement
-    ' =========================================================
+    '---------------- btn IL , WL , W Measurement ------------------------------------------
+    '--- btn Open IL Condition Measurement
     Private Sub btnMeasureIL_condition_Click(sender As Object, e As EventArgs) Handles btnMeasureIL_condition.Click
 
         Dim frm As New frmILMeasurement()
@@ -281,10 +226,7 @@ Public Class frmProduction
             btnMeasureIL_condition.BackColor = Color.LightGreen
         End If
     End Sub
-
-
-    ' btn WL Condition Measurement
-    ' =========================================================
+    '--- btn Open WL Condition Measurement
     Private Sub btnMeasureWL_condition_Click(sender As Object, e As EventArgs) Handles btnMeasureWL_condition.Click
         Dim frm As New frmWLMeasurement()
 
@@ -295,8 +237,7 @@ Public Class frmProduction
         End If
     End Sub
 
-    ' btn Waveform Condition Measurement
-    ' =========================================================
+    '--- btn Open W Condition Measurement
     Private Sub btnMeasureWave_condition_Click(sender As Object, e As EventArgs) Handles btnMeasureWave_condition.Click
         Dim frm As New frmWMeasurement()
 
@@ -306,13 +247,11 @@ Public Class frmProduction
         End If
     End Sub
 
-    '---------------- btn IL , WL , W Judgment ------------------------------------------------------------------------------------
-    ' btn IL Condition Judgment
-    ' =========================================================
+
+    '---------------- btn IL , WL , W Judgment ---------------------------------------------
+    '--- btn Open IL Condition Measurement
     Private Sub btnJudgIL_condition_Click(sender As Object, e As EventArgs) Handles btnJudgIL_condition.Click
         Dim frm As New frmiLJudgment()
-
-        ' ส่งข้อมูล Judge IL ไป
         frm.LoadDataToScreen(CurrentRecipe.Judge_IL_Settings)
 
         If frm.ShowDialog() = DialogResult.OK Then
@@ -320,12 +259,9 @@ Public Class frmProduction
         End If
     End Sub
 
-    ' btn WL Condition Judgment
-    ' =========================================================
+    '--- btn Open WL Condition Measurement
     Private Sub btnJudgWL_condition_Click(sender As Object, e As EventArgs) Handles btnJudgWL_condition.Click
         Dim frm As New frmWLJudgment()
-
-        ' ส่งข้อมูล Judge WL ไป
         frm.LoadDataToScreen(CurrentRecipe.Judge_WL_Settings)
 
         If frm.ShowDialog() = DialogResult.OK Then
@@ -333,17 +269,19 @@ Public Class frmProduction
         End If
     End Sub
 
-    ' btn W Condition Judgment
-    ' =========================================================
+    '--- btn Open W Condition Measurement
     Private Sub btnJudgW_condition_Click(sender As Object, e As EventArgs) Handles btnJudgW_condition.Click
         Dim frm As New frmWJudgment()
-
-        ' ส่งข้อมูล Judge Wave ไป
         frm.LoadDataToScreen(CurrentRecipe.Judge_W_Settings)
 
         If frm.ShowDialog() = DialogResult.OK Then
             btnJudgW_condition.BackColor = Color.LightGreen
         End If
+    End Sub
+
+    ' btnReturn ------------------------------------------------
+    Private Sub btnReturn_Click(sender As Object, e As EventArgs) Handles btnReturn.Click
+        Me.Close()
     End Sub
 
     Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click

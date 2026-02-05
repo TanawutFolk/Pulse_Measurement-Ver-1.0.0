@@ -1,5 +1,4 @@
 ﻿Imports System.IO
-Imports System.Resources
 Imports Newtonsoft.Json
 
 Public Class frmPreferance
@@ -18,7 +17,7 @@ Public Class frmPreferance
         Me.Close()
     End Sub
 
-    '-------------------------------- btnSave (ปุ่มบันทึก) --------------------------------
+    '-------------------------------- btnSave --------------------------------
     Private Sub SaveAll_Click(sender As Object, e As EventArgs) Handles _
             btnSaveGPIBaddress.Click,
             btnSavepowermea.Click,
@@ -63,7 +62,7 @@ Public Class frmPreferance
                 Return
             End If
 
-            Dim data As New PreferanceConfig()
+            Dim data As New PreferanceParameter()
 
             ' --- Tab 1: GPIB ---
             data.GPIB_address.LDT_5910C_TempControlLD = txtAddress1.Text
@@ -181,7 +180,7 @@ Public Class frmPreferance
         Dim fileName As String = "Pulse_" & GlobalVariables.CurrentProduct & ".json"
         Dim fullPath As String = Path.Combine(GlobalVariables.GetPRFPath(), fileName)
 
-        Dim data As PreferanceConfig
+        Dim data As PreferanceParameter
 
         ' เช็คว่ามีไฟล์นี้จริงไหม
         If File.Exists(fullPath) Then
@@ -190,16 +189,16 @@ Public Class frmPreferance
                 Dim json As String = File.ReadAllText(fullPath)
 
                 ' 2. แปลงจากข้อความ JSON กลับเป็น Class
-                data = JsonConvert.DeserializeObject(Of PreferanceConfig)(json)
+                data = JsonConvert.DeserializeObject(Of PreferanceParameter)(json)
 
             Catch ex As Exception
                 MessageBox.Show("โหลดข้อมูลไม่สำเร็จ: " & ex.Message)
                 ' ถ้าโหลดไม่สำเร็จ ให้สร้างค่าเริ่มต้นใหม่
-                data = New PreferanceConfig()
+                data = New PreferanceParameter()
             End Try
         Else
             ' ถ้ายังไม่มีไฟล์ ให้สร้างค่าเริ่มต้น
-            data = New PreferanceConfig()
+            data = New PreferanceParameter()
         End If
 
         ' 3. เอาค่าใส่ TextBox ทีละช่อง
@@ -286,37 +285,159 @@ Public Class frmPreferance
 
         LoadData()
     End Sub
+
     '----------- Connect All Devices -----------------
-    Public Sub ConnectDevices()
-        Try
-            'Todo: กี่เครื่องไม่รุ้ตอนนี้ 
-            instrument1 = resoureceManager.Open("GPIB0::" & txtAddress1.Text & "::INSTR")
-            instrument1.TimeoutMilliseconds = 5000
+    'Public Sub ConnectDevices()
 
-            instrument2 = resoureceManager.Open("GPIB0::" & txtAddress2.Text & "::INSTR")
-            instrument2.TimeoutMilliseconds = 5000
+    '    Dim gpibBoxes As TextBox() = {txtAddress1, txtAddress2, txtAddress3, txtAddress4, txtAddress5, txtAddress6, txtAddress7}
 
-            instrument3 = resoureceManager.Open("GPIB0::" & txtAddress3.Text & "::INSTR")
-            instrument3.TimeoutMilliseconds = 5000
+    '    Try
+    '        ' GPIB -----
+    '        For i As Integer = 0 To gpibBoxes.Length - 1
+    '            Dim addr As String = gpibBoxes(i).Text.Trim()
 
-            instrument4 = resoureceManager.Open("GPIB0::" & txtAddress4.Text & "::INSTR")
-            instrument4.TimeoutMilliseconds = 5000
+    '            If Not String.IsNullOrEmpty(addr) Then
+    '                Try
+    '                    'Connection String
+    '                    Dim connStr As String = "GPIB0::" & addr & "::INSTR"
+    '                    Dim instr As MessageBasedSession = rm.Open(connStr)
+    '                    instr.TimeoutMilliseconds = 5000 ' ตั้งเวลา TimeOut
 
-            instrument5 = resoureceManager.Open("GPIB0::" & txtAddress5.Text & "::INSTR")
-            instrument5.TimeoutMilliseconds = 5000
+    '                    'Mapping
+    '                    Select Case i
+    '                        Case 0 : instrument1 = instr ' LDT-5910C
+    '                        Case 1 : instrument2 = instr ' YOKOGAWA OSA
+    '                        Case 2 : instrument3 = instr ' SANTEC
+    '                        Case 3 : instrument4 = instr ' AQ2211
+    '                        Case 4 : instrument5 = instr ' FUKKO
+    '                        Case 5 : instrument6 = instr ' OFS
+    '                        Case 6 : instrument7 = instr ' KEYSIGHT 34416A
+    '                    End Select
 
-            instrument6 = resoureceManager.Open("GPIB0::" & txtAddress6.Text & "::INSTR")
-            instrument6.TimeoutMilliseconds = 5000
+    '                Catch ex As Exception
+    '                    MessageBox.Show($"GPIB Address {addr} Error: " & ex.Message)
+    '                End Try
+    '            End If
+    '        Next
 
-            'Todo: พี่ย้งบอกมี 2 เครื่องเป็น USB CCS-HHP, keysight oscilloscope
-            usbInstrument1 = rm.Open("USB0::0x0123::0x4567::SN12345::0::INSTR")
-            usbIntrument1.TimeoutMillisecond = 5000
-            usbInstrument2 = rm.Open("USB0::0x0987::0x6543::SN67890::0::INSTR")
-            usbIntrument2.TimeoutMillisecond = 5000
+    '        'USB CCS-HPP
+    '        Try
+    '            ' ดึงค่าจากช่อง Comport (สมมติว่าชื่อ txtComportCCS) 
+    '            ' ค่าในช่องคือ "Comport3" เราต้องตัดคำว่า "Comport" ออกให้เหลือเลข "3"
+    '            Dim portName As String = txtComport.Text ' ได้ค่า "Comport3"
+    '            Dim portNum As String = portName.Replace("Comport", "").Trim() ' เหลือ "3"
 
-            MessageBox.Show("Connected All Devices ♥ ")
-        Catch ex As Exception
-            MessageBox.Show("Connect Error !!!!!" & ex.Message)
-        End Try
-    End Sub
+    '            ' สร้าง Address แบบ Serial (ASRL)
+    '            Dim ccsAddress As String = "ASRL" & portNum & "::INSTR" ' ผลลัพธ์: ASRL3::INSTR
+
+    '            usbIntrument1 = rm.Open(ccsAddress)
+    '            usbIntrument1.TimeoutMilliseconds = 5000
+    '            ' บางครั้ง Serial ต้องเปิด Termination Character (เช็คคู่มือ CCS อีกทีครับ)
+    '            ' usbIntrument1.TerminationCharacterEnabled = True 
+
+    '        Catch ex As Exception
+    '            MessageBox.Show("CCS-HPP (USB/Serial) Connect Error: " & ex.Message)
+    '        End Try
+
+    '        ' ==================================================
+    '        ' PART 3: เชื่อมต่อ USB ตัวที่ 2 (Oscilloscope) -> แบบ USB แท้
+    '        ' ==================================================
+    '        Try
+    '            ' Oscilloscope ส่วนใหญ่ Address จะยาวมากและไม่ค่อยเปลี่ยน
+    '            ' แนะนำให้ Hardcode ค่าที่ได้จาก NI MAX ใส่ลงไปเลยครับ
+    '            Dim scopeAddress As String = "USB0::0x0957::0x1796::MY5000000::0::INSTR" ' <--- แก้ตรงนี้ให้ตรงกับใน NI MAX
+
+    '            usbIntrument2 = rm.Open(scopeAddress)
+    '            usbIntrument2.TimeoutMilliseconds = 5000
+
+    '            ' สั่ง Reset Scope สักทีเพื่อความชัวร์ (ถ้าต้องการ)
+    '            ' usbIntrument2.RawIO.Write("*RST")
+
+    '        Catch ex As Exception
+    '            MessageBox.Show("Oscilloscope (USB) Connect Error: " & ex.Message)
+    '        End Try
+
+    '        MessageBox.Show("การเชื่อมต่อเสร็จสมบูรณ์!")
+
+    '    Catch ex As Exception
+    '        MessageBox.Show("System Critical Error: " & ex.Message)
+    '    End Try
+
+    '    'Dim gpibBoxes As TextBox() = {txtAddress1, txtAddress2, txtAddress3, txtAddress4, txtAddress5, txtAddress6}
+    '    'Dim instruments As New List(Of ImessageBasedSession)
+
+    '    'Try
+    '    '    'GPIB
+    '    '    For i As Integer = 0 To gpibBoxes.Length - 1
+    '    '        Dim addr As String = gpibBoxes(i).Text
+    '    '        If Not String.IsNullOrEmpty(addr) Then
+    '    '            Try
+    '    '                Dim instr = CType(rm.open("GPIB0::" & addr & "::INSTR"), IMessageBasedSession)
+    '    '                instr.TimeOutMilliseconds = 5000
+
+    '    '                ' *IDN = Identification
+    '    '                instr.RawIO.Write("*IDN?")
+    '    '                Dim idn As String = instr.RawIO.ReadString()
+
+    '    '                instruments.Add(instr)
+    '    '                Console.WriteLine($"GPIB Address {addr} Connected: {idn}")
+    '    '            Catch ex As Exception
+    '    '                MessageBox.Show($" GPIB {i + 1} (Addr: {addr}) Error Connect !!!  " & ex.Message)
+
+    '    '            End Try
+    '    '        End If
+    '    '    Next
+    '    '    'USB(CCS-HPP, OCS)
+    '    '    Dim usbAddresses As String() = {
+    '    '        "USB0::0x0123::0x4567::SN12345::0::INSTR",
+    '    '        "USB0::0x0987::0x6543::SN67890::0::INSTR"
+    '    '    }
+
+    '    '    For Each usbAddr In usbAddresses
+    '    '        Try
+    '    '            Dim usbInstr = CType(.rm.open(usbAddr), IMessageBasedSession)
+    '    '            usbInstr.TimeoutMilliseconds = 5000
+    '    '            intruments.Add(usbInstr)
+    '    '        Catch ex As Exception
+    '    '            MessageBox.Show($"USB Device {usbAddr} Can not Connect!!!")
+    '    '        End Try
+    '    '    Next
+    '    '    MessageBox.Show($"Connected  {instruments.Count} Devices ♥♥♥")
+    '    'Catch ex As Exception
+    '    '    MessageBox.Show("Error pls Contact Production !!!" & ex.Message)
+    '    'End Try
+
+
+    '    'Try
+    '    '    'Todo: กี่เครื่องไม่รุ้ตอนนี้ 
+    '    '    instrument1 = rm.Open("GPIB0::" & txtAddress1.Text & "::INSTR")
+    '    '    instrument1.TimeoutMilliseconds = 5000
+
+
+    '    '    instrument2 = rm.Open("GPIB0::" & txtAddress2.Text & "::INSTR")
+    '    '    instrument2.TimeoutMilliseconds = 5000
+
+    '    '    instrument3 = rm.Open("GPIB0::" & txtAddress3.Text & "::INSTR")
+    '    '    instrument3.TimeoutMilliseconds = 5000
+
+    '    '    instrument4 = rm.Open("GPIB0::" & txtAddress4.Text & "::INSTR")
+    '    '    instrument4.TimeoutMilliseconds = 5000
+
+    '    '    instrument5 = rm.Open("GPIB0::" & txtAddress5.Text & "::INSTR")
+    '    '    instrument5.TimeoutMilliseconds = 5000
+
+    '    '    instrument6 = rm.Open("GPIB0::" & txtAddress6.Text & "::INSTR")
+    '    '    instrument6.TimeoutMilliseconds = 5000
+
+    '    '    'Todo: พี่ย้งบอกมี 2 เครื่องเป็น USB CCS-HHP, keysight oscilloscope
+    '    '    usbInstrument1 = rm.Open("USB0::0x0123::0x4567::SN12345::0::INSTR")
+    '    '    usbIntrument1.TimeoutMillisecond = 5000
+    '    '    usbInstrument2 = rm.Open("USB0::0x0987::0x6543::SN67890::0::INSTR")
+    '    '    usbIntrument2.TimeoutMillisecond = 5000
+
+    '    '    MessageBox.Show("Connected All Devices ♥ ")
+    '    'Catch ex As Exception
+    '    '    MessageBox.Show("Connect Error !!!!!" & ex.Message)
+    '    'End Try
+    'End Sub
 End Class

@@ -30,8 +30,6 @@ Partial Class frmProduction
         Me.txtParameterFile = New System.Windows.Forms.TextBox()
         Me.btnSelect = New System.Windows.Forms.Button()
         Me.btnSave = New System.Windows.Forms.Button()
-        Me.btnAdd = New System.Windows.Forms.Button()
-        Me.cboOperator = New System.Windows.Forms.ComboBox()
         Me.txtMachineNO = New System.Windows.Forms.TextBox()
         Me.txtPathNumber = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -101,6 +99,7 @@ Partial Class frmProduction
         Me.cbMeasureIL3 = New System.Windows.Forms.CheckBox()
         Me.cbMeasureIL1 = New System.Windows.Forms.CheckBox()
         Me.btnMeasureIL_condition = New System.Windows.Forms.Button()
+        Me.txtOperator = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -127,7 +126,7 @@ Partial Class frmProduction
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(83, 124)
+        Me.Label3.Location = New System.Drawing.Point(83, 127)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(75, 20)
         Me.Label3.TabIndex = 10
@@ -184,27 +183,6 @@ Partial Class frmProduction
         Me.btnSave.TabIndex = 15
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
-        '
-        'btnAdd
-        '
-        Me.btnAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdd.Location = New System.Drawing.Point(867, 126)
-        Me.btnAdd.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(84, 30)
-        Me.btnAdd.TabIndex = 16
-        Me.btnAdd.Text = "Add"
-        Me.btnAdd.UseVisualStyleBackColor = True
-        '
-        'cboOperator
-        '
-        Me.cboOperator.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboOperator.FormattingEnabled = True
-        Me.cboOperator.Location = New System.Drawing.Point(235, 124)
-        Me.cboOperator.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.cboOperator.Name = "cboOperator"
-        Me.cboOperator.Size = New System.Drawing.Size(259, 28)
-        Me.cboOperator.TabIndex = 17
         '
         'txtMachineNO
         '
@@ -995,6 +973,16 @@ Partial Class frmProduction
         Me.btnMeasureIL_condition.Text = "IL Condition"
         Me.btnMeasureIL_condition.UseVisualStyleBackColor = True
         '
+        'txtOperator
+        '
+        Me.txtOperator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOperator.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOperator.Location = New System.Drawing.Point(235, 127)
+        Me.txtOperator.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtOperator.Name = "txtOperator"
+        Me.txtOperator.Size = New System.Drawing.Size(166, 27)
+        Me.txtOperator.TabIndex = 96
+        '
         'frmProduction
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -1003,6 +991,7 @@ Partial Class frmProduction
         Me.AutoScrollMargin = New System.Drawing.Size(10, 10)
         Me.AutoScrollMinSize = New System.Drawing.Size(10, 30)
         Me.ClientSize = New System.Drawing.Size(1069, 1062)
+        Me.Controls.Add(Me.txtOperator)
         Me.Controls.Add(Me.btnMeasureIL_condition)
         Me.Controls.Add(Me.cbMeasureIL2)
         Me.Controls.Add(Me.cbMeasureIL6)
@@ -1072,8 +1061,6 @@ Partial Class frmProduction
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.txtPathNumber)
         Me.Controls.Add(Me.txtMachineNO)
-        Me.Controls.Add(Me.cboOperator)
-        Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnSelect)
         Me.Controls.Add(Me.txtParameterFile)
@@ -1100,8 +1087,6 @@ Partial Class frmProduction
     Friend WithEvents txtParameterFile As TextBox
     Friend WithEvents btnSelect As Button
     Friend WithEvents btnSave As Button
-    Friend WithEvents btnAdd As Button
-    Friend WithEvents cboOperator As ComboBox
     Friend WithEvents txtMachineNO As TextBox
     Friend WithEvents txtPathNumber As TextBox
     Friend WithEvents Label6 As Label
@@ -1171,4 +1156,5 @@ Partial Class frmProduction
     Friend WithEvents cbMeasureIL3 As CheckBox
     Friend WithEvents cbMeasureIL1 As CheckBox
     Friend WithEvents btnMeasureIL_condition As Button
+    Friend WithEvents txtOperator As TextBox
 End Class

@@ -5,7 +5,7 @@
     End Sub
 
     ' ---------------------btnSaveAll_Click---------------------
-    Private W_Data As W_Group_Settings
+    Private W_Data As W_Measure_Settings
     Private Sub btnSaveWm_Click(sender As Object, e As EventArgs) Handles btnSaveWm.Click
         Try
 
@@ -203,7 +203,7 @@
     End Sub
 
     ' --------------------- ฟังก์ชัน Load (ดึงข้อมูลมาโชว์) ---------------------
-    Public Sub LoadDataToScreen(data As W_Group_Settings)
+    Public Sub LoadDataToScreen(data As W_Measure_Settings)
         W_Data = data
 
         ' >>>>>>> TAB 1 <<<<<<<

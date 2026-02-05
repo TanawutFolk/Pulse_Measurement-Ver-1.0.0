@@ -4,7 +4,7 @@
     End Sub
 
     ' ---------------------btnSaveAll_Click---------------------
-    Private IL_Data As IL_Group_Settings
+    Private IL_Data As IL_Measure_Settings
     Private Sub btnSaveILm_Click(sender As Object, e As EventArgs) Handles btnSaveILm.Click
 
         Try
@@ -12,8 +12,8 @@
             ' >>>>>>> TAB 1 <<<<<<<
             ' โซน 1
             IL_Data.L1.IfStart = CDbl(txtStart_tab1.Text)
-            IL_Data.L1.IfStep = CDbl(txStep_tab1.Text)
-            IL_Data.L1.IfStop = CDbl(txStop_tab1.Text)
+            IL_Data.L1.IfStep = CDbl(txtStep_tab1.Text)
+            IL_Data.L1.IfStop = CDbl(txtStop_tab1.Text)
             IL_Data.L1.Frequency = CDbl(txtFrequn_tab1.Text)
             IL_Data.L1.DutyCycle = CDbl(txtDutycycle_tab1.Text)
             IL_Data.L1.PulseWidth = GetVal(txtPulse_tab1.Text)
@@ -50,8 +50,8 @@
 
             ' >>>>>>> TAB 2 <<<<<<<
             IL_Data.L2.IfStart = CDbl(txtStart_tab2.Text)
-            IL_Data.L2.IfStep = CDbl(txStep_tab2.Text)
-            IL_Data.L2.IfStop = CDbl(txStop_tab2.Text)
+            IL_Data.L2.IfStep = CDbl(txtStep_tab2.Text)
+            IL_Data.L2.IfStop = CDbl(txtStop_tab2.Text)
             IL_Data.L2.Frequency = CDbl(txtFrequn_tab2.Text)
             IL_Data.L2.DutyCycle = CDbl(txtDutycycle_tab2.Text)
             IL_Data.L2.PulseWidth = GetVal(txtPulse_tab2.Text)
@@ -86,8 +86,8 @@
 
             ' >>>>>>> TAB 3 <<<<<<<
             IL_Data.L3.IfStart = CDbl(txtStart_tab3.Text)
-            IL_Data.L3.IfStep = CDbl(txStep_tab3.Text)
-            IL_Data.L3.IfStop = CDbl(txStop_tab3.Text)
+            IL_Data.L3.IfStep = CDbl(txtStep_tab3.Text)
+            IL_Data.L3.IfStop = CDbl(txtStop_tab3.Text)
             IL_Data.L3.Frequency = CDbl(txtFrequn_tab3.Text)
             IL_Data.L3.DutyCycle = CDbl(txtDutycycle_tab3.Text)
             IL_Data.L3.PulseWidth = GetVal(txtPulse_tab3.Text)
@@ -122,8 +122,8 @@
 
             ' >>>>>>> TAB 4 <<<<<<<
             IL_Data.L4.IfStart = CDbl(txtStart_tab4.Text)
-            IL_Data.L4.IfStep = CDbl(txStep_tab4.Text)
-            IL_Data.L4.IfStop = CDbl(txStop_tab4.Text)
+            IL_Data.L4.IfStep = CDbl(txtStep_tab4.Text)
+            IL_Data.L4.IfStop = CDbl(txtStop_tab4.Text)
             IL_Data.L4.Frequency = CDbl(txtFrequn_tab4.Text)
             IL_Data.L4.DutyCycle = CDbl(txtDutycycle_tab4.Text)
             IL_Data.L4.PulseWidth = GetVal(txtPulse_tab4.Text)
@@ -158,8 +158,8 @@
 
             ' >>>>>>> TAB 5 <<<<<<<
             IL_Data.L5.IfStart = CDbl(txtStart_tab5.Text)
-            IL_Data.L5.IfStep = CDbl(txStep_tab5.Text)
-            IL_Data.L5.IfStop = CDbl(txStop_tab5.Text)
+            IL_Data.L5.IfStep = CDbl(txtStep_tab5.Text)
+            IL_Data.L5.IfStop = CDbl(txtStop_tab5.Text)
             IL_Data.L5.Frequency = CDbl(txtFrequn_tab5.Text)
             IL_Data.L5.DutyCycle = CDbl(txtDutycycle_tab5.Text)
             IL_Data.L5.PulseWidth = GetVal(txtPulse_tab5.Text)
@@ -194,8 +194,8 @@
 
             ' >>>>>>> TAB 6 <<<<<<<
             IL_Data.L6.IfStart = CDbl(txtStart_tab6.Text)
-            IL_Data.L6.IfStep = CDbl(txStep_tab6.Text)
-            IL_Data.L6.IfStop = CDbl(txStop_tab6.Text)
+            IL_Data.L6.IfStep = CDbl(txtStep_tab6.Text)
+            IL_Data.L6.IfStop = CDbl(txtStop_tab6.Text)
             IL_Data.L6.Frequency = CDbl(txtFrequn_tab6.Text)
             IL_Data.L6.DutyCycle = CDbl(txtDutycycle_tab6.Text)
             IL_Data.L6.PulseWidth = GetVal(txtPulse_tab6.Text)
@@ -232,18 +232,18 @@
             Me.Close()
 
         Catch ex As Exception
-            MessageBox.Show("กรุณากรอกตัวเลขให้ครบทุกช่อง", "Warning")
+            MessageBox.Show("TEST", "Warning")
         End Try
     End Sub
 
     ' ------ฟังก์ชัน Load เอาข้อมูลจากตัวแปร มาแสดงในหน้าจอ--------------------
-    Public Sub LoadDataToScreen(data As IL_Group_Settings)
+    Public Sub LoadDataToScreen(data As IL_Measure_Settings)
         IL_Data = data
         '--------tab 1----------------------------------------
         ' --- โซน 1: If Sweep ฝั่งซ้าย ---
         txtStart_tab1.Text = IL_Data.L1.IfStart.ToString()
-        txStep_tab1.Text = IL_Data.L1.IfStep.ToString()
-        txStop_tab1.Text = IL_Data.L1.IfStop.ToString()
+        txtStep_tab1.Text = IL_Data.L1.IfStep.ToString()
+        txtStop_tab1.Text = IL_Data.L1.IfStop.ToString()
         txtFrequn_tab1.Text = IL_Data.L1.Frequency.ToString()
         txtDutycycle_tab1.Text = IL_Data.L1.DutyCycle.ToString()
         txtPulse_tab1.Text = IL_Data.L1.PulseWidth.ToString()
@@ -267,7 +267,7 @@
         ' --- โซน 3: Graph Scale/Div ฝั่งขวา ---
         ' If
         txtIfscale_tab1.Text = IL_Data.L1.Scale_If.ToString()
-        txtIfdiv_tab1.Text = IL_Data.L1.Div_If.ToString() ' <-- ของคุณน่าจะเป็น txtIfdiv_tab1 แก้ตรงนี้เอานะ
+        txtIfdiv_tab1.Text = IL_Data.L1.Div_If.ToString()
         ' Vf
         txtVfscale_tab1.Text = IL_Data.L1.Scale_Vf.ToString()
         txtVfdiv_tab1.Text = IL_Data.L1.Div_Vf.ToString()
@@ -287,8 +287,8 @@
         '--------tab 2----------------------------------------
         ' --- โซน 1: If Sweep ฝั่งซ้าย ---
         txtStart_tab2.Text = IL_Data.L2.IfStart.ToString()
-        txStep_tab2.Text = IL_Data.L2.IfStep.ToString()
-        txStop_tab2.Text = IL_Data.L2.IfStop.ToString()
+        txtStep_tab2.Text = IL_Data.L2.IfStep.ToString()
+        txtStop_tab2.Text = IL_Data.L2.IfStop.ToString()
         txtFrequn_tab2.Text = IL_Data.L2.Frequency.ToString()
         txtDutycycle_tab2.Text = IL_Data.L2.DutyCycle.ToString()
         txtPulse_tab2.Text = IL_Data.L2.PulseWidth.ToString()
@@ -312,7 +312,7 @@
         ' --- โซน 3: Graph Scale/Div ฝั่งขวา ---
         ' If
         txtIfscale_tab2.Text = IL_Data.L2.Scale_If.ToString()
-        txtIfdiv_tab2.Text = IL_Data.L2.Div_If.ToString() ' <-- ของคุณน่าจะเป็น txtIfdiv_tab2 แก้ตรงนี้เอานะ
+        txtIfdiv_tab2.Text = IL_Data.L2.Div_If.ToString()
         ' Vf
         txtVfscale_tab2.Text = IL_Data.L2.Scale_Vf.ToString()
         txtVfdiv_tab2.Text = IL_Data.L2.Div_Vf.ToString()
@@ -332,8 +332,8 @@
         '--------tab 3----------------------------------------
         ' --- โซน 1: If Sweep ฝั่งซ้าย ---
         txtStart_tab3.Text = IL_Data.L3.IfStart.ToString()
-        txStep_tab3.Text = IL_Data.L3.IfStep.ToString()
-        txStop_tab3.Text = IL_Data.L3.IfStop.ToString()
+        txtStep_tab3.Text = IL_Data.L3.IfStep.ToString()
+        txtStop_tab3.Text = IL_Data.L3.IfStop.ToString()
         txtFrequn_tab3.Text = IL_Data.L3.Frequency.ToString()
         txtDutycycle_tab3.Text = IL_Data.L3.DutyCycle.ToString()
         txtPulse_tab3.Text = IL_Data.L3.PulseWidth.ToString()
@@ -377,8 +377,8 @@
         '--------tab 4----------------------------------------
         ' --- โซน 1: If Sweep ฝั่งซ้าย ---
         txtStart_tab4.Text = IL_Data.L4.IfStart.ToString()
-        txStep_tab4.Text = IL_Data.L4.IfStep.ToString()
-        txStop_tab4.Text = IL_Data.L4.IfStop.ToString()
+        txtStep_tab4.Text = IL_Data.L4.IfStep.ToString()
+        txtStop_tab4.Text = IL_Data.L4.IfStop.ToString()
         txtFrequn_tab4.Text = IL_Data.L4.Frequency.ToString()
         txtDutycycle_tab4.Text = IL_Data.L4.DutyCycle.ToString()
         txtPulse_tab4.Text = IL_Data.L4.PulseWidth.ToString()
@@ -422,8 +422,8 @@
         '--------tab 5----------------------------------------
         ' --- โซน 1: If Sweep ฝั่งซ้าย ---
         txtStart_tab5.Text = IL_Data.L5.IfStart.ToString()
-        txStep_tab5.Text = IL_Data.L5.IfStep.ToString()
-        txStop_tab5.Text = IL_Data.L5.IfStop.ToString()
+        txtStep_tab5.Text = IL_Data.L5.IfStep.ToString()
+        txtStop_tab5.Text = IL_Data.L5.IfStop.ToString()
         txtFrequn_tab5.Text = IL_Data.L5.Frequency.ToString()
         txtDutycycle_tab5.Text = IL_Data.L5.DutyCycle.ToString()
         txtPulse_tab5.Text = IL_Data.L5.PulseWidth.ToString()
@@ -467,8 +467,8 @@
         '--------tab 6----------------------------------------
         ' --- โซน 1: If Sweep ฝั่งซ้าย ---
         txtStart_tab6.Text = IL_Data.L6.IfStart.ToString()
-        txStep_tab6.Text = IL_Data.L6.IfStep.ToString()
-        txStop_tab6.Text = IL_Data.L6.IfStop.ToString()
+        txtStep_tab6.Text = IL_Data.L6.IfStep.ToString()
+        txtStop_tab6.Text = IL_Data.L6.IfStop.ToString()
         txtFrequn_tab6.Text = IL_Data.L6.Frequency.ToString()
         txtDutycycle_tab6.Text = IL_Data.L6.DutyCycle.ToString()
         txtPulse_tab6.Text = IL_Data.L6.PulseWidth.ToString()

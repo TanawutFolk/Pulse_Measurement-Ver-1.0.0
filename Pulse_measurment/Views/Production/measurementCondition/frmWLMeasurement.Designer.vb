@@ -23,6 +23,24 @@ Partial Class frmWLMeasurement
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Spectrum6 = New System.Windows.Forms.TabPage()
+        Me.Label95 = New System.Windows.Forms.Label()
+        Me.Label104 = New System.Windows.Forms.Label()
+        Me.Label87 = New System.Windows.Forms.Label()
+        Me.Label88 = New System.Windows.Forms.Label()
+        Me.Label89 = New System.Windows.Forms.Label()
+        Me.Label90 = New System.Windows.Forms.Label()
+        Me.Label91 = New System.Windows.Forms.Label()
+        Me.Label92 = New System.Windows.Forms.Label()
+        Me.Label93 = New System.Windows.Forms.Label()
+        Me.Label94 = New System.Windows.Forms.Label()
+        Me.Label96 = New System.Windows.Forms.Label()
+        Me.Label97 = New System.Windows.Forms.Label()
+        Me.Label98 = New System.Windows.Forms.Label()
+        Me.Label99 = New System.Windows.Forms.Label()
+        Me.Label100 = New System.Windows.Forms.Label()
+        Me.Label101 = New System.Windows.Forms.Label()
+        Me.Label102 = New System.Windows.Forms.Label()
+        Me.Label103 = New System.Windows.Forms.Label()
         Me.cboSen_tab6 = New System.Windows.Forms.ComboBox()
         Me.txtSweepSpeed_tab6 = New System.Windows.Forms.TextBox()
         Me.txtAvgtime_tab6 = New System.Windows.Forms.TextBox()
@@ -43,6 +61,24 @@ Partial Class frmWLMeasurement
         Me.cboMeasurePoint1_tab6 = New System.Windows.Forms.ComboBox()
         Me.Label105 = New System.Windows.Forms.Label()
         Me.Spectrum5 = New System.Windows.Forms.TabPage()
+        Me.Label76 = New System.Windows.Forms.Label()
+        Me.Label85 = New System.Windows.Forms.Label()
+        Me.Label68 = New System.Windows.Forms.Label()
+        Me.Label69 = New System.Windows.Forms.Label()
+        Me.Label70 = New System.Windows.Forms.Label()
+        Me.Label71 = New System.Windows.Forms.Label()
+        Me.Label72 = New System.Windows.Forms.Label()
+        Me.Label73 = New System.Windows.Forms.Label()
+        Me.Label74 = New System.Windows.Forms.Label()
+        Me.Label75 = New System.Windows.Forms.Label()
+        Me.Label77 = New System.Windows.Forms.Label()
+        Me.Label78 = New System.Windows.Forms.Label()
+        Me.Label79 = New System.Windows.Forms.Label()
+        Me.Label80 = New System.Windows.Forms.Label()
+        Me.Label81 = New System.Windows.Forms.Label()
+        Me.Label82 = New System.Windows.Forms.Label()
+        Me.Label83 = New System.Windows.Forms.Label()
+        Me.Label84 = New System.Windows.Forms.Label()
         Me.cboSen_tab5 = New System.Windows.Forms.ComboBox()
         Me.txtSweepSpeed_tab5 = New System.Windows.Forms.TextBox()
         Me.txtAvgtime_tab5 = New System.Windows.Forms.TextBox()
@@ -63,6 +99,24 @@ Partial Class frmWLMeasurement
         Me.cboMeasurePoint1_tab5 = New System.Windows.Forms.ComboBox()
         Me.Label86 = New System.Windows.Forms.Label()
         Me.Spectrum4 = New System.Windows.Forms.TabPage()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
+        Me.Label49 = New System.Windows.Forms.Label()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.Label51 = New System.Windows.Forms.Label()
+        Me.Label52 = New System.Windows.Forms.Label()
+        Me.Label53 = New System.Windows.Forms.Label()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.Label55 = New System.Windows.Forms.Label()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.Label58 = New System.Windows.Forms.Label()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.Label65 = New System.Windows.Forms.Label()
         Me.cboSen_tab4 = New System.Windows.Forms.ComboBox()
         Me.txtSweepSpeed_tab4 = New System.Windows.Forms.TextBox()
         Me.txtAvgtime_tab4 = New System.Windows.Forms.TextBox()
@@ -83,6 +137,24 @@ Partial Class frmWLMeasurement
         Me.cboMeasurePoint1_tab4 = New System.Windows.Forms.ComboBox()
         Me.Label67 = New System.Windows.Forms.Label()
         Me.Spectrum3 = New System.Windows.Forms.TabPage()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Label46 = New System.Windows.Forms.Label()
         Me.cboSen_tab3 = New System.Windows.Forms.ComboBox()
         Me.txtSweepSpeed_tab3 = New System.Windows.Forms.TextBox()
         Me.txtAvgtime_tab3 = New System.Windows.Forms.TextBox()
@@ -103,6 +175,24 @@ Partial Class frmWLMeasurement
         Me.cboMeasurePoint1_tab3 = New System.Windows.Forms.ComboBox()
         Me.Label48 = New System.Windows.Forms.Label()
         Me.Spectrum2 = New System.Windows.Forms.TabPage()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
         Me.cboSen_tab2 = New System.Windows.Forms.ComboBox()
         Me.txtSweepSpeed_tab2 = New System.Windows.Forms.TextBox()
         Me.txtAvgtime_tab2 = New System.Windows.Forms.TextBox()
@@ -163,96 +253,30 @@ Partial Class frmWLMeasurement
         Me.TabsSpectrum = New System.Windows.Forms.TabControl()
         Me.btnCancleWLm = New System.Windows.Forms.Button()
         Me.btnSaveWLm = New System.Windows.Forms.Button()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label43 = New System.Windows.Forms.Label()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.Label45 = New System.Windows.Forms.Label()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.Label58 = New System.Windows.Forms.Label()
-        Me.Label59 = New System.Windows.Forms.Label()
-        Me.Label60 = New System.Windows.Forms.Label()
-        Me.Label61 = New System.Windows.Forms.Label()
-        Me.Label62 = New System.Windows.Forms.Label()
-        Me.Label63 = New System.Windows.Forms.Label()
-        Me.Label64 = New System.Windows.Forms.Label()
-        Me.Label65 = New System.Windows.Forms.Label()
-        Me.Label77 = New System.Windows.Forms.Label()
-        Me.Label78 = New System.Windows.Forms.Label()
-        Me.Label79 = New System.Windows.Forms.Label()
-        Me.Label80 = New System.Windows.Forms.Label()
-        Me.Label81 = New System.Windows.Forms.Label()
-        Me.Label82 = New System.Windows.Forms.Label()
-        Me.Label83 = New System.Windows.Forms.Label()
-        Me.Label84 = New System.Windows.Forms.Label()
-        Me.Label96 = New System.Windows.Forms.Label()
-        Me.Label97 = New System.Windows.Forms.Label()
-        Me.Label98 = New System.Windows.Forms.Label()
-        Me.Label99 = New System.Windows.Forms.Label()
-        Me.Label100 = New System.Windows.Forms.Label()
-        Me.Label101 = New System.Windows.Forms.Label()
-        Me.Label102 = New System.Windows.Forms.Label()
-        Me.Label103 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.Label35 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label49 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.Label51 = New System.Windows.Forms.Label()
-        Me.Label52 = New System.Windows.Forms.Label()
-        Me.Label53 = New System.Windows.Forms.Label()
-        Me.Label54 = New System.Windows.Forms.Label()
-        Me.Label55 = New System.Windows.Forms.Label()
-        Me.Label56 = New System.Windows.Forms.Label()
-        Me.Label68 = New System.Windows.Forms.Label()
-        Me.Label69 = New System.Windows.Forms.Label()
-        Me.Label70 = New System.Windows.Forms.Label()
-        Me.Label71 = New System.Windows.Forms.Label()
-        Me.Label72 = New System.Windows.Forms.Label()
-        Me.Label73 = New System.Windows.Forms.Label()
-        Me.Label74 = New System.Windows.Forms.Label()
-        Me.Label75 = New System.Windows.Forms.Label()
-        Me.Label87 = New System.Windows.Forms.Label()
-        Me.Label88 = New System.Windows.Forms.Label()
-        Me.Label89 = New System.Windows.Forms.Label()
-        Me.Label90 = New System.Windows.Forms.Label()
-        Me.Label91 = New System.Windows.Forms.Label()
-        Me.Label92 = New System.Windows.Forms.Label()
-        Me.Label93 = New System.Windows.Forms.Label()
-        Me.Label94 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.Label66 = New System.Windows.Forms.Label()
-        Me.Label76 = New System.Windows.Forms.Label()
-        Me.Label85 = New System.Windows.Forms.Label()
-        Me.Label95 = New System.Windows.Forms.Label()
-        Me.Label104 = New System.Windows.Forms.Label()
+        Me.txtWavelengthB_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtWavelengthA_tab1 = New System.Windows.Forms.TextBox()
+        Me.Label106 = New System.Windows.Forms.Label()
+        Me.Label107 = New System.Windows.Forms.Label()
+        Me.txtWavelengthB_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtWavelengthA_tab2 = New System.Windows.Forms.TextBox()
+        Me.Label108 = New System.Windows.Forms.Label()
+        Me.Label109 = New System.Windows.Forms.Label()
+        Me.txtWavelengthB_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtWavelengthA_tab3 = New System.Windows.Forms.TextBox()
+        Me.Label110 = New System.Windows.Forms.Label()
+        Me.Label111 = New System.Windows.Forms.Label()
+        Me.txtWavelengthB_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtWavelengthA_tab4 = New System.Windows.Forms.TextBox()
+        Me.Label112 = New System.Windows.Forms.Label()
+        Me.Label113 = New System.Windows.Forms.Label()
+        Me.txtWavelengthB_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtWavelengthA_tab5 = New System.Windows.Forms.TextBox()
+        Me.Label114 = New System.Windows.Forms.Label()
+        Me.Label115 = New System.Windows.Forms.Label()
+        Me.txtWavelengthB_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtWavelengthA_tab6 = New System.Windows.Forms.TextBox()
+        Me.Label116 = New System.Windows.Forms.Label()
+        Me.Label117 = New System.Windows.Forms.Label()
         Me.Spectrum6.SuspendLayout()
         Me.Spectrum5.SuspendLayout()
         Me.Spectrum4.SuspendLayout()
@@ -264,6 +288,10 @@ Partial Class frmWLMeasurement
         '
         'Spectrum6
         '
+        Me.Spectrum6.Controls.Add(Me.txtWavelengthB_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtWavelengthA_tab6)
+        Me.Spectrum6.Controls.Add(Me.Label116)
+        Me.Spectrum6.Controls.Add(Me.Label117)
         Me.Spectrum6.Controls.Add(Me.Label95)
         Me.Spectrum6.Controls.Add(Me.Label104)
         Me.Spectrum6.Controls.Add(Me.Label87)
@@ -309,6 +337,188 @@ Partial Class frmWLMeasurement
         Me.Spectrum6.TabIndex = 5
         Me.Spectrum6.Text = "Spectrum6"
         Me.Spectrum6.UseVisualStyleBackColor = True
+        '
+        'Label95
+        '
+        Me.Label95.AutoSize = True
+        Me.Label95.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label95.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label95.Location = New System.Drawing.Point(516, 111)
+        Me.Label95.Name = "Label95"
+        Me.Label95.Size = New System.Drawing.Size(106, 22)
+        Me.Label95.TabIndex = 451
+        Me.Label95.Text = "OSA setting"
+        '
+        'Label104
+        '
+        Me.Label104.AutoSize = True
+        Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label104.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label104.Location = New System.Drawing.Point(183, 111)
+        Me.Label104.Name = "Label104"
+        Me.Label104.Size = New System.Drawing.Size(132, 22)
+        Me.Label104.TabIndex = 450
+        Me.Label104.Text = "Pulse condition"
+        '
+        'Label87
+        '
+        Me.Label87.AutoSize = True
+        Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label87.Location = New System.Drawing.Point(433, 433)
+        Me.Label87.Name = "Label87"
+        Me.Label87.Size = New System.Drawing.Size(127, 22)
+        Me.Label87.TabIndex = 449
+        Me.Label87.Text = "Sweep Speed "
+        '
+        'Label88
+        '
+        Me.Label88.AutoSize = True
+        Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label88.Location = New System.Drawing.Point(429, 394)
+        Me.Label88.Name = "Label88"
+        Me.Label88.Size = New System.Drawing.Size(131, 22)
+        Me.Label88.TabIndex = 448
+        Me.Label88.Text = "Average [Tims]"
+        '
+        'Label89
+        '
+        Me.Label89.AutoSize = True
+        Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label89.Location = New System.Drawing.Point(500, 355)
+        Me.Label89.Name = "Label89"
+        Me.Label89.Size = New System.Drawing.Size(60, 22)
+        Me.Label89.TabIndex = 447
+        Me.Label89.Text = "Points"
+        '
+        'Label90
+        '
+        Me.Label90.AutoSize = True
+        Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label90.Location = New System.Drawing.Point(464, 314)
+        Me.Label90.Name = "Label90"
+        Me.Label90.Size = New System.Drawing.Size(96, 22)
+        Me.Label90.TabIndex = 446
+        Me.Label90.Text = "Sensitivity "
+        '
+        'Label91
+        '
+        Me.Label91.AutoSize = True
+        Me.Label91.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label91.Location = New System.Drawing.Point(426, 276)
+        Me.Label91.Name = "Label91"
+        Me.Label91.Size = New System.Drawing.Size(134, 22)
+        Me.Label91.TabIndex = 445
+        Me.Label91.Text = "Resolution [nm]"
+        '
+        'Label92
+        '
+        Me.Label92.AutoSize = True
+        Me.Label92.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label92.Location = New System.Drawing.Point(423, 236)
+        Me.Label92.Name = "Label92"
+        Me.Label92.Size = New System.Drawing.Size(137, 22)
+        Me.Label92.TabIndex = 444
+        Me.Label92.Text = "Ref Level [dBm]"
+        '
+        'Label93
+        '
+        Me.Label93.AutoSize = True
+        Me.Label93.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label93.Location = New System.Drawing.Point(469, 194)
+        Me.Label93.Name = "Label93"
+        Me.Label93.Size = New System.Drawing.Size(91, 22)
+        Me.Label93.TabIndex = 443
+        Me.Label93.Text = "Span [nm]"
+        '
+        'Label94
+        '
+        Me.Label94.AutoSize = True
+        Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label94.Location = New System.Drawing.Point(425, 152)
+        Me.Label94.Name = "Label94"
+        Me.Label94.Size = New System.Drawing.Size(135, 22)
+        Me.Label94.TabIndex = 442
+        Me.Label94.Text = "WL Center [nm]"
+        '
+        'Label96
+        '
+        Me.Label96.AutoSize = True
+        Me.Label96.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label96.Location = New System.Drawing.Point(155, 431)
+        Me.Label96.Name = "Label96"
+        Me.Label96.Size = New System.Drawing.Size(83, 22)
+        Me.Label96.TabIndex = 441
+        Me.Label96.Text = "ATT [dB]"
+        '
+        'Label97
+        '
+        Me.Label97.AutoSize = True
+        Me.Label97.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label97.Location = New System.Drawing.Point(168, 389)
+        Me.Label97.Name = "Label97"
+        Me.Label97.Size = New System.Drawing.Size(70, 22)
+        Me.Label97.TabIndex = 440
+        Me.Label97.Text = "Tld [⁰C]"
+        '
+        'Label98
+        '
+        Me.Label98.AutoSize = True
+        Me.Label98.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label98.Location = New System.Drawing.Point(173, 353)
+        Me.Label98.Name = "Label98"
+        Me.Label98.Size = New System.Drawing.Size(65, 22)
+        Me.Label98.TabIndex = 439
+        Me.Label98.Text = "Tc [⁰C]"
+        '
+        'Label99
+        '
+        Me.Label99.AutoSize = True
+        Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label99.Location = New System.Drawing.Point(115, 314)
+        Me.Label99.Name = "Label99"
+        Me.Label99.Size = New System.Drawing.Size(123, 22)
+        Me.Label99.TabIndex = 438
+        Me.Label99.Text = "Delay time[us]"
+        '
+        'Label100
+        '
+        Me.Label100.AutoSize = True
+        Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label100.Location = New System.Drawing.Point(98, 276)
+        Me.Label100.Name = "Label100"
+        Me.Label100.Size = New System.Drawing.Size(140, 22)
+        Me.Label100.TabIndex = 437
+        Me.Label100.Text = "Pulse Width [us]"
+        '
+        'Label101
+        '
+        Me.Label101.AutoSize = True
+        Me.Label101.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label101.Location = New System.Drawing.Point(114, 236)
+        Me.Label101.Name = "Label101"
+        Me.Label101.Size = New System.Drawing.Size(124, 22)
+        Me.Label101.TabIndex = 436
+        Me.Label101.Text = "Duty cycle [%]"
+        '
+        'Label102
+        '
+        Me.Label102.AutoSize = True
+        Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label102.Location = New System.Drawing.Point(95, 194)
+        Me.Label102.Name = "Label102"
+        Me.Label102.Size = New System.Drawing.Size(143, 22)
+        Me.Label102.TabIndex = 435
+        Me.Label102.Text = "Frequency [KHz]"
+        '
+        'Label103
+        '
+        Me.Label103.AutoSize = True
+        Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label103.Location = New System.Drawing.Point(178, 152)
+        Me.Label103.Name = "Label103"
+        Me.Label103.Size = New System.Drawing.Size(60, 22)
+        Me.Label103.TabIndex = 434
+        Me.Label103.Text = "If [mA]"
         '
         'cboSen_tab6
         '
@@ -508,6 +718,10 @@ Partial Class frmWLMeasurement
         '
         'Spectrum5
         '
+        Me.Spectrum5.Controls.Add(Me.txtWavelengthB_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtWavelengthA_tab5)
+        Me.Spectrum5.Controls.Add(Me.Label114)
+        Me.Spectrum5.Controls.Add(Me.Label115)
         Me.Spectrum5.Controls.Add(Me.Label76)
         Me.Spectrum5.Controls.Add(Me.Label85)
         Me.Spectrum5.Controls.Add(Me.Label68)
@@ -553,6 +767,188 @@ Partial Class frmWLMeasurement
         Me.Spectrum5.TabIndex = 4
         Me.Spectrum5.Text = "Spectrum5"
         Me.Spectrum5.UseVisualStyleBackColor = True
+        '
+        'Label76
+        '
+        Me.Label76.AutoSize = True
+        Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label76.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label76.Location = New System.Drawing.Point(516, 111)
+        Me.Label76.Name = "Label76"
+        Me.Label76.Size = New System.Drawing.Size(106, 22)
+        Me.Label76.TabIndex = 452
+        Me.Label76.Text = "OSA setting"
+        '
+        'Label85
+        '
+        Me.Label85.AutoSize = True
+        Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label85.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label85.Location = New System.Drawing.Point(183, 111)
+        Me.Label85.Name = "Label85"
+        Me.Label85.Size = New System.Drawing.Size(132, 22)
+        Me.Label85.TabIndex = 451
+        Me.Label85.Text = "Pulse condition"
+        '
+        'Label68
+        '
+        Me.Label68.AutoSize = True
+        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label68.Location = New System.Drawing.Point(433, 433)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(127, 22)
+        Me.Label68.TabIndex = 450
+        Me.Label68.Text = "Sweep Speed "
+        '
+        'Label69
+        '
+        Me.Label69.AutoSize = True
+        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Location = New System.Drawing.Point(429, 394)
+        Me.Label69.Name = "Label69"
+        Me.Label69.Size = New System.Drawing.Size(131, 22)
+        Me.Label69.TabIndex = 449
+        Me.Label69.Text = "Average [Tims]"
+        '
+        'Label70
+        '
+        Me.Label70.AutoSize = True
+        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label70.Location = New System.Drawing.Point(500, 355)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(60, 22)
+        Me.Label70.TabIndex = 448
+        Me.Label70.Text = "Points"
+        '
+        'Label71
+        '
+        Me.Label71.AutoSize = True
+        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.Location = New System.Drawing.Point(464, 314)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(96, 22)
+        Me.Label71.TabIndex = 447
+        Me.Label71.Text = "Sensitivity "
+        '
+        'Label72
+        '
+        Me.Label72.AutoSize = True
+        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label72.Location = New System.Drawing.Point(426, 276)
+        Me.Label72.Name = "Label72"
+        Me.Label72.Size = New System.Drawing.Size(134, 22)
+        Me.Label72.TabIndex = 446
+        Me.Label72.Text = "Resolution [nm]"
+        '
+        'Label73
+        '
+        Me.Label73.AutoSize = True
+        Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label73.Location = New System.Drawing.Point(423, 236)
+        Me.Label73.Name = "Label73"
+        Me.Label73.Size = New System.Drawing.Size(137, 22)
+        Me.Label73.TabIndex = 445
+        Me.Label73.Text = "Ref Level [dBm]"
+        '
+        'Label74
+        '
+        Me.Label74.AutoSize = True
+        Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.Location = New System.Drawing.Point(469, 194)
+        Me.Label74.Name = "Label74"
+        Me.Label74.Size = New System.Drawing.Size(91, 22)
+        Me.Label74.TabIndex = 444
+        Me.Label74.Text = "Span [nm]"
+        '
+        'Label75
+        '
+        Me.Label75.AutoSize = True
+        Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.Location = New System.Drawing.Point(425, 152)
+        Me.Label75.Name = "Label75"
+        Me.Label75.Size = New System.Drawing.Size(135, 22)
+        Me.Label75.TabIndex = 443
+        Me.Label75.Text = "WL Center [nm]"
+        '
+        'Label77
+        '
+        Me.Label77.AutoSize = True
+        Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label77.Location = New System.Drawing.Point(155, 431)
+        Me.Label77.Name = "Label77"
+        Me.Label77.Size = New System.Drawing.Size(83, 22)
+        Me.Label77.TabIndex = 442
+        Me.Label77.Text = "ATT [dB]"
+        '
+        'Label78
+        '
+        Me.Label78.AutoSize = True
+        Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label78.Location = New System.Drawing.Point(168, 389)
+        Me.Label78.Name = "Label78"
+        Me.Label78.Size = New System.Drawing.Size(70, 22)
+        Me.Label78.TabIndex = 441
+        Me.Label78.Text = "Tld [⁰C]"
+        '
+        'Label79
+        '
+        Me.Label79.AutoSize = True
+        Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label79.Location = New System.Drawing.Point(173, 353)
+        Me.Label79.Name = "Label79"
+        Me.Label79.Size = New System.Drawing.Size(65, 22)
+        Me.Label79.TabIndex = 440
+        Me.Label79.Text = "Tc [⁰C]"
+        '
+        'Label80
+        '
+        Me.Label80.AutoSize = True
+        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.Location = New System.Drawing.Point(115, 314)
+        Me.Label80.Name = "Label80"
+        Me.Label80.Size = New System.Drawing.Size(123, 22)
+        Me.Label80.TabIndex = 439
+        Me.Label80.Text = "Delay time[us]"
+        '
+        'Label81
+        '
+        Me.Label81.AutoSize = True
+        Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label81.Location = New System.Drawing.Point(98, 276)
+        Me.Label81.Name = "Label81"
+        Me.Label81.Size = New System.Drawing.Size(140, 22)
+        Me.Label81.TabIndex = 438
+        Me.Label81.Text = "Pulse Width [us]"
+        '
+        'Label82
+        '
+        Me.Label82.AutoSize = True
+        Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label82.Location = New System.Drawing.Point(114, 236)
+        Me.Label82.Name = "Label82"
+        Me.Label82.Size = New System.Drawing.Size(124, 22)
+        Me.Label82.TabIndex = 437
+        Me.Label82.Text = "Duty cycle [%]"
+        '
+        'Label83
+        '
+        Me.Label83.AutoSize = True
+        Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label83.Location = New System.Drawing.Point(95, 194)
+        Me.Label83.Name = "Label83"
+        Me.Label83.Size = New System.Drawing.Size(143, 22)
+        Me.Label83.TabIndex = 436
+        Me.Label83.Text = "Frequency [KHz]"
+        '
+        'Label84
+        '
+        Me.Label84.AutoSize = True
+        Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label84.Location = New System.Drawing.Point(178, 152)
+        Me.Label84.Name = "Label84"
+        Me.Label84.Size = New System.Drawing.Size(60, 22)
+        Me.Label84.TabIndex = 435
+        Me.Label84.Text = "If [mA]"
         '
         'cboSen_tab5
         '
@@ -752,6 +1148,10 @@ Partial Class frmWLMeasurement
         '
         'Spectrum4
         '
+        Me.Spectrum4.Controls.Add(Me.txtWavelengthB_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtWavelengthA_tab4)
+        Me.Spectrum4.Controls.Add(Me.Label112)
+        Me.Spectrum4.Controls.Add(Me.Label113)
         Me.Spectrum4.Controls.Add(Me.Label57)
         Me.Spectrum4.Controls.Add(Me.Label66)
         Me.Spectrum4.Controls.Add(Me.Label49)
@@ -797,6 +1197,188 @@ Partial Class frmWLMeasurement
         Me.Spectrum4.TabIndex = 3
         Me.Spectrum4.Text = "Spectrum4"
         Me.Spectrum4.UseVisualStyleBackColor = True
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label57.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label57.Location = New System.Drawing.Point(516, 111)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(106, 22)
+        Me.Label57.TabIndex = 452
+        Me.Label57.Text = "OSA setting"
+        '
+        'Label66
+        '
+        Me.Label66.AutoSize = True
+        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label66.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label66.Location = New System.Drawing.Point(183, 111)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(132, 22)
+        Me.Label66.TabIndex = 451
+        Me.Label66.Text = "Pulse condition"
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label49.Location = New System.Drawing.Point(433, 433)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(127, 22)
+        Me.Label49.TabIndex = 450
+        Me.Label49.Text = "Sweep Speed "
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Location = New System.Drawing.Point(429, 394)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(131, 22)
+        Me.Label50.TabIndex = 449
+        Me.Label50.Text = "Average [Tims]"
+        '
+        'Label51
+        '
+        Me.Label51.AutoSize = True
+        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label51.Location = New System.Drawing.Point(500, 355)
+        Me.Label51.Name = "Label51"
+        Me.Label51.Size = New System.Drawing.Size(60, 22)
+        Me.Label51.TabIndex = 448
+        Me.Label51.Text = "Points"
+        '
+        'Label52
+        '
+        Me.Label52.AutoSize = True
+        Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label52.Location = New System.Drawing.Point(464, 314)
+        Me.Label52.Name = "Label52"
+        Me.Label52.Size = New System.Drawing.Size(96, 22)
+        Me.Label52.TabIndex = 447
+        Me.Label52.Text = "Sensitivity "
+        '
+        'Label53
+        '
+        Me.Label53.AutoSize = True
+        Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label53.Location = New System.Drawing.Point(426, 276)
+        Me.Label53.Name = "Label53"
+        Me.Label53.Size = New System.Drawing.Size(134, 22)
+        Me.Label53.TabIndex = 446
+        Me.Label53.Text = "Resolution [nm]"
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label54.Location = New System.Drawing.Point(423, 236)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(137, 22)
+        Me.Label54.TabIndex = 445
+        Me.Label54.Text = "Ref Level [dBm]"
+        '
+        'Label55
+        '
+        Me.Label55.AutoSize = True
+        Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label55.Location = New System.Drawing.Point(469, 194)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(91, 22)
+        Me.Label55.TabIndex = 444
+        Me.Label55.Text = "Span [nm]"
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.Location = New System.Drawing.Point(425, 152)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(135, 22)
+        Me.Label56.TabIndex = 443
+        Me.Label56.Text = "WL Center [nm]"
+        '
+        'Label58
+        '
+        Me.Label58.AutoSize = True
+        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label58.Location = New System.Drawing.Point(155, 431)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(83, 22)
+        Me.Label58.TabIndex = 442
+        Me.Label58.Text = "ATT [dB]"
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label59.Location = New System.Drawing.Point(168, 389)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(70, 22)
+        Me.Label59.TabIndex = 441
+        Me.Label59.Text = "Tld [⁰C]"
+        '
+        'Label60
+        '
+        Me.Label60.AutoSize = True
+        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label60.Location = New System.Drawing.Point(173, 353)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(65, 22)
+        Me.Label60.TabIndex = 440
+        Me.Label60.Text = "Tc [⁰C]"
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.Location = New System.Drawing.Point(115, 314)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(123, 22)
+        Me.Label61.TabIndex = 439
+        Me.Label61.Text = "Delay time[us]"
+        '
+        'Label62
+        '
+        Me.Label62.AutoSize = True
+        Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label62.Location = New System.Drawing.Point(98, 276)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(140, 22)
+        Me.Label62.TabIndex = 438
+        Me.Label62.Text = "Pulse Width [us]"
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.Location = New System.Drawing.Point(114, 236)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(124, 22)
+        Me.Label63.TabIndex = 437
+        Me.Label63.Text = "Duty cycle [%]"
+        '
+        'Label64
+        '
+        Me.Label64.AutoSize = True
+        Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label64.Location = New System.Drawing.Point(95, 194)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(143, 22)
+        Me.Label64.TabIndex = 436
+        Me.Label64.Text = "Frequency [KHz]"
+        '
+        'Label65
+        '
+        Me.Label65.AutoSize = True
+        Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label65.Location = New System.Drawing.Point(178, 152)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(60, 22)
+        Me.Label65.TabIndex = 435
+        Me.Label65.Text = "If [mA]"
         '
         'cboSen_tab4
         '
@@ -996,6 +1578,10 @@ Partial Class frmWLMeasurement
         '
         'Spectrum3
         '
+        Me.Spectrum3.Controls.Add(Me.txtWavelengthB_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtWavelengthA_tab3)
+        Me.Spectrum3.Controls.Add(Me.Label110)
+        Me.Spectrum3.Controls.Add(Me.Label111)
         Me.Spectrum3.Controls.Add(Me.Label37)
         Me.Spectrum3.Controls.Add(Me.Label47)
         Me.Spectrum3.Controls.Add(Me.Label29)
@@ -1041,6 +1627,188 @@ Partial Class frmWLMeasurement
         Me.Spectrum3.TabIndex = 2
         Me.Spectrum3.Text = "Spectrum3"
         Me.Spectrum3.UseVisualStyleBackColor = True
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label37.Location = New System.Drawing.Point(516, 111)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(106, 22)
+        Me.Label37.TabIndex = 452
+        Me.Label37.Text = "OSA setting"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label47.Location = New System.Drawing.Point(183, 111)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(132, 22)
+        Me.Label47.TabIndex = 451
+        Me.Label47.Text = "Pulse condition"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(433, 433)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(127, 22)
+        Me.Label29.TabIndex = 450
+        Me.Label29.Text = "Sweep Speed "
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Location = New System.Drawing.Point(429, 394)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(131, 22)
+        Me.Label30.TabIndex = 449
+        Me.Label30.Text = "Average [Tims]"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(500, 355)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(60, 22)
+        Me.Label31.TabIndex = 448
+        Me.Label31.Text = "Points"
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Location = New System.Drawing.Point(464, 314)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(96, 22)
+        Me.Label32.TabIndex = 447
+        Me.Label32.Text = "Sensitivity "
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(426, 276)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(134, 22)
+        Me.Label33.TabIndex = 446
+        Me.Label33.Text = "Resolution [nm]"
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.Location = New System.Drawing.Point(423, 236)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(137, 22)
+        Me.Label34.TabIndex = 445
+        Me.Label34.Text = "Ref Level [dBm]"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.Location = New System.Drawing.Point(469, 194)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(91, 22)
+        Me.Label35.TabIndex = 444
+        Me.Label35.Text = "Span [nm]"
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Location = New System.Drawing.Point(425, 152)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(135, 22)
+        Me.Label36.TabIndex = 443
+        Me.Label36.Text = "WL Center [nm]"
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Location = New System.Drawing.Point(155, 431)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(83, 22)
+        Me.Label38.TabIndex = 442
+        Me.Label38.Text = "ATT [dB]"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Location = New System.Drawing.Point(168, 389)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(70, 22)
+        Me.Label40.TabIndex = 441
+        Me.Label40.Text = "Tld [⁰C]"
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Location = New System.Drawing.Point(173, 353)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(65, 22)
+        Me.Label41.TabIndex = 440
+        Me.Label41.Text = "Tc [⁰C]"
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Location = New System.Drawing.Point(115, 314)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(123, 22)
+        Me.Label42.TabIndex = 439
+        Me.Label42.Text = "Delay time[us]"
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Location = New System.Drawing.Point(98, 276)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(140, 22)
+        Me.Label43.TabIndex = 438
+        Me.Label43.Text = "Pulse Width [us]"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Location = New System.Drawing.Point(114, 236)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(124, 22)
+        Me.Label44.TabIndex = 437
+        Me.Label44.Text = "Duty cycle [%]"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label45.Location = New System.Drawing.Point(95, 194)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(143, 22)
+        Me.Label45.TabIndex = 436
+        Me.Label45.Text = "Frequency [KHz]"
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label46.Location = New System.Drawing.Point(178, 152)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(60, 22)
+        Me.Label46.TabIndex = 435
+        Me.Label46.Text = "If [mA]"
         '
         'cboSen_tab3
         '
@@ -1240,6 +2008,10 @@ Partial Class frmWLMeasurement
         '
         'Spectrum2
         '
+        Me.Spectrum2.Controls.Add(Me.txtWavelengthB_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtWavelengthA_tab2)
+        Me.Spectrum2.Controls.Add(Me.Label108)
+        Me.Spectrum2.Controls.Add(Me.Label109)
         Me.Spectrum2.Controls.Add(Me.Label14)
         Me.Spectrum2.Controls.Add(Me.Label27)
         Me.Spectrum2.Controls.Add(Me.Label1)
@@ -1285,6 +2057,188 @@ Partial Class frmWLMeasurement
         Me.Spectrum2.TabIndex = 1
         Me.Spectrum2.Text = "Spectrum2"
         Me.Spectrum2.UseVisualStyleBackColor = True
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label14.Location = New System.Drawing.Point(516, 111)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(106, 22)
+        Me.Label14.TabIndex = 452
+        Me.Label14.Text = "OSA setting"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.Label27.Location = New System.Drawing.Point(183, 111)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(132, 22)
+        Me.Label27.TabIndex = 451
+        Me.Label27.Text = "Pulse condition"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(433, 433)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(127, 22)
+        Me.Label1.TabIndex = 450
+        Me.Label1.Text = "Sweep Speed "
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(429, 394)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(131, 22)
+        Me.Label2.TabIndex = 449
+        Me.Label2.Text = "Average [Tims]"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(500, 355)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(60, 22)
+        Me.Label3.TabIndex = 448
+        Me.Label3.Text = "Points"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(464, 314)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(96, 22)
+        Me.Label4.TabIndex = 447
+        Me.Label4.Text = "Sensitivity "
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(426, 276)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(134, 22)
+        Me.Label6.TabIndex = 446
+        Me.Label6.Text = "Resolution [nm]"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(423, 236)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(137, 22)
+        Me.Label10.TabIndex = 445
+        Me.Label10.Text = "Ref Level [dBm]"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(469, 194)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(91, 22)
+        Me.Label11.TabIndex = 444
+        Me.Label11.Text = "Span [nm]"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(425, 152)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(135, 22)
+        Me.Label12.TabIndex = 443
+        Me.Label12.Text = "WL Center [nm]"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(155, 431)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(83, 22)
+        Me.Label15.TabIndex = 442
+        Me.Label15.Text = "ATT [dB]"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(168, 389)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(70, 22)
+        Me.Label16.TabIndex = 441
+        Me.Label16.Text = "Tld [⁰C]"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(173, 353)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(65, 22)
+        Me.Label17.TabIndex = 440
+        Me.Label17.Text = "Tc [⁰C]"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(115, 314)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(123, 22)
+        Me.Label22.TabIndex = 439
+        Me.Label22.Text = "Delay time[us]"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(98, 276)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(140, 22)
+        Me.Label23.TabIndex = 438
+        Me.Label23.Text = "Pulse Width [us]"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(114, 236)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(124, 22)
+        Me.Label24.TabIndex = 437
+        Me.Label24.Text = "Duty cycle [%]"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(95, 194)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(143, 22)
+        Me.Label25.TabIndex = 436
+        Me.Label25.Text = "Frequency [KHz]"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(178, 152)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(60, 22)
+        Me.Label26.TabIndex = 435
+        Me.Label26.Text = "If [mA]"
         '
         'cboSen_tab2
         '
@@ -1484,6 +2438,10 @@ Partial Class frmWLMeasurement
         '
         'Spectrum1
         '
+        Me.Spectrum1.Controls.Add(Me.txtWavelengthB_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtWavelengthA_tab1)
+        Me.Spectrum1.Controls.Add(Me.Label106)
+        Me.Spectrum1.Controls.Add(Me.Label107)
         Me.Spectrum1.Controls.Add(Me.cboSen_tab1)
         Me.Spectrum1.Controls.Add(Me.txtSweepSpeed_tab1)
         Me.Spectrum1.Controls.Add(Me.txtAvgtime_tab1)
@@ -1948,915 +2906,245 @@ Partial Class frmWLMeasurement
         Me.btnSaveWLm.Text = "Save"
         Me.btnSaveWLm.UseVisualStyleBackColor = True
         '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(155, 431)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(83, 22)
-        Me.Label15.TabIndex = 442
-        Me.Label15.Text = "ATT [dB]"
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(168, 389)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(70, 22)
-        Me.Label16.TabIndex = 441
-        Me.Label16.Text = "Tld [⁰C]"
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(173, 353)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(65, 22)
-        Me.Label17.TabIndex = 440
-        Me.Label17.Text = "Tc [⁰C]"
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(115, 314)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(123, 22)
-        Me.Label22.TabIndex = 439
-        Me.Label22.Text = "Delay time[us]"
-        '
-        'Label23
-        '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(98, 276)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(140, 22)
-        Me.Label23.TabIndex = 438
-        Me.Label23.Text = "Pulse Width [us]"
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(114, 236)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(124, 22)
-        Me.Label24.TabIndex = 437
-        Me.Label24.Text = "Duty cycle [%]"
-        '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(95, 194)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(143, 22)
-        Me.Label25.TabIndex = 436
-        Me.Label25.Text = "Frequency [KHz]"
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(178, 152)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(60, 22)
-        Me.Label26.TabIndex = 435
-        Me.Label26.Text = "If [mA]"
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(155, 431)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(83, 22)
-        Me.Label38.TabIndex = 442
-        Me.Label38.Text = "ATT [dB]"
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(168, 389)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(70, 22)
-        Me.Label40.TabIndex = 441
-        Me.Label40.Text = "Tld [⁰C]"
-        '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(173, 353)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(65, 22)
-        Me.Label41.TabIndex = 440
-        Me.Label41.Text = "Tc [⁰C]"
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(115, 314)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(123, 22)
-        Me.Label42.TabIndex = 439
-        Me.Label42.Text = "Delay time[us]"
-        '
-        'Label43
-        '
-        Me.Label43.AutoSize = True
-        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(98, 276)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(140, 22)
-        Me.Label43.TabIndex = 438
-        Me.Label43.Text = "Pulse Width [us]"
-        '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.Location = New System.Drawing.Point(114, 236)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(124, 22)
-        Me.Label44.TabIndex = 437
-        Me.Label44.Text = "Duty cycle [%]"
-        '
-        'Label45
-        '
-        Me.Label45.AutoSize = True
-        Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(95, 194)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(143, 22)
-        Me.Label45.TabIndex = 436
-        Me.Label45.Text = "Frequency [KHz]"
-        '
-        'Label46
-        '
-        Me.Label46.AutoSize = True
-        Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(178, 152)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(60, 22)
-        Me.Label46.TabIndex = 435
-        Me.Label46.Text = "If [mA]"
-        '
-        'Label58
-        '
-        Me.Label58.AutoSize = True
-        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.Location = New System.Drawing.Point(155, 431)
-        Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(83, 22)
-        Me.Label58.TabIndex = 442
-        Me.Label58.Text = "ATT [dB]"
-        '
-        'Label59
-        '
-        Me.Label59.AutoSize = True
-        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.Location = New System.Drawing.Point(168, 389)
-        Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(70, 22)
-        Me.Label59.TabIndex = 441
-        Me.Label59.Text = "Tld [⁰C]"
-        '
-        'Label60
-        '
-        Me.Label60.AutoSize = True
-        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label60.Location = New System.Drawing.Point(173, 353)
-        Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(65, 22)
-        Me.Label60.TabIndex = 440
-        Me.Label60.Text = "Tc [⁰C]"
-        '
-        'Label61
-        '
-        Me.Label61.AutoSize = True
-        Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.Location = New System.Drawing.Point(115, 314)
-        Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(123, 22)
-        Me.Label61.TabIndex = 439
-        Me.Label61.Text = "Delay time[us]"
-        '
-        'Label62
-        '
-        Me.Label62.AutoSize = True
-        Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label62.Location = New System.Drawing.Point(98, 276)
-        Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(140, 22)
-        Me.Label62.TabIndex = 438
-        Me.Label62.Text = "Pulse Width [us]"
-        '
-        'Label63
-        '
-        Me.Label63.AutoSize = True
-        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(114, 236)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(124, 22)
-        Me.Label63.TabIndex = 437
-        Me.Label63.Text = "Duty cycle [%]"
-        '
-        'Label64
-        '
-        Me.Label64.AutoSize = True
-        Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label64.Location = New System.Drawing.Point(95, 194)
-        Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(143, 22)
-        Me.Label64.TabIndex = 436
-        Me.Label64.Text = "Frequency [KHz]"
-        '
-        'Label65
-        '
-        Me.Label65.AutoSize = True
-        Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label65.Location = New System.Drawing.Point(178, 152)
-        Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(60, 22)
-        Me.Label65.TabIndex = 435
-        Me.Label65.Text = "If [mA]"
-        '
-        'Label77
-        '
-        Me.Label77.AutoSize = True
-        Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label77.Location = New System.Drawing.Point(155, 431)
-        Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(83, 22)
-        Me.Label77.TabIndex = 442
-        Me.Label77.Text = "ATT [dB]"
-        '
-        'Label78
-        '
-        Me.Label78.AutoSize = True
-        Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label78.Location = New System.Drawing.Point(168, 389)
-        Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(70, 22)
-        Me.Label78.TabIndex = 441
-        Me.Label78.Text = "Tld [⁰C]"
-        '
-        'Label79
-        '
-        Me.Label79.AutoSize = True
-        Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label79.Location = New System.Drawing.Point(173, 353)
-        Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(65, 22)
-        Me.Label79.TabIndex = 440
-        Me.Label79.Text = "Tc [⁰C]"
-        '
-        'Label80
-        '
-        Me.Label80.AutoSize = True
-        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label80.Location = New System.Drawing.Point(115, 314)
-        Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(123, 22)
-        Me.Label80.TabIndex = 439
-        Me.Label80.Text = "Delay time[us]"
-        '
-        'Label81
-        '
-        Me.Label81.AutoSize = True
-        Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label81.Location = New System.Drawing.Point(98, 276)
-        Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(140, 22)
-        Me.Label81.TabIndex = 438
-        Me.Label81.Text = "Pulse Width [us]"
-        '
-        'Label82
-        '
-        Me.Label82.AutoSize = True
-        Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label82.Location = New System.Drawing.Point(114, 236)
-        Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(124, 22)
-        Me.Label82.TabIndex = 437
-        Me.Label82.Text = "Duty cycle [%]"
-        '
-        'Label83
-        '
-        Me.Label83.AutoSize = True
-        Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label83.Location = New System.Drawing.Point(95, 194)
-        Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(143, 22)
-        Me.Label83.TabIndex = 436
-        Me.Label83.Text = "Frequency [KHz]"
-        '
-        'Label84
-        '
-        Me.Label84.AutoSize = True
-        Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label84.Location = New System.Drawing.Point(178, 152)
-        Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(60, 22)
-        Me.Label84.TabIndex = 435
-        Me.Label84.Text = "If [mA]"
-        '
-        'Label96
-        '
-        Me.Label96.AutoSize = True
-        Me.Label96.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label96.Location = New System.Drawing.Point(155, 431)
-        Me.Label96.Name = "Label96"
-        Me.Label96.Size = New System.Drawing.Size(83, 22)
-        Me.Label96.TabIndex = 441
-        Me.Label96.Text = "ATT [dB]"
-        '
-        'Label97
-        '
-        Me.Label97.AutoSize = True
-        Me.Label97.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label97.Location = New System.Drawing.Point(168, 389)
-        Me.Label97.Name = "Label97"
-        Me.Label97.Size = New System.Drawing.Size(70, 22)
-        Me.Label97.TabIndex = 440
-        Me.Label97.Text = "Tld [⁰C]"
-        '
-        'Label98
-        '
-        Me.Label98.AutoSize = True
-        Me.Label98.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label98.Location = New System.Drawing.Point(173, 353)
-        Me.Label98.Name = "Label98"
-        Me.Label98.Size = New System.Drawing.Size(65, 22)
-        Me.Label98.TabIndex = 439
-        Me.Label98.Text = "Tc [⁰C]"
-        '
-        'Label99
-        '
-        Me.Label99.AutoSize = True
-        Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label99.Location = New System.Drawing.Point(115, 314)
-        Me.Label99.Name = "Label99"
-        Me.Label99.Size = New System.Drawing.Size(123, 22)
-        Me.Label99.TabIndex = 438
-        Me.Label99.Text = "Delay time[us]"
-        '
-        'Label100
-        '
-        Me.Label100.AutoSize = True
-        Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label100.Location = New System.Drawing.Point(98, 276)
-        Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(140, 22)
-        Me.Label100.TabIndex = 437
-        Me.Label100.Text = "Pulse Width [us]"
-        '
-        'Label101
-        '
-        Me.Label101.AutoSize = True
-        Me.Label101.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label101.Location = New System.Drawing.Point(114, 236)
-        Me.Label101.Name = "Label101"
-        Me.Label101.Size = New System.Drawing.Size(124, 22)
-        Me.Label101.TabIndex = 436
-        Me.Label101.Text = "Duty cycle [%]"
-        '
-        'Label102
-        '
-        Me.Label102.AutoSize = True
-        Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label102.Location = New System.Drawing.Point(95, 194)
-        Me.Label102.Name = "Label102"
-        Me.Label102.Size = New System.Drawing.Size(143, 22)
-        Me.Label102.TabIndex = 435
-        Me.Label102.Text = "Frequency [KHz]"
-        '
-        'Label103
-        '
-        Me.Label103.AutoSize = True
-        Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label103.Location = New System.Drawing.Point(178, 152)
-        Me.Label103.Name = "Label103"
-        Me.Label103.Size = New System.Drawing.Size(60, 22)
-        Me.Label103.TabIndex = 434
-        Me.Label103.Text = "If [mA]"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(433, 433)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(127, 22)
-        Me.Label1.TabIndex = 450
-        Me.Label1.Text = "Sweep Speed "
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(429, 394)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(131, 22)
-        Me.Label2.TabIndex = 449
-        Me.Label2.Text = "Average [Tims]"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(500, 355)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(60, 22)
-        Me.Label3.TabIndex = 448
-        Me.Label3.Text = "Points"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(464, 314)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(96, 22)
-        Me.Label4.TabIndex = 447
-        Me.Label4.Text = "Sensitivity "
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(426, 276)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(134, 22)
-        Me.Label6.TabIndex = 446
-        Me.Label6.Text = "Resolution [nm]"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(423, 236)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(137, 22)
-        Me.Label10.TabIndex = 445
-        Me.Label10.Text = "Ref Level [dBm]"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(469, 194)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(91, 22)
-        Me.Label11.TabIndex = 444
-        Me.Label11.Text = "Span [nm]"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(425, 152)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(135, 22)
-        Me.Label12.TabIndex = 443
-        Me.Label12.Text = "WL Center [nm]"
-        '
-        'Label29
-        '
-        Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(433, 433)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(127, 22)
-        Me.Label29.TabIndex = 450
-        Me.Label29.Text = "Sweep Speed "
-        '
-        'Label30
-        '
-        Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(429, 394)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(131, 22)
-        Me.Label30.TabIndex = 449
-        Me.Label30.Text = "Average [Tims]"
-        '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(500, 355)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(60, 22)
-        Me.Label31.TabIndex = 448
-        Me.Label31.Text = "Points"
-        '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(464, 314)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(96, 22)
-        Me.Label32.TabIndex = 447
-        Me.Label32.Text = "Sensitivity "
-        '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(426, 276)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(134, 22)
-        Me.Label33.TabIndex = 446
-        Me.Label33.Text = "Resolution [nm]"
-        '
-        'Label34
-        '
-        Me.Label34.AutoSize = True
-        Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(423, 236)
-        Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(137, 22)
-        Me.Label34.TabIndex = 445
-        Me.Label34.Text = "Ref Level [dBm]"
-        '
-        'Label35
-        '
-        Me.Label35.AutoSize = True
-        Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(469, 194)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(91, 22)
-        Me.Label35.TabIndex = 444
-        Me.Label35.Text = "Span [nm]"
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(425, 152)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(135, 22)
-        Me.Label36.TabIndex = 443
-        Me.Label36.Text = "WL Center [nm]"
-        '
-        'Label49
-        '
-        Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(433, 433)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(127, 22)
-        Me.Label49.TabIndex = 450
-        Me.Label49.Text = "Sweep Speed "
-        '
-        'Label50
-        '
-        Me.Label50.AutoSize = True
-        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(429, 394)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(131, 22)
-        Me.Label50.TabIndex = 449
-        Me.Label50.Text = "Average [Tims]"
-        '
-        'Label51
-        '
-        Me.Label51.AutoSize = True
-        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(500, 355)
-        Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(60, 22)
-        Me.Label51.TabIndex = 448
-        Me.Label51.Text = "Points"
-        '
-        'Label52
-        '
-        Me.Label52.AutoSize = True
-        Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label52.Location = New System.Drawing.Point(464, 314)
-        Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(96, 22)
-        Me.Label52.TabIndex = 447
-        Me.Label52.Text = "Sensitivity "
-        '
-        'Label53
-        '
-        Me.Label53.AutoSize = True
-        Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(426, 276)
-        Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(134, 22)
-        Me.Label53.TabIndex = 446
-        Me.Label53.Text = "Resolution [nm]"
-        '
-        'Label54
-        '
-        Me.Label54.AutoSize = True
-        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.Location = New System.Drawing.Point(423, 236)
-        Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(137, 22)
-        Me.Label54.TabIndex = 445
-        Me.Label54.Text = "Ref Level [dBm]"
-        '
-        'Label55
-        '
-        Me.Label55.AutoSize = True
-        Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(469, 194)
-        Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(91, 22)
-        Me.Label55.TabIndex = 444
-        Me.Label55.Text = "Span [nm]"
-        '
-        'Label56
-        '
-        Me.Label56.AutoSize = True
-        Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.Location = New System.Drawing.Point(425, 152)
-        Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(135, 22)
-        Me.Label56.TabIndex = 443
-        Me.Label56.Text = "WL Center [nm]"
-        '
-        'Label68
-        '
-        Me.Label68.AutoSize = True
-        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label68.Location = New System.Drawing.Point(433, 433)
-        Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(127, 22)
-        Me.Label68.TabIndex = 450
-        Me.Label68.Text = "Sweep Speed "
-        '
-        'Label69
-        '
-        Me.Label69.AutoSize = True
-        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label69.Location = New System.Drawing.Point(429, 394)
-        Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(131, 22)
-        Me.Label69.TabIndex = 449
-        Me.Label69.Text = "Average [Tims]"
-        '
-        'Label70
-        '
-        Me.Label70.AutoSize = True
-        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.Location = New System.Drawing.Point(500, 355)
-        Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(60, 22)
-        Me.Label70.TabIndex = 448
-        Me.Label70.Text = "Points"
-        '
-        'Label71
-        '
-        Me.Label71.AutoSize = True
-        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(464, 314)
-        Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(96, 22)
-        Me.Label71.TabIndex = 447
-        Me.Label71.Text = "Sensitivity "
-        '
-        'Label72
-        '
-        Me.Label72.AutoSize = True
-        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.Location = New System.Drawing.Point(426, 276)
-        Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(134, 22)
-        Me.Label72.TabIndex = 446
-        Me.Label72.Text = "Resolution [nm]"
-        '
-        'Label73
-        '
-        Me.Label73.AutoSize = True
-        Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(423, 236)
-        Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(137, 22)
-        Me.Label73.TabIndex = 445
-        Me.Label73.Text = "Ref Level [dBm]"
-        '
-        'Label74
-        '
-        Me.Label74.AutoSize = True
-        Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.Location = New System.Drawing.Point(469, 194)
-        Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(91, 22)
-        Me.Label74.TabIndex = 444
-        Me.Label74.Text = "Span [nm]"
-        '
-        'Label75
-        '
-        Me.Label75.AutoSize = True
-        Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label75.Location = New System.Drawing.Point(425, 152)
-        Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(135, 22)
-        Me.Label75.TabIndex = 443
-        Me.Label75.Text = "WL Center [nm]"
-        '
-        'Label87
-        '
-        Me.Label87.AutoSize = True
-        Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label87.Location = New System.Drawing.Point(433, 433)
-        Me.Label87.Name = "Label87"
-        Me.Label87.Size = New System.Drawing.Size(127, 22)
-        Me.Label87.TabIndex = 449
-        Me.Label87.Text = "Sweep Speed "
-        '
-        'Label88
-        '
-        Me.Label88.AutoSize = True
-        Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label88.Location = New System.Drawing.Point(429, 394)
-        Me.Label88.Name = "Label88"
-        Me.Label88.Size = New System.Drawing.Size(131, 22)
-        Me.Label88.TabIndex = 448
-        Me.Label88.Text = "Average [Tims]"
-        '
-        'Label89
-        '
-        Me.Label89.AutoSize = True
-        Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label89.Location = New System.Drawing.Point(500, 355)
-        Me.Label89.Name = "Label89"
-        Me.Label89.Size = New System.Drawing.Size(60, 22)
-        Me.Label89.TabIndex = 447
-        Me.Label89.Text = "Points"
-        '
-        'Label90
-        '
-        Me.Label90.AutoSize = True
-        Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label90.Location = New System.Drawing.Point(464, 314)
-        Me.Label90.Name = "Label90"
-        Me.Label90.Size = New System.Drawing.Size(96, 22)
-        Me.Label90.TabIndex = 446
-        Me.Label90.Text = "Sensitivity "
-        '
-        'Label91
-        '
-        Me.Label91.AutoSize = True
-        Me.Label91.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label91.Location = New System.Drawing.Point(426, 276)
-        Me.Label91.Name = "Label91"
-        Me.Label91.Size = New System.Drawing.Size(134, 22)
-        Me.Label91.TabIndex = 445
-        Me.Label91.Text = "Resolution [nm]"
-        '
-        'Label92
-        '
-        Me.Label92.AutoSize = True
-        Me.Label92.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label92.Location = New System.Drawing.Point(423, 236)
-        Me.Label92.Name = "Label92"
-        Me.Label92.Size = New System.Drawing.Size(137, 22)
-        Me.Label92.TabIndex = 444
-        Me.Label92.Text = "Ref Level [dBm]"
-        '
-        'Label93
-        '
-        Me.Label93.AutoSize = True
-        Me.Label93.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label93.Location = New System.Drawing.Point(469, 194)
-        Me.Label93.Name = "Label93"
-        Me.Label93.Size = New System.Drawing.Size(91, 22)
-        Me.Label93.TabIndex = 443
-        Me.Label93.Text = "Span [nm]"
-        '
-        'Label94
-        '
-        Me.Label94.AutoSize = True
-        Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label94.Location = New System.Drawing.Point(425, 152)
-        Me.Label94.Name = "Label94"
-        Me.Label94.Size = New System.Drawing.Size(135, 22)
-        Me.Label94.TabIndex = 442
-        Me.Label94.Text = "WL Center [nm]"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label14.Location = New System.Drawing.Point(516, 111)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(106, 22)
-        Me.Label14.TabIndex = 452
-        Me.Label14.Text = "OSA setting"
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label27.Location = New System.Drawing.Point(183, 111)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(132, 22)
-        Me.Label27.TabIndex = 451
-        Me.Label27.Text = "Pulse condition"
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label37.Location = New System.Drawing.Point(516, 111)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(106, 22)
-        Me.Label37.TabIndex = 452
-        Me.Label37.Text = "OSA setting"
-        '
-        'Label47
-        '
-        Me.Label47.AutoSize = True
-        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label47.Location = New System.Drawing.Point(183, 111)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(132, 22)
-        Me.Label47.TabIndex = 451
-        Me.Label47.Text = "Pulse condition"
-        '
-        'Label57
-        '
-        Me.Label57.AutoSize = True
-        Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label57.Location = New System.Drawing.Point(516, 111)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(106, 22)
-        Me.Label57.TabIndex = 452
-        Me.Label57.Text = "OSA setting"
-        '
-        'Label66
-        '
-        Me.Label66.AutoSize = True
-        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label66.Location = New System.Drawing.Point(183, 111)
-        Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(132, 22)
-        Me.Label66.TabIndex = 451
-        Me.Label66.Text = "Pulse condition"
-        '
-        'Label76
-        '
-        Me.Label76.AutoSize = True
-        Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label76.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label76.Location = New System.Drawing.Point(516, 111)
-        Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(106, 22)
-        Me.Label76.TabIndex = 452
-        Me.Label76.Text = "OSA setting"
-        '
-        'Label85
-        '
-        Me.Label85.AutoSize = True
-        Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label85.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label85.Location = New System.Drawing.Point(183, 111)
-        Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(132, 22)
-        Me.Label85.TabIndex = 451
-        Me.Label85.Text = "Pulse condition"
-        '
-        'Label95
-        '
-        Me.Label95.AutoSize = True
-        Me.Label95.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label95.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label95.Location = New System.Drawing.Point(516, 111)
-        Me.Label95.Name = "Label95"
-        Me.Label95.Size = New System.Drawing.Size(106, 22)
-        Me.Label95.TabIndex = 451
-        Me.Label95.Text = "OSA setting"
-        '
-        'Label104
-        '
-        Me.Label104.AutoSize = True
-        Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label104.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label104.Location = New System.Drawing.Point(183, 111)
-        Me.Label104.Name = "Label104"
-        Me.Label104.Size = New System.Drawing.Size(132, 22)
-        Me.Label104.TabIndex = 450
-        Me.Label104.Text = "Pulse condition"
+        'txtWavelengthB_tab1
+        '
+        Me.txtWavelengthB_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthB_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthB_tab1.Location = New System.Drawing.Point(563, 510)
+        Me.txtWavelengthB_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthB_tab1.Name = "txtWavelengthB_tab1"
+        Me.txtWavelengthB_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthB_tab1.TabIndex = 438
+        '
+        'txtWavelengthA_tab1
+        '
+        Me.txtWavelengthA_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthA_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthA_tab1.Location = New System.Drawing.Point(563, 471)
+        Me.txtWavelengthA_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthA_tab1.Name = "txtWavelengthA_tab1"
+        Me.txtWavelengthA_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthA_tab1.TabIndex = 437
+        '
+        'Label106
+        '
+        Me.Label106.AutoSize = True
+        Me.Label106.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label106.Location = New System.Drawing.Point(438, 513)
+        Me.Label106.Name = "Label106"
+        Me.Label106.Size = New System.Drawing.Size(122, 22)
+        Me.Label106.TabIndex = 436
+        Me.Label106.Text = "Wavelength B"
+        '
+        'Label107
+        '
+        Me.Label107.AutoSize = True
+        Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label107.Location = New System.Drawing.Point(438, 474)
+        Me.Label107.Name = "Label107"
+        Me.Label107.Size = New System.Drawing.Size(122, 22)
+        Me.Label107.TabIndex = 435
+        Me.Label107.Text = "Wavelength A"
+        '
+        'txtWavelengthB_tab2
+        '
+        Me.txtWavelengthB_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthB_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthB_tab2.Location = New System.Drawing.Point(563, 510)
+        Me.txtWavelengthB_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthB_tab2.Name = "txtWavelengthB_tab2"
+        Me.txtWavelengthB_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthB_tab2.TabIndex = 456
+        '
+        'txtWavelengthA_tab2
+        '
+        Me.txtWavelengthA_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthA_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthA_tab2.Location = New System.Drawing.Point(563, 471)
+        Me.txtWavelengthA_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthA_tab2.Name = "txtWavelengthA_tab2"
+        Me.txtWavelengthA_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthA_tab2.TabIndex = 455
+        '
+        'Label108
+        '
+        Me.Label108.AutoSize = True
+        Me.Label108.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label108.Location = New System.Drawing.Point(438, 513)
+        Me.Label108.Name = "Label108"
+        Me.Label108.Size = New System.Drawing.Size(122, 22)
+        Me.Label108.TabIndex = 454
+        Me.Label108.Text = "Wavelength B"
+        '
+        'Label109
+        '
+        Me.Label109.AutoSize = True
+        Me.Label109.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label109.Location = New System.Drawing.Point(438, 474)
+        Me.Label109.Name = "Label109"
+        Me.Label109.Size = New System.Drawing.Size(122, 22)
+        Me.Label109.TabIndex = 453
+        Me.Label109.Text = "Wavelength A"
+        '
+        'txtWavelengthB_tab3
+        '
+        Me.txtWavelengthB_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthB_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthB_tab3.Location = New System.Drawing.Point(563, 510)
+        Me.txtWavelengthB_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthB_tab3.Name = "txtWavelengthB_tab3"
+        Me.txtWavelengthB_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthB_tab3.TabIndex = 456
+        '
+        'txtWavelengthA_tab3
+        '
+        Me.txtWavelengthA_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthA_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthA_tab3.Location = New System.Drawing.Point(563, 471)
+        Me.txtWavelengthA_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthA_tab3.Name = "txtWavelengthA_tab3"
+        Me.txtWavelengthA_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthA_tab3.TabIndex = 455
+        '
+        'Label110
+        '
+        Me.Label110.AutoSize = True
+        Me.Label110.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label110.Location = New System.Drawing.Point(438, 513)
+        Me.Label110.Name = "Label110"
+        Me.Label110.Size = New System.Drawing.Size(122, 22)
+        Me.Label110.TabIndex = 454
+        Me.Label110.Text = "Wavelength B"
+        '
+        'Label111
+        '
+        Me.Label111.AutoSize = True
+        Me.Label111.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label111.Location = New System.Drawing.Point(438, 474)
+        Me.Label111.Name = "Label111"
+        Me.Label111.Size = New System.Drawing.Size(122, 22)
+        Me.Label111.TabIndex = 453
+        Me.Label111.Text = "Wavelength A"
+        '
+        'txtWavelengthB_tab4
+        '
+        Me.txtWavelengthB_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthB_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthB_tab4.Location = New System.Drawing.Point(563, 510)
+        Me.txtWavelengthB_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthB_tab4.Name = "txtWavelengthB_tab4"
+        Me.txtWavelengthB_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthB_tab4.TabIndex = 456
+        '
+        'txtWavelengthA_tab4
+        '
+        Me.txtWavelengthA_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthA_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthA_tab4.Location = New System.Drawing.Point(563, 471)
+        Me.txtWavelengthA_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthA_tab4.Name = "txtWavelengthA_tab4"
+        Me.txtWavelengthA_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthA_tab4.TabIndex = 455
+        '
+        'Label112
+        '
+        Me.Label112.AutoSize = True
+        Me.Label112.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label112.Location = New System.Drawing.Point(438, 513)
+        Me.Label112.Name = "Label112"
+        Me.Label112.Size = New System.Drawing.Size(122, 22)
+        Me.Label112.TabIndex = 454
+        Me.Label112.Text = "Wavelength B"
+        '
+        'Label113
+        '
+        Me.Label113.AutoSize = True
+        Me.Label113.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label113.Location = New System.Drawing.Point(438, 474)
+        Me.Label113.Name = "Label113"
+        Me.Label113.Size = New System.Drawing.Size(122, 22)
+        Me.Label113.TabIndex = 453
+        Me.Label113.Text = "Wavelength A"
+        '
+        'txtWavelengthB_tab5
+        '
+        Me.txtWavelengthB_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthB_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthB_tab5.Location = New System.Drawing.Point(563, 510)
+        Me.txtWavelengthB_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthB_tab5.Name = "txtWavelengthB_tab5"
+        Me.txtWavelengthB_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthB_tab5.TabIndex = 456
+        '
+        'txtWavelengthA_tab5
+        '
+        Me.txtWavelengthA_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthA_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthA_tab5.Location = New System.Drawing.Point(563, 471)
+        Me.txtWavelengthA_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthA_tab5.Name = "txtWavelengthA_tab5"
+        Me.txtWavelengthA_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthA_tab5.TabIndex = 455
+        '
+        'Label114
+        '
+        Me.Label114.AutoSize = True
+        Me.Label114.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label114.Location = New System.Drawing.Point(438, 513)
+        Me.Label114.Name = "Label114"
+        Me.Label114.Size = New System.Drawing.Size(122, 22)
+        Me.Label114.TabIndex = 454
+        Me.Label114.Text = "Wavelength B"
+        '
+        'Label115
+        '
+        Me.Label115.AutoSize = True
+        Me.Label115.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label115.Location = New System.Drawing.Point(438, 474)
+        Me.Label115.Name = "Label115"
+        Me.Label115.Size = New System.Drawing.Size(122, 22)
+        Me.Label115.TabIndex = 453
+        Me.Label115.Text = "Wavelength A"
+        '
+        'txtWavelengthB_tab6
+        '
+        Me.txtWavelengthB_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthB_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthB_tab6.Location = New System.Drawing.Point(563, 510)
+        Me.txtWavelengthB_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthB_tab6.Name = "txtWavelengthB_tab6"
+        Me.txtWavelengthB_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthB_tab6.TabIndex = 455
+        '
+        'txtWavelengthA_tab6
+        '
+        Me.txtWavelengthA_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtWavelengthA_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWavelengthA_tab6.Location = New System.Drawing.Point(563, 471)
+        Me.txtWavelengthA_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtWavelengthA_tab6.Name = "txtWavelengthA_tab6"
+        Me.txtWavelengthA_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtWavelengthA_tab6.TabIndex = 454
+        '
+        'Label116
+        '
+        Me.Label116.AutoSize = True
+        Me.Label116.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label116.Location = New System.Drawing.Point(438, 513)
+        Me.Label116.Name = "Label116"
+        Me.Label116.Size = New System.Drawing.Size(122, 22)
+        Me.Label116.TabIndex = 453
+        Me.Label116.Text = "Wavelength B"
+        '
+        'Label117
+        '
+        Me.Label117.AutoSize = True
+        Me.Label117.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label117.Location = New System.Drawing.Point(438, 474)
+        Me.Label117.Name = "Label117"
+        Me.Label117.Size = New System.Drawing.Size(122, 22)
+        Me.Label117.TabIndex = 452
+        Me.Label117.Text = "Wavelength A"
         '
         'frmWLMeasurement
         '
@@ -3118,4 +3406,28 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label27 As Label
     Friend WithEvents Label95 As Label
     Friend WithEvents Label104 As Label
+    Friend WithEvents txtWavelengthB_tab1 As TextBox
+    Friend WithEvents txtWavelengthA_tab1 As TextBox
+    Friend WithEvents Label106 As Label
+    Friend WithEvents Label107 As Label
+    Friend WithEvents txtWavelengthB_tab2 As TextBox
+    Friend WithEvents txtWavelengthA_tab2 As TextBox
+    Friend WithEvents Label108 As Label
+    Friend WithEvents Label109 As Label
+    Friend WithEvents txtWavelengthB_tab6 As TextBox
+    Friend WithEvents txtWavelengthA_tab6 As TextBox
+    Friend WithEvents Label116 As Label
+    Friend WithEvents Label117 As Label
+    Friend WithEvents txtWavelengthB_tab5 As TextBox
+    Friend WithEvents txtWavelengthA_tab5 As TextBox
+    Friend WithEvents Label114 As Label
+    Friend WithEvents Label115 As Label
+    Friend WithEvents txtWavelengthB_tab4 As TextBox
+    Friend WithEvents txtWavelengthA_tab4 As TextBox
+    Friend WithEvents Label112 As Label
+    Friend WithEvents Label113 As Label
+    Friend WithEvents txtWavelengthB_tab3 As TextBox
+    Friend WithEvents txtWavelengthA_tab3 As TextBox
+    Friend WithEvents Label110 As Label
+    Friend WithEvents Label111 As Label
 End Class

@@ -77,18 +77,28 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsCalMeter.vb" />
+    <Compile Include="clsILX_LDC37xx.vb" />
+    <Compile Include="clsNI_488.vb" />
+    <Compile Include="clsSerialPort.vb" />
+    <Compile Include="frmLDTempWait.Designer.vb">
+      <DependentUpon>frmLDTempWait.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLDTempWait.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Models\GlobalVariables.vb" />
-    <Compile Include="Models\PreferanceConfig.vb" />
+    <Compile Include="Models\PreferanceParameter.vb" />
     <Compile Include="Views\About\frmAbout.Designer.vb">
       <DependentUpon>frmAbout.vb</DependentUpon>
     </Compile>
     <Compile Include="Views\About\frmAbout.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmILGraph.Designer.vb">
+    <Compile Include="Views\Production\ILGraph\frmILGraph.Designer.vb">
       <DependentUpon>frmILGraph.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmILGraph.vb">
+    <Compile Include="Views\Production\ILGraph\frmILGraph.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.Designer.vb">
@@ -115,10 +125,10 @@
     <Compile Include="Views\Production\measurementCondition\frmILMeasurement.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPcalmeasurement.Designer.vb">
+    <Compile Include="Views\Production\Pcal\frmPcalmeasurement.Designer.vb">
       <DependentUpon>frmPcalmeasurement.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmPcalmeasurement.vb">
+    <Compile Include="Views\Production\Pcal\frmPcalmeasurement.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\Preferance\frmPreferance.Designer.vb">
@@ -133,10 +143,10 @@
     <Compile Include="Views\Production\frmProduction.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTemperatureControl.Designer.vb">
+    <Compile Include="Views\Production\Temp\frmTemperatureControl.Designer.vb">
       <DependentUpon>frmTemperatureControl.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmTemperatureControl.vb">
+    <Compile Include="Views\Production\Temp\frmTemperatureControl.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\Production\JudgmentCondition\frmWJudgment.Designer.vb">
@@ -172,19 +182,22 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="frmWLgraph.Designer.vb">
+    <Compile Include="Views\Production\WLGraph\frmWLgraph.Designer.vb">
       <DependentUpon>frmWLgraph.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmWLgraph.vb">
+    <Compile Include="Views\Production\WLGraph\frmWLgraph.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Models\ProductionParameters.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmLDTempWait.resx">
+      <DependentUpon>frmLDTempWait.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\About\frmAbout.resx">
       <DependentUpon>frmAbout.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmILGraph.resx">
+    <EmbeddedResource Include="Views\Production\ILGraph\frmILGraph.resx">
       <DependentUpon>frmILGraph.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
@@ -199,7 +212,7 @@
     <EmbeddedResource Include="Views\Production\measurementCondition\frmILMeasurement.resx">
       <DependentUpon>frmILMeasurement.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPcalmeasurement.resx">
+    <EmbeddedResource Include="Views\Production\Pcal\frmPcalmeasurement.resx">
       <DependentUpon>frmPcalmeasurement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Preferance\frmPreferance.resx">
@@ -208,7 +221,7 @@
     <EmbeddedResource Include="Views\Production\frmProduction.resx">
       <DependentUpon>frmProduction.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTemperatureControl.resx">
+    <EmbeddedResource Include="Views\Production\Temp\frmTemperatureControl.resx">
       <DependentUpon>frmTemperatureControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Production\JudgmentCondition\frmWJudgment.resx">
@@ -226,7 +239,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmWLgraph.resx">
+    <EmbeddedResource Include="Views\Production\WLGraph\frmWLgraph.resx">
       <DependentUpon>frmWLgraph.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
@@ -252,5 +265,17 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VisaComLib">
+      <Guid>{DB8CBF00-D6D3-11D4-AA51-00A024EE30BD}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>15</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
