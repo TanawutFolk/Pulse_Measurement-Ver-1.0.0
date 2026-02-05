@@ -338,3 +338,4 @@ C:\Users\tanawut.pat\Desktop\Pulse_Git\Pulse_Measurement-Ver-1.0.0\Pulse_measurm
 C:\Users\tanawut.pat\Desktop\Pulse_Git\Pulse_Measurement-Ver-1.0.0\Pulse_measurment\obj\Debug\Pulse_measurment.xml
 C:\Users\tanawut.pat\Desktop\Pulse_Git\Pulse_Measurement-Ver-1.0.0\Pulse_measurment\obj\Debug\Pulse_measurment.pdb
 C:\Users\tanawut.pat\Desktop\Pulse_Git\Pulse_Measurement-Ver-1.0.0\Pulse_measurment\obj\Debug\Pulse_measurment.vbproj.ResolveComReference.cache
+C:\Users\tanawut.pat\Desktop\Pulse_Git\Pulse_Measurement-Ver-1.0.0\Pulse_measurment\obj\Debug\Pulse_measurment.exe.config

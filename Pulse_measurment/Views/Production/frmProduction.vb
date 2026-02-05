@@ -285,6 +285,82 @@ Public Class frmProduction
     End Sub
 
     Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
+        Try
+            ' ---------------------------------------------------------
+            ' Step 1: รับค่าจากหน้าจอ (User Input) เก็บเข้าตัวแปร
+            ' ---------------------------------------------------------
+            UpdateRecipeFromScreen()
+            ' แนะนำ: ควรมีคำสั่ง Save ลงไฟล์ JSON ชั่วคราวด้วยเพื่อกันโปรแกรมเด้งแล้วค่าหาย
 
+            ' ---------------------------------------------------------
+            ' Step 2: เชื่อมต่อเครื่องมือ (Initial Machine)
+            ' ---------------------------------------------------------
+            If mInitialMachine() = False Then
+                MessageBox.Show("Failed to initialize machines. Process Aborted.", "Error")
+                Exit Sub
+            End If
+
+            ' ---------------------------------------------------------
+            ' Step 3: ควบคุมอุณหภูมิ (Temperature Control)
+            ' ---------------------------------------------------------
+            ' ตั้งค่า Set point ก่อนเรียก Temp Control (ตัวอย่าง)
+            ' ปกติค่าพวกนี้อาจจะมาจาก Recipe หรือ Preference
+            dblTcSet = 25.0 ' หรือดึงจาก CurrentRecipe.TcSet
+            dblTsSet = 25.0 ' หรือดึงจาก CurrentRecipe.TsSet
+
+            ' สั่งเปิด Output (ถ้าจำเป็นต้องสั่งเปิดก่อนเข้า Loop Wait)
+            ' clsTc_ILX.LD_TEC_ONOFF(1)
+            ' clsTs_ILX.LD_TEC_ONOFF(1)
+
+            ' เรียกหน้าจอรออุณหภูมิ
+            Dim frmWait As New frmLDTempWait()
+            If frmWait.gfuncTempCtrl() = False Then
+                Throw New Exception("Temperature Control Failed or Cancelled.")
+            End If
+
+            ' ---------------------------------------------------------
+            ' Step 4: เริ่มกระบวนการวัด (Measurement Process)
+            ' ---------------------------------------------------------
+            MessageBox.Show("Temperature OK! Starting Measurement...", "Info")
+
+            ' ... ใส่โค้ดการวัด (Loop Measurement) ต่อตรงนี้ ...
+
+        Catch ex As Exception
+            MessageBox.Show("Error during operation: " & ex.Message, "Critical Error")
+        Finally
+            ' (Optional) ปิด Output หรือเคลียร์ค่าเมื่อจบงานหรือ Error
+        End Try
     End Sub
+
+    ' =========================================================
+    ' ฟังก์ชันเชื่อมต่อเครื่องมือ (ดัดแปลงจากของเก่าให้เข้ากับตัวแปรใหม่)
+    ' =========================================================
+    Function mInitialMachine() As Boolean
+        mInitialMachine = False
+        Try
+            ' ดึงค่า Address จาก Preference ที่ User ตั้งไว้
+            ' สมมติว่า User กรอกแค่เลข Address เช่น "1", "2" ในหน้า Preference
+            ' แต่ถ้า User กรอก "GPIB0::1::INSTR" อาจจะต้องใช้ Val() หรือตัด String
+
+            ' 1. เชื่อมต่อ TC (Temperature Case) 
+            ' สมมติใช้ตัวแปร FUKKO หรือ OFS จาก Preference มาใส่
+            Dim TcAddr As Integer = Val(CurrentPreferance.GPIB_address.FUKKO_SYSTEMAT_845TempControlBase)
+            ' หมายเหตุ: clsILX_LDC37xx.LD_Init(BoardIndex, Address, DebugMode)
+            If clsTc_ILX.LD_Init(0, TcAddr, False) = False Then Throw New Exception("Connect Tc Fail (Addr:" & TcAddr & ")")
+
+            ' 2. เชื่อมต่อ TS (Temperature Sink/Laser)
+            ' สมมติใช้ตัวแปร LDT_5910C
+            Dim TsAddr As Integer = Val(CurrentPreferance.GPIB_address.LDT_5910C_TempControlLD)
+            If clsTs_ILX.LD_Init(0, TsAddr, False) = False Then Throw New Exception("Connect Ts Fail (Addr:" & TsAddr & ")")
+
+            ' 3. เชื่อมต่อ LD อื่นๆ (ถ้ามี)
+            ' ... ใส่โค้ดแบบเดียวกัน ...
+
+            mInitialMachine = True
+
+        Catch ex As Exception
+            MessageBox.Show("Machine Init Error: " & ex.Message)
+            mInitialMachine = False
+        End Try
+    End Function
 End Class

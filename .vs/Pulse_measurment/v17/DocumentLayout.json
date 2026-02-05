@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\frmldtempwait.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmldtempwait.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\views\\production\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\views\\production\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\models\\globalvariables.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\models\\globalvariables.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\frmldtempwait.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmldtempwait.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\views\\production\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\views\\production\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLDTempWait.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\frmLDTempWait.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\frmLDTempWait.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\frmLDTempWait.vb",
+              "RelativeToolTip": "Pulse_measurment\\frmLDTempWait.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-05T09:43:02.692Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GlobalVariables.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Models\\GlobalVariables.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\Models\\GlobalVariables.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Models\\GlobalVariables.vb",
+              "RelativeToolTip": "Pulse_measurment\\Models\\GlobalVariables.vb",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-05T09:34:30.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLDTempWait.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\frmLDTempWait.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\frmLDTempWait.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\frmLDTempWait.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\frmLDTempWait.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-05T09:14:12.467Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmProduction.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Production\\frmProduction.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\Views\\Production\\frmProduction.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Production\\frmProduction.vb",
+              "RelativeToolTip": "Pulse_measurment\\Views\\Production\\frmProduction.vb",
+              "ViewState": "AgIAADUBAAAAAAAAAAAMwDwBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-05T08:57:38.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmProduction.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Production\\frmProduction.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\Views\\Production\\frmProduction.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Production\\frmProduction.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\Views\\Production\\frmProduction.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-05T08:57:33.136Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

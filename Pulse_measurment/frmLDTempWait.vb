@@ -33,7 +33,7 @@ ErrRoutine:
 
     End Sub
 
-    Private Sub bttCancel_Click(sender As Object, e As EventArgs) Handles bttCancel.Click
+    Private Sub bttCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
         CtrlTemp = False
         bgworkerTempCtrl.CancelAsync()
         Me.Close()
