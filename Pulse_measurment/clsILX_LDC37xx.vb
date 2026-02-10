@@ -258,8 +258,8 @@
     ''' <param name="TimeOutS">ﾀｲﾑｱｳﾄ(秒)</param>
     ''' <returns>Boolean</returns>
     ''' <remarks></remarks>
-    Friend Function LDOnOffWait(ByVal OnOffIndex As Integer, _
-                                ByVal dblCurrThreshold As Double, _
+    Friend Function LDOnOffWait(ByVal OnOffIndex As Integer,
+                                ByVal dblCurrThreshold As Double,
                                 ByVal TimeOutS As Integer) As Boolean
 
         Dim dblPow As Double
@@ -321,9 +321,9 @@
     ''' <param name="TimeOutS">ﾀｲﾑｱｳﾄ(秒)</param>
     ''' <returns>Boolean</returns>
     ''' <remarks></remarks>
-    Friend Function LDTEC_Steady(ByVal dblMainTmp As Double, _
-                                 ByVal dblTolerance As Double, _
-                                 ByVal StabilitySec As Integer, _
+    Friend Function LDTEC_Steady(ByVal dblMainTmp As Double,
+                                 ByVal dblTolerance As Double,
+                                 ByVal StabilitySec As Integer,
                                  ByVal TimeOutS As Integer) As Boolean
 
         Dim intCnt As Integer
@@ -690,8 +690,8 @@
     ''' <param name="TimeOutS">ﾀｲﾑｱｳﾄ(秒)</param>
     ''' <returns>Boolean</returns>
     ''' <remarks></remarks>
-    Friend Function LDTEC_SteadyCheck(ByVal dblMainTmp As Double, _
-                                 ByVal dblTolerance As Double, _
+    Friend Function LDTEC_SteadyCheck(ByVal dblMainTmp As Double,
+                                 ByVal dblTolerance As Double,
                                  ByVal dblOffset As Double) As Boolean
 
         Dim dblTemp As Double

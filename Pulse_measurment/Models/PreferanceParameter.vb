@@ -1,14 +1,14 @@
 Imports Newtonsoft.Json
 
 Public Class GPIBSettings
-    Public Property LDT_5910C_TempControlLD As String = ""
-    Public Property YOKOGAWA_AQ6370D_OpticSpectAnalyz As String = ""
-    Public Property SANTEC_OVA_100_OpticAttenua As String = ""
-    Public Property YOKOGAWA_AQ2211_OpticSwitch As String = ""
+    Public Property LDT_5910C_TempControlLD As Integer = "1"
+    Public Property YOKOGAWA_AQ6370D_OpticSpectAnalyz As Integer = "2"
+    Public Property SANTEC_OVA_100_OpticAttenua As Integer = "3"
+    Public Property YOKOGAWA_AQ2211_OpticSwitch As Integer = "4"
     'Public Property KEYSIGHT_DSO_X_4154GOsciloscope As String = ""
-    Public Property FUKKO_SYSTEMAT_845TempControlBase As String = ""
-    Public Property OFS_1000_TempControlBase As String = ""
-    Public Property KEYSIGHT_34416A_Digitlmultimeter As String = ""
+    Public Property FUKKO_SYSTEMAT_845TempControlBase As Integer = "5"
+    Public Property OFS_1000_TempControlBase As Integer = "6"
+    Public Property KEYSIGHT_34416A_Digitlmultimeter As Integer = "7"
 End Class
 
 Public Class PowerMeasurement

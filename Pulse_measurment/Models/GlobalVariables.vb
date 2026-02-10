@@ -9,6 +9,27 @@ Module GlobalVariables
     Public CurrentRecipe As New ProductionParameters()
     Public CurrentPreferance As New PreferanceParameter()
 
+    ' --- System Log Class ---
+    Public gSysLog As New clsSysLog()
+
+    ' --- Emergency Stop Flag ---
+    Public gblnEmergency As Boolean = False
+
+    ' --- Machine Info (GPIB Addresses) ---
+    Public infoMachine As New MachineInfo()
+
+    '' --- ILX Controller Objects ---
+    Public clsLD1_ILX As New clsILX_LDC37xx()
+    Public clsLD2_ILX As New clsILX_LDC37xx()
+    Public clsTc_ILX As New clsILX_LDC37xx()
+    Public clsTs_ILX As New clsILX_LDC37xx()
+
+    ' --- Temperature Variables ---
+    Public dblTcSet As Double
+    Public dblTsSet As Double
+    Public dblTc_act As Double
+    Public dblTs_act As Double
+
     ''Connect --------------------------------------------
     'Dim rm As New ResourceManager()
     ''GPIB
@@ -23,17 +44,6 @@ Module GlobalVariables
     'Dim usbIntrument1 As MessageBasedSession 'CCS-HPP
     'Dim usbIntrument2 As MessageBasedSession 'Oscilloscope
 
-    ' 1. ประกาศตัวแปรเครื่องมือ (ให้เหมือนโปรเจกต์เก่า)
-    Public clsLD1_ILX As New clsILX_LDC37xx
-    Public clsLD2_ILX As New clsILX_LDC37xx
-    Public clsTc_ILX As New clsILX_LDC37xx
-    Public clsTs_ILX As New clsILX_LDC37xx
-
-    ' 2. ประกาศตัวแปรอุณหภูมิ (เพื่อให้ frmLDTempWait เรียกใช้ได้)
-    Public dblTcSet As Double
-    Public dblTsSet As Double
-    Public dblTc_act As Double
-    Public dblTs_act As Double
 
 
 

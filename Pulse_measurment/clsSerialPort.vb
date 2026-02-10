@@ -85,8 +85,8 @@ Public Class clsSerialPort
     ''' <param name="intStopBits">ｽﾄｯﾌﾟﾋﾞｯﾄ 0～3</param>
     ''' <returns>Boolean</returns>
     ''' <remarks></remarks>
-    Friend Function PORT_SetUp(ByVal blnDebug As Boolean, _
-                               ByVal intBaudRate As Integer, ByVal intDataBits As Integer, _
+    Friend Function PORT_SetUp(ByVal blnDebug As Boolean,
+                               ByVal intBaudRate As Integer, ByVal intDataBits As Integer,
                                ByVal intParity As System.IO.Ports.Parity, ByVal intStopBits As System.IO.Ports.StopBits) As Boolean
 
         '------------------------------------------------------------------

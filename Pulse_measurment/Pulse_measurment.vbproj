@@ -87,7 +87,9 @@
     <Compile Include="frmLDTempWait.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Models\clsSysLog.vb" />
     <Compile Include="Models\GlobalVariables.vb" />
+    <Compile Include="Models\MachineInfo.vb" />
     <Compile Include="Models\PreferanceParameter.vb" />
     <Compile Include="Views\About\frmAbout.Designer.vb">
       <DependentUpon>frmAbout.vb</DependentUpon>

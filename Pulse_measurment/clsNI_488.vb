@@ -23,7 +23,7 @@ Public Class clsNI_488
     ''' <param name="blnDebug">ｱﾌﾟﾘ単体動作ﾓｰﾄﾞ True:ﾛｰｶﾙ(装置起動しない) False:通常</param>
     ''' <returns>Boolean</returns>
     ''' <remarks></remarks>
-    Friend Function GPIB_Init(ByVal intBoardNo As Integer, ByVal intAddress As Integer, _
+    Friend Function GPIB_Init(ByVal intBoardNo As Integer, ByVal intAddress As Integer,
                               ByVal strDelimiter As String, ByVal blnDebug As Boolean) As Boolean
 
         '------------------------------------------------------------------
