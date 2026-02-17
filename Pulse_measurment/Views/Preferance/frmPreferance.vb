@@ -54,7 +54,7 @@ Public Class frmPreferance
         End If
     End Sub
 
-    '-------------------------------- SaveAllData Function (หัวใจหลัก) --------------------------------
+    '-------------------------------- SaveAllData Function  --------------------------------
     Private Sub SaveAllData()
         Try
             If GlobalVariables.CurrentProduct = "" Then

@@ -23,8 +23,8 @@ Public Class frmMain
     End Sub
 
     Private Sub btnEnd_Click(sender As Object, e As EventArgs) Handles btnEnd.Click
-        Me.Close()
-
+        Me.Dispose()
+        'Me.Close()
     End Sub
 
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -48,4 +48,5 @@ Public Class frmMain
         End If
         btnPreference.Enabled = (cboProduct.Text <> "")
     End Sub
+
 End Class

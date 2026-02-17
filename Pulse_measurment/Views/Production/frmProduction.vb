@@ -289,7 +289,7 @@ Public Class frmProduction
             'รับค่า User Input เก็บในตัวแปร
             UpdateRecipeFromScreen()
 
-            'valid ข้อมูลครบไหม
+            'valid ข้อมูลครบป่าว
             If String.IsNullOrEmpty(txtParameterFile.Text) Then
                 MessageBox.Show("กรุณาเลือกไฟล์ Parameter ก่อน", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 Return
@@ -320,7 +320,7 @@ Public Class frmProduction
 
                 gSysLog.LogOut("=== Step " & (i + 1) & "/" & steps.Count & ": " & currentStep.StepName & " (Tc=" & currentStep.Tc & ", Ts=" & currentStep.Tld & ") ===")
 
-                ' 5.1 ตั้งค่าอุณหภูมิเป้าหมาย (ส่งคำสั่งไปที่ TEC Controller)
+                ' 1 ตั้งค่าอุณหภูมิเป้าหมาย (ส่งคำสั่งไปที่ TEC Controller)
                 dblTcSet = currentStep.Tc
                 dblTsSet = currentStep.Tld
 
@@ -334,14 +334,14 @@ Public Class frmProduction
                     Throw New Exception("Failed to set Ts temperature")
                 End If
 
-                ' 5.2 Control Temperature - รอ Temp Steady
+                ' 2 Control Temperature - รอ Temp Steady
                 Dim frmTemp As New frmLDTempWait()
                 If frmTemp.gfuncTempCtrl() = False Then
                     MessageBox.Show("Temperature control cancelled or failed at step: " & currentStep.StepName, "Info", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     Return
                 End If
 
-                ' 5.3 Temp Steady แล้ว → ทำการวัดตาม Type
+                ' 3 Temp Steady แล้ว → ทำการวัดตาม Type
                 gSysLog.LogOut("Temperature Stable for " & currentStep.StepName & " → Start measurement")
 
                 ' TODO: เพิ่ม code วัดจริงตรงนี้ตาม currentStep.MeasType
@@ -455,7 +455,7 @@ Public Class frmProduction
         mInitialMachine = False
 
         Try
-            ' ดึงค่า GPIB Address จาก CurrentPreferance (user ตั้งไว้ในหน้า Preference)
+            ' ดึงค่า GPIB Address จาก CurrentPreferance (user ตั้งในหน้า Preference)
             Dim gpib As GPIBSettings = CurrentPreferance.GPIB_address
 
             '----------------------------------------------LD Initial--------------------------------------------------
