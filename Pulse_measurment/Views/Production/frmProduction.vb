@@ -284,83 +284,83 @@ Public Class frmProduction
         Me.Close()
     End Sub
 
-    Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
-        Try
-            'รับค่า User Input เก็บในตัวแปร
-            UpdateRecipeFromScreen()
+    'Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
+    '    Try
+    '        'รับค่า User Input เก็บในตัวแปร
+    '        UpdateRecipeFromScreen()
 
-            'valid ข้อมูลครบป่าว
-            If String.IsNullOrEmpty(txtParameterFile.Text) Then
-                MessageBox.Show("กรุณาเลือกไฟล์ Parameter ก่อน", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-                Return
-            End If
+    '        'valid ข้อมูลครบป่าว
+    '        If String.IsNullOrEmpty(txtParameterFile.Text) Then
+    '            MessageBox.Show("กรุณาเลือกไฟล์ Parameter ก่อน", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+    '            Return
+    '        End If
 
-            If String.IsNullOrEmpty(txtOperator.Text) Then
-                MessageBox.Show("กรุณากรอกรหัสพนักงาน (Operator)", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-                Return
-            End If
+    '        If String.IsNullOrEmpty(txtOperator.Text) Then
+    '            MessageBox.Show("กรุณากรอกรหัสพนักงาน (Operator)", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+    '            Return
+    '        End If
 
-            ' Initialize Machine (เชื่อมต่อเครื่องมือ)
-            If mInitialMachine() = False Then
-                MessageBox.Show("ไม่สามารถเชื่อมต่อเครื่องได้", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-                Return
-            End If
+    '        ' Initialize Machine (เชื่อมต่อเครื่องมือ)
+    '        If mInitialMachine() = False Then
+    '            MessageBox.Show("ไม่สามารถเชื่อมต่อเครื่องได้", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    '            Return
+    '        End If
 
-            ' รวบรวม Measurement Steps ที่เปิดใช้งาน (แต่ละ step มี Tc/Tld ต่างกันได้)
-            Dim steps As List(Of MeasurementStep) = BuildMeasurementSteps()
+    '        ' รวบรวม Measurement Steps ที่เปิดใช้งาน (แต่ละ step มี Tc/Tld ต่างกันได้)
+    '        Dim steps As List(Of MeasurementStep) = BuildMeasurementSteps()
 
-            If steps.Count = 0 Then
-                MessageBox.Show("ไม่มี Measurement ที่เปิดใช้งาน กรุณาเลือกอย่างน้อย 1 เงื่อนไข", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-                Return
-            End If
+    '        If steps.Count = 0 Then
+    '            MessageBox.Show("ไม่มี Measurement ที่เปิดใช้งาน กรุณาเลือกอย่างน้อย 1 เงื่อนไข", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+    '            Return
+    '        End If
 
-            ' วนลูปวัดทีละ Step ตั้ง Temp → รอ Steady → วัด
-            For i As Integer = 0 To steps.Count - 1
-                Dim currentStep As MeasurementStep = steps(i)
+    '        ' วนลูปวัดทีละ Step ตั้ง Temp → รอ Steady → วัด
+    '        For i As Integer = 0 To steps.Count - 1
+    '            Dim currentStep As MeasurementStep = steps(i)
 
-                gSysLog.LogOut("=== Step " & (i + 1) & "/" & steps.Count & ": " & currentStep.StepName & " (Tc=" & currentStep.Tc & ", Ts=" & currentStep.Tld & ") ===")
+    '            gSysLog.LogOut("=== Step " & (i + 1) & "/" & steps.Count & ": " & currentStep.StepName & " (Tc=" & currentStep.Tc & ", Ts=" & currentStep.Tld & ") ===")
 
-                ' 1 ตั้งค่าอุณหภูมิเป้าหมาย (ส่งคำสั่งไปที่ TEC Controller)
-                dblTcSet = currentStep.Tc
-                dblTsSet = currentStep.Tld
+    '            ' 1 ตั้งค่าอุณหภูมิเป้าหมาย (ส่งคำสั่งไปที่ TEC Controller)
+    '            dblTcSet = currentStep.Tc
+    '            dblTsSet = currentStep.Tld
 
-                gSysLog.LogOut("Setting Tc target = " & dblTcSet & " °C")
-                If clsTc_ILX.LD_Temp(0, dblTcSet) = False Then
-                    Throw New Exception("Failed to set Tc temperature")
-                End If
+    '            gSysLog.LogOut("Setting Tc target = " & dblTcSet & " °C")
+    '            If clsTc_ILX.LD_Temp(0, dblTcSet) = False Then
+    '                Throw New Exception("Failed to set Tc temperature")
+    '            End If
 
-                gSysLog.LogOut("Setting Ts target = " & dblTsSet & " °C")
-                If clsTs_ILX.LD_Temp(0, dblTsSet) = False Then
-                    Throw New Exception("Failed to set Ts temperature")
-                End If
+    '            gSysLog.LogOut("Setting Ts target = " & dblTsSet & " °C")
+    '            If clsTs_ILX.LD_Temp(0, dblTsSet) = False Then
+    '                Throw New Exception("Failed to set Ts temperature")
+    '            End If
 
-                ' 2 Control Temperature - รอ Temp Steady
-                Dim frmTemp As New frmLDTempWait()
-                If frmTemp.gfuncTempCtrl() = False Then
-                    MessageBox.Show("Temperature control cancelled or failed at step: " & currentStep.StepName, "Info", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                    Return
-                End If
+    '            ' 2 Control Temperature - รอ Temp Steady
+    '            Dim frmTemp As New frmLDTempWait()
+    '            If frmTemp.gfuncTempCtrl() = False Then
+    '                MessageBox.Show("Temperature control cancelled or failed at step: " & currentStep.StepName, "Info", MessageBoxButtons.OK, MessageBoxIcon.Information)
+    '                Return
+    '            End If
 
-                ' 3 Temp Steady แล้ว → ทำการวัดตาม Type
-                gSysLog.LogOut("Temperature Stable for " & currentStep.StepName & " → Start measurement")
+    '            ' 3 Temp Steady แล้ว → ทำการวัดตาม Type
+    '            gSysLog.LogOut("Temperature Stable for " & currentStep.StepName & " → Start measurement")
 
-                ' TODO: เพิ่ม code วัดจริงตรงนี้ตาม currentStep.MeasType
-                ' Select Case currentStep.MeasType
-                '     Case "IL"  : RunILMeasurement(currentStep.TabIndex)
-                '     Case "WL"  : RunWLMeasurement(currentStep.TabIndex)
-                '     Case "Wave": RunWaveMeasurement(currentStep.TabIndex)
-                ' End Select
+    '            ' TODO: เพิ่ม code วัดจริงตรงนี้ตาม currentStep.MeasType
+    '            ' Select Case currentStep.MeasType
+    '            '     Case "IL"  : RunILMeasurement(currentStep.TabIndex)
+    '            '     Case "WL"  : RunWLMeasurement(currentStep.TabIndex)
+    '            '     Case "Wave": RunWaveMeasurement(currentStep.TabIndex)
+    '            ' End Select
 
-            Next
+    '        Next
 
-            ' 6. วัดครบทุก Step แล้ว
-            MessageBox.Show("Measurement Complete! (" & steps.Count & " steps)", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+    '        ' 6. วัดครบทุก Step แล้ว
+    '        MessageBox.Show("Measurement Complete! (" & steps.Count & " steps)", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
-        Catch ex As Exception
-            gSysLog.LogOut("btnStart_Click," & ex.Message)
-            MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
-    End Sub
+    '    Catch ex As Exception
+    '        gSysLog.LogOut("btnStart_Click," & ex.Message)
+    '        MessageBox.Show("Error: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    '    End Try
+    'End Sub
 
     ' =========================================================
     ' Class เก็บข้อมูล 1 Step ของการวัด
@@ -450,69 +450,69 @@ Public Class frmProduction
     End Function
 
     ' Function mInitialMachine - Initialize all instruments
-    Function mInitialMachine() As Boolean
+    'Function mInitialMachine() As Boolean
 
-        mInitialMachine = False
+    '    mInitialMachine = False
 
-        Try
-            ' ดึงค่า GPIB Address จาก CurrentPreferance (user ตั้งในหน้า Preference)
-            Dim gpib As GPIBSettings = CurrentPreferance.GPIB_address
+    '    Try
+    '        ' ดึงค่า GPIB Address จาก CurrentPreferance (user ตั้งในหน้า Preference)
+    '        Dim gpib As GPIBSettings = CurrentPreferance.GPIB_address
 
-            '----------------------------------------------LD Initial--------------------------------------------------
-            'LD1 (Board=0, Port=address จาก Preference)
-            clsLD1_ILX.mGPIBNo = gpib.LDT_5910C_TempControlLD
-            clsLD1_ILX.mGPIBUnit = 0
-            If clsLD1_ILX.LD_Init(clsLD1_ILX.mGPIBUnit, clsLD1_ILX.mGPIBNo, False) = False Then
-                gSysLog.LogOut("mInitialMachine: LD1 Init Failed (GPIB=" & gpib.LDT_5910C_TempControlLD & ")")
-                Throw New Exception("LD1 initialization failed")
-            End If
+    '        '----------------------------------------------LD Initial--------------------------------------------------
+    '        'LD1 (Board=0, Port=address จาก Preference)
+    '        clsLD1_ILX.mGPIBNo = gpib.LDT_5910C_TempControlLD
+    '        clsLD1_ILX.mGPIBUnit = 0
+    '        If clsLD1_ILX.LD_Init(clsLD1_ILX.mGPIBUnit, clsLD1_ILX.mGPIBNo, False) = False Then
+    '            gSysLog.LogOut("mInitialMachine: LD1 Init Failed (GPIB=" & gpib.LDT_5910C_TempControlLD & ")")
+    '            Throw New Exception("LD1 initialization failed")
+    '        End If
 
-            'LD2 (ใช้ address เดียวกับ LD1 เพราะเป็นเครื่องเดียวกัน คนละ channel)
-            clsLD2_ILX.mGPIBNo = gpib.LDT_5910C_TempControlLD
-            clsLD2_ILX.mGPIBUnit = 0
-            If clsLD2_ILX.LD_Init(clsLD2_ILX.mGPIBUnit, clsLD2_ILX.mGPIBNo, False) = False Then
-                gSysLog.LogOut("mInitialMachine: LD2 Init Failed (GPIB=" & gpib.LDT_5910C_TempControlLD & ")")
-                Throw New Exception("LD2 initialization failed")
-            End If
+    '        'LD2 (ใช้ address เดียวกับ LD1 เพราะเป็นเครื่องเดียวกัน คนละ channel)
+    '        clsLD2_ILX.mGPIBNo = gpib.LDT_5910C_TempControlLD
+    '        clsLD2_ILX.mGPIBUnit = 0
+    '        If clsLD2_ILX.LD_Init(clsLD2_ILX.mGPIBUnit, clsLD2_ILX.mGPIBNo, False) = False Then
+    '            gSysLog.LogOut("mInitialMachine: LD2 Init Failed (GPIB=" & gpib.LDT_5910C_TempControlLD & ")")
+    '            Throw New Exception("LD2 initialization failed")
+    '        End If
 
-            '----------------------------------------------TEC Initial--------------------------------------------------
-            'Tc (Case Temperature Controller - FUKKO)
-            clsTc_ILX.mGPIBNo = gpib.FUKKO_SYSTEMAT_845TempControlBase
-            clsTc_ILX.mGPIBUnit = 0
-            If clsTc_ILX.LD_Init(clsTc_ILX.mGPIBUnit, clsTc_ILX.mGPIBNo, False) = False Then
-                gSysLog.LogOut("mInitialMachine: Tc Init Failed (GPIB=" & gpib.FUKKO_SYSTEMAT_845TempControlBase & ")")
-                Throw New Exception("Tc initialization failed")
-            End If
+    '        '----------------------------------------------TEC Initial--------------------------------------------------
+    '        'Tc (Case Temperature Controller - FUKKO)
+    '        clsTc_ILX.mGPIBNo = gpib.FUKKO_SYSTEMAT_845TempControlBase
+    '        clsTc_ILX.mGPIBUnit = 0
+    '        If clsTc_ILX.LD_Init(clsTc_ILX.mGPIBUnit, clsTc_ILX.mGPIBNo, False) = False Then
+    '            gSysLog.LogOut("mInitialMachine: Tc Init Failed (GPIB=" & gpib.FUKKO_SYSTEMAT_845TempControlBase & ")")
+    '            Throw New Exception("Tc initialization failed")
+    '        End If
 
-            'Ts (LD Temperature Controller - OFS)
-            clsTs_ILX.mGPIBNo = gpib.OFS_1000_TempControlBase
-            clsTs_ILX.mGPIBUnit = 0
-            If clsTs_ILX.LD_Init(clsTs_ILX.mGPIBUnit, clsTs_ILX.mGPIBNo, False) = False Then
-                gSysLog.LogOut("mInitialMachine: Ts Init Failed (GPIB=" & gpib.OFS_1000_TempControlBase & ")")
-                Throw New Exception("Ts initialization failed")
-            End If
+    '        'Ts (LD Temperature Controller - OFS)
+    '        clsTs_ILX.mGPIBNo = gpib.OFS_1000_TempControlBase
+    '        clsTs_ILX.mGPIBUnit = 0
+    '        If clsTs_ILX.LD_Init(clsTs_ILX.mGPIBUnit, clsTs_ILX.mGPIBNo, False) = False Then
+    '            gSysLog.LogOut("mInitialMachine: Ts Init Failed (GPIB=" & gpib.OFS_1000_TempControlBase & ")")
+    '            Throw New Exception("Ts initialization failed")
+    '        End If
 
-            '----------------------------------------------TEC Output ON--------------------------------------------------
-            ' เปิด TEC Output (ต้องเปิดก่อนถึงจะควบคุมอุณหภูมิได้)
-            gSysLog.LogOut("mInitialMachine: Turning ON TEC outputs...")
-            If clsTc_ILX.LD_TEC_ONOFF(1) = False Then
-                gSysLog.LogOut("mInitialMachine: Tc TEC_ON Failed")
-                Throw New Exception("Failed to turn ON Tc TEC")
-            End If
-            If clsTs_ILX.LD_TEC_ONOFF(1) = False Then
-                gSysLog.LogOut("mInitialMachine: Ts TEC_ON Failed")
-                Throw New Exception("Failed to turn ON Ts TEC")
-            End If
+    '        '----------------------------------------------TEC Output ON--------------------------------------------------
+    '        ' เปิด TEC Output (ต้องเปิดก่อนถึงจะควบคุมอุณหภูมิได้)
+    '        gSysLog.LogOut("mInitialMachine: Turning ON TEC outputs...")
+    '        If clsTc_ILX.LD_TEC_ONOFF(1) = False Then
+    '            gSysLog.LogOut("mInitialMachine: Tc TEC_ON Failed")
+    '            Throw New Exception("Failed to turn ON Tc TEC")
+    '        End If
+    '        If clsTs_ILX.LD_TEC_ONOFF(1) = False Then
+    '            gSysLog.LogOut("mInitialMachine: Ts TEC_ON Failed")
+    '            Throw New Exception("Failed to turn ON Ts TEC")
+    '        End If
 
-            mInitialMachine = True
-            gSysLog.LogOut("mInitialMachine: All instruments initialized (LD=" & gpib.LDT_5910C_TempControlLD & ", Tc=" & gpib.FUKKO_SYSTEMAT_845TempControlBase & ", Ts=" & gpib.OFS_1000_TempControlBase & ")")
-            gSysLog.LogOut("mInitialMachine: TEC outputs are ON. Ready for temperature control.")
+    '        mInitialMachine = True
+    '        gSysLog.LogOut("mInitialMachine: All instruments initialized (LD=" & gpib.LDT_5910C_TempControlLD & ", Tc=" & gpib.FUKKO_SYSTEMAT_845TempControlBase & ", Ts=" & gpib.OFS_1000_TempControlBase & ")")
+    '        gSysLog.LogOut("mInitialMachine: TEC outputs are ON. Ready for temperature control.")
 
-        Catch ex As Exception
-            gSysLog.LogOut("mInitialMachine," & ex.Message)
-            mInitialMachine = False
-        End Try
+    '    Catch ex As Exception
+    '        gSysLog.LogOut("mInitialMachine," & ex.Message)
+    '        mInitialMachine = False
+    '    End Try
 
-    End Function
+    'End Function
 
 End Class

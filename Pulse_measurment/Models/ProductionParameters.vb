@@ -152,6 +152,7 @@ Public Class ILParameter
     Public Property Tld As Double
     Public Property ICAL As Double
     Public Property ATT As Double
+    Public Property SampleNumber As Double
 
     ' โซน 2: IL Point
     Public Property FCP As Double

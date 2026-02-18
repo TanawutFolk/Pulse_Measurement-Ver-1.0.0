@@ -30,7 +30,6 @@
             WL_Data.Spec1.WavelengthB = CInt(txtWavelengthB_tab1.Text)
 
             WL_Data.Spec1.Point1 = cboMeasurePoint1_tab1.Text ' (String)
-            WL_Data.Spec1.Point2 = cboMeasurePoint2_tab1.Text ' (String)
 
 
             ' >>>>>>> TAB 2 (Spec2, _tab2) <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -55,7 +54,6 @@
             WL_Data.Spec2.WavelengthB = CInt(txtWavelengthB_tab2.Text)
 
             WL_Data.Spec2.Point1 = cboMeasurePoint1_tab2.Text
-            WL_Data.Spec2.Point2 = cboMeasurePoint2_tab2.Text
 
 
             ' >>>>>>> TAB 3 (Spec3, _tab3) <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -80,7 +78,6 @@
             WL_Data.Spec3.WavelengthB = CInt(txtWavelengthB_tab3.Text)
 
             WL_Data.Spec3.Point1 = cboMeasurePoint1_tab3.Text
-            WL_Data.Spec3.Point2 = cboMeasurePoint2_tab3.Text
 
 
             ' >>>>>>> TAB 4 (Spec4, _tab4) <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -105,7 +102,6 @@
             WL_Data.Spec4.WavelengthB = CInt(txtWavelengthB_tab4.Text)
 
             WL_Data.Spec4.Point1 = cboMeasurePoint1_tab4.Text
-            WL_Data.Spec4.Point2 = cboMeasurePoint2_tab4.Text
 
 
             ' >>>>>>> TAB 5 (Spec5, _tab5) <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -130,7 +126,6 @@
             WL_Data.Spec5.WavelengthB = CInt(txtWavelengthB_tab5.Text)
 
             WL_Data.Spec5.Point1 = cboMeasurePoint1_tab5.Text
-            WL_Data.Spec5.Point2 = cboMeasurePoint2_tab5.Text
 
 
             ' >>>>>>> TAB 6 (Spec6, _tab6) <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -155,7 +150,6 @@
             WL_Data.Spec6.WavelengthB = CInt(txtWavelengthB_tab6.Text)
 
             WL_Data.Spec6.Point1 = cboMeasurePoint1_tab6.Text
-            WL_Data.Spec6.Point2 = cboMeasurePoint2_tab6.Text
 
             Me.DialogResult = DialogResult.OK
             Me.Close()
@@ -189,7 +183,6 @@
         txtSweepSpeed_tab1.Text = WL_Data.Spec1.SweepSpeed.ToString()
 
         cboMeasurePoint1_tab1.Text = WL_Data.Spec1.Point1
-        cboMeasurePoint2_tab1.Text = WL_Data.Spec1.Point2
 
         ' >>>>>>> TAB 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         txtIf_tab2.Text = WL_Data.Spec2.IfPulse.ToString()
@@ -211,7 +204,6 @@
         txtSweepSpeed_tab2.Text = WL_Data.Spec2.SweepSpeed.ToString()
 
         cboMeasurePoint1_tab2.Text = WL_Data.Spec2.Point1
-        cboMeasurePoint2_tab2.Text = WL_Data.Spec2.Point2
 
         ' >>>>>>> TAB 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         txtIf_tab3.Text = WL_Data.Spec3.IfPulse.ToString()
@@ -233,7 +225,6 @@
         txtSweepSpeed_tab3.Text = WL_Data.Spec3.SweepSpeed.ToString()
 
         cboMeasurePoint1_tab3.Text = WL_Data.Spec3.Point1
-        cboMeasurePoint2_tab3.Text = WL_Data.Spec3.Point2
 
         ' >>>>>>> TAB 4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         txtIf_tab4.Text = WL_Data.Spec4.IfPulse.ToString()
@@ -255,7 +246,6 @@
         txtSweepSpeed_tab4.Text = WL_Data.Spec4.SweepSpeed.ToString()
 
         cboMeasurePoint1_tab4.Text = WL_Data.Spec4.Point1
-        cboMeasurePoint2_tab4.Text = WL_Data.Spec4.Point2
 
         ' >>>>>>> TAB 5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         txtIf_tab5.Text = WL_Data.Spec5.IfPulse.ToString()
@@ -277,7 +267,6 @@
         txtSweepSpeed_tab5.Text = WL_Data.Spec5.SweepSpeed.ToString()
 
         cboMeasurePoint1_tab5.Text = WL_Data.Spec5.Point1
-        cboMeasurePoint2_tab5.Text = WL_Data.Spec5.Point2
 
         ' >>>>>>> TAB 6 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
         txtIf_tab6.Text = WL_Data.Spec6.IfPulse.ToString()
@@ -299,7 +288,6 @@
         txtSweepSpeed_tab6.Text = WL_Data.Spec6.SweepSpeed.ToString()
 
         cboMeasurePoint1_tab6.Text = WL_Data.Spec6.Point1
-        cboMeasurePoint2_tab6.Text = WL_Data.Spec6.Point2
 
     End Sub
 

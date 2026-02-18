@@ -19,10 +19,10 @@ Module GlobalVariables
     Public infoMachine As New MachineInfo()
 
     ' --- ILX Controller Objects ---
-    Public clsLD1_ILX As New clsILX_LDC37xx()
-    Public clsLD2_ILX As New clsILX_LDC37xx()
-    Public clsTc_ILX As New clsILX_LDC37xx()
-    Public clsTs_ILX As New clsILX_LDC37xx()
+    'Public clsLD1_ILX As New clsILX_LDC37xx()
+    'Public clsLD2_ILX As New clsILX_LDC37xx()
+    'Public clsTc_ILX As New clsILX_LDC37xx()
+    'Public clsTs_ILX As New clsILX_LDC37xx()
 
     ' --- Temperature Variables ---
     Public dblTcSet As Double

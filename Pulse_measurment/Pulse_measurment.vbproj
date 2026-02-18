@@ -84,9 +84,7 @@
     <Compile Include="frmLDTempWait.Designer.vb">
       <DependentUpon>frmLDTempWait.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmLDTempWait.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmLDTempWait.vb" />
     <Compile Include="Models\clsSysLog.vb" />
     <Compile Include="Models\GlobalVariables.vb" />
     <Compile Include="Models\MachineInfo.vb" />

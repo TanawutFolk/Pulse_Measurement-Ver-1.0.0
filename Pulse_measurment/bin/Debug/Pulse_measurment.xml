@@ -27,5 +27,75 @@ Pulse_measurment
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="M:Pulse_measurment.clsSerialPort.PORT_Open(System.Int32,System.String)">
+ <summary>
+ ｼﾘｱﾙﾎﾟｰﾄ OPEN
+ </summary>
+ <param name="intPortNum">ﾎﾟｰﾄ番号</param>
+ <param name="strDelimiter">ﾃﾞﾘﾐﾀ</param>
+ <returns>Boolean</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Pulse_measurment.clsSerialPort.PORT_Close">
+ <summary>
+ ｼﾘｱﾙﾎﾟｰﾄ CLOSE
+ </summary>
+ <returns>Boolean</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Pulse_measurment.clsSerialPort.PORT_SetUp(System.Boolean,System.Int32,System.Int32,System.IO.Ports.Parity,System.IO.Ports.StopBits)">
+ <summary>
+ ｼﾘｱﾙﾎﾟｰﾄ 設定
+ </summary>
+ <param name="blnDebug">ｱﾌﾟﾘ単体動作ﾓｰﾄﾞ True:ﾛｰｶﾙ(装置起動しない) False:通常</param>
+ <param name="intBaudRate">ﾎﾞｰﾚｰﾄ</param>
+ <param name="intDataBits">ﾃﾞｰﾀﾋﾞｯﾄ 5～8 </param>
+ <param name="intParity">ﾊﾟﾘﾃｨ0～4</param>
+ <param name="intStopBits">ｽﾄｯﾌﾟﾋﾞｯﾄ 0～3</param>
+ <returns>Boolean</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Pulse_measurment.clsSerialPort.SendData(System.String,System.Int32)">
+ <summary>
+ ｼﾘｱﾙﾎﾟｰﾄ ﾃﾞｰﾀ送信
+ </summary>
+ <param name="strDATA">送信ﾃﾞｰﾀ</param>
+ <param name="intTimeOutMS">ﾀｲﾑｱｳﾄMS</param>
+ <returns>Boolean</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Pulse_measurment.clsSerialPort.PORT_ReceiveEvent(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)">
+ <summary>
+ ﾃﾞｰﾀ受信ｲﾍﾞﾝﾄ(親ｸﾗｽで"ReceiveEvent"を起こす)
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Pulse_measurment.clsSerialPort.ReceiveData(System.String@,System.Int32)">
+ <summary>
+ ｼﾘｱﾙﾎﾟｰﾄ ﾃﾞｰﾀ受信
+ </summary>
+ <param name="strDATA">受信ﾃﾞｰﾀ</param>
+ <param name="intTimeOutMS">ﾀｲﾑｱｳﾄMS</param>
+ <returns>Boolean</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Pulse_measurment.clsSysLog">
+ <summary>
+ System Log Class - ???????????? Log ???????
+ </summary>
+</member>
+<member name="M:Pulse_measurment.clsSysLog.LogOut(System.String)">
+ <summary>
+ ?????? Log ??????
+ </summary>
+ <param name="strMessage">???????????????????????</param>
+</member>
+<member name="T:Pulse_measurment.MachineInfo">
+ <summary>
+ Machine Info Class - ??????? GPIB Address ??? Unit ?????????????
+ </summary>
+</member>
 </members>
 </doc>
