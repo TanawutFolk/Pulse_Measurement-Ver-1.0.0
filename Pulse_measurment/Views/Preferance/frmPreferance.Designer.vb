@@ -159,6 +159,40 @@ Partial Class frmPreferance
         Me.Label35 = New System.Windows.Forms.Label()
         Me.txtDelaygeneral = New System.Windows.Forms.TextBox()
         Me.Label36 = New System.Windows.Forms.Label()
+        Me.ChannelSwitch = New System.Windows.Forms.TabPage()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.WLStart = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.WLStop = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Slot = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Input = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Output = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.SlotBPF = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.InputBPF = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.OutputBPF = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.cboWithoutBPF = New System.Windows.Forms.CheckBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.ILMeasurementa = New System.Windows.Forms.TabPage()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label65 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label67 = New System.Windows.Forms.Label()
+        Me.Label68 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
+        Me.Label69 = New System.Windows.Forms.Label()
+        Me.Label70 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.tabsPreference.SuspendLayout()
         Me.GPIBaddress.SuspendLayout()
         Me.Power.SuspendLayout()
@@ -174,6 +208,11 @@ Partial Class frmPreferance
         Me.CcsHpp.SuspendLayout()
         Me.TabOscilloscope.SuspendLayout()
         Me.Generalsetting.SuspendLayout()
+        Me.ChannelSwitch.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox7.SuspendLayout()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ILMeasurementa.SuspendLayout()
         Me.SuspendLayout()
         '
         'tabsPreference
@@ -186,6 +225,8 @@ Partial Class frmPreferance
         Me.tabsPreference.Controls.Add(Me.CcsHpp)
         Me.tabsPreference.Controls.Add(Me.TabOscilloscope)
         Me.tabsPreference.Controls.Add(Me.Generalsetting)
+        Me.tabsPreference.Controls.Add(Me.ChannelSwitch)
+        Me.tabsPreference.Controls.Add(Me.ILMeasurementa)
         Me.tabsPreference.Dock = System.Windows.Forms.DockStyle.Fill
         Me.tabsPreference.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tabsPreference.Location = New System.Drawing.Point(0, 0)
@@ -465,6 +506,10 @@ Partial Class frmPreferance
         '
         'Power
         '
+        Me.Power.Controls.Add(Me.ComboBox1)
+        Me.Power.Controls.Add(Me.Label11)
+        Me.Power.Controls.Add(Me.TextBox2)
+        Me.Power.Controls.Add(Me.Label64)
         Me.Power.Controls.Add(Me.btnCanclepowermea)
         Me.Power.Controls.Add(Me.btnSavepowermea)
         Me.Power.Controls.Add(Me.Label1)
@@ -1740,6 +1785,349 @@ Partial Class frmPreferance
         Me.Label36.TabIndex = 247
         Me.Label36.Text = "Delay time offset "
         '
+        'ChannelSwitch
+        '
+        Me.ChannelSwitch.Controls.Add(Me.Button1)
+        Me.ChannelSwitch.Controls.Add(Me.Button2)
+        Me.ChannelSwitch.Controls.Add(Me.cboWithoutBPF)
+        Me.ChannelSwitch.Controls.Add(Me.DataGridView2)
+        Me.ChannelSwitch.Controls.Add(Me.GroupBox7)
+        Me.ChannelSwitch.Location = New System.Drawing.Point(4, 39)
+        Me.ChannelSwitch.Name = "ChannelSwitch"
+        Me.ChannelSwitch.Size = New System.Drawing.Size(992, 657)
+        Me.ChannelSwitch.TabIndex = 8
+        Me.ChannelSwitch.Text = "Channel Switch"
+        Me.ChannelSwitch.UseVisualStyleBackColor = True
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.WLStart, Me.WLStop, Me.Slot, Me.Input, Me.Output})
+        Me.DataGridView1.Location = New System.Drawing.Point(63, 32)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowHeadersVisible = False
+        Me.DataGridView1.RowHeadersWidth = 51
+        Me.DataGridView1.RowTemplate.Height = 24
+        Me.DataGridView1.Size = New System.Drawing.Size(628, 348)
+        Me.DataGridView1.TabIndex = 0
+        '
+        'GroupBox7
+        '
+        Me.GroupBox7.Controls.Add(Me.CheckBox1)
+        Me.GroupBox7.Controls.Add(Me.DataGridView1)
+        Me.GroupBox7.Location = New System.Drawing.Point(73, 36)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Size = New System.Drawing.Size(761, 422)
+        Me.GroupBox7.TabIndex = 1
+        Me.GroupBox7.TabStop = False
+        Me.GroupBox7.Text = "-"
+        '
+        'WLStart
+        '
+        Me.WLStart.HeaderText = "WL Start"
+        Me.WLStart.MinimumWidth = 6
+        Me.WLStart.Name = "WLStart"
+        Me.WLStart.Width = 125
+        '
+        'WLStop
+        '
+        Me.WLStop.HeaderText = "WL Stop"
+        Me.WLStop.MinimumWidth = 6
+        Me.WLStop.Name = "WLStop"
+        Me.WLStop.Width = 125
+        '
+        'Slot
+        '
+        Me.Slot.HeaderText = "Slot"
+        Me.Slot.MinimumWidth = 6
+        Me.Slot.Name = "Slot"
+        Me.Slot.Width = 125
+        '
+        'Input
+        '
+        Me.Input.HeaderText = "Input"
+        Me.Input.MinimumWidth = 6
+        Me.Input.Name = "Input"
+        Me.Input.Width = 125
+        '
+        'Output
+        '
+        Me.Output.HeaderText = "Output"
+        Me.Output.MinimumWidth = 6
+        Me.Output.Name = "Output"
+        Me.Output.Width = 125
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(6, 0)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(184, 26)
+        Me.CheckBox1.TabIndex = 1
+        Me.CheckBox1.Text = "Use Chanel Switch"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'DataGridView2
+        '
+        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.SlotBPF, Me.InputBPF, Me.OutputBPF})
+        Me.DataGridView2.Location = New System.Drawing.Point(79, 496)
+        Me.DataGridView2.Name = "DataGridView2"
+        Me.DataGridView2.RowHeadersVisible = False
+        Me.DataGridView2.RowHeadersWidth = 51
+        Me.DataGridView2.RowTemplate.Height = 24
+        Me.DataGridView2.Size = New System.Drawing.Size(378, 57)
+        Me.DataGridView2.TabIndex = 2
+        '
+        'SlotBPF
+        '
+        Me.SlotBPF.HeaderText = "Slot"
+        Me.SlotBPF.MinimumWidth = 6
+        Me.SlotBPF.Name = "SlotBPF"
+        Me.SlotBPF.Width = 125
+        '
+        'InputBPF
+        '
+        Me.InputBPF.HeaderText = "Input"
+        Me.InputBPF.MinimumWidth = 6
+        Me.InputBPF.Name = "InputBPF"
+        Me.InputBPF.Width = 125
+        '
+        'OutputBPF
+        '
+        Me.OutputBPF.HeaderText = "Output"
+        Me.OutputBPF.MinimumWidth = 6
+        Me.OutputBPF.Name = "OutputBPF"
+        Me.OutputBPF.Width = 125
+        '
+        'cboWithoutBPF
+        '
+        Me.cboWithoutBPF.AutoSize = True
+        Me.cboWithoutBPF.Location = New System.Drawing.Point(79, 464)
+        Me.cboWithoutBPF.Name = "cboWithoutBPF"
+        Me.cboWithoutBPF.Size = New System.Drawing.Size(133, 26)
+        Me.cboWithoutBPF.TabIndex = 2
+        Me.cboWithoutBPF.Text = "Without BPF"
+        Me.cboWithoutBPF.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(803, 576)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(115, 37)
+        Me.Button1.TabIndex = 253
+        Me.Button1.Text = "Cancle"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(683, 576)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(115, 37)
+        Me.Button2.TabIndex = 252
+        Me.Button2.Text = "Save"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"ACC", "APC"})
+        Me.ComboBox1.Location = New System.Drawing.Point(259, 207)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(127, 30)
+        Me.ComboBox1.TabIndex = 234
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(46, 211)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(184, 22)
+        Me.Label11.TabIndex = 233
+        Me.Label11.Text = "Laser operation mode"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(259, 167)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(126, 28)
+        Me.TextBox2.TabIndex = 232
+        '
+        'Label64
+        '
+        Me.Label64.AutoSize = True
+        Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label64.Location = New System.Drawing.Point(47, 170)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(154, 22)
+        Me.Label64.TabIndex = 231
+        Me.Label64.Text = "Max Peak Current"
+        '
+        'ILMeasurementa
+        '
+        Me.ILMeasurementa.Controls.Add(Me.Button3)
+        Me.ILMeasurementa.Controls.Add(Me.Button4)
+        Me.ILMeasurementa.Controls.Add(Me.Label70)
+        Me.ILMeasurementa.Controls.Add(Me.Label69)
+        Me.ILMeasurementa.Controls.Add(Me.Label66)
+        Me.ILMeasurementa.Controls.Add(Me.TextBox1)
+        Me.ILMeasurementa.Controls.Add(Me.TextBox3)
+        Me.ILMeasurementa.Controls.Add(Me.Label9)
+        Me.ILMeasurementa.Controls.Add(Me.Label65)
+        Me.ILMeasurementa.Controls.Add(Me.TextBox4)
+        Me.ILMeasurementa.Controls.Add(Me.TextBox5)
+        Me.ILMeasurementa.Controls.Add(Me.Label67)
+        Me.ILMeasurementa.Controls.Add(Me.Label68)
+        Me.ILMeasurementa.Location = New System.Drawing.Point(4, 39)
+        Me.ILMeasurementa.Name = "ILMeasurementa"
+        Me.ILMeasurementa.Size = New System.Drawing.Size(992, 657)
+        Me.ILMeasurementa.TabIndex = 9
+        Me.ILMeasurementa.Text = "IL Measurementa"
+        Me.ILMeasurementa.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(322, 257)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(126, 28)
+        Me.TextBox1.TabIndex = 251
+        '
+        'TextBox3
+        '
+        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(322, 181)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(126, 28)
+        Me.TextBox3.TabIndex = 250
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(101, 263)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(173, 22)
+        Me.Label9.TabIndex = 249
+        Me.Label9.Text = "Sweep Delay [msec]"
+        '
+        'Label65
+        '
+        Me.Label65.AutoSize = True
+        Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label65.Location = New System.Drawing.Point(101, 165)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(210, 22)
+        Me.Label65.TabIndex = 248
+        Me.Label65.Text = "Sweep Rate [u sec/point]"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Location = New System.Drawing.Point(322, 114)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(126, 28)
+        Me.TextBox4.TabIndex = 246
+        '
+        'TextBox5
+        '
+        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.Location = New System.Drawing.Point(322, 68)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(126, 28)
+        Me.TextBox5.TabIndex = 245
+        '
+        'Label67
+        '
+        Me.Label67.AutoSize = True
+        Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.Location = New System.Drawing.Point(100, 105)
+        Me.Label67.Name = "Label67"
+        Me.Label67.Size = New System.Drawing.Size(131, 22)
+        Me.Label67.TabIndex = 244
+        Me.Label67.Text = "Im0 Judgement"
+        '
+        'Label68
+        '
+        Me.Label68.AutoSize = True
+        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label68.Location = New System.Drawing.Point(101, 69)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(140, 22)
+        Me.Label68.TabIndex = 243
+        Me.Label68.Text = "Attenauator [dB]"
+        '
+        'Label66
+        '
+        Me.Label66.AutoSize = True
+        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label66.Location = New System.Drawing.Point(101, 127)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(79, 22)
+        Me.Label66.TabIndex = 252
+        Me.Label66.Text = "Im0 [mA]"
+        '
+        'Label69
+        '
+        Me.Label69.AutoSize = True
+        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Location = New System.Drawing.Point(101, 187)
+        Me.Label69.Name = "Label69"
+        Me.Label69.Size = New System.Drawing.Size(145, 22)
+        Me.Label69.TabIndex = 253
+        Me.Label69.Text = "0 F IL slow mode"
+        '
+        'Label70
+        '
+        Me.Label70.AutoSize = True
+        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label70.Location = New System.Drawing.Point(101, 209)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(189, 22)
+        Me.Label70.TabIndex = 254
+        Me.Label70.Text = "1'1000 F IL slow mode"
+        '
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(803, 576)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(115, 37)
+        Me.Button3.TabIndex = 256
+        Me.Button3.Text = "Cancle"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(683, 576)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(115, 37)
+        Me.Button4.TabIndex = 255
+        Me.Button4.Text = "Save"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
         'frmPreferance
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -1779,6 +2167,14 @@ Partial Class frmPreferance
         Me.TabOscilloscope.PerformLayout()
         Me.Generalsetting.ResumeLayout(False)
         Me.Generalsetting.PerformLayout()
+        Me.ChannelSwitch.ResumeLayout(False)
+        Me.ChannelSwitch.PerformLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox7.ResumeLayout(False)
+        Me.GroupBox7.PerformLayout()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ILMeasurementa.ResumeLayout(False)
+        Me.ILMeasurementa.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1920,4 +2316,38 @@ Partial Class frmPreferance
     Friend WithEvents Label62 As Label
     Friend WithEvents txtAddress6 As TextBox
     Friend WithEvents Label63 As Label
+    Friend WithEvents ChannelSwitch As TabPage
+    Friend WithEvents GroupBox7 As GroupBox
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents WLStart As DataGridViewTextBoxColumn
+    Friend WithEvents WLStop As DataGridViewTextBoxColumn
+    Friend WithEvents Slot As DataGridViewTextBoxColumn
+    Friend WithEvents Input As DataGridViewTextBoxColumn
+    Friend WithEvents Output As DataGridViewTextBoxColumn
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents cboWithoutBPF As CheckBox
+    Friend WithEvents DataGridView2 As DataGridView
+    Friend WithEvents SlotBPF As DataGridViewTextBoxColumn
+    Friend WithEvents InputBPF As DataGridViewTextBoxColumn
+    Friend WithEvents OutputBPF As DataGridViewTextBoxColumn
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label64 As Label
+    Friend WithEvents ILMeasurementa As TabPage
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label65 As Label
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label67 As Label
+    Friend WithEvents Label68 As Label
+    Friend WithEvents Label66 As Label
+    Friend WithEvents Label70 As Label
+    Friend WithEvents Label69 As Label
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
 End Class

@@ -18,7 +18,7 @@ Module GlobalVariables
     ' --- Machine Info (GPIB Addresses) ---
     Public infoMachine As New MachineInfo()
 
-    '' --- ILX Controller Objects ---
+    ' --- ILX Controller Objects ---
     Public clsLD1_ILX As New clsILX_LDC37xx()
     Public clsLD2_ILX As New clsILX_LDC37xx()
     Public clsTc_ILX As New clsILX_LDC37xx()

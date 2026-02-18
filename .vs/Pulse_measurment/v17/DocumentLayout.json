@@ -3,7 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\views\\preferance\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\views\\preferance\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\views\\preferance\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\views\\production\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\views\\production\\measurementcondition\\frmilmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\views\\production\\measurementcondition\\frmwlmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\views\\production\\measurementcondition\\frmwlmeasurement.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\frmldtempwait.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmldtempwait.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\models\\preferanceparameter.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\models\\preferanceparameter.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\frmldtempwait.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\frmldtempwait.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\models\\globalvariables.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\models\\globalvariables.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\clscalmeter.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\clscalmeter.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\pulse_measurment\\views\\preferance\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\views\\preferance\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -18,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +62,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmPreferance.vb",
-              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Preferance\\frmPreferance.vb",
-              "RelativeDocumentMoniker": "Pulse_measurment\\Views\\Preferance\\frmPreferance.vb",
-              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Preferance\\frmPreferance.vb",
-              "RelativeToolTip": "Pulse_measurment\\Views\\Preferance\\frmPreferance.vb",
-              "ViewState": "AgIAAJABAAAAAAAAAAAqwKoAAAALAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "frmLDTempWait.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\frmLDTempWait.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\frmLDTempWait.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\frmLDTempWait.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\frmLDTempWait.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-02-17T07:48:40.034Z",
+              "WhenOpened": "2026-02-18T03:09:47.893Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLDTempWait.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\frmLDTempWait.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\frmLDTempWait.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\frmLDTempWait.vb",
+              "RelativeToolTip": "Pulse_measurment\\frmLDTempWait.vb",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAywGoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-18T03:08:17.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "clsCalMeter.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\clsCalMeter.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\clsCalMeter.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\clsCalMeter.vb",
+              "RelativeToolTip": "Pulse_measurment\\clsCalMeter.vb",
+              "ViewState": "AgIAALkAAAAAAAAAAAAkwAgBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-18T03:08:05.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalVariables.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Models\\GlobalVariables.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\Models\\GlobalVariables.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Models\\GlobalVariables.vb",
+              "RelativeToolTip": "Pulse_measurment\\Models\\GlobalVariables.vb",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-18T03:03:17.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PreferanceParameter.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Models\\PreferanceParameter.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\Models\\PreferanceParameter.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Models\\PreferanceParameter.vb",
+              "RelativeToolTip": "Pulse_measurment\\Models\\PreferanceParameter.vb",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswE8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-18T02:52:07.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmPreferance.vb",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Preferance\\frmPreferance.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\Views\\Preferance\\frmPreferance.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Preferance\\frmPreferance.vb*",
+              "RelativeToolTip": "Pulse_measurment\\Views\\Preferance\\frmPreferance.vb*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-17T07:48:40.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "frmMain.vb",
               "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\frmMain.vb",
               "RelativeDocumentMoniker": "Pulse_measurment\\frmMain.vb",
@@ -52,6 +147,42 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-02-17T06:54:00.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPreferance.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Preferance\\frmPreferance.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\Views\\Preferance\\frmPreferance.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Preferance\\frmPreferance.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\Views\\Preferance\\frmPreferance.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-18T02:08:38.659Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmILMeasurement.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Production\\measurementCondition\\frmILMeasurement.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\Views\\Production\\measurementCondition\\frmILMeasurement.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Production\\measurementCondition\\frmILMeasurement.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\Views\\Production\\measurementCondition\\frmILMeasurement.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-18T06:22:18.848Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmWLMeasurement.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Production\\measurementCondition\\frmWLMeasurement.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\Views\\Production\\measurementCondition\\frmWLMeasurement.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Production\\measurementCondition\\frmWLMeasurement.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\Views\\Production\\measurementCondition\\frmWLMeasurement.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-18T04:52:57.703Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

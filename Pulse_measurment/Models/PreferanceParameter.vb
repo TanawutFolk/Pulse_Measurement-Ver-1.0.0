@@ -1,4 +1,4 @@
-Imports Newtonsoft.Json
+﻿Imports Newtonsoft.Json
 
 Public Class GPIBSettings
     Public Property LDT_5910C_TempControlLD As Integer = "1"
@@ -15,6 +15,8 @@ Public Class PowerMeasurement
     Public Property LaserStar_comport As Double = 0
     Public Property Delaytime As Double = 0
     Public Property Average As Double = 0
+    Public Property MaxPeakCurrent As Double = 0  'เพิ่งเพิ่มมา
+    Public Property LaserOperationMode As String = ""
 End Class
 
 Public Class VariousFolder
@@ -63,6 +65,14 @@ Public Class GeneralSet
     Public Property DelayTimeOffset As Double = 0
 End Class
 
+Public Class ChannelSwitch
+    Public Property WL_Start As String = ""
+    Public Property WL_Stop As String = ""
+    Public Property Slot As Integer = 1
+    Public Property Input As Integer = 0
+    Public Property Output As Integer = 1
+End Class
+
 
 Public Class PreferanceParameter
     Public Property GPIB_address As New GPIBSettings()
@@ -73,4 +83,5 @@ Public Class PreferanceParameter
     Public Property CCS_HPP As New CCS_HPP()
     Public Property General_Setting As New GeneralSet()
     Public Property Oscilloscope_Setting As New OscilloscopeSettings()
+    Public Property ChanelSwitch As New ChannelSwitch()
 End Class
