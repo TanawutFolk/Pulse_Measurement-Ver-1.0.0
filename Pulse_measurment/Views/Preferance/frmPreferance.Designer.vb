@@ -164,8 +164,8 @@ Partial Class frmPreferance
         Me.txtDelaygeneral = New System.Windows.Forms.TextBox()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.ChannelSwitch = New System.Windows.Forms.TabPage()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnCancleChannelSwitch = New System.Windows.Forms.Button()
+        Me.btnSaveChannelSwitch = New System.Windows.Forms.Button()
         Me.cboWithoutBPF = New System.Windows.Forms.CheckBox()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
         Me.SlotBPF = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -180,8 +180,8 @@ Partial Class frmPreferance
         Me.Input = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Output = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ILMeasurementa = New System.Windows.Forms.TabPage()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.btnCancleILMeasurement = New System.Windows.Forms.Button()
+        Me.btnSaveILMeasurement = New System.Windows.Forms.Button()
         Me.Label70 = New System.Windows.Forms.Label()
         Me.Label69 = New System.Windows.Forms.Label()
         Me.Label66 = New System.Windows.Forms.Label()
@@ -1829,8 +1829,8 @@ Partial Class frmPreferance
         '
         'ChannelSwitch
         '
-        Me.ChannelSwitch.Controls.Add(Me.Button1)
-        Me.ChannelSwitch.Controls.Add(Me.Button2)
+        Me.ChannelSwitch.Controls.Add(Me.btnCancleChannelSwitch)
+        Me.ChannelSwitch.Controls.Add(Me.btnSaveChannelSwitch)
         Me.ChannelSwitch.Controls.Add(Me.cboWithoutBPF)
         Me.ChannelSwitch.Controls.Add(Me.DataGridView2)
         Me.ChannelSwitch.Controls.Add(Me.GroupBox7)
@@ -1841,27 +1841,27 @@ Partial Class frmPreferance
         Me.ChannelSwitch.Text = "Channel Switch"
         Me.ChannelSwitch.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnCancleChannelSwitch
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(803, 576)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(115, 37)
-        Me.Button1.TabIndex = 253
-        Me.Button1.Text = "Cancle"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnCancleChannelSwitch.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancleChannelSwitch.Location = New System.Drawing.Point(803, 576)
+        Me.btnCancleChannelSwitch.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnCancleChannelSwitch.Name = "btnCancleChannelSwitch"
+        Me.btnCancleChannelSwitch.Size = New System.Drawing.Size(115, 37)
+        Me.btnCancleChannelSwitch.TabIndex = 253
+        Me.btnCancleChannelSwitch.Text = "Cancle"
+        Me.btnCancleChannelSwitch.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnSaveChannelSwitch
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(683, 576)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(115, 37)
-        Me.Button2.TabIndex = 252
-        Me.Button2.Text = "Save"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnSaveChannelSwitch.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSaveChannelSwitch.Location = New System.Drawing.Point(683, 576)
+        Me.btnSaveChannelSwitch.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnSaveChannelSwitch.Name = "btnSaveChannelSwitch"
+        Me.btnSaveChannelSwitch.Size = New System.Drawing.Size(115, 37)
+        Me.btnSaveChannelSwitch.TabIndex = 252
+        Me.btnSaveChannelSwitch.Text = "Save"
+        Me.btnSaveChannelSwitch.UseVisualStyleBackColor = True
         '
         'cboWithoutBPF
         '
@@ -1936,7 +1936,7 @@ Partial Class frmPreferance
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(860, 348)
+        Me.DataGridView1.Size = New System.Drawing.Size(827, 348)
         Me.DataGridView1.TabIndex = 0
         '
         'WLStart
@@ -1976,8 +1976,8 @@ Partial Class frmPreferance
         '
         'ILMeasurementa
         '
-        Me.ILMeasurementa.Controls.Add(Me.Button3)
-        Me.ILMeasurementa.Controls.Add(Me.Button4)
+        Me.ILMeasurementa.Controls.Add(Me.btnCancleILMeasurement)
+        Me.ILMeasurementa.Controls.Add(Me.btnSaveILMeasurement)
         Me.ILMeasurementa.Controls.Add(Me.Label70)
         Me.ILMeasurementa.Controls.Add(Me.Label69)
         Me.ILMeasurementa.Controls.Add(Me.Label66)
@@ -1996,27 +1996,27 @@ Partial Class frmPreferance
         Me.ILMeasurementa.Text = "IL Measurementa"
         Me.ILMeasurementa.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnCancleILMeasurement
         '
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(803, 576)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(115, 37)
-        Me.Button3.TabIndex = 256
-        Me.Button3.Text = "Cancle"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnCancleILMeasurement.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancleILMeasurement.Location = New System.Drawing.Point(803, 576)
+        Me.btnCancleILMeasurement.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnCancleILMeasurement.Name = "btnCancleILMeasurement"
+        Me.btnCancleILMeasurement.Size = New System.Drawing.Size(115, 37)
+        Me.btnCancleILMeasurement.TabIndex = 256
+        Me.btnCancleILMeasurement.Text = "Cancle"
+        Me.btnCancleILMeasurement.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btnSaveILMeasurement
         '
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(683, 576)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(115, 37)
-        Me.Button4.TabIndex = 255
-        Me.Button4.Text = "Save"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnSaveILMeasurement.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSaveILMeasurement.Location = New System.Drawing.Point(683, 576)
+        Me.btnSaveILMeasurement.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnSaveILMeasurement.Name = "btnSaveILMeasurement"
+        Me.btnSaveILMeasurement.Size = New System.Drawing.Size(115, 37)
+        Me.btnSaveILMeasurement.TabIndex = 255
+        Me.btnSaveILMeasurement.Text = "Save"
+        Me.btnSaveILMeasurement.UseVisualStyleBackColor = True
         '
         'Label70
         '
@@ -2325,8 +2325,8 @@ Partial Class frmPreferance
     Friend WithEvents Slot As DataGridViewTextBoxColumn
     Friend WithEvents Input As DataGridViewTextBoxColumn
     Friend WithEvents Output As DataGridViewTextBoxColumn
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnCancleChannelSwitch As Button
+    Friend WithEvents btnSaveChannelSwitch As Button
     Friend WithEvents cboWithoutBPF As CheckBox
     Friend WithEvents DataGridView2 As DataGridView
     Friend WithEvents SlotBPF As DataGridViewTextBoxColumn
@@ -2348,6 +2348,6 @@ Partial Class frmPreferance
     Friend WithEvents Label66 As Label
     Friend WithEvents Label70 As Label
     Friend WithEvents Label69 As Label
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents btnCancleILMeasurement As Button
+    Friend WithEvents btnSaveILMeasurement As Button
 End Class
