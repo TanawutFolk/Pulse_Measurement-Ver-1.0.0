@@ -164,6 +164,65 @@ Public Class ILParameter
     Public Property FPP3 As Double
     Public Property FPP4 As Double
 
+    Public Property PCALmin As Double = 0
+    Public Property PCALminOffset As Double = 0
+    Public Property Imax As Double = 0
+    Public Property Ivf As Double = 0
+    Public Property Lambda As Double = 0
+    Public Property Pmax As Double              ' Pmax [mW]
+    Public Property EtaMax As Double            ' η max [mW] (หรือ Slope Efficiency)
+    Public Property Vfmax As Double             ' Vfmax [V]
+    Public Property ImMax As Double             ' Im max [mA]
+    Public Property RMax As Double              ' R max [Ω]
+    Public Property dIm_dL_Max As Double        ' dIm/dL max [A/W]
+    Public Property dIm_dI_Max As Double        ' dIm/dI max [A/A]
+    Public Property Ithp_P1 As Double           ' Ithp P1 [mW]
+    Public Property Ithp_P2 As Double           ' Ithp P2 [mW]
+
+    ' --- Kink Graph Checkboxes ---
+    Public Property ShowKinkGraph As Boolean       ' Checkbox: Kink Graph
+    Public Property Show_dIm_dL_Graph As Boolean   ' Checkbox: dIm/dL Graph
+    Public Property Show_dIm_dI_Graph As Boolean   ' Checkbox: dIm/dI Graph
+
+    ' --- Kink Parameters ---
+    Public Property Enable_KinkGraph As Boolean        ' สำหรับ [x] Kink Graph
+    Public Property Enable_dIm_dL_Graph As Boolean     ' สำหรับ [ ] dIm/dL Graph
+    Public Property Enable_dIm_dI_Graph As Boolean     ' สำหรับ [ ] dIm/dI Graph
+    Public Property DeltaI As Double               ' ΔI [mA]
+    Public Property Ikmax As Double                ' Ikmax [mA]
+    Public Property Kink_X As Double               ' Kink x [%]
+    Public Property Kink_Y As Double               ' kink y [%]
+
+    ' --- Kink Method (Radio Button) ---
+    ' 0 = Type 1, 1 = Type 2
+    Public Property KinkMethodType As Integer
+
+    ' --- Kink Mode (Radio Button) ---
+    ' 0 = Power, 1 = Current
+    Public Property KinkModeSelection As Integer
+
+    ' --- Least-squares method ---
+    ' (มีในโค้ดเดิมแล้ว: LeastSquaresMode, NumOfPoint)
+    ' เช็คว่าต้องเพิ่ม Import formula หรือไม่
+    Public Property LeastSquaresType As Integer    ' 0=Primary, 1=Secondary, 2=Import formula
+
+    ' เพิ่มใน Class IL_Judge_Parameter
+
+    ' --- Differentiation method ---
+    ' 0 = Method 1(smoothing), 1 = Method 2(separation)
+    Public Property DiffMethod As Integer
+
+    ' --- Smoothing coefficient ---
+    Public Property Smooth_Efficiency As Double    ' Differentiation efficiency
+    Public Property Smooth_Resistance As Double    ' Differentiation resistance
+
+    ' --- Separation coefficient ---
+    Public Property Separation_Coeff As Double     ' Separation coefficient
+
+    ' --- FRP fitting ---
+    Public Property FRP_CalcSetting As Double      ' Calculation setting [mA]
+    Public Property FRP_PointNum As Integer        ' Point number [Point]
+
     ' โซน 3: If Sweep Graph Scale/Div
     Public Property Scale_If As Double
     Public Property Div_If As Double
@@ -191,7 +250,17 @@ Public Class WLParameter
     Public Property Tld As Double           ' Tld [°C]
     Public Property ATT As Double           ' ATT [dB]
 
-    ' --- OSA Setting (กลาง) ---
+    ' --- เพิ่มใหม่ (New) ---
+    Public Property Iop As Double           ' Iop [mA]
+    Public Property RefLevelPulse As Double           ' Iop [mA]
+    Public Property LogScale As Double      ' Log Scale [dB/D]
+    Public Property TypWL As Double         ' Typ [nm]
+    Public Property SpanPulse As Double         ' Span1 [nm]
+    Public Property Span1Pulse As Double         ' Span1 [nm]
+    Public Property PeakThresh As Double    ' Peak Thresh [dB]
+    Public Property ItecLimit As Double     ' Itec Limit [A]
+
+    ' --- OSA Setting  ---
     Public Property WLCenter As Double      ' WL Center [nm]
     Public Property Span As Double          ' Span [nm]
     Public Property RefLevel As Double      ' Ref Level [dBm]
@@ -205,7 +274,7 @@ Public Class WLParameter
 
     ' --- Measurement Point (ขวา) ---
     Public Property Point1 As String        ' IL1
-    Public Property Point2 As String        ' FFP
+
 End Class
 
 ' ------------- Class W_Measurement Parameter 1 Tab -------------------------------------------------------------

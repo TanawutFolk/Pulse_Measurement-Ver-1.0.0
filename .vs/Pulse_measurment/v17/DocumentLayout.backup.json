@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\views\\production\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\views\\production\\frmproduction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\views\\preferance\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|solutionrelative:pulse_measurment\\views\\preferance\\frmpreferance.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68A61558-7B59-40A4-A927-68465A9EF8E4}|Pulse_measurment\\Pulse_measurment.vbproj|c:\\users\\tanawut.pat\\desktop\\pulse_git\\pulse_measurement-ver-1.0.0\\pulse_measurment\\clscalmeter.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -55,6 +55,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPreferance.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Preferance\\frmPreferance.vb",
+              "RelativeDocumentMoniker": "Pulse_measurment\\Views\\Preferance\\frmPreferance.vb",
+              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Preferance\\frmPreferance.vb [Design]",
+              "RelativeToolTip": "Pulse_measurment\\Views\\Preferance\\frmPreferance.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-18T07:49:24.577Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -157,40 +169,6 @@
               "ViewState": "AgIAALcAAAAAAAAAAAAYwM0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-02-18T07:29:54.534Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "56ac0815-40de-4705-958c-5b18af1b4317",
-        "Display": 1,
-        "X": -5,
-        "Y": 84,
-        "Width": 1217,
-        "Height": 589,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmProduction.vb",
-              "DocumentMoniker": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Production\\frmProduction.vb",
-              "RelativeDocumentMoniker": "Pulse_measurment\\Views\\Production\\frmProduction.vb",
-              "ToolTip": "C:\\Users\\tanawut.pat\\Desktop\\Pulse_Git\\Pulse_Measurement-Ver-1.0.0\\Pulse_measurment\\Views\\Production\\frmProduction.vb",
-              "RelativeToolTip": "Pulse_measurment\\Views\\Production\\frmProduction.vb",
-              "ViewState": "AgIAABkBAAAAAAAAAIAwwGoBAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-02-18T07:29:50.604Z",
               "EditorCaption": ""
             }
           ]

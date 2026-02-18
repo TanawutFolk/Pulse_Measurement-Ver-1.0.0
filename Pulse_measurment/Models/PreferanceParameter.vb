@@ -73,6 +73,13 @@ Public Class ChannelSwitch
     Public Property Output As Integer = 1
 End Class
 
+Public Class IL_Measurement
+    Public Property Attenauator As Double = 0
+    Public Property Im0Judgement As Double = 0
+    Public Property Sweep
+    Public Property SweepDelay As Double = 0
+End Class
+
 
 Public Class PreferanceParameter
     Public Property GPIB_address As New GPIBSettings()
@@ -83,5 +90,5 @@ Public Class PreferanceParameter
     Public Property CCS_HPP As New CCS_HPP()
     Public Property General_Setting As New GeneralSet()
     Public Property Oscilloscope_Setting As New OscilloscopeSettings()
-    Public Property ChanelSwitch As New ChannelSwitch()
+    Public Property ChannelSwitch As New ChannelSwitch()
 End Class
