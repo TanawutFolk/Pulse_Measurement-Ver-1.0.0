@@ -24,20 +24,20 @@ Partial Class frmWLMeasurement
     Private Sub InitializeComponent()
         Me.Spectrum6 = New System.Windows.Forms.TabPage()
         Me.Label339 = New System.Windows.Forms.Label()
-        Me.TextBox114 = New System.Windows.Forms.TextBox()
+        Me.txtItec_tab6 = New System.Windows.Forms.TextBox()
         Me.Label340 = New System.Windows.Forms.Label()
         Me.Label341 = New System.Windows.Forms.Label()
-        Me.TextBox115 = New System.Windows.Forms.TextBox()
+        Me.txtPeakThresh_tab6 = New System.Windows.Forms.TextBox()
         Me.Label342 = New System.Windows.Forms.Label()
         Me.Label343 = New System.Windows.Forms.Label()
-        Me.TextBox116 = New System.Windows.Forms.TextBox()
-        Me.ComboBox22 = New System.Windows.Forms.ComboBox()
-        Me.TextBox117 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaB_tab6 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaB_tab6 = New System.Windows.Forms.ComboBox()
+        Me.txtLampdaB_tab6 = New System.Windows.Forms.TextBox()
         Me.Label344 = New System.Windows.Forms.Label()
         Me.Label345 = New System.Windows.Forms.Label()
-        Me.TextBox118 = New System.Windows.Forms.TextBox()
-        Me.ComboBox23 = New System.Windows.Forms.ComboBox()
-        Me.TextBox119 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaA_tab6 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaA_tab6 = New System.Windows.Forms.ComboBox()
+        Me.txtTyp_Tab6 = New System.Windows.Forms.TextBox()
         Me.Label346 = New System.Windows.Forms.Label()
         Me.Label347 = New System.Windows.Forms.Label()
         Me.Label348 = New System.Windows.Forms.Label()
@@ -45,13 +45,13 @@ Partial Class frmWLMeasurement
         Me.Label350 = New System.Windows.Forms.Label()
         Me.Label351 = New System.Windows.Forms.Label()
         Me.Label352 = New System.Windows.Forms.Label()
-        Me.TextBox120 = New System.Windows.Forms.TextBox()
-        Me.TextBox121 = New System.Windows.Forms.TextBox()
-        Me.TextBox122 = New System.Windows.Forms.TextBox()
-        Me.TextBox123 = New System.Windows.Forms.TextBox()
-        Me.TextBox124 = New System.Windows.Forms.TextBox()
-        Me.TextBox125 = New System.Windows.Forms.TextBox()
-        Me.TextBox126 = New System.Windows.Forms.TextBox()
+        Me.txtLampdaA_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtSpan1Pulse_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtSpanPulse_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtCenter_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtLogScale_Tab6 = New System.Windows.Forms.TextBox()
+        Me.txtRefLevel_Tab6 = New System.Windows.Forms.TextBox()
+        Me.txtIop_Tab6 = New System.Windows.Forms.TextBox()
         Me.Label353 = New System.Windows.Forms.Label()
         Me.Label354 = New System.Windows.Forms.Label()
         Me.Label355 = New System.Windows.Forms.Label()
@@ -66,40 +66,40 @@ Partial Class frmWLMeasurement
         Me.Label228 = New System.Windows.Forms.Label()
         Me.Label230 = New System.Windows.Forms.Label()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox78 = New System.Windows.Forms.CheckBox()
+        Me.ckGetSMSR_tab6 = New System.Windows.Forms.CheckBox()
         Me.Label233 = New System.Windows.Forms.Label()
-        Me.TextBox54 = New System.Windows.Forms.TextBox()
+        Me.txtAroundAvePoint_tab6 = New System.Windows.Forms.TextBox()
         Me.Label234 = New System.Windows.Forms.Label()
         Me.Label241 = New System.Windows.Forms.Label()
-        Me.TextBox55 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthL_tab6 = New System.Windows.Forms.TextBox()
         Me.Label242 = New System.Windows.Forms.Label()
         Me.Label243 = New System.Windows.Forms.Label()
-        Me.TextBox56 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthS_tab6 = New System.Windows.Forms.TextBox()
         Me.Label244 = New System.Windows.Forms.Label()
-        Me.TextBox57 = New System.Windows.Forms.TextBox()
-        Me.ComboBox13 = New System.Windows.Forms.ComboBox()
-        Me.TextBox58 = New System.Windows.Forms.TextBox()
-        Me.TextBox59 = New System.Windows.Forms.TextBox()
-        Me.TextBox60 = New System.Windows.Forms.TextBox()
-        Me.TextBox61 = New System.Windows.Forms.TextBox()
+        Me.txtAvg_tab6 = New System.Windows.Forms.TextBox()
+        Me.cboSenForAQ6370_tab6 = New System.Windows.Forms.ComboBox()
+        Me.txtData_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtXdB_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtSensitivity_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtResBW_tab6 = New System.Windows.Forms.TextBox()
         Me.Label245 = New System.Windows.Forms.Label()
         Me.Label246 = New System.Windows.Forms.Label()
         Me.Label247 = New System.Windows.Forms.Label()
         Me.Label248 = New System.Windows.Forms.Label()
         Me.Label249 = New System.Windows.Forms.Label()
         Me.Label250 = New System.Windows.Forms.Label()
-        Me.CheckBox62 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox63 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox64 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox65 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox66 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox67 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox68 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox69 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox70 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox71 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox72 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox73 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCFP1_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP4_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP3_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasEOL_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPA_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP2_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP2_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP2_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasIop_tab6 = New System.Windows.Forms.CheckBox()
         Me.cboMeasurePoint1_tab6 = New System.Windows.Forms.ComboBox()
         Me.Label105 = New System.Windows.Forms.Label()
         Me.txtWavelengthB_tab6 = New System.Windows.Forms.TextBox()
@@ -142,20 +142,20 @@ Partial Class frmWLMeasurement
         Me.txtIf_tab6 = New System.Windows.Forms.TextBox()
         Me.Spectrum5 = New System.Windows.Forms.TabPage()
         Me.Label317 = New System.Windows.Forms.Label()
-        Me.TextBox101 = New System.Windows.Forms.TextBox()
+        Me.txtItec_tab5 = New System.Windows.Forms.TextBox()
         Me.Label318 = New System.Windows.Forms.Label()
         Me.Label319 = New System.Windows.Forms.Label()
-        Me.TextBox102 = New System.Windows.Forms.TextBox()
+        Me.txtPeakThresh_tab5 = New System.Windows.Forms.TextBox()
         Me.Label320 = New System.Windows.Forms.Label()
         Me.Label321 = New System.Windows.Forms.Label()
-        Me.TextBox103 = New System.Windows.Forms.TextBox()
-        Me.ComboBox20 = New System.Windows.Forms.ComboBox()
-        Me.TextBox104 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaB_tab5 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaB_tab5 = New System.Windows.Forms.ComboBox()
+        Me.txtLampdaB_tab5 = New System.Windows.Forms.TextBox()
         Me.Label322 = New System.Windows.Forms.Label()
         Me.Label323 = New System.Windows.Forms.Label()
-        Me.TextBox105 = New System.Windows.Forms.TextBox()
-        Me.ComboBox21 = New System.Windows.Forms.ComboBox()
-        Me.TextBox106 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaA_tab5 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaA_tab5 = New System.Windows.Forms.ComboBox()
+        Me.txtTyp_Tab5 = New System.Windows.Forms.TextBox()
         Me.Label324 = New System.Windows.Forms.Label()
         Me.Label325 = New System.Windows.Forms.Label()
         Me.Label326 = New System.Windows.Forms.Label()
@@ -163,13 +163,13 @@ Partial Class frmWLMeasurement
         Me.Label328 = New System.Windows.Forms.Label()
         Me.Label329 = New System.Windows.Forms.Label()
         Me.Label330 = New System.Windows.Forms.Label()
-        Me.TextBox107 = New System.Windows.Forms.TextBox()
-        Me.TextBox108 = New System.Windows.Forms.TextBox()
-        Me.TextBox109 = New System.Windows.Forms.TextBox()
-        Me.TextBox110 = New System.Windows.Forms.TextBox()
-        Me.TextBox111 = New System.Windows.Forms.TextBox()
-        Me.TextBox112 = New System.Windows.Forms.TextBox()
-        Me.TextBox113 = New System.Windows.Forms.TextBox()
+        Me.txtLampdaA_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtSpan1Pulse_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtSpanPulse_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtCenter_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtLogScale_Tab5 = New System.Windows.Forms.TextBox()
+        Me.txtRefLevel_Tab5 = New System.Windows.Forms.TextBox()
+        Me.txtIop_Tab5 = New System.Windows.Forms.TextBox()
         Me.Label331 = New System.Windows.Forms.Label()
         Me.Label332 = New System.Windows.Forms.Label()
         Me.Label333 = New System.Windows.Forms.Label()
@@ -184,40 +184,40 @@ Partial Class frmWLMeasurement
         Me.Label211 = New System.Windows.Forms.Label()
         Me.Label212 = New System.Windows.Forms.Label()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox77 = New System.Windows.Forms.CheckBox()
+        Me.ckGetSMSR_tab5 = New System.Windows.Forms.CheckBox()
         Me.Label213 = New System.Windows.Forms.Label()
-        Me.TextBox46 = New System.Windows.Forms.TextBox()
+        Me.txtAroundAvePoint_tab5 = New System.Windows.Forms.TextBox()
         Me.Label214 = New System.Windows.Forms.Label()
         Me.Label215 = New System.Windows.Forms.Label()
-        Me.TextBox47 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthL_tab5 = New System.Windows.Forms.TextBox()
         Me.Label216 = New System.Windows.Forms.Label()
         Me.Label217 = New System.Windows.Forms.Label()
-        Me.TextBox48 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthS_tab5 = New System.Windows.Forms.TextBox()
         Me.Label218 = New System.Windows.Forms.Label()
-        Me.TextBox49 = New System.Windows.Forms.TextBox()
-        Me.ComboBox12 = New System.Windows.Forms.ComboBox()
-        Me.TextBox50 = New System.Windows.Forms.TextBox()
-        Me.TextBox51 = New System.Windows.Forms.TextBox()
-        Me.TextBox52 = New System.Windows.Forms.TextBox()
-        Me.TextBox53 = New System.Windows.Forms.TextBox()
+        Me.txtAvg_tab5 = New System.Windows.Forms.TextBox()
+        Me.cboSenForAQ6370_tab5 = New System.Windows.Forms.ComboBox()
+        Me.txtData_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtXdB_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtSensitivity_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtResBW_tab5 = New System.Windows.Forms.TextBox()
         Me.Label219 = New System.Windows.Forms.Label()
         Me.Label220 = New System.Windows.Forms.Label()
         Me.Label221 = New System.Windows.Forms.Label()
         Me.Label222 = New System.Windows.Forms.Label()
         Me.Label223 = New System.Windows.Forms.Label()
         Me.Label224 = New System.Windows.Forms.Label()
-        Me.CheckBox50 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox51 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox52 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox53 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox54 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox55 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox56 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox57 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox58 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox59 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox60 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox61 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCFP1_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP4_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP3_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasEOL_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPA_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP2_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP2_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP2_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasIop_tab5 = New System.Windows.Forms.CheckBox()
         Me.cboMeasurePoint1_tab5 = New System.Windows.Forms.ComboBox()
         Me.Label86 = New System.Windows.Forms.Label()
         Me.txtWavelengthB_tab5 = New System.Windows.Forms.TextBox()
@@ -260,20 +260,20 @@ Partial Class frmWLMeasurement
         Me.txtIf_tab5 = New System.Windows.Forms.TextBox()
         Me.Spectrum4 = New System.Windows.Forms.TabPage()
         Me.Label295 = New System.Windows.Forms.Label()
-        Me.TextBox88 = New System.Windows.Forms.TextBox()
+        Me.txtItec_tab4 = New System.Windows.Forms.TextBox()
         Me.Label296 = New System.Windows.Forms.Label()
         Me.Label297 = New System.Windows.Forms.Label()
-        Me.TextBox89 = New System.Windows.Forms.TextBox()
+        Me.txtPeakThresh_ta4 = New System.Windows.Forms.TextBox()
         Me.Label298 = New System.Windows.Forms.Label()
         Me.Label299 = New System.Windows.Forms.Label()
-        Me.TextBox90 = New System.Windows.Forms.TextBox()
-        Me.ComboBox18 = New System.Windows.Forms.ComboBox()
-        Me.TextBox91 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaB_tab4 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaB_tab4 = New System.Windows.Forms.ComboBox()
+        Me.txtLampdaB_tab4 = New System.Windows.Forms.TextBox()
         Me.Label300 = New System.Windows.Forms.Label()
         Me.Label301 = New System.Windows.Forms.Label()
-        Me.TextBox92 = New System.Windows.Forms.TextBox()
-        Me.ComboBox19 = New System.Windows.Forms.ComboBox()
-        Me.TextBox93 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaA_tab4 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaA_tab4 = New System.Windows.Forms.ComboBox()
+        Me.txtTyp_Tab4 = New System.Windows.Forms.TextBox()
         Me.Label302 = New System.Windows.Forms.Label()
         Me.Label303 = New System.Windows.Forms.Label()
         Me.Label304 = New System.Windows.Forms.Label()
@@ -281,13 +281,13 @@ Partial Class frmWLMeasurement
         Me.Label306 = New System.Windows.Forms.Label()
         Me.Label307 = New System.Windows.Forms.Label()
         Me.Label308 = New System.Windows.Forms.Label()
-        Me.TextBox94 = New System.Windows.Forms.TextBox()
-        Me.TextBox95 = New System.Windows.Forms.TextBox()
-        Me.TextBox96 = New System.Windows.Forms.TextBox()
-        Me.TextBox97 = New System.Windows.Forms.TextBox()
-        Me.TextBox98 = New System.Windows.Forms.TextBox()
-        Me.TextBox99 = New System.Windows.Forms.TextBox()
-        Me.TextBox100 = New System.Windows.Forms.TextBox()
+        Me.txtLampdaA_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtSpan1Pulse_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtSpanPulse_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtCenter_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtLogScale_Tab4 = New System.Windows.Forms.TextBox()
+        Me.txtRefLevel_Tab4 = New System.Windows.Forms.TextBox()
+        Me.txtIop_Tab4 = New System.Windows.Forms.TextBox()
         Me.Label309 = New System.Windows.Forms.Label()
         Me.Label310 = New System.Windows.Forms.Label()
         Me.Label311 = New System.Windows.Forms.Label()
@@ -302,40 +302,40 @@ Partial Class frmWLMeasurement
         Me.Label194 = New System.Windows.Forms.Label()
         Me.Label195 = New System.Windows.Forms.Label()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox76 = New System.Windows.Forms.CheckBox()
+        Me.ckGetSMSR_tab4 = New System.Windows.Forms.CheckBox()
         Me.Label196 = New System.Windows.Forms.Label()
-        Me.TextBox38 = New System.Windows.Forms.TextBox()
+        Me.txtAroundAvePoint_tab4 = New System.Windows.Forms.TextBox()
         Me.Label197 = New System.Windows.Forms.Label()
         Me.Label198 = New System.Windows.Forms.Label()
-        Me.TextBox39 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthL_tab4 = New System.Windows.Forms.TextBox()
         Me.Label199 = New System.Windows.Forms.Label()
         Me.Label200 = New System.Windows.Forms.Label()
-        Me.TextBox40 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthS_tab4 = New System.Windows.Forms.TextBox()
         Me.Label201 = New System.Windows.Forms.Label()
-        Me.TextBox41 = New System.Windows.Forms.TextBox()
-        Me.ComboBox11 = New System.Windows.Forms.ComboBox()
-        Me.TextBox42 = New System.Windows.Forms.TextBox()
-        Me.TextBox43 = New System.Windows.Forms.TextBox()
-        Me.TextBox44 = New System.Windows.Forms.TextBox()
-        Me.TextBox45 = New System.Windows.Forms.TextBox()
+        Me.txtAvg_tab4 = New System.Windows.Forms.TextBox()
+        Me.cboSenForAQ6370_tab4 = New System.Windows.Forms.ComboBox()
+        Me.txtData_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtXdB_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtSensitivity_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtResBW_tab4 = New System.Windows.Forms.TextBox()
         Me.Label202 = New System.Windows.Forms.Label()
         Me.Label203 = New System.Windows.Forms.Label()
         Me.Label204 = New System.Windows.Forms.Label()
         Me.Label205 = New System.Windows.Forms.Label()
         Me.Label206 = New System.Windows.Forms.Label()
         Me.Label207 = New System.Windows.Forms.Label()
-        Me.CheckBox38 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox39 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox40 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox41 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox42 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox43 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox44 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox45 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox46 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox47 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox48 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox49 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCFP1_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP4_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP3_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasEOL_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPA_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP2_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP2_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP2_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasIop_tab4 = New System.Windows.Forms.CheckBox()
         Me.cboMeasurePoint1_tab4 = New System.Windows.Forms.ComboBox()
         Me.Label67 = New System.Windows.Forms.Label()
         Me.txtWavelengthB_tab4 = New System.Windows.Forms.TextBox()
@@ -378,20 +378,20 @@ Partial Class frmWLMeasurement
         Me.txtIf_tab4 = New System.Windows.Forms.TextBox()
         Me.Spectrum3 = New System.Windows.Forms.TabPage()
         Me.Label273 = New System.Windows.Forms.Label()
-        Me.TextBox75 = New System.Windows.Forms.TextBox()
+        Me.txtItec_tab3 = New System.Windows.Forms.TextBox()
         Me.Label274 = New System.Windows.Forms.Label()
         Me.Label275 = New System.Windows.Forms.Label()
-        Me.TextBox76 = New System.Windows.Forms.TextBox()
+        Me.txtPeakThresh_tab3 = New System.Windows.Forms.TextBox()
         Me.Label276 = New System.Windows.Forms.Label()
         Me.Label277 = New System.Windows.Forms.Label()
-        Me.TextBox77 = New System.Windows.Forms.TextBox()
-        Me.ComboBox16 = New System.Windows.Forms.ComboBox()
-        Me.TextBox78 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaB_tab3 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaB_tab3 = New System.Windows.Forms.ComboBox()
+        Me.txtLampdaB_tab3 = New System.Windows.Forms.TextBox()
         Me.Label278 = New System.Windows.Forms.Label()
         Me.Label279 = New System.Windows.Forms.Label()
-        Me.TextBox79 = New System.Windows.Forms.TextBox()
-        Me.ComboBox17 = New System.Windows.Forms.ComboBox()
-        Me.TextBox80 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaA_tab3 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaA_tab3 = New System.Windows.Forms.ComboBox()
+        Me.txtTyp_Tab3 = New System.Windows.Forms.TextBox()
         Me.Label280 = New System.Windows.Forms.Label()
         Me.Label281 = New System.Windows.Forms.Label()
         Me.Label282 = New System.Windows.Forms.Label()
@@ -399,13 +399,13 @@ Partial Class frmWLMeasurement
         Me.Label284 = New System.Windows.Forms.Label()
         Me.Label285 = New System.Windows.Forms.Label()
         Me.Label286 = New System.Windows.Forms.Label()
-        Me.TextBox81 = New System.Windows.Forms.TextBox()
-        Me.TextBox82 = New System.Windows.Forms.TextBox()
-        Me.TextBox83 = New System.Windows.Forms.TextBox()
-        Me.TextBox84 = New System.Windows.Forms.TextBox()
-        Me.TextBox85 = New System.Windows.Forms.TextBox()
-        Me.TextBox86 = New System.Windows.Forms.TextBox()
-        Me.TextBox87 = New System.Windows.Forms.TextBox()
+        Me.txtLampdaA_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtSpan1Pulse_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtSpanPulse_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtCenter_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtLogScale_Tab3 = New System.Windows.Forms.TextBox()
+        Me.txtRefLevel_Tab3 = New System.Windows.Forms.TextBox()
+        Me.txtIop_Tab3 = New System.Windows.Forms.TextBox()
         Me.Label287 = New System.Windows.Forms.Label()
         Me.Label288 = New System.Windows.Forms.Label()
         Me.Label289 = New System.Windows.Forms.Label()
@@ -420,40 +420,40 @@ Partial Class frmWLMeasurement
         Me.Label177 = New System.Windows.Forms.Label()
         Me.Label178 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox75 = New System.Windows.Forms.CheckBox()
+        Me.ckGetSMSR_tab3 = New System.Windows.Forms.CheckBox()
         Me.Label179 = New System.Windows.Forms.Label()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
+        Me.txtAroundAvePoint_tab3 = New System.Windows.Forms.TextBox()
         Me.Label180 = New System.Windows.Forms.Label()
         Me.Label181 = New System.Windows.Forms.Label()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthL_tab3 = New System.Windows.Forms.TextBox()
         Me.Label182 = New System.Windows.Forms.Label()
         Me.Label183 = New System.Windows.Forms.Label()
-        Me.TextBox32 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthS_tab3 = New System.Windows.Forms.TextBox()
         Me.Label184 = New System.Windows.Forms.Label()
-        Me.TextBox33 = New System.Windows.Forms.TextBox()
-        Me.ComboBox10 = New System.Windows.Forms.ComboBox()
-        Me.TextBox34 = New System.Windows.Forms.TextBox()
-        Me.TextBox35 = New System.Windows.Forms.TextBox()
-        Me.TextBox36 = New System.Windows.Forms.TextBox()
-        Me.TextBox37 = New System.Windows.Forms.TextBox()
+        Me.txtAvg_tab3 = New System.Windows.Forms.TextBox()
+        Me.cboSenForAQ6370_tab3 = New System.Windows.Forms.ComboBox()
+        Me.txtData_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtXdB_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtSensitivity_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtResBW_tab3 = New System.Windows.Forms.TextBox()
         Me.Label185 = New System.Windows.Forms.Label()
         Me.Label186 = New System.Windows.Forms.Label()
         Me.Label187 = New System.Windows.Forms.Label()
         Me.Label188 = New System.Windows.Forms.Label()
         Me.Label189 = New System.Windows.Forms.Label()
         Me.Label190 = New System.Windows.Forms.Label()
-        Me.CheckBox26 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox27 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox28 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox29 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox30 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox31 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox32 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox33 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox34 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox35 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox36 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox37 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCFP1_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP4_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP3_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasEOL_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPA_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP2_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP2_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP2_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasIop_tab3 = New System.Windows.Forms.CheckBox()
         Me.cboMeasurePoint1_tab3 = New System.Windows.Forms.ComboBox()
         Me.Label48 = New System.Windows.Forms.Label()
         Me.txtWavelengthB_tab3 = New System.Windows.Forms.TextBox()
@@ -496,20 +496,20 @@ Partial Class frmWLMeasurement
         Me.txtIf_tab3 = New System.Windows.Forms.TextBox()
         Me.Spectrum2 = New System.Windows.Forms.TabPage()
         Me.Label251 = New System.Windows.Forms.Label()
-        Me.TextBox62 = New System.Windows.Forms.TextBox()
+        Me.txtItec_tab2 = New System.Windows.Forms.TextBox()
         Me.Label252 = New System.Windows.Forms.Label()
         Me.Label253 = New System.Windows.Forms.Label()
-        Me.TextBox63 = New System.Windows.Forms.TextBox()
+        Me.txtPeakThresh_tab2 = New System.Windows.Forms.TextBox()
         Me.Label254 = New System.Windows.Forms.Label()
         Me.Label255 = New System.Windows.Forms.Label()
-        Me.TextBox64 = New System.Windows.Forms.TextBox()
-        Me.ComboBox14 = New System.Windows.Forms.ComboBox()
-        Me.TextBox65 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaB_tab2 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaB_tab2 = New System.Windows.Forms.ComboBox()
+        Me.txtLampdaB_tab2 = New System.Windows.Forms.TextBox()
         Me.Label256 = New System.Windows.Forms.Label()
         Me.Label257 = New System.Windows.Forms.Label()
-        Me.TextBox66 = New System.Windows.Forms.TextBox()
-        Me.ComboBox15 = New System.Windows.Forms.ComboBox()
-        Me.TextBox67 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaA_tab2 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaA_tab2 = New System.Windows.Forms.ComboBox()
+        Me.txtTyp_Tab2 = New System.Windows.Forms.TextBox()
         Me.Label258 = New System.Windows.Forms.Label()
         Me.Label259 = New System.Windows.Forms.Label()
         Me.Label260 = New System.Windows.Forms.Label()
@@ -517,13 +517,13 @@ Partial Class frmWLMeasurement
         Me.Label262 = New System.Windows.Forms.Label()
         Me.Label263 = New System.Windows.Forms.Label()
         Me.Label264 = New System.Windows.Forms.Label()
-        Me.TextBox68 = New System.Windows.Forms.TextBox()
-        Me.TextBox69 = New System.Windows.Forms.TextBox()
-        Me.TextBox70 = New System.Windows.Forms.TextBox()
-        Me.TextBox71 = New System.Windows.Forms.TextBox()
-        Me.TextBox72 = New System.Windows.Forms.TextBox()
-        Me.TextBox73 = New System.Windows.Forms.TextBox()
-        Me.TextBox74 = New System.Windows.Forms.TextBox()
+        Me.txtLampdaA_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtSpan1Pulse_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtSpanPulse_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtCenter_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtLogScale_Tab2 = New System.Windows.Forms.TextBox()
+        Me.txtRefLevel_Tab2 = New System.Windows.Forms.TextBox()
+        Me.txtIop_Tab2 = New System.Windows.Forms.TextBox()
         Me.Label265 = New System.Windows.Forms.Label()
         Me.Label266 = New System.Windows.Forms.Label()
         Me.Label267 = New System.Windows.Forms.Label()
@@ -538,40 +538,40 @@ Partial Class frmWLMeasurement
         Me.Label160 = New System.Windows.Forms.Label()
         Me.Label161 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox74 = New System.Windows.Forms.CheckBox()
+        Me.ckGetSMSR_tab2 = New System.Windows.Forms.CheckBox()
         Me.Label162 = New System.Windows.Forms.Label()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
+        Me.txtAroundAvePoint_tab2 = New System.Windows.Forms.TextBox()
         Me.Label163 = New System.Windows.Forms.Label()
         Me.Label164 = New System.Windows.Forms.Label()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthL_tab2 = New System.Windows.Forms.TextBox()
         Me.Label165 = New System.Windows.Forms.Label()
         Me.Label166 = New System.Windows.Forms.Label()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthS_tab2 = New System.Windows.Forms.TextBox()
         Me.Label167 = New System.Windows.Forms.Label()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.ComboBox9 = New System.Windows.Forms.ComboBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
-        Me.TextBox27 = New System.Windows.Forms.TextBox()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
+        Me.txtAvg_tab2 = New System.Windows.Forms.TextBox()
+        Me.cboSenForAQ6370_tab2 = New System.Windows.Forms.ComboBox()
+        Me.txtData_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtXdB_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtSensitivity_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtResBW_tab2 = New System.Windows.Forms.TextBox()
         Me.Label168 = New System.Windows.Forms.Label()
         Me.Label169 = New System.Windows.Forms.Label()
         Me.Label170 = New System.Windows.Forms.Label()
         Me.Label171 = New System.Windows.Forms.Label()
         Me.Label172 = New System.Windows.Forms.Label()
         Me.Label173 = New System.Windows.Forms.Label()
-        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox16 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox18 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox19 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox20 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox21 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox22 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox23 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox24 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox25 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCFP1_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP4_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP3_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasEOL_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPA_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP2_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP2_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP2_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasIop_tab2 = New System.Windows.Forms.CheckBox()
         Me.cboMeasurePoint1_tab2 = New System.Windows.Forms.ComboBox()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.txtWavelengthB_tab2 = New System.Windows.Forms.TextBox()
@@ -614,20 +614,20 @@ Partial Class frmWLMeasurement
         Me.txtIf_tab2 = New System.Windows.Forms.TextBox()
         Me.Spectrum1 = New System.Windows.Forms.TabPage()
         Me.Label155 = New System.Windows.Forms.Label()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.txtItec_tab1 = New System.Windows.Forms.TextBox()
         Me.Label156 = New System.Windows.Forms.Label()
         Me.Label153 = New System.Windows.Forms.Label()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.txtPeakThresh_tab1 = New System.Windows.Forms.TextBox()
         Me.Label154 = New System.Windows.Forms.Label()
         Me.Label151 = New System.Windows.Forms.Label()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaB_tab1 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaB_tab1 = New System.Windows.Forms.ComboBox()
+        Me.txtLampdaB_tab1 = New System.Windows.Forms.TextBox()
         Me.Label152 = New System.Windows.Forms.Label()
         Me.Label150 = New System.Windows.Forms.Label()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.txt2LampdaA_tab1 = New System.Windows.Forms.TextBox()
+        Me.cboLampdaA_tab1 = New System.Windows.Forms.ComboBox()
+        Me.txtTyp_Tab1 = New System.Windows.Forms.TextBox()
         Me.Label149 = New System.Windows.Forms.Label()
         Me.Label148 = New System.Windows.Forms.Label()
         Me.Label147 = New System.Windows.Forms.Label()
@@ -635,13 +635,13 @@ Partial Class frmWLMeasurement
         Me.Label145 = New System.Windows.Forms.Label()
         Me.Label144 = New System.Windows.Forms.Label()
         Me.Label143 = New System.Windows.Forms.Label()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.txtLampdaA_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtSpan1Pulse_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtSpanPulse_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtCenter_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtLogScale_Tab1 = New System.Windows.Forms.TextBox()
+        Me.txtRefLevel_Tab1 = New System.Windows.Forms.TextBox()
+        Me.txtIop_Tab1 = New System.Windows.Forms.TextBox()
         Me.Label135 = New System.Windows.Forms.Label()
         Me.Label136 = New System.Windows.Forms.Label()
         Me.Label137 = New System.Windows.Forms.Label()
@@ -656,40 +656,40 @@ Partial Class frmWLMeasurement
         Me.Label119 = New System.Windows.Forms.Label()
         Me.Label118 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
+        Me.ckGetSMSR_tab1 = New System.Windows.Forms.CheckBox()
         Me.Label133 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtAroundAvePoint_tab1 = New System.Windows.Forms.TextBox()
         Me.Label134 = New System.Windows.Forms.Label()
         Me.Label131 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthL_tab1 = New System.Windows.Forms.TextBox()
         Me.Label132 = New System.Windows.Forms.Label()
         Me.Label129 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtSMRSthS_tab1 = New System.Windows.Forms.TextBox()
         Me.Label130 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.txtAvg_tab1 = New System.Windows.Forms.TextBox()
+        Me.cboSenForAQ6370_tab1 = New System.Windows.Forms.ComboBox()
+        Me.txtData_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtXdB_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtSensitivity_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtResBW_tab1 = New System.Windows.Forms.TextBox()
         Me.Label120 = New System.Windows.Forms.Label()
         Me.Label121 = New System.Windows.Forms.Label()
         Me.Label122 = New System.Windows.Forms.Label()
         Me.Label123 = New System.Windows.Forms.Label()
         Me.Label124 = New System.Windows.Forms.Label()
         Me.Label125 = New System.Windows.Forms.Label()
-        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox10 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCFP1_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP4_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP3_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasEOL_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPA_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP2_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP2_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP2_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFRP_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFPP_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasFCP_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckMeasIop_tab1 = New System.Windows.Forms.CheckBox()
         Me.txtWavelengthB_tab1 = New System.Windows.Forms.TextBox()
         Me.txtWavelengthA_tab1 = New System.Windows.Forms.TextBox()
         Me.Label106 = New System.Windows.Forms.Label()
@@ -751,20 +751,20 @@ Partial Class frmWLMeasurement
         'Spectrum6
         '
         Me.Spectrum6.Controls.Add(Me.Label339)
-        Me.Spectrum6.Controls.Add(Me.TextBox114)
+        Me.Spectrum6.Controls.Add(Me.txtItec_tab6)
         Me.Spectrum6.Controls.Add(Me.Label340)
         Me.Spectrum6.Controls.Add(Me.Label341)
-        Me.Spectrum6.Controls.Add(Me.TextBox115)
+        Me.Spectrum6.Controls.Add(Me.txtPeakThresh_tab6)
         Me.Spectrum6.Controls.Add(Me.Label342)
         Me.Spectrum6.Controls.Add(Me.Label343)
-        Me.Spectrum6.Controls.Add(Me.TextBox116)
-        Me.Spectrum6.Controls.Add(Me.ComboBox22)
-        Me.Spectrum6.Controls.Add(Me.TextBox117)
+        Me.Spectrum6.Controls.Add(Me.txt2LampdaB_tab6)
+        Me.Spectrum6.Controls.Add(Me.cboLampdaB_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtLampdaB_tab6)
         Me.Spectrum6.Controls.Add(Me.Label344)
         Me.Spectrum6.Controls.Add(Me.Label345)
-        Me.Spectrum6.Controls.Add(Me.TextBox118)
-        Me.Spectrum6.Controls.Add(Me.ComboBox23)
-        Me.Spectrum6.Controls.Add(Me.TextBox119)
+        Me.Spectrum6.Controls.Add(Me.txt2LampdaA_tab6)
+        Me.Spectrum6.Controls.Add(Me.cboLampdaA_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtTyp_Tab6)
         Me.Spectrum6.Controls.Add(Me.Label346)
         Me.Spectrum6.Controls.Add(Me.Label347)
         Me.Spectrum6.Controls.Add(Me.Label348)
@@ -772,13 +772,13 @@ Partial Class frmWLMeasurement
         Me.Spectrum6.Controls.Add(Me.Label350)
         Me.Spectrum6.Controls.Add(Me.Label351)
         Me.Spectrum6.Controls.Add(Me.Label352)
-        Me.Spectrum6.Controls.Add(Me.TextBox120)
-        Me.Spectrum6.Controls.Add(Me.TextBox121)
-        Me.Spectrum6.Controls.Add(Me.TextBox122)
-        Me.Spectrum6.Controls.Add(Me.TextBox123)
-        Me.Spectrum6.Controls.Add(Me.TextBox124)
-        Me.Spectrum6.Controls.Add(Me.TextBox125)
-        Me.Spectrum6.Controls.Add(Me.TextBox126)
+        Me.Spectrum6.Controls.Add(Me.txtLampdaA_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtSpan1Pulse_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtSpanPulse_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtCenter_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtLogScale_Tab6)
+        Me.Spectrum6.Controls.Add(Me.txtRefLevel_Tab6)
+        Me.Spectrum6.Controls.Add(Me.txtIop_Tab6)
         Me.Spectrum6.Controls.Add(Me.Label353)
         Me.Spectrum6.Controls.Add(Me.Label354)
         Me.Spectrum6.Controls.Add(Me.Label355)
@@ -793,30 +793,30 @@ Partial Class frmWLMeasurement
         Me.Spectrum6.Controls.Add(Me.Label228)
         Me.Spectrum6.Controls.Add(Me.Label230)
         Me.Spectrum6.Controls.Add(Me.GroupBox6)
-        Me.Spectrum6.Controls.Add(Me.TextBox57)
-        Me.Spectrum6.Controls.Add(Me.ComboBox13)
-        Me.Spectrum6.Controls.Add(Me.TextBox58)
-        Me.Spectrum6.Controls.Add(Me.TextBox59)
-        Me.Spectrum6.Controls.Add(Me.TextBox60)
-        Me.Spectrum6.Controls.Add(Me.TextBox61)
+        Me.Spectrum6.Controls.Add(Me.txtAvg_tab6)
+        Me.Spectrum6.Controls.Add(Me.cboSenForAQ6370_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtData_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtXdB_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtSensitivity_tab6)
+        Me.Spectrum6.Controls.Add(Me.txtResBW_tab6)
         Me.Spectrum6.Controls.Add(Me.Label245)
         Me.Spectrum6.Controls.Add(Me.Label246)
         Me.Spectrum6.Controls.Add(Me.Label247)
         Me.Spectrum6.Controls.Add(Me.Label248)
         Me.Spectrum6.Controls.Add(Me.Label249)
         Me.Spectrum6.Controls.Add(Me.Label250)
-        Me.Spectrum6.Controls.Add(Me.CheckBox62)
-        Me.Spectrum6.Controls.Add(Me.CheckBox63)
-        Me.Spectrum6.Controls.Add(Me.CheckBox64)
-        Me.Spectrum6.Controls.Add(Me.CheckBox65)
-        Me.Spectrum6.Controls.Add(Me.CheckBox66)
-        Me.Spectrum6.Controls.Add(Me.CheckBox67)
-        Me.Spectrum6.Controls.Add(Me.CheckBox68)
-        Me.Spectrum6.Controls.Add(Me.CheckBox69)
-        Me.Spectrum6.Controls.Add(Me.CheckBox70)
-        Me.Spectrum6.Controls.Add(Me.CheckBox71)
-        Me.Spectrum6.Controls.Add(Me.CheckBox72)
-        Me.Spectrum6.Controls.Add(Me.CheckBox73)
+        Me.Spectrum6.Controls.Add(Me.ckMeasFCFP1_tab6)
+        Me.Spectrum6.Controls.Add(Me.ckMeasFPP4_tab6)
+        Me.Spectrum6.Controls.Add(Me.ckMeasFPP3_tab6)
+        Me.Spectrum6.Controls.Add(Me.ckMeasEOL_tab6)
+        Me.Spectrum6.Controls.Add(Me.ckMeasFPA_tab6)
+        Me.Spectrum6.Controls.Add(Me.ckMeasFRP2_tab6)
+        Me.Spectrum6.Controls.Add(Me.ckMeasFPP2_tab6)
+        Me.Spectrum6.Controls.Add(Me.ckMeasFCP2_tab6)
+        Me.Spectrum6.Controls.Add(Me.ckMeasFRP_tab6)
+        Me.Spectrum6.Controls.Add(Me.ckMeasFPP_tab6)
+        Me.Spectrum6.Controls.Add(Me.ckMeasFCP_tab6)
+        Me.Spectrum6.Controls.Add(Me.ckMeasIop_tab6)
         Me.Spectrum6.Controls.Add(Me.cboMeasurePoint1_tab6)
         Me.Spectrum6.Controls.Add(Me.Label105)
         Me.Spectrum6.Controls.Add(Me.txtWavelengthB_tab6)
@@ -861,7 +861,7 @@ Partial Class frmWLMeasurement
         Me.Spectrum6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Spectrum6.Name = "Spectrum6"
         Me.Spectrum6.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Spectrum6.Size = New System.Drawing.Size(1198, 842)
+        Me.Spectrum6.Size = New System.Drawing.Size(1178, 860)
         Me.Spectrum6.TabIndex = 5
         Me.Spectrum6.Text = "Spectrum6"
         Me.Spectrum6.UseVisualStyleBackColor = True
@@ -876,15 +876,15 @@ Partial Class frmWLMeasurement
         Me.Label339.TabIndex = 548
         Me.Label339.Text = "A"
         '
-        'TextBox114
+        'txtItec_tab6
         '
-        Me.TextBox114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox114.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox114.Location = New System.Drawing.Point(199, 795)
-        Me.TextBox114.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox114.Name = "TextBox114"
-        Me.TextBox114.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox114.TabIndex = 547
+        Me.txtItec_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtItec_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtItec_tab6.Location = New System.Drawing.Point(199, 795)
+        Me.txtItec_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtItec_tab6.Name = "txtItec_tab6"
+        Me.txtItec_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtItec_tab6.TabIndex = 547
         '
         'Label340
         '
@@ -906,15 +906,15 @@ Partial Class frmWLMeasurement
         Me.Label341.TabIndex = 545
         Me.Label341.Text = "nm"
         '
-        'TextBox115
+        'txtPeakThresh_tab6
         '
-        Me.TextBox115.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox115.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox115.Location = New System.Drawing.Point(199, 761)
-        Me.TextBox115.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox115.Name = "TextBox115"
-        Me.TextBox115.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox115.TabIndex = 544
+        Me.txtPeakThresh_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPeakThresh_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPeakThresh_tab6.Location = New System.Drawing.Point(199, 761)
+        Me.txtPeakThresh_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPeakThresh_tab6.Name = "txtPeakThresh_tab6"
+        Me.txtPeakThresh_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtPeakThresh_tab6.TabIndex = 544
         '
         'Label342
         '
@@ -936,33 +936,33 @@ Partial Class frmWLMeasurement
         Me.Label343.TabIndex = 542
         Me.Label343.Text = "nm"
         '
-        'TextBox116
+        'txt2LampdaB_tab6
         '
-        Me.TextBox116.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox116.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox116.Location = New System.Drawing.Point(377, 726)
-        Me.TextBox116.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox116.Name = "TextBox116"
-        Me.TextBox116.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox116.TabIndex = 541
+        Me.txt2LampdaB_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaB_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaB_tab6.Location = New System.Drawing.Point(377, 726)
+        Me.txt2LampdaB_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaB_tab6.Name = "txt2LampdaB_tab6"
+        Me.txt2LampdaB_tab6.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaB_tab6.TabIndex = 541
         '
-        'ComboBox22
+        'cboLampdaB_tab6
         '
-        Me.ComboBox22.FormattingEnabled = True
-        Me.ComboBox22.Location = New System.Drawing.Point(316, 726)
-        Me.ComboBox22.Name = "ComboBox22"
-        Me.ComboBox22.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox22.TabIndex = 540
+        Me.cboLampdaB_tab6.FormattingEnabled = True
+        Me.cboLampdaB_tab6.Location = New System.Drawing.Point(316, 726)
+        Me.cboLampdaB_tab6.Name = "cboLampdaB_tab6"
+        Me.cboLampdaB_tab6.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaB_tab6.TabIndex = 540
         '
-        'TextBox117
+        'txtLampdaB_tab6
         '
-        Me.TextBox117.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox117.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox117.Location = New System.Drawing.Point(199, 726)
-        Me.TextBox117.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox117.Name = "TextBox117"
-        Me.TextBox117.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox117.TabIndex = 539
+        Me.txtLampdaB_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaB_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaB_tab6.Location = New System.Drawing.Point(199, 726)
+        Me.txtLampdaB_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaB_tab6.Name = "txtLampdaB_tab6"
+        Me.txtLampdaB_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaB_tab6.TabIndex = 539
         '
         'Label344
         '
@@ -984,33 +984,33 @@ Partial Class frmWLMeasurement
         Me.Label345.TabIndex = 537
         Me.Label345.Text = "nm"
         '
-        'TextBox118
+        'txt2LampdaA_tab6
         '
-        Me.TextBox118.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox118.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox118.Location = New System.Drawing.Point(377, 694)
-        Me.TextBox118.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox118.Name = "TextBox118"
-        Me.TextBox118.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox118.TabIndex = 536
+        Me.txt2LampdaA_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaA_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaA_tab6.Location = New System.Drawing.Point(377, 694)
+        Me.txt2LampdaA_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaA_tab6.Name = "txt2LampdaA_tab6"
+        Me.txt2LampdaA_tab6.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaA_tab6.TabIndex = 536
         '
-        'ComboBox23
+        'cboLampdaA_tab6
         '
-        Me.ComboBox23.FormattingEnabled = True
-        Me.ComboBox23.Location = New System.Drawing.Point(316, 694)
-        Me.ComboBox23.Name = "ComboBox23"
-        Me.ComboBox23.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox23.TabIndex = 535
+        Me.cboLampdaA_tab6.FormattingEnabled = True
+        Me.cboLampdaA_tab6.Location = New System.Drawing.Point(316, 694)
+        Me.cboLampdaA_tab6.Name = "cboLampdaA_tab6"
+        Me.cboLampdaA_tab6.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaA_tab6.TabIndex = 535
         '
-        'TextBox119
+        'txtTyp_Tab6
         '
-        Me.TextBox119.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox119.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox119.Location = New System.Drawing.Point(199, 540)
-        Me.TextBox119.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox119.Name = "TextBox119"
-        Me.TextBox119.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox119.TabIndex = 534
+        Me.txtTyp_Tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtTyp_Tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTyp_Tab6.Location = New System.Drawing.Point(199, 540)
+        Me.txtTyp_Tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtTyp_Tab6.Name = "txtTyp_Tab6"
+        Me.txtTyp_Tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtTyp_Tab6.TabIndex = 534
         '
         'Label346
         '
@@ -1082,75 +1082,75 @@ Partial Class frmWLMeasurement
         Me.Label352.TabIndex = 521
         Me.Label352.Text = "mA"
         '
-        'TextBox120
+        'txtLampdaA_tab6
         '
-        Me.TextBox120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox120.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox120.Location = New System.Drawing.Point(199, 694)
-        Me.TextBox120.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox120.Name = "TextBox120"
-        Me.TextBox120.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox120.TabIndex = 527
+        Me.txtLampdaA_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaA_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaA_tab6.Location = New System.Drawing.Point(199, 694)
+        Me.txtLampdaA_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaA_tab6.Name = "txtLampdaA_tab6"
+        Me.txtLampdaA_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaA_tab6.TabIndex = 527
         '
-        'TextBox121
+        'txtSpan1Pulse_tab6
         '
-        Me.TextBox121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox121.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox121.Location = New System.Drawing.Point(199, 652)
-        Me.TextBox121.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox121.Name = "TextBox121"
-        Me.TextBox121.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox121.TabIndex = 526
+        Me.txtSpan1Pulse_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpan1Pulse_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpan1Pulse_tab6.Location = New System.Drawing.Point(199, 652)
+        Me.txtSpan1Pulse_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpan1Pulse_tab6.Name = "txtSpan1Pulse_tab6"
+        Me.txtSpan1Pulse_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpan1Pulse_tab6.TabIndex = 526
         '
-        'TextBox122
+        'txtSpanPulse_tab6
         '
-        Me.TextBox122.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox122.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox122.Location = New System.Drawing.Point(199, 616)
-        Me.TextBox122.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox122.Name = "TextBox122"
-        Me.TextBox122.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox122.TabIndex = 525
+        Me.txtSpanPulse_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpanPulse_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpanPulse_tab6.Location = New System.Drawing.Point(199, 616)
+        Me.txtSpanPulse_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpanPulse_tab6.Name = "txtSpanPulse_tab6"
+        Me.txtSpanPulse_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpanPulse_tab6.TabIndex = 525
         '
-        'TextBox123
+        'txtCenter_tab6
         '
-        Me.TextBox123.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox123.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox123.Location = New System.Drawing.Point(199, 577)
-        Me.TextBox123.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox123.Name = "TextBox123"
-        Me.TextBox123.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox123.TabIndex = 524
+        Me.txtCenter_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtCenter_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCenter_tab6.Location = New System.Drawing.Point(199, 577)
+        Me.txtCenter_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtCenter_tab6.Name = "txtCenter_tab6"
+        Me.txtCenter_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtCenter_tab6.TabIndex = 524
         '
-        'TextBox124
+        'txtLogScale_Tab6
         '
-        Me.TextBox124.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox124.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox124.Location = New System.Drawing.Point(199, 499)
-        Me.TextBox124.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox124.Name = "TextBox124"
-        Me.TextBox124.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox124.TabIndex = 523
+        Me.txtLogScale_Tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLogScale_Tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLogScale_Tab6.Location = New System.Drawing.Point(199, 499)
+        Me.txtLogScale_Tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLogScale_Tab6.Name = "txtLogScale_Tab6"
+        Me.txtLogScale_Tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtLogScale_Tab6.TabIndex = 523
         '
-        'TextBox125
+        'txtRefLevel_Tab6
         '
-        Me.TextBox125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox125.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox125.Location = New System.Drawing.Point(199, 457)
-        Me.TextBox125.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox125.Name = "TextBox125"
-        Me.TextBox125.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox125.TabIndex = 522
+        Me.txtRefLevel_Tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRefLevel_Tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRefLevel_Tab6.Location = New System.Drawing.Point(199, 457)
+        Me.txtRefLevel_Tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRefLevel_Tab6.Name = "txtRefLevel_Tab6"
+        Me.txtRefLevel_Tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtRefLevel_Tab6.TabIndex = 522
         '
-        'TextBox126
+        'txtIop_Tab6
         '
-        Me.TextBox126.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox126.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox126.Location = New System.Drawing.Point(199, 415)
-        Me.TextBox126.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox126.Name = "TextBox126"
-        Me.TextBox126.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox126.TabIndex = 520
+        Me.txtIop_Tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIop_Tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIop_Tab6.Location = New System.Drawing.Point(199, 415)
+        Me.txtIop_Tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIop_Tab6.Name = "txtIop_Tab6"
+        Me.txtIop_Tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtIop_Tab6.TabIndex = 520
         '
         'Label353
         '
@@ -1284,15 +1284,15 @@ Partial Class frmWLMeasurement
         '
         'GroupBox6
         '
-        Me.GroupBox6.Controls.Add(Me.CheckBox78)
+        Me.GroupBox6.Controls.Add(Me.ckGetSMSR_tab6)
         Me.GroupBox6.Controls.Add(Me.Label233)
-        Me.GroupBox6.Controls.Add(Me.TextBox54)
+        Me.GroupBox6.Controls.Add(Me.txtAroundAvePoint_tab6)
         Me.GroupBox6.Controls.Add(Me.Label234)
         Me.GroupBox6.Controls.Add(Me.Label241)
-        Me.GroupBox6.Controls.Add(Me.TextBox55)
+        Me.GroupBox6.Controls.Add(Me.txtSMRSthL_tab6)
         Me.GroupBox6.Controls.Add(Me.Label242)
         Me.GroupBox6.Controls.Add(Me.Label243)
-        Me.GroupBox6.Controls.Add(Me.TextBox56)
+        Me.GroupBox6.Controls.Add(Me.txtSMRSthS_tab6)
         Me.GroupBox6.Controls.Add(Me.Label244)
         Me.GroupBox6.Location = New System.Drawing.Point(377, 351)
         Me.GroupBox6.Name = "GroupBox6"
@@ -1301,16 +1301,17 @@ Partial Class frmWLMeasurement
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "SMSR"
         '
-        'CheckBox78
+        'ckGetSMSR_tab6
         '
-        Me.CheckBox78.AutoSize = True
-        Me.CheckBox78.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.CheckBox78.Location = New System.Drawing.Point(72, 0)
-        Me.CheckBox78.Name = "CheckBox78"
-        Me.CheckBox78.Size = New System.Drawing.Size(270, 26)
-        Me.CheckBox78.TabIndex = 484
-        Me.CheckBox78.Text = "Get SMSR from measurement"
-        Me.CheckBox78.UseVisualStyleBackColor = False
+        Me.ckGetSMSR_tab6.AutoSize = True
+        Me.ckGetSMSR_tab6.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ckGetSMSR_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ckGetSMSR_tab6.Location = New System.Drawing.Point(72, 0)
+        Me.ckGetSMSR_tab6.Name = "ckGetSMSR_tab6"
+        Me.ckGetSMSR_tab6.Size = New System.Drawing.Size(257, 24)
+        Me.ckGetSMSR_tab6.TabIndex = 484
+        Me.ckGetSMSR_tab6.Text = "Get SMSR from measurement"
+        Me.ckGetSMSR_tab6.UseVisualStyleBackColor = False
         '
         'Label233
         '
@@ -1322,15 +1323,15 @@ Partial Class frmWLMeasurement
         Me.Label233.TabIndex = 483
         Me.Label233.Text = "dB"
         '
-        'TextBox54
+        'txtAroundAvePoint_tab6
         '
-        Me.TextBox54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox54.Location = New System.Drawing.Point(130, 132)
-        Me.TextBox54.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox54.Name = "TextBox54"
-        Me.TextBox54.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox54.TabIndex = 482
+        Me.txtAroundAvePoint_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAroundAvePoint_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAroundAvePoint_tab6.Location = New System.Drawing.Point(130, 132)
+        Me.txtAroundAvePoint_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAroundAvePoint_tab6.Name = "txtAroundAvePoint_tab6"
+        Me.txtAroundAvePoint_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtAroundAvePoint_tab6.TabIndex = 482
         '
         'Label234
         '
@@ -1352,15 +1353,15 @@ Partial Class frmWLMeasurement
         Me.Label241.TabIndex = 480
         Me.Label241.Text = "dB"
         '
-        'TextBox55
+        'txtSMRSthL_tab6
         '
-        Me.TextBox55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox55.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox55.Location = New System.Drawing.Point(130, 81)
-        Me.TextBox55.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox55.Name = "TextBox55"
-        Me.TextBox55.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox55.TabIndex = 479
+        Me.txtSMRSthL_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthL_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthL_tab6.Location = New System.Drawing.Point(130, 81)
+        Me.txtSMRSthL_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthL_tab6.Name = "txtSMRSthL_tab6"
+        Me.txtSMRSthL_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthL_tab6.TabIndex = 479
         '
         'Label242
         '
@@ -1382,15 +1383,15 @@ Partial Class frmWLMeasurement
         Me.Label243.TabIndex = 477
         Me.Label243.Text = "dB"
         '
-        'TextBox56
+        'txtSMRSthS_tab6
         '
-        Me.TextBox56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox56.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox56.Location = New System.Drawing.Point(130, 34)
-        Me.TextBox56.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox56.Name = "TextBox56"
-        Me.TextBox56.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox56.TabIndex = 476
+        Me.txtSMRSthS_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthS_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthS_tab6.Location = New System.Drawing.Point(130, 34)
+        Me.txtSMRSthS_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthS_tab6.Name = "txtSMRSthS_tab6"
+        Me.txtSMRSthS_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthS_tab6.TabIndex = 476
         '
         'Label244
         '
@@ -1402,63 +1403,63 @@ Partial Class frmWLMeasurement
         Me.Label244.TabIndex = 475
         Me.Label244.Text = "SMSR_th_S"
         '
-        'TextBox57
+        'txtAvg_tab6
         '
-        Me.TextBox57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox57.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox57.Location = New System.Drawing.Point(505, 212)
-        Me.TextBox57.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox57.Name = "TextBox57"
-        Me.TextBox57.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox57.TabIndex = 486
+        Me.txtAvg_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAvg_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAvg_tab6.Location = New System.Drawing.Point(505, 212)
+        Me.txtAvg_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAvg_tab6.Name = "txtAvg_tab6"
+        Me.txtAvg_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtAvg_tab6.TabIndex = 486
         '
-        'ComboBox13
+        'cboSenForAQ6370_tab6
         '
-        Me.ComboBox13.FormattingEnabled = True
-        Me.ComboBox13.Location = New System.Drawing.Point(505, 166)
-        Me.ComboBox13.Name = "ComboBox13"
-        Me.ComboBox13.Size = New System.Drawing.Size(121, 30)
-        Me.ComboBox13.TabIndex = 485
+        Me.cboSenForAQ6370_tab6.FormattingEnabled = True
+        Me.cboSenForAQ6370_tab6.Location = New System.Drawing.Point(505, 166)
+        Me.cboSenForAQ6370_tab6.Name = "cboSenForAQ6370_tab6"
+        Me.cboSenForAQ6370_tab6.Size = New System.Drawing.Size(111, 30)
+        Me.cboSenForAQ6370_tab6.TabIndex = 485
         '
-        'TextBox58
+        'txtData_tab6
         '
-        Me.TextBox58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox58.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox58.Location = New System.Drawing.Point(505, 287)
-        Me.TextBox58.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox58.Name = "TextBox58"
-        Me.TextBox58.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox58.TabIndex = 484
+        Me.txtData_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtData_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtData_tab6.Location = New System.Drawing.Point(505, 287)
+        Me.txtData_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtData_tab6.Name = "txtData_tab6"
+        Me.txtData_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtData_tab6.TabIndex = 484
         '
-        'TextBox59
+        'txtXdB_tab6
         '
-        Me.TextBox59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox59.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox59.Location = New System.Drawing.Point(505, 248)
-        Me.TextBox59.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox59.Name = "TextBox59"
-        Me.TextBox59.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox59.TabIndex = 483
+        Me.txtXdB_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtXdB_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtXdB_tab6.Location = New System.Drawing.Point(505, 248)
+        Me.txtXdB_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtXdB_tab6.Name = "txtXdB_tab6"
+        Me.txtXdB_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtXdB_tab6.TabIndex = 483
         '
-        'TextBox60
+        'txtSensitivity_tab6
         '
-        Me.TextBox60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox60.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox60.Location = New System.Drawing.Point(505, 128)
-        Me.TextBox60.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox60.Name = "TextBox60"
-        Me.TextBox60.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox60.TabIndex = 482
+        Me.txtSensitivity_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSensitivity_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSensitivity_tab6.Location = New System.Drawing.Point(505, 128)
+        Me.txtSensitivity_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSensitivity_tab6.Name = "txtSensitivity_tab6"
+        Me.txtSensitivity_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtSensitivity_tab6.TabIndex = 482
         '
-        'TextBox61
+        'txtResBW_tab6
         '
-        Me.TextBox61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox61.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox61.Location = New System.Drawing.Point(505, 86)
-        Me.TextBox61.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox61.Name = "TextBox61"
-        Me.TextBox61.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox61.TabIndex = 481
+        Me.txtResBW_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtResBW_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResBW_tab6.Location = New System.Drawing.Point(505, 86)
+        Me.txtResBW_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtResBW_tab6.Name = "txtResBW_tab6"
+        Me.txtResBW_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtResBW_tab6.TabIndex = 481
         '
         'Label245
         '
@@ -1520,137 +1521,137 @@ Partial Class frmWLMeasurement
         Me.Label250.TabIndex = 475
         Me.Label250.Text = "Res BW"
         '
-        'CheckBox62
+        'ckMeasFCFP1_tab6
         '
-        Me.CheckBox62.AutoSize = True
-        Me.CheckBox62.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox62.Location = New System.Drawing.Point(999, 479)
-        Me.CheckBox62.Name = "CheckBox62"
-        Me.CheckBox62.Size = New System.Drawing.Size(137, 26)
-        Me.CheckBox62.TabIndex = 469
-        Me.CheckBox62.Text = "Meas FCFP1"
-        Me.CheckBox62.UseVisualStyleBackColor = True
+        Me.ckMeasFCFP1_tab6.AutoSize = True
+        Me.ckMeasFCFP1_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCFP1_tab6.Location = New System.Drawing.Point(999, 479)
+        Me.ckMeasFCFP1_tab6.Name = "ckMeasFCFP1_tab6"
+        Me.ckMeasFCFP1_tab6.Size = New System.Drawing.Size(137, 26)
+        Me.ckMeasFCFP1_tab6.TabIndex = 469
+        Me.ckMeasFCFP1_tab6.Text = "Meas FCFP1"
+        Me.ckMeasFCFP1_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox63
+        'ckMeasFPP4_tab6
         '
-        Me.CheckBox63.AutoSize = True
-        Me.CheckBox63.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox63.Location = New System.Drawing.Point(1011, 447)
-        Me.CheckBox63.Name = "CheckBox63"
-        Me.CheckBox63.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox63.TabIndex = 468
-        Me.CheckBox63.Text = "Meas FPP4"
-        Me.CheckBox63.UseVisualStyleBackColor = True
+        Me.ckMeasFPP4_tab6.AutoSize = True
+        Me.ckMeasFPP4_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP4_tab6.Location = New System.Drawing.Point(1011, 447)
+        Me.ckMeasFPP4_tab6.Name = "ckMeasFPP4_tab6"
+        Me.ckMeasFPP4_tab6.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP4_tab6.TabIndex = 468
+        Me.ckMeasFPP4_tab6.Text = "Meas FPP4"
+        Me.ckMeasFPP4_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox64
+        'ckMeasFPP3_tab6
         '
-        Me.CheckBox64.AutoSize = True
-        Me.CheckBox64.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox64.Location = New System.Drawing.Point(1011, 415)
-        Me.CheckBox64.Name = "CheckBox64"
-        Me.CheckBox64.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox64.TabIndex = 467
-        Me.CheckBox64.Text = "Meas FPP3"
-        Me.CheckBox64.UseVisualStyleBackColor = True
+        Me.ckMeasFPP3_tab6.AutoSize = True
+        Me.ckMeasFPP3_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP3_tab6.Location = New System.Drawing.Point(1011, 415)
+        Me.ckMeasFPP3_tab6.Name = "ckMeasFPP3_tab6"
+        Me.ckMeasFPP3_tab6.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP3_tab6.TabIndex = 467
+        Me.ckMeasFPP3_tab6.Text = "Meas FPP3"
+        Me.ckMeasFPP3_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox65
+        'ckMeasEOL_tab6
         '
-        Me.CheckBox65.AutoSize = True
-        Me.CheckBox65.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox65.Location = New System.Drawing.Point(1020, 383)
-        Me.CheckBox65.Name = "CheckBox65"
-        Me.CheckBox65.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox65.TabIndex = 466
-        Me.CheckBox65.Text = "Meas EOL"
-        Me.CheckBox65.UseVisualStyleBackColor = True
+        Me.ckMeasEOL_tab6.AutoSize = True
+        Me.ckMeasEOL_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasEOL_tab6.Location = New System.Drawing.Point(1020, 383)
+        Me.ckMeasEOL_tab6.Name = "ckMeasEOL_tab6"
+        Me.ckMeasEOL_tab6.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasEOL_tab6.TabIndex = 466
+        Me.ckMeasEOL_tab6.Text = "Meas EOL"
+        Me.ckMeasEOL_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox66
+        'ckMeasFPA_tab6
         '
-        Me.CheckBox66.AutoSize = True
-        Me.CheckBox66.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox66.Location = New System.Drawing.Point(1021, 351)
-        Me.CheckBox66.Name = "CheckBox66"
-        Me.CheckBox66.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox66.TabIndex = 465
-        Me.CheckBox66.Text = "Meas FPA"
-        Me.CheckBox66.UseVisualStyleBackColor = True
+        Me.ckMeasFPA_tab6.AutoSize = True
+        Me.ckMeasFPA_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPA_tab6.Location = New System.Drawing.Point(1021, 351)
+        Me.ckMeasFPA_tab6.Name = "ckMeasFPA_tab6"
+        Me.ckMeasFPA_tab6.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPA_tab6.TabIndex = 465
+        Me.ckMeasFPA_tab6.Text = "Meas FPA"
+        Me.ckMeasFPA_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox67
+        'ckMeasFRP2_tab6
         '
-        Me.CheckBox67.AutoSize = True
-        Me.CheckBox67.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox67.Location = New System.Drawing.Point(1010, 320)
-        Me.CheckBox67.Name = "CheckBox67"
-        Me.CheckBox67.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox67.TabIndex = 464
-        Me.CheckBox67.Text = "Meas FRP2"
-        Me.CheckBox67.UseVisualStyleBackColor = True
+        Me.ckMeasFRP2_tab6.AutoSize = True
+        Me.ckMeasFRP2_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP2_tab6.Location = New System.Drawing.Point(1010, 320)
+        Me.ckMeasFRP2_tab6.Name = "ckMeasFRP2_tab6"
+        Me.ckMeasFRP2_tab6.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFRP2_tab6.TabIndex = 464
+        Me.ckMeasFRP2_tab6.Text = "Meas FRP2"
+        Me.ckMeasFRP2_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox68
+        'ckMeasFPP2_tab6
         '
-        Me.CheckBox68.AutoSize = True
-        Me.CheckBox68.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox68.Location = New System.Drawing.Point(1011, 288)
-        Me.CheckBox68.Name = "CheckBox68"
-        Me.CheckBox68.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox68.TabIndex = 463
-        Me.CheckBox68.Text = "Meas FPP2"
-        Me.CheckBox68.UseVisualStyleBackColor = True
+        Me.ckMeasFPP2_tab6.AutoSize = True
+        Me.ckMeasFPP2_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP2_tab6.Location = New System.Drawing.Point(1011, 288)
+        Me.ckMeasFPP2_tab6.Name = "ckMeasFPP2_tab6"
+        Me.ckMeasFPP2_tab6.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP2_tab6.TabIndex = 463
+        Me.ckMeasFPP2_tab6.Text = "Meas FPP2"
+        Me.ckMeasFPP2_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox69
+        'ckMeasFCP2_tab6
         '
-        Me.CheckBox69.AutoSize = True
-        Me.CheckBox69.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox69.Location = New System.Drawing.Point(1010, 256)
-        Me.CheckBox69.Name = "CheckBox69"
-        Me.CheckBox69.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox69.TabIndex = 462
-        Me.CheckBox69.Text = "Meas FCP2"
-        Me.CheckBox69.UseVisualStyleBackColor = True
+        Me.ckMeasFCP2_tab6.AutoSize = True
+        Me.ckMeasFCP2_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP2_tab6.Location = New System.Drawing.Point(1010, 256)
+        Me.ckMeasFCP2_tab6.Name = "ckMeasFCP2_tab6"
+        Me.ckMeasFCP2_tab6.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFCP2_tab6.TabIndex = 462
+        Me.ckMeasFCP2_tab6.Text = "Meas FCP2"
+        Me.ckMeasFCP2_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox70
+        'ckMeasFRP_tab6
         '
-        Me.CheckBox70.AutoSize = True
-        Me.CheckBox70.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox70.Location = New System.Drawing.Point(1020, 224)
-        Me.CheckBox70.Name = "CheckBox70"
-        Me.CheckBox70.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox70.TabIndex = 461
-        Me.CheckBox70.Text = "Meas FRP"
-        Me.CheckBox70.UseVisualStyleBackColor = True
+        Me.ckMeasFRP_tab6.AutoSize = True
+        Me.ckMeasFRP_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP_tab6.Location = New System.Drawing.Point(1020, 224)
+        Me.ckMeasFRP_tab6.Name = "ckMeasFRP_tab6"
+        Me.ckMeasFRP_tab6.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFRP_tab6.TabIndex = 461
+        Me.ckMeasFRP_tab6.Text = "Meas FRP"
+        Me.ckMeasFRP_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox71
+        'ckMeasFPP_tab6
         '
-        Me.CheckBox71.AutoSize = True
-        Me.CheckBox71.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox71.Location = New System.Drawing.Point(1021, 192)
-        Me.CheckBox71.Name = "CheckBox71"
-        Me.CheckBox71.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox71.TabIndex = 460
-        Me.CheckBox71.Text = "Meas FPP"
-        Me.CheckBox71.UseVisualStyleBackColor = True
+        Me.ckMeasFPP_tab6.AutoSize = True
+        Me.ckMeasFPP_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP_tab6.Location = New System.Drawing.Point(1021, 192)
+        Me.ckMeasFPP_tab6.Name = "ckMeasFPP_tab6"
+        Me.ckMeasFPP_tab6.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPP_tab6.TabIndex = 460
+        Me.ckMeasFPP_tab6.Text = "Meas FPP"
+        Me.ckMeasFPP_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox72
+        'ckMeasFCP_tab6
         '
-        Me.CheckBox72.AutoSize = True
-        Me.CheckBox72.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox72.Location = New System.Drawing.Point(1020, 160)
-        Me.CheckBox72.Name = "CheckBox72"
-        Me.CheckBox72.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox72.TabIndex = 459
-        Me.CheckBox72.Text = "Meas FCP"
-        Me.CheckBox72.UseVisualStyleBackColor = True
+        Me.ckMeasFCP_tab6.AutoSize = True
+        Me.ckMeasFCP_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP_tab6.Location = New System.Drawing.Point(1020, 160)
+        Me.ckMeasFCP_tab6.Name = "ckMeasFCP_tab6"
+        Me.ckMeasFCP_tab6.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFCP_tab6.TabIndex = 459
+        Me.ckMeasFCP_tab6.Text = "Meas FCP"
+        Me.ckMeasFCP_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox73
+        'ckMeasIop_tab6
         '
-        Me.CheckBox73.AutoSize = True
-        Me.CheckBox73.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox73.Location = New System.Drawing.Point(1032, 131)
-        Me.CheckBox73.Name = "CheckBox73"
-        Me.CheckBox73.Size = New System.Drawing.Size(104, 26)
-        Me.CheckBox73.TabIndex = 458
-        Me.CheckBox73.Text = "Meas Iop"
-        Me.CheckBox73.UseVisualStyleBackColor = True
+        Me.ckMeasIop_tab6.AutoSize = True
+        Me.ckMeasIop_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasIop_tab6.Location = New System.Drawing.Point(1032, 131)
+        Me.ckMeasIop_tab6.Name = "ckMeasIop_tab6"
+        Me.ckMeasIop_tab6.Size = New System.Drawing.Size(104, 26)
+        Me.ckMeasIop_tab6.TabIndex = 458
+        Me.ckMeasIop_tab6.Text = "Meas Iop"
+        Me.ckMeasIop_tab6.UseVisualStyleBackColor = True
         '
         'cboMeasurePoint1_tab6
         '
@@ -2062,20 +2063,20 @@ Partial Class frmWLMeasurement
         'Spectrum5
         '
         Me.Spectrum5.Controls.Add(Me.Label317)
-        Me.Spectrum5.Controls.Add(Me.TextBox101)
+        Me.Spectrum5.Controls.Add(Me.txtItec_tab5)
         Me.Spectrum5.Controls.Add(Me.Label318)
         Me.Spectrum5.Controls.Add(Me.Label319)
-        Me.Spectrum5.Controls.Add(Me.TextBox102)
+        Me.Spectrum5.Controls.Add(Me.txtPeakThresh_tab5)
         Me.Spectrum5.Controls.Add(Me.Label320)
         Me.Spectrum5.Controls.Add(Me.Label321)
-        Me.Spectrum5.Controls.Add(Me.TextBox103)
-        Me.Spectrum5.Controls.Add(Me.ComboBox20)
-        Me.Spectrum5.Controls.Add(Me.TextBox104)
+        Me.Spectrum5.Controls.Add(Me.txt2LampdaB_tab5)
+        Me.Spectrum5.Controls.Add(Me.cboLampdaB_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtLampdaB_tab5)
         Me.Spectrum5.Controls.Add(Me.Label322)
         Me.Spectrum5.Controls.Add(Me.Label323)
-        Me.Spectrum5.Controls.Add(Me.TextBox105)
-        Me.Spectrum5.Controls.Add(Me.ComboBox21)
-        Me.Spectrum5.Controls.Add(Me.TextBox106)
+        Me.Spectrum5.Controls.Add(Me.txt2LampdaA_tab5)
+        Me.Spectrum5.Controls.Add(Me.cboLampdaA_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtTyp_Tab5)
         Me.Spectrum5.Controls.Add(Me.Label324)
         Me.Spectrum5.Controls.Add(Me.Label325)
         Me.Spectrum5.Controls.Add(Me.Label326)
@@ -2083,13 +2084,13 @@ Partial Class frmWLMeasurement
         Me.Spectrum5.Controls.Add(Me.Label328)
         Me.Spectrum5.Controls.Add(Me.Label329)
         Me.Spectrum5.Controls.Add(Me.Label330)
-        Me.Spectrum5.Controls.Add(Me.TextBox107)
-        Me.Spectrum5.Controls.Add(Me.TextBox108)
-        Me.Spectrum5.Controls.Add(Me.TextBox109)
-        Me.Spectrum5.Controls.Add(Me.TextBox110)
-        Me.Spectrum5.Controls.Add(Me.TextBox111)
-        Me.Spectrum5.Controls.Add(Me.TextBox112)
-        Me.Spectrum5.Controls.Add(Me.TextBox113)
+        Me.Spectrum5.Controls.Add(Me.txtLampdaA_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtSpan1Pulse_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtSpanPulse_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtCenter_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtLogScale_Tab5)
+        Me.Spectrum5.Controls.Add(Me.txtRefLevel_Tab5)
+        Me.Spectrum5.Controls.Add(Me.txtIop_Tab5)
         Me.Spectrum5.Controls.Add(Me.Label331)
         Me.Spectrum5.Controls.Add(Me.Label332)
         Me.Spectrum5.Controls.Add(Me.Label333)
@@ -2104,30 +2105,30 @@ Partial Class frmWLMeasurement
         Me.Spectrum5.Controls.Add(Me.Label211)
         Me.Spectrum5.Controls.Add(Me.Label212)
         Me.Spectrum5.Controls.Add(Me.GroupBox5)
-        Me.Spectrum5.Controls.Add(Me.TextBox49)
-        Me.Spectrum5.Controls.Add(Me.ComboBox12)
-        Me.Spectrum5.Controls.Add(Me.TextBox50)
-        Me.Spectrum5.Controls.Add(Me.TextBox51)
-        Me.Spectrum5.Controls.Add(Me.TextBox52)
-        Me.Spectrum5.Controls.Add(Me.TextBox53)
+        Me.Spectrum5.Controls.Add(Me.txtAvg_tab5)
+        Me.Spectrum5.Controls.Add(Me.cboSenForAQ6370_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtData_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtXdB_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtSensitivity_tab5)
+        Me.Spectrum5.Controls.Add(Me.txtResBW_tab5)
         Me.Spectrum5.Controls.Add(Me.Label219)
         Me.Spectrum5.Controls.Add(Me.Label220)
         Me.Spectrum5.Controls.Add(Me.Label221)
         Me.Spectrum5.Controls.Add(Me.Label222)
         Me.Spectrum5.Controls.Add(Me.Label223)
         Me.Spectrum5.Controls.Add(Me.Label224)
-        Me.Spectrum5.Controls.Add(Me.CheckBox50)
-        Me.Spectrum5.Controls.Add(Me.CheckBox51)
-        Me.Spectrum5.Controls.Add(Me.CheckBox52)
-        Me.Spectrum5.Controls.Add(Me.CheckBox53)
-        Me.Spectrum5.Controls.Add(Me.CheckBox54)
-        Me.Spectrum5.Controls.Add(Me.CheckBox55)
-        Me.Spectrum5.Controls.Add(Me.CheckBox56)
-        Me.Spectrum5.Controls.Add(Me.CheckBox57)
-        Me.Spectrum5.Controls.Add(Me.CheckBox58)
-        Me.Spectrum5.Controls.Add(Me.CheckBox59)
-        Me.Spectrum5.Controls.Add(Me.CheckBox60)
-        Me.Spectrum5.Controls.Add(Me.CheckBox61)
+        Me.Spectrum5.Controls.Add(Me.ckMeasFCFP1_tab5)
+        Me.Spectrum5.Controls.Add(Me.ckMeasFPP4_tab5)
+        Me.Spectrum5.Controls.Add(Me.ckMeasFPP3_tab5)
+        Me.Spectrum5.Controls.Add(Me.ckMeasEOL_tab5)
+        Me.Spectrum5.Controls.Add(Me.ckMeasFPA_tab5)
+        Me.Spectrum5.Controls.Add(Me.ckMeasFRP2_tab5)
+        Me.Spectrum5.Controls.Add(Me.ckMeasFPP2_tab5)
+        Me.Spectrum5.Controls.Add(Me.ckMeasFCP2_tab5)
+        Me.Spectrum5.Controls.Add(Me.ckMeasFRP_tab5)
+        Me.Spectrum5.Controls.Add(Me.ckMeasFPP_tab5)
+        Me.Spectrum5.Controls.Add(Me.ckMeasFCP_tab5)
+        Me.Spectrum5.Controls.Add(Me.ckMeasIop_tab5)
         Me.Spectrum5.Controls.Add(Me.cboMeasurePoint1_tab5)
         Me.Spectrum5.Controls.Add(Me.Label86)
         Me.Spectrum5.Controls.Add(Me.txtWavelengthB_tab5)
@@ -2172,7 +2173,7 @@ Partial Class frmWLMeasurement
         Me.Spectrum5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Spectrum5.Name = "Spectrum5"
         Me.Spectrum5.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Spectrum5.Size = New System.Drawing.Size(1198, 842)
+        Me.Spectrum5.Size = New System.Drawing.Size(1178, 860)
         Me.Spectrum5.TabIndex = 4
         Me.Spectrum5.Text = "Spectrum5"
         Me.Spectrum5.UseVisualStyleBackColor = True
@@ -2187,15 +2188,15 @@ Partial Class frmWLMeasurement
         Me.Label317.TabIndex = 548
         Me.Label317.Text = "A"
         '
-        'TextBox101
+        'txtItec_tab5
         '
-        Me.TextBox101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox101.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox101.Location = New System.Drawing.Point(199, 795)
-        Me.TextBox101.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox101.Name = "TextBox101"
-        Me.TextBox101.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox101.TabIndex = 547
+        Me.txtItec_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtItec_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtItec_tab5.Location = New System.Drawing.Point(199, 795)
+        Me.txtItec_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtItec_tab5.Name = "txtItec_tab5"
+        Me.txtItec_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtItec_tab5.TabIndex = 547
         '
         'Label318
         '
@@ -2217,15 +2218,15 @@ Partial Class frmWLMeasurement
         Me.Label319.TabIndex = 545
         Me.Label319.Text = "nm"
         '
-        'TextBox102
+        'txtPeakThresh_tab5
         '
-        Me.TextBox102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox102.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox102.Location = New System.Drawing.Point(199, 761)
-        Me.TextBox102.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox102.Name = "TextBox102"
-        Me.TextBox102.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox102.TabIndex = 544
+        Me.txtPeakThresh_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPeakThresh_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPeakThresh_tab5.Location = New System.Drawing.Point(199, 761)
+        Me.txtPeakThresh_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPeakThresh_tab5.Name = "txtPeakThresh_tab5"
+        Me.txtPeakThresh_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtPeakThresh_tab5.TabIndex = 544
         '
         'Label320
         '
@@ -2247,33 +2248,33 @@ Partial Class frmWLMeasurement
         Me.Label321.TabIndex = 542
         Me.Label321.Text = "nm"
         '
-        'TextBox103
+        'txt2LampdaB_tab5
         '
-        Me.TextBox103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox103.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox103.Location = New System.Drawing.Point(377, 726)
-        Me.TextBox103.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox103.Name = "TextBox103"
-        Me.TextBox103.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox103.TabIndex = 541
+        Me.txt2LampdaB_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaB_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaB_tab5.Location = New System.Drawing.Point(377, 726)
+        Me.txt2LampdaB_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaB_tab5.Name = "txt2LampdaB_tab5"
+        Me.txt2LampdaB_tab5.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaB_tab5.TabIndex = 541
         '
-        'ComboBox20
+        'cboLampdaB_tab5
         '
-        Me.ComboBox20.FormattingEnabled = True
-        Me.ComboBox20.Location = New System.Drawing.Point(316, 726)
-        Me.ComboBox20.Name = "ComboBox20"
-        Me.ComboBox20.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox20.TabIndex = 540
+        Me.cboLampdaB_tab5.FormattingEnabled = True
+        Me.cboLampdaB_tab5.Location = New System.Drawing.Point(316, 726)
+        Me.cboLampdaB_tab5.Name = "cboLampdaB_tab5"
+        Me.cboLampdaB_tab5.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaB_tab5.TabIndex = 540
         '
-        'TextBox104
+        'txtLampdaB_tab5
         '
-        Me.TextBox104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox104.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox104.Location = New System.Drawing.Point(199, 726)
-        Me.TextBox104.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox104.Name = "TextBox104"
-        Me.TextBox104.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox104.TabIndex = 539
+        Me.txtLampdaB_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaB_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaB_tab5.Location = New System.Drawing.Point(199, 726)
+        Me.txtLampdaB_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaB_tab5.Name = "txtLampdaB_tab5"
+        Me.txtLampdaB_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaB_tab5.TabIndex = 539
         '
         'Label322
         '
@@ -2295,33 +2296,33 @@ Partial Class frmWLMeasurement
         Me.Label323.TabIndex = 537
         Me.Label323.Text = "nm"
         '
-        'TextBox105
+        'txt2LampdaA_tab5
         '
-        Me.TextBox105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox105.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox105.Location = New System.Drawing.Point(377, 694)
-        Me.TextBox105.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox105.Name = "TextBox105"
-        Me.TextBox105.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox105.TabIndex = 536
+        Me.txt2LampdaA_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaA_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaA_tab5.Location = New System.Drawing.Point(377, 694)
+        Me.txt2LampdaA_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaA_tab5.Name = "txt2LampdaA_tab5"
+        Me.txt2LampdaA_tab5.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaA_tab5.TabIndex = 536
         '
-        'ComboBox21
+        'cboLampdaA_tab5
         '
-        Me.ComboBox21.FormattingEnabled = True
-        Me.ComboBox21.Location = New System.Drawing.Point(316, 694)
-        Me.ComboBox21.Name = "ComboBox21"
-        Me.ComboBox21.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox21.TabIndex = 535
+        Me.cboLampdaA_tab5.FormattingEnabled = True
+        Me.cboLampdaA_tab5.Location = New System.Drawing.Point(316, 694)
+        Me.cboLampdaA_tab5.Name = "cboLampdaA_tab5"
+        Me.cboLampdaA_tab5.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaA_tab5.TabIndex = 535
         '
-        'TextBox106
+        'txtTyp_Tab5
         '
-        Me.TextBox106.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox106.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox106.Location = New System.Drawing.Point(199, 540)
-        Me.TextBox106.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox106.Name = "TextBox106"
-        Me.TextBox106.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox106.TabIndex = 534
+        Me.txtTyp_Tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtTyp_Tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTyp_Tab5.Location = New System.Drawing.Point(199, 540)
+        Me.txtTyp_Tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtTyp_Tab5.Name = "txtTyp_Tab5"
+        Me.txtTyp_Tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtTyp_Tab5.TabIndex = 534
         '
         'Label324
         '
@@ -2393,75 +2394,75 @@ Partial Class frmWLMeasurement
         Me.Label330.TabIndex = 521
         Me.Label330.Text = "mA"
         '
-        'TextBox107
+        'txtLampdaA_tab5
         '
-        Me.TextBox107.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox107.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox107.Location = New System.Drawing.Point(199, 694)
-        Me.TextBox107.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox107.Name = "TextBox107"
-        Me.TextBox107.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox107.TabIndex = 527
+        Me.txtLampdaA_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaA_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaA_tab5.Location = New System.Drawing.Point(199, 694)
+        Me.txtLampdaA_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaA_tab5.Name = "txtLampdaA_tab5"
+        Me.txtLampdaA_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaA_tab5.TabIndex = 527
         '
-        'TextBox108
+        'txtSpan1Pulse_tab5
         '
-        Me.TextBox108.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox108.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox108.Location = New System.Drawing.Point(199, 652)
-        Me.TextBox108.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox108.Name = "TextBox108"
-        Me.TextBox108.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox108.TabIndex = 526
+        Me.txtSpan1Pulse_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpan1Pulse_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpan1Pulse_tab5.Location = New System.Drawing.Point(199, 652)
+        Me.txtSpan1Pulse_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpan1Pulse_tab5.Name = "txtSpan1Pulse_tab5"
+        Me.txtSpan1Pulse_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpan1Pulse_tab5.TabIndex = 526
         '
-        'TextBox109
+        'txtSpanPulse_tab5
         '
-        Me.TextBox109.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox109.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox109.Location = New System.Drawing.Point(199, 616)
-        Me.TextBox109.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox109.Name = "TextBox109"
-        Me.TextBox109.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox109.TabIndex = 525
+        Me.txtSpanPulse_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpanPulse_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpanPulse_tab5.Location = New System.Drawing.Point(199, 616)
+        Me.txtSpanPulse_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpanPulse_tab5.Name = "txtSpanPulse_tab5"
+        Me.txtSpanPulse_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpanPulse_tab5.TabIndex = 525
         '
-        'TextBox110
+        'txtCenter_tab5
         '
-        Me.TextBox110.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox110.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox110.Location = New System.Drawing.Point(199, 577)
-        Me.TextBox110.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox110.Name = "TextBox110"
-        Me.TextBox110.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox110.TabIndex = 524
+        Me.txtCenter_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtCenter_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCenter_tab5.Location = New System.Drawing.Point(199, 577)
+        Me.txtCenter_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtCenter_tab5.Name = "txtCenter_tab5"
+        Me.txtCenter_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtCenter_tab5.TabIndex = 524
         '
-        'TextBox111
+        'txtLogScale_Tab5
         '
-        Me.TextBox111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox111.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox111.Location = New System.Drawing.Point(199, 499)
-        Me.TextBox111.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox111.Name = "TextBox111"
-        Me.TextBox111.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox111.TabIndex = 523
+        Me.txtLogScale_Tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLogScale_Tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLogScale_Tab5.Location = New System.Drawing.Point(199, 499)
+        Me.txtLogScale_Tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLogScale_Tab5.Name = "txtLogScale_Tab5"
+        Me.txtLogScale_Tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtLogScale_Tab5.TabIndex = 523
         '
-        'TextBox112
+        'txtRefLevel_Tab5
         '
-        Me.TextBox112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox112.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox112.Location = New System.Drawing.Point(199, 457)
-        Me.TextBox112.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox112.Name = "TextBox112"
-        Me.TextBox112.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox112.TabIndex = 522
+        Me.txtRefLevel_Tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRefLevel_Tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRefLevel_Tab5.Location = New System.Drawing.Point(199, 457)
+        Me.txtRefLevel_Tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRefLevel_Tab5.Name = "txtRefLevel_Tab5"
+        Me.txtRefLevel_Tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtRefLevel_Tab5.TabIndex = 522
         '
-        'TextBox113
+        'txtIop_Tab5
         '
-        Me.TextBox113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox113.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox113.Location = New System.Drawing.Point(199, 415)
-        Me.TextBox113.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox113.Name = "TextBox113"
-        Me.TextBox113.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox113.TabIndex = 520
+        Me.txtIop_Tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIop_Tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIop_Tab5.Location = New System.Drawing.Point(199, 415)
+        Me.txtIop_Tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIop_Tab5.Name = "txtIop_Tab5"
+        Me.txtIop_Tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtIop_Tab5.TabIndex = 520
         '
         'Label331
         '
@@ -2595,15 +2596,15 @@ Partial Class frmWLMeasurement
         '
         'GroupBox5
         '
-        Me.GroupBox5.Controls.Add(Me.CheckBox77)
+        Me.GroupBox5.Controls.Add(Me.ckGetSMSR_tab5)
         Me.GroupBox5.Controls.Add(Me.Label213)
-        Me.GroupBox5.Controls.Add(Me.TextBox46)
+        Me.GroupBox5.Controls.Add(Me.txtAroundAvePoint_tab5)
         Me.GroupBox5.Controls.Add(Me.Label214)
         Me.GroupBox5.Controls.Add(Me.Label215)
-        Me.GroupBox5.Controls.Add(Me.TextBox47)
+        Me.GroupBox5.Controls.Add(Me.txtSMRSthL_tab5)
         Me.GroupBox5.Controls.Add(Me.Label216)
         Me.GroupBox5.Controls.Add(Me.Label217)
-        Me.GroupBox5.Controls.Add(Me.TextBox48)
+        Me.GroupBox5.Controls.Add(Me.txtSMRSthS_tab5)
         Me.GroupBox5.Controls.Add(Me.Label218)
         Me.GroupBox5.Location = New System.Drawing.Point(377, 351)
         Me.GroupBox5.Name = "GroupBox5"
@@ -2612,16 +2613,17 @@ Partial Class frmWLMeasurement
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "SMSR"
         '
-        'CheckBox77
+        'ckGetSMSR_tab5
         '
-        Me.CheckBox77.AutoSize = True
-        Me.CheckBox77.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.CheckBox77.Location = New System.Drawing.Point(72, 0)
-        Me.CheckBox77.Name = "CheckBox77"
-        Me.CheckBox77.Size = New System.Drawing.Size(270, 26)
-        Me.CheckBox77.TabIndex = 484
-        Me.CheckBox77.Text = "Get SMSR from measurement"
-        Me.CheckBox77.UseVisualStyleBackColor = False
+        Me.ckGetSMSR_tab5.AutoSize = True
+        Me.ckGetSMSR_tab5.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ckGetSMSR_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ckGetSMSR_tab5.Location = New System.Drawing.Point(72, 0)
+        Me.ckGetSMSR_tab5.Name = "ckGetSMSR_tab5"
+        Me.ckGetSMSR_tab5.Size = New System.Drawing.Size(257, 24)
+        Me.ckGetSMSR_tab5.TabIndex = 484
+        Me.ckGetSMSR_tab5.Text = "Get SMSR from measurement"
+        Me.ckGetSMSR_tab5.UseVisualStyleBackColor = False
         '
         'Label213
         '
@@ -2633,15 +2635,15 @@ Partial Class frmWLMeasurement
         Me.Label213.TabIndex = 483
         Me.Label213.Text = "dB"
         '
-        'TextBox46
+        'txtAroundAvePoint_tab5
         '
-        Me.TextBox46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox46.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox46.Location = New System.Drawing.Point(130, 132)
-        Me.TextBox46.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox46.Name = "TextBox46"
-        Me.TextBox46.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox46.TabIndex = 482
+        Me.txtAroundAvePoint_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAroundAvePoint_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAroundAvePoint_tab5.Location = New System.Drawing.Point(130, 132)
+        Me.txtAroundAvePoint_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAroundAvePoint_tab5.Name = "txtAroundAvePoint_tab5"
+        Me.txtAroundAvePoint_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtAroundAvePoint_tab5.TabIndex = 482
         '
         'Label214
         '
@@ -2663,15 +2665,15 @@ Partial Class frmWLMeasurement
         Me.Label215.TabIndex = 480
         Me.Label215.Text = "dB"
         '
-        'TextBox47
+        'txtSMRSthL_tab5
         '
-        Me.TextBox47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox47.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox47.Location = New System.Drawing.Point(130, 81)
-        Me.TextBox47.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox47.Name = "TextBox47"
-        Me.TextBox47.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox47.TabIndex = 479
+        Me.txtSMRSthL_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthL_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthL_tab5.Location = New System.Drawing.Point(130, 81)
+        Me.txtSMRSthL_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthL_tab5.Name = "txtSMRSthL_tab5"
+        Me.txtSMRSthL_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthL_tab5.TabIndex = 479
         '
         'Label216
         '
@@ -2693,15 +2695,15 @@ Partial Class frmWLMeasurement
         Me.Label217.TabIndex = 477
         Me.Label217.Text = "dB"
         '
-        'TextBox48
+        'txtSMRSthS_tab5
         '
-        Me.TextBox48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox48.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox48.Location = New System.Drawing.Point(130, 34)
-        Me.TextBox48.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox48.Name = "TextBox48"
-        Me.TextBox48.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox48.TabIndex = 476
+        Me.txtSMRSthS_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthS_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthS_tab5.Location = New System.Drawing.Point(130, 34)
+        Me.txtSMRSthS_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthS_tab5.Name = "txtSMRSthS_tab5"
+        Me.txtSMRSthS_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthS_tab5.TabIndex = 476
         '
         'Label218
         '
@@ -2713,63 +2715,63 @@ Partial Class frmWLMeasurement
         Me.Label218.TabIndex = 475
         Me.Label218.Text = "SMSR_th_S"
         '
-        'TextBox49
+        'txtAvg_tab5
         '
-        Me.TextBox49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox49.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox49.Location = New System.Drawing.Point(505, 212)
-        Me.TextBox49.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox49.Name = "TextBox49"
-        Me.TextBox49.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox49.TabIndex = 486
+        Me.txtAvg_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAvg_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAvg_tab5.Location = New System.Drawing.Point(505, 212)
+        Me.txtAvg_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAvg_tab5.Name = "txtAvg_tab5"
+        Me.txtAvg_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtAvg_tab5.TabIndex = 486
         '
-        'ComboBox12
+        'cboSenForAQ6370_tab5
         '
-        Me.ComboBox12.FormattingEnabled = True
-        Me.ComboBox12.Location = New System.Drawing.Point(505, 166)
-        Me.ComboBox12.Name = "ComboBox12"
-        Me.ComboBox12.Size = New System.Drawing.Size(121, 30)
-        Me.ComboBox12.TabIndex = 485
+        Me.cboSenForAQ6370_tab5.FormattingEnabled = True
+        Me.cboSenForAQ6370_tab5.Location = New System.Drawing.Point(505, 166)
+        Me.cboSenForAQ6370_tab5.Name = "cboSenForAQ6370_tab5"
+        Me.cboSenForAQ6370_tab5.Size = New System.Drawing.Size(111, 30)
+        Me.cboSenForAQ6370_tab5.TabIndex = 485
         '
-        'TextBox50
+        'txtData_tab5
         '
-        Me.TextBox50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox50.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox50.Location = New System.Drawing.Point(505, 287)
-        Me.TextBox50.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox50.Name = "TextBox50"
-        Me.TextBox50.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox50.TabIndex = 484
+        Me.txtData_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtData_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtData_tab5.Location = New System.Drawing.Point(505, 287)
+        Me.txtData_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtData_tab5.Name = "txtData_tab5"
+        Me.txtData_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtData_tab5.TabIndex = 484
         '
-        'TextBox51
+        'txtXdB_tab5
         '
-        Me.TextBox51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox51.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox51.Location = New System.Drawing.Point(505, 248)
-        Me.TextBox51.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox51.Name = "TextBox51"
-        Me.TextBox51.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox51.TabIndex = 483
+        Me.txtXdB_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtXdB_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtXdB_tab5.Location = New System.Drawing.Point(505, 248)
+        Me.txtXdB_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtXdB_tab5.Name = "txtXdB_tab5"
+        Me.txtXdB_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtXdB_tab5.TabIndex = 483
         '
-        'TextBox52
+        'txtSensitivity_tab5
         '
-        Me.TextBox52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox52.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox52.Location = New System.Drawing.Point(505, 128)
-        Me.TextBox52.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox52.TabIndex = 482
+        Me.txtSensitivity_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSensitivity_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSensitivity_tab5.Location = New System.Drawing.Point(505, 128)
+        Me.txtSensitivity_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSensitivity_tab5.Name = "txtSensitivity_tab5"
+        Me.txtSensitivity_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtSensitivity_tab5.TabIndex = 482
         '
-        'TextBox53
+        'txtResBW_tab5
         '
-        Me.TextBox53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox53.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox53.Location = New System.Drawing.Point(505, 86)
-        Me.TextBox53.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox53.Name = "TextBox53"
-        Me.TextBox53.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox53.TabIndex = 481
+        Me.txtResBW_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtResBW_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResBW_tab5.Location = New System.Drawing.Point(505, 86)
+        Me.txtResBW_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtResBW_tab5.Name = "txtResBW_tab5"
+        Me.txtResBW_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtResBW_tab5.TabIndex = 481
         '
         'Label219
         '
@@ -2831,137 +2833,137 @@ Partial Class frmWLMeasurement
         Me.Label224.TabIndex = 475
         Me.Label224.Text = "Res BW"
         '
-        'CheckBox50
+        'ckMeasFCFP1_tab5
         '
-        Me.CheckBox50.AutoSize = True
-        Me.CheckBox50.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox50.Location = New System.Drawing.Point(999, 479)
-        Me.CheckBox50.Name = "CheckBox50"
-        Me.CheckBox50.Size = New System.Drawing.Size(137, 26)
-        Me.CheckBox50.TabIndex = 470
-        Me.CheckBox50.Text = "Meas FCFP1"
-        Me.CheckBox50.UseVisualStyleBackColor = True
+        Me.ckMeasFCFP1_tab5.AutoSize = True
+        Me.ckMeasFCFP1_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCFP1_tab5.Location = New System.Drawing.Point(999, 479)
+        Me.ckMeasFCFP1_tab5.Name = "ckMeasFCFP1_tab5"
+        Me.ckMeasFCFP1_tab5.Size = New System.Drawing.Size(137, 26)
+        Me.ckMeasFCFP1_tab5.TabIndex = 470
+        Me.ckMeasFCFP1_tab5.Text = "Meas FCFP1"
+        Me.ckMeasFCFP1_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox51
+        'ckMeasFPP4_tab5
         '
-        Me.CheckBox51.AutoSize = True
-        Me.CheckBox51.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox51.Location = New System.Drawing.Point(1011, 447)
-        Me.CheckBox51.Name = "CheckBox51"
-        Me.CheckBox51.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox51.TabIndex = 469
-        Me.CheckBox51.Text = "Meas FPP4"
-        Me.CheckBox51.UseVisualStyleBackColor = True
+        Me.ckMeasFPP4_tab5.AutoSize = True
+        Me.ckMeasFPP4_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP4_tab5.Location = New System.Drawing.Point(1011, 447)
+        Me.ckMeasFPP4_tab5.Name = "ckMeasFPP4_tab5"
+        Me.ckMeasFPP4_tab5.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP4_tab5.TabIndex = 469
+        Me.ckMeasFPP4_tab5.Text = "Meas FPP4"
+        Me.ckMeasFPP4_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox52
+        'ckMeasFPP3_tab5
         '
-        Me.CheckBox52.AutoSize = True
-        Me.CheckBox52.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox52.Location = New System.Drawing.Point(1011, 415)
-        Me.CheckBox52.Name = "CheckBox52"
-        Me.CheckBox52.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox52.TabIndex = 468
-        Me.CheckBox52.Text = "Meas FPP3"
-        Me.CheckBox52.UseVisualStyleBackColor = True
+        Me.ckMeasFPP3_tab5.AutoSize = True
+        Me.ckMeasFPP3_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP3_tab5.Location = New System.Drawing.Point(1011, 415)
+        Me.ckMeasFPP3_tab5.Name = "ckMeasFPP3_tab5"
+        Me.ckMeasFPP3_tab5.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP3_tab5.TabIndex = 468
+        Me.ckMeasFPP3_tab5.Text = "Meas FPP3"
+        Me.ckMeasFPP3_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox53
+        'ckMeasEOL_tab5
         '
-        Me.CheckBox53.AutoSize = True
-        Me.CheckBox53.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox53.Location = New System.Drawing.Point(1020, 383)
-        Me.CheckBox53.Name = "CheckBox53"
-        Me.CheckBox53.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox53.TabIndex = 467
-        Me.CheckBox53.Text = "Meas EOL"
-        Me.CheckBox53.UseVisualStyleBackColor = True
+        Me.ckMeasEOL_tab5.AutoSize = True
+        Me.ckMeasEOL_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasEOL_tab5.Location = New System.Drawing.Point(1020, 383)
+        Me.ckMeasEOL_tab5.Name = "ckMeasEOL_tab5"
+        Me.ckMeasEOL_tab5.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasEOL_tab5.TabIndex = 467
+        Me.ckMeasEOL_tab5.Text = "Meas EOL"
+        Me.ckMeasEOL_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox54
+        'ckMeasFPA_tab5
         '
-        Me.CheckBox54.AutoSize = True
-        Me.CheckBox54.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox54.Location = New System.Drawing.Point(1021, 351)
-        Me.CheckBox54.Name = "CheckBox54"
-        Me.CheckBox54.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox54.TabIndex = 466
-        Me.CheckBox54.Text = "Meas FPA"
-        Me.CheckBox54.UseVisualStyleBackColor = True
+        Me.ckMeasFPA_tab5.AutoSize = True
+        Me.ckMeasFPA_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPA_tab5.Location = New System.Drawing.Point(1021, 351)
+        Me.ckMeasFPA_tab5.Name = "ckMeasFPA_tab5"
+        Me.ckMeasFPA_tab5.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPA_tab5.TabIndex = 466
+        Me.ckMeasFPA_tab5.Text = "Meas FPA"
+        Me.ckMeasFPA_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox55
+        'ckMeasFRP2_tab5
         '
-        Me.CheckBox55.AutoSize = True
-        Me.CheckBox55.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox55.Location = New System.Drawing.Point(1010, 320)
-        Me.CheckBox55.Name = "CheckBox55"
-        Me.CheckBox55.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox55.TabIndex = 465
-        Me.CheckBox55.Text = "Meas FRP2"
-        Me.CheckBox55.UseVisualStyleBackColor = True
+        Me.ckMeasFRP2_tab5.AutoSize = True
+        Me.ckMeasFRP2_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP2_tab5.Location = New System.Drawing.Point(1010, 320)
+        Me.ckMeasFRP2_tab5.Name = "ckMeasFRP2_tab5"
+        Me.ckMeasFRP2_tab5.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFRP2_tab5.TabIndex = 465
+        Me.ckMeasFRP2_tab5.Text = "Meas FRP2"
+        Me.ckMeasFRP2_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox56
+        'ckMeasFPP2_tab5
         '
-        Me.CheckBox56.AutoSize = True
-        Me.CheckBox56.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox56.Location = New System.Drawing.Point(1011, 288)
-        Me.CheckBox56.Name = "CheckBox56"
-        Me.CheckBox56.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox56.TabIndex = 464
-        Me.CheckBox56.Text = "Meas FPP2"
-        Me.CheckBox56.UseVisualStyleBackColor = True
+        Me.ckMeasFPP2_tab5.AutoSize = True
+        Me.ckMeasFPP2_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP2_tab5.Location = New System.Drawing.Point(1011, 288)
+        Me.ckMeasFPP2_tab5.Name = "ckMeasFPP2_tab5"
+        Me.ckMeasFPP2_tab5.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP2_tab5.TabIndex = 464
+        Me.ckMeasFPP2_tab5.Text = "Meas FPP2"
+        Me.ckMeasFPP2_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox57
+        'ckMeasFCP2_tab5
         '
-        Me.CheckBox57.AutoSize = True
-        Me.CheckBox57.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox57.Location = New System.Drawing.Point(1010, 256)
-        Me.CheckBox57.Name = "CheckBox57"
-        Me.CheckBox57.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox57.TabIndex = 463
-        Me.CheckBox57.Text = "Meas FCP2"
-        Me.CheckBox57.UseVisualStyleBackColor = True
+        Me.ckMeasFCP2_tab5.AutoSize = True
+        Me.ckMeasFCP2_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP2_tab5.Location = New System.Drawing.Point(1010, 256)
+        Me.ckMeasFCP2_tab5.Name = "ckMeasFCP2_tab5"
+        Me.ckMeasFCP2_tab5.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFCP2_tab5.TabIndex = 463
+        Me.ckMeasFCP2_tab5.Text = "Meas FCP2"
+        Me.ckMeasFCP2_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox58
+        'ckMeasFRP_tab5
         '
-        Me.CheckBox58.AutoSize = True
-        Me.CheckBox58.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox58.Location = New System.Drawing.Point(1020, 224)
-        Me.CheckBox58.Name = "CheckBox58"
-        Me.CheckBox58.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox58.TabIndex = 462
-        Me.CheckBox58.Text = "Meas FRP"
-        Me.CheckBox58.UseVisualStyleBackColor = True
+        Me.ckMeasFRP_tab5.AutoSize = True
+        Me.ckMeasFRP_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP_tab5.Location = New System.Drawing.Point(1020, 224)
+        Me.ckMeasFRP_tab5.Name = "ckMeasFRP_tab5"
+        Me.ckMeasFRP_tab5.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFRP_tab5.TabIndex = 462
+        Me.ckMeasFRP_tab5.Text = "Meas FRP"
+        Me.ckMeasFRP_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox59
+        'ckMeasFPP_tab5
         '
-        Me.CheckBox59.AutoSize = True
-        Me.CheckBox59.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox59.Location = New System.Drawing.Point(1021, 192)
-        Me.CheckBox59.Name = "CheckBox59"
-        Me.CheckBox59.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox59.TabIndex = 461
-        Me.CheckBox59.Text = "Meas FPP"
-        Me.CheckBox59.UseVisualStyleBackColor = True
+        Me.ckMeasFPP_tab5.AutoSize = True
+        Me.ckMeasFPP_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP_tab5.Location = New System.Drawing.Point(1021, 192)
+        Me.ckMeasFPP_tab5.Name = "ckMeasFPP_tab5"
+        Me.ckMeasFPP_tab5.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPP_tab5.TabIndex = 461
+        Me.ckMeasFPP_tab5.Text = "Meas FPP"
+        Me.ckMeasFPP_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox60
+        'ckMeasFCP_tab5
         '
-        Me.CheckBox60.AutoSize = True
-        Me.CheckBox60.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox60.Location = New System.Drawing.Point(1020, 160)
-        Me.CheckBox60.Name = "CheckBox60"
-        Me.CheckBox60.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox60.TabIndex = 460
-        Me.CheckBox60.Text = "Meas FCP"
-        Me.CheckBox60.UseVisualStyleBackColor = True
+        Me.ckMeasFCP_tab5.AutoSize = True
+        Me.ckMeasFCP_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP_tab5.Location = New System.Drawing.Point(1020, 160)
+        Me.ckMeasFCP_tab5.Name = "ckMeasFCP_tab5"
+        Me.ckMeasFCP_tab5.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFCP_tab5.TabIndex = 460
+        Me.ckMeasFCP_tab5.Text = "Meas FCP"
+        Me.ckMeasFCP_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox61
+        'ckMeasIop_tab5
         '
-        Me.CheckBox61.AutoSize = True
-        Me.CheckBox61.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox61.Location = New System.Drawing.Point(1032, 131)
-        Me.CheckBox61.Name = "CheckBox61"
-        Me.CheckBox61.Size = New System.Drawing.Size(104, 26)
-        Me.CheckBox61.TabIndex = 459
-        Me.CheckBox61.Text = "Meas Iop"
-        Me.CheckBox61.UseVisualStyleBackColor = True
+        Me.ckMeasIop_tab5.AutoSize = True
+        Me.ckMeasIop_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasIop_tab5.Location = New System.Drawing.Point(1032, 131)
+        Me.ckMeasIop_tab5.Name = "ckMeasIop_tab5"
+        Me.ckMeasIop_tab5.Size = New System.Drawing.Size(104, 26)
+        Me.ckMeasIop_tab5.TabIndex = 459
+        Me.ckMeasIop_tab5.Text = "Meas Iop"
+        Me.ckMeasIop_tab5.UseVisualStyleBackColor = True
         '
         'cboMeasurePoint1_tab5
         '
@@ -3373,20 +3375,20 @@ Partial Class frmWLMeasurement
         'Spectrum4
         '
         Me.Spectrum4.Controls.Add(Me.Label295)
-        Me.Spectrum4.Controls.Add(Me.TextBox88)
+        Me.Spectrum4.Controls.Add(Me.txtItec_tab4)
         Me.Spectrum4.Controls.Add(Me.Label296)
         Me.Spectrum4.Controls.Add(Me.Label297)
-        Me.Spectrum4.Controls.Add(Me.TextBox89)
+        Me.Spectrum4.Controls.Add(Me.txtPeakThresh_ta4)
         Me.Spectrum4.Controls.Add(Me.Label298)
         Me.Spectrum4.Controls.Add(Me.Label299)
-        Me.Spectrum4.Controls.Add(Me.TextBox90)
-        Me.Spectrum4.Controls.Add(Me.ComboBox18)
-        Me.Spectrum4.Controls.Add(Me.TextBox91)
+        Me.Spectrum4.Controls.Add(Me.txt2LampdaB_tab4)
+        Me.Spectrum4.Controls.Add(Me.cboLampdaB_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtLampdaB_tab4)
         Me.Spectrum4.Controls.Add(Me.Label300)
         Me.Spectrum4.Controls.Add(Me.Label301)
-        Me.Spectrum4.Controls.Add(Me.TextBox92)
-        Me.Spectrum4.Controls.Add(Me.ComboBox19)
-        Me.Spectrum4.Controls.Add(Me.TextBox93)
+        Me.Spectrum4.Controls.Add(Me.txt2LampdaA_tab4)
+        Me.Spectrum4.Controls.Add(Me.cboLampdaA_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtTyp_Tab4)
         Me.Spectrum4.Controls.Add(Me.Label302)
         Me.Spectrum4.Controls.Add(Me.Label303)
         Me.Spectrum4.Controls.Add(Me.Label304)
@@ -3394,13 +3396,13 @@ Partial Class frmWLMeasurement
         Me.Spectrum4.Controls.Add(Me.Label306)
         Me.Spectrum4.Controls.Add(Me.Label307)
         Me.Spectrum4.Controls.Add(Me.Label308)
-        Me.Spectrum4.Controls.Add(Me.TextBox94)
-        Me.Spectrum4.Controls.Add(Me.TextBox95)
-        Me.Spectrum4.Controls.Add(Me.TextBox96)
-        Me.Spectrum4.Controls.Add(Me.TextBox97)
-        Me.Spectrum4.Controls.Add(Me.TextBox98)
-        Me.Spectrum4.Controls.Add(Me.TextBox99)
-        Me.Spectrum4.Controls.Add(Me.TextBox100)
+        Me.Spectrum4.Controls.Add(Me.txtLampdaA_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtSpan1Pulse_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtSpanPulse_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtCenter_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtLogScale_Tab4)
+        Me.Spectrum4.Controls.Add(Me.txtRefLevel_Tab4)
+        Me.Spectrum4.Controls.Add(Me.txtIop_Tab4)
         Me.Spectrum4.Controls.Add(Me.Label309)
         Me.Spectrum4.Controls.Add(Me.Label310)
         Me.Spectrum4.Controls.Add(Me.Label311)
@@ -3415,30 +3417,30 @@ Partial Class frmWLMeasurement
         Me.Spectrum4.Controls.Add(Me.Label194)
         Me.Spectrum4.Controls.Add(Me.Label195)
         Me.Spectrum4.Controls.Add(Me.GroupBox4)
-        Me.Spectrum4.Controls.Add(Me.TextBox41)
-        Me.Spectrum4.Controls.Add(Me.ComboBox11)
-        Me.Spectrum4.Controls.Add(Me.TextBox42)
-        Me.Spectrum4.Controls.Add(Me.TextBox43)
-        Me.Spectrum4.Controls.Add(Me.TextBox44)
-        Me.Spectrum4.Controls.Add(Me.TextBox45)
+        Me.Spectrum4.Controls.Add(Me.txtAvg_tab4)
+        Me.Spectrum4.Controls.Add(Me.cboSenForAQ6370_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtData_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtXdB_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtSensitivity_tab4)
+        Me.Spectrum4.Controls.Add(Me.txtResBW_tab4)
         Me.Spectrum4.Controls.Add(Me.Label202)
         Me.Spectrum4.Controls.Add(Me.Label203)
         Me.Spectrum4.Controls.Add(Me.Label204)
         Me.Spectrum4.Controls.Add(Me.Label205)
         Me.Spectrum4.Controls.Add(Me.Label206)
         Me.Spectrum4.Controls.Add(Me.Label207)
-        Me.Spectrum4.Controls.Add(Me.CheckBox38)
-        Me.Spectrum4.Controls.Add(Me.CheckBox39)
-        Me.Spectrum4.Controls.Add(Me.CheckBox40)
-        Me.Spectrum4.Controls.Add(Me.CheckBox41)
-        Me.Spectrum4.Controls.Add(Me.CheckBox42)
-        Me.Spectrum4.Controls.Add(Me.CheckBox43)
-        Me.Spectrum4.Controls.Add(Me.CheckBox44)
-        Me.Spectrum4.Controls.Add(Me.CheckBox45)
-        Me.Spectrum4.Controls.Add(Me.CheckBox46)
-        Me.Spectrum4.Controls.Add(Me.CheckBox47)
-        Me.Spectrum4.Controls.Add(Me.CheckBox48)
-        Me.Spectrum4.Controls.Add(Me.CheckBox49)
+        Me.Spectrum4.Controls.Add(Me.ckMeasFCFP1_tab4)
+        Me.Spectrum4.Controls.Add(Me.ckMeasFPP4_tab4)
+        Me.Spectrum4.Controls.Add(Me.ckMeasFPP3_tab4)
+        Me.Spectrum4.Controls.Add(Me.ckMeasEOL_tab4)
+        Me.Spectrum4.Controls.Add(Me.ckMeasFPA_tab4)
+        Me.Spectrum4.Controls.Add(Me.ckMeasFRP2_tab4)
+        Me.Spectrum4.Controls.Add(Me.ckMeasFPP2_tab4)
+        Me.Spectrum4.Controls.Add(Me.ckMeasFCP2_tab4)
+        Me.Spectrum4.Controls.Add(Me.ckMeasFRP_tab4)
+        Me.Spectrum4.Controls.Add(Me.ckMeasFPP_tab4)
+        Me.Spectrum4.Controls.Add(Me.ckMeasFCP_tab4)
+        Me.Spectrum4.Controls.Add(Me.ckMeasIop_tab4)
         Me.Spectrum4.Controls.Add(Me.cboMeasurePoint1_tab4)
         Me.Spectrum4.Controls.Add(Me.Label67)
         Me.Spectrum4.Controls.Add(Me.txtWavelengthB_tab4)
@@ -3483,7 +3485,7 @@ Partial Class frmWLMeasurement
         Me.Spectrum4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Spectrum4.Name = "Spectrum4"
         Me.Spectrum4.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Spectrum4.Size = New System.Drawing.Size(1198, 842)
+        Me.Spectrum4.Size = New System.Drawing.Size(1178, 860)
         Me.Spectrum4.TabIndex = 3
         Me.Spectrum4.Text = "Spectrum4"
         Me.Spectrum4.UseVisualStyleBackColor = True
@@ -3498,15 +3500,15 @@ Partial Class frmWLMeasurement
         Me.Label295.TabIndex = 548
         Me.Label295.Text = "A"
         '
-        'TextBox88
+        'txtItec_tab4
         '
-        Me.TextBox88.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox88.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox88.Location = New System.Drawing.Point(199, 795)
-        Me.TextBox88.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox88.Name = "TextBox88"
-        Me.TextBox88.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox88.TabIndex = 547
+        Me.txtItec_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtItec_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtItec_tab4.Location = New System.Drawing.Point(199, 795)
+        Me.txtItec_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtItec_tab4.Name = "txtItec_tab4"
+        Me.txtItec_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtItec_tab4.TabIndex = 547
         '
         'Label296
         '
@@ -3528,15 +3530,15 @@ Partial Class frmWLMeasurement
         Me.Label297.TabIndex = 545
         Me.Label297.Text = "nm"
         '
-        'TextBox89
+        'txtPeakThresh_ta4
         '
-        Me.TextBox89.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox89.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox89.Location = New System.Drawing.Point(199, 761)
-        Me.TextBox89.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox89.Name = "TextBox89"
-        Me.TextBox89.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox89.TabIndex = 544
+        Me.txtPeakThresh_ta4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPeakThresh_ta4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPeakThresh_ta4.Location = New System.Drawing.Point(199, 761)
+        Me.txtPeakThresh_ta4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPeakThresh_ta4.Name = "txtPeakThresh_ta4"
+        Me.txtPeakThresh_ta4.Size = New System.Drawing.Size(111, 28)
+        Me.txtPeakThresh_ta4.TabIndex = 544
         '
         'Label298
         '
@@ -3558,33 +3560,33 @@ Partial Class frmWLMeasurement
         Me.Label299.TabIndex = 542
         Me.Label299.Text = "nm"
         '
-        'TextBox90
+        'txt2LampdaB_tab4
         '
-        Me.TextBox90.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox90.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox90.Location = New System.Drawing.Point(377, 726)
-        Me.TextBox90.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox90.Name = "TextBox90"
-        Me.TextBox90.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox90.TabIndex = 541
+        Me.txt2LampdaB_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaB_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaB_tab4.Location = New System.Drawing.Point(377, 726)
+        Me.txt2LampdaB_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaB_tab4.Name = "txt2LampdaB_tab4"
+        Me.txt2LampdaB_tab4.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaB_tab4.TabIndex = 541
         '
-        'ComboBox18
+        'cboLampdaB_tab4
         '
-        Me.ComboBox18.FormattingEnabled = True
-        Me.ComboBox18.Location = New System.Drawing.Point(316, 726)
-        Me.ComboBox18.Name = "ComboBox18"
-        Me.ComboBox18.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox18.TabIndex = 540
+        Me.cboLampdaB_tab4.FormattingEnabled = True
+        Me.cboLampdaB_tab4.Location = New System.Drawing.Point(316, 726)
+        Me.cboLampdaB_tab4.Name = "cboLampdaB_tab4"
+        Me.cboLampdaB_tab4.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaB_tab4.TabIndex = 540
         '
-        'TextBox91
+        'txtLampdaB_tab4
         '
-        Me.TextBox91.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox91.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox91.Location = New System.Drawing.Point(199, 726)
-        Me.TextBox91.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox91.Name = "TextBox91"
-        Me.TextBox91.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox91.TabIndex = 539
+        Me.txtLampdaB_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaB_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaB_tab4.Location = New System.Drawing.Point(199, 726)
+        Me.txtLampdaB_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaB_tab4.Name = "txtLampdaB_tab4"
+        Me.txtLampdaB_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaB_tab4.TabIndex = 539
         '
         'Label300
         '
@@ -3606,33 +3608,33 @@ Partial Class frmWLMeasurement
         Me.Label301.TabIndex = 537
         Me.Label301.Text = "nm"
         '
-        'TextBox92
+        'txt2LampdaA_tab4
         '
-        Me.TextBox92.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox92.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox92.Location = New System.Drawing.Point(377, 694)
-        Me.TextBox92.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox92.Name = "TextBox92"
-        Me.TextBox92.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox92.TabIndex = 536
+        Me.txt2LampdaA_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaA_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaA_tab4.Location = New System.Drawing.Point(377, 694)
+        Me.txt2LampdaA_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaA_tab4.Name = "txt2LampdaA_tab4"
+        Me.txt2LampdaA_tab4.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaA_tab4.TabIndex = 536
         '
-        'ComboBox19
+        'cboLampdaA_tab4
         '
-        Me.ComboBox19.FormattingEnabled = True
-        Me.ComboBox19.Location = New System.Drawing.Point(316, 694)
-        Me.ComboBox19.Name = "ComboBox19"
-        Me.ComboBox19.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox19.TabIndex = 535
+        Me.cboLampdaA_tab4.FormattingEnabled = True
+        Me.cboLampdaA_tab4.Location = New System.Drawing.Point(316, 694)
+        Me.cboLampdaA_tab4.Name = "cboLampdaA_tab4"
+        Me.cboLampdaA_tab4.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaA_tab4.TabIndex = 535
         '
-        'TextBox93
+        'txtTyp_Tab4
         '
-        Me.TextBox93.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox93.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox93.Location = New System.Drawing.Point(199, 540)
-        Me.TextBox93.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox93.Name = "TextBox93"
-        Me.TextBox93.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox93.TabIndex = 534
+        Me.txtTyp_Tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtTyp_Tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTyp_Tab4.Location = New System.Drawing.Point(199, 540)
+        Me.txtTyp_Tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtTyp_Tab4.Name = "txtTyp_Tab4"
+        Me.txtTyp_Tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtTyp_Tab4.TabIndex = 534
         '
         'Label302
         '
@@ -3704,75 +3706,75 @@ Partial Class frmWLMeasurement
         Me.Label308.TabIndex = 521
         Me.Label308.Text = "mA"
         '
-        'TextBox94
+        'txtLampdaA_tab4
         '
-        Me.TextBox94.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox94.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox94.Location = New System.Drawing.Point(199, 694)
-        Me.TextBox94.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox94.Name = "TextBox94"
-        Me.TextBox94.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox94.TabIndex = 527
+        Me.txtLampdaA_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaA_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaA_tab4.Location = New System.Drawing.Point(199, 694)
+        Me.txtLampdaA_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaA_tab4.Name = "txtLampdaA_tab4"
+        Me.txtLampdaA_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaA_tab4.TabIndex = 527
         '
-        'TextBox95
+        'txtSpan1Pulse_tab4
         '
-        Me.TextBox95.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox95.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox95.Location = New System.Drawing.Point(199, 652)
-        Me.TextBox95.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox95.Name = "TextBox95"
-        Me.TextBox95.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox95.TabIndex = 526
+        Me.txtSpan1Pulse_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpan1Pulse_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpan1Pulse_tab4.Location = New System.Drawing.Point(199, 652)
+        Me.txtSpan1Pulse_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpan1Pulse_tab4.Name = "txtSpan1Pulse_tab4"
+        Me.txtSpan1Pulse_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpan1Pulse_tab4.TabIndex = 526
         '
-        'TextBox96
+        'txtSpanPulse_tab4
         '
-        Me.TextBox96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox96.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox96.Location = New System.Drawing.Point(199, 616)
-        Me.TextBox96.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox96.Name = "TextBox96"
-        Me.TextBox96.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox96.TabIndex = 525
+        Me.txtSpanPulse_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpanPulse_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpanPulse_tab4.Location = New System.Drawing.Point(199, 616)
+        Me.txtSpanPulse_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpanPulse_tab4.Name = "txtSpanPulse_tab4"
+        Me.txtSpanPulse_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpanPulse_tab4.TabIndex = 525
         '
-        'TextBox97
+        'txtCenter_tab4
         '
-        Me.TextBox97.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox97.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox97.Location = New System.Drawing.Point(199, 577)
-        Me.TextBox97.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox97.Name = "TextBox97"
-        Me.TextBox97.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox97.TabIndex = 524
+        Me.txtCenter_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtCenter_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCenter_tab4.Location = New System.Drawing.Point(199, 577)
+        Me.txtCenter_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtCenter_tab4.Name = "txtCenter_tab4"
+        Me.txtCenter_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtCenter_tab4.TabIndex = 524
         '
-        'TextBox98
+        'txtLogScale_Tab4
         '
-        Me.TextBox98.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox98.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox98.Location = New System.Drawing.Point(199, 499)
-        Me.TextBox98.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox98.Name = "TextBox98"
-        Me.TextBox98.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox98.TabIndex = 523
+        Me.txtLogScale_Tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLogScale_Tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLogScale_Tab4.Location = New System.Drawing.Point(199, 499)
+        Me.txtLogScale_Tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLogScale_Tab4.Name = "txtLogScale_Tab4"
+        Me.txtLogScale_Tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtLogScale_Tab4.TabIndex = 523
         '
-        'TextBox99
+        'txtRefLevel_Tab4
         '
-        Me.TextBox99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox99.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox99.Location = New System.Drawing.Point(199, 457)
-        Me.TextBox99.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox99.Name = "TextBox99"
-        Me.TextBox99.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox99.TabIndex = 522
+        Me.txtRefLevel_Tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRefLevel_Tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRefLevel_Tab4.Location = New System.Drawing.Point(199, 457)
+        Me.txtRefLevel_Tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRefLevel_Tab4.Name = "txtRefLevel_Tab4"
+        Me.txtRefLevel_Tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtRefLevel_Tab4.TabIndex = 522
         '
-        'TextBox100
+        'txtIop_Tab4
         '
-        Me.TextBox100.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox100.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox100.Location = New System.Drawing.Point(199, 415)
-        Me.TextBox100.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox100.Name = "TextBox100"
-        Me.TextBox100.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox100.TabIndex = 520
+        Me.txtIop_Tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIop_Tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIop_Tab4.Location = New System.Drawing.Point(199, 415)
+        Me.txtIop_Tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIop_Tab4.Name = "txtIop_Tab4"
+        Me.txtIop_Tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtIop_Tab4.TabIndex = 520
         '
         'Label309
         '
@@ -3906,15 +3908,15 @@ Partial Class frmWLMeasurement
         '
         'GroupBox4
         '
-        Me.GroupBox4.Controls.Add(Me.CheckBox76)
+        Me.GroupBox4.Controls.Add(Me.ckGetSMSR_tab4)
         Me.GroupBox4.Controls.Add(Me.Label196)
-        Me.GroupBox4.Controls.Add(Me.TextBox38)
+        Me.GroupBox4.Controls.Add(Me.txtAroundAvePoint_tab4)
         Me.GroupBox4.Controls.Add(Me.Label197)
         Me.GroupBox4.Controls.Add(Me.Label198)
-        Me.GroupBox4.Controls.Add(Me.TextBox39)
+        Me.GroupBox4.Controls.Add(Me.txtSMRSthL_tab4)
         Me.GroupBox4.Controls.Add(Me.Label199)
         Me.GroupBox4.Controls.Add(Me.Label200)
-        Me.GroupBox4.Controls.Add(Me.TextBox40)
+        Me.GroupBox4.Controls.Add(Me.txtSMRSthS_tab4)
         Me.GroupBox4.Controls.Add(Me.Label201)
         Me.GroupBox4.Location = New System.Drawing.Point(377, 351)
         Me.GroupBox4.Name = "GroupBox4"
@@ -3923,16 +3925,17 @@ Partial Class frmWLMeasurement
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "SMSR"
         '
-        'CheckBox76
+        'ckGetSMSR_tab4
         '
-        Me.CheckBox76.AutoSize = True
-        Me.CheckBox76.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.CheckBox76.Location = New System.Drawing.Point(72, 0)
-        Me.CheckBox76.Name = "CheckBox76"
-        Me.CheckBox76.Size = New System.Drawing.Size(270, 26)
-        Me.CheckBox76.TabIndex = 484
-        Me.CheckBox76.Text = "Get SMSR from measurement"
-        Me.CheckBox76.UseVisualStyleBackColor = False
+        Me.ckGetSMSR_tab4.AutoSize = True
+        Me.ckGetSMSR_tab4.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ckGetSMSR_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ckGetSMSR_tab4.Location = New System.Drawing.Point(72, 0)
+        Me.ckGetSMSR_tab4.Name = "ckGetSMSR_tab4"
+        Me.ckGetSMSR_tab4.Size = New System.Drawing.Size(257, 24)
+        Me.ckGetSMSR_tab4.TabIndex = 484
+        Me.ckGetSMSR_tab4.Text = "Get SMSR from measurement"
+        Me.ckGetSMSR_tab4.UseVisualStyleBackColor = False
         '
         'Label196
         '
@@ -3944,15 +3947,15 @@ Partial Class frmWLMeasurement
         Me.Label196.TabIndex = 483
         Me.Label196.Text = "dB"
         '
-        'TextBox38
+        'txtAroundAvePoint_tab4
         '
-        Me.TextBox38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox38.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox38.Location = New System.Drawing.Point(130, 132)
-        Me.TextBox38.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox38.TabIndex = 482
+        Me.txtAroundAvePoint_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAroundAvePoint_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAroundAvePoint_tab4.Location = New System.Drawing.Point(130, 132)
+        Me.txtAroundAvePoint_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAroundAvePoint_tab4.Name = "txtAroundAvePoint_tab4"
+        Me.txtAroundAvePoint_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtAroundAvePoint_tab4.TabIndex = 482
         '
         'Label197
         '
@@ -3974,15 +3977,15 @@ Partial Class frmWLMeasurement
         Me.Label198.TabIndex = 480
         Me.Label198.Text = "dB"
         '
-        'TextBox39
+        'txtSMRSthL_tab4
         '
-        Me.TextBox39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox39.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox39.Location = New System.Drawing.Point(130, 81)
-        Me.TextBox39.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox39.Name = "TextBox39"
-        Me.TextBox39.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox39.TabIndex = 479
+        Me.txtSMRSthL_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthL_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthL_tab4.Location = New System.Drawing.Point(130, 81)
+        Me.txtSMRSthL_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthL_tab4.Name = "txtSMRSthL_tab4"
+        Me.txtSMRSthL_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthL_tab4.TabIndex = 479
         '
         'Label199
         '
@@ -4004,15 +4007,15 @@ Partial Class frmWLMeasurement
         Me.Label200.TabIndex = 477
         Me.Label200.Text = "dB"
         '
-        'TextBox40
+        'txtSMRSthS_tab4
         '
-        Me.TextBox40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox40.Location = New System.Drawing.Point(130, 34)
-        Me.TextBox40.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox40.Name = "TextBox40"
-        Me.TextBox40.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox40.TabIndex = 476
+        Me.txtSMRSthS_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthS_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthS_tab4.Location = New System.Drawing.Point(130, 34)
+        Me.txtSMRSthS_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthS_tab4.Name = "txtSMRSthS_tab4"
+        Me.txtSMRSthS_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthS_tab4.TabIndex = 476
         '
         'Label201
         '
@@ -4024,63 +4027,63 @@ Partial Class frmWLMeasurement
         Me.Label201.TabIndex = 475
         Me.Label201.Text = "SMSR_th_S"
         '
-        'TextBox41
+        'txtAvg_tab4
         '
-        Me.TextBox41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox41.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox41.Location = New System.Drawing.Point(505, 212)
-        Me.TextBox41.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox41.Name = "TextBox41"
-        Me.TextBox41.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox41.TabIndex = 486
+        Me.txtAvg_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAvg_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAvg_tab4.Location = New System.Drawing.Point(505, 212)
+        Me.txtAvg_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAvg_tab4.Name = "txtAvg_tab4"
+        Me.txtAvg_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtAvg_tab4.TabIndex = 486
         '
-        'ComboBox11
+        'cboSenForAQ6370_tab4
         '
-        Me.ComboBox11.FormattingEnabled = True
-        Me.ComboBox11.Location = New System.Drawing.Point(505, 166)
-        Me.ComboBox11.Name = "ComboBox11"
-        Me.ComboBox11.Size = New System.Drawing.Size(121, 30)
-        Me.ComboBox11.TabIndex = 485
+        Me.cboSenForAQ6370_tab4.FormattingEnabled = True
+        Me.cboSenForAQ6370_tab4.Location = New System.Drawing.Point(505, 166)
+        Me.cboSenForAQ6370_tab4.Name = "cboSenForAQ6370_tab4"
+        Me.cboSenForAQ6370_tab4.Size = New System.Drawing.Size(111, 30)
+        Me.cboSenForAQ6370_tab4.TabIndex = 485
         '
-        'TextBox42
+        'txtData_tab4
         '
-        Me.TextBox42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox42.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox42.Location = New System.Drawing.Point(505, 287)
-        Me.TextBox42.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox42.Name = "TextBox42"
-        Me.TextBox42.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox42.TabIndex = 484
+        Me.txtData_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtData_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtData_tab4.Location = New System.Drawing.Point(505, 287)
+        Me.txtData_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtData_tab4.Name = "txtData_tab4"
+        Me.txtData_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtData_tab4.TabIndex = 484
         '
-        'TextBox43
+        'txtXdB_tab4
         '
-        Me.TextBox43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox43.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox43.Location = New System.Drawing.Point(505, 248)
-        Me.TextBox43.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox43.Name = "TextBox43"
-        Me.TextBox43.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox43.TabIndex = 483
+        Me.txtXdB_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtXdB_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtXdB_tab4.Location = New System.Drawing.Point(505, 248)
+        Me.txtXdB_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtXdB_tab4.Name = "txtXdB_tab4"
+        Me.txtXdB_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtXdB_tab4.TabIndex = 483
         '
-        'TextBox44
+        'txtSensitivity_tab4
         '
-        Me.TextBox44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox44.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox44.Location = New System.Drawing.Point(505, 128)
-        Me.TextBox44.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox44.Name = "TextBox44"
-        Me.TextBox44.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox44.TabIndex = 482
+        Me.txtSensitivity_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSensitivity_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSensitivity_tab4.Location = New System.Drawing.Point(505, 128)
+        Me.txtSensitivity_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSensitivity_tab4.Name = "txtSensitivity_tab4"
+        Me.txtSensitivity_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtSensitivity_tab4.TabIndex = 482
         '
-        'TextBox45
+        'txtResBW_tab4
         '
-        Me.TextBox45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox45.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox45.Location = New System.Drawing.Point(505, 86)
-        Me.TextBox45.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox45.Name = "TextBox45"
-        Me.TextBox45.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox45.TabIndex = 481
+        Me.txtResBW_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtResBW_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResBW_tab4.Location = New System.Drawing.Point(505, 86)
+        Me.txtResBW_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtResBW_tab4.Name = "txtResBW_tab4"
+        Me.txtResBW_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtResBW_tab4.TabIndex = 481
         '
         'Label202
         '
@@ -4142,137 +4145,137 @@ Partial Class frmWLMeasurement
         Me.Label207.TabIndex = 475
         Me.Label207.Text = "Res BW"
         '
-        'CheckBox38
+        'ckMeasFCFP1_tab4
         '
-        Me.CheckBox38.AutoSize = True
-        Me.CheckBox38.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox38.Location = New System.Drawing.Point(999, 479)
-        Me.CheckBox38.Name = "CheckBox38"
-        Me.CheckBox38.Size = New System.Drawing.Size(137, 26)
-        Me.CheckBox38.TabIndex = 470
-        Me.CheckBox38.Text = "Meas FCFP1"
-        Me.CheckBox38.UseVisualStyleBackColor = True
+        Me.ckMeasFCFP1_tab4.AutoSize = True
+        Me.ckMeasFCFP1_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCFP1_tab4.Location = New System.Drawing.Point(999, 479)
+        Me.ckMeasFCFP1_tab4.Name = "ckMeasFCFP1_tab4"
+        Me.ckMeasFCFP1_tab4.Size = New System.Drawing.Size(137, 26)
+        Me.ckMeasFCFP1_tab4.TabIndex = 470
+        Me.ckMeasFCFP1_tab4.Text = "Meas FCFP1"
+        Me.ckMeasFCFP1_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox39
+        'ckMeasFPP4_tab4
         '
-        Me.CheckBox39.AutoSize = True
-        Me.CheckBox39.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox39.Location = New System.Drawing.Point(1011, 447)
-        Me.CheckBox39.Name = "CheckBox39"
-        Me.CheckBox39.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox39.TabIndex = 469
-        Me.CheckBox39.Text = "Meas FPP4"
-        Me.CheckBox39.UseVisualStyleBackColor = True
+        Me.ckMeasFPP4_tab4.AutoSize = True
+        Me.ckMeasFPP4_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP4_tab4.Location = New System.Drawing.Point(1011, 447)
+        Me.ckMeasFPP4_tab4.Name = "ckMeasFPP4_tab4"
+        Me.ckMeasFPP4_tab4.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP4_tab4.TabIndex = 469
+        Me.ckMeasFPP4_tab4.Text = "Meas FPP4"
+        Me.ckMeasFPP4_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox40
+        'ckMeasFPP3_tab4
         '
-        Me.CheckBox40.AutoSize = True
-        Me.CheckBox40.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox40.Location = New System.Drawing.Point(1011, 415)
-        Me.CheckBox40.Name = "CheckBox40"
-        Me.CheckBox40.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox40.TabIndex = 468
-        Me.CheckBox40.Text = "Meas FPP3"
-        Me.CheckBox40.UseVisualStyleBackColor = True
+        Me.ckMeasFPP3_tab4.AutoSize = True
+        Me.ckMeasFPP3_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP3_tab4.Location = New System.Drawing.Point(1011, 415)
+        Me.ckMeasFPP3_tab4.Name = "ckMeasFPP3_tab4"
+        Me.ckMeasFPP3_tab4.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP3_tab4.TabIndex = 468
+        Me.ckMeasFPP3_tab4.Text = "Meas FPP3"
+        Me.ckMeasFPP3_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox41
+        'ckMeasEOL_tab4
         '
-        Me.CheckBox41.AutoSize = True
-        Me.CheckBox41.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox41.Location = New System.Drawing.Point(1020, 383)
-        Me.CheckBox41.Name = "CheckBox41"
-        Me.CheckBox41.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox41.TabIndex = 467
-        Me.CheckBox41.Text = "Meas EOL"
-        Me.CheckBox41.UseVisualStyleBackColor = True
+        Me.ckMeasEOL_tab4.AutoSize = True
+        Me.ckMeasEOL_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasEOL_tab4.Location = New System.Drawing.Point(1020, 383)
+        Me.ckMeasEOL_tab4.Name = "ckMeasEOL_tab4"
+        Me.ckMeasEOL_tab4.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasEOL_tab4.TabIndex = 467
+        Me.ckMeasEOL_tab4.Text = "Meas EOL"
+        Me.ckMeasEOL_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox42
+        'ckMeasFPA_tab4
         '
-        Me.CheckBox42.AutoSize = True
-        Me.CheckBox42.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox42.Location = New System.Drawing.Point(1021, 351)
-        Me.CheckBox42.Name = "CheckBox42"
-        Me.CheckBox42.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox42.TabIndex = 466
-        Me.CheckBox42.Text = "Meas FPA"
-        Me.CheckBox42.UseVisualStyleBackColor = True
+        Me.ckMeasFPA_tab4.AutoSize = True
+        Me.ckMeasFPA_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPA_tab4.Location = New System.Drawing.Point(1021, 351)
+        Me.ckMeasFPA_tab4.Name = "ckMeasFPA_tab4"
+        Me.ckMeasFPA_tab4.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPA_tab4.TabIndex = 466
+        Me.ckMeasFPA_tab4.Text = "Meas FPA"
+        Me.ckMeasFPA_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox43
+        'ckMeasFRP2_tab4
         '
-        Me.CheckBox43.AutoSize = True
-        Me.CheckBox43.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox43.Location = New System.Drawing.Point(1010, 320)
-        Me.CheckBox43.Name = "CheckBox43"
-        Me.CheckBox43.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox43.TabIndex = 465
-        Me.CheckBox43.Text = "Meas FRP2"
-        Me.CheckBox43.UseVisualStyleBackColor = True
+        Me.ckMeasFRP2_tab4.AutoSize = True
+        Me.ckMeasFRP2_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP2_tab4.Location = New System.Drawing.Point(1010, 320)
+        Me.ckMeasFRP2_tab4.Name = "ckMeasFRP2_tab4"
+        Me.ckMeasFRP2_tab4.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFRP2_tab4.TabIndex = 465
+        Me.ckMeasFRP2_tab4.Text = "Meas FRP2"
+        Me.ckMeasFRP2_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox44
+        'ckMeasFPP2_tab4
         '
-        Me.CheckBox44.AutoSize = True
-        Me.CheckBox44.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox44.Location = New System.Drawing.Point(1011, 288)
-        Me.CheckBox44.Name = "CheckBox44"
-        Me.CheckBox44.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox44.TabIndex = 464
-        Me.CheckBox44.Text = "Meas FPP2"
-        Me.CheckBox44.UseVisualStyleBackColor = True
+        Me.ckMeasFPP2_tab4.AutoSize = True
+        Me.ckMeasFPP2_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP2_tab4.Location = New System.Drawing.Point(1011, 288)
+        Me.ckMeasFPP2_tab4.Name = "ckMeasFPP2_tab4"
+        Me.ckMeasFPP2_tab4.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP2_tab4.TabIndex = 464
+        Me.ckMeasFPP2_tab4.Text = "Meas FPP2"
+        Me.ckMeasFPP2_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox45
+        'ckMeasFCP2_tab4
         '
-        Me.CheckBox45.AutoSize = True
-        Me.CheckBox45.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox45.Location = New System.Drawing.Point(1010, 256)
-        Me.CheckBox45.Name = "CheckBox45"
-        Me.CheckBox45.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox45.TabIndex = 463
-        Me.CheckBox45.Text = "Meas FCP2"
-        Me.CheckBox45.UseVisualStyleBackColor = True
+        Me.ckMeasFCP2_tab4.AutoSize = True
+        Me.ckMeasFCP2_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP2_tab4.Location = New System.Drawing.Point(1010, 256)
+        Me.ckMeasFCP2_tab4.Name = "ckMeasFCP2_tab4"
+        Me.ckMeasFCP2_tab4.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFCP2_tab4.TabIndex = 463
+        Me.ckMeasFCP2_tab4.Text = "Meas FCP2"
+        Me.ckMeasFCP2_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox46
+        'ckMeasFRP_tab4
         '
-        Me.CheckBox46.AutoSize = True
-        Me.CheckBox46.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox46.Location = New System.Drawing.Point(1020, 224)
-        Me.CheckBox46.Name = "CheckBox46"
-        Me.CheckBox46.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox46.TabIndex = 462
-        Me.CheckBox46.Text = "Meas FRP"
-        Me.CheckBox46.UseVisualStyleBackColor = True
+        Me.ckMeasFRP_tab4.AutoSize = True
+        Me.ckMeasFRP_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP_tab4.Location = New System.Drawing.Point(1020, 224)
+        Me.ckMeasFRP_tab4.Name = "ckMeasFRP_tab4"
+        Me.ckMeasFRP_tab4.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFRP_tab4.TabIndex = 462
+        Me.ckMeasFRP_tab4.Text = "Meas FRP"
+        Me.ckMeasFRP_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox47
+        'ckMeasFPP_tab4
         '
-        Me.CheckBox47.AutoSize = True
-        Me.CheckBox47.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox47.Location = New System.Drawing.Point(1021, 192)
-        Me.CheckBox47.Name = "CheckBox47"
-        Me.CheckBox47.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox47.TabIndex = 461
-        Me.CheckBox47.Text = "Meas FPP"
-        Me.CheckBox47.UseVisualStyleBackColor = True
+        Me.ckMeasFPP_tab4.AutoSize = True
+        Me.ckMeasFPP_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP_tab4.Location = New System.Drawing.Point(1021, 192)
+        Me.ckMeasFPP_tab4.Name = "ckMeasFPP_tab4"
+        Me.ckMeasFPP_tab4.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPP_tab4.TabIndex = 461
+        Me.ckMeasFPP_tab4.Text = "Meas FPP"
+        Me.ckMeasFPP_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox48
+        'ckMeasFCP_tab4
         '
-        Me.CheckBox48.AutoSize = True
-        Me.CheckBox48.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox48.Location = New System.Drawing.Point(1020, 160)
-        Me.CheckBox48.Name = "CheckBox48"
-        Me.CheckBox48.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox48.TabIndex = 460
-        Me.CheckBox48.Text = "Meas FCP"
-        Me.CheckBox48.UseVisualStyleBackColor = True
+        Me.ckMeasFCP_tab4.AutoSize = True
+        Me.ckMeasFCP_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP_tab4.Location = New System.Drawing.Point(1020, 160)
+        Me.ckMeasFCP_tab4.Name = "ckMeasFCP_tab4"
+        Me.ckMeasFCP_tab4.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFCP_tab4.TabIndex = 460
+        Me.ckMeasFCP_tab4.Text = "Meas FCP"
+        Me.ckMeasFCP_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox49
+        'ckMeasIop_tab4
         '
-        Me.CheckBox49.AutoSize = True
-        Me.CheckBox49.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox49.Location = New System.Drawing.Point(1032, 131)
-        Me.CheckBox49.Name = "CheckBox49"
-        Me.CheckBox49.Size = New System.Drawing.Size(104, 26)
-        Me.CheckBox49.TabIndex = 459
-        Me.CheckBox49.Text = "Meas Iop"
-        Me.CheckBox49.UseVisualStyleBackColor = True
+        Me.ckMeasIop_tab4.AutoSize = True
+        Me.ckMeasIop_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasIop_tab4.Location = New System.Drawing.Point(1032, 131)
+        Me.ckMeasIop_tab4.Name = "ckMeasIop_tab4"
+        Me.ckMeasIop_tab4.Size = New System.Drawing.Size(104, 26)
+        Me.ckMeasIop_tab4.TabIndex = 459
+        Me.ckMeasIop_tab4.Text = "Meas Iop"
+        Me.ckMeasIop_tab4.UseVisualStyleBackColor = True
         '
         'cboMeasurePoint1_tab4
         '
@@ -4684,20 +4687,20 @@ Partial Class frmWLMeasurement
         'Spectrum3
         '
         Me.Spectrum3.Controls.Add(Me.Label273)
-        Me.Spectrum3.Controls.Add(Me.TextBox75)
+        Me.Spectrum3.Controls.Add(Me.txtItec_tab3)
         Me.Spectrum3.Controls.Add(Me.Label274)
         Me.Spectrum3.Controls.Add(Me.Label275)
-        Me.Spectrum3.Controls.Add(Me.TextBox76)
+        Me.Spectrum3.Controls.Add(Me.txtPeakThresh_tab3)
         Me.Spectrum3.Controls.Add(Me.Label276)
         Me.Spectrum3.Controls.Add(Me.Label277)
-        Me.Spectrum3.Controls.Add(Me.TextBox77)
-        Me.Spectrum3.Controls.Add(Me.ComboBox16)
-        Me.Spectrum3.Controls.Add(Me.TextBox78)
+        Me.Spectrum3.Controls.Add(Me.txt2LampdaB_tab3)
+        Me.Spectrum3.Controls.Add(Me.cboLampdaB_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtLampdaB_tab3)
         Me.Spectrum3.Controls.Add(Me.Label278)
         Me.Spectrum3.Controls.Add(Me.Label279)
-        Me.Spectrum3.Controls.Add(Me.TextBox79)
-        Me.Spectrum3.Controls.Add(Me.ComboBox17)
-        Me.Spectrum3.Controls.Add(Me.TextBox80)
+        Me.Spectrum3.Controls.Add(Me.txt2LampdaA_tab3)
+        Me.Spectrum3.Controls.Add(Me.cboLampdaA_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtTyp_Tab3)
         Me.Spectrum3.Controls.Add(Me.Label280)
         Me.Spectrum3.Controls.Add(Me.Label281)
         Me.Spectrum3.Controls.Add(Me.Label282)
@@ -4705,13 +4708,13 @@ Partial Class frmWLMeasurement
         Me.Spectrum3.Controls.Add(Me.Label284)
         Me.Spectrum3.Controls.Add(Me.Label285)
         Me.Spectrum3.Controls.Add(Me.Label286)
-        Me.Spectrum3.Controls.Add(Me.TextBox81)
-        Me.Spectrum3.Controls.Add(Me.TextBox82)
-        Me.Spectrum3.Controls.Add(Me.TextBox83)
-        Me.Spectrum3.Controls.Add(Me.TextBox84)
-        Me.Spectrum3.Controls.Add(Me.TextBox85)
-        Me.Spectrum3.Controls.Add(Me.TextBox86)
-        Me.Spectrum3.Controls.Add(Me.TextBox87)
+        Me.Spectrum3.Controls.Add(Me.txtLampdaA_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtSpan1Pulse_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtSpanPulse_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtCenter_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtLogScale_Tab3)
+        Me.Spectrum3.Controls.Add(Me.txtRefLevel_Tab3)
+        Me.Spectrum3.Controls.Add(Me.txtIop_Tab3)
         Me.Spectrum3.Controls.Add(Me.Label287)
         Me.Spectrum3.Controls.Add(Me.Label288)
         Me.Spectrum3.Controls.Add(Me.Label289)
@@ -4726,30 +4729,30 @@ Partial Class frmWLMeasurement
         Me.Spectrum3.Controls.Add(Me.Label177)
         Me.Spectrum3.Controls.Add(Me.Label178)
         Me.Spectrum3.Controls.Add(Me.GroupBox3)
-        Me.Spectrum3.Controls.Add(Me.TextBox33)
-        Me.Spectrum3.Controls.Add(Me.ComboBox10)
-        Me.Spectrum3.Controls.Add(Me.TextBox34)
-        Me.Spectrum3.Controls.Add(Me.TextBox35)
-        Me.Spectrum3.Controls.Add(Me.TextBox36)
-        Me.Spectrum3.Controls.Add(Me.TextBox37)
+        Me.Spectrum3.Controls.Add(Me.txtAvg_tab3)
+        Me.Spectrum3.Controls.Add(Me.cboSenForAQ6370_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtData_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtXdB_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtSensitivity_tab3)
+        Me.Spectrum3.Controls.Add(Me.txtResBW_tab3)
         Me.Spectrum3.Controls.Add(Me.Label185)
         Me.Spectrum3.Controls.Add(Me.Label186)
         Me.Spectrum3.Controls.Add(Me.Label187)
         Me.Spectrum3.Controls.Add(Me.Label188)
         Me.Spectrum3.Controls.Add(Me.Label189)
         Me.Spectrum3.Controls.Add(Me.Label190)
-        Me.Spectrum3.Controls.Add(Me.CheckBox26)
-        Me.Spectrum3.Controls.Add(Me.CheckBox27)
-        Me.Spectrum3.Controls.Add(Me.CheckBox28)
-        Me.Spectrum3.Controls.Add(Me.CheckBox29)
-        Me.Spectrum3.Controls.Add(Me.CheckBox30)
-        Me.Spectrum3.Controls.Add(Me.CheckBox31)
-        Me.Spectrum3.Controls.Add(Me.CheckBox32)
-        Me.Spectrum3.Controls.Add(Me.CheckBox33)
-        Me.Spectrum3.Controls.Add(Me.CheckBox34)
-        Me.Spectrum3.Controls.Add(Me.CheckBox35)
-        Me.Spectrum3.Controls.Add(Me.CheckBox36)
-        Me.Spectrum3.Controls.Add(Me.CheckBox37)
+        Me.Spectrum3.Controls.Add(Me.ckMeasFCFP1_tab3)
+        Me.Spectrum3.Controls.Add(Me.ckMeasFPP4_tab3)
+        Me.Spectrum3.Controls.Add(Me.ckMeasFPP3_tab3)
+        Me.Spectrum3.Controls.Add(Me.ckMeasEOL_tab3)
+        Me.Spectrum3.Controls.Add(Me.ckMeasFPA_tab3)
+        Me.Spectrum3.Controls.Add(Me.ckMeasFRP2_tab3)
+        Me.Spectrum3.Controls.Add(Me.ckMeasFPP2_tab3)
+        Me.Spectrum3.Controls.Add(Me.ckMeasFCP2_tab3)
+        Me.Spectrum3.Controls.Add(Me.ckMeasFRP_tab3)
+        Me.Spectrum3.Controls.Add(Me.ckMeasFPP_tab3)
+        Me.Spectrum3.Controls.Add(Me.ckMeasFCP_tab3)
+        Me.Spectrum3.Controls.Add(Me.ckMeasIop_tab3)
         Me.Spectrum3.Controls.Add(Me.cboMeasurePoint1_tab3)
         Me.Spectrum3.Controls.Add(Me.Label48)
         Me.Spectrum3.Controls.Add(Me.txtWavelengthB_tab3)
@@ -4794,7 +4797,7 @@ Partial Class frmWLMeasurement
         Me.Spectrum3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Spectrum3.Name = "Spectrum3"
         Me.Spectrum3.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Spectrum3.Size = New System.Drawing.Size(1198, 842)
+        Me.Spectrum3.Size = New System.Drawing.Size(1178, 860)
         Me.Spectrum3.TabIndex = 2
         Me.Spectrum3.Text = "Spectrum3"
         Me.Spectrum3.UseVisualStyleBackColor = True
@@ -4809,15 +4812,15 @@ Partial Class frmWLMeasurement
         Me.Label273.TabIndex = 548
         Me.Label273.Text = "A"
         '
-        'TextBox75
+        'txtItec_tab3
         '
-        Me.TextBox75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox75.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox75.Location = New System.Drawing.Point(199, 795)
-        Me.TextBox75.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox75.Name = "TextBox75"
-        Me.TextBox75.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox75.TabIndex = 547
+        Me.txtItec_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtItec_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtItec_tab3.Location = New System.Drawing.Point(199, 795)
+        Me.txtItec_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtItec_tab3.Name = "txtItec_tab3"
+        Me.txtItec_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtItec_tab3.TabIndex = 547
         '
         'Label274
         '
@@ -4839,15 +4842,15 @@ Partial Class frmWLMeasurement
         Me.Label275.TabIndex = 545
         Me.Label275.Text = "nm"
         '
-        'TextBox76
+        'txtPeakThresh_tab3
         '
-        Me.TextBox76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox76.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox76.Location = New System.Drawing.Point(199, 761)
-        Me.TextBox76.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox76.Name = "TextBox76"
-        Me.TextBox76.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox76.TabIndex = 544
+        Me.txtPeakThresh_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPeakThresh_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPeakThresh_tab3.Location = New System.Drawing.Point(199, 761)
+        Me.txtPeakThresh_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPeakThresh_tab3.Name = "txtPeakThresh_tab3"
+        Me.txtPeakThresh_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtPeakThresh_tab3.TabIndex = 544
         '
         'Label276
         '
@@ -4869,33 +4872,33 @@ Partial Class frmWLMeasurement
         Me.Label277.TabIndex = 542
         Me.Label277.Text = "nm"
         '
-        'TextBox77
+        'txt2LampdaB_tab3
         '
-        Me.TextBox77.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox77.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox77.Location = New System.Drawing.Point(377, 726)
-        Me.TextBox77.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox77.Name = "TextBox77"
-        Me.TextBox77.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox77.TabIndex = 541
+        Me.txt2LampdaB_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaB_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaB_tab3.Location = New System.Drawing.Point(377, 726)
+        Me.txt2LampdaB_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaB_tab3.Name = "txt2LampdaB_tab3"
+        Me.txt2LampdaB_tab3.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaB_tab3.TabIndex = 541
         '
-        'ComboBox16
+        'cboLampdaB_tab3
         '
-        Me.ComboBox16.FormattingEnabled = True
-        Me.ComboBox16.Location = New System.Drawing.Point(316, 726)
-        Me.ComboBox16.Name = "ComboBox16"
-        Me.ComboBox16.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox16.TabIndex = 540
+        Me.cboLampdaB_tab3.FormattingEnabled = True
+        Me.cboLampdaB_tab3.Location = New System.Drawing.Point(316, 726)
+        Me.cboLampdaB_tab3.Name = "cboLampdaB_tab3"
+        Me.cboLampdaB_tab3.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaB_tab3.TabIndex = 540
         '
-        'TextBox78
+        'txtLampdaB_tab3
         '
-        Me.TextBox78.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox78.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox78.Location = New System.Drawing.Point(199, 726)
-        Me.TextBox78.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox78.Name = "TextBox78"
-        Me.TextBox78.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox78.TabIndex = 539
+        Me.txtLampdaB_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaB_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaB_tab3.Location = New System.Drawing.Point(199, 726)
+        Me.txtLampdaB_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaB_tab3.Name = "txtLampdaB_tab3"
+        Me.txtLampdaB_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaB_tab3.TabIndex = 539
         '
         'Label278
         '
@@ -4917,33 +4920,33 @@ Partial Class frmWLMeasurement
         Me.Label279.TabIndex = 537
         Me.Label279.Text = "nm"
         '
-        'TextBox79
+        'txt2LampdaA_tab3
         '
-        Me.TextBox79.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox79.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox79.Location = New System.Drawing.Point(377, 694)
-        Me.TextBox79.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox79.Name = "TextBox79"
-        Me.TextBox79.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox79.TabIndex = 536
+        Me.txt2LampdaA_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaA_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaA_tab3.Location = New System.Drawing.Point(377, 694)
+        Me.txt2LampdaA_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaA_tab3.Name = "txt2LampdaA_tab3"
+        Me.txt2LampdaA_tab3.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaA_tab3.TabIndex = 536
         '
-        'ComboBox17
+        'cboLampdaA_tab3
         '
-        Me.ComboBox17.FormattingEnabled = True
-        Me.ComboBox17.Location = New System.Drawing.Point(316, 694)
-        Me.ComboBox17.Name = "ComboBox17"
-        Me.ComboBox17.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox17.TabIndex = 535
+        Me.cboLampdaA_tab3.FormattingEnabled = True
+        Me.cboLampdaA_tab3.Location = New System.Drawing.Point(316, 694)
+        Me.cboLampdaA_tab3.Name = "cboLampdaA_tab3"
+        Me.cboLampdaA_tab3.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaA_tab3.TabIndex = 535
         '
-        'TextBox80
+        'txtTyp_Tab3
         '
-        Me.TextBox80.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox80.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox80.Location = New System.Drawing.Point(199, 540)
-        Me.TextBox80.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox80.Name = "TextBox80"
-        Me.TextBox80.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox80.TabIndex = 534
+        Me.txtTyp_Tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtTyp_Tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTyp_Tab3.Location = New System.Drawing.Point(199, 540)
+        Me.txtTyp_Tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtTyp_Tab3.Name = "txtTyp_Tab3"
+        Me.txtTyp_Tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtTyp_Tab3.TabIndex = 534
         '
         'Label280
         '
@@ -5015,75 +5018,75 @@ Partial Class frmWLMeasurement
         Me.Label286.TabIndex = 521
         Me.Label286.Text = "mA"
         '
-        'TextBox81
+        'txtLampdaA_tab3
         '
-        Me.TextBox81.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox81.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox81.Location = New System.Drawing.Point(199, 694)
-        Me.TextBox81.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox81.Name = "TextBox81"
-        Me.TextBox81.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox81.TabIndex = 527
+        Me.txtLampdaA_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaA_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaA_tab3.Location = New System.Drawing.Point(199, 694)
+        Me.txtLampdaA_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaA_tab3.Name = "txtLampdaA_tab3"
+        Me.txtLampdaA_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaA_tab3.TabIndex = 527
         '
-        'TextBox82
+        'txtSpan1Pulse_tab3
         '
-        Me.TextBox82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox82.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox82.Location = New System.Drawing.Point(199, 652)
-        Me.TextBox82.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox82.Name = "TextBox82"
-        Me.TextBox82.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox82.TabIndex = 526
+        Me.txtSpan1Pulse_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpan1Pulse_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpan1Pulse_tab3.Location = New System.Drawing.Point(199, 652)
+        Me.txtSpan1Pulse_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpan1Pulse_tab3.Name = "txtSpan1Pulse_tab3"
+        Me.txtSpan1Pulse_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpan1Pulse_tab3.TabIndex = 526
         '
-        'TextBox83
+        'txtSpanPulse_tab3
         '
-        Me.TextBox83.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox83.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox83.Location = New System.Drawing.Point(199, 616)
-        Me.TextBox83.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox83.Name = "TextBox83"
-        Me.TextBox83.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox83.TabIndex = 525
+        Me.txtSpanPulse_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpanPulse_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpanPulse_tab3.Location = New System.Drawing.Point(199, 616)
+        Me.txtSpanPulse_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpanPulse_tab3.Name = "txtSpanPulse_tab3"
+        Me.txtSpanPulse_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpanPulse_tab3.TabIndex = 525
         '
-        'TextBox84
+        'txtCenter_tab3
         '
-        Me.TextBox84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox84.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox84.Location = New System.Drawing.Point(199, 577)
-        Me.TextBox84.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox84.Name = "TextBox84"
-        Me.TextBox84.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox84.TabIndex = 524
+        Me.txtCenter_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtCenter_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCenter_tab3.Location = New System.Drawing.Point(199, 577)
+        Me.txtCenter_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtCenter_tab3.Name = "txtCenter_tab3"
+        Me.txtCenter_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtCenter_tab3.TabIndex = 524
         '
-        'TextBox85
+        'txtLogScale_Tab3
         '
-        Me.TextBox85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox85.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox85.Location = New System.Drawing.Point(199, 499)
-        Me.TextBox85.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox85.Name = "TextBox85"
-        Me.TextBox85.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox85.TabIndex = 523
+        Me.txtLogScale_Tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLogScale_Tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLogScale_Tab3.Location = New System.Drawing.Point(199, 499)
+        Me.txtLogScale_Tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLogScale_Tab3.Name = "txtLogScale_Tab3"
+        Me.txtLogScale_Tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtLogScale_Tab3.TabIndex = 523
         '
-        'TextBox86
+        'txtRefLevel_Tab3
         '
-        Me.TextBox86.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox86.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox86.Location = New System.Drawing.Point(199, 457)
-        Me.TextBox86.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox86.Name = "TextBox86"
-        Me.TextBox86.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox86.TabIndex = 522
+        Me.txtRefLevel_Tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRefLevel_Tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRefLevel_Tab3.Location = New System.Drawing.Point(199, 457)
+        Me.txtRefLevel_Tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRefLevel_Tab3.Name = "txtRefLevel_Tab3"
+        Me.txtRefLevel_Tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtRefLevel_Tab3.TabIndex = 522
         '
-        'TextBox87
+        'txtIop_Tab3
         '
-        Me.TextBox87.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox87.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox87.Location = New System.Drawing.Point(199, 415)
-        Me.TextBox87.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox87.Name = "TextBox87"
-        Me.TextBox87.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox87.TabIndex = 520
+        Me.txtIop_Tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIop_Tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIop_Tab3.Location = New System.Drawing.Point(199, 415)
+        Me.txtIop_Tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIop_Tab3.Name = "txtIop_Tab3"
+        Me.txtIop_Tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtIop_Tab3.TabIndex = 520
         '
         'Label287
         '
@@ -5217,15 +5220,15 @@ Partial Class frmWLMeasurement
         '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.CheckBox75)
+        Me.GroupBox3.Controls.Add(Me.ckGetSMSR_tab3)
         Me.GroupBox3.Controls.Add(Me.Label179)
-        Me.GroupBox3.Controls.Add(Me.TextBox30)
+        Me.GroupBox3.Controls.Add(Me.txtAroundAvePoint_tab3)
         Me.GroupBox3.Controls.Add(Me.Label180)
         Me.GroupBox3.Controls.Add(Me.Label181)
-        Me.GroupBox3.Controls.Add(Me.TextBox31)
+        Me.GroupBox3.Controls.Add(Me.txtSMRSthL_tab3)
         Me.GroupBox3.Controls.Add(Me.Label182)
         Me.GroupBox3.Controls.Add(Me.Label183)
-        Me.GroupBox3.Controls.Add(Me.TextBox32)
+        Me.GroupBox3.Controls.Add(Me.txtSMRSthS_tab3)
         Me.GroupBox3.Controls.Add(Me.Label184)
         Me.GroupBox3.Location = New System.Drawing.Point(377, 351)
         Me.GroupBox3.Name = "GroupBox3"
@@ -5234,16 +5237,17 @@ Partial Class frmWLMeasurement
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "SMSR"
         '
-        'CheckBox75
+        'ckGetSMSR_tab3
         '
-        Me.CheckBox75.AutoSize = True
-        Me.CheckBox75.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.CheckBox75.Location = New System.Drawing.Point(72, 0)
-        Me.CheckBox75.Name = "CheckBox75"
-        Me.CheckBox75.Size = New System.Drawing.Size(270, 26)
-        Me.CheckBox75.TabIndex = 484
-        Me.CheckBox75.Text = "Get SMSR from measurement"
-        Me.CheckBox75.UseVisualStyleBackColor = False
+        Me.ckGetSMSR_tab3.AutoSize = True
+        Me.ckGetSMSR_tab3.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ckGetSMSR_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ckGetSMSR_tab3.Location = New System.Drawing.Point(72, 0)
+        Me.ckGetSMSR_tab3.Name = "ckGetSMSR_tab3"
+        Me.ckGetSMSR_tab3.Size = New System.Drawing.Size(257, 24)
+        Me.ckGetSMSR_tab3.TabIndex = 484
+        Me.ckGetSMSR_tab3.Text = "Get SMSR from measurement"
+        Me.ckGetSMSR_tab3.UseVisualStyleBackColor = False
         '
         'Label179
         '
@@ -5255,15 +5259,15 @@ Partial Class frmWLMeasurement
         Me.Label179.TabIndex = 483
         Me.Label179.Text = "dB"
         '
-        'TextBox30
+        'txtAroundAvePoint_tab3
         '
-        Me.TextBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox30.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox30.Location = New System.Drawing.Point(130, 132)
-        Me.TextBox30.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox30.TabIndex = 482
+        Me.txtAroundAvePoint_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAroundAvePoint_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAroundAvePoint_tab3.Location = New System.Drawing.Point(130, 132)
+        Me.txtAroundAvePoint_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAroundAvePoint_tab3.Name = "txtAroundAvePoint_tab3"
+        Me.txtAroundAvePoint_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtAroundAvePoint_tab3.TabIndex = 482
         '
         'Label180
         '
@@ -5285,15 +5289,15 @@ Partial Class frmWLMeasurement
         Me.Label181.TabIndex = 480
         Me.Label181.Text = "dB"
         '
-        'TextBox31
+        'txtSMRSthL_tab3
         '
-        Me.TextBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox31.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox31.Location = New System.Drawing.Point(130, 81)
-        Me.TextBox31.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox31.TabIndex = 479
+        Me.txtSMRSthL_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthL_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthL_tab3.Location = New System.Drawing.Point(130, 81)
+        Me.txtSMRSthL_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthL_tab3.Name = "txtSMRSthL_tab3"
+        Me.txtSMRSthL_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthL_tab3.TabIndex = 479
         '
         'Label182
         '
@@ -5315,15 +5319,15 @@ Partial Class frmWLMeasurement
         Me.Label183.TabIndex = 477
         Me.Label183.Text = "dB"
         '
-        'TextBox32
+        'txtSMRSthS_tab3
         '
-        Me.TextBox32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox32.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox32.Location = New System.Drawing.Point(130, 34)
-        Me.TextBox32.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox32.TabIndex = 476
+        Me.txtSMRSthS_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthS_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthS_tab3.Location = New System.Drawing.Point(130, 34)
+        Me.txtSMRSthS_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthS_tab3.Name = "txtSMRSthS_tab3"
+        Me.txtSMRSthS_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthS_tab3.TabIndex = 476
         '
         'Label184
         '
@@ -5335,63 +5339,63 @@ Partial Class frmWLMeasurement
         Me.Label184.TabIndex = 475
         Me.Label184.Text = "SMSR_th_S"
         '
-        'TextBox33
+        'txtAvg_tab3
         '
-        Me.TextBox33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox33.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox33.Location = New System.Drawing.Point(505, 212)
-        Me.TextBox33.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox33.TabIndex = 486
+        Me.txtAvg_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAvg_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAvg_tab3.Location = New System.Drawing.Point(505, 212)
+        Me.txtAvg_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAvg_tab3.Name = "txtAvg_tab3"
+        Me.txtAvg_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtAvg_tab3.TabIndex = 486
         '
-        'ComboBox10
+        'cboSenForAQ6370_tab3
         '
-        Me.ComboBox10.FormattingEnabled = True
-        Me.ComboBox10.Location = New System.Drawing.Point(505, 166)
-        Me.ComboBox10.Name = "ComboBox10"
-        Me.ComboBox10.Size = New System.Drawing.Size(121, 30)
-        Me.ComboBox10.TabIndex = 485
+        Me.cboSenForAQ6370_tab3.FormattingEnabled = True
+        Me.cboSenForAQ6370_tab3.Location = New System.Drawing.Point(505, 166)
+        Me.cboSenForAQ6370_tab3.Name = "cboSenForAQ6370_tab3"
+        Me.cboSenForAQ6370_tab3.Size = New System.Drawing.Size(111, 30)
+        Me.cboSenForAQ6370_tab3.TabIndex = 485
         '
-        'TextBox34
+        'txtData_tab3
         '
-        Me.TextBox34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox34.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox34.Location = New System.Drawing.Point(505, 287)
-        Me.TextBox34.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox34.TabIndex = 484
+        Me.txtData_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtData_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtData_tab3.Location = New System.Drawing.Point(505, 287)
+        Me.txtData_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtData_tab3.Name = "txtData_tab3"
+        Me.txtData_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtData_tab3.TabIndex = 484
         '
-        'TextBox35
+        'txtXdB_tab3
         '
-        Me.TextBox35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox35.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox35.Location = New System.Drawing.Point(505, 248)
-        Me.TextBox35.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox35.TabIndex = 483
+        Me.txtXdB_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtXdB_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtXdB_tab3.Location = New System.Drawing.Point(505, 248)
+        Me.txtXdB_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtXdB_tab3.Name = "txtXdB_tab3"
+        Me.txtXdB_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtXdB_tab3.TabIndex = 483
         '
-        'TextBox36
+        'txtSensitivity_tab3
         '
-        Me.TextBox36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox36.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox36.Location = New System.Drawing.Point(505, 128)
-        Me.TextBox36.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox36.TabIndex = 482
+        Me.txtSensitivity_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSensitivity_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSensitivity_tab3.Location = New System.Drawing.Point(505, 128)
+        Me.txtSensitivity_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSensitivity_tab3.Name = "txtSensitivity_tab3"
+        Me.txtSensitivity_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtSensitivity_tab3.TabIndex = 482
         '
-        'TextBox37
+        'txtResBW_tab3
         '
-        Me.TextBox37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox37.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox37.Location = New System.Drawing.Point(505, 86)
-        Me.TextBox37.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox37.Name = "TextBox37"
-        Me.TextBox37.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox37.TabIndex = 481
+        Me.txtResBW_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtResBW_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResBW_tab3.Location = New System.Drawing.Point(505, 86)
+        Me.txtResBW_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtResBW_tab3.Name = "txtResBW_tab3"
+        Me.txtResBW_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtResBW_tab3.TabIndex = 481
         '
         'Label185
         '
@@ -5453,137 +5457,137 @@ Partial Class frmWLMeasurement
         Me.Label190.TabIndex = 475
         Me.Label190.Text = "Res BW"
         '
-        'CheckBox26
+        'ckMeasFCFP1_tab3
         '
-        Me.CheckBox26.AutoSize = True
-        Me.CheckBox26.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox26.Location = New System.Drawing.Point(999, 479)
-        Me.CheckBox26.Name = "CheckBox26"
-        Me.CheckBox26.Size = New System.Drawing.Size(137, 26)
-        Me.CheckBox26.TabIndex = 470
-        Me.CheckBox26.Text = "Meas FCFP1"
-        Me.CheckBox26.UseVisualStyleBackColor = True
+        Me.ckMeasFCFP1_tab3.AutoSize = True
+        Me.ckMeasFCFP1_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCFP1_tab3.Location = New System.Drawing.Point(999, 479)
+        Me.ckMeasFCFP1_tab3.Name = "ckMeasFCFP1_tab3"
+        Me.ckMeasFCFP1_tab3.Size = New System.Drawing.Size(137, 26)
+        Me.ckMeasFCFP1_tab3.TabIndex = 470
+        Me.ckMeasFCFP1_tab3.Text = "Meas FCFP1"
+        Me.ckMeasFCFP1_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox27
+        'ckMeasFPP4_tab3
         '
-        Me.CheckBox27.AutoSize = True
-        Me.CheckBox27.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox27.Location = New System.Drawing.Point(1011, 447)
-        Me.CheckBox27.Name = "CheckBox27"
-        Me.CheckBox27.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox27.TabIndex = 469
-        Me.CheckBox27.Text = "Meas FPP4"
-        Me.CheckBox27.UseVisualStyleBackColor = True
+        Me.ckMeasFPP4_tab3.AutoSize = True
+        Me.ckMeasFPP4_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP4_tab3.Location = New System.Drawing.Point(1011, 447)
+        Me.ckMeasFPP4_tab3.Name = "ckMeasFPP4_tab3"
+        Me.ckMeasFPP4_tab3.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP4_tab3.TabIndex = 469
+        Me.ckMeasFPP4_tab3.Text = "Meas FPP4"
+        Me.ckMeasFPP4_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox28
+        'ckMeasFPP3_tab3
         '
-        Me.CheckBox28.AutoSize = True
-        Me.CheckBox28.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox28.Location = New System.Drawing.Point(1011, 415)
-        Me.CheckBox28.Name = "CheckBox28"
-        Me.CheckBox28.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox28.TabIndex = 468
-        Me.CheckBox28.Text = "Meas FPP3"
-        Me.CheckBox28.UseVisualStyleBackColor = True
+        Me.ckMeasFPP3_tab3.AutoSize = True
+        Me.ckMeasFPP3_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP3_tab3.Location = New System.Drawing.Point(1011, 415)
+        Me.ckMeasFPP3_tab3.Name = "ckMeasFPP3_tab3"
+        Me.ckMeasFPP3_tab3.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP3_tab3.TabIndex = 468
+        Me.ckMeasFPP3_tab3.Text = "Meas FPP3"
+        Me.ckMeasFPP3_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox29
+        'ckMeasEOL_tab3
         '
-        Me.CheckBox29.AutoSize = True
-        Me.CheckBox29.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox29.Location = New System.Drawing.Point(1020, 383)
-        Me.CheckBox29.Name = "CheckBox29"
-        Me.CheckBox29.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox29.TabIndex = 467
-        Me.CheckBox29.Text = "Meas EOL"
-        Me.CheckBox29.UseVisualStyleBackColor = True
+        Me.ckMeasEOL_tab3.AutoSize = True
+        Me.ckMeasEOL_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasEOL_tab3.Location = New System.Drawing.Point(1020, 383)
+        Me.ckMeasEOL_tab3.Name = "ckMeasEOL_tab3"
+        Me.ckMeasEOL_tab3.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasEOL_tab3.TabIndex = 467
+        Me.ckMeasEOL_tab3.Text = "Meas EOL"
+        Me.ckMeasEOL_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox30
+        'ckMeasFPA_tab3
         '
-        Me.CheckBox30.AutoSize = True
-        Me.CheckBox30.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox30.Location = New System.Drawing.Point(1021, 351)
-        Me.CheckBox30.Name = "CheckBox30"
-        Me.CheckBox30.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox30.TabIndex = 466
-        Me.CheckBox30.Text = "Meas FPA"
-        Me.CheckBox30.UseVisualStyleBackColor = True
+        Me.ckMeasFPA_tab3.AutoSize = True
+        Me.ckMeasFPA_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPA_tab3.Location = New System.Drawing.Point(1021, 351)
+        Me.ckMeasFPA_tab3.Name = "ckMeasFPA_tab3"
+        Me.ckMeasFPA_tab3.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPA_tab3.TabIndex = 466
+        Me.ckMeasFPA_tab3.Text = "Meas FPA"
+        Me.ckMeasFPA_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox31
+        'ckMeasFRP2_tab3
         '
-        Me.CheckBox31.AutoSize = True
-        Me.CheckBox31.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox31.Location = New System.Drawing.Point(1010, 320)
-        Me.CheckBox31.Name = "CheckBox31"
-        Me.CheckBox31.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox31.TabIndex = 465
-        Me.CheckBox31.Text = "Meas FRP2"
-        Me.CheckBox31.UseVisualStyleBackColor = True
+        Me.ckMeasFRP2_tab3.AutoSize = True
+        Me.ckMeasFRP2_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP2_tab3.Location = New System.Drawing.Point(1010, 320)
+        Me.ckMeasFRP2_tab3.Name = "ckMeasFRP2_tab3"
+        Me.ckMeasFRP2_tab3.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFRP2_tab3.TabIndex = 465
+        Me.ckMeasFRP2_tab3.Text = "Meas FRP2"
+        Me.ckMeasFRP2_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox32
+        'ckMeasFPP2_tab3
         '
-        Me.CheckBox32.AutoSize = True
-        Me.CheckBox32.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox32.Location = New System.Drawing.Point(1011, 288)
-        Me.CheckBox32.Name = "CheckBox32"
-        Me.CheckBox32.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox32.TabIndex = 464
-        Me.CheckBox32.Text = "Meas FPP2"
-        Me.CheckBox32.UseVisualStyleBackColor = True
+        Me.ckMeasFPP2_tab3.AutoSize = True
+        Me.ckMeasFPP2_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP2_tab3.Location = New System.Drawing.Point(1011, 288)
+        Me.ckMeasFPP2_tab3.Name = "ckMeasFPP2_tab3"
+        Me.ckMeasFPP2_tab3.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP2_tab3.TabIndex = 464
+        Me.ckMeasFPP2_tab3.Text = "Meas FPP2"
+        Me.ckMeasFPP2_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox33
+        'ckMeasFCP2_tab3
         '
-        Me.CheckBox33.AutoSize = True
-        Me.CheckBox33.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox33.Location = New System.Drawing.Point(1010, 256)
-        Me.CheckBox33.Name = "CheckBox33"
-        Me.CheckBox33.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox33.TabIndex = 463
-        Me.CheckBox33.Text = "Meas FCP2"
-        Me.CheckBox33.UseVisualStyleBackColor = True
+        Me.ckMeasFCP2_tab3.AutoSize = True
+        Me.ckMeasFCP2_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP2_tab3.Location = New System.Drawing.Point(1010, 256)
+        Me.ckMeasFCP2_tab3.Name = "ckMeasFCP2_tab3"
+        Me.ckMeasFCP2_tab3.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFCP2_tab3.TabIndex = 463
+        Me.ckMeasFCP2_tab3.Text = "Meas FCP2"
+        Me.ckMeasFCP2_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox34
+        'ckMeasFRP_tab3
         '
-        Me.CheckBox34.AutoSize = True
-        Me.CheckBox34.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox34.Location = New System.Drawing.Point(1020, 224)
-        Me.CheckBox34.Name = "CheckBox34"
-        Me.CheckBox34.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox34.TabIndex = 462
-        Me.CheckBox34.Text = "Meas FRP"
-        Me.CheckBox34.UseVisualStyleBackColor = True
+        Me.ckMeasFRP_tab3.AutoSize = True
+        Me.ckMeasFRP_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP_tab3.Location = New System.Drawing.Point(1020, 224)
+        Me.ckMeasFRP_tab3.Name = "ckMeasFRP_tab3"
+        Me.ckMeasFRP_tab3.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFRP_tab3.TabIndex = 462
+        Me.ckMeasFRP_tab3.Text = "Meas FRP"
+        Me.ckMeasFRP_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox35
+        'ckMeasFPP_tab3
         '
-        Me.CheckBox35.AutoSize = True
-        Me.CheckBox35.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox35.Location = New System.Drawing.Point(1021, 192)
-        Me.CheckBox35.Name = "CheckBox35"
-        Me.CheckBox35.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox35.TabIndex = 461
-        Me.CheckBox35.Text = "Meas FPP"
-        Me.CheckBox35.UseVisualStyleBackColor = True
+        Me.ckMeasFPP_tab3.AutoSize = True
+        Me.ckMeasFPP_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP_tab3.Location = New System.Drawing.Point(1021, 192)
+        Me.ckMeasFPP_tab3.Name = "ckMeasFPP_tab3"
+        Me.ckMeasFPP_tab3.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPP_tab3.TabIndex = 461
+        Me.ckMeasFPP_tab3.Text = "Meas FPP"
+        Me.ckMeasFPP_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox36
+        'ckMeasFCP_tab3
         '
-        Me.CheckBox36.AutoSize = True
-        Me.CheckBox36.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox36.Location = New System.Drawing.Point(1020, 160)
-        Me.CheckBox36.Name = "CheckBox36"
-        Me.CheckBox36.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox36.TabIndex = 460
-        Me.CheckBox36.Text = "Meas FCP"
-        Me.CheckBox36.UseVisualStyleBackColor = True
+        Me.ckMeasFCP_tab3.AutoSize = True
+        Me.ckMeasFCP_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP_tab3.Location = New System.Drawing.Point(1020, 160)
+        Me.ckMeasFCP_tab3.Name = "ckMeasFCP_tab3"
+        Me.ckMeasFCP_tab3.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFCP_tab3.TabIndex = 460
+        Me.ckMeasFCP_tab3.Text = "Meas FCP"
+        Me.ckMeasFCP_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox37
+        'ckMeasIop_tab3
         '
-        Me.CheckBox37.AutoSize = True
-        Me.CheckBox37.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox37.Location = New System.Drawing.Point(1032, 131)
-        Me.CheckBox37.Name = "CheckBox37"
-        Me.CheckBox37.Size = New System.Drawing.Size(104, 26)
-        Me.CheckBox37.TabIndex = 459
-        Me.CheckBox37.Text = "Meas Iop"
-        Me.CheckBox37.UseVisualStyleBackColor = True
+        Me.ckMeasIop_tab3.AutoSize = True
+        Me.ckMeasIop_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasIop_tab3.Location = New System.Drawing.Point(1032, 131)
+        Me.ckMeasIop_tab3.Name = "ckMeasIop_tab3"
+        Me.ckMeasIop_tab3.Size = New System.Drawing.Size(104, 26)
+        Me.ckMeasIop_tab3.TabIndex = 459
+        Me.ckMeasIop_tab3.Text = "Meas Iop"
+        Me.ckMeasIop_tab3.UseVisualStyleBackColor = True
         '
         'cboMeasurePoint1_tab3
         '
@@ -5995,20 +5999,20 @@ Partial Class frmWLMeasurement
         'Spectrum2
         '
         Me.Spectrum2.Controls.Add(Me.Label251)
-        Me.Spectrum2.Controls.Add(Me.TextBox62)
+        Me.Spectrum2.Controls.Add(Me.txtItec_tab2)
         Me.Spectrum2.Controls.Add(Me.Label252)
         Me.Spectrum2.Controls.Add(Me.Label253)
-        Me.Spectrum2.Controls.Add(Me.TextBox63)
+        Me.Spectrum2.Controls.Add(Me.txtPeakThresh_tab2)
         Me.Spectrum2.Controls.Add(Me.Label254)
         Me.Spectrum2.Controls.Add(Me.Label255)
-        Me.Spectrum2.Controls.Add(Me.TextBox64)
-        Me.Spectrum2.Controls.Add(Me.ComboBox14)
-        Me.Spectrum2.Controls.Add(Me.TextBox65)
+        Me.Spectrum2.Controls.Add(Me.txt2LampdaB_tab2)
+        Me.Spectrum2.Controls.Add(Me.cboLampdaB_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtLampdaB_tab2)
         Me.Spectrum2.Controls.Add(Me.Label256)
         Me.Spectrum2.Controls.Add(Me.Label257)
-        Me.Spectrum2.Controls.Add(Me.TextBox66)
-        Me.Spectrum2.Controls.Add(Me.ComboBox15)
-        Me.Spectrum2.Controls.Add(Me.TextBox67)
+        Me.Spectrum2.Controls.Add(Me.txt2LampdaA_tab2)
+        Me.Spectrum2.Controls.Add(Me.cboLampdaA_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtTyp_Tab2)
         Me.Spectrum2.Controls.Add(Me.Label258)
         Me.Spectrum2.Controls.Add(Me.Label259)
         Me.Spectrum2.Controls.Add(Me.Label260)
@@ -6016,13 +6020,13 @@ Partial Class frmWLMeasurement
         Me.Spectrum2.Controls.Add(Me.Label262)
         Me.Spectrum2.Controls.Add(Me.Label263)
         Me.Spectrum2.Controls.Add(Me.Label264)
-        Me.Spectrum2.Controls.Add(Me.TextBox68)
-        Me.Spectrum2.Controls.Add(Me.TextBox69)
-        Me.Spectrum2.Controls.Add(Me.TextBox70)
-        Me.Spectrum2.Controls.Add(Me.TextBox71)
-        Me.Spectrum2.Controls.Add(Me.TextBox72)
-        Me.Spectrum2.Controls.Add(Me.TextBox73)
-        Me.Spectrum2.Controls.Add(Me.TextBox74)
+        Me.Spectrum2.Controls.Add(Me.txtLampdaA_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtSpan1Pulse_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtSpanPulse_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtCenter_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtLogScale_Tab2)
+        Me.Spectrum2.Controls.Add(Me.txtRefLevel_Tab2)
+        Me.Spectrum2.Controls.Add(Me.txtIop_Tab2)
         Me.Spectrum2.Controls.Add(Me.Label265)
         Me.Spectrum2.Controls.Add(Me.Label266)
         Me.Spectrum2.Controls.Add(Me.Label267)
@@ -6037,30 +6041,30 @@ Partial Class frmWLMeasurement
         Me.Spectrum2.Controls.Add(Me.Label160)
         Me.Spectrum2.Controls.Add(Me.Label161)
         Me.Spectrum2.Controls.Add(Me.GroupBox2)
-        Me.Spectrum2.Controls.Add(Me.TextBox25)
-        Me.Spectrum2.Controls.Add(Me.ComboBox9)
-        Me.Spectrum2.Controls.Add(Me.TextBox26)
-        Me.Spectrum2.Controls.Add(Me.TextBox27)
-        Me.Spectrum2.Controls.Add(Me.TextBox28)
-        Me.Spectrum2.Controls.Add(Me.TextBox29)
+        Me.Spectrum2.Controls.Add(Me.txtAvg_tab2)
+        Me.Spectrum2.Controls.Add(Me.cboSenForAQ6370_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtData_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtXdB_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtSensitivity_tab2)
+        Me.Spectrum2.Controls.Add(Me.txtResBW_tab2)
         Me.Spectrum2.Controls.Add(Me.Label168)
         Me.Spectrum2.Controls.Add(Me.Label169)
         Me.Spectrum2.Controls.Add(Me.Label170)
         Me.Spectrum2.Controls.Add(Me.Label171)
         Me.Spectrum2.Controls.Add(Me.Label172)
         Me.Spectrum2.Controls.Add(Me.Label173)
-        Me.Spectrum2.Controls.Add(Me.CheckBox14)
-        Me.Spectrum2.Controls.Add(Me.CheckBox15)
-        Me.Spectrum2.Controls.Add(Me.CheckBox16)
-        Me.Spectrum2.Controls.Add(Me.CheckBox17)
-        Me.Spectrum2.Controls.Add(Me.CheckBox18)
-        Me.Spectrum2.Controls.Add(Me.CheckBox19)
-        Me.Spectrum2.Controls.Add(Me.CheckBox20)
-        Me.Spectrum2.Controls.Add(Me.CheckBox21)
-        Me.Spectrum2.Controls.Add(Me.CheckBox22)
-        Me.Spectrum2.Controls.Add(Me.CheckBox23)
-        Me.Spectrum2.Controls.Add(Me.CheckBox24)
-        Me.Spectrum2.Controls.Add(Me.CheckBox25)
+        Me.Spectrum2.Controls.Add(Me.ckMeasFCFP1_tab2)
+        Me.Spectrum2.Controls.Add(Me.ckMeasFPP4_tab2)
+        Me.Spectrum2.Controls.Add(Me.ckMeasFPP3_tab2)
+        Me.Spectrum2.Controls.Add(Me.ckMeasEOL_tab2)
+        Me.Spectrum2.Controls.Add(Me.ckMeasFPA_tab2)
+        Me.Spectrum2.Controls.Add(Me.ckMeasFRP2_tab2)
+        Me.Spectrum2.Controls.Add(Me.ckMeasFPP2_tab2)
+        Me.Spectrum2.Controls.Add(Me.ckMeasFCP2_tab2)
+        Me.Spectrum2.Controls.Add(Me.ckMeasFRP_tab2)
+        Me.Spectrum2.Controls.Add(Me.ckMeasFPP_tab2)
+        Me.Spectrum2.Controls.Add(Me.ckMeasFCP_tab2)
+        Me.Spectrum2.Controls.Add(Me.ckMeasIop_tab2)
         Me.Spectrum2.Controls.Add(Me.cboMeasurePoint1_tab2)
         Me.Spectrum2.Controls.Add(Me.Label28)
         Me.Spectrum2.Controls.Add(Me.txtWavelengthB_tab2)
@@ -6105,7 +6109,7 @@ Partial Class frmWLMeasurement
         Me.Spectrum2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Spectrum2.Name = "Spectrum2"
         Me.Spectrum2.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Spectrum2.Size = New System.Drawing.Size(1197, 1061)
+        Me.Spectrum2.Size = New System.Drawing.Size(1178, 860)
         Me.Spectrum2.TabIndex = 1
         Me.Spectrum2.Text = "Spectrum2"
         Me.Spectrum2.UseVisualStyleBackColor = True
@@ -6120,15 +6124,15 @@ Partial Class frmWLMeasurement
         Me.Label251.TabIndex = 548
         Me.Label251.Text = "A"
         '
-        'TextBox62
+        'txtItec_tab2
         '
-        Me.TextBox62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox62.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox62.Location = New System.Drawing.Point(199, 795)
-        Me.TextBox62.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox62.Name = "TextBox62"
-        Me.TextBox62.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox62.TabIndex = 547
+        Me.txtItec_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtItec_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtItec_tab2.Location = New System.Drawing.Point(199, 795)
+        Me.txtItec_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtItec_tab2.Name = "txtItec_tab2"
+        Me.txtItec_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtItec_tab2.TabIndex = 547
         '
         'Label252
         '
@@ -6150,15 +6154,15 @@ Partial Class frmWLMeasurement
         Me.Label253.TabIndex = 545
         Me.Label253.Text = "nm"
         '
-        'TextBox63
+        'txtPeakThresh_tab2
         '
-        Me.TextBox63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox63.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox63.Location = New System.Drawing.Point(199, 761)
-        Me.TextBox63.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox63.Name = "TextBox63"
-        Me.TextBox63.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox63.TabIndex = 544
+        Me.txtPeakThresh_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPeakThresh_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPeakThresh_tab2.Location = New System.Drawing.Point(199, 761)
+        Me.txtPeakThresh_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPeakThresh_tab2.Name = "txtPeakThresh_tab2"
+        Me.txtPeakThresh_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtPeakThresh_tab2.TabIndex = 544
         '
         'Label254
         '
@@ -6180,33 +6184,33 @@ Partial Class frmWLMeasurement
         Me.Label255.TabIndex = 542
         Me.Label255.Text = "nm"
         '
-        'TextBox64
+        'txt2LampdaB_tab2
         '
-        Me.TextBox64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox64.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox64.Location = New System.Drawing.Point(377, 726)
-        Me.TextBox64.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox64.Name = "TextBox64"
-        Me.TextBox64.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox64.TabIndex = 541
+        Me.txt2LampdaB_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaB_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaB_tab2.Location = New System.Drawing.Point(377, 726)
+        Me.txt2LampdaB_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaB_tab2.Name = "txt2LampdaB_tab2"
+        Me.txt2LampdaB_tab2.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaB_tab2.TabIndex = 541
         '
-        'ComboBox14
+        'cboLampdaB_tab2
         '
-        Me.ComboBox14.FormattingEnabled = True
-        Me.ComboBox14.Location = New System.Drawing.Point(316, 726)
-        Me.ComboBox14.Name = "ComboBox14"
-        Me.ComboBox14.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox14.TabIndex = 540
+        Me.cboLampdaB_tab2.FormattingEnabled = True
+        Me.cboLampdaB_tab2.Location = New System.Drawing.Point(316, 726)
+        Me.cboLampdaB_tab2.Name = "cboLampdaB_tab2"
+        Me.cboLampdaB_tab2.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaB_tab2.TabIndex = 540
         '
-        'TextBox65
+        'txtLampdaB_tab2
         '
-        Me.TextBox65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox65.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox65.Location = New System.Drawing.Point(199, 726)
-        Me.TextBox65.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox65.Name = "TextBox65"
-        Me.TextBox65.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox65.TabIndex = 539
+        Me.txtLampdaB_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaB_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaB_tab2.Location = New System.Drawing.Point(199, 726)
+        Me.txtLampdaB_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaB_tab2.Name = "txtLampdaB_tab2"
+        Me.txtLampdaB_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaB_tab2.TabIndex = 539
         '
         'Label256
         '
@@ -6228,33 +6232,33 @@ Partial Class frmWLMeasurement
         Me.Label257.TabIndex = 537
         Me.Label257.Text = "nm"
         '
-        'TextBox66
+        'txt2LampdaA_tab2
         '
-        Me.TextBox66.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox66.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox66.Location = New System.Drawing.Point(377, 694)
-        Me.TextBox66.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox66.Name = "TextBox66"
-        Me.TextBox66.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox66.TabIndex = 536
+        Me.txt2LampdaA_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaA_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaA_tab2.Location = New System.Drawing.Point(377, 694)
+        Me.txt2LampdaA_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaA_tab2.Name = "txt2LampdaA_tab2"
+        Me.txt2LampdaA_tab2.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaA_tab2.TabIndex = 536
         '
-        'ComboBox15
+        'cboLampdaA_tab2
         '
-        Me.ComboBox15.FormattingEnabled = True
-        Me.ComboBox15.Location = New System.Drawing.Point(316, 694)
-        Me.ComboBox15.Name = "ComboBox15"
-        Me.ComboBox15.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox15.TabIndex = 535
+        Me.cboLampdaA_tab2.FormattingEnabled = True
+        Me.cboLampdaA_tab2.Location = New System.Drawing.Point(316, 694)
+        Me.cboLampdaA_tab2.Name = "cboLampdaA_tab2"
+        Me.cboLampdaA_tab2.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaA_tab2.TabIndex = 535
         '
-        'TextBox67
+        'txtTyp_Tab2
         '
-        Me.TextBox67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox67.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox67.Location = New System.Drawing.Point(199, 540)
-        Me.TextBox67.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox67.Name = "TextBox67"
-        Me.TextBox67.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox67.TabIndex = 534
+        Me.txtTyp_Tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtTyp_Tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTyp_Tab2.Location = New System.Drawing.Point(199, 540)
+        Me.txtTyp_Tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtTyp_Tab2.Name = "txtTyp_Tab2"
+        Me.txtTyp_Tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtTyp_Tab2.TabIndex = 534
         '
         'Label258
         '
@@ -6326,75 +6330,75 @@ Partial Class frmWLMeasurement
         Me.Label264.TabIndex = 521
         Me.Label264.Text = "mA"
         '
-        'TextBox68
+        'txtLampdaA_tab2
         '
-        Me.TextBox68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox68.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox68.Location = New System.Drawing.Point(199, 694)
-        Me.TextBox68.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox68.Name = "TextBox68"
-        Me.TextBox68.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox68.TabIndex = 527
+        Me.txtLampdaA_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaA_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaA_tab2.Location = New System.Drawing.Point(199, 694)
+        Me.txtLampdaA_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaA_tab2.Name = "txtLampdaA_tab2"
+        Me.txtLampdaA_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaA_tab2.TabIndex = 527
         '
-        'TextBox69
+        'txtSpan1Pulse_tab2
         '
-        Me.TextBox69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox69.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox69.Location = New System.Drawing.Point(199, 652)
-        Me.TextBox69.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox69.Name = "TextBox69"
-        Me.TextBox69.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox69.TabIndex = 526
+        Me.txtSpan1Pulse_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpan1Pulse_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpan1Pulse_tab2.Location = New System.Drawing.Point(199, 652)
+        Me.txtSpan1Pulse_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpan1Pulse_tab2.Name = "txtSpan1Pulse_tab2"
+        Me.txtSpan1Pulse_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpan1Pulse_tab2.TabIndex = 526
         '
-        'TextBox70
+        'txtSpanPulse_tab2
         '
-        Me.TextBox70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox70.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox70.Location = New System.Drawing.Point(199, 616)
-        Me.TextBox70.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox70.Name = "TextBox70"
-        Me.TextBox70.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox70.TabIndex = 525
+        Me.txtSpanPulse_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpanPulse_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpanPulse_tab2.Location = New System.Drawing.Point(199, 616)
+        Me.txtSpanPulse_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpanPulse_tab2.Name = "txtSpanPulse_tab2"
+        Me.txtSpanPulse_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpanPulse_tab2.TabIndex = 525
         '
-        'TextBox71
+        'txtCenter_tab2
         '
-        Me.TextBox71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox71.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox71.Location = New System.Drawing.Point(199, 577)
-        Me.TextBox71.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox71.Name = "TextBox71"
-        Me.TextBox71.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox71.TabIndex = 524
+        Me.txtCenter_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtCenter_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCenter_tab2.Location = New System.Drawing.Point(199, 577)
+        Me.txtCenter_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtCenter_tab2.Name = "txtCenter_tab2"
+        Me.txtCenter_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtCenter_tab2.TabIndex = 524
         '
-        'TextBox72
+        'txtLogScale_Tab2
         '
-        Me.TextBox72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox72.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox72.Location = New System.Drawing.Point(199, 499)
-        Me.TextBox72.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox72.Name = "TextBox72"
-        Me.TextBox72.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox72.TabIndex = 523
+        Me.txtLogScale_Tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLogScale_Tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLogScale_Tab2.Location = New System.Drawing.Point(199, 499)
+        Me.txtLogScale_Tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLogScale_Tab2.Name = "txtLogScale_Tab2"
+        Me.txtLogScale_Tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtLogScale_Tab2.TabIndex = 523
         '
-        'TextBox73
+        'txtRefLevel_Tab2
         '
-        Me.TextBox73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox73.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox73.Location = New System.Drawing.Point(199, 457)
-        Me.TextBox73.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox73.Name = "TextBox73"
-        Me.TextBox73.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox73.TabIndex = 522
+        Me.txtRefLevel_Tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRefLevel_Tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRefLevel_Tab2.Location = New System.Drawing.Point(199, 457)
+        Me.txtRefLevel_Tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRefLevel_Tab2.Name = "txtRefLevel_Tab2"
+        Me.txtRefLevel_Tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtRefLevel_Tab2.TabIndex = 522
         '
-        'TextBox74
+        'txtIop_Tab2
         '
-        Me.TextBox74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox74.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox74.Location = New System.Drawing.Point(199, 415)
-        Me.TextBox74.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox74.Name = "TextBox74"
-        Me.TextBox74.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox74.TabIndex = 520
+        Me.txtIop_Tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIop_Tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIop_Tab2.Location = New System.Drawing.Point(199, 415)
+        Me.txtIop_Tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIop_Tab2.Name = "txtIop_Tab2"
+        Me.txtIop_Tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtIop_Tab2.TabIndex = 520
         '
         'Label265
         '
@@ -6528,15 +6532,15 @@ Partial Class frmWLMeasurement
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.CheckBox74)
+        Me.GroupBox2.Controls.Add(Me.ckGetSMSR_tab2)
         Me.GroupBox2.Controls.Add(Me.Label162)
-        Me.GroupBox2.Controls.Add(Me.TextBox22)
+        Me.GroupBox2.Controls.Add(Me.txtAroundAvePoint_tab2)
         Me.GroupBox2.Controls.Add(Me.Label163)
         Me.GroupBox2.Controls.Add(Me.Label164)
-        Me.GroupBox2.Controls.Add(Me.TextBox23)
+        Me.GroupBox2.Controls.Add(Me.txtSMRSthL_tab2)
         Me.GroupBox2.Controls.Add(Me.Label165)
         Me.GroupBox2.Controls.Add(Me.Label166)
-        Me.GroupBox2.Controls.Add(Me.TextBox24)
+        Me.GroupBox2.Controls.Add(Me.txtSMRSthS_tab2)
         Me.GroupBox2.Controls.Add(Me.Label167)
         Me.GroupBox2.Location = New System.Drawing.Point(377, 351)
         Me.GroupBox2.Name = "GroupBox2"
@@ -6545,16 +6549,17 @@ Partial Class frmWLMeasurement
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "SMSR"
         '
-        'CheckBox74
+        'ckGetSMSR_tab2
         '
-        Me.CheckBox74.AutoSize = True
-        Me.CheckBox74.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.CheckBox74.Location = New System.Drawing.Point(72, 0)
-        Me.CheckBox74.Name = "CheckBox74"
-        Me.CheckBox74.Size = New System.Drawing.Size(270, 26)
-        Me.CheckBox74.TabIndex = 484
-        Me.CheckBox74.Text = "Get SMSR from measurement"
-        Me.CheckBox74.UseVisualStyleBackColor = False
+        Me.ckGetSMSR_tab2.AutoSize = True
+        Me.ckGetSMSR_tab2.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ckGetSMSR_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ckGetSMSR_tab2.Location = New System.Drawing.Point(72, 0)
+        Me.ckGetSMSR_tab2.Name = "ckGetSMSR_tab2"
+        Me.ckGetSMSR_tab2.Size = New System.Drawing.Size(257, 24)
+        Me.ckGetSMSR_tab2.TabIndex = 484
+        Me.ckGetSMSR_tab2.Text = "Get SMSR from measurement"
+        Me.ckGetSMSR_tab2.UseVisualStyleBackColor = False
         '
         'Label162
         '
@@ -6566,15 +6571,15 @@ Partial Class frmWLMeasurement
         Me.Label162.TabIndex = 483
         Me.Label162.Text = "dB"
         '
-        'TextBox22
+        'txtAroundAvePoint_tab2
         '
-        Me.TextBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox22.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox22.Location = New System.Drawing.Point(130, 132)
-        Me.TextBox22.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox22.TabIndex = 482
+        Me.txtAroundAvePoint_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAroundAvePoint_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAroundAvePoint_tab2.Location = New System.Drawing.Point(130, 132)
+        Me.txtAroundAvePoint_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAroundAvePoint_tab2.Name = "txtAroundAvePoint_tab2"
+        Me.txtAroundAvePoint_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtAroundAvePoint_tab2.TabIndex = 482
         '
         'Label163
         '
@@ -6596,15 +6601,15 @@ Partial Class frmWLMeasurement
         Me.Label164.TabIndex = 480
         Me.Label164.Text = "dB"
         '
-        'TextBox23
+        'txtSMRSthL_tab2
         '
-        Me.TextBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox23.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox23.Location = New System.Drawing.Point(130, 81)
-        Me.TextBox23.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox23.TabIndex = 479
+        Me.txtSMRSthL_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthL_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthL_tab2.Location = New System.Drawing.Point(130, 81)
+        Me.txtSMRSthL_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthL_tab2.Name = "txtSMRSthL_tab2"
+        Me.txtSMRSthL_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthL_tab2.TabIndex = 479
         '
         'Label165
         '
@@ -6626,15 +6631,15 @@ Partial Class frmWLMeasurement
         Me.Label166.TabIndex = 477
         Me.Label166.Text = "dB"
         '
-        'TextBox24
+        'txtSMRSthS_tab2
         '
-        Me.TextBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox24.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox24.Location = New System.Drawing.Point(130, 34)
-        Me.TextBox24.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox24.TabIndex = 476
+        Me.txtSMRSthS_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthS_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthS_tab2.Location = New System.Drawing.Point(130, 34)
+        Me.txtSMRSthS_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthS_tab2.Name = "txtSMRSthS_tab2"
+        Me.txtSMRSthS_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthS_tab2.TabIndex = 476
         '
         'Label167
         '
@@ -6646,63 +6651,63 @@ Partial Class frmWLMeasurement
         Me.Label167.TabIndex = 475
         Me.Label167.Text = "SMSR_th_S"
         '
-        'TextBox25
+        'txtAvg_tab2
         '
-        Me.TextBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox25.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox25.Location = New System.Drawing.Point(505, 212)
-        Me.TextBox25.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox25.TabIndex = 486
+        Me.txtAvg_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAvg_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAvg_tab2.Location = New System.Drawing.Point(505, 212)
+        Me.txtAvg_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAvg_tab2.Name = "txtAvg_tab2"
+        Me.txtAvg_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtAvg_tab2.TabIndex = 486
         '
-        'ComboBox9
+        'cboSenForAQ6370_tab2
         '
-        Me.ComboBox9.FormattingEnabled = True
-        Me.ComboBox9.Location = New System.Drawing.Point(505, 166)
-        Me.ComboBox9.Name = "ComboBox9"
-        Me.ComboBox9.Size = New System.Drawing.Size(121, 30)
-        Me.ComboBox9.TabIndex = 485
+        Me.cboSenForAQ6370_tab2.FormattingEnabled = True
+        Me.cboSenForAQ6370_tab2.Location = New System.Drawing.Point(505, 166)
+        Me.cboSenForAQ6370_tab2.Name = "cboSenForAQ6370_tab2"
+        Me.cboSenForAQ6370_tab2.Size = New System.Drawing.Size(111, 30)
+        Me.cboSenForAQ6370_tab2.TabIndex = 485
         '
-        'TextBox26
+        'txtData_tab2
         '
-        Me.TextBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox26.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox26.Location = New System.Drawing.Point(505, 287)
-        Me.TextBox26.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox26.TabIndex = 484
+        Me.txtData_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtData_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtData_tab2.Location = New System.Drawing.Point(505, 287)
+        Me.txtData_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtData_tab2.Name = "txtData_tab2"
+        Me.txtData_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtData_tab2.TabIndex = 484
         '
-        'TextBox27
+        'txtXdB_tab2
         '
-        Me.TextBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox27.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox27.Location = New System.Drawing.Point(505, 248)
-        Me.TextBox27.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox27.TabIndex = 483
+        Me.txtXdB_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtXdB_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtXdB_tab2.Location = New System.Drawing.Point(505, 248)
+        Me.txtXdB_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtXdB_tab2.Name = "txtXdB_tab2"
+        Me.txtXdB_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtXdB_tab2.TabIndex = 483
         '
-        'TextBox28
+        'txtSensitivity_tab2
         '
-        Me.TextBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox28.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox28.Location = New System.Drawing.Point(505, 128)
-        Me.TextBox28.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox28.TabIndex = 482
+        Me.txtSensitivity_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSensitivity_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSensitivity_tab2.Location = New System.Drawing.Point(505, 128)
+        Me.txtSensitivity_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSensitivity_tab2.Name = "txtSensitivity_tab2"
+        Me.txtSensitivity_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtSensitivity_tab2.TabIndex = 482
         '
-        'TextBox29
+        'txtResBW_tab2
         '
-        Me.TextBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox29.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox29.Location = New System.Drawing.Point(505, 86)
-        Me.TextBox29.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox29.TabIndex = 481
+        Me.txtResBW_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtResBW_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResBW_tab2.Location = New System.Drawing.Point(505, 86)
+        Me.txtResBW_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtResBW_tab2.Name = "txtResBW_tab2"
+        Me.txtResBW_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtResBW_tab2.TabIndex = 481
         '
         'Label168
         '
@@ -6764,137 +6769,137 @@ Partial Class frmWLMeasurement
         Me.Label173.TabIndex = 475
         Me.Label173.Text = "Res BW"
         '
-        'CheckBox14
+        'ckMeasFCFP1_tab2
         '
-        Me.CheckBox14.AutoSize = True
-        Me.CheckBox14.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox14.Location = New System.Drawing.Point(999, 479)
-        Me.CheckBox14.Name = "CheckBox14"
-        Me.CheckBox14.Size = New System.Drawing.Size(137, 26)
-        Me.CheckBox14.TabIndex = 470
-        Me.CheckBox14.Text = "Meas FCFP1"
-        Me.CheckBox14.UseVisualStyleBackColor = True
+        Me.ckMeasFCFP1_tab2.AutoSize = True
+        Me.ckMeasFCFP1_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCFP1_tab2.Location = New System.Drawing.Point(999, 479)
+        Me.ckMeasFCFP1_tab2.Name = "ckMeasFCFP1_tab2"
+        Me.ckMeasFCFP1_tab2.Size = New System.Drawing.Size(137, 26)
+        Me.ckMeasFCFP1_tab2.TabIndex = 470
+        Me.ckMeasFCFP1_tab2.Text = "Meas FCFP1"
+        Me.ckMeasFCFP1_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox15
+        'ckMeasFPP4_tab2
         '
-        Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox15.Location = New System.Drawing.Point(1011, 447)
-        Me.CheckBox15.Name = "CheckBox15"
-        Me.CheckBox15.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox15.TabIndex = 469
-        Me.CheckBox15.Text = "Meas FPP4"
-        Me.CheckBox15.UseVisualStyleBackColor = True
+        Me.ckMeasFPP4_tab2.AutoSize = True
+        Me.ckMeasFPP4_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP4_tab2.Location = New System.Drawing.Point(1011, 447)
+        Me.ckMeasFPP4_tab2.Name = "ckMeasFPP4_tab2"
+        Me.ckMeasFPP4_tab2.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP4_tab2.TabIndex = 469
+        Me.ckMeasFPP4_tab2.Text = "Meas FPP4"
+        Me.ckMeasFPP4_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox16
+        'ckMeasFPP3_tab2
         '
-        Me.CheckBox16.AutoSize = True
-        Me.CheckBox16.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox16.Location = New System.Drawing.Point(1011, 415)
-        Me.CheckBox16.Name = "CheckBox16"
-        Me.CheckBox16.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox16.TabIndex = 468
-        Me.CheckBox16.Text = "Meas FPP3"
-        Me.CheckBox16.UseVisualStyleBackColor = True
+        Me.ckMeasFPP3_tab2.AutoSize = True
+        Me.ckMeasFPP3_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP3_tab2.Location = New System.Drawing.Point(1011, 415)
+        Me.ckMeasFPP3_tab2.Name = "ckMeasFPP3_tab2"
+        Me.ckMeasFPP3_tab2.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP3_tab2.TabIndex = 468
+        Me.ckMeasFPP3_tab2.Text = "Meas FPP3"
+        Me.ckMeasFPP3_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox17
+        'ckMeasEOL_tab2
         '
-        Me.CheckBox17.AutoSize = True
-        Me.CheckBox17.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox17.Location = New System.Drawing.Point(1020, 383)
-        Me.CheckBox17.Name = "CheckBox17"
-        Me.CheckBox17.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox17.TabIndex = 467
-        Me.CheckBox17.Text = "Meas EOL"
-        Me.CheckBox17.UseVisualStyleBackColor = True
+        Me.ckMeasEOL_tab2.AutoSize = True
+        Me.ckMeasEOL_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasEOL_tab2.Location = New System.Drawing.Point(1020, 383)
+        Me.ckMeasEOL_tab2.Name = "ckMeasEOL_tab2"
+        Me.ckMeasEOL_tab2.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasEOL_tab2.TabIndex = 467
+        Me.ckMeasEOL_tab2.Text = "Meas EOL"
+        Me.ckMeasEOL_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox18
+        'ckMeasFPA_tab2
         '
-        Me.CheckBox18.AutoSize = True
-        Me.CheckBox18.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox18.Location = New System.Drawing.Point(1021, 351)
-        Me.CheckBox18.Name = "CheckBox18"
-        Me.CheckBox18.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox18.TabIndex = 466
-        Me.CheckBox18.Text = "Meas FPA"
-        Me.CheckBox18.UseVisualStyleBackColor = True
+        Me.ckMeasFPA_tab2.AutoSize = True
+        Me.ckMeasFPA_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPA_tab2.Location = New System.Drawing.Point(1021, 351)
+        Me.ckMeasFPA_tab2.Name = "ckMeasFPA_tab2"
+        Me.ckMeasFPA_tab2.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPA_tab2.TabIndex = 466
+        Me.ckMeasFPA_tab2.Text = "Meas FPA"
+        Me.ckMeasFPA_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox19
+        'ckMeasFRP2_tab2
         '
-        Me.CheckBox19.AutoSize = True
-        Me.CheckBox19.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox19.Location = New System.Drawing.Point(1010, 320)
-        Me.CheckBox19.Name = "CheckBox19"
-        Me.CheckBox19.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox19.TabIndex = 465
-        Me.CheckBox19.Text = "Meas FRP2"
-        Me.CheckBox19.UseVisualStyleBackColor = True
+        Me.ckMeasFRP2_tab2.AutoSize = True
+        Me.ckMeasFRP2_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP2_tab2.Location = New System.Drawing.Point(1010, 320)
+        Me.ckMeasFRP2_tab2.Name = "ckMeasFRP2_tab2"
+        Me.ckMeasFRP2_tab2.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFRP2_tab2.TabIndex = 465
+        Me.ckMeasFRP2_tab2.Text = "Meas FRP2"
+        Me.ckMeasFRP2_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox20
+        'ckMeasFPP2_tab2
         '
-        Me.CheckBox20.AutoSize = True
-        Me.CheckBox20.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox20.Location = New System.Drawing.Point(1011, 288)
-        Me.CheckBox20.Name = "CheckBox20"
-        Me.CheckBox20.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox20.TabIndex = 464
-        Me.CheckBox20.Text = "Meas FPP2"
-        Me.CheckBox20.UseVisualStyleBackColor = True
+        Me.ckMeasFPP2_tab2.AutoSize = True
+        Me.ckMeasFPP2_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP2_tab2.Location = New System.Drawing.Point(1011, 288)
+        Me.ckMeasFPP2_tab2.Name = "ckMeasFPP2_tab2"
+        Me.ckMeasFPP2_tab2.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP2_tab2.TabIndex = 464
+        Me.ckMeasFPP2_tab2.Text = "Meas FPP2"
+        Me.ckMeasFPP2_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox21
+        'ckMeasFCP2_tab2
         '
-        Me.CheckBox21.AutoSize = True
-        Me.CheckBox21.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox21.Location = New System.Drawing.Point(1010, 256)
-        Me.CheckBox21.Name = "CheckBox21"
-        Me.CheckBox21.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox21.TabIndex = 463
-        Me.CheckBox21.Text = "Meas FCP2"
-        Me.CheckBox21.UseVisualStyleBackColor = True
+        Me.ckMeasFCP2_tab2.AutoSize = True
+        Me.ckMeasFCP2_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP2_tab2.Location = New System.Drawing.Point(1010, 256)
+        Me.ckMeasFCP2_tab2.Name = "ckMeasFCP2_tab2"
+        Me.ckMeasFCP2_tab2.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFCP2_tab2.TabIndex = 463
+        Me.ckMeasFCP2_tab2.Text = "Meas FCP2"
+        Me.ckMeasFCP2_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox22
+        'ckMeasFRP_tab2
         '
-        Me.CheckBox22.AutoSize = True
-        Me.CheckBox22.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox22.Location = New System.Drawing.Point(1020, 224)
-        Me.CheckBox22.Name = "CheckBox22"
-        Me.CheckBox22.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox22.TabIndex = 462
-        Me.CheckBox22.Text = "Meas FRP"
-        Me.CheckBox22.UseVisualStyleBackColor = True
+        Me.ckMeasFRP_tab2.AutoSize = True
+        Me.ckMeasFRP_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP_tab2.Location = New System.Drawing.Point(1020, 224)
+        Me.ckMeasFRP_tab2.Name = "ckMeasFRP_tab2"
+        Me.ckMeasFRP_tab2.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFRP_tab2.TabIndex = 462
+        Me.ckMeasFRP_tab2.Text = "Meas FRP"
+        Me.ckMeasFRP_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox23
+        'ckMeasFPP_tab2
         '
-        Me.CheckBox23.AutoSize = True
-        Me.CheckBox23.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox23.Location = New System.Drawing.Point(1021, 192)
-        Me.CheckBox23.Name = "CheckBox23"
-        Me.CheckBox23.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox23.TabIndex = 461
-        Me.CheckBox23.Text = "Meas FPP"
-        Me.CheckBox23.UseVisualStyleBackColor = True
+        Me.ckMeasFPP_tab2.AutoSize = True
+        Me.ckMeasFPP_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP_tab2.Location = New System.Drawing.Point(1021, 192)
+        Me.ckMeasFPP_tab2.Name = "ckMeasFPP_tab2"
+        Me.ckMeasFPP_tab2.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPP_tab2.TabIndex = 461
+        Me.ckMeasFPP_tab2.Text = "Meas FPP"
+        Me.ckMeasFPP_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox24
+        'ckMeasFCP_tab2
         '
-        Me.CheckBox24.AutoSize = True
-        Me.CheckBox24.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox24.Location = New System.Drawing.Point(1020, 160)
-        Me.CheckBox24.Name = "CheckBox24"
-        Me.CheckBox24.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox24.TabIndex = 460
-        Me.CheckBox24.Text = "Meas FCP"
-        Me.CheckBox24.UseVisualStyleBackColor = True
+        Me.ckMeasFCP_tab2.AutoSize = True
+        Me.ckMeasFCP_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP_tab2.Location = New System.Drawing.Point(1020, 160)
+        Me.ckMeasFCP_tab2.Name = "ckMeasFCP_tab2"
+        Me.ckMeasFCP_tab2.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFCP_tab2.TabIndex = 460
+        Me.ckMeasFCP_tab2.Text = "Meas FCP"
+        Me.ckMeasFCP_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox25
+        'ckMeasIop_tab2
         '
-        Me.CheckBox25.AutoSize = True
-        Me.CheckBox25.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox25.Location = New System.Drawing.Point(1032, 131)
-        Me.CheckBox25.Name = "CheckBox25"
-        Me.CheckBox25.Size = New System.Drawing.Size(104, 26)
-        Me.CheckBox25.TabIndex = 459
-        Me.CheckBox25.Text = "Meas Iop"
-        Me.CheckBox25.UseVisualStyleBackColor = True
+        Me.ckMeasIop_tab2.AutoSize = True
+        Me.ckMeasIop_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasIop_tab2.Location = New System.Drawing.Point(1032, 131)
+        Me.ckMeasIop_tab2.Name = "ckMeasIop_tab2"
+        Me.ckMeasIop_tab2.Size = New System.Drawing.Size(104, 26)
+        Me.ckMeasIop_tab2.TabIndex = 459
+        Me.ckMeasIop_tab2.Text = "Meas Iop"
+        Me.ckMeasIop_tab2.UseVisualStyleBackColor = True
         '
         'cboMeasurePoint1_tab2
         '
@@ -7306,20 +7311,20 @@ Partial Class frmWLMeasurement
         'Spectrum1
         '
         Me.Spectrum1.Controls.Add(Me.Label155)
-        Me.Spectrum1.Controls.Add(Me.TextBox21)
+        Me.Spectrum1.Controls.Add(Me.txtItec_tab1)
         Me.Spectrum1.Controls.Add(Me.Label156)
         Me.Spectrum1.Controls.Add(Me.Label153)
-        Me.Spectrum1.Controls.Add(Me.TextBox20)
+        Me.Spectrum1.Controls.Add(Me.txtPeakThresh_tab1)
         Me.Spectrum1.Controls.Add(Me.Label154)
         Me.Spectrum1.Controls.Add(Me.Label151)
-        Me.Spectrum1.Controls.Add(Me.TextBox18)
-        Me.Spectrum1.Controls.Add(Me.ComboBox3)
-        Me.Spectrum1.Controls.Add(Me.TextBox19)
+        Me.Spectrum1.Controls.Add(Me.txt2LampdaB_tab1)
+        Me.Spectrum1.Controls.Add(Me.cboLampdaB_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtLampdaB_tab1)
         Me.Spectrum1.Controls.Add(Me.Label152)
         Me.Spectrum1.Controls.Add(Me.Label150)
-        Me.Spectrum1.Controls.Add(Me.TextBox17)
-        Me.Spectrum1.Controls.Add(Me.ComboBox2)
-        Me.Spectrum1.Controls.Add(Me.TextBox13)
+        Me.Spectrum1.Controls.Add(Me.txt2LampdaA_tab1)
+        Me.Spectrum1.Controls.Add(Me.cboLampdaA_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtTyp_Tab1)
         Me.Spectrum1.Controls.Add(Me.Label149)
         Me.Spectrum1.Controls.Add(Me.Label148)
         Me.Spectrum1.Controls.Add(Me.Label147)
@@ -7327,13 +7332,13 @@ Partial Class frmWLMeasurement
         Me.Spectrum1.Controls.Add(Me.Label145)
         Me.Spectrum1.Controls.Add(Me.Label144)
         Me.Spectrum1.Controls.Add(Me.Label143)
-        Me.Spectrum1.Controls.Add(Me.TextBox9)
-        Me.Spectrum1.Controls.Add(Me.TextBox10)
-        Me.Spectrum1.Controls.Add(Me.TextBox11)
-        Me.Spectrum1.Controls.Add(Me.TextBox12)
-        Me.Spectrum1.Controls.Add(Me.TextBox14)
-        Me.Spectrum1.Controls.Add(Me.TextBox15)
-        Me.Spectrum1.Controls.Add(Me.TextBox16)
+        Me.Spectrum1.Controls.Add(Me.txtLampdaA_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtSpan1Pulse_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtSpanPulse_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtCenter_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtLogScale_Tab1)
+        Me.Spectrum1.Controls.Add(Me.txtRefLevel_Tab1)
+        Me.Spectrum1.Controls.Add(Me.txtIop_Tab1)
         Me.Spectrum1.Controls.Add(Me.Label135)
         Me.Spectrum1.Controls.Add(Me.Label136)
         Me.Spectrum1.Controls.Add(Me.Label137)
@@ -7348,30 +7353,30 @@ Partial Class frmWLMeasurement
         Me.Spectrum1.Controls.Add(Me.Label119)
         Me.Spectrum1.Controls.Add(Me.Label118)
         Me.Spectrum1.Controls.Add(Me.GroupBox1)
-        Me.Spectrum1.Controls.Add(Me.TextBox5)
-        Me.Spectrum1.Controls.Add(Me.ComboBox1)
-        Me.Spectrum1.Controls.Add(Me.TextBox3)
-        Me.Spectrum1.Controls.Add(Me.TextBox4)
-        Me.Spectrum1.Controls.Add(Me.TextBox7)
-        Me.Spectrum1.Controls.Add(Me.TextBox8)
+        Me.Spectrum1.Controls.Add(Me.txtAvg_tab1)
+        Me.Spectrum1.Controls.Add(Me.cboSenForAQ6370_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtData_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtXdB_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtSensitivity_tab1)
+        Me.Spectrum1.Controls.Add(Me.txtResBW_tab1)
         Me.Spectrum1.Controls.Add(Me.Label120)
         Me.Spectrum1.Controls.Add(Me.Label121)
         Me.Spectrum1.Controls.Add(Me.Label122)
         Me.Spectrum1.Controls.Add(Me.Label123)
         Me.Spectrum1.Controls.Add(Me.Label124)
         Me.Spectrum1.Controls.Add(Me.Label125)
-        Me.Spectrum1.Controls.Add(Me.CheckBox12)
-        Me.Spectrum1.Controls.Add(Me.CheckBox11)
-        Me.Spectrum1.Controls.Add(Me.CheckBox10)
-        Me.Spectrum1.Controls.Add(Me.CheckBox9)
-        Me.Spectrum1.Controls.Add(Me.CheckBox8)
-        Me.Spectrum1.Controls.Add(Me.CheckBox7)
-        Me.Spectrum1.Controls.Add(Me.CheckBox6)
-        Me.Spectrum1.Controls.Add(Me.CheckBox5)
-        Me.Spectrum1.Controls.Add(Me.CheckBox4)
-        Me.Spectrum1.Controls.Add(Me.CheckBox3)
-        Me.Spectrum1.Controls.Add(Me.CheckBox2)
-        Me.Spectrum1.Controls.Add(Me.CheckBox1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasFCFP1_tab1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasFPP4_tab1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasFPP3_tab1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasEOL_tab1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasFPA_tab1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasFRP2_tab1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasFPP2_tab1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasFCP2_tab1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasFRP_tab1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasFPP_tab1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasFCP_tab1)
+        Me.Spectrum1.Controls.Add(Me.ckMeasIop_tab1)
         Me.Spectrum1.Controls.Add(Me.txtWavelengthB_tab1)
         Me.Spectrum1.Controls.Add(Me.txtWavelengthA_tab1)
         Me.Spectrum1.Controls.Add(Me.Label106)
@@ -7416,7 +7421,7 @@ Partial Class frmWLMeasurement
         Me.Spectrum1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Spectrum1.Name = "Spectrum1"
         Me.Spectrum1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Spectrum1.Size = New System.Drawing.Size(1198, 842)
+        Me.Spectrum1.Size = New System.Drawing.Size(1178, 860)
         Me.Spectrum1.TabIndex = 0
         Me.Spectrum1.Text = "Spectrum1"
         Me.Spectrum1.UseVisualStyleBackColor = True
@@ -7431,15 +7436,15 @@ Partial Class frmWLMeasurement
         Me.Label155.TabIndex = 511
         Me.Label155.Text = "A"
         '
-        'TextBox21
+        'txtItec_tab1
         '
-        Me.TextBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox21.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox21.Location = New System.Drawing.Point(199, 795)
-        Me.TextBox21.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox21.TabIndex = 510
+        Me.txtItec_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtItec_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtItec_tab1.Location = New System.Drawing.Point(199, 795)
+        Me.txtItec_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtItec_tab1.Name = "txtItec_tab1"
+        Me.txtItec_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtItec_tab1.TabIndex = 510
         '
         'Label156
         '
@@ -7461,15 +7466,15 @@ Partial Class frmWLMeasurement
         Me.Label153.TabIndex = 508
         Me.Label153.Text = "nm"
         '
-        'TextBox20
+        'txtPeakThresh_tab1
         '
-        Me.TextBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox20.Location = New System.Drawing.Point(199, 761)
-        Me.TextBox20.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox20.TabIndex = 507
+        Me.txtPeakThresh_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPeakThresh_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPeakThresh_tab1.Location = New System.Drawing.Point(199, 761)
+        Me.txtPeakThresh_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPeakThresh_tab1.Name = "txtPeakThresh_tab1"
+        Me.txtPeakThresh_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtPeakThresh_tab1.TabIndex = 507
         '
         'Label154
         '
@@ -7491,33 +7496,33 @@ Partial Class frmWLMeasurement
         Me.Label151.TabIndex = 505
         Me.Label151.Text = "nm"
         '
-        'TextBox18
+        'txt2LampdaB_tab1
         '
-        Me.TextBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox18.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox18.Location = New System.Drawing.Point(377, 726)
-        Me.TextBox18.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox18.TabIndex = 504
+        Me.txt2LampdaB_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaB_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaB_tab1.Location = New System.Drawing.Point(377, 726)
+        Me.txt2LampdaB_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaB_tab1.Name = "txt2LampdaB_tab1"
+        Me.txt2LampdaB_tab1.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaB_tab1.TabIndex = 504
         '
-        'ComboBox3
+        'cboLampdaB_tab1
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(316, 726)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox3.TabIndex = 503
+        Me.cboLampdaB_tab1.FormattingEnabled = True
+        Me.cboLampdaB_tab1.Location = New System.Drawing.Point(316, 726)
+        Me.cboLampdaB_tab1.Name = "cboLampdaB_tab1"
+        Me.cboLampdaB_tab1.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaB_tab1.TabIndex = 503
         '
-        'TextBox19
+        'txtLampdaB_tab1
         '
-        Me.TextBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox19.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox19.Location = New System.Drawing.Point(199, 726)
-        Me.TextBox19.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox19.TabIndex = 502
+        Me.txtLampdaB_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaB_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaB_tab1.Location = New System.Drawing.Point(199, 726)
+        Me.txtLampdaB_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaB_tab1.Name = "txtLampdaB_tab1"
+        Me.txtLampdaB_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaB_tab1.TabIndex = 502
         '
         'Label152
         '
@@ -7539,33 +7544,33 @@ Partial Class frmWLMeasurement
         Me.Label150.TabIndex = 500
         Me.Label150.Text = "nm"
         '
-        'TextBox17
+        'txt2LampdaA_tab1
         '
-        Me.TextBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox17.Location = New System.Drawing.Point(377, 694)
-        Me.TextBox17.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(39, 28)
-        Me.TextBox17.TabIndex = 499
+        Me.txt2LampdaA_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt2LampdaA_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt2LampdaA_tab1.Location = New System.Drawing.Point(377, 694)
+        Me.txt2LampdaA_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt2LampdaA_tab1.Name = "txt2LampdaA_tab1"
+        Me.txt2LampdaA_tab1.Size = New System.Drawing.Size(39, 28)
+        Me.txt2LampdaA_tab1.TabIndex = 499
         '
-        'ComboBox2
+        'cboLampdaA_tab1
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(316, 694)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(55, 30)
-        Me.ComboBox2.TabIndex = 498
+        Me.cboLampdaA_tab1.FormattingEnabled = True
+        Me.cboLampdaA_tab1.Location = New System.Drawing.Point(316, 694)
+        Me.cboLampdaA_tab1.Name = "cboLampdaA_tab1"
+        Me.cboLampdaA_tab1.Size = New System.Drawing.Size(55, 30)
+        Me.cboLampdaA_tab1.TabIndex = 498
         '
-        'TextBox13
+        'txtTyp_Tab1
         '
-        Me.TextBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox13.Location = New System.Drawing.Point(199, 540)
-        Me.TextBox13.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox13.TabIndex = 497
+        Me.txtTyp_Tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtTyp_Tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTyp_Tab1.Location = New System.Drawing.Point(199, 540)
+        Me.txtTyp_Tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtTyp_Tab1.Name = "txtTyp_Tab1"
+        Me.txtTyp_Tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtTyp_Tab1.TabIndex = 497
         '
         'Label149
         '
@@ -7637,75 +7642,75 @@ Partial Class frmWLMeasurement
         Me.Label143.TabIndex = 484
         Me.Label143.Text = "mA"
         '
-        'TextBox9
+        'txtLampdaA_tab1
         '
-        Me.TextBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(199, 694)
-        Me.TextBox9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox9.TabIndex = 490
+        Me.txtLampdaA_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLampdaA_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLampdaA_tab1.Location = New System.Drawing.Point(199, 694)
+        Me.txtLampdaA_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLampdaA_tab1.Name = "txtLampdaA_tab1"
+        Me.txtLampdaA_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtLampdaA_tab1.TabIndex = 490
         '
-        'TextBox10
+        'txtSpan1Pulse_tab1
         '
-        Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.Location = New System.Drawing.Point(199, 652)
-        Me.TextBox10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox10.TabIndex = 489
+        Me.txtSpan1Pulse_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpan1Pulse_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpan1Pulse_tab1.Location = New System.Drawing.Point(199, 652)
+        Me.txtSpan1Pulse_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpan1Pulse_tab1.Name = "txtSpan1Pulse_tab1"
+        Me.txtSpan1Pulse_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpan1Pulse_tab1.TabIndex = 489
         '
-        'TextBox11
+        'txtSpanPulse_tab1
         '
-        Me.TextBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox11.Location = New System.Drawing.Point(199, 616)
-        Me.TextBox11.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox11.TabIndex = 488
+        Me.txtSpanPulse_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSpanPulse_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSpanPulse_tab1.Location = New System.Drawing.Point(199, 616)
+        Me.txtSpanPulse_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSpanPulse_tab1.Name = "txtSpanPulse_tab1"
+        Me.txtSpanPulse_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtSpanPulse_tab1.TabIndex = 488
         '
-        'TextBox12
+        'txtCenter_tab1
         '
-        Me.TextBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox12.Location = New System.Drawing.Point(199, 577)
-        Me.TextBox12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox12.TabIndex = 487
+        Me.txtCenter_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtCenter_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCenter_tab1.Location = New System.Drawing.Point(199, 577)
+        Me.txtCenter_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtCenter_tab1.Name = "txtCenter_tab1"
+        Me.txtCenter_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtCenter_tab1.TabIndex = 487
         '
-        'TextBox14
+        'txtLogScale_Tab1
         '
-        Me.TextBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox14.Location = New System.Drawing.Point(199, 499)
-        Me.TextBox14.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox14.TabIndex = 485
+        Me.txtLogScale_Tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLogScale_Tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLogScale_Tab1.Location = New System.Drawing.Point(199, 499)
+        Me.txtLogScale_Tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLogScale_Tab1.Name = "txtLogScale_Tab1"
+        Me.txtLogScale_Tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtLogScale_Tab1.TabIndex = 485
         '
-        'TextBox15
+        'txtRefLevel_Tab1
         '
-        Me.TextBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox15.Location = New System.Drawing.Point(199, 457)
-        Me.TextBox15.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox15.TabIndex = 484
+        Me.txtRefLevel_Tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRefLevel_Tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRefLevel_Tab1.Location = New System.Drawing.Point(199, 457)
+        Me.txtRefLevel_Tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRefLevel_Tab1.Name = "txtRefLevel_Tab1"
+        Me.txtRefLevel_Tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtRefLevel_Tab1.TabIndex = 484
         '
-        'TextBox16
+        'txtIop_Tab1
         '
-        Me.TextBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox16.Location = New System.Drawing.Point(199, 415)
-        Me.TextBox16.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox16.TabIndex = 483
+        Me.txtIop_Tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIop_Tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIop_Tab1.Location = New System.Drawing.Point(199, 415)
+        Me.txtIop_Tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIop_Tab1.Name = "txtIop_Tab1"
+        Me.txtIop_Tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtIop_Tab1.TabIndex = 483
         '
         'Label135
         '
@@ -7839,15 +7844,15 @@ Partial Class frmWLMeasurement
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.CheckBox13)
+        Me.GroupBox1.Controls.Add(Me.ckGetSMSR_tab1)
         Me.GroupBox1.Controls.Add(Me.Label133)
-        Me.GroupBox1.Controls.Add(Me.TextBox6)
+        Me.GroupBox1.Controls.Add(Me.txtAroundAvePoint_tab1)
         Me.GroupBox1.Controls.Add(Me.Label134)
         Me.GroupBox1.Controls.Add(Me.Label131)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.txtSMRSthL_tab1)
         Me.GroupBox1.Controls.Add(Me.Label132)
         Me.GroupBox1.Controls.Add(Me.Label129)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.txtSMRSthS_tab1)
         Me.GroupBox1.Controls.Add(Me.Label130)
         Me.GroupBox1.Location = New System.Drawing.Point(377, 351)
         Me.GroupBox1.Name = "GroupBox1"
@@ -7856,16 +7861,17 @@ Partial Class frmWLMeasurement
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "SMSR"
         '
-        'CheckBox13
+        'ckGetSMSR_tab1
         '
-        Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.CheckBox13.Location = New System.Drawing.Point(72, 0)
-        Me.CheckBox13.Name = "CheckBox13"
-        Me.CheckBox13.Size = New System.Drawing.Size(270, 26)
-        Me.CheckBox13.TabIndex = 484
-        Me.CheckBox13.Text = "Get SMSR from measurement"
-        Me.CheckBox13.UseVisualStyleBackColor = False
+        Me.ckGetSMSR_tab1.AutoSize = True
+        Me.ckGetSMSR_tab1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.ckGetSMSR_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ckGetSMSR_tab1.Location = New System.Drawing.Point(72, 0)
+        Me.ckGetSMSR_tab1.Name = "ckGetSMSR_tab1"
+        Me.ckGetSMSR_tab1.Size = New System.Drawing.Size(257, 24)
+        Me.ckGetSMSR_tab1.TabIndex = 484
+        Me.ckGetSMSR_tab1.Text = "Get SMSR from measurement"
+        Me.ckGetSMSR_tab1.UseVisualStyleBackColor = False
         '
         'Label133
         '
@@ -7877,15 +7883,15 @@ Partial Class frmWLMeasurement
         Me.Label133.TabIndex = 483
         Me.Label133.Text = "dB"
         '
-        'TextBox6
+        'txtAroundAvePoint_tab1
         '
-        Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(130, 132)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox6.TabIndex = 482
+        Me.txtAroundAvePoint_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAroundAvePoint_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAroundAvePoint_tab1.Location = New System.Drawing.Point(130, 132)
+        Me.txtAroundAvePoint_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAroundAvePoint_tab1.Name = "txtAroundAvePoint_tab1"
+        Me.txtAroundAvePoint_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtAroundAvePoint_tab1.TabIndex = 482
         '
         'Label134
         '
@@ -7907,15 +7913,15 @@ Partial Class frmWLMeasurement
         Me.Label131.TabIndex = 480
         Me.Label131.Text = "dB"
         '
-        'TextBox2
+        'txtSMRSthL_tab1
         '
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(130, 81)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox2.TabIndex = 479
+        Me.txtSMRSthL_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthL_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthL_tab1.Location = New System.Drawing.Point(130, 81)
+        Me.txtSMRSthL_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthL_tab1.Name = "txtSMRSthL_tab1"
+        Me.txtSMRSthL_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthL_tab1.TabIndex = 479
         '
         'Label132
         '
@@ -7937,15 +7943,15 @@ Partial Class frmWLMeasurement
         Me.Label129.TabIndex = 477
         Me.Label129.Text = "dB"
         '
-        'TextBox1
+        'txtSMRSthS_tab1
         '
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(130, 34)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox1.TabIndex = 476
+        Me.txtSMRSthS_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSMRSthS_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSMRSthS_tab1.Location = New System.Drawing.Point(130, 34)
+        Me.txtSMRSthS_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSMRSthS_tab1.Name = "txtSMRSthS_tab1"
+        Me.txtSMRSthS_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtSMRSthS_tab1.TabIndex = 476
         '
         'Label130
         '
@@ -7957,63 +7963,63 @@ Partial Class frmWLMeasurement
         Me.Label130.TabIndex = 475
         Me.Label130.Text = "SMSR_th_S"
         '
-        'TextBox5
+        'txtAvg_tab1
         '
-        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(505, 212)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox5.TabIndex = 468
+        Me.txtAvg_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAvg_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAvg_tab1.Location = New System.Drawing.Point(505, 212)
+        Me.txtAvg_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtAvg_tab1.Name = "txtAvg_tab1"
+        Me.txtAvg_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtAvg_tab1.TabIndex = 468
         '
-        'ComboBox1
+        'cboSenForAQ6370_tab1
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(505, 166)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 30)
-        Me.ComboBox1.TabIndex = 467
+        Me.cboSenForAQ6370_tab1.FormattingEnabled = True
+        Me.cboSenForAQ6370_tab1.Location = New System.Drawing.Point(505, 166)
+        Me.cboSenForAQ6370_tab1.Name = "cboSenForAQ6370_tab1"
+        Me.cboSenForAQ6370_tab1.Size = New System.Drawing.Size(111, 30)
+        Me.cboSenForAQ6370_tab1.TabIndex = 467
         '
-        'TextBox3
+        'txtData_tab1
         '
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(505, 287)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox3.TabIndex = 464
+        Me.txtData_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtData_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtData_tab1.Location = New System.Drawing.Point(505, 287)
+        Me.txtData_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtData_tab1.Name = "txtData_tab1"
+        Me.txtData_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtData_tab1.TabIndex = 464
         '
-        'TextBox4
+        'txtXdB_tab1
         '
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(505, 248)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox4.TabIndex = 463
+        Me.txtXdB_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtXdB_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtXdB_tab1.Location = New System.Drawing.Point(505, 248)
+        Me.txtXdB_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtXdB_tab1.Name = "txtXdB_tab1"
+        Me.txtXdB_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtXdB_tab1.TabIndex = 463
         '
-        'TextBox7
+        'txtSensitivity_tab1
         '
-        Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(505, 128)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox7.TabIndex = 460
+        Me.txtSensitivity_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSensitivity_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSensitivity_tab1.Location = New System.Drawing.Point(505, 128)
+        Me.txtSensitivity_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSensitivity_tab1.Name = "txtSensitivity_tab1"
+        Me.txtSensitivity_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtSensitivity_tab1.TabIndex = 460
         '
-        'TextBox8
+        'txtResBW_tab1
         '
-        Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(505, 86)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox8.TabIndex = 459
+        Me.txtResBW_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtResBW_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResBW_tab1.Location = New System.Drawing.Point(505, 86)
+        Me.txtResBW_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtResBW_tab1.Name = "txtResBW_tab1"
+        Me.txtResBW_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtResBW_tab1.TabIndex = 459
         '
         'Label120
         '
@@ -8075,137 +8081,137 @@ Partial Class frmWLMeasurement
         Me.Label125.TabIndex = 451
         Me.Label125.Text = "Res BW"
         '
-        'CheckBox12
+        'ckMeasFCFP1_tab1
         '
-        Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox12.Location = New System.Drawing.Point(999, 479)
-        Me.CheckBox12.Name = "CheckBox12"
-        Me.CheckBox12.Size = New System.Drawing.Size(137, 26)
-        Me.CheckBox12.TabIndex = 450
-        Me.CheckBox12.Text = "Meas FCFP1"
-        Me.CheckBox12.UseVisualStyleBackColor = True
+        Me.ckMeasFCFP1_tab1.AutoSize = True
+        Me.ckMeasFCFP1_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCFP1_tab1.Location = New System.Drawing.Point(999, 479)
+        Me.ckMeasFCFP1_tab1.Name = "ckMeasFCFP1_tab1"
+        Me.ckMeasFCFP1_tab1.Size = New System.Drawing.Size(137, 26)
+        Me.ckMeasFCFP1_tab1.TabIndex = 450
+        Me.ckMeasFCFP1_tab1.Text = "Meas FCFP1"
+        Me.ckMeasFCFP1_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox11
+        'ckMeasFPP4_tab1
         '
-        Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox11.Location = New System.Drawing.Point(1011, 447)
-        Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox11.TabIndex = 449
-        Me.CheckBox11.Text = "Meas FPP4"
-        Me.CheckBox11.UseVisualStyleBackColor = True
+        Me.ckMeasFPP4_tab1.AutoSize = True
+        Me.ckMeasFPP4_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP4_tab1.Location = New System.Drawing.Point(1011, 447)
+        Me.ckMeasFPP4_tab1.Name = "ckMeasFPP4_tab1"
+        Me.ckMeasFPP4_tab1.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP4_tab1.TabIndex = 449
+        Me.ckMeasFPP4_tab1.Text = "Meas FPP4"
+        Me.ckMeasFPP4_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox10
+        'ckMeasFPP3_tab1
         '
-        Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox10.Location = New System.Drawing.Point(1011, 415)
-        Me.CheckBox10.Name = "CheckBox10"
-        Me.CheckBox10.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox10.TabIndex = 448
-        Me.CheckBox10.Text = "Meas FPP3"
-        Me.CheckBox10.UseVisualStyleBackColor = True
+        Me.ckMeasFPP3_tab1.AutoSize = True
+        Me.ckMeasFPP3_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP3_tab1.Location = New System.Drawing.Point(1011, 415)
+        Me.ckMeasFPP3_tab1.Name = "ckMeasFPP3_tab1"
+        Me.ckMeasFPP3_tab1.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP3_tab1.TabIndex = 448
+        Me.ckMeasFPP3_tab1.Text = "Meas FPP3"
+        Me.ckMeasFPP3_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox9
+        'ckMeasEOL_tab1
         '
-        Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox9.Location = New System.Drawing.Point(1020, 383)
-        Me.CheckBox9.Name = "CheckBox9"
-        Me.CheckBox9.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox9.TabIndex = 447
-        Me.CheckBox9.Text = "Meas EOL"
-        Me.CheckBox9.UseVisualStyleBackColor = True
+        Me.ckMeasEOL_tab1.AutoSize = True
+        Me.ckMeasEOL_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasEOL_tab1.Location = New System.Drawing.Point(1020, 383)
+        Me.ckMeasEOL_tab1.Name = "ckMeasEOL_tab1"
+        Me.ckMeasEOL_tab1.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasEOL_tab1.TabIndex = 447
+        Me.ckMeasEOL_tab1.Text = "Meas EOL"
+        Me.ckMeasEOL_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox8
+        'ckMeasFPA_tab1
         '
-        Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox8.Location = New System.Drawing.Point(1021, 351)
-        Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox8.TabIndex = 446
-        Me.CheckBox8.Text = "Meas FPA"
-        Me.CheckBox8.UseVisualStyleBackColor = True
+        Me.ckMeasFPA_tab1.AutoSize = True
+        Me.ckMeasFPA_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPA_tab1.Location = New System.Drawing.Point(1021, 351)
+        Me.ckMeasFPA_tab1.Name = "ckMeasFPA_tab1"
+        Me.ckMeasFPA_tab1.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPA_tab1.TabIndex = 446
+        Me.ckMeasFPA_tab1.Text = "Meas FPA"
+        Me.ckMeasFPA_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox7
+        'ckMeasFRP2_tab1
         '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox7.Location = New System.Drawing.Point(1010, 320)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox7.TabIndex = 445
-        Me.CheckBox7.Text = "Meas FRP2"
-        Me.CheckBox7.UseVisualStyleBackColor = True
+        Me.ckMeasFRP2_tab1.AutoSize = True
+        Me.ckMeasFRP2_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP2_tab1.Location = New System.Drawing.Point(1010, 320)
+        Me.ckMeasFRP2_tab1.Name = "ckMeasFRP2_tab1"
+        Me.ckMeasFRP2_tab1.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFRP2_tab1.TabIndex = 445
+        Me.ckMeasFRP2_tab1.Text = "Meas FRP2"
+        Me.ckMeasFRP2_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox6
+        'ckMeasFPP2_tab1
         '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox6.Location = New System.Drawing.Point(1011, 288)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(125, 26)
-        Me.CheckBox6.TabIndex = 444
-        Me.CheckBox6.Text = "Meas FPP2"
-        Me.CheckBox6.UseVisualStyleBackColor = True
+        Me.ckMeasFPP2_tab1.AutoSize = True
+        Me.ckMeasFPP2_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP2_tab1.Location = New System.Drawing.Point(1011, 288)
+        Me.ckMeasFPP2_tab1.Name = "ckMeasFPP2_tab1"
+        Me.ckMeasFPP2_tab1.Size = New System.Drawing.Size(125, 26)
+        Me.ckMeasFPP2_tab1.TabIndex = 444
+        Me.ckMeasFPP2_tab1.Text = "Meas FPP2"
+        Me.ckMeasFPP2_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox5
+        'ckMeasFCP2_tab1
         '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox5.Location = New System.Drawing.Point(1010, 256)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(126, 26)
-        Me.CheckBox5.TabIndex = 443
-        Me.CheckBox5.Text = "Meas FCP2"
-        Me.CheckBox5.UseVisualStyleBackColor = True
+        Me.ckMeasFCP2_tab1.AutoSize = True
+        Me.ckMeasFCP2_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP2_tab1.Location = New System.Drawing.Point(1010, 256)
+        Me.ckMeasFCP2_tab1.Name = "ckMeasFCP2_tab1"
+        Me.ckMeasFCP2_tab1.Size = New System.Drawing.Size(126, 26)
+        Me.ckMeasFCP2_tab1.TabIndex = 443
+        Me.ckMeasFCP2_tab1.Text = "Meas FCP2"
+        Me.ckMeasFCP2_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox4
+        'ckMeasFRP_tab1
         '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox4.Location = New System.Drawing.Point(1020, 224)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox4.TabIndex = 442
-        Me.CheckBox4.Text = "Meas FRP"
-        Me.CheckBox4.UseVisualStyleBackColor = True
+        Me.ckMeasFRP_tab1.AutoSize = True
+        Me.ckMeasFRP_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFRP_tab1.Location = New System.Drawing.Point(1020, 224)
+        Me.ckMeasFRP_tab1.Name = "ckMeasFRP_tab1"
+        Me.ckMeasFRP_tab1.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFRP_tab1.TabIndex = 442
+        Me.ckMeasFRP_tab1.Text = "Meas FRP"
+        Me.ckMeasFRP_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox3
+        'ckMeasFPP_tab1
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox3.Location = New System.Drawing.Point(1021, 192)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(115, 26)
-        Me.CheckBox3.TabIndex = 441
-        Me.CheckBox3.Text = "Meas FPP"
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.ckMeasFPP_tab1.AutoSize = True
+        Me.ckMeasFPP_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFPP_tab1.Location = New System.Drawing.Point(1021, 192)
+        Me.ckMeasFPP_tab1.Name = "ckMeasFPP_tab1"
+        Me.ckMeasFPP_tab1.Size = New System.Drawing.Size(115, 26)
+        Me.ckMeasFPP_tab1.TabIndex = 441
+        Me.ckMeasFPP_tab1.Text = "Meas FPP"
+        Me.ckMeasFPP_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox2
+        'ckMeasFCP_tab1
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox2.Location = New System.Drawing.Point(1020, 160)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(116, 26)
-        Me.CheckBox2.TabIndex = 440
-        Me.CheckBox2.Text = "Meas FCP"
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.ckMeasFCP_tab1.AutoSize = True
+        Me.ckMeasFCP_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasFCP_tab1.Location = New System.Drawing.Point(1020, 160)
+        Me.ckMeasFCP_tab1.Name = "ckMeasFCP_tab1"
+        Me.ckMeasFCP_tab1.Size = New System.Drawing.Size(116, 26)
+        Me.ckMeasFCP_tab1.TabIndex = 440
+        Me.ckMeasFCP_tab1.Text = "Meas FCP"
+        Me.ckMeasFCP_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox1
+        'ckMeasIop_tab1
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox1.Location = New System.Drawing.Point(1032, 131)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(104, 26)
-        Me.CheckBox1.TabIndex = 439
-        Me.CheckBox1.Text = "Meas Iop"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.ckMeasIop_tab1.AutoSize = True
+        Me.ckMeasIop_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ckMeasIop_tab1.Location = New System.Drawing.Point(1032, 131)
+        Me.ckMeasIop_tab1.Name = "ckMeasIop_tab1"
+        Me.ckMeasIop_tab1.Size = New System.Drawing.Size(104, 26)
+        Me.ckMeasIop_tab1.TabIndex = 439
+        Me.ckMeasIop_tab1.Text = "Meas Iop"
+        Me.ckMeasIop_tab1.UseVisualStyleBackColor = True
         '
         'txtWavelengthB_tab1
         '
@@ -8629,13 +8635,13 @@ Partial Class frmWLMeasurement
         Me.TabsSpectrum.Name = "TabsSpectrum"
         Me.TabsSpectrum.Padding = New System.Drawing.Point(18, 3)
         Me.TabsSpectrum.SelectedIndex = 0
-        Me.TabsSpectrum.Size = New System.Drawing.Size(1205, 1096)
+        Me.TabsSpectrum.Size = New System.Drawing.Size(1186, 895)
         Me.TabsSpectrum.TabIndex = 1
         '
         'btnCancleWLm
         '
         Me.btnCancleWLm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancleWLm.Location = New System.Drawing.Point(1014, 881)
+        Me.btnCancleWLm.Location = New System.Drawing.Point(1014, 902)
         Me.btnCancleWLm.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnCancleWLm.Name = "btnCancleWLm"
         Me.btnCancleWLm.Size = New System.Drawing.Size(103, 37)
@@ -8646,7 +8652,7 @@ Partial Class frmWLMeasurement
         'btnSaveWLm
         '
         Me.btnSaveWLm.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSaveWLm.Location = New System.Drawing.Point(891, 881)
+        Me.btnSaveWLm.Location = New System.Drawing.Point(891, 902)
         Me.btnSaveWLm.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnSaveWLm.Name = "btnSaveWLm"
         Me.btnSaveWLm.Size = New System.Drawing.Size(103, 37)
@@ -8658,14 +8664,13 @@ Partial Class frmWLMeasurement
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(964, 744)
+        Me.ClientSize = New System.Drawing.Size(1186, 951)
         Me.Controls.Add(Me.btnCancleWLm)
         Me.Controls.Add(Me.TabsSpectrum)
         Me.Controls.Add(Me.btnSaveWLm)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "frmWLMeasurement"
-        Me.Text = "frmWLMeasurement"
         Me.Spectrum6.ResumeLayout(False)
         Me.Spectrum6.PerformLayout
         Me.GroupBox6.ResumeLayout(False)
@@ -8934,28 +8939,28 @@ Partial Class frmWLMeasurement
     Friend WithEvents txtWavelengthA_tab3 As TextBox
     Friend WithEvents Label110 As Label
     Friend WithEvents Label111 As Label
-    Friend WithEvents CheckBox8 As CheckBox
-    Friend WithEvents CheckBox7 As CheckBox
-    Friend WithEvents CheckBox6 As CheckBox
-    Friend WithEvents CheckBox5 As CheckBox
-    Friend WithEvents CheckBox4 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents ckMeasFPA_tab1 As CheckBox
+    Friend WithEvents ckMeasFRP2_tab1 As CheckBox
+    Friend WithEvents ckMeasFPP2_tab1 As CheckBox
+    Friend WithEvents ckMeasFCP2_tab1 As CheckBox
+    Friend WithEvents ckMeasFRP_tab1 As CheckBox
+    Friend WithEvents ckMeasFPP_tab1 As CheckBox
+    Friend WithEvents ckMeasFCP_tab1 As CheckBox
+    Friend WithEvents ckMeasIop_tab1 As CheckBox
+    Friend WithEvents txtData_tab1 As TextBox
+    Friend WithEvents txtXdB_tab1 As TextBox
+    Friend WithEvents txtSensitivity_tab1 As TextBox
+    Friend WithEvents txtResBW_tab1 As TextBox
     Friend WithEvents Label120 As Label
     Friend WithEvents Label121 As Label
     Friend WithEvents Label122 As Label
     Friend WithEvents Label123 As Label
     Friend WithEvents Label124 As Label
     Friend WithEvents Label125 As Label
-    Friend WithEvents CheckBox12 As CheckBox
-    Friend WithEvents CheckBox11 As CheckBox
-    Friend WithEvents CheckBox10 As CheckBox
-    Friend WithEvents CheckBox9 As CheckBox
+    Friend WithEvents ckMeasFCFP1_tab1 As CheckBox
+    Friend WithEvents ckMeasFPP4_tab1 As CheckBox
+    Friend WithEvents ckMeasFPP3_tab1 As CheckBox
+    Friend WithEvents ckMeasEOL_tab1 As CheckBox
     Friend WithEvents Label128 As Label
     Friend WithEvents Label127 As Label
     Friend WithEvents Label126 As Label
@@ -8963,23 +8968,23 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label118 As Label
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Label129 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtSMRSthS_tab1 As TextBox
     Friend WithEvents Label130 As Label
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents txtAvg_tab1 As TextBox
+    Friend WithEvents cboSenForAQ6370_tab1 As ComboBox
     Friend WithEvents Label148 As Label
     Friend WithEvents Label147 As Label
     Friend WithEvents Label146 As Label
     Friend WithEvents Label145 As Label
     Friend WithEvents Label144 As Label
     Friend WithEvents Label143 As Label
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents txtLampdaA_tab1 As TextBox
+    Friend WithEvents txtSpan1Pulse_tab1 As TextBox
+    Friend WithEvents txtSpanPulse_tab1 As TextBox
+    Friend WithEvents txtCenter_tab1 As TextBox
+    Friend WithEvents txtLogScale_Tab1 As TextBox
+    Friend WithEvents txtRefLevel_Tab1 As TextBox
+    Friend WithEvents txtIop_Tab1 As TextBox
     Friend WithEvents Label135 As Label
     Friend WithEvents Label136 As Label
     Friend WithEvents Label137 As Label
@@ -8989,96 +8994,96 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label141 As Label
     Friend WithEvents Label142 As Label
     Friend WithEvents Label133 As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents txtAroundAvePoint_tab1 As TextBox
     Friend WithEvents Label134 As Label
     Friend WithEvents Label131 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtSMRSthL_tab1 As TextBox
     Friend WithEvents Label132 As Label
     Friend WithEvents Label153 As Label
-    Friend WithEvents TextBox20 As TextBox
+    Friend WithEvents txtPeakThresh_tab1 As TextBox
     Friend WithEvents Label154 As Label
     Friend WithEvents Label151 As Label
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents TextBox19 As TextBox
+    Friend WithEvents txt2LampdaB_tab1 As TextBox
+    Friend WithEvents cboLampdaB_tab1 As ComboBox
+    Friend WithEvents txtLampdaB_tab1 As TextBox
     Friend WithEvents Label152 As Label
     Friend WithEvents Label150 As Label
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents txt2LampdaA_tab1 As TextBox
+    Friend WithEvents cboLampdaA_tab1 As ComboBox
+    Friend WithEvents txtTyp_Tab1 As TextBox
     Friend WithEvents Label149 As Label
     Friend WithEvents Label155 As Label
-    Friend WithEvents TextBox21 As TextBox
+    Friend WithEvents txtItec_tab1 As TextBox
     Friend WithEvents Label156 As Label
-    Friend WithEvents CheckBox13 As CheckBox
-    Friend WithEvents CheckBox62 As CheckBox
-    Friend WithEvents CheckBox63 As CheckBox
-    Friend WithEvents CheckBox64 As CheckBox
-    Friend WithEvents CheckBox65 As CheckBox
-    Friend WithEvents CheckBox66 As CheckBox
-    Friend WithEvents CheckBox67 As CheckBox
-    Friend WithEvents CheckBox68 As CheckBox
-    Friend WithEvents CheckBox69 As CheckBox
-    Friend WithEvents CheckBox70 As CheckBox
-    Friend WithEvents CheckBox71 As CheckBox
-    Friend WithEvents CheckBox72 As CheckBox
-    Friend WithEvents CheckBox73 As CheckBox
+    Friend WithEvents ckGetSMSR_tab1 As CheckBox
+    Friend WithEvents ckMeasFCFP1_tab6 As CheckBox
+    Friend WithEvents ckMeasFPP4_tab6 As CheckBox
+    Friend WithEvents ckMeasFPP3_tab6 As CheckBox
+    Friend WithEvents ckMeasEOL_tab6 As CheckBox
+    Friend WithEvents ckMeasFPA_tab6 As CheckBox
+    Friend WithEvents ckMeasFRP2_tab6 As CheckBox
+    Friend WithEvents ckMeasFPP2_tab6 As CheckBox
+    Friend WithEvents ckMeasFCP2_tab6 As CheckBox
+    Friend WithEvents ckMeasFRP_tab6 As CheckBox
+    Friend WithEvents ckMeasFPP_tab6 As CheckBox
+    Friend WithEvents ckMeasFCP_tab6 As CheckBox
+    Friend WithEvents ckMeasIop_tab6 As CheckBox
     Friend WithEvents cboMeasurePoint1_tab6 As ComboBox
     Friend WithEvents Label105 As Label
-    Friend WithEvents CheckBox50 As CheckBox
-    Friend WithEvents CheckBox51 As CheckBox
-    Friend WithEvents CheckBox52 As CheckBox
-    Friend WithEvents CheckBox53 As CheckBox
-    Friend WithEvents CheckBox54 As CheckBox
-    Friend WithEvents CheckBox55 As CheckBox
-    Friend WithEvents CheckBox56 As CheckBox
-    Friend WithEvents CheckBox57 As CheckBox
-    Friend WithEvents CheckBox58 As CheckBox
-    Friend WithEvents CheckBox59 As CheckBox
-    Friend WithEvents CheckBox60 As CheckBox
-    Friend WithEvents CheckBox61 As CheckBox
+    Friend WithEvents ckMeasFCFP1_tab5 As CheckBox
+    Friend WithEvents ckMeasFPP4_tab5 As CheckBox
+    Friend WithEvents ckMeasFPP3_tab5 As CheckBox
+    Friend WithEvents ckMeasEOL_tab5 As CheckBox
+    Friend WithEvents ckMeasFPA_tab5 As CheckBox
+    Friend WithEvents ckMeasFRP2_tab5 As CheckBox
+    Friend WithEvents ckMeasFPP2_tab5 As CheckBox
+    Friend WithEvents ckMeasFCP2_tab5 As CheckBox
+    Friend WithEvents ckMeasFRP_tab5 As CheckBox
+    Friend WithEvents ckMeasFPP_tab5 As CheckBox
+    Friend WithEvents ckMeasFCP_tab5 As CheckBox
+    Friend WithEvents ckMeasIop_tab5 As CheckBox
     Friend WithEvents cboMeasurePoint1_tab5 As ComboBox
     Friend WithEvents Label86 As Label
-    Friend WithEvents CheckBox38 As CheckBox
-    Friend WithEvents CheckBox39 As CheckBox
-    Friend WithEvents CheckBox40 As CheckBox
-    Friend WithEvents CheckBox41 As CheckBox
-    Friend WithEvents CheckBox42 As CheckBox
-    Friend WithEvents CheckBox43 As CheckBox
-    Friend WithEvents CheckBox44 As CheckBox
-    Friend WithEvents CheckBox45 As CheckBox
-    Friend WithEvents CheckBox46 As CheckBox
-    Friend WithEvents CheckBox47 As CheckBox
-    Friend WithEvents CheckBox48 As CheckBox
-    Friend WithEvents CheckBox49 As CheckBox
+    Friend WithEvents ckMeasFCFP1_tab4 As CheckBox
+    Friend WithEvents ckMeasFPP4_tab4 As CheckBox
+    Friend WithEvents ckMeasFPP3_tab4 As CheckBox
+    Friend WithEvents ckMeasEOL_tab4 As CheckBox
+    Friend WithEvents ckMeasFPA_tab4 As CheckBox
+    Friend WithEvents ckMeasFRP2_tab4 As CheckBox
+    Friend WithEvents ckMeasFPP2_tab4 As CheckBox
+    Friend WithEvents ckMeasFCP2_tab4 As CheckBox
+    Friend WithEvents ckMeasFRP_tab4 As CheckBox
+    Friend WithEvents ckMeasFPP_tab4 As CheckBox
+    Friend WithEvents ckMeasFCP_tab4 As CheckBox
+    Friend WithEvents ckMeasIop_tab4 As CheckBox
     Friend WithEvents cboMeasurePoint1_tab4 As ComboBox
     Friend WithEvents Label67 As Label
-    Friend WithEvents CheckBox26 As CheckBox
-    Friend WithEvents CheckBox27 As CheckBox
-    Friend WithEvents CheckBox28 As CheckBox
-    Friend WithEvents CheckBox29 As CheckBox
-    Friend WithEvents CheckBox30 As CheckBox
-    Friend WithEvents CheckBox31 As CheckBox
-    Friend WithEvents CheckBox32 As CheckBox
-    Friend WithEvents CheckBox33 As CheckBox
-    Friend WithEvents CheckBox34 As CheckBox
-    Friend WithEvents CheckBox35 As CheckBox
-    Friend WithEvents CheckBox36 As CheckBox
-    Friend WithEvents CheckBox37 As CheckBox
+    Friend WithEvents ckMeasFCFP1_tab3 As CheckBox
+    Friend WithEvents ckMeasFPP4_tab3 As CheckBox
+    Friend WithEvents ckMeasFPP3_tab3 As CheckBox
+    Friend WithEvents ckMeasEOL_tab3 As CheckBox
+    Friend WithEvents ckMeasFPA_tab3 As CheckBox
+    Friend WithEvents ckMeasFRP2_tab3 As CheckBox
+    Friend WithEvents ckMeasFPP2_tab3 As CheckBox
+    Friend WithEvents ckMeasFCP2_tab3 As CheckBox
+    Friend WithEvents ckMeasFRP_tab3 As CheckBox
+    Friend WithEvents ckMeasFPP_tab3 As CheckBox
+    Friend WithEvents ckMeasFCP_tab3 As CheckBox
+    Friend WithEvents ckMeasIop_tab3 As CheckBox
     Friend WithEvents cboMeasurePoint1_tab3 As ComboBox
     Friend WithEvents Label48 As Label
-    Friend WithEvents CheckBox14 As CheckBox
-    Friend WithEvents CheckBox15 As CheckBox
-    Friend WithEvents CheckBox16 As CheckBox
-    Friend WithEvents CheckBox17 As CheckBox
-    Friend WithEvents CheckBox18 As CheckBox
-    Friend WithEvents CheckBox19 As CheckBox
-    Friend WithEvents CheckBox20 As CheckBox
-    Friend WithEvents CheckBox21 As CheckBox
-    Friend WithEvents CheckBox22 As CheckBox
-    Friend WithEvents CheckBox23 As CheckBox
-    Friend WithEvents CheckBox24 As CheckBox
-    Friend WithEvents CheckBox25 As CheckBox
+    Friend WithEvents ckMeasFCFP1_tab2 As CheckBox
+    Friend WithEvents ckMeasFPP4_tab2 As CheckBox
+    Friend WithEvents ckMeasFPP3_tab2 As CheckBox
+    Friend WithEvents ckMeasEOL_tab2 As CheckBox
+    Friend WithEvents ckMeasFPA_tab2 As CheckBox
+    Friend WithEvents ckMeasFRP2_tab2 As CheckBox
+    Friend WithEvents ckMeasFPP2_tab2 As CheckBox
+    Friend WithEvents ckMeasFCP2_tab2 As CheckBox
+    Friend WithEvents ckMeasFRP_tab2 As CheckBox
+    Friend WithEvents ckMeasFPP_tab2 As CheckBox
+    Friend WithEvents ckMeasFCP_tab2 As CheckBox
+    Friend WithEvents ckMeasIop_tab2 As CheckBox
     Friend WithEvents cboMeasurePoint1_tab2 As ComboBox
     Friend WithEvents Label28 As Label
     Friend WithEvents Label225 As Label
@@ -9087,22 +9092,22 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label228 As Label
     Friend WithEvents Label230 As Label
     Friend WithEvents GroupBox6 As GroupBox
-    Friend WithEvents CheckBox78 As CheckBox
+    Friend WithEvents ckGetSMSR_tab6 As CheckBox
     Friend WithEvents Label233 As Label
-    Friend WithEvents TextBox54 As TextBox
+    Friend WithEvents txtAroundAvePoint_tab6 As TextBox
     Friend WithEvents Label234 As Label
     Friend WithEvents Label241 As Label
-    Friend WithEvents TextBox55 As TextBox
+    Friend WithEvents txtSMRSthL_tab6 As TextBox
     Friend WithEvents Label242 As Label
     Friend WithEvents Label243 As Label
-    Friend WithEvents TextBox56 As TextBox
+    Friend WithEvents txtSMRSthS_tab6 As TextBox
     Friend WithEvents Label244 As Label
-    Friend WithEvents TextBox57 As TextBox
-    Friend WithEvents ComboBox13 As ComboBox
-    Friend WithEvents TextBox58 As TextBox
-    Friend WithEvents TextBox59 As TextBox
-    Friend WithEvents TextBox60 As TextBox
-    Friend WithEvents TextBox61 As TextBox
+    Friend WithEvents txtAvg_tab6 As TextBox
+    Friend WithEvents cboSenForAQ6370_tab6 As ComboBox
+    Friend WithEvents txtData_tab6 As TextBox
+    Friend WithEvents txtXdB_tab6 As TextBox
+    Friend WithEvents txtSensitivity_tab6 As TextBox
+    Friend WithEvents txtResBW_tab6 As TextBox
     Friend WithEvents Label245 As Label
     Friend WithEvents Label246 As Label
     Friend WithEvents Label247 As Label
@@ -9115,22 +9120,22 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label211 As Label
     Friend WithEvents Label212 As Label
     Friend WithEvents GroupBox5 As GroupBox
-    Friend WithEvents CheckBox77 As CheckBox
+    Friend WithEvents ckGetSMSR_tab5 As CheckBox
     Friend WithEvents Label213 As Label
-    Friend WithEvents TextBox46 As TextBox
+    Friend WithEvents txtAroundAvePoint_tab5 As TextBox
     Friend WithEvents Label214 As Label
     Friend WithEvents Label215 As Label
-    Friend WithEvents TextBox47 As TextBox
+    Friend WithEvents txtSMRSthL_tab5 As TextBox
     Friend WithEvents Label216 As Label
     Friend WithEvents Label217 As Label
-    Friend WithEvents TextBox48 As TextBox
+    Friend WithEvents txtSMRSthS_tab5 As TextBox
     Friend WithEvents Label218 As Label
-    Friend WithEvents TextBox49 As TextBox
-    Friend WithEvents ComboBox12 As ComboBox
-    Friend WithEvents TextBox50 As TextBox
-    Friend WithEvents TextBox51 As TextBox
-    Friend WithEvents TextBox52 As TextBox
-    Friend WithEvents TextBox53 As TextBox
+    Friend WithEvents txtAvg_tab5 As TextBox
+    Friend WithEvents cboSenForAQ6370_tab5 As ComboBox
+    Friend WithEvents txtData_tab5 As TextBox
+    Friend WithEvents txtXdB_tab5 As TextBox
+    Friend WithEvents txtSensitivity_tab5 As TextBox
+    Friend WithEvents txtResBW_tab5 As TextBox
     Friend WithEvents Label219 As Label
     Friend WithEvents Label220 As Label
     Friend WithEvents Label221 As Label
@@ -9143,22 +9148,22 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label194 As Label
     Friend WithEvents Label195 As Label
     Friend WithEvents GroupBox4 As GroupBox
-    Friend WithEvents CheckBox76 As CheckBox
+    Friend WithEvents ckGetSMSR_tab4 As CheckBox
     Friend WithEvents Label196 As Label
-    Friend WithEvents TextBox38 As TextBox
+    Friend WithEvents txtAroundAvePoint_tab4 As TextBox
     Friend WithEvents Label197 As Label
     Friend WithEvents Label198 As Label
-    Friend WithEvents TextBox39 As TextBox
+    Friend WithEvents txtSMRSthL_tab4 As TextBox
     Friend WithEvents Label199 As Label
     Friend WithEvents Label200 As Label
-    Friend WithEvents TextBox40 As TextBox
+    Friend WithEvents txtSMRSthS_tab4 As TextBox
     Friend WithEvents Label201 As Label
-    Friend WithEvents TextBox41 As TextBox
-    Friend WithEvents ComboBox11 As ComboBox
-    Friend WithEvents TextBox42 As TextBox
-    Friend WithEvents TextBox43 As TextBox
-    Friend WithEvents TextBox44 As TextBox
-    Friend WithEvents TextBox45 As TextBox
+    Friend WithEvents txtAvg_tab4 As TextBox
+    Friend WithEvents cboSenForAQ6370_tab4 As ComboBox
+    Friend WithEvents txtData_tab4 As TextBox
+    Friend WithEvents txtXdB_tab4 As TextBox
+    Friend WithEvents txtSensitivity_tab4 As TextBox
+    Friend WithEvents txtResBW_tab4 As TextBox
     Friend WithEvents Label202 As Label
     Friend WithEvents Label203 As Label
     Friend WithEvents Label204 As Label
@@ -9171,22 +9176,22 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label177 As Label
     Friend WithEvents Label178 As Label
     Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents CheckBox75 As CheckBox
+    Friend WithEvents ckGetSMSR_tab3 As CheckBox
     Friend WithEvents Label179 As Label
-    Friend WithEvents TextBox30 As TextBox
+    Friend WithEvents txtAroundAvePoint_tab3 As TextBox
     Friend WithEvents Label180 As Label
     Friend WithEvents Label181 As Label
-    Friend WithEvents TextBox31 As TextBox
+    Friend WithEvents txtSMRSthL_tab3 As TextBox
     Friend WithEvents Label182 As Label
     Friend WithEvents Label183 As Label
-    Friend WithEvents TextBox32 As TextBox
+    Friend WithEvents txtSMRSthS_tab3 As TextBox
     Friend WithEvents Label184 As Label
-    Friend WithEvents TextBox33 As TextBox
-    Friend WithEvents ComboBox10 As ComboBox
-    Friend WithEvents TextBox34 As TextBox
-    Friend WithEvents TextBox35 As TextBox
-    Friend WithEvents TextBox36 As TextBox
-    Friend WithEvents TextBox37 As TextBox
+    Friend WithEvents txtAvg_tab3 As TextBox
+    Friend WithEvents cboSenForAQ6370_tab3 As ComboBox
+    Friend WithEvents txtData_tab3 As TextBox
+    Friend WithEvents txtXdB_tab3 As TextBox
+    Friend WithEvents txtSensitivity_tab3 As TextBox
+    Friend WithEvents txtResBW_tab3 As TextBox
     Friend WithEvents Label185 As Label
     Friend WithEvents Label186 As Label
     Friend WithEvents Label187 As Label
@@ -9199,22 +9204,22 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label160 As Label
     Friend WithEvents Label161 As Label
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents CheckBox74 As CheckBox
+    Friend WithEvents ckGetSMSR_tab2 As CheckBox
     Friend WithEvents Label162 As Label
-    Friend WithEvents TextBox22 As TextBox
+    Friend WithEvents txtAroundAvePoint_tab2 As TextBox
     Friend WithEvents Label163 As Label
     Friend WithEvents Label164 As Label
-    Friend WithEvents TextBox23 As TextBox
+    Friend WithEvents txtSMRSthL_tab2 As TextBox
     Friend WithEvents Label165 As Label
     Friend WithEvents Label166 As Label
-    Friend WithEvents TextBox24 As TextBox
+    Friend WithEvents txtSMRSthS_tab2 As TextBox
     Friend WithEvents Label167 As Label
-    Friend WithEvents TextBox25 As TextBox
-    Friend WithEvents ComboBox9 As ComboBox
-    Friend WithEvents TextBox26 As TextBox
-    Friend WithEvents TextBox27 As TextBox
-    Friend WithEvents TextBox28 As TextBox
-    Friend WithEvents TextBox29 As TextBox
+    Friend WithEvents txtAvg_tab2 As TextBox
+    Friend WithEvents cboSenForAQ6370_tab2 As ComboBox
+    Friend WithEvents txtData_tab2 As TextBox
+    Friend WithEvents txtXdB_tab2 As TextBox
+    Friend WithEvents txtSensitivity_tab2 As TextBox
+    Friend WithEvents txtResBW_tab2 As TextBox
     Friend WithEvents Label168 As Label
     Friend WithEvents Label169 As Label
     Friend WithEvents Label170 As Label
@@ -9222,20 +9227,20 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label172 As Label
     Friend WithEvents Label173 As Label
     Friend WithEvents Label339 As Label
-    Friend WithEvents TextBox114 As TextBox
+    Friend WithEvents txtItec_tab6 As TextBox
     Friend WithEvents Label340 As Label
     Friend WithEvents Label341 As Label
-    Friend WithEvents TextBox115 As TextBox
+    Friend WithEvents txtPeakThresh_tab6 As TextBox
     Friend WithEvents Label342 As Label
     Friend WithEvents Label343 As Label
-    Friend WithEvents TextBox116 As TextBox
-    Friend WithEvents ComboBox22 As ComboBox
-    Friend WithEvents TextBox117 As TextBox
+    Friend WithEvents txt2LampdaB_tab6 As TextBox
+    Friend WithEvents cboLampdaB_tab6 As ComboBox
+    Friend WithEvents txtLampdaB_tab6 As TextBox
     Friend WithEvents Label344 As Label
     Friend WithEvents Label345 As Label
-    Friend WithEvents TextBox118 As TextBox
-    Friend WithEvents ComboBox23 As ComboBox
-    Friend WithEvents TextBox119 As TextBox
+    Friend WithEvents txt2LampdaA_tab6 As TextBox
+    Friend WithEvents cboLampdaA_tab6 As ComboBox
+    Friend WithEvents txtTyp_Tab6 As TextBox
     Friend WithEvents Label346 As Label
     Friend WithEvents Label347 As Label
     Friend WithEvents Label348 As Label
@@ -9243,13 +9248,13 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label350 As Label
     Friend WithEvents Label351 As Label
     Friend WithEvents Label352 As Label
-    Friend WithEvents TextBox120 As TextBox
-    Friend WithEvents TextBox121 As TextBox
-    Friend WithEvents TextBox122 As TextBox
-    Friend WithEvents TextBox123 As TextBox
-    Friend WithEvents TextBox124 As TextBox
-    Friend WithEvents TextBox125 As TextBox
-    Friend WithEvents TextBox126 As TextBox
+    Friend WithEvents txtLampdaA_tab6 As TextBox
+    Friend WithEvents txtSpan1Pulse_tab6 As TextBox
+    Friend WithEvents txtSpanPulse_tab6 As TextBox
+    Friend WithEvents txtCenter_tab6 As TextBox
+    Friend WithEvents txtLogScale_Tab6 As TextBox
+    Friend WithEvents txtRefLevel_Tab6 As TextBox
+    Friend WithEvents txtIop_Tab6 As TextBox
     Friend WithEvents Label353 As Label
     Friend WithEvents Label354 As Label
     Friend WithEvents Label355 As Label
@@ -9259,20 +9264,20 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label359 As Label
     Friend WithEvents Label360 As Label
     Friend WithEvents Label317 As Label
-    Friend WithEvents TextBox101 As TextBox
+    Friend WithEvents txtItec_tab5 As TextBox
     Friend WithEvents Label318 As Label
     Friend WithEvents Label319 As Label
-    Friend WithEvents TextBox102 As TextBox
+    Friend WithEvents txtPeakThresh_tab5 As TextBox
     Friend WithEvents Label320 As Label
     Friend WithEvents Label321 As Label
-    Friend WithEvents TextBox103 As TextBox
-    Friend WithEvents ComboBox20 As ComboBox
-    Friend WithEvents TextBox104 As TextBox
+    Friend WithEvents txt2LampdaB_tab5 As TextBox
+    Friend WithEvents cboLampdaB_tab5 As ComboBox
+    Friend WithEvents txtLampdaB_tab5 As TextBox
     Friend WithEvents Label322 As Label
     Friend WithEvents Label323 As Label
-    Friend WithEvents TextBox105 As TextBox
-    Friend WithEvents ComboBox21 As ComboBox
-    Friend WithEvents TextBox106 As TextBox
+    Friend WithEvents txt2LampdaA_tab5 As TextBox
+    Friend WithEvents cboLampdaA_tab5 As ComboBox
+    Friend WithEvents txtTyp_Tab5 As TextBox
     Friend WithEvents Label324 As Label
     Friend WithEvents Label325 As Label
     Friend WithEvents Label326 As Label
@@ -9280,13 +9285,13 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label328 As Label
     Friend WithEvents Label329 As Label
     Friend WithEvents Label330 As Label
-    Friend WithEvents TextBox107 As TextBox
-    Friend WithEvents TextBox108 As TextBox
-    Friend WithEvents TextBox109 As TextBox
-    Friend WithEvents TextBox110 As TextBox
-    Friend WithEvents TextBox111 As TextBox
-    Friend WithEvents TextBox112 As TextBox
-    Friend WithEvents TextBox113 As TextBox
+    Friend WithEvents txtLampdaA_tab5 As TextBox
+    Friend WithEvents txtSpan1Pulse_tab5 As TextBox
+    Friend WithEvents txtSpanPulse_tab5 As TextBox
+    Friend WithEvents txtCenter_tab5 As TextBox
+    Friend WithEvents txtLogScale_Tab5 As TextBox
+    Friend WithEvents txtRefLevel_Tab5 As TextBox
+    Friend WithEvents txtIop_Tab5 As TextBox
     Friend WithEvents Label331 As Label
     Friend WithEvents Label332 As Label
     Friend WithEvents Label333 As Label
@@ -9296,20 +9301,20 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label337 As Label
     Friend WithEvents Label338 As Label
     Friend WithEvents Label295 As Label
-    Friend WithEvents TextBox88 As TextBox
+    Friend WithEvents txtItec_tab4 As TextBox
     Friend WithEvents Label296 As Label
     Friend WithEvents Label297 As Label
-    Friend WithEvents TextBox89 As TextBox
+    Friend WithEvents txtPeakThresh_ta4 As TextBox
     Friend WithEvents Label298 As Label
     Friend WithEvents Label299 As Label
-    Friend WithEvents TextBox90 As TextBox
-    Friend WithEvents ComboBox18 As ComboBox
-    Friend WithEvents TextBox91 As TextBox
+    Friend WithEvents txt2LampdaB_tab4 As TextBox
+    Friend WithEvents cboLampdaB_tab4 As ComboBox
+    Friend WithEvents txtLampdaB_tab4 As TextBox
     Friend WithEvents Label300 As Label
     Friend WithEvents Label301 As Label
-    Friend WithEvents TextBox92 As TextBox
-    Friend WithEvents ComboBox19 As ComboBox
-    Friend WithEvents TextBox93 As TextBox
+    Friend WithEvents txt2LampdaA_tab4 As TextBox
+    Friend WithEvents cboLampdaA_tab4 As ComboBox
+    Friend WithEvents txtTyp_Tab4 As TextBox
     Friend WithEvents Label302 As Label
     Friend WithEvents Label303 As Label
     Friend WithEvents Label304 As Label
@@ -9317,13 +9322,13 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label306 As Label
     Friend WithEvents Label307 As Label
     Friend WithEvents Label308 As Label
-    Friend WithEvents TextBox94 As TextBox
-    Friend WithEvents TextBox95 As TextBox
-    Friend WithEvents TextBox96 As TextBox
-    Friend WithEvents TextBox97 As TextBox
-    Friend WithEvents TextBox98 As TextBox
-    Friend WithEvents TextBox99 As TextBox
-    Friend WithEvents TextBox100 As TextBox
+    Friend WithEvents txtLampdaA_tab4 As TextBox
+    Friend WithEvents txtSpan1Pulse_tab4 As TextBox
+    Friend WithEvents txtSpanPulse_tab4 As TextBox
+    Friend WithEvents txtCenter_tab4 As TextBox
+    Friend WithEvents txtLogScale_Tab4 As TextBox
+    Friend WithEvents txtRefLevel_Tab4 As TextBox
+    Friend WithEvents txtIop_Tab4 As TextBox
     Friend WithEvents Label309 As Label
     Friend WithEvents Label310 As Label
     Friend WithEvents Label311 As Label
@@ -9333,20 +9338,20 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label315 As Label
     Friend WithEvents Label316 As Label
     Friend WithEvents Label273 As Label
-    Friend WithEvents TextBox75 As TextBox
+    Friend WithEvents txtItec_tab3 As TextBox
     Friend WithEvents Label274 As Label
     Friend WithEvents Label275 As Label
-    Friend WithEvents TextBox76 As TextBox
+    Friend WithEvents txtPeakThresh_tab3 As TextBox
     Friend WithEvents Label276 As Label
     Friend WithEvents Label277 As Label
-    Friend WithEvents TextBox77 As TextBox
-    Friend WithEvents ComboBox16 As ComboBox
-    Friend WithEvents TextBox78 As TextBox
+    Friend WithEvents txt2LampdaB_tab3 As TextBox
+    Friend WithEvents cboLampdaB_tab3 As ComboBox
+    Friend WithEvents txtLampdaB_tab3 As TextBox
     Friend WithEvents Label278 As Label
     Friend WithEvents Label279 As Label
-    Friend WithEvents TextBox79 As TextBox
-    Friend WithEvents ComboBox17 As ComboBox
-    Friend WithEvents TextBox80 As TextBox
+    Friend WithEvents txt2LampdaA_tab3 As TextBox
+    Friend WithEvents cboLampdaA_tab3 As ComboBox
+    Friend WithEvents txtTyp_Tab3 As TextBox
     Friend WithEvents Label280 As Label
     Friend WithEvents Label281 As Label
     Friend WithEvents Label282 As Label
@@ -9354,13 +9359,13 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label284 As Label
     Friend WithEvents Label285 As Label
     Friend WithEvents Label286 As Label
-    Friend WithEvents TextBox81 As TextBox
-    Friend WithEvents TextBox82 As TextBox
-    Friend WithEvents TextBox83 As TextBox
-    Friend WithEvents TextBox84 As TextBox
-    Friend WithEvents TextBox85 As TextBox
-    Friend WithEvents TextBox86 As TextBox
-    Friend WithEvents TextBox87 As TextBox
+    Friend WithEvents txtLampdaA_tab3 As TextBox
+    Friend WithEvents txtSpan1Pulse_tab3 As TextBox
+    Friend WithEvents txtSpanPulse_tab3 As TextBox
+    Friend WithEvents txtCenter_tab3 As TextBox
+    Friend WithEvents txtLogScale_Tab3 As TextBox
+    Friend WithEvents txtRefLevel_Tab3 As TextBox
+    Friend WithEvents txtIop_Tab3 As TextBox
     Friend WithEvents Label287 As Label
     Friend WithEvents Label288 As Label
     Friend WithEvents Label289 As Label
@@ -9370,20 +9375,20 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label293 As Label
     Friend WithEvents Label294 As Label
     Friend WithEvents Label251 As Label
-    Friend WithEvents TextBox62 As TextBox
+    Friend WithEvents txtItec_tab2 As TextBox
     Friend WithEvents Label252 As Label
     Friend WithEvents Label253 As Label
-    Friend WithEvents TextBox63 As TextBox
+    Friend WithEvents txtPeakThresh_tab2 As TextBox
     Friend WithEvents Label254 As Label
     Friend WithEvents Label255 As Label
-    Friend WithEvents TextBox64 As TextBox
-    Friend WithEvents ComboBox14 As ComboBox
-    Friend WithEvents TextBox65 As TextBox
+    Friend WithEvents txt2LampdaB_tab2 As TextBox
+    Friend WithEvents cboLampdaB_tab2 As ComboBox
+    Friend WithEvents txtLampdaB_tab2 As TextBox
     Friend WithEvents Label256 As Label
     Friend WithEvents Label257 As Label
-    Friend WithEvents TextBox66 As TextBox
-    Friend WithEvents ComboBox15 As ComboBox
-    Friend WithEvents TextBox67 As TextBox
+    Friend WithEvents txt2LampdaA_tab2 As TextBox
+    Friend WithEvents cboLampdaA_tab2 As ComboBox
+    Friend WithEvents txtTyp_Tab2 As TextBox
     Friend WithEvents Label258 As Label
     Friend WithEvents Label259 As Label
     Friend WithEvents Label260 As Label
@@ -9391,13 +9396,13 @@ Partial Class frmWLMeasurement
     Friend WithEvents Label262 As Label
     Friend WithEvents Label263 As Label
     Friend WithEvents Label264 As Label
-    Friend WithEvents TextBox68 As TextBox
-    Friend WithEvents TextBox69 As TextBox
-    Friend WithEvents TextBox70 As TextBox
-    Friend WithEvents TextBox71 As TextBox
-    Friend WithEvents TextBox72 As TextBox
-    Friend WithEvents TextBox73 As TextBox
-    Friend WithEvents TextBox74 As TextBox
+    Friend WithEvents txtLampdaA_tab2 As TextBox
+    Friend WithEvents txtSpan1Pulse_tab2 As TextBox
+    Friend WithEvents txtSpanPulse_tab2 As TextBox
+    Friend WithEvents txtCenter_tab2 As TextBox
+    Friend WithEvents txtLogScale_Tab2 As TextBox
+    Friend WithEvents txtRefLevel_Tab2 As TextBox
+    Friend WithEvents txtIop_Tab2 As TextBox
     Friend WithEvents Label265 As Label
     Friend WithEvents Label266 As Label
     Friend WithEvents Label267 As Label

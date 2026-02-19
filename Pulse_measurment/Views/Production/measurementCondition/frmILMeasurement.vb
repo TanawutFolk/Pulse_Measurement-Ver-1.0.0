@@ -525,4 +525,7 @@
         End If
     End Function
 
+    Private Sub TextBox46_TextChanged(sender As Object, e As EventArgs) Handles txtPCALminOffset_tab2.TextChanged
+
+    End Sub
 End Class

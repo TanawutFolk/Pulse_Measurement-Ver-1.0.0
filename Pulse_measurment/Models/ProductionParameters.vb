@@ -71,9 +71,9 @@ Public Class ProductionParameters
     Public Property Meas_WL_Settings As New WL_Measure_Settings()
     Public Property Meas_W_Settings As New W_Measure_Settings()
 
-    Public Property Judge_IL_Settings As New IL_Judge_Group()
-    Public Property Judge_WL_Settings As New WL_Judge_Group()
-    Public Property Judge_W_Settings As New Wave_Judge_Group()
+    Public Property Judge_IL_Settings As New IL_Judge_Settign()
+    Public Property Judge_WL_Settings As New WL_Judge_Settign()
+    Public Property Judge_W_Settings As New Wave_Judge_Settign()
 
 End Class
 
@@ -108,7 +108,7 @@ Public Class W_Measure_Settings
 End Class
 
 ' Class กลุ่ม รวม IL_Judgment ทั้ง 6 Tabs ------------------------------------------------------------
-Public Class IL_Judge_Group
+Public Class IL_Judge_Settign
     Public Property L1 As New IL_Judge_Parameter()
     Public Property L2 As New IL_Judge_Parameter()
     Public Property L3 As New IL_Judge_Parameter()
@@ -118,7 +118,7 @@ Public Class IL_Judge_Group
 End Class
 
 ' Class กลุ่ม รวม WL_Judgment ทั้ง 6 Tabs ------------------------------------------------------------
-Public Class WL_Judge_Group
+Public Class WL_Judge_Settign
     Public Property Spec1 As New WL_Judge_Parameter()
     Public Property Spec2 As New WL_Judge_Parameter()
     Public Property Spec3 As New WL_Judge_Parameter()
@@ -128,7 +128,7 @@ Public Class WL_Judge_Group
 End Class
 
 ' Class กลุ่ม รวม W_Judgment ทั้ง 6 Tabs ------------------------------------------------------------
-Public Class Wave_Judge_Group
+Public Class Wave_Judge_Settign
     Public Property Wave1 As New W_Judge_Parameter()
     Public Property Wave2 As New W_Judge_Parameter()
     Public Property Wave3 As New W_Judge_Parameter()
@@ -139,7 +139,7 @@ End Class
 
 '-------------- Class IL_Measurement Parameter 1 Tab ------------------------------------------------------------
 Public Class ILParameter
-    ' โซน 1: If Sweep
+    ' ----- If Sweep -----
     Public Property IfStart As Double
     Public Property IfStep As Double
     Public Property IfStop As Double
@@ -152,9 +152,10 @@ Public Class ILParameter
     Public Property Tld As Double
     Public Property ICAL As Double
     Public Property ATT As Double
+    'Add new 2026-02-12 SampleNumber
     Public Property SampleNumber As Double
 
-    ' โซน 2: IL Point
+    ' ----- IL Point -----
     Public Property FCP As Double
     Public Property FPP As Double
     Public Property FRP As Double
@@ -164,13 +165,14 @@ Public Class ILParameter
     Public Property FPP3 As Double
     Public Property FPP4 As Double
 
-    Public Property PCALmin As Double = 0
-    Public Property PCALminOffset As Double = 0
-    Public Property Imax As Double = 0
-    Public Property Ivf As Double = 0
-    Public Property Lambda As Double = 0
+    '----- add new 2026-02-12(1) -----
+    Public Property PCALmin As Double
+    Public Property PCALminOffset As Double
+    Public Property Imax As Double
+    Public Property Ivf As Double
+    Public Property Lambda As Double
     Public Property Pmax As Double              ' Pmax [mW]
-    Public Property EtaMax As Double            ' η max [mW] (หรือ Slope Efficiency)
+    Public Property nMax As Double            ' η max [mW] (หรือ Slope Efficiency)
     Public Property Vfmax As Double             ' Vfmax [V]
     Public Property ImMax As Double             ' Im max [mA]
     Public Property RMax As Double              ' R max [Ω]
@@ -179,51 +181,46 @@ Public Class ILParameter
     Public Property Ithp_P1 As Double           ' Ithp P1 [mW]
     Public Property Ithp_P2 As Double           ' Ithp P2 [mW]
 
-    ' --- Kink Graph Checkboxes ---
+    Public Enum IfStepMode
+        Auto = 0        ' Auto
+        Step0_2mA = 1   ' 0.2mA
+        Step1_0mA = 2   ' 1.0mA
+        Step2_0mA = 3   ' 2.0mA
+    End Enum
+    Public Property IfStep As IfStepMode
+    ' --- Kink ---
     Public Property ShowKinkGraph As Boolean       ' Checkbox: Kink Graph
     Public Property Show_dIm_dL_Graph As Boolean   ' Checkbox: dIm/dL Graph
     Public Property Show_dIm_dI_Graph As Boolean   ' Checkbox: dIm/dI Graph
-
-    ' --- Kink Parameters ---
-    Public Property Enable_KinkGraph As Boolean        ' สำหรับ [x] Kink Graph
-    Public Property Enable_dIm_dL_Graph As Boolean     ' สำหรับ [ ] dIm/dL Graph
-    Public Property Enable_dIm_dI_Graph As Boolean     ' สำหรับ [ ] dIm/dI Graph
     Public Property DeltaI As Double               ' ΔI [mA]
     Public Property Ikmax As Double                ' Ikmax [mA]
     Public Property Kink_X As Double               ' Kink x [%]
     Public Property Kink_Y As Double               ' kink y [%]
 
     ' --- Kink Method (Radio Button) ---
-    ' 0 = Type 1, 1 = Type 2
-    Public Property KinkMethodType As Integer
+    Public Enum KinkMethodType
+        Type1 = 0
+        Type2 = 1
+    End Enum
+    Public Property KinkMethod As KinkMethodType
 
     ' --- Kink Mode (Radio Button) ---
-    ' 0 = Power, 1 = Current
-    Public Property KinkModeSelection As Integer
+    Public Enum KinkModeSelect
+        Power = 0
+        Current = 1
+    End Enum
+    Public Property KinkMode As KinkModeSelect
 
     ' --- Least-squares method ---
-    ' (มีในโค้ดเดิมแล้ว: LeastSquaresMode, NumOfPoint)
-    ' เช็คว่าต้องเพิ่ม Import formula หรือไม่
-    Public Property LeastSquaresType As Integer    ' 0=Primary, 1=Secondary, 2=Import formula
+    Public Enum LeastSquaresMethodSelect
+        Primary = 0
+        Secondary = 1
+        InputFormula = 2   ' ในรูปเขียน Input fomula แต่ในโค้ดควรเขียนให้ถูกครับ
+    End Enum
+    Public Property LeastSquareMethod As LeastSquaresMethodSelect
+    Public Property NumberOfPoint As Integer
 
-    ' เพิ่มใน Class IL_Judge_Parameter
-
-    ' --- Differentiation method ---
-    ' 0 = Method 1(smoothing), 1 = Method 2(separation)
-    Public Property DiffMethod As Integer
-
-    ' --- Smoothing coefficient ---
-    Public Property Smooth_Efficiency As Double    ' Differentiation efficiency
-    Public Property Smooth_Resistance As Double    ' Differentiation resistance
-
-    ' --- Separation coefficient ---
-    Public Property Separation_Coeff As Double     ' Separation coefficient
-
-    ' --- FRP fitting ---
-    Public Property FRP_CalcSetting As Double      ' Calculation setting [mA]
-    Public Property FRP_PointNum As Integer        ' Point number [Point]
-
-    ' โซน 3: If Sweep Graph Scale/Div
+    ' ---- If Sweep Graph Scale/Div ----
     Public Property Scale_If As Double
     Public Property Div_If As Double
     Public Property Scale_Vf As Double
@@ -236,6 +233,26 @@ Public Class ILParameter
     Public Property Div_Rd As Double
     Public Property Scale_Im As Double
     Public Property Div_Im As Double
+    ' เพิ่มใน Class IL_Judge_Parameter
+
+    ' --- Differentiation method ---
+    Public Enum DifferenMethodSelect
+        Method1 = 0
+        Method2 = 1
+    End Enum
+    Public Property DifferenMethod As DifferenMethodSelect
+
+    ' --- Smoothing coefficient ---
+    Public Property Smooth_Efficiency As Double
+    Public Property Smooth_Resistance As Double
+
+    ' --- Separation coefficient ---
+    Public Property Separation_Coeff As Double     ' Separation coefficient
+
+    ' --- FRP fitting ---
+    Public Property FRP_CalcSetting As Double      ' Calculation setting [mA]
+    Public Property FRP_PointNumber As Integer        ' Point number [Point]
+
 End Class
 
 '-------------- Class WL_Measurement Parameter 1 Tab ------------------------------------------------------------
@@ -254,12 +271,23 @@ Public Class WLParameter
     Public Property Iop As Double           ' Iop [mA]
     Public Property RefLevelPulse As Double           ' Iop [mA]
     Public Property LogScale As Double      ' Log Scale [dB/D]
-    Public Property TypWL As Double         ' Typ [nm]
+    Public Property Typ As Double         ' Typ [nm]
+    Public Property Center As Double         ' Typ [nm]
     Public Property SpanPulse As Double         ' Span1 [nm]
     Public Property Span1Pulse As Double         ' Span1 [nm]
+    Public Property LambdaA As Double         ' Span1 [nm]
+    Public Property LambdaB As Double         ' Span1 [nm]
     Public Property PeakThresh As Double    ' Peak Thresh [dB]
     Public Property ItecLimit As Double     ' Itec Limit [A]
-
+    '---New
+    Public Property ResBW As Double
+    Public Property Sensitivity As Double
+    Public Property SensitivityForAQ6379 As Double
+    Public Property Avg As Double
+    Public Property XdB As Double
+    Public Property Data As Double
+    '--- SMSR ---
+    Public Property SMSR As New SMSRParameter()
     ' --- OSA Setting  ---
     Public Property WLCenter As Double      ' WL Center [nm]
     Public Property Span As Double          ' Span [nm]
@@ -273,10 +301,36 @@ Public Class WLParameter
     Public Property WavelengthB As Integer  ' Wavelength B
 
     ' --- Measurement Point (ขวา) ---
-    Public Property Point1 As String        ' IL1
+    Public Property Point1 As String
+    Public Property MeasIop As Boolean
+    Public Property MeasFCP As Boolean
+    Public Property MeasFPP As Boolean
+    Public Property MeasFRP As Boolean
+    Public Property MeasFCP2 As Boolean
+    Public Property MeasFPP2 As Boolean
+    Public Property MeasFRP2 As Boolean
+    Public Property MeasFPA As Boolean
+    Public Property MeasEOL As Boolean
+    Public Property MeasFPP3 As Boolean
+    Public Property MeasFPP4 As Boolean
+    Public Property MeasFCFP1 As Boolean
 
 End Class
+'--- SMSR Groupbox ---
+Public Class SMSRParameter
+    ' 1. ตัว Checkbox "Get SMSR from measurement"
+    ' ใช้ชื่อ IsEnabled หรือ Use... เพื่อให้สื่อความหมายว่าเป็นตัวเปิด/ปิด
+    Public Property IsEnabled As Boolean
 
+    ' 2. ตัวแปรข้างใน (SMSR_th_S)
+    Public Property ThresholdS As Double
+
+    ' 3. ตัวแปรข้างใน (SMSR_th_L)
+    Public Property ThresholdL As Double
+
+    ' 4. ตัวแปรข้างใน (Around Ave_Point)
+    Public Property AroundAveragePoint As Double
+End Class
 ' ------------- Class W_Measurement Parameter 1 Tab -------------------------------------------------------------
 Public Class WaveformParameter
     ' --- Pulse Condition ซ้าย ---

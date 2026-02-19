@@ -25,48 +25,48 @@ Partial Class frmILMeasurement
         Me.btnCancleILm = New System.Windows.Forms.Button()
         Me.btnSaveILm = New System.Windows.Forms.Button()
         Me.ILSweep6 = New System.Windows.Forms.TabPage()
-        Me.TextBox117 = New System.Windows.Forms.TextBox()
-        Me.TextBox118 = New System.Windows.Forms.TextBox()
-        Me.TextBox119 = New System.Windows.Forms.TextBox()
-        Me.TextBox120 = New System.Windows.Forms.TextBox()
-        Me.TextBox121 = New System.Windows.Forms.TextBox()
-        Me.TextBox122 = New System.Windows.Forms.TextBox()
-        Me.TextBox123 = New System.Windows.Forms.TextBox()
-        Me.TextBox124 = New System.Windows.Forms.TextBox()
-        Me.TextBox125 = New System.Windows.Forms.TextBox()
-        Me.TextBox126 = New System.Windows.Forms.TextBox()
-        Me.TextBox127 = New System.Windows.Forms.TextBox()
-        Me.TextBox128 = New System.Windows.Forms.TextBox()
-        Me.TextBox129 = New System.Windows.Forms.TextBox()
+        Me.txtPmax_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtIthpP2_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtIthpP1_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtdImdLMax_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtRmax_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtImMax_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtVfmax_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtnMax_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtlampda_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtIvf_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtImax_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtPCALminOffset_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtPCALmin_tab6 = New System.Windows.Forms.TextBox()
         Me.GroupBox46 = New System.Windows.Forms.GroupBox()
         Me.Label382 = New System.Windows.Forms.Label()
         Me.Label383 = New System.Windows.Forms.Label()
         Me.Label384 = New System.Windows.Forms.Label()
         Me.Label385 = New System.Windows.Forms.Label()
-        Me.TextBox130 = New System.Windows.Forms.TextBox()
-        Me.TextBox131 = New System.Windows.Forms.TextBox()
+        Me.txtFRPpointNum_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtFRPcalculationSetting_tab6 = New System.Windows.Forms.TextBox()
         Me.GroupBox47 = New System.Windows.Forms.GroupBox()
-        Me.TextBox132 = New System.Windows.Forms.TextBox()
+        Me.txtSparationCoefficient_tab6 = New System.Windows.Forms.TextBox()
         Me.GroupBox48 = New System.Windows.Forms.GroupBox()
         Me.Label386 = New System.Windows.Forms.Label()
         Me.Label387 = New System.Windows.Forms.Label()
-        Me.TextBox133 = New System.Windows.Forms.TextBox()
-        Me.TextBox134 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingResistance_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingEfficiency_tab6 = New System.Windows.Forms.TextBox()
         Me.GroupBox49 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton66 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton67 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod2_tab6 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod1_tab6 = New System.Windows.Forms.RadioButton()
         Me.GroupBox50 = New System.Windows.Forms.GroupBox()
-        Me.TextBox135 = New System.Windows.Forms.TextBox()
-        Me.RadioButton68 = New System.Windows.Forms.RadioButton()
+        Me.txtLeastSquareNumOfPoint_tab6 = New System.Windows.Forms.TextBox()
+        Me.rdoLeastSquarefomula_tab6 = New System.Windows.Forms.RadioButton()
         Me.Label388 = New System.Windows.Forms.Label()
-        Me.RadioButton69 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton70 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquareSecon_tab6 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquarePrimary_tab6 = New System.Windows.Forms.RadioButton()
         Me.GroupBox51 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton71 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton72 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModeCurrnet_tab6 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModePower_tab = New System.Windows.Forms.RadioButton()
         Me.GroupBox52 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton73 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton74 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType2_tab6 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType1_tab6 = New System.Windows.Forms.RadioButton()
         Me.GroupBox53 = New System.Windows.Forms.GroupBox()
         Me.Label389 = New System.Windows.Forms.Label()
         Me.Label390 = New System.Windows.Forms.Label()
@@ -74,20 +74,20 @@ Partial Class frmILMeasurement
         Me.Label392 = New System.Windows.Forms.Label()
         Me.Label393 = New System.Windows.Forms.Label()
         Me.Label394 = New System.Windows.Forms.Label()
-        Me.TextBox136 = New System.Windows.Forms.TextBox()
-        Me.TextBox137 = New System.Windows.Forms.TextBox()
+        Me.txtKinkY_tab6 = New System.Windows.Forms.TextBox()
+        Me.txtKinkX_tab6 = New System.Windows.Forms.TextBox()
         Me.Label395 = New System.Windows.Forms.Label()
-        Me.TextBox138 = New System.Windows.Forms.TextBox()
+        Me.txtIkMax_tab6 = New System.Windows.Forms.TextBox()
         Me.Label396 = New System.Windows.Forms.Label()
-        Me.TextBox139 = New System.Windows.Forms.TextBox()
-        Me.CheckBox16 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox18 = New System.Windows.Forms.CheckBox()
+        Me.txtDelta_tab6 = New System.Windows.Forms.TextBox()
+        Me.ckdImdLGraph2_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckdImdLGraph1_tab6 = New System.Windows.Forms.CheckBox()
+        Me.ckKinkGraph_tab6 = New System.Windows.Forms.CheckBox()
         Me.GroupBox54 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton75 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton76 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton77 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton78 = New System.Windows.Forms.RadioButton()
+        Me.rdo20mA_tab6 = New System.Windows.Forms.RadioButton()
+        Me.rdo10mA_tab6 = New System.Windows.Forms.RadioButton()
+        Me.rdo02mA_tab6 = New System.Windows.Forms.RadioButton()
+        Me.rdoAuto_tab6 = New System.Windows.Forms.RadioButton()
         Me.Label397 = New System.Windows.Forms.Label()
         Me.Label398 = New System.Windows.Forms.Label()
         Me.Label399 = New System.Windows.Forms.Label()
@@ -174,19 +174,19 @@ Partial Class frmILMeasurement
         Me.Label227 = New System.Windows.Forms.Label()
         Me.Label240 = New System.Windows.Forms.Label()
         Me.ILSweep5 = New System.Windows.Forms.TabPage()
-        Me.TextBox94 = New System.Windows.Forms.TextBox()
-        Me.TextBox105 = New System.Windows.Forms.TextBox()
-        Me.TextBox106 = New System.Windows.Forms.TextBox()
-        Me.TextBox107 = New System.Windows.Forms.TextBox()
-        Me.TextBox108 = New System.Windows.Forms.TextBox()
-        Me.TextBox109 = New System.Windows.Forms.TextBox()
-        Me.TextBox110 = New System.Windows.Forms.TextBox()
-        Me.TextBox111 = New System.Windows.Forms.TextBox()
-        Me.TextBox112 = New System.Windows.Forms.TextBox()
-        Me.TextBox113 = New System.Windows.Forms.TextBox()
-        Me.TextBox114 = New System.Windows.Forms.TextBox()
-        Me.TextBox115 = New System.Windows.Forms.TextBox()
-        Me.TextBox116 = New System.Windows.Forms.TextBox()
+        Me.txtPmax_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtIthpP2_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtIthpP1_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtdImdLMax_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtRmax_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtImMax_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtVfmax_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtnMax_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtlampda_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtIvf_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtImax_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtPCALminOffset_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtPCALmin_tab5 = New System.Windows.Forms.TextBox()
         Me.txtImdiv_tab5 = New System.Windows.Forms.TextBox()
         Me.txtImscale_tab5 = New System.Windows.Forms.TextBox()
         Me.txtRddiv_tab5 = New System.Windows.Forms.TextBox()
@@ -224,30 +224,30 @@ Partial Class frmILMeasurement
         Me.Label355 = New System.Windows.Forms.Label()
         Me.Label356 = New System.Windows.Forms.Label()
         Me.Label357 = New System.Windows.Forms.Label()
-        Me.TextBox95 = New System.Windows.Forms.TextBox()
-        Me.TextBox96 = New System.Windows.Forms.TextBox()
+        Me.txtFRPpointNum_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtFRPcalculationSetting_tab5 = New System.Windows.Forms.TextBox()
         Me.GroupBox38 = New System.Windows.Forms.GroupBox()
-        Me.TextBox97 = New System.Windows.Forms.TextBox()
+        Me.txtSparationCoefficient_tab5 = New System.Windows.Forms.TextBox()
         Me.GroupBox39 = New System.Windows.Forms.GroupBox()
         Me.Label358 = New System.Windows.Forms.Label()
         Me.Label359 = New System.Windows.Forms.Label()
-        Me.TextBox98 = New System.Windows.Forms.TextBox()
-        Me.TextBox99 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingResistance_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingEfficiency_tab5 = New System.Windows.Forms.TextBox()
         Me.GroupBox40 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton53 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton54 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod2_tab5 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod1_tab5 = New System.Windows.Forms.RadioButton()
         Me.GroupBox41 = New System.Windows.Forms.GroupBox()
-        Me.TextBox100 = New System.Windows.Forms.TextBox()
-        Me.RadioButton55 = New System.Windows.Forms.RadioButton()
+        Me.txtLeastSquareNumOfPoint_tab5 = New System.Windows.Forms.TextBox()
+        Me.rdoLeastSquarefomula_tab5 = New System.Windows.Forms.RadioButton()
         Me.Label360 = New System.Windows.Forms.Label()
-        Me.RadioButton56 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton57 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquareSecon_tab5 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquarePrimary_tab5 = New System.Windows.Forms.RadioButton()
         Me.GroupBox42 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton58 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton59 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModeCurrnet_tab5 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModePower_tab5 = New System.Windows.Forms.RadioButton()
         Me.GroupBox43 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton60 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton61 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType2_tab5 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType1_tab5 = New System.Windows.Forms.RadioButton()
         Me.GroupBox44 = New System.Windows.Forms.GroupBox()
         Me.Label361 = New System.Windows.Forms.Label()
         Me.Label362 = New System.Windows.Forms.Label()
@@ -255,20 +255,20 @@ Partial Class frmILMeasurement
         Me.Label364 = New System.Windows.Forms.Label()
         Me.Label365 = New System.Windows.Forms.Label()
         Me.Label366 = New System.Windows.Forms.Label()
-        Me.TextBox101 = New System.Windows.Forms.TextBox()
-        Me.TextBox102 = New System.Windows.Forms.TextBox()
+        Me.txtKinkY_tab5 = New System.Windows.Forms.TextBox()
+        Me.txtKinkX_tab5 = New System.Windows.Forms.TextBox()
         Me.Label367 = New System.Windows.Forms.Label()
-        Me.TextBox103 = New System.Windows.Forms.TextBox()
+        Me.txtIkMax_tab5 = New System.Windows.Forms.TextBox()
         Me.Label368 = New System.Windows.Forms.Label()
-        Me.TextBox104 = New System.Windows.Forms.TextBox()
-        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
+        Me.txtDelta_tab5 = New System.Windows.Forms.TextBox()
+        Me.ckdImdLGraph2_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckdImdLGraph1_tab5 = New System.Windows.Forms.CheckBox()
+        Me.ckKinkGraph_tab5 = New System.Windows.Forms.CheckBox()
         Me.GroupBox45 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton62 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton63 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton64 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton65 = New System.Windows.Forms.RadioButton()
+        Me.rdo20mA_tab5 = New System.Windows.Forms.RadioButton()
+        Me.rdo10mA_tab5 = New System.Windows.Forms.RadioButton()
+        Me.rdo02mA_tab5 = New System.Windows.Forms.RadioButton()
+        Me.rdoAuto_tab5 = New System.Windows.Forms.RadioButton()
         Me.Label369 = New System.Windows.Forms.Label()
         Me.Label370 = New System.Windows.Forms.Label()
         Me.Label371 = New System.Windows.Forms.Label()
@@ -323,19 +323,19 @@ Partial Class frmILMeasurement
         Me.Label177 = New System.Windows.Forms.Label()
         Me.Label178 = New System.Windows.Forms.Label()
         Me.ILSweep4 = New System.Windows.Forms.TabPage()
-        Me.TextBox71 = New System.Windows.Forms.TextBox()
-        Me.TextBox82 = New System.Windows.Forms.TextBox()
-        Me.TextBox83 = New System.Windows.Forms.TextBox()
-        Me.TextBox84 = New System.Windows.Forms.TextBox()
-        Me.TextBox85 = New System.Windows.Forms.TextBox()
-        Me.TextBox86 = New System.Windows.Forms.TextBox()
-        Me.TextBox87 = New System.Windows.Forms.TextBox()
-        Me.TextBox88 = New System.Windows.Forms.TextBox()
-        Me.TextBox89 = New System.Windows.Forms.TextBox()
-        Me.TextBox90 = New System.Windows.Forms.TextBox()
-        Me.TextBox91 = New System.Windows.Forms.TextBox()
-        Me.TextBox92 = New System.Windows.Forms.TextBox()
-        Me.TextBox93 = New System.Windows.Forms.TextBox()
+        Me.txtPmax_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtIthpP2_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtIthpP1_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtdImdLMax_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtRmax_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtImMax_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtVfmax_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtnMax_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtlampda_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtIvf_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtImax_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtPCALminOffset_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtPCALmin_tab4 = New System.Windows.Forms.TextBox()
         Me.txtImdiv_tab4 = New System.Windows.Forms.TextBox()
         Me.txtImscale_tab4 = New System.Windows.Forms.TextBox()
         Me.txtRddiv_tab4 = New System.Windows.Forms.TextBox()
@@ -373,30 +373,30 @@ Partial Class frmILMeasurement
         Me.Label327 = New System.Windows.Forms.Label()
         Me.Label328 = New System.Windows.Forms.Label()
         Me.Label329 = New System.Windows.Forms.Label()
-        Me.TextBox72 = New System.Windows.Forms.TextBox()
-        Me.TextBox73 = New System.Windows.Forms.TextBox()
+        Me.txtFRPpointNum_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtFRPcalculationSetting_tab4 = New System.Windows.Forms.TextBox()
         Me.GroupBox29 = New System.Windows.Forms.GroupBox()
-        Me.TextBox74 = New System.Windows.Forms.TextBox()
+        Me.txtSparationCoefficient_tab4 = New System.Windows.Forms.TextBox()
         Me.GroupBox30 = New System.Windows.Forms.GroupBox()
         Me.Label330 = New System.Windows.Forms.Label()
         Me.Label331 = New System.Windows.Forms.Label()
-        Me.TextBox75 = New System.Windows.Forms.TextBox()
-        Me.TextBox76 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingResistance_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingEfficiency_tab4 = New System.Windows.Forms.TextBox()
         Me.GroupBox31 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton40 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton41 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod2_tab4 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod1_tab4 = New System.Windows.Forms.RadioButton()
         Me.GroupBox32 = New System.Windows.Forms.GroupBox()
-        Me.TextBox77 = New System.Windows.Forms.TextBox()
-        Me.RadioButton42 = New System.Windows.Forms.RadioButton()
+        Me.txtLeastSquareNumOfPoint_tab4 = New System.Windows.Forms.TextBox()
+        Me.rdoLeastSquarefomula_tab4 = New System.Windows.Forms.RadioButton()
         Me.Label332 = New System.Windows.Forms.Label()
-        Me.RadioButton43 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton44 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquareSecon_tab4 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquarePrimary_tab4 = New System.Windows.Forms.RadioButton()
         Me.GroupBox33 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton45 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton46 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModeCurrnet_tab4 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModePower_tab4 = New System.Windows.Forms.RadioButton()
         Me.GroupBox34 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton47 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton48 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType2_tab4 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType1_tab4 = New System.Windows.Forms.RadioButton()
         Me.GroupBox35 = New System.Windows.Forms.GroupBox()
         Me.Label333 = New System.Windows.Forms.Label()
         Me.Label334 = New System.Windows.Forms.Label()
@@ -404,20 +404,20 @@ Partial Class frmILMeasurement
         Me.Label336 = New System.Windows.Forms.Label()
         Me.Label337 = New System.Windows.Forms.Label()
         Me.Label338 = New System.Windows.Forms.Label()
-        Me.TextBox78 = New System.Windows.Forms.TextBox()
-        Me.TextBox79 = New System.Windows.Forms.TextBox()
+        Me.txtKinkY_tab4 = New System.Windows.Forms.TextBox()
+        Me.txtKinkX_tab4 = New System.Windows.Forms.TextBox()
         Me.Label339 = New System.Windows.Forms.Label()
-        Me.TextBox80 = New System.Windows.Forms.TextBox()
+        Me.txtIkMax_tab4 = New System.Windows.Forms.TextBox()
         Me.Label340 = New System.Windows.Forms.Label()
-        Me.TextBox81 = New System.Windows.Forms.TextBox()
-        Me.CheckBox10 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
+        Me.txtDelta_tab4 = New System.Windows.Forms.TextBox()
+        Me.ckdImdLGraph2_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckdImdLGraph1_tab4 = New System.Windows.Forms.CheckBox()
+        Me.ckKinkGraph_tab4 = New System.Windows.Forms.CheckBox()
         Me.GroupBox36 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton49 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton50 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton51 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton52 = New System.Windows.Forms.RadioButton()
+        Me.rdo20mA_tab4 = New System.Windows.Forms.RadioButton()
+        Me.rdo10mA_tab4 = New System.Windows.Forms.RadioButton()
+        Me.rdo02mA_tab4 = New System.Windows.Forms.RadioButton()
+        Me.rdoAuto_tab4 = New System.Windows.Forms.RadioButton()
         Me.Label341 = New System.Windows.Forms.Label()
         Me.Label342 = New System.Windows.Forms.Label()
         Me.Label343 = New System.Windows.Forms.Label()
@@ -471,20 +471,20 @@ Partial Class frmILMeasurement
         Me.Label136 = New System.Windows.Forms.Label()
         Me.Label137 = New System.Windows.Forms.Label()
         Me.Label138 = New System.Windows.Forms.Label()
-        Me.ILSweep3 = New System.Windows.Forms.TabPage()
-        Me.TextBox48 = New System.Windows.Forms.TextBox()
-        Me.TextBox59 = New System.Windows.Forms.TextBox()
-        Me.TextBox60 = New System.Windows.Forms.TextBox()
-        Me.TextBox61 = New System.Windows.Forms.TextBox()
-        Me.TextBox62 = New System.Windows.Forms.TextBox()
-        Me.TextBox63 = New System.Windows.Forms.TextBox()
-        Me.TextBox64 = New System.Windows.Forms.TextBox()
-        Me.TextBox65 = New System.Windows.Forms.TextBox()
-        Me.TextBox66 = New System.Windows.Forms.TextBox()
-        Me.TextBox67 = New System.Windows.Forms.TextBox()
-        Me.TextBox68 = New System.Windows.Forms.TextBox()
-        Me.TextBox69 = New System.Windows.Forms.TextBox()
-        Me.TextBox70 = New System.Windows.Forms.TextBox()
+        Me.txtPmax_tab3 = New System.Windows.Forms.TabPage()
+        Me.txtPmax_tab = New System.Windows.Forms.TextBox()
+        Me.txtIthpP2_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtIthpP1_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtdImdLMax_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtRmax_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtImMax_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtVfmax_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtnMax_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtlampda_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtIvf_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtImax_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtPCALminOffset_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtPCALmin_tab3 = New System.Windows.Forms.TextBox()
         Me.txtImdiv_tab3 = New System.Windows.Forms.TextBox()
         Me.txtImscale_tab3 = New System.Windows.Forms.TextBox()
         Me.txtRddiv_tab3 = New System.Windows.Forms.TextBox()
@@ -522,30 +522,30 @@ Partial Class frmILMeasurement
         Me.Label299 = New System.Windows.Forms.Label()
         Me.Label300 = New System.Windows.Forms.Label()
         Me.Label301 = New System.Windows.Forms.Label()
-        Me.TextBox49 = New System.Windows.Forms.TextBox()
-        Me.TextBox50 = New System.Windows.Forms.TextBox()
+        Me.txtFRPpointNum_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtFRPcalculationSetting_tab3 = New System.Windows.Forms.TextBox()
         Me.GroupBox20 = New System.Windows.Forms.GroupBox()
-        Me.TextBox51 = New System.Windows.Forms.TextBox()
+        Me.txtSparationCoefficient_tab3 = New System.Windows.Forms.TextBox()
         Me.GroupBox21 = New System.Windows.Forms.GroupBox()
         Me.Label302 = New System.Windows.Forms.Label()
         Me.Label303 = New System.Windows.Forms.Label()
-        Me.TextBox52 = New System.Windows.Forms.TextBox()
-        Me.TextBox53 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingResistance_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingEfficiency_tab3 = New System.Windows.Forms.TextBox()
         Me.GroupBox22 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton27 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton28 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod2_tab3 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod1_tab3 = New System.Windows.Forms.RadioButton()
         Me.GroupBox23 = New System.Windows.Forms.GroupBox()
-        Me.TextBox54 = New System.Windows.Forms.TextBox()
-        Me.RadioButton29 = New System.Windows.Forms.RadioButton()
+        Me.txtLeastSquareNumOfPoint_tab3 = New System.Windows.Forms.TextBox()
+        Me.rdoLeastSquarefomula_tab3 = New System.Windows.Forms.RadioButton()
         Me.Label304 = New System.Windows.Forms.Label()
-        Me.RadioButton30 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton31 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquareSecon_tab3 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquarePrimary_tab3 = New System.Windows.Forms.RadioButton()
         Me.GroupBox24 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton32 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton33 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModeCurrnet_tab3 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModePower_tab3 = New System.Windows.Forms.RadioButton()
         Me.GroupBox25 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton34 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton35 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType2_tab3 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType1_tab3 = New System.Windows.Forms.RadioButton()
         Me.GroupBox26 = New System.Windows.Forms.GroupBox()
         Me.Label305 = New System.Windows.Forms.Label()
         Me.Label306 = New System.Windows.Forms.Label()
@@ -553,20 +553,20 @@ Partial Class frmILMeasurement
         Me.Label308 = New System.Windows.Forms.Label()
         Me.Label309 = New System.Windows.Forms.Label()
         Me.Label310 = New System.Windows.Forms.Label()
-        Me.TextBox55 = New System.Windows.Forms.TextBox()
-        Me.TextBox56 = New System.Windows.Forms.TextBox()
+        Me.txtKinkY_tab3 = New System.Windows.Forms.TextBox()
+        Me.txtKinkX_tab3 = New System.Windows.Forms.TextBox()
         Me.Label311 = New System.Windows.Forms.Label()
-        Me.TextBox57 = New System.Windows.Forms.TextBox()
+        Me.txtIkMax_tab3 = New System.Windows.Forms.TextBox()
         Me.Label312 = New System.Windows.Forms.Label()
-        Me.TextBox58 = New System.Windows.Forms.TextBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
+        Me.txtDelta_tab3 = New System.Windows.Forms.TextBox()
+        Me.ckdImdLGraph2_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckdImdLGraph1_tab3 = New System.Windows.Forms.CheckBox()
+        Me.ckKinkGraph_tab3 = New System.Windows.Forms.CheckBox()
         Me.GroupBox27 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton36 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton37 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton38 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton39 = New System.Windows.Forms.RadioButton()
+        Me.rdo20mA_tab3 = New System.Windows.Forms.RadioButton()
+        Me.rdo10mA_tab3 = New System.Windows.Forms.RadioButton()
+        Me.rdo02mA_tab3 = New System.Windows.Forms.RadioButton()
+        Me.rdoAuto_tab3 = New System.Windows.Forms.RadioButton()
         Me.Label313 = New System.Windows.Forms.Label()
         Me.Label314 = New System.Windows.Forms.Label()
         Me.Label315 = New System.Windows.Forms.Label()
@@ -621,19 +621,19 @@ Partial Class frmILMeasurement
         Me.Label97 = New System.Windows.Forms.Label()
         Me.Label98 = New System.Windows.Forms.Label()
         Me.ILSweep2 = New System.Windows.Forms.TabPage()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox36 = New System.Windows.Forms.TextBox()
-        Me.TextBox37 = New System.Windows.Forms.TextBox()
-        Me.TextBox38 = New System.Windows.Forms.TextBox()
-        Me.TextBox39 = New System.Windows.Forms.TextBox()
-        Me.TextBox40 = New System.Windows.Forms.TextBox()
-        Me.TextBox41 = New System.Windows.Forms.TextBox()
-        Me.TextBox42 = New System.Windows.Forms.TextBox()
-        Me.TextBox43 = New System.Windows.Forms.TextBox()
-        Me.TextBox44 = New System.Windows.Forms.TextBox()
-        Me.TextBox45 = New System.Windows.Forms.TextBox()
-        Me.TextBox46 = New System.Windows.Forms.TextBox()
-        Me.TextBox47 = New System.Windows.Forms.TextBox()
+        Me.txtPmax_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtIthpP2_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtIthpP1_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtdImdLMax_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtRmax_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtImMax_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtVfmax_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtnMax_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtlampda_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtIvf_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtImax_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtPCALminOffset_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtPCALmin_tab2 = New System.Windows.Forms.TextBox()
         Me.txtImdiv_tab2 = New System.Windows.Forms.TextBox()
         Me.txtImscale_tab2 = New System.Windows.Forms.TextBox()
         Me.txtRddiv_tab2 = New System.Windows.Forms.TextBox()
@@ -671,30 +671,30 @@ Partial Class frmILMeasurement
         Me.Label271 = New System.Windows.Forms.Label()
         Me.Label272 = New System.Windows.Forms.Label()
         Me.Label273 = New System.Windows.Forms.Label()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
-        Me.TextBox27 = New System.Windows.Forms.TextBox()
+        Me.txtFRPpointNum_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtFRPcalculationSetting_tab2 = New System.Windows.Forms.TextBox()
         Me.GroupBox11 = New System.Windows.Forms.GroupBox()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
+        Me.txtSparationCoefficient_tab2 = New System.Windows.Forms.TextBox()
         Me.GroupBox12 = New System.Windows.Forms.GroupBox()
         Me.Label274 = New System.Windows.Forms.Label()
         Me.Label275 = New System.Windows.Forms.Label()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingResistance_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingEfficiency_tab2 = New System.Windows.Forms.TextBox()
         Me.GroupBox13 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton14 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton15 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod2_tab2 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod1_tab2 = New System.Windows.Forms.RadioButton()
         Me.GroupBox14 = New System.Windows.Forms.GroupBox()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
-        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
+        Me.txtLeastSquareNumOfPoint_tab2 = New System.Windows.Forms.TextBox()
+        Me.rdoLeastSquarefomula_tab2 = New System.Windows.Forms.RadioButton()
         Me.Label276 = New System.Windows.Forms.Label()
-        Me.RadioButton17 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton18 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquareSecon_tab2 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquarePrimary_tab2 = New System.Windows.Forms.RadioButton()
         Me.GroupBox15 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton19 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton20 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModeCurrnet_tab2 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModePower_tab2 = New System.Windows.Forms.RadioButton()
         Me.GroupBox16 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton21 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton22 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType2_tab2 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType1_tab2 = New System.Windows.Forms.RadioButton()
         Me.GroupBox17 = New System.Windows.Forms.GroupBox()
         Me.Label277 = New System.Windows.Forms.Label()
         Me.Label278 = New System.Windows.Forms.Label()
@@ -702,20 +702,20 @@ Partial Class frmILMeasurement
         Me.Label280 = New System.Windows.Forms.Label()
         Me.Label281 = New System.Windows.Forms.Label()
         Me.Label282 = New System.Windows.Forms.Label()
-        Me.TextBox32 = New System.Windows.Forms.TextBox()
-        Me.TextBox33 = New System.Windows.Forms.TextBox()
+        Me.txtKinkY_tab2 = New System.Windows.Forms.TextBox()
+        Me.txtKinkX_tab2 = New System.Windows.Forms.TextBox()
         Me.Label283 = New System.Windows.Forms.Label()
-        Me.TextBox34 = New System.Windows.Forms.TextBox()
+        Me.txtIkMax_tab2 = New System.Windows.Forms.TextBox()
         Me.Label284 = New System.Windows.Forms.Label()
-        Me.TextBox35 = New System.Windows.Forms.TextBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
+        Me.txtDelta_tab2 = New System.Windows.Forms.TextBox()
+        Me.ckdImdLGraph2_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckdImdLGraph1_tab2 = New System.Windows.Forms.CheckBox()
+        Me.ckKinkGraph_tab2 = New System.Windows.Forms.CheckBox()
         Me.GroupBox18 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton23 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton24 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton25 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton26 = New System.Windows.Forms.RadioButton()
+        Me.rdo20mA_tab2 = New System.Windows.Forms.RadioButton()
+        Me.rdo10mA_tab2 = New System.Windows.Forms.RadioButton()
+        Me.rdo02mA_tab2 = New System.Windows.Forms.RadioButton()
+        Me.rdoAuto_tab2 = New System.Windows.Forms.RadioButton()
         Me.Label285 = New System.Windows.Forms.Label()
         Me.Label286 = New System.Windows.Forms.Label()
         Me.Label287 = New System.Windows.Forms.Label()
@@ -770,19 +770,19 @@ Partial Class frmILMeasurement
         Me.Label61 = New System.Windows.Forms.Label()
         Me.Label62 = New System.Windows.Forms.Label()
         Me.ILSweep1 = New System.Windows.Forms.TabPage()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.txtPmax_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtIthpP2_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtIthpP1_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtdImdLMax_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtRmax_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtImMax_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtVfmax_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtnMax_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtlampda_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtIvf_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtImax_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtPCALminOffset_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtPCALmin_tab1 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.txtImdiv_tab1 = New System.Windows.Forms.TextBox()
         Me.txtImscale_tab1 = New System.Windows.Forms.TextBox()
@@ -821,30 +821,30 @@ Partial Class frmILMeasurement
         Me.Label268 = New System.Windows.Forms.Label()
         Me.Label265 = New System.Windows.Forms.Label()
         Me.Label264 = New System.Windows.Forms.Label()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.txtFRPpointNum_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtFRPcalculationSetting_tab1 = New System.Windows.Forms.TextBox()
         Me.GroupBox8 = New System.Windows.Forms.GroupBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.txtSparationCoefficient_tab1 = New System.Windows.Forms.TextBox()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
         Me.Label266 = New System.Windows.Forms.Label()
         Me.Label267 = New System.Windows.Forms.Label()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingResistance_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtSmoothingEfficiency_tab1 = New System.Windows.Forms.TextBox()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton13 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod2_tab1 = New System.Windows.Forms.RadioButton()
+        Me.rdoDiffMethod1_tab1 = New System.Windows.Forms.RadioButton()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
+        Me.txtLeastSquareNumOfPoint_tab1 = New System.Windows.Forms.TextBox()
+        Me.rdoLeastSquarefomula_tab1 = New System.Windows.Forms.RadioButton()
         Me.Label263 = New System.Windows.Forms.Label()
-        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquareSecon_tab1 = New System.Windows.Forms.RadioButton()
+        Me.rdoLeastSquarePrimary_tab1 = New System.Windows.Forms.RadioButton()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModeCurrnet_tab1 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkModePower_tab1 = New System.Windows.Forms.RadioButton()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType2_tab1 = New System.Windows.Forms.RadioButton()
+        Me.rdoKinkType1_tab1 = New System.Windows.Forms.RadioButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Label262 = New System.Windows.Forms.Label()
         Me.Label261 = New System.Windows.Forms.Label()
@@ -852,20 +852,20 @@ Partial Class frmILMeasurement
         Me.Label259 = New System.Windows.Forms.Label()
         Me.Label258 = New System.Windows.Forms.Label()
         Me.Label257 = New System.Windows.Forms.Label()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
+        Me.txtKinkY_tab1 = New System.Windows.Forms.TextBox()
+        Me.txtKinkX_tab1 = New System.Windows.Forms.TextBox()
         Me.Label256 = New System.Windows.Forms.Label()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.txtIkMax_tab1 = New System.Windows.Forms.TextBox()
         Me.Label255 = New System.Windows.Forms.Label()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.txtDelta_tab1 = New System.Windows.Forms.TextBox()
+        Me.ckdImdLGraph2_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckdImdLGraph1_tab1 = New System.Windows.Forms.CheckBox()
+        Me.ckKinkGraph_tab1 = New System.Windows.Forms.CheckBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.rdo20mA_tab1 = New System.Windows.Forms.RadioButton()
+        Me.rdo10mA_tab1 = New System.Windows.Forms.RadioButton()
+        Me.rdo02mA_tab1 = New System.Windows.Forms.RadioButton()
+        Me.rdoAuto_tab1 = New System.Windows.Forms.RadioButton()
         Me.Label254 = New System.Windows.Forms.Label()
         Me.Label242 = New System.Windows.Forms.Label()
         Me.Label243 = New System.Windows.Forms.Label()
@@ -921,6 +921,16 @@ Partial Class frmILMeasurement
         Me.Label38 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.tabsSweep = New System.Windows.Forms.TabControl()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.Label410 = New System.Windows.Forms.Label()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.Label411 = New System.Windows.Forms.Label()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.Label412 = New System.Windows.Forms.Label()
+        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.Label413 = New System.Windows.Forms.Label()
+        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.Label414 = New System.Windows.Forms.Label()
         Me.ILSweep6.SuspendLayout
         Me.GroupBox46.SuspendLayout
         Me.GroupBox47.SuspendLayout
@@ -951,7 +961,7 @@ Partial Class frmILMeasurement
         Me.GroupBox34.SuspendLayout
         Me.GroupBox35.SuspendLayout
         Me.GroupBox36.SuspendLayout
-        Me.ILSweep3.SuspendLayout
+        Me.txtPmax_tab3.SuspendLayout
         Me.GroupBox19.SuspendLayout
         Me.GroupBox20.SuspendLayout
         Me.GroupBox21.SuspendLayout
@@ -1008,19 +1018,21 @@ Partial Class frmILMeasurement
         '
         'ILSweep6
         '
-        Me.ILSweep6.Controls.Add(Me.TextBox117)
-        Me.ILSweep6.Controls.Add(Me.TextBox118)
-        Me.ILSweep6.Controls.Add(Me.TextBox119)
-        Me.ILSweep6.Controls.Add(Me.TextBox120)
-        Me.ILSweep6.Controls.Add(Me.TextBox121)
-        Me.ILSweep6.Controls.Add(Me.TextBox122)
-        Me.ILSweep6.Controls.Add(Me.TextBox123)
-        Me.ILSweep6.Controls.Add(Me.TextBox124)
-        Me.ILSweep6.Controls.Add(Me.TextBox125)
-        Me.ILSweep6.Controls.Add(Me.TextBox126)
-        Me.ILSweep6.Controls.Add(Me.TextBox127)
-        Me.ILSweep6.Controls.Add(Me.TextBox128)
-        Me.ILSweep6.Controls.Add(Me.TextBox129)
+        Me.ILSweep6.Controls.Add(Me.TextBox13)
+        Me.ILSweep6.Controls.Add(Me.Label414)
+        Me.ILSweep6.Controls.Add(Me.txtPmax_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtIthpP2_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtIthpP1_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtdImdLMax_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtRmax_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtImMax_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtVfmax_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtnMax_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtlampda_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtIvf_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtImax_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtPCALminOffset_tab6)
+        Me.ILSweep6.Controls.Add(Me.txtPCALmin_tab6)
         Me.ILSweep6.Controls.Add(Me.GroupBox46)
         Me.ILSweep6.Controls.Add(Me.GroupBox47)
         Me.ILSweep6.Controls.Add(Me.GroupBox48)
@@ -1125,135 +1137,135 @@ Partial Class frmILMeasurement
         Me.ILSweep6.Text = "IL Sweep6"
         Me.ILSweep6.UseVisualStyleBackColor = True
         '
-        'TextBox117
+        'txtPmax_tab6
         '
-        Me.TextBox117.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox117.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox117.Location = New System.Drawing.Point(530, 253)
-        Me.TextBox117.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox117.Name = "TextBox117"
-        Me.TextBox117.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox117.TabIndex = 456
+        Me.txtPmax_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPmax_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPmax_tab6.Location = New System.Drawing.Point(530, 253)
+        Me.txtPmax_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPmax_tab6.Name = "txtPmax_tab6"
+        Me.txtPmax_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtPmax_tab6.TabIndex = 456
         '
-        'TextBox118
+        'txtIthpP2_tab6
         '
-        Me.TextBox118.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox118.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox118.Location = New System.Drawing.Point(530, 520)
-        Me.TextBox118.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox118.Name = "TextBox118"
-        Me.TextBox118.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox118.TabIndex = 446
+        Me.txtIthpP2_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP2_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP2_tab6.Location = New System.Drawing.Point(530, 520)
+        Me.txtIthpP2_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP2_tab6.Name = "txtIthpP2_tab6"
+        Me.txtIthpP2_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP2_tab6.TabIndex = 446
         '
-        'TextBox119
+        'txtIthpP1_tab6
         '
-        Me.TextBox119.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox119.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox119.Location = New System.Drawing.Point(530, 480)
-        Me.TextBox119.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox119.Name = "TextBox119"
-        Me.TextBox119.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox119.TabIndex = 443
+        Me.txtIthpP1_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP1_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP1_tab6.Location = New System.Drawing.Point(530, 480)
+        Me.txtIthpP1_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP1_tab6.Name = "txtIthpP1_tab6"
+        Me.txtIthpP1_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP1_tab6.TabIndex = 443
         '
-        'TextBox120
+        'txtdImdLMax_tab6
         '
-        Me.TextBox120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox120.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox120.Location = New System.Drawing.Point(530, 441)
-        Me.TextBox120.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox120.Name = "TextBox120"
-        Me.TextBox120.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox120.TabIndex = 442
+        Me.txtdImdLMax_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdImdLMax_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdImdLMax_tab6.Location = New System.Drawing.Point(530, 441)
+        Me.txtdImdLMax_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtdImdLMax_tab6.Name = "txtdImdLMax_tab6"
+        Me.txtdImdLMax_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtdImdLMax_tab6.TabIndex = 442
         '
-        'TextBox121
+        'txtRmax_tab6
         '
-        Me.TextBox121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox121.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox121.Location = New System.Drawing.Point(530, 405)
-        Me.TextBox121.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox121.Name = "TextBox121"
-        Me.TextBox121.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox121.TabIndex = 441
+        Me.txtRmax_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRmax_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRmax_tab6.Location = New System.Drawing.Point(530, 405)
+        Me.txtRmax_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRmax_tab6.Name = "txtRmax_tab6"
+        Me.txtRmax_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtRmax_tab6.TabIndex = 441
         '
-        'TextBox122
+        'txtImMax_tab6
         '
-        Me.TextBox122.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox122.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox122.Location = New System.Drawing.Point(530, 368)
-        Me.TextBox122.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox122.Name = "TextBox122"
-        Me.TextBox122.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox122.TabIndex = 440
+        Me.txtImMax_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImMax_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImMax_tab6.Location = New System.Drawing.Point(530, 368)
+        Me.txtImMax_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImMax_tab6.Name = "txtImMax_tab6"
+        Me.txtImMax_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtImMax_tab6.TabIndex = 440
         '
-        'TextBox123
+        'txtVfmax_tab6
         '
-        Me.TextBox123.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox123.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox123.Location = New System.Drawing.Point(530, 329)
-        Me.TextBox123.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox123.Name = "TextBox123"
-        Me.TextBox123.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox123.TabIndex = 439
+        Me.txtVfmax_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtVfmax_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtVfmax_tab6.Location = New System.Drawing.Point(530, 329)
+        Me.txtVfmax_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtVfmax_tab6.Name = "txtVfmax_tab6"
+        Me.txtVfmax_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtVfmax_tab6.TabIndex = 439
         '
-        'TextBox124
+        'txtnMax_tab6
         '
-        Me.TextBox124.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox124.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox124.Location = New System.Drawing.Point(530, 291)
-        Me.TextBox124.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox124.Name = "TextBox124"
-        Me.TextBox124.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox124.TabIndex = 438
+        Me.txtnMax_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtnMax_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnMax_tab6.Location = New System.Drawing.Point(530, 291)
+        Me.txtnMax_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtnMax_tab6.Name = "txtnMax_tab6"
+        Me.txtnMax_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtnMax_tab6.TabIndex = 438
         '
-        'TextBox125
+        'txtlampda_tab6
         '
-        Me.TextBox125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox125.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox125.Location = New System.Drawing.Point(530, 211)
-        Me.TextBox125.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox125.Name = "TextBox125"
-        Me.TextBox125.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox125.TabIndex = 437
+        Me.txtlampda_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtlampda_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtlampda_tab6.Location = New System.Drawing.Point(530, 211)
+        Me.txtlampda_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtlampda_tab6.Name = "txtlampda_tab6"
+        Me.txtlampda_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtlampda_tab6.TabIndex = 437
         '
-        'TextBox126
+        'txtIvf_tab6
         '
-        Me.TextBox126.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox126.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox126.Location = New System.Drawing.Point(530, 173)
-        Me.TextBox126.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox126.Name = "TextBox126"
-        Me.TextBox126.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox126.TabIndex = 436
+        Me.txtIvf_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIvf_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIvf_tab6.Location = New System.Drawing.Point(530, 173)
+        Me.txtIvf_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIvf_tab6.Name = "txtIvf_tab6"
+        Me.txtIvf_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtIvf_tab6.TabIndex = 436
         '
-        'TextBox127
+        'txtImax_tab6
         '
-        Me.TextBox127.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox127.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox127.Location = New System.Drawing.Point(530, 133)
-        Me.TextBox127.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox127.Name = "TextBox127"
-        Me.TextBox127.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox127.TabIndex = 435
+        Me.txtImax_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImax_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImax_tab6.Location = New System.Drawing.Point(530, 133)
+        Me.txtImax_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImax_tab6.Name = "txtImax_tab6"
+        Me.txtImax_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtImax_tab6.TabIndex = 435
         '
-        'TextBox128
+        'txtPCALminOffset_tab6
         '
-        Me.TextBox128.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox128.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox128.Location = New System.Drawing.Point(530, 91)
-        Me.TextBox128.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox128.Name = "TextBox128"
-        Me.TextBox128.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox128.TabIndex = 434
+        Me.txtPCALminOffset_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALminOffset_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALminOffset_tab6.Location = New System.Drawing.Point(530, 91)
+        Me.txtPCALminOffset_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALminOffset_tab6.Name = "txtPCALminOffset_tab6"
+        Me.txtPCALminOffset_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALminOffset_tab6.TabIndex = 434
         '
-        'TextBox129
+        'txtPCALmin_tab6
         '
-        Me.TextBox129.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox129.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox129.Location = New System.Drawing.Point(530, 49)
-        Me.TextBox129.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox129.Name = "TextBox129"
-        Me.TextBox129.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox129.TabIndex = 433
+        Me.txtPCALmin_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALmin_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALmin_tab6.Location = New System.Drawing.Point(530, 49)
+        Me.txtPCALmin_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALmin_tab6.Name = "txtPCALmin_tab6"
+        Me.txtPCALmin_tab6.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALmin_tab6.TabIndex = 433
         '
         'GroupBox46
         '
@@ -1261,8 +1273,8 @@ Partial Class frmILMeasurement
         Me.GroupBox46.Controls.Add(Me.Label383)
         Me.GroupBox46.Controls.Add(Me.Label384)
         Me.GroupBox46.Controls.Add(Me.Label385)
-        Me.GroupBox46.Controls.Add(Me.TextBox130)
-        Me.GroupBox46.Controls.Add(Me.TextBox131)
+        Me.GroupBox46.Controls.Add(Me.txtFRPpointNum_tab6)
+        Me.GroupBox46.Controls.Add(Me.txtFRPcalculationSetting_tab6)
         Me.GroupBox46.Location = New System.Drawing.Point(939, 720)
         Me.GroupBox46.Name = "GroupBox46"
         Me.GroupBox46.Size = New System.Drawing.Size(262, 143)
@@ -1310,29 +1322,29 @@ Partial Class frmILMeasurement
         Me.Label385.TabIndex = 383
         Me.Label385.Text = "mA"
         '
-        'TextBox130
+        'txtFRPpointNum_tab6
         '
-        Me.TextBox130.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox130.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox130.Location = New System.Drawing.Point(129, 96)
-        Me.TextBox130.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox130.Name = "TextBox130"
-        Me.TextBox130.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox130.TabIndex = 372
+        Me.txtFRPpointNum_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPpointNum_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPpointNum_tab6.Location = New System.Drawing.Point(129, 96)
+        Me.txtFRPpointNum_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPpointNum_tab6.Name = "txtFRPpointNum_tab6"
+        Me.txtFRPpointNum_tab6.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPpointNum_tab6.TabIndex = 372
         '
-        'TextBox131
+        'txtFRPcalculationSetting_tab6
         '
-        Me.TextBox131.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox131.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox131.Location = New System.Drawing.Point(129, 57)
-        Me.TextBox131.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox131.Name = "TextBox131"
-        Me.TextBox131.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox131.TabIndex = 371
+        Me.txtFRPcalculationSetting_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPcalculationSetting_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPcalculationSetting_tab6.Location = New System.Drawing.Point(129, 57)
+        Me.txtFRPcalculationSetting_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPcalculationSetting_tab6.Name = "txtFRPcalculationSetting_tab6"
+        Me.txtFRPcalculationSetting_tab6.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPcalculationSetting_tab6.TabIndex = 371
         '
         'GroupBox47
         '
-        Me.GroupBox47.Controls.Add(Me.TextBox132)
+        Me.GroupBox47.Controls.Add(Me.txtSparationCoefficient_tab6)
         Me.GroupBox47.Location = New System.Drawing.Point(939, 637)
         Me.GroupBox47.Name = "GroupBox47"
         Me.GroupBox47.Size = New System.Drawing.Size(262, 77)
@@ -1340,22 +1352,22 @@ Partial Class frmILMeasurement
         Me.GroupBox47.TabStop = False
         Me.GroupBox47.Text = "Sparation coefficient"
         '
-        'TextBox132
+        'txtSparationCoefficient_tab6
         '
-        Me.TextBox132.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox132.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox132.Location = New System.Drawing.Point(137, 33)
-        Me.TextBox132.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox132.Name = "TextBox132"
-        Me.TextBox132.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox132.TabIndex = 371
+        Me.txtSparationCoefficient_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSparationCoefficient_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSparationCoefficient_tab6.Location = New System.Drawing.Point(137, 33)
+        Me.txtSparationCoefficient_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSparationCoefficient_tab6.Name = "txtSparationCoefficient_tab6"
+        Me.txtSparationCoefficient_tab6.Size = New System.Drawing.Size(73, 28)
+        Me.txtSparationCoefficient_tab6.TabIndex = 371
         '
         'GroupBox48
         '
         Me.GroupBox48.Controls.Add(Me.Label386)
         Me.GroupBox48.Controls.Add(Me.Label387)
-        Me.GroupBox48.Controls.Add(Me.TextBox133)
-        Me.GroupBox48.Controls.Add(Me.TextBox134)
+        Me.GroupBox48.Controls.Add(Me.txtSmoothingResistance_tab6)
+        Me.GroupBox48.Controls.Add(Me.txtSmoothingEfficiency_tab6)
         Me.GroupBox48.Location = New System.Drawing.Point(939, 486)
         Me.GroupBox48.Name = "GroupBox48"
         Me.GroupBox48.Size = New System.Drawing.Size(262, 145)
@@ -1383,30 +1395,30 @@ Partial Class frmILMeasurement
         Me.Label387.TabIndex = 372
         Me.Label387.Text = "Differentiation " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "efiiciency"
         '
-        'TextBox133
+        'txtSmoothingResistance_tab6
         '
-        Me.TextBox133.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox133.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox133.Location = New System.Drawing.Point(137, 98)
-        Me.TextBox133.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox133.Name = "TextBox133"
-        Me.TextBox133.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox133.TabIndex = 375
+        Me.txtSmoothingResistance_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingResistance_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingResistance_tab6.Location = New System.Drawing.Point(137, 98)
+        Me.txtSmoothingResistance_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingResistance_tab6.Name = "txtSmoothingResistance_tab6"
+        Me.txtSmoothingResistance_tab6.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingResistance_tab6.TabIndex = 375
         '
-        'TextBox134
+        'txtSmoothingEfficiency_tab6
         '
-        Me.TextBox134.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox134.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox134.Location = New System.Drawing.Point(137, 46)
-        Me.TextBox134.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox134.Name = "TextBox134"
-        Me.TextBox134.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox134.TabIndex = 371
+        Me.txtSmoothingEfficiency_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingEfficiency_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingEfficiency_tab6.Location = New System.Drawing.Point(137, 46)
+        Me.txtSmoothingEfficiency_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingEfficiency_tab6.Name = "txtSmoothingEfficiency_tab6"
+        Me.txtSmoothingEfficiency_tab6.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingEfficiency_tab6.TabIndex = 371
         '
         'GroupBox49
         '
-        Me.GroupBox49.Controls.Add(Me.RadioButton66)
-        Me.GroupBox49.Controls.Add(Me.RadioButton67)
+        Me.GroupBox49.Controls.Add(Me.rdoDiffMethod2_tab6)
+        Me.GroupBox49.Controls.Add(Me.rdoDiffMethod1_tab6)
         Me.GroupBox49.Location = New System.Drawing.Point(939, 360)
         Me.GroupBox49.Name = "GroupBox49"
         Me.GroupBox49.Size = New System.Drawing.Size(262, 113)
@@ -1414,37 +1426,37 @@ Partial Class frmILMeasurement
         Me.GroupBox49.TabStop = False
         Me.GroupBox49.Text = "Differentiation method"
         '
-        'RadioButton66
+        'rdoDiffMethod2_tab6
         '
-        Me.RadioButton66.AutoSize = True
-        Me.RadioButton66.Location = New System.Drawing.Point(20, 69)
-        Me.RadioButton66.Name = "RadioButton66"
-        Me.RadioButton66.Size = New System.Drawing.Size(191, 26)
-        Me.RadioButton66.TabIndex = 371
-        Me.RadioButton66.TabStop = True
-        Me.RadioButton66.Text = "Method 2(sparation)"
-        Me.RadioButton66.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton66.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod2_tab6.AutoSize = True
+        Me.rdoDiffMethod2_tab6.Location = New System.Drawing.Point(20, 69)
+        Me.rdoDiffMethod2_tab6.Name = "rdoDiffMethod2_tab6"
+        Me.rdoDiffMethod2_tab6.Size = New System.Drawing.Size(191, 26)
+        Me.rdoDiffMethod2_tab6.TabIndex = 371
+        Me.rdoDiffMethod2_tab6.TabStop = True
+        Me.rdoDiffMethod2_tab6.Text = "Method 2(sparation)"
+        Me.rdoDiffMethod2_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod2_tab6.UseVisualStyleBackColor = True
         '
-        'RadioButton67
+        'rdoDiffMethod1_tab6
         '
-        Me.RadioButton67.AutoSize = True
-        Me.RadioButton67.Location = New System.Drawing.Point(20, 37)
-        Me.RadioButton67.Name = "RadioButton67"
-        Me.RadioButton67.Size = New System.Drawing.Size(199, 26)
-        Me.RadioButton67.TabIndex = 370
-        Me.RadioButton67.TabStop = True
-        Me.RadioButton67.Text = "Method 1(smoothing)"
-        Me.RadioButton67.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton67.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod1_tab6.AutoSize = True
+        Me.rdoDiffMethod1_tab6.Location = New System.Drawing.Point(20, 37)
+        Me.rdoDiffMethod1_tab6.Name = "rdoDiffMethod1_tab6"
+        Me.rdoDiffMethod1_tab6.Size = New System.Drawing.Size(199, 26)
+        Me.rdoDiffMethod1_tab6.TabIndex = 370
+        Me.rdoDiffMethod1_tab6.TabStop = True
+        Me.rdoDiffMethod1_tab6.Text = "Method 1(smoothing)"
+        Me.rdoDiffMethod1_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod1_tab6.UseVisualStyleBackColor = True
         '
         'GroupBox50
         '
-        Me.GroupBox50.Controls.Add(Me.TextBox135)
-        Me.GroupBox50.Controls.Add(Me.RadioButton68)
+        Me.GroupBox50.Controls.Add(Me.txtLeastSquareNumOfPoint_tab6)
+        Me.GroupBox50.Controls.Add(Me.rdoLeastSquarefomula_tab6)
         Me.GroupBox50.Controls.Add(Me.Label388)
-        Me.GroupBox50.Controls.Add(Me.RadioButton69)
-        Me.GroupBox50.Controls.Add(Me.RadioButton70)
+        Me.GroupBox50.Controls.Add(Me.rdoLeastSquareSecon_tab6)
+        Me.GroupBox50.Controls.Add(Me.rdoLeastSquarePrimary_tab6)
         Me.GroupBox50.Location = New System.Drawing.Point(672, 598)
         Me.GroupBox50.Name = "GroupBox50"
         Me.GroupBox50.Size = New System.Drawing.Size(239, 187)
@@ -1452,27 +1464,27 @@ Partial Class frmILMeasurement
         Me.GroupBox50.TabStop = False
         Me.GroupBox50.Text = "Least-squares method"
         '
-        'TextBox135
+        'txtLeastSquareNumOfPoint_tab6
         '
-        Me.TextBox135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox135.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox135.Location = New System.Drawing.Point(172, 139)
-        Me.TextBox135.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox135.Name = "TextBox135"
-        Me.TextBox135.Size = New System.Drawing.Size(53, 28)
-        Me.TextBox135.TabIndex = 378
+        Me.txtLeastSquareNumOfPoint_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLeastSquareNumOfPoint_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLeastSquareNumOfPoint_tab6.Location = New System.Drawing.Point(172, 139)
+        Me.txtLeastSquareNumOfPoint_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLeastSquareNumOfPoint_tab6.Name = "txtLeastSquareNumOfPoint_tab6"
+        Me.txtLeastSquareNumOfPoint_tab6.Size = New System.Drawing.Size(53, 28)
+        Me.txtLeastSquareNumOfPoint_tab6.TabIndex = 378
         '
-        'RadioButton68
+        'rdoLeastSquarefomula_tab6
         '
-        Me.RadioButton68.AutoSize = True
-        Me.RadioButton68.Location = New System.Drawing.Point(28, 97)
-        Me.RadioButton68.Name = "RadioButton68"
-        Me.RadioButton68.Size = New System.Drawing.Size(128, 26)
-        Me.RadioButton68.TabIndex = 372
-        Me.RadioButton68.TabStop = True
-        Me.RadioButton68.Text = "Input fomula"
-        Me.RadioButton68.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton68.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarefomula_tab6.AutoSize = True
+        Me.rdoLeastSquarefomula_tab6.Location = New System.Drawing.Point(28, 97)
+        Me.rdoLeastSquarefomula_tab6.Name = "rdoLeastSquarefomula_tab6"
+        Me.rdoLeastSquarefomula_tab6.Size = New System.Drawing.Size(128, 26)
+        Me.rdoLeastSquarefomula_tab6.TabIndex = 372
+        Me.rdoLeastSquarefomula_tab6.TabStop = True
+        Me.rdoLeastSquarefomula_tab6.Text = "Input fomula"
+        Me.rdoLeastSquarefomula_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarefomula_tab6.UseVisualStyleBackColor = True
         '
         'Label388
         '
@@ -1484,34 +1496,34 @@ Partial Class frmILMeasurement
         Me.Label388.TabIndex = 377
         Me.Label388.Text = "Number of point"
         '
-        'RadioButton69
+        'rdoLeastSquareSecon_tab6
         '
-        Me.RadioButton69.AutoSize = True
-        Me.RadioButton69.Location = New System.Drawing.Point(28, 66)
-        Me.RadioButton69.Name = "RadioButton69"
-        Me.RadioButton69.Size = New System.Drawing.Size(117, 26)
-        Me.RadioButton69.TabIndex = 371
-        Me.RadioButton69.TabStop = True
-        Me.RadioButton69.Text = "Secondary"
-        Me.RadioButton69.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton69.UseVisualStyleBackColor = True
+        Me.rdoLeastSquareSecon_tab6.AutoSize = True
+        Me.rdoLeastSquareSecon_tab6.Location = New System.Drawing.Point(28, 66)
+        Me.rdoLeastSquareSecon_tab6.Name = "rdoLeastSquareSecon_tab6"
+        Me.rdoLeastSquareSecon_tab6.Size = New System.Drawing.Size(117, 26)
+        Me.rdoLeastSquareSecon_tab6.TabIndex = 371
+        Me.rdoLeastSquareSecon_tab6.TabStop = True
+        Me.rdoLeastSquareSecon_tab6.Text = "Secondary"
+        Me.rdoLeastSquareSecon_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquareSecon_tab6.UseVisualStyleBackColor = True
         '
-        'RadioButton70
+        'rdoLeastSquarePrimary_tab6
         '
-        Me.RadioButton70.AutoSize = True
-        Me.RadioButton70.Location = New System.Drawing.Point(29, 37)
-        Me.RadioButton70.Name = "RadioButton70"
-        Me.RadioButton70.Size = New System.Drawing.Size(86, 26)
-        Me.RadioButton70.TabIndex = 370
-        Me.RadioButton70.TabStop = True
-        Me.RadioButton70.Text = "Primay"
-        Me.RadioButton70.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton70.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarePrimary_tab6.AutoSize = True
+        Me.rdoLeastSquarePrimary_tab6.Location = New System.Drawing.Point(29, 37)
+        Me.rdoLeastSquarePrimary_tab6.Name = "rdoLeastSquarePrimary_tab6"
+        Me.rdoLeastSquarePrimary_tab6.Size = New System.Drawing.Size(92, 26)
+        Me.rdoLeastSquarePrimary_tab6.TabIndex = 370
+        Me.rdoLeastSquarePrimary_tab6.TabStop = True
+        Me.rdoLeastSquarePrimary_tab6.Text = "Primary"
+        Me.rdoLeastSquarePrimary_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarePrimary_tab6.UseVisualStyleBackColor = True
         '
         'GroupBox51
         '
-        Me.GroupBox51.Controls.Add(Me.RadioButton71)
-        Me.GroupBox51.Controls.Add(Me.RadioButton72)
+        Me.GroupBox51.Controls.Add(Me.rdoKinkModeCurrnet_tab6)
+        Me.GroupBox51.Controls.Add(Me.rdoKinkModePower_tab)
         Me.GroupBox51.Location = New System.Drawing.Point(672, 479)
         Me.GroupBox51.Name = "GroupBox51"
         Me.GroupBox51.Size = New System.Drawing.Size(239, 113)
@@ -1519,36 +1531,36 @@ Partial Class frmILMeasurement
         Me.GroupBox51.TabStop = False
         Me.GroupBox51.Text = "Kink Mode"
         '
-        'RadioButton71
+        'rdoKinkModeCurrnet_tab6
         '
-        Me.RadioButton71.AutoSize = True
-        Me.RadioButton71.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton71.Location = New System.Drawing.Point(77, 67)
-        Me.RadioButton71.Name = "RadioButton71"
-        Me.RadioButton71.Size = New System.Drawing.Size(91, 26)
-        Me.RadioButton71.TabIndex = 371
-        Me.RadioButton71.TabStop = True
-        Me.RadioButton71.Text = "Current"
-        Me.RadioButton71.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton71.UseVisualStyleBackColor = True
+        Me.rdoKinkModeCurrnet_tab6.AutoSize = True
+        Me.rdoKinkModeCurrnet_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab6.Location = New System.Drawing.Point(77, 67)
+        Me.rdoKinkModeCurrnet_tab6.Name = "rdoKinkModeCurrnet_tab6"
+        Me.rdoKinkModeCurrnet_tab6.Size = New System.Drawing.Size(91, 26)
+        Me.rdoKinkModeCurrnet_tab6.TabIndex = 371
+        Me.rdoKinkModeCurrnet_tab6.TabStop = True
+        Me.rdoKinkModeCurrnet_tab6.Text = "Current"
+        Me.rdoKinkModeCurrnet_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab6.UseVisualStyleBackColor = True
         '
-        'RadioButton72
+        'rdoKinkModePower_tab
         '
-        Me.RadioButton72.AutoSize = True
-        Me.RadioButton72.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton72.Location = New System.Drawing.Point(78, 37)
-        Me.RadioButton72.Name = "RadioButton72"
-        Me.RadioButton72.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton72.TabIndex = 370
-        Me.RadioButton72.TabStop = True
-        Me.RadioButton72.Text = "Power"
-        Me.RadioButton72.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton72.UseVisualStyleBackColor = True
+        Me.rdoKinkModePower_tab.AutoSize = True
+        Me.rdoKinkModePower_tab.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab.Location = New System.Drawing.Point(78, 37)
+        Me.rdoKinkModePower_tab.Name = "rdoKinkModePower_tab"
+        Me.rdoKinkModePower_tab.Size = New System.Drawing.Size(82, 26)
+        Me.rdoKinkModePower_tab.TabIndex = 370
+        Me.rdoKinkModePower_tab.TabStop = True
+        Me.rdoKinkModePower_tab.Text = "Power"
+        Me.rdoKinkModePower_tab.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab.UseVisualStyleBackColor = True
         '
         'GroupBox52
         '
-        Me.GroupBox52.Controls.Add(Me.RadioButton73)
-        Me.GroupBox52.Controls.Add(Me.RadioButton74)
+        Me.GroupBox52.Controls.Add(Me.rdoKinkType2_tab6)
+        Me.GroupBox52.Controls.Add(Me.rdoKinkType1_tab6)
         Me.GroupBox52.Location = New System.Drawing.Point(672, 360)
         Me.GroupBox52.Name = "GroupBox52"
         Me.GroupBox52.Size = New System.Drawing.Size(239, 113)
@@ -1556,31 +1568,31 @@ Partial Class frmILMeasurement
         Me.GroupBox52.TabStop = False
         Me.GroupBox52.Text = "Kink Method"
         '
-        'RadioButton73
+        'rdoKinkType2_tab6
         '
-        Me.RadioButton73.AutoSize = True
-        Me.RadioButton73.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton73.Location = New System.Drawing.Point(77, 69)
-        Me.RadioButton73.Name = "RadioButton73"
-        Me.RadioButton73.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton73.TabIndex = 371
-        Me.RadioButton73.TabStop = True
-        Me.RadioButton73.Text = "Type 2"
-        Me.RadioButton73.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton73.UseVisualStyleBackColor = True
+        Me.rdoKinkType2_tab6.AutoSize = True
+        Me.rdoKinkType2_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab6.Location = New System.Drawing.Point(77, 69)
+        Me.rdoKinkType2_tab6.Name = "rdoKinkType2_tab6"
+        Me.rdoKinkType2_tab6.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType2_tab6.TabIndex = 371
+        Me.rdoKinkType2_tab6.TabStop = True
+        Me.rdoKinkType2_tab6.Text = "Type 2"
+        Me.rdoKinkType2_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab6.UseVisualStyleBackColor = True
         '
-        'RadioButton74
+        'rdoKinkType1_tab6
         '
-        Me.RadioButton74.AutoSize = True
-        Me.RadioButton74.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton74.Location = New System.Drawing.Point(77, 37)
-        Me.RadioButton74.Name = "RadioButton74"
-        Me.RadioButton74.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton74.TabIndex = 370
-        Me.RadioButton74.TabStop = True
-        Me.RadioButton74.Text = "Type 1"
-        Me.RadioButton74.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton74.UseVisualStyleBackColor = True
+        Me.rdoKinkType1_tab6.AutoSize = True
+        Me.rdoKinkType1_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab6.Location = New System.Drawing.Point(77, 37)
+        Me.rdoKinkType1_tab6.Name = "rdoKinkType1_tab6"
+        Me.rdoKinkType1_tab6.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType1_tab6.TabIndex = 370
+        Me.rdoKinkType1_tab6.TabStop = True
+        Me.rdoKinkType1_tab6.Text = "Type 1"
+        Me.rdoKinkType1_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab6.UseVisualStyleBackColor = True
         '
         'GroupBox53
         '
@@ -1590,15 +1602,15 @@ Partial Class frmILMeasurement
         Me.GroupBox53.Controls.Add(Me.Label392)
         Me.GroupBox53.Controls.Add(Me.Label393)
         Me.GroupBox53.Controls.Add(Me.Label394)
-        Me.GroupBox53.Controls.Add(Me.TextBox136)
-        Me.GroupBox53.Controls.Add(Me.TextBox137)
+        Me.GroupBox53.Controls.Add(Me.txtKinkY_tab6)
+        Me.GroupBox53.Controls.Add(Me.txtKinkX_tab6)
         Me.GroupBox53.Controls.Add(Me.Label395)
-        Me.GroupBox53.Controls.Add(Me.TextBox138)
+        Me.GroupBox53.Controls.Add(Me.txtIkMax_tab6)
         Me.GroupBox53.Controls.Add(Me.Label396)
-        Me.GroupBox53.Controls.Add(Me.TextBox139)
-        Me.GroupBox53.Controls.Add(Me.CheckBox16)
-        Me.GroupBox53.Controls.Add(Me.CheckBox17)
-        Me.GroupBox53.Controls.Add(Me.CheckBox18)
+        Me.GroupBox53.Controls.Add(Me.txtDelta_tab6)
+        Me.GroupBox53.Controls.Add(Me.ckdImdLGraph2_tab6)
+        Me.GroupBox53.Controls.Add(Me.ckdImdLGraph1_tab6)
+        Me.GroupBox53.Controls.Add(Me.ckKinkGraph_tab6)
         Me.GroupBox53.Location = New System.Drawing.Point(672, 49)
         Me.GroupBox53.Name = "GroupBox53"
         Me.GroupBox53.Size = New System.Drawing.Size(239, 305)
@@ -1630,11 +1642,11 @@ Partial Class frmILMeasurement
         '
         Me.Label391.AutoSize = True
         Me.Label391.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label391.Location = New System.Drawing.Point(41, 178)
+        Me.Label391.Location = New System.Drawing.Point(21, 178)
         Me.Label391.Name = "Label391"
-        Me.Label391.Size = New System.Drawing.Size(36, 22)
+        Me.Label391.Size = New System.Drawing.Size(56, 22)
         Me.Label391.TabIndex = 380
-        Me.Label391.Text = "mA"
+        Me.Label391.Text = "IkMax"
         '
         'Label392
         '
@@ -1666,25 +1678,25 @@ Partial Class frmILMeasurement
         Me.Label394.TabIndex = 378
         Me.Label394.Text = "%"
         '
-        'TextBox136
+        'txtKinkY_tab6
         '
-        Me.TextBox136.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox136.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox136.Location = New System.Drawing.Point(80, 247)
-        Me.TextBox136.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox136.Name = "TextBox136"
-        Me.TextBox136.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox136.TabIndex = 377
+        Me.txtKinkY_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkY_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkY_tab6.Location = New System.Drawing.Point(80, 247)
+        Me.txtKinkY_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkY_tab6.Name = "txtKinkY_tab6"
+        Me.txtKinkY_tab6.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkY_tab6.TabIndex = 377
         '
-        'TextBox137
+        'txtKinkX_tab6
         '
-        Me.TextBox137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox137.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox137.Location = New System.Drawing.Point(80, 211)
-        Me.TextBox137.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox137.Name = "TextBox137"
-        Me.TextBox137.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox137.TabIndex = 376
+        Me.txtKinkX_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkX_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkX_tab6.Location = New System.Drawing.Point(80, 211)
+        Me.txtKinkX_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkX_tab6.Name = "txtKinkX_tab6"
+        Me.txtKinkX_tab6.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkX_tab6.TabIndex = 376
         '
         'Label395
         '
@@ -1696,15 +1708,15 @@ Partial Class frmILMeasurement
         Me.Label395.TabIndex = 374
         Me.Label395.Text = "mA"
         '
-        'TextBox138
+        'txtIkMax_tab6
         '
-        Me.TextBox138.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox138.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox138.Location = New System.Drawing.Point(80, 175)
-        Me.TextBox138.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox138.Name = "TextBox138"
-        Me.TextBox138.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox138.TabIndex = 375
+        Me.txtIkMax_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIkMax_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIkMax_tab6.Location = New System.Drawing.Point(80, 175)
+        Me.txtIkMax_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIkMax_tab6.Name = "txtIkMax_tab6"
+        Me.txtIkMax_tab6.Size = New System.Drawing.Size(73, 28)
+        Me.txtIkMax_tab6.TabIndex = 375
         '
         'Label396
         '
@@ -1716,52 +1728,52 @@ Partial Class frmILMeasurement
         Me.Label396.TabIndex = 371
         Me.Label396.Text = "mA"
         '
-        'TextBox139
+        'txtDelta_tab6
         '
-        Me.TextBox139.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox139.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox139.Location = New System.Drawing.Point(80, 137)
-        Me.TextBox139.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox139.Name = "TextBox139"
-        Me.TextBox139.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox139.TabIndex = 371
+        Me.txtDelta_tab6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelta_tab6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelta_tab6.Location = New System.Drawing.Point(80, 137)
+        Me.txtDelta_tab6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtDelta_tab6.Name = "txtDelta_tab6"
+        Me.txtDelta_tab6.Size = New System.Drawing.Size(73, 28)
+        Me.txtDelta_tab6.TabIndex = 371
         '
-        'CheckBox16
+        'ckdImdLGraph2_tab6
         '
-        Me.CheckBox16.AutoSize = True
-        Me.CheckBox16.Location = New System.Drawing.Point(56, 101)
-        Me.CheckBox16.Name = "CheckBox16"
-        Me.CheckBox16.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox16.TabIndex = 373
-        Me.CheckBox16.Text = "dIm/dL Graph"
-        Me.CheckBox16.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph2_tab6.AutoSize = True
+        Me.ckdImdLGraph2_tab6.Location = New System.Drawing.Point(56, 101)
+        Me.ckdImdLGraph2_tab6.Name = "ckdImdLGraph2_tab6"
+        Me.ckdImdLGraph2_tab6.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph2_tab6.TabIndex = 373
+        Me.ckdImdLGraph2_tab6.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph2_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox17
+        'ckdImdLGraph1_tab6
         '
-        Me.CheckBox17.AutoSize = True
-        Me.CheckBox17.Location = New System.Drawing.Point(56, 69)
-        Me.CheckBox17.Name = "CheckBox17"
-        Me.CheckBox17.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox17.TabIndex = 372
-        Me.CheckBox17.Text = "dIm/dL Graph"
-        Me.CheckBox17.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph1_tab6.AutoSize = True
+        Me.ckdImdLGraph1_tab6.Location = New System.Drawing.Point(56, 69)
+        Me.ckdImdLGraph1_tab6.Name = "ckdImdLGraph1_tab6"
+        Me.ckdImdLGraph1_tab6.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph1_tab6.TabIndex = 372
+        Me.ckdImdLGraph1_tab6.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph1_tab6.UseVisualStyleBackColor = True
         '
-        'CheckBox18
+        'ckKinkGraph_tab6
         '
-        Me.CheckBox18.AutoSize = True
-        Me.CheckBox18.Location = New System.Drawing.Point(56, 38)
-        Me.CheckBox18.Name = "CheckBox18"
-        Me.CheckBox18.Size = New System.Drawing.Size(122, 26)
-        Me.CheckBox18.TabIndex = 371
-        Me.CheckBox18.Text = "Kink Graph"
-        Me.CheckBox18.UseVisualStyleBackColor = True
+        Me.ckKinkGraph_tab6.AutoSize = True
+        Me.ckKinkGraph_tab6.Location = New System.Drawing.Point(56, 38)
+        Me.ckKinkGraph_tab6.Name = "ckKinkGraph_tab6"
+        Me.ckKinkGraph_tab6.Size = New System.Drawing.Size(122, 26)
+        Me.ckKinkGraph_tab6.TabIndex = 371
+        Me.ckKinkGraph_tab6.Text = "Kink Graph"
+        Me.ckKinkGraph_tab6.UseVisualStyleBackColor = True
         '
         'GroupBox54
         '
-        Me.GroupBox54.Controls.Add(Me.RadioButton75)
-        Me.GroupBox54.Controls.Add(Me.RadioButton76)
-        Me.GroupBox54.Controls.Add(Me.RadioButton77)
-        Me.GroupBox54.Controls.Add(Me.RadioButton78)
+        Me.GroupBox54.Controls.Add(Me.rdo20mA_tab6)
+        Me.GroupBox54.Controls.Add(Me.rdo10mA_tab6)
+        Me.GroupBox54.Controls.Add(Me.rdo02mA_tab6)
+        Me.GroupBox54.Controls.Add(Me.rdoAuto_tab6)
         Me.GroupBox54.Location = New System.Drawing.Point(443, 589)
         Me.GroupBox54.Name = "GroupBox54"
         Me.GroupBox54.Size = New System.Drawing.Size(122, 176)
@@ -1769,57 +1781,57 @@ Partial Class frmILMeasurement
         Me.GroupBox54.TabStop = False
         Me.GroupBox54.Text = "If step"
         '
-        'RadioButton75
+        'rdo20mA_tab6
         '
-        Me.RadioButton75.AutoSize = True
-        Me.RadioButton75.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton75.Location = New System.Drawing.Point(20, 137)
-        Me.RadioButton75.Name = "RadioButton75"
-        Me.RadioButton75.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton75.TabIndex = 373
-        Me.RadioButton75.TabStop = True
-        Me.RadioButton75.Text = "2.0mA"
-        Me.RadioButton75.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton75.UseVisualStyleBackColor = True
+        Me.rdo20mA_tab6.AutoSize = True
+        Me.rdo20mA_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab6.Location = New System.Drawing.Point(20, 137)
+        Me.rdo20mA_tab6.Name = "rdo20mA_tab6"
+        Me.rdo20mA_tab6.Size = New System.Drawing.Size(82, 26)
+        Me.rdo20mA_tab6.TabIndex = 373
+        Me.rdo20mA_tab6.TabStop = True
+        Me.rdo20mA_tab6.Text = "2.0mA"
+        Me.rdo20mA_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab6.UseVisualStyleBackColor = True
         '
-        'RadioButton76
+        'rdo10mA_tab6
         '
-        Me.RadioButton76.AutoSize = True
-        Me.RadioButton76.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton76.Location = New System.Drawing.Point(20, 105)
-        Me.RadioButton76.Name = "RadioButton76"
-        Me.RadioButton76.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton76.TabIndex = 372
-        Me.RadioButton76.TabStop = True
-        Me.RadioButton76.Text = "1.0mA"
-        Me.RadioButton76.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton76.UseVisualStyleBackColor = True
+        Me.rdo10mA_tab6.AutoSize = True
+        Me.rdo10mA_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab6.Location = New System.Drawing.Point(20, 105)
+        Me.rdo10mA_tab6.Name = "rdo10mA_tab6"
+        Me.rdo10mA_tab6.Size = New System.Drawing.Size(82, 26)
+        Me.rdo10mA_tab6.TabIndex = 372
+        Me.rdo10mA_tab6.TabStop = True
+        Me.rdo10mA_tab6.Text = "1.0mA"
+        Me.rdo10mA_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab6.UseVisualStyleBackColor = True
         '
-        'RadioButton77
+        'rdo02mA_tab6
         '
-        Me.RadioButton77.AutoSize = True
-        Me.RadioButton77.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton77.Location = New System.Drawing.Point(19, 73)
-        Me.RadioButton77.Name = "RadioButton77"
-        Me.RadioButton77.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton77.TabIndex = 371
-        Me.RadioButton77.TabStop = True
-        Me.RadioButton77.Text = "0.2mA"
-        Me.RadioButton77.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton77.UseVisualStyleBackColor = True
+        Me.rdo02mA_tab6.AutoSize = True
+        Me.rdo02mA_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab6.Location = New System.Drawing.Point(19, 73)
+        Me.rdo02mA_tab6.Name = "rdo02mA_tab6"
+        Me.rdo02mA_tab6.Size = New System.Drawing.Size(82, 26)
+        Me.rdo02mA_tab6.TabIndex = 371
+        Me.rdo02mA_tab6.TabStop = True
+        Me.rdo02mA_tab6.Text = "0.2mA"
+        Me.rdo02mA_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab6.UseVisualStyleBackColor = True
         '
-        'RadioButton78
+        'rdoAuto_tab6
         '
-        Me.RadioButton78.AutoSize = True
-        Me.RadioButton78.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton78.Location = New System.Drawing.Point(20, 43)
-        Me.RadioButton78.Name = "RadioButton78"
-        Me.RadioButton78.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton78.TabIndex = 370
-        Me.RadioButton78.TabStop = True
-        Me.RadioButton78.Text = "AUTO"
-        Me.RadioButton78.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton78.UseVisualStyleBackColor = True
+        Me.rdoAuto_tab6.AutoSize = True
+        Me.rdoAuto_tab6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab6.Location = New System.Drawing.Point(20, 43)
+        Me.rdoAuto_tab6.Name = "rdoAuto_tab6"
+        Me.rdoAuto_tab6.Size = New System.Drawing.Size(82, 26)
+        Me.rdoAuto_tab6.TabIndex = 370
+        Me.rdoAuto_tab6.TabStop = True
+        Me.rdoAuto_tab6.Text = "AUTO"
+        Me.rdoAuto_tab6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab6.UseVisualStyleBackColor = True
         '
         'Label397
         '
@@ -1905,11 +1917,11 @@ Partial Class frmILMeasurement
         '
         Me.Label405.AutoSize = True
         Me.Label405.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label405.Location = New System.Drawing.Point(483, 214)
+        Me.Label405.Location = New System.Drawing.Point(469, 214)
         Me.Label405.Name = "Label405"
-        Me.Label405.Size = New System.Drawing.Size(44, 22)
+        Me.Label405.Size = New System.Drawing.Size(58, 22)
         Me.Label405.TabIndex = 426
-        Me.Label405.Text = "[nm]"
+        Me.Label405.Text = "λ [nm]"
         '
         'Label406
         '
@@ -2678,19 +2690,21 @@ Partial Class frmILMeasurement
         '
         'ILSweep5
         '
-        Me.ILSweep5.Controls.Add(Me.TextBox94)
-        Me.ILSweep5.Controls.Add(Me.TextBox105)
-        Me.ILSweep5.Controls.Add(Me.TextBox106)
-        Me.ILSweep5.Controls.Add(Me.TextBox107)
-        Me.ILSweep5.Controls.Add(Me.TextBox108)
-        Me.ILSweep5.Controls.Add(Me.TextBox109)
-        Me.ILSweep5.Controls.Add(Me.TextBox110)
-        Me.ILSweep5.Controls.Add(Me.TextBox111)
-        Me.ILSweep5.Controls.Add(Me.TextBox112)
-        Me.ILSweep5.Controls.Add(Me.TextBox113)
-        Me.ILSweep5.Controls.Add(Me.TextBox114)
-        Me.ILSweep5.Controls.Add(Me.TextBox115)
-        Me.ILSweep5.Controls.Add(Me.TextBox116)
+        Me.ILSweep5.Controls.Add(Me.TextBox12)
+        Me.ILSweep5.Controls.Add(Me.Label413)
+        Me.ILSweep5.Controls.Add(Me.txtPmax_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtIthpP2_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtIthpP1_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtdImdLMax_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtRmax_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtImMax_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtVfmax_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtnMax_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtlampda_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtIvf_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtImax_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtPCALminOffset_tab5)
+        Me.ILSweep5.Controls.Add(Me.txtPCALmin_tab5)
         Me.ILSweep5.Controls.Add(Me.txtImdiv_tab5)
         Me.ILSweep5.Controls.Add(Me.txtImscale_tab5)
         Me.ILSweep5.Controls.Add(Me.txtRddiv_tab5)
@@ -2795,135 +2809,135 @@ Partial Class frmILMeasurement
         Me.ILSweep5.Text = "IL Sweep5"
         Me.ILSweep5.UseVisualStyleBackColor = True
         '
-        'TextBox94
+        'txtPmax_tab5
         '
-        Me.TextBox94.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox94.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox94.Location = New System.Drawing.Point(530, 253)
-        Me.TextBox94.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox94.Name = "TextBox94"
-        Me.TextBox94.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox94.TabIndex = 421
+        Me.txtPmax_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPmax_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPmax_tab5.Location = New System.Drawing.Point(530, 253)
+        Me.txtPmax_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPmax_tab5.Name = "txtPmax_tab5"
+        Me.txtPmax_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtPmax_tab5.TabIndex = 421
         '
-        'TextBox105
+        'txtIthpP2_tab5
         '
-        Me.TextBox105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox105.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox105.Location = New System.Drawing.Point(530, 520)
-        Me.TextBox105.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox105.Name = "TextBox105"
-        Me.TextBox105.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox105.TabIndex = 411
+        Me.txtIthpP2_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP2_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP2_tab5.Location = New System.Drawing.Point(530, 520)
+        Me.txtIthpP2_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP2_tab5.Name = "txtIthpP2_tab5"
+        Me.txtIthpP2_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP2_tab5.TabIndex = 411
         '
-        'TextBox106
+        'txtIthpP1_tab5
         '
-        Me.TextBox106.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox106.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox106.Location = New System.Drawing.Point(530, 480)
-        Me.TextBox106.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox106.Name = "TextBox106"
-        Me.TextBox106.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox106.TabIndex = 408
+        Me.txtIthpP1_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP1_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP1_tab5.Location = New System.Drawing.Point(530, 480)
+        Me.txtIthpP1_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP1_tab5.Name = "txtIthpP1_tab5"
+        Me.txtIthpP1_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP1_tab5.TabIndex = 408
         '
-        'TextBox107
+        'txtdImdLMax_tab5
         '
-        Me.TextBox107.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox107.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox107.Location = New System.Drawing.Point(530, 441)
-        Me.TextBox107.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox107.Name = "TextBox107"
-        Me.TextBox107.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox107.TabIndex = 407
+        Me.txtdImdLMax_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdImdLMax_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdImdLMax_tab5.Location = New System.Drawing.Point(530, 441)
+        Me.txtdImdLMax_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtdImdLMax_tab5.Name = "txtdImdLMax_tab5"
+        Me.txtdImdLMax_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtdImdLMax_tab5.TabIndex = 407
         '
-        'TextBox108
+        'txtRmax_tab5
         '
-        Me.TextBox108.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox108.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox108.Location = New System.Drawing.Point(530, 405)
-        Me.TextBox108.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox108.Name = "TextBox108"
-        Me.TextBox108.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox108.TabIndex = 406
+        Me.txtRmax_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRmax_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRmax_tab5.Location = New System.Drawing.Point(530, 405)
+        Me.txtRmax_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRmax_tab5.Name = "txtRmax_tab5"
+        Me.txtRmax_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtRmax_tab5.TabIndex = 406
         '
-        'TextBox109
+        'txtImMax_tab5
         '
-        Me.TextBox109.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox109.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox109.Location = New System.Drawing.Point(530, 368)
-        Me.TextBox109.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox109.Name = "TextBox109"
-        Me.TextBox109.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox109.TabIndex = 405
+        Me.txtImMax_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImMax_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImMax_tab5.Location = New System.Drawing.Point(530, 368)
+        Me.txtImMax_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImMax_tab5.Name = "txtImMax_tab5"
+        Me.txtImMax_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtImMax_tab5.TabIndex = 405
         '
-        'TextBox110
+        'txtVfmax_tab5
         '
-        Me.TextBox110.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox110.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox110.Location = New System.Drawing.Point(530, 329)
-        Me.TextBox110.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox110.Name = "TextBox110"
-        Me.TextBox110.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox110.TabIndex = 404
+        Me.txtVfmax_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtVfmax_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtVfmax_tab5.Location = New System.Drawing.Point(530, 329)
+        Me.txtVfmax_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtVfmax_tab5.Name = "txtVfmax_tab5"
+        Me.txtVfmax_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtVfmax_tab5.TabIndex = 404
         '
-        'TextBox111
+        'txtnMax_tab5
         '
-        Me.TextBox111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox111.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox111.Location = New System.Drawing.Point(530, 291)
-        Me.TextBox111.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox111.Name = "TextBox111"
-        Me.TextBox111.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox111.TabIndex = 403
+        Me.txtnMax_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtnMax_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnMax_tab5.Location = New System.Drawing.Point(530, 291)
+        Me.txtnMax_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtnMax_tab5.Name = "txtnMax_tab5"
+        Me.txtnMax_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtnMax_tab5.TabIndex = 403
         '
-        'TextBox112
+        'txtlampda_tab5
         '
-        Me.TextBox112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox112.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox112.Location = New System.Drawing.Point(530, 211)
-        Me.TextBox112.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox112.Name = "TextBox112"
-        Me.TextBox112.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox112.TabIndex = 402
+        Me.txtlampda_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtlampda_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtlampda_tab5.Location = New System.Drawing.Point(530, 211)
+        Me.txtlampda_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtlampda_tab5.Name = "txtlampda_tab5"
+        Me.txtlampda_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtlampda_tab5.TabIndex = 402
         '
-        'TextBox113
+        'txtIvf_tab5
         '
-        Me.TextBox113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox113.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox113.Location = New System.Drawing.Point(530, 173)
-        Me.TextBox113.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox113.Name = "TextBox113"
-        Me.TextBox113.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox113.TabIndex = 401
+        Me.txtIvf_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIvf_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIvf_tab5.Location = New System.Drawing.Point(530, 173)
+        Me.txtIvf_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIvf_tab5.Name = "txtIvf_tab5"
+        Me.txtIvf_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtIvf_tab5.TabIndex = 401
         '
-        'TextBox114
+        'txtImax_tab5
         '
-        Me.TextBox114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox114.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox114.Location = New System.Drawing.Point(530, 133)
-        Me.TextBox114.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox114.Name = "TextBox114"
-        Me.TextBox114.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox114.TabIndex = 400
+        Me.txtImax_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImax_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImax_tab5.Location = New System.Drawing.Point(530, 133)
+        Me.txtImax_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImax_tab5.Name = "txtImax_tab5"
+        Me.txtImax_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtImax_tab5.TabIndex = 400
         '
-        'TextBox115
+        'txtPCALminOffset_tab5
         '
-        Me.TextBox115.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox115.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox115.Location = New System.Drawing.Point(530, 91)
-        Me.TextBox115.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox115.Name = "TextBox115"
-        Me.TextBox115.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox115.TabIndex = 399
+        Me.txtPCALminOffset_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALminOffset_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALminOffset_tab5.Location = New System.Drawing.Point(530, 91)
+        Me.txtPCALminOffset_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALminOffset_tab5.Name = "txtPCALminOffset_tab5"
+        Me.txtPCALminOffset_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALminOffset_tab5.TabIndex = 399
         '
-        'TextBox116
+        'txtPCALmin_tab5
         '
-        Me.TextBox116.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox116.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox116.Location = New System.Drawing.Point(530, 49)
-        Me.TextBox116.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox116.Name = "TextBox116"
-        Me.TextBox116.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox116.TabIndex = 398
+        Me.txtPCALmin_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALmin_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALmin_tab5.Location = New System.Drawing.Point(530, 49)
+        Me.txtPCALmin_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALmin_tab5.Name = "txtPCALmin_tab5"
+        Me.txtPCALmin_tab5.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALmin_tab5.TabIndex = 398
         '
         'txtImdiv_tab5
         '
@@ -3253,8 +3267,8 @@ Partial Class frmILMeasurement
         Me.GroupBox37.Controls.Add(Me.Label355)
         Me.GroupBox37.Controls.Add(Me.Label356)
         Me.GroupBox37.Controls.Add(Me.Label357)
-        Me.GroupBox37.Controls.Add(Me.TextBox95)
-        Me.GroupBox37.Controls.Add(Me.TextBox96)
+        Me.GroupBox37.Controls.Add(Me.txtFRPpointNum_tab5)
+        Me.GroupBox37.Controls.Add(Me.txtFRPcalculationSetting_tab5)
         Me.GroupBox37.Location = New System.Drawing.Point(939, 720)
         Me.GroupBox37.Name = "GroupBox37"
         Me.GroupBox37.Size = New System.Drawing.Size(262, 143)
@@ -3302,29 +3316,29 @@ Partial Class frmILMeasurement
         Me.Label357.TabIndex = 383
         Me.Label357.Text = "mA"
         '
-        'TextBox95
+        'txtFRPpointNum_tab5
         '
-        Me.TextBox95.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox95.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox95.Location = New System.Drawing.Point(129, 96)
-        Me.TextBox95.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox95.Name = "TextBox95"
-        Me.TextBox95.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox95.TabIndex = 372
+        Me.txtFRPpointNum_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPpointNum_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPpointNum_tab5.Location = New System.Drawing.Point(129, 96)
+        Me.txtFRPpointNum_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPpointNum_tab5.Name = "txtFRPpointNum_tab5"
+        Me.txtFRPpointNum_tab5.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPpointNum_tab5.TabIndex = 372
         '
-        'TextBox96
+        'txtFRPcalculationSetting_tab5
         '
-        Me.TextBox96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox96.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox96.Location = New System.Drawing.Point(129, 57)
-        Me.TextBox96.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox96.Name = "TextBox96"
-        Me.TextBox96.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox96.TabIndex = 371
+        Me.txtFRPcalculationSetting_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPcalculationSetting_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPcalculationSetting_tab5.Location = New System.Drawing.Point(129, 57)
+        Me.txtFRPcalculationSetting_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPcalculationSetting_tab5.Name = "txtFRPcalculationSetting_tab5"
+        Me.txtFRPcalculationSetting_tab5.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPcalculationSetting_tab5.TabIndex = 371
         '
         'GroupBox38
         '
-        Me.GroupBox38.Controls.Add(Me.TextBox97)
+        Me.GroupBox38.Controls.Add(Me.txtSparationCoefficient_tab5)
         Me.GroupBox38.Location = New System.Drawing.Point(939, 637)
         Me.GroupBox38.Name = "GroupBox38"
         Me.GroupBox38.Size = New System.Drawing.Size(262, 77)
@@ -3332,22 +3346,22 @@ Partial Class frmILMeasurement
         Me.GroupBox38.TabStop = False
         Me.GroupBox38.Text = "Sparation coefficient"
         '
-        'TextBox97
+        'txtSparationCoefficient_tab5
         '
-        Me.TextBox97.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox97.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox97.Location = New System.Drawing.Point(137, 33)
-        Me.TextBox97.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox97.Name = "TextBox97"
-        Me.TextBox97.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox97.TabIndex = 371
+        Me.txtSparationCoefficient_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSparationCoefficient_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSparationCoefficient_tab5.Location = New System.Drawing.Point(137, 33)
+        Me.txtSparationCoefficient_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSparationCoefficient_tab5.Name = "txtSparationCoefficient_tab5"
+        Me.txtSparationCoefficient_tab5.Size = New System.Drawing.Size(73, 28)
+        Me.txtSparationCoefficient_tab5.TabIndex = 371
         '
         'GroupBox39
         '
         Me.GroupBox39.Controls.Add(Me.Label358)
         Me.GroupBox39.Controls.Add(Me.Label359)
-        Me.GroupBox39.Controls.Add(Me.TextBox98)
-        Me.GroupBox39.Controls.Add(Me.TextBox99)
+        Me.GroupBox39.Controls.Add(Me.txtSmoothingResistance_tab5)
+        Me.GroupBox39.Controls.Add(Me.txtSmoothingEfficiency_tab5)
         Me.GroupBox39.Location = New System.Drawing.Point(939, 486)
         Me.GroupBox39.Name = "GroupBox39"
         Me.GroupBox39.Size = New System.Drawing.Size(262, 145)
@@ -3375,30 +3389,30 @@ Partial Class frmILMeasurement
         Me.Label359.TabIndex = 372
         Me.Label359.Text = "Differentiation " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "efiiciency"
         '
-        'TextBox98
+        'txtSmoothingResistance_tab5
         '
-        Me.TextBox98.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox98.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox98.Location = New System.Drawing.Point(137, 98)
-        Me.TextBox98.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox98.Name = "TextBox98"
-        Me.TextBox98.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox98.TabIndex = 375
+        Me.txtSmoothingResistance_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingResistance_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingResistance_tab5.Location = New System.Drawing.Point(137, 98)
+        Me.txtSmoothingResistance_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingResistance_tab5.Name = "txtSmoothingResistance_tab5"
+        Me.txtSmoothingResistance_tab5.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingResistance_tab5.TabIndex = 375
         '
-        'TextBox99
+        'txtSmoothingEfficiency_tab5
         '
-        Me.TextBox99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox99.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox99.Location = New System.Drawing.Point(137, 46)
-        Me.TextBox99.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox99.Name = "TextBox99"
-        Me.TextBox99.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox99.TabIndex = 371
+        Me.txtSmoothingEfficiency_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingEfficiency_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingEfficiency_tab5.Location = New System.Drawing.Point(137, 46)
+        Me.txtSmoothingEfficiency_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingEfficiency_tab5.Name = "txtSmoothingEfficiency_tab5"
+        Me.txtSmoothingEfficiency_tab5.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingEfficiency_tab5.TabIndex = 371
         '
         'GroupBox40
         '
-        Me.GroupBox40.Controls.Add(Me.RadioButton53)
-        Me.GroupBox40.Controls.Add(Me.RadioButton54)
+        Me.GroupBox40.Controls.Add(Me.rdoDiffMethod2_tab5)
+        Me.GroupBox40.Controls.Add(Me.rdoDiffMethod1_tab5)
         Me.GroupBox40.Location = New System.Drawing.Point(939, 360)
         Me.GroupBox40.Name = "GroupBox40"
         Me.GroupBox40.Size = New System.Drawing.Size(262, 113)
@@ -3406,37 +3420,37 @@ Partial Class frmILMeasurement
         Me.GroupBox40.TabStop = False
         Me.GroupBox40.Text = "Differentiation method"
         '
-        'RadioButton53
+        'rdoDiffMethod2_tab5
         '
-        Me.RadioButton53.AutoSize = True
-        Me.RadioButton53.Location = New System.Drawing.Point(20, 69)
-        Me.RadioButton53.Name = "RadioButton53"
-        Me.RadioButton53.Size = New System.Drawing.Size(191, 26)
-        Me.RadioButton53.TabIndex = 371
-        Me.RadioButton53.TabStop = True
-        Me.RadioButton53.Text = "Method 2(sparation)"
-        Me.RadioButton53.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton53.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod2_tab5.AutoSize = True
+        Me.rdoDiffMethod2_tab5.Location = New System.Drawing.Point(20, 69)
+        Me.rdoDiffMethod2_tab5.Name = "rdoDiffMethod2_tab5"
+        Me.rdoDiffMethod2_tab5.Size = New System.Drawing.Size(191, 26)
+        Me.rdoDiffMethod2_tab5.TabIndex = 371
+        Me.rdoDiffMethod2_tab5.TabStop = True
+        Me.rdoDiffMethod2_tab5.Text = "Method 2(sparation)"
+        Me.rdoDiffMethod2_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod2_tab5.UseVisualStyleBackColor = True
         '
-        'RadioButton54
+        'rdoDiffMethod1_tab5
         '
-        Me.RadioButton54.AutoSize = True
-        Me.RadioButton54.Location = New System.Drawing.Point(20, 37)
-        Me.RadioButton54.Name = "RadioButton54"
-        Me.RadioButton54.Size = New System.Drawing.Size(199, 26)
-        Me.RadioButton54.TabIndex = 370
-        Me.RadioButton54.TabStop = True
-        Me.RadioButton54.Text = "Method 1(smoothing)"
-        Me.RadioButton54.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton54.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod1_tab5.AutoSize = True
+        Me.rdoDiffMethod1_tab5.Location = New System.Drawing.Point(20, 37)
+        Me.rdoDiffMethod1_tab5.Name = "rdoDiffMethod1_tab5"
+        Me.rdoDiffMethod1_tab5.Size = New System.Drawing.Size(199, 26)
+        Me.rdoDiffMethod1_tab5.TabIndex = 370
+        Me.rdoDiffMethod1_tab5.TabStop = True
+        Me.rdoDiffMethod1_tab5.Text = "Method 1(smoothing)"
+        Me.rdoDiffMethod1_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod1_tab5.UseVisualStyleBackColor = True
         '
         'GroupBox41
         '
-        Me.GroupBox41.Controls.Add(Me.TextBox100)
-        Me.GroupBox41.Controls.Add(Me.RadioButton55)
+        Me.GroupBox41.Controls.Add(Me.txtLeastSquareNumOfPoint_tab5)
+        Me.GroupBox41.Controls.Add(Me.rdoLeastSquarefomula_tab5)
         Me.GroupBox41.Controls.Add(Me.Label360)
-        Me.GroupBox41.Controls.Add(Me.RadioButton56)
-        Me.GroupBox41.Controls.Add(Me.RadioButton57)
+        Me.GroupBox41.Controls.Add(Me.rdoLeastSquareSecon_tab5)
+        Me.GroupBox41.Controls.Add(Me.rdoLeastSquarePrimary_tab5)
         Me.GroupBox41.Location = New System.Drawing.Point(672, 598)
         Me.GroupBox41.Name = "GroupBox41"
         Me.GroupBox41.Size = New System.Drawing.Size(239, 187)
@@ -3444,27 +3458,27 @@ Partial Class frmILMeasurement
         Me.GroupBox41.TabStop = False
         Me.GroupBox41.Text = "Least-squares method"
         '
-        'TextBox100
+        'txtLeastSquareNumOfPoint_tab5
         '
-        Me.TextBox100.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox100.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox100.Location = New System.Drawing.Point(172, 139)
-        Me.TextBox100.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox100.Name = "TextBox100"
-        Me.TextBox100.Size = New System.Drawing.Size(53, 28)
-        Me.TextBox100.TabIndex = 378
+        Me.txtLeastSquareNumOfPoint_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLeastSquareNumOfPoint_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLeastSquareNumOfPoint_tab5.Location = New System.Drawing.Point(172, 139)
+        Me.txtLeastSquareNumOfPoint_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLeastSquareNumOfPoint_tab5.Name = "txtLeastSquareNumOfPoint_tab5"
+        Me.txtLeastSquareNumOfPoint_tab5.Size = New System.Drawing.Size(53, 28)
+        Me.txtLeastSquareNumOfPoint_tab5.TabIndex = 378
         '
-        'RadioButton55
+        'rdoLeastSquarefomula_tab5
         '
-        Me.RadioButton55.AutoSize = True
-        Me.RadioButton55.Location = New System.Drawing.Point(28, 97)
-        Me.RadioButton55.Name = "RadioButton55"
-        Me.RadioButton55.Size = New System.Drawing.Size(128, 26)
-        Me.RadioButton55.TabIndex = 372
-        Me.RadioButton55.TabStop = True
-        Me.RadioButton55.Text = "Input fomula"
-        Me.RadioButton55.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton55.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarefomula_tab5.AutoSize = True
+        Me.rdoLeastSquarefomula_tab5.Location = New System.Drawing.Point(28, 97)
+        Me.rdoLeastSquarefomula_tab5.Name = "rdoLeastSquarefomula_tab5"
+        Me.rdoLeastSquarefomula_tab5.Size = New System.Drawing.Size(128, 26)
+        Me.rdoLeastSquarefomula_tab5.TabIndex = 372
+        Me.rdoLeastSquarefomula_tab5.TabStop = True
+        Me.rdoLeastSquarefomula_tab5.Text = "Input fomula"
+        Me.rdoLeastSquarefomula_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarefomula_tab5.UseVisualStyleBackColor = True
         '
         'Label360
         '
@@ -3476,34 +3490,34 @@ Partial Class frmILMeasurement
         Me.Label360.TabIndex = 377
         Me.Label360.Text = "Number of point"
         '
-        'RadioButton56
+        'rdoLeastSquareSecon_tab5
         '
-        Me.RadioButton56.AutoSize = True
-        Me.RadioButton56.Location = New System.Drawing.Point(28, 66)
-        Me.RadioButton56.Name = "RadioButton56"
-        Me.RadioButton56.Size = New System.Drawing.Size(117, 26)
-        Me.RadioButton56.TabIndex = 371
-        Me.RadioButton56.TabStop = True
-        Me.RadioButton56.Text = "Secondary"
-        Me.RadioButton56.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton56.UseVisualStyleBackColor = True
+        Me.rdoLeastSquareSecon_tab5.AutoSize = True
+        Me.rdoLeastSquareSecon_tab5.Location = New System.Drawing.Point(28, 66)
+        Me.rdoLeastSquareSecon_tab5.Name = "rdoLeastSquareSecon_tab5"
+        Me.rdoLeastSquareSecon_tab5.Size = New System.Drawing.Size(117, 26)
+        Me.rdoLeastSquareSecon_tab5.TabIndex = 371
+        Me.rdoLeastSquareSecon_tab5.TabStop = True
+        Me.rdoLeastSquareSecon_tab5.Text = "Secondary"
+        Me.rdoLeastSquareSecon_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquareSecon_tab5.UseVisualStyleBackColor = True
         '
-        'RadioButton57
+        'rdoLeastSquarePrimary_tab5
         '
-        Me.RadioButton57.AutoSize = True
-        Me.RadioButton57.Location = New System.Drawing.Point(29, 37)
-        Me.RadioButton57.Name = "RadioButton57"
-        Me.RadioButton57.Size = New System.Drawing.Size(86, 26)
-        Me.RadioButton57.TabIndex = 370
-        Me.RadioButton57.TabStop = True
-        Me.RadioButton57.Text = "Primay"
-        Me.RadioButton57.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton57.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarePrimary_tab5.AutoSize = True
+        Me.rdoLeastSquarePrimary_tab5.Location = New System.Drawing.Point(29, 37)
+        Me.rdoLeastSquarePrimary_tab5.Name = "rdoLeastSquarePrimary_tab5"
+        Me.rdoLeastSquarePrimary_tab5.Size = New System.Drawing.Size(92, 26)
+        Me.rdoLeastSquarePrimary_tab5.TabIndex = 370
+        Me.rdoLeastSquarePrimary_tab5.TabStop = True
+        Me.rdoLeastSquarePrimary_tab5.Text = "Primary"
+        Me.rdoLeastSquarePrimary_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarePrimary_tab5.UseVisualStyleBackColor = True
         '
         'GroupBox42
         '
-        Me.GroupBox42.Controls.Add(Me.RadioButton58)
-        Me.GroupBox42.Controls.Add(Me.RadioButton59)
+        Me.GroupBox42.Controls.Add(Me.rdoKinkModeCurrnet_tab5)
+        Me.GroupBox42.Controls.Add(Me.rdoKinkModePower_tab5)
         Me.GroupBox42.Location = New System.Drawing.Point(672, 479)
         Me.GroupBox42.Name = "GroupBox42"
         Me.GroupBox42.Size = New System.Drawing.Size(239, 113)
@@ -3511,36 +3525,36 @@ Partial Class frmILMeasurement
         Me.GroupBox42.TabStop = False
         Me.GroupBox42.Text = "Kink Mode"
         '
-        'RadioButton58
+        'rdoKinkModeCurrnet_tab5
         '
-        Me.RadioButton58.AutoSize = True
-        Me.RadioButton58.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton58.Location = New System.Drawing.Point(77, 67)
-        Me.RadioButton58.Name = "RadioButton58"
-        Me.RadioButton58.Size = New System.Drawing.Size(91, 26)
-        Me.RadioButton58.TabIndex = 371
-        Me.RadioButton58.TabStop = True
-        Me.RadioButton58.Text = "Current"
-        Me.RadioButton58.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton58.UseVisualStyleBackColor = True
+        Me.rdoKinkModeCurrnet_tab5.AutoSize = True
+        Me.rdoKinkModeCurrnet_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab5.Location = New System.Drawing.Point(77, 67)
+        Me.rdoKinkModeCurrnet_tab5.Name = "rdoKinkModeCurrnet_tab5"
+        Me.rdoKinkModeCurrnet_tab5.Size = New System.Drawing.Size(91, 26)
+        Me.rdoKinkModeCurrnet_tab5.TabIndex = 371
+        Me.rdoKinkModeCurrnet_tab5.TabStop = True
+        Me.rdoKinkModeCurrnet_tab5.Text = "Current"
+        Me.rdoKinkModeCurrnet_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab5.UseVisualStyleBackColor = True
         '
-        'RadioButton59
+        'rdoKinkModePower_tab5
         '
-        Me.RadioButton59.AutoSize = True
-        Me.RadioButton59.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton59.Location = New System.Drawing.Point(78, 37)
-        Me.RadioButton59.Name = "RadioButton59"
-        Me.RadioButton59.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton59.TabIndex = 370
-        Me.RadioButton59.TabStop = True
-        Me.RadioButton59.Text = "Power"
-        Me.RadioButton59.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton59.UseVisualStyleBackColor = True
+        Me.rdoKinkModePower_tab5.AutoSize = True
+        Me.rdoKinkModePower_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab5.Location = New System.Drawing.Point(78, 37)
+        Me.rdoKinkModePower_tab5.Name = "rdoKinkModePower_tab5"
+        Me.rdoKinkModePower_tab5.Size = New System.Drawing.Size(82, 26)
+        Me.rdoKinkModePower_tab5.TabIndex = 370
+        Me.rdoKinkModePower_tab5.TabStop = True
+        Me.rdoKinkModePower_tab5.Text = "Power"
+        Me.rdoKinkModePower_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab5.UseVisualStyleBackColor = True
         '
         'GroupBox43
         '
-        Me.GroupBox43.Controls.Add(Me.RadioButton60)
-        Me.GroupBox43.Controls.Add(Me.RadioButton61)
+        Me.GroupBox43.Controls.Add(Me.rdoKinkType2_tab5)
+        Me.GroupBox43.Controls.Add(Me.rdoKinkType1_tab5)
         Me.GroupBox43.Location = New System.Drawing.Point(672, 360)
         Me.GroupBox43.Name = "GroupBox43"
         Me.GroupBox43.Size = New System.Drawing.Size(239, 113)
@@ -3548,31 +3562,31 @@ Partial Class frmILMeasurement
         Me.GroupBox43.TabStop = False
         Me.GroupBox43.Text = "Kink Method"
         '
-        'RadioButton60
+        'rdoKinkType2_tab5
         '
-        Me.RadioButton60.AutoSize = True
-        Me.RadioButton60.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton60.Location = New System.Drawing.Point(77, 69)
-        Me.RadioButton60.Name = "RadioButton60"
-        Me.RadioButton60.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton60.TabIndex = 371
-        Me.RadioButton60.TabStop = True
-        Me.RadioButton60.Text = "Type 2"
-        Me.RadioButton60.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton60.UseVisualStyleBackColor = True
+        Me.rdoKinkType2_tab5.AutoSize = True
+        Me.rdoKinkType2_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab5.Location = New System.Drawing.Point(77, 69)
+        Me.rdoKinkType2_tab5.Name = "rdoKinkType2_tab5"
+        Me.rdoKinkType2_tab5.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType2_tab5.TabIndex = 371
+        Me.rdoKinkType2_tab5.TabStop = True
+        Me.rdoKinkType2_tab5.Text = "Type 2"
+        Me.rdoKinkType2_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab5.UseVisualStyleBackColor = True
         '
-        'RadioButton61
+        'rdoKinkType1_tab5
         '
-        Me.RadioButton61.AutoSize = True
-        Me.RadioButton61.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton61.Location = New System.Drawing.Point(77, 37)
-        Me.RadioButton61.Name = "RadioButton61"
-        Me.RadioButton61.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton61.TabIndex = 370
-        Me.RadioButton61.TabStop = True
-        Me.RadioButton61.Text = "Type 1"
-        Me.RadioButton61.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton61.UseVisualStyleBackColor = True
+        Me.rdoKinkType1_tab5.AutoSize = True
+        Me.rdoKinkType1_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab5.Location = New System.Drawing.Point(77, 37)
+        Me.rdoKinkType1_tab5.Name = "rdoKinkType1_tab5"
+        Me.rdoKinkType1_tab5.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType1_tab5.TabIndex = 370
+        Me.rdoKinkType1_tab5.TabStop = True
+        Me.rdoKinkType1_tab5.Text = "Type 1"
+        Me.rdoKinkType1_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab5.UseVisualStyleBackColor = True
         '
         'GroupBox44
         '
@@ -3582,15 +3596,15 @@ Partial Class frmILMeasurement
         Me.GroupBox44.Controls.Add(Me.Label364)
         Me.GroupBox44.Controls.Add(Me.Label365)
         Me.GroupBox44.Controls.Add(Me.Label366)
-        Me.GroupBox44.Controls.Add(Me.TextBox101)
-        Me.GroupBox44.Controls.Add(Me.TextBox102)
+        Me.GroupBox44.Controls.Add(Me.txtKinkY_tab5)
+        Me.GroupBox44.Controls.Add(Me.txtKinkX_tab5)
         Me.GroupBox44.Controls.Add(Me.Label367)
-        Me.GroupBox44.Controls.Add(Me.TextBox103)
+        Me.GroupBox44.Controls.Add(Me.txtIkMax_tab5)
         Me.GroupBox44.Controls.Add(Me.Label368)
-        Me.GroupBox44.Controls.Add(Me.TextBox104)
-        Me.GroupBox44.Controls.Add(Me.CheckBox13)
-        Me.GroupBox44.Controls.Add(Me.CheckBox14)
-        Me.GroupBox44.Controls.Add(Me.CheckBox15)
+        Me.GroupBox44.Controls.Add(Me.txtDelta_tab5)
+        Me.GroupBox44.Controls.Add(Me.ckdImdLGraph2_tab5)
+        Me.GroupBox44.Controls.Add(Me.ckdImdLGraph1_tab5)
+        Me.GroupBox44.Controls.Add(Me.ckKinkGraph_tab5)
         Me.GroupBox44.Location = New System.Drawing.Point(672, 49)
         Me.GroupBox44.Name = "GroupBox44"
         Me.GroupBox44.Size = New System.Drawing.Size(239, 305)
@@ -3622,11 +3636,11 @@ Partial Class frmILMeasurement
         '
         Me.Label363.AutoSize = True
         Me.Label363.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label363.Location = New System.Drawing.Point(41, 178)
+        Me.Label363.Location = New System.Drawing.Point(21, 178)
         Me.Label363.Name = "Label363"
-        Me.Label363.Size = New System.Drawing.Size(36, 22)
+        Me.Label363.Size = New System.Drawing.Size(56, 22)
         Me.Label363.TabIndex = 380
-        Me.Label363.Text = "mA"
+        Me.Label363.Text = "IkMax"
         '
         'Label364
         '
@@ -3658,25 +3672,25 @@ Partial Class frmILMeasurement
         Me.Label366.TabIndex = 378
         Me.Label366.Text = "%"
         '
-        'TextBox101
+        'txtKinkY_tab5
         '
-        Me.TextBox101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox101.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox101.Location = New System.Drawing.Point(80, 247)
-        Me.TextBox101.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox101.Name = "TextBox101"
-        Me.TextBox101.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox101.TabIndex = 377
+        Me.txtKinkY_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkY_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkY_tab5.Location = New System.Drawing.Point(80, 247)
+        Me.txtKinkY_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkY_tab5.Name = "txtKinkY_tab5"
+        Me.txtKinkY_tab5.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkY_tab5.TabIndex = 377
         '
-        'TextBox102
+        'txtKinkX_tab5
         '
-        Me.TextBox102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox102.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox102.Location = New System.Drawing.Point(80, 211)
-        Me.TextBox102.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox102.Name = "TextBox102"
-        Me.TextBox102.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox102.TabIndex = 376
+        Me.txtKinkX_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkX_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkX_tab5.Location = New System.Drawing.Point(80, 211)
+        Me.txtKinkX_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkX_tab5.Name = "txtKinkX_tab5"
+        Me.txtKinkX_tab5.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkX_tab5.TabIndex = 376
         '
         'Label367
         '
@@ -3688,15 +3702,15 @@ Partial Class frmILMeasurement
         Me.Label367.TabIndex = 374
         Me.Label367.Text = "mA"
         '
-        'TextBox103
+        'txtIkMax_tab5
         '
-        Me.TextBox103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox103.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox103.Location = New System.Drawing.Point(80, 175)
-        Me.TextBox103.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox103.Name = "TextBox103"
-        Me.TextBox103.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox103.TabIndex = 375
+        Me.txtIkMax_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIkMax_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIkMax_tab5.Location = New System.Drawing.Point(80, 175)
+        Me.txtIkMax_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIkMax_tab5.Name = "txtIkMax_tab5"
+        Me.txtIkMax_tab5.Size = New System.Drawing.Size(73, 28)
+        Me.txtIkMax_tab5.TabIndex = 375
         '
         'Label368
         '
@@ -3708,52 +3722,52 @@ Partial Class frmILMeasurement
         Me.Label368.TabIndex = 371
         Me.Label368.Text = "mA"
         '
-        'TextBox104
+        'txtDelta_tab5
         '
-        Me.TextBox104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox104.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox104.Location = New System.Drawing.Point(80, 137)
-        Me.TextBox104.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox104.Name = "TextBox104"
-        Me.TextBox104.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox104.TabIndex = 371
+        Me.txtDelta_tab5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelta_tab5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelta_tab5.Location = New System.Drawing.Point(80, 137)
+        Me.txtDelta_tab5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtDelta_tab5.Name = "txtDelta_tab5"
+        Me.txtDelta_tab5.Size = New System.Drawing.Size(73, 28)
+        Me.txtDelta_tab5.TabIndex = 371
         '
-        'CheckBox13
+        'ckdImdLGraph2_tab5
         '
-        Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Location = New System.Drawing.Point(56, 101)
-        Me.CheckBox13.Name = "CheckBox13"
-        Me.CheckBox13.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox13.TabIndex = 373
-        Me.CheckBox13.Text = "dIm/dL Graph"
-        Me.CheckBox13.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph2_tab5.AutoSize = True
+        Me.ckdImdLGraph2_tab5.Location = New System.Drawing.Point(56, 101)
+        Me.ckdImdLGraph2_tab5.Name = "ckdImdLGraph2_tab5"
+        Me.ckdImdLGraph2_tab5.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph2_tab5.TabIndex = 373
+        Me.ckdImdLGraph2_tab5.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph2_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox14
+        'ckdImdLGraph1_tab5
         '
-        Me.CheckBox14.AutoSize = True
-        Me.CheckBox14.Location = New System.Drawing.Point(56, 69)
-        Me.CheckBox14.Name = "CheckBox14"
-        Me.CheckBox14.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox14.TabIndex = 372
-        Me.CheckBox14.Text = "dIm/dL Graph"
-        Me.CheckBox14.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph1_tab5.AutoSize = True
+        Me.ckdImdLGraph1_tab5.Location = New System.Drawing.Point(56, 69)
+        Me.ckdImdLGraph1_tab5.Name = "ckdImdLGraph1_tab5"
+        Me.ckdImdLGraph1_tab5.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph1_tab5.TabIndex = 372
+        Me.ckdImdLGraph1_tab5.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph1_tab5.UseVisualStyleBackColor = True
         '
-        'CheckBox15
+        'ckKinkGraph_tab5
         '
-        Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.Location = New System.Drawing.Point(56, 38)
-        Me.CheckBox15.Name = "CheckBox15"
-        Me.CheckBox15.Size = New System.Drawing.Size(122, 26)
-        Me.CheckBox15.TabIndex = 371
-        Me.CheckBox15.Text = "Kink Graph"
-        Me.CheckBox15.UseVisualStyleBackColor = True
+        Me.ckKinkGraph_tab5.AutoSize = True
+        Me.ckKinkGraph_tab5.Location = New System.Drawing.Point(56, 38)
+        Me.ckKinkGraph_tab5.Name = "ckKinkGraph_tab5"
+        Me.ckKinkGraph_tab5.Size = New System.Drawing.Size(122, 26)
+        Me.ckKinkGraph_tab5.TabIndex = 371
+        Me.ckKinkGraph_tab5.Text = "Kink Graph"
+        Me.ckKinkGraph_tab5.UseVisualStyleBackColor = True
         '
         'GroupBox45
         '
-        Me.GroupBox45.Controls.Add(Me.RadioButton62)
-        Me.GroupBox45.Controls.Add(Me.RadioButton63)
-        Me.GroupBox45.Controls.Add(Me.RadioButton64)
-        Me.GroupBox45.Controls.Add(Me.RadioButton65)
+        Me.GroupBox45.Controls.Add(Me.rdo20mA_tab5)
+        Me.GroupBox45.Controls.Add(Me.rdo10mA_tab5)
+        Me.GroupBox45.Controls.Add(Me.rdo02mA_tab5)
+        Me.GroupBox45.Controls.Add(Me.rdoAuto_tab5)
         Me.GroupBox45.Location = New System.Drawing.Point(443, 589)
         Me.GroupBox45.Name = "GroupBox45"
         Me.GroupBox45.Size = New System.Drawing.Size(122, 176)
@@ -3761,57 +3775,57 @@ Partial Class frmILMeasurement
         Me.GroupBox45.TabStop = False
         Me.GroupBox45.Text = "If step"
         '
-        'RadioButton62
+        'rdo20mA_tab5
         '
-        Me.RadioButton62.AutoSize = True
-        Me.RadioButton62.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton62.Location = New System.Drawing.Point(20, 137)
-        Me.RadioButton62.Name = "RadioButton62"
-        Me.RadioButton62.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton62.TabIndex = 373
-        Me.RadioButton62.TabStop = True
-        Me.RadioButton62.Text = "2.0mA"
-        Me.RadioButton62.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton62.UseVisualStyleBackColor = True
+        Me.rdo20mA_tab5.AutoSize = True
+        Me.rdo20mA_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab5.Location = New System.Drawing.Point(20, 137)
+        Me.rdo20mA_tab5.Name = "rdo20mA_tab5"
+        Me.rdo20mA_tab5.Size = New System.Drawing.Size(82, 26)
+        Me.rdo20mA_tab5.TabIndex = 373
+        Me.rdo20mA_tab5.TabStop = True
+        Me.rdo20mA_tab5.Text = "2.0mA"
+        Me.rdo20mA_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab5.UseVisualStyleBackColor = True
         '
-        'RadioButton63
+        'rdo10mA_tab5
         '
-        Me.RadioButton63.AutoSize = True
-        Me.RadioButton63.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton63.Location = New System.Drawing.Point(20, 105)
-        Me.RadioButton63.Name = "RadioButton63"
-        Me.RadioButton63.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton63.TabIndex = 372
-        Me.RadioButton63.TabStop = True
-        Me.RadioButton63.Text = "1.0mA"
-        Me.RadioButton63.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton63.UseVisualStyleBackColor = True
+        Me.rdo10mA_tab5.AutoSize = True
+        Me.rdo10mA_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab5.Location = New System.Drawing.Point(20, 105)
+        Me.rdo10mA_tab5.Name = "rdo10mA_tab5"
+        Me.rdo10mA_tab5.Size = New System.Drawing.Size(82, 26)
+        Me.rdo10mA_tab5.TabIndex = 372
+        Me.rdo10mA_tab5.TabStop = True
+        Me.rdo10mA_tab5.Text = "1.0mA"
+        Me.rdo10mA_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab5.UseVisualStyleBackColor = True
         '
-        'RadioButton64
+        'rdo02mA_tab5
         '
-        Me.RadioButton64.AutoSize = True
-        Me.RadioButton64.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton64.Location = New System.Drawing.Point(19, 73)
-        Me.RadioButton64.Name = "RadioButton64"
-        Me.RadioButton64.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton64.TabIndex = 371
-        Me.RadioButton64.TabStop = True
-        Me.RadioButton64.Text = "0.2mA"
-        Me.RadioButton64.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton64.UseVisualStyleBackColor = True
+        Me.rdo02mA_tab5.AutoSize = True
+        Me.rdo02mA_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab5.Location = New System.Drawing.Point(19, 73)
+        Me.rdo02mA_tab5.Name = "rdo02mA_tab5"
+        Me.rdo02mA_tab5.Size = New System.Drawing.Size(82, 26)
+        Me.rdo02mA_tab5.TabIndex = 371
+        Me.rdo02mA_tab5.TabStop = True
+        Me.rdo02mA_tab5.Text = "0.2mA"
+        Me.rdo02mA_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab5.UseVisualStyleBackColor = True
         '
-        'RadioButton65
+        'rdoAuto_tab5
         '
-        Me.RadioButton65.AutoSize = True
-        Me.RadioButton65.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton65.Location = New System.Drawing.Point(20, 43)
-        Me.RadioButton65.Name = "RadioButton65"
-        Me.RadioButton65.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton65.TabIndex = 370
-        Me.RadioButton65.TabStop = True
-        Me.RadioButton65.Text = "AUTO"
-        Me.RadioButton65.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton65.UseVisualStyleBackColor = True
+        Me.rdoAuto_tab5.AutoSize = True
+        Me.rdoAuto_tab5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab5.Location = New System.Drawing.Point(20, 43)
+        Me.rdoAuto_tab5.Name = "rdoAuto_tab5"
+        Me.rdoAuto_tab5.Size = New System.Drawing.Size(82, 26)
+        Me.rdoAuto_tab5.TabIndex = 370
+        Me.rdoAuto_tab5.TabStop = True
+        Me.rdoAuto_tab5.Text = "AUTO"
+        Me.rdoAuto_tab5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab5.UseVisualStyleBackColor = True
         '
         'Label369
         '
@@ -3897,11 +3911,11 @@ Partial Class frmILMeasurement
         '
         Me.Label377.AutoSize = True
         Me.Label377.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label377.Location = New System.Drawing.Point(483, 214)
+        Me.Label377.Location = New System.Drawing.Point(469, 214)
         Me.Label377.Name = "Label377"
-        Me.Label377.Size = New System.Drawing.Size(44, 22)
+        Me.Label377.Size = New System.Drawing.Size(58, 22)
         Me.Label377.TabIndex = 391
-        Me.Label377.Text = "[nm]"
+        Me.Label377.Text = "λ [nm]"
         '
         'Label378
         '
@@ -4348,19 +4362,21 @@ Partial Class frmILMeasurement
         '
         'ILSweep4
         '
-        Me.ILSweep4.Controls.Add(Me.TextBox71)
-        Me.ILSweep4.Controls.Add(Me.TextBox82)
-        Me.ILSweep4.Controls.Add(Me.TextBox83)
-        Me.ILSweep4.Controls.Add(Me.TextBox84)
-        Me.ILSweep4.Controls.Add(Me.TextBox85)
-        Me.ILSweep4.Controls.Add(Me.TextBox86)
-        Me.ILSweep4.Controls.Add(Me.TextBox87)
-        Me.ILSweep4.Controls.Add(Me.TextBox88)
-        Me.ILSweep4.Controls.Add(Me.TextBox89)
-        Me.ILSweep4.Controls.Add(Me.TextBox90)
-        Me.ILSweep4.Controls.Add(Me.TextBox91)
-        Me.ILSweep4.Controls.Add(Me.TextBox92)
-        Me.ILSweep4.Controls.Add(Me.TextBox93)
+        Me.ILSweep4.Controls.Add(Me.TextBox11)
+        Me.ILSweep4.Controls.Add(Me.Label412)
+        Me.ILSweep4.Controls.Add(Me.txtPmax_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtIthpP2_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtIthpP1_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtdImdLMax_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtRmax_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtImMax_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtVfmax_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtnMax_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtlampda_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtIvf_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtImax_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtPCALminOffset_tab4)
+        Me.ILSweep4.Controls.Add(Me.txtPCALmin_tab4)
         Me.ILSweep4.Controls.Add(Me.txtImdiv_tab4)
         Me.ILSweep4.Controls.Add(Me.txtImscale_tab4)
         Me.ILSweep4.Controls.Add(Me.txtRddiv_tab4)
@@ -4465,135 +4481,135 @@ Partial Class frmILMeasurement
         Me.ILSweep4.Text = "IL Sweep4"
         Me.ILSweep4.UseVisualStyleBackColor = True
         '
-        'TextBox71
+        'txtPmax_tab4
         '
-        Me.TextBox71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox71.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox71.Location = New System.Drawing.Point(530, 253)
-        Me.TextBox71.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox71.Name = "TextBox71"
-        Me.TextBox71.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox71.TabIndex = 421
+        Me.txtPmax_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPmax_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPmax_tab4.Location = New System.Drawing.Point(530, 253)
+        Me.txtPmax_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPmax_tab4.Name = "txtPmax_tab4"
+        Me.txtPmax_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtPmax_tab4.TabIndex = 421
         '
-        'TextBox82
+        'txtIthpP2_tab4
         '
-        Me.TextBox82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox82.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox82.Location = New System.Drawing.Point(530, 520)
-        Me.TextBox82.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox82.Name = "TextBox82"
-        Me.TextBox82.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox82.TabIndex = 411
+        Me.txtIthpP2_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP2_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP2_tab4.Location = New System.Drawing.Point(530, 520)
+        Me.txtIthpP2_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP2_tab4.Name = "txtIthpP2_tab4"
+        Me.txtIthpP2_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP2_tab4.TabIndex = 411
         '
-        'TextBox83
+        'txtIthpP1_tab4
         '
-        Me.TextBox83.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox83.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox83.Location = New System.Drawing.Point(530, 480)
-        Me.TextBox83.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox83.Name = "TextBox83"
-        Me.TextBox83.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox83.TabIndex = 408
+        Me.txtIthpP1_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP1_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP1_tab4.Location = New System.Drawing.Point(530, 480)
+        Me.txtIthpP1_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP1_tab4.Name = "txtIthpP1_tab4"
+        Me.txtIthpP1_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP1_tab4.TabIndex = 408
         '
-        'TextBox84
+        'txtdImdLMax_tab4
         '
-        Me.TextBox84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox84.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox84.Location = New System.Drawing.Point(530, 441)
-        Me.TextBox84.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox84.Name = "TextBox84"
-        Me.TextBox84.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox84.TabIndex = 407
+        Me.txtdImdLMax_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdImdLMax_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdImdLMax_tab4.Location = New System.Drawing.Point(530, 441)
+        Me.txtdImdLMax_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtdImdLMax_tab4.Name = "txtdImdLMax_tab4"
+        Me.txtdImdLMax_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtdImdLMax_tab4.TabIndex = 407
         '
-        'TextBox85
+        'txtRmax_tab4
         '
-        Me.TextBox85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox85.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox85.Location = New System.Drawing.Point(530, 405)
-        Me.TextBox85.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox85.Name = "TextBox85"
-        Me.TextBox85.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox85.TabIndex = 406
+        Me.txtRmax_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRmax_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRmax_tab4.Location = New System.Drawing.Point(530, 405)
+        Me.txtRmax_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRmax_tab4.Name = "txtRmax_tab4"
+        Me.txtRmax_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtRmax_tab4.TabIndex = 406
         '
-        'TextBox86
+        'txtImMax_tab4
         '
-        Me.TextBox86.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox86.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox86.Location = New System.Drawing.Point(530, 368)
-        Me.TextBox86.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox86.Name = "TextBox86"
-        Me.TextBox86.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox86.TabIndex = 405
+        Me.txtImMax_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImMax_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImMax_tab4.Location = New System.Drawing.Point(530, 368)
+        Me.txtImMax_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImMax_tab4.Name = "txtImMax_tab4"
+        Me.txtImMax_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtImMax_tab4.TabIndex = 405
         '
-        'TextBox87
+        'txtVfmax_tab4
         '
-        Me.TextBox87.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox87.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox87.Location = New System.Drawing.Point(530, 329)
-        Me.TextBox87.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox87.Name = "TextBox87"
-        Me.TextBox87.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox87.TabIndex = 404
+        Me.txtVfmax_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtVfmax_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtVfmax_tab4.Location = New System.Drawing.Point(530, 329)
+        Me.txtVfmax_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtVfmax_tab4.Name = "txtVfmax_tab4"
+        Me.txtVfmax_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtVfmax_tab4.TabIndex = 404
         '
-        'TextBox88
+        'txtnMax_tab4
         '
-        Me.TextBox88.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox88.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox88.Location = New System.Drawing.Point(530, 291)
-        Me.TextBox88.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox88.Name = "TextBox88"
-        Me.TextBox88.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox88.TabIndex = 403
+        Me.txtnMax_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtnMax_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnMax_tab4.Location = New System.Drawing.Point(530, 291)
+        Me.txtnMax_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtnMax_tab4.Name = "txtnMax_tab4"
+        Me.txtnMax_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtnMax_tab4.TabIndex = 403
         '
-        'TextBox89
+        'txtlampda_tab4
         '
-        Me.TextBox89.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox89.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox89.Location = New System.Drawing.Point(530, 211)
-        Me.TextBox89.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox89.Name = "TextBox89"
-        Me.TextBox89.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox89.TabIndex = 402
+        Me.txtlampda_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtlampda_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtlampda_tab4.Location = New System.Drawing.Point(530, 211)
+        Me.txtlampda_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtlampda_tab4.Name = "txtlampda_tab4"
+        Me.txtlampda_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtlampda_tab4.TabIndex = 402
         '
-        'TextBox90
+        'txtIvf_tab4
         '
-        Me.TextBox90.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox90.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox90.Location = New System.Drawing.Point(530, 173)
-        Me.TextBox90.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox90.Name = "TextBox90"
-        Me.TextBox90.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox90.TabIndex = 401
+        Me.txtIvf_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIvf_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIvf_tab4.Location = New System.Drawing.Point(530, 173)
+        Me.txtIvf_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIvf_tab4.Name = "txtIvf_tab4"
+        Me.txtIvf_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtIvf_tab4.TabIndex = 401
         '
-        'TextBox91
+        'txtImax_tab4
         '
-        Me.TextBox91.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox91.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox91.Location = New System.Drawing.Point(530, 133)
-        Me.TextBox91.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox91.Name = "TextBox91"
-        Me.TextBox91.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox91.TabIndex = 400
+        Me.txtImax_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImax_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImax_tab4.Location = New System.Drawing.Point(530, 133)
+        Me.txtImax_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImax_tab4.Name = "txtImax_tab4"
+        Me.txtImax_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtImax_tab4.TabIndex = 400
         '
-        'TextBox92
+        'txtPCALminOffset_tab4
         '
-        Me.TextBox92.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox92.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox92.Location = New System.Drawing.Point(530, 91)
-        Me.TextBox92.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox92.Name = "TextBox92"
-        Me.TextBox92.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox92.TabIndex = 399
+        Me.txtPCALminOffset_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALminOffset_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALminOffset_tab4.Location = New System.Drawing.Point(530, 91)
+        Me.txtPCALminOffset_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALminOffset_tab4.Name = "txtPCALminOffset_tab4"
+        Me.txtPCALminOffset_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALminOffset_tab4.TabIndex = 399
         '
-        'TextBox93
+        'txtPCALmin_tab4
         '
-        Me.TextBox93.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox93.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox93.Location = New System.Drawing.Point(530, 49)
-        Me.TextBox93.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox93.Name = "TextBox93"
-        Me.TextBox93.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox93.TabIndex = 398
+        Me.txtPCALmin_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALmin_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALmin_tab4.Location = New System.Drawing.Point(530, 49)
+        Me.txtPCALmin_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALmin_tab4.Name = "txtPCALmin_tab4"
+        Me.txtPCALmin_tab4.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALmin_tab4.TabIndex = 398
         '
         'txtImdiv_tab4
         '
@@ -4923,8 +4939,8 @@ Partial Class frmILMeasurement
         Me.GroupBox28.Controls.Add(Me.Label327)
         Me.GroupBox28.Controls.Add(Me.Label328)
         Me.GroupBox28.Controls.Add(Me.Label329)
-        Me.GroupBox28.Controls.Add(Me.TextBox72)
-        Me.GroupBox28.Controls.Add(Me.TextBox73)
+        Me.GroupBox28.Controls.Add(Me.txtFRPpointNum_tab4)
+        Me.GroupBox28.Controls.Add(Me.txtFRPcalculationSetting_tab4)
         Me.GroupBox28.Location = New System.Drawing.Point(939, 720)
         Me.GroupBox28.Name = "GroupBox28"
         Me.GroupBox28.Size = New System.Drawing.Size(262, 143)
@@ -4972,29 +4988,29 @@ Partial Class frmILMeasurement
         Me.Label329.TabIndex = 383
         Me.Label329.Text = "mA"
         '
-        'TextBox72
+        'txtFRPpointNum_tab4
         '
-        Me.TextBox72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox72.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox72.Location = New System.Drawing.Point(129, 96)
-        Me.TextBox72.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox72.Name = "TextBox72"
-        Me.TextBox72.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox72.TabIndex = 372
+        Me.txtFRPpointNum_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPpointNum_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPpointNum_tab4.Location = New System.Drawing.Point(129, 96)
+        Me.txtFRPpointNum_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPpointNum_tab4.Name = "txtFRPpointNum_tab4"
+        Me.txtFRPpointNum_tab4.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPpointNum_tab4.TabIndex = 372
         '
-        'TextBox73
+        'txtFRPcalculationSetting_tab4
         '
-        Me.TextBox73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox73.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox73.Location = New System.Drawing.Point(129, 57)
-        Me.TextBox73.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox73.Name = "TextBox73"
-        Me.TextBox73.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox73.TabIndex = 371
+        Me.txtFRPcalculationSetting_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPcalculationSetting_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPcalculationSetting_tab4.Location = New System.Drawing.Point(129, 57)
+        Me.txtFRPcalculationSetting_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPcalculationSetting_tab4.Name = "txtFRPcalculationSetting_tab4"
+        Me.txtFRPcalculationSetting_tab4.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPcalculationSetting_tab4.TabIndex = 371
         '
         'GroupBox29
         '
-        Me.GroupBox29.Controls.Add(Me.TextBox74)
+        Me.GroupBox29.Controls.Add(Me.txtSparationCoefficient_tab4)
         Me.GroupBox29.Location = New System.Drawing.Point(939, 637)
         Me.GroupBox29.Name = "GroupBox29"
         Me.GroupBox29.Size = New System.Drawing.Size(262, 77)
@@ -5002,22 +5018,22 @@ Partial Class frmILMeasurement
         Me.GroupBox29.TabStop = False
         Me.GroupBox29.Text = "Sparation coefficient"
         '
-        'TextBox74
+        'txtSparationCoefficient_tab4
         '
-        Me.TextBox74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox74.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox74.Location = New System.Drawing.Point(137, 33)
-        Me.TextBox74.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox74.Name = "TextBox74"
-        Me.TextBox74.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox74.TabIndex = 371
+        Me.txtSparationCoefficient_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSparationCoefficient_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSparationCoefficient_tab4.Location = New System.Drawing.Point(137, 33)
+        Me.txtSparationCoefficient_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSparationCoefficient_tab4.Name = "txtSparationCoefficient_tab4"
+        Me.txtSparationCoefficient_tab4.Size = New System.Drawing.Size(73, 28)
+        Me.txtSparationCoefficient_tab4.TabIndex = 371
         '
         'GroupBox30
         '
         Me.GroupBox30.Controls.Add(Me.Label330)
         Me.GroupBox30.Controls.Add(Me.Label331)
-        Me.GroupBox30.Controls.Add(Me.TextBox75)
-        Me.GroupBox30.Controls.Add(Me.TextBox76)
+        Me.GroupBox30.Controls.Add(Me.txtSmoothingResistance_tab4)
+        Me.GroupBox30.Controls.Add(Me.txtSmoothingEfficiency_tab4)
         Me.GroupBox30.Location = New System.Drawing.Point(939, 486)
         Me.GroupBox30.Name = "GroupBox30"
         Me.GroupBox30.Size = New System.Drawing.Size(262, 145)
@@ -5045,30 +5061,30 @@ Partial Class frmILMeasurement
         Me.Label331.TabIndex = 372
         Me.Label331.Text = "Differentiation " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "efiiciency"
         '
-        'TextBox75
+        'txtSmoothingResistance_tab4
         '
-        Me.TextBox75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox75.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox75.Location = New System.Drawing.Point(137, 98)
-        Me.TextBox75.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox75.Name = "TextBox75"
-        Me.TextBox75.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox75.TabIndex = 375
+        Me.txtSmoothingResistance_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingResistance_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingResistance_tab4.Location = New System.Drawing.Point(137, 98)
+        Me.txtSmoothingResistance_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingResistance_tab4.Name = "txtSmoothingResistance_tab4"
+        Me.txtSmoothingResistance_tab4.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingResistance_tab4.TabIndex = 375
         '
-        'TextBox76
+        'txtSmoothingEfficiency_tab4
         '
-        Me.TextBox76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox76.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox76.Location = New System.Drawing.Point(137, 46)
-        Me.TextBox76.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox76.Name = "TextBox76"
-        Me.TextBox76.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox76.TabIndex = 371
+        Me.txtSmoothingEfficiency_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingEfficiency_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingEfficiency_tab4.Location = New System.Drawing.Point(137, 46)
+        Me.txtSmoothingEfficiency_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingEfficiency_tab4.Name = "txtSmoothingEfficiency_tab4"
+        Me.txtSmoothingEfficiency_tab4.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingEfficiency_tab4.TabIndex = 371
         '
         'GroupBox31
         '
-        Me.GroupBox31.Controls.Add(Me.RadioButton40)
-        Me.GroupBox31.Controls.Add(Me.RadioButton41)
+        Me.GroupBox31.Controls.Add(Me.rdoDiffMethod2_tab4)
+        Me.GroupBox31.Controls.Add(Me.rdoDiffMethod1_tab4)
         Me.GroupBox31.Location = New System.Drawing.Point(939, 360)
         Me.GroupBox31.Name = "GroupBox31"
         Me.GroupBox31.Size = New System.Drawing.Size(262, 113)
@@ -5076,37 +5092,37 @@ Partial Class frmILMeasurement
         Me.GroupBox31.TabStop = False
         Me.GroupBox31.Text = "Differentiation method"
         '
-        'RadioButton40
+        'rdoDiffMethod2_tab4
         '
-        Me.RadioButton40.AutoSize = True
-        Me.RadioButton40.Location = New System.Drawing.Point(20, 69)
-        Me.RadioButton40.Name = "RadioButton40"
-        Me.RadioButton40.Size = New System.Drawing.Size(191, 26)
-        Me.RadioButton40.TabIndex = 371
-        Me.RadioButton40.TabStop = True
-        Me.RadioButton40.Text = "Method 2(sparation)"
-        Me.RadioButton40.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton40.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod2_tab4.AutoSize = True
+        Me.rdoDiffMethod2_tab4.Location = New System.Drawing.Point(20, 69)
+        Me.rdoDiffMethod2_tab4.Name = "rdoDiffMethod2_tab4"
+        Me.rdoDiffMethod2_tab4.Size = New System.Drawing.Size(191, 26)
+        Me.rdoDiffMethod2_tab4.TabIndex = 371
+        Me.rdoDiffMethod2_tab4.TabStop = True
+        Me.rdoDiffMethod2_tab4.Text = "Method 2(sparation)"
+        Me.rdoDiffMethod2_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod2_tab4.UseVisualStyleBackColor = True
         '
-        'RadioButton41
+        'rdoDiffMethod1_tab4
         '
-        Me.RadioButton41.AutoSize = True
-        Me.RadioButton41.Location = New System.Drawing.Point(20, 37)
-        Me.RadioButton41.Name = "RadioButton41"
-        Me.RadioButton41.Size = New System.Drawing.Size(199, 26)
-        Me.RadioButton41.TabIndex = 370
-        Me.RadioButton41.TabStop = True
-        Me.RadioButton41.Text = "Method 1(smoothing)"
-        Me.RadioButton41.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton41.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod1_tab4.AutoSize = True
+        Me.rdoDiffMethod1_tab4.Location = New System.Drawing.Point(20, 37)
+        Me.rdoDiffMethod1_tab4.Name = "rdoDiffMethod1_tab4"
+        Me.rdoDiffMethod1_tab4.Size = New System.Drawing.Size(199, 26)
+        Me.rdoDiffMethod1_tab4.TabIndex = 370
+        Me.rdoDiffMethod1_tab4.TabStop = True
+        Me.rdoDiffMethod1_tab4.Text = "Method 1(smoothing)"
+        Me.rdoDiffMethod1_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod1_tab4.UseVisualStyleBackColor = True
         '
         'GroupBox32
         '
-        Me.GroupBox32.Controls.Add(Me.TextBox77)
-        Me.GroupBox32.Controls.Add(Me.RadioButton42)
+        Me.GroupBox32.Controls.Add(Me.txtLeastSquareNumOfPoint_tab4)
+        Me.GroupBox32.Controls.Add(Me.rdoLeastSquarefomula_tab4)
         Me.GroupBox32.Controls.Add(Me.Label332)
-        Me.GroupBox32.Controls.Add(Me.RadioButton43)
-        Me.GroupBox32.Controls.Add(Me.RadioButton44)
+        Me.GroupBox32.Controls.Add(Me.rdoLeastSquareSecon_tab4)
+        Me.GroupBox32.Controls.Add(Me.rdoLeastSquarePrimary_tab4)
         Me.GroupBox32.Location = New System.Drawing.Point(672, 598)
         Me.GroupBox32.Name = "GroupBox32"
         Me.GroupBox32.Size = New System.Drawing.Size(239, 187)
@@ -5114,27 +5130,27 @@ Partial Class frmILMeasurement
         Me.GroupBox32.TabStop = False
         Me.GroupBox32.Text = "Least-squares method"
         '
-        'TextBox77
+        'txtLeastSquareNumOfPoint_tab4
         '
-        Me.TextBox77.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox77.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox77.Location = New System.Drawing.Point(172, 139)
-        Me.TextBox77.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox77.Name = "TextBox77"
-        Me.TextBox77.Size = New System.Drawing.Size(53, 28)
-        Me.TextBox77.TabIndex = 378
+        Me.txtLeastSquareNumOfPoint_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLeastSquareNumOfPoint_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLeastSquareNumOfPoint_tab4.Location = New System.Drawing.Point(172, 139)
+        Me.txtLeastSquareNumOfPoint_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLeastSquareNumOfPoint_tab4.Name = "txtLeastSquareNumOfPoint_tab4"
+        Me.txtLeastSquareNumOfPoint_tab4.Size = New System.Drawing.Size(53, 28)
+        Me.txtLeastSquareNumOfPoint_tab4.TabIndex = 378
         '
-        'RadioButton42
+        'rdoLeastSquarefomula_tab4
         '
-        Me.RadioButton42.AutoSize = True
-        Me.RadioButton42.Location = New System.Drawing.Point(28, 97)
-        Me.RadioButton42.Name = "RadioButton42"
-        Me.RadioButton42.Size = New System.Drawing.Size(128, 26)
-        Me.RadioButton42.TabIndex = 372
-        Me.RadioButton42.TabStop = True
-        Me.RadioButton42.Text = "Input fomula"
-        Me.RadioButton42.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton42.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarefomula_tab4.AutoSize = True
+        Me.rdoLeastSquarefomula_tab4.Location = New System.Drawing.Point(28, 97)
+        Me.rdoLeastSquarefomula_tab4.Name = "rdoLeastSquarefomula_tab4"
+        Me.rdoLeastSquarefomula_tab4.Size = New System.Drawing.Size(128, 26)
+        Me.rdoLeastSquarefomula_tab4.TabIndex = 372
+        Me.rdoLeastSquarefomula_tab4.TabStop = True
+        Me.rdoLeastSquarefomula_tab4.Text = "Input fomula"
+        Me.rdoLeastSquarefomula_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarefomula_tab4.UseVisualStyleBackColor = True
         '
         'Label332
         '
@@ -5146,34 +5162,34 @@ Partial Class frmILMeasurement
         Me.Label332.TabIndex = 377
         Me.Label332.Text = "Number of point"
         '
-        'RadioButton43
+        'rdoLeastSquareSecon_tab4
         '
-        Me.RadioButton43.AutoSize = True
-        Me.RadioButton43.Location = New System.Drawing.Point(28, 66)
-        Me.RadioButton43.Name = "RadioButton43"
-        Me.RadioButton43.Size = New System.Drawing.Size(117, 26)
-        Me.RadioButton43.TabIndex = 371
-        Me.RadioButton43.TabStop = True
-        Me.RadioButton43.Text = "Secondary"
-        Me.RadioButton43.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton43.UseVisualStyleBackColor = True
+        Me.rdoLeastSquareSecon_tab4.AutoSize = True
+        Me.rdoLeastSquareSecon_tab4.Location = New System.Drawing.Point(28, 66)
+        Me.rdoLeastSquareSecon_tab4.Name = "rdoLeastSquareSecon_tab4"
+        Me.rdoLeastSquareSecon_tab4.Size = New System.Drawing.Size(117, 26)
+        Me.rdoLeastSquareSecon_tab4.TabIndex = 371
+        Me.rdoLeastSquareSecon_tab4.TabStop = True
+        Me.rdoLeastSquareSecon_tab4.Text = "Secondary"
+        Me.rdoLeastSquareSecon_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquareSecon_tab4.UseVisualStyleBackColor = True
         '
-        'RadioButton44
+        'rdoLeastSquarePrimary_tab4
         '
-        Me.RadioButton44.AutoSize = True
-        Me.RadioButton44.Location = New System.Drawing.Point(29, 37)
-        Me.RadioButton44.Name = "RadioButton44"
-        Me.RadioButton44.Size = New System.Drawing.Size(86, 26)
-        Me.RadioButton44.TabIndex = 370
-        Me.RadioButton44.TabStop = True
-        Me.RadioButton44.Text = "Primay"
-        Me.RadioButton44.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton44.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarePrimary_tab4.AutoSize = True
+        Me.rdoLeastSquarePrimary_tab4.Location = New System.Drawing.Point(29, 37)
+        Me.rdoLeastSquarePrimary_tab4.Name = "rdoLeastSquarePrimary_tab4"
+        Me.rdoLeastSquarePrimary_tab4.Size = New System.Drawing.Size(92, 26)
+        Me.rdoLeastSquarePrimary_tab4.TabIndex = 370
+        Me.rdoLeastSquarePrimary_tab4.TabStop = True
+        Me.rdoLeastSquarePrimary_tab4.Text = "Primary"
+        Me.rdoLeastSquarePrimary_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarePrimary_tab4.UseVisualStyleBackColor = True
         '
         'GroupBox33
         '
-        Me.GroupBox33.Controls.Add(Me.RadioButton45)
-        Me.GroupBox33.Controls.Add(Me.RadioButton46)
+        Me.GroupBox33.Controls.Add(Me.rdoKinkModeCurrnet_tab4)
+        Me.GroupBox33.Controls.Add(Me.rdoKinkModePower_tab4)
         Me.GroupBox33.Location = New System.Drawing.Point(672, 479)
         Me.GroupBox33.Name = "GroupBox33"
         Me.GroupBox33.Size = New System.Drawing.Size(239, 113)
@@ -5181,36 +5197,36 @@ Partial Class frmILMeasurement
         Me.GroupBox33.TabStop = False
         Me.GroupBox33.Text = "Kink Mode"
         '
-        'RadioButton45
+        'rdoKinkModeCurrnet_tab4
         '
-        Me.RadioButton45.AutoSize = True
-        Me.RadioButton45.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton45.Location = New System.Drawing.Point(77, 67)
-        Me.RadioButton45.Name = "RadioButton45"
-        Me.RadioButton45.Size = New System.Drawing.Size(91, 26)
-        Me.RadioButton45.TabIndex = 371
-        Me.RadioButton45.TabStop = True
-        Me.RadioButton45.Text = "Current"
-        Me.RadioButton45.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton45.UseVisualStyleBackColor = True
+        Me.rdoKinkModeCurrnet_tab4.AutoSize = True
+        Me.rdoKinkModeCurrnet_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab4.Location = New System.Drawing.Point(77, 67)
+        Me.rdoKinkModeCurrnet_tab4.Name = "rdoKinkModeCurrnet_tab4"
+        Me.rdoKinkModeCurrnet_tab4.Size = New System.Drawing.Size(91, 26)
+        Me.rdoKinkModeCurrnet_tab4.TabIndex = 371
+        Me.rdoKinkModeCurrnet_tab4.TabStop = True
+        Me.rdoKinkModeCurrnet_tab4.Text = "Current"
+        Me.rdoKinkModeCurrnet_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab4.UseVisualStyleBackColor = True
         '
-        'RadioButton46
+        'rdoKinkModePower_tab4
         '
-        Me.RadioButton46.AutoSize = True
-        Me.RadioButton46.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton46.Location = New System.Drawing.Point(78, 37)
-        Me.RadioButton46.Name = "RadioButton46"
-        Me.RadioButton46.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton46.TabIndex = 370
-        Me.RadioButton46.TabStop = True
-        Me.RadioButton46.Text = "Power"
-        Me.RadioButton46.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton46.UseVisualStyleBackColor = True
+        Me.rdoKinkModePower_tab4.AutoSize = True
+        Me.rdoKinkModePower_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab4.Location = New System.Drawing.Point(78, 37)
+        Me.rdoKinkModePower_tab4.Name = "rdoKinkModePower_tab4"
+        Me.rdoKinkModePower_tab4.Size = New System.Drawing.Size(82, 26)
+        Me.rdoKinkModePower_tab4.TabIndex = 370
+        Me.rdoKinkModePower_tab4.TabStop = True
+        Me.rdoKinkModePower_tab4.Text = "Power"
+        Me.rdoKinkModePower_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab4.UseVisualStyleBackColor = True
         '
         'GroupBox34
         '
-        Me.GroupBox34.Controls.Add(Me.RadioButton47)
-        Me.GroupBox34.Controls.Add(Me.RadioButton48)
+        Me.GroupBox34.Controls.Add(Me.rdoKinkType2_tab4)
+        Me.GroupBox34.Controls.Add(Me.rdoKinkType1_tab4)
         Me.GroupBox34.Location = New System.Drawing.Point(672, 360)
         Me.GroupBox34.Name = "GroupBox34"
         Me.GroupBox34.Size = New System.Drawing.Size(239, 113)
@@ -5218,31 +5234,31 @@ Partial Class frmILMeasurement
         Me.GroupBox34.TabStop = False
         Me.GroupBox34.Text = "Kink Method"
         '
-        'RadioButton47
+        'rdoKinkType2_tab4
         '
-        Me.RadioButton47.AutoSize = True
-        Me.RadioButton47.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton47.Location = New System.Drawing.Point(77, 69)
-        Me.RadioButton47.Name = "RadioButton47"
-        Me.RadioButton47.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton47.TabIndex = 371
-        Me.RadioButton47.TabStop = True
-        Me.RadioButton47.Text = "Type 2"
-        Me.RadioButton47.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton47.UseVisualStyleBackColor = True
+        Me.rdoKinkType2_tab4.AutoSize = True
+        Me.rdoKinkType2_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab4.Location = New System.Drawing.Point(77, 69)
+        Me.rdoKinkType2_tab4.Name = "rdoKinkType2_tab4"
+        Me.rdoKinkType2_tab4.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType2_tab4.TabIndex = 371
+        Me.rdoKinkType2_tab4.TabStop = True
+        Me.rdoKinkType2_tab4.Text = "Type 2"
+        Me.rdoKinkType2_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab4.UseVisualStyleBackColor = True
         '
-        'RadioButton48
+        'rdoKinkType1_tab4
         '
-        Me.RadioButton48.AutoSize = True
-        Me.RadioButton48.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton48.Location = New System.Drawing.Point(77, 37)
-        Me.RadioButton48.Name = "RadioButton48"
-        Me.RadioButton48.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton48.TabIndex = 370
-        Me.RadioButton48.TabStop = True
-        Me.RadioButton48.Text = "Type 1"
-        Me.RadioButton48.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton48.UseVisualStyleBackColor = True
+        Me.rdoKinkType1_tab4.AutoSize = True
+        Me.rdoKinkType1_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab4.Location = New System.Drawing.Point(77, 37)
+        Me.rdoKinkType1_tab4.Name = "rdoKinkType1_tab4"
+        Me.rdoKinkType1_tab4.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType1_tab4.TabIndex = 370
+        Me.rdoKinkType1_tab4.TabStop = True
+        Me.rdoKinkType1_tab4.Text = "Type 1"
+        Me.rdoKinkType1_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab4.UseVisualStyleBackColor = True
         '
         'GroupBox35
         '
@@ -5252,15 +5268,15 @@ Partial Class frmILMeasurement
         Me.GroupBox35.Controls.Add(Me.Label336)
         Me.GroupBox35.Controls.Add(Me.Label337)
         Me.GroupBox35.Controls.Add(Me.Label338)
-        Me.GroupBox35.Controls.Add(Me.TextBox78)
-        Me.GroupBox35.Controls.Add(Me.TextBox79)
+        Me.GroupBox35.Controls.Add(Me.txtKinkY_tab4)
+        Me.GroupBox35.Controls.Add(Me.txtKinkX_tab4)
         Me.GroupBox35.Controls.Add(Me.Label339)
-        Me.GroupBox35.Controls.Add(Me.TextBox80)
+        Me.GroupBox35.Controls.Add(Me.txtIkMax_tab4)
         Me.GroupBox35.Controls.Add(Me.Label340)
-        Me.GroupBox35.Controls.Add(Me.TextBox81)
-        Me.GroupBox35.Controls.Add(Me.CheckBox10)
-        Me.GroupBox35.Controls.Add(Me.CheckBox11)
-        Me.GroupBox35.Controls.Add(Me.CheckBox12)
+        Me.GroupBox35.Controls.Add(Me.txtDelta_tab4)
+        Me.GroupBox35.Controls.Add(Me.ckdImdLGraph2_tab4)
+        Me.GroupBox35.Controls.Add(Me.ckdImdLGraph1_tab4)
+        Me.GroupBox35.Controls.Add(Me.ckKinkGraph_tab4)
         Me.GroupBox35.Location = New System.Drawing.Point(672, 49)
         Me.GroupBox35.Name = "GroupBox35"
         Me.GroupBox35.Size = New System.Drawing.Size(239, 305)
@@ -5292,11 +5308,11 @@ Partial Class frmILMeasurement
         '
         Me.Label335.AutoSize = True
         Me.Label335.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label335.Location = New System.Drawing.Point(41, 178)
+        Me.Label335.Location = New System.Drawing.Point(21, 178)
         Me.Label335.Name = "Label335"
-        Me.Label335.Size = New System.Drawing.Size(36, 22)
+        Me.Label335.Size = New System.Drawing.Size(56, 22)
         Me.Label335.TabIndex = 380
-        Me.Label335.Text = "mA"
+        Me.Label335.Text = "IkMax"
         '
         'Label336
         '
@@ -5328,25 +5344,25 @@ Partial Class frmILMeasurement
         Me.Label338.TabIndex = 378
         Me.Label338.Text = "%"
         '
-        'TextBox78
+        'txtKinkY_tab4
         '
-        Me.TextBox78.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox78.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox78.Location = New System.Drawing.Point(80, 247)
-        Me.TextBox78.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox78.Name = "TextBox78"
-        Me.TextBox78.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox78.TabIndex = 377
+        Me.txtKinkY_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkY_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkY_tab4.Location = New System.Drawing.Point(80, 247)
+        Me.txtKinkY_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkY_tab4.Name = "txtKinkY_tab4"
+        Me.txtKinkY_tab4.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkY_tab4.TabIndex = 377
         '
-        'TextBox79
+        'txtKinkX_tab4
         '
-        Me.TextBox79.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox79.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox79.Location = New System.Drawing.Point(80, 211)
-        Me.TextBox79.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox79.Name = "TextBox79"
-        Me.TextBox79.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox79.TabIndex = 376
+        Me.txtKinkX_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkX_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkX_tab4.Location = New System.Drawing.Point(80, 211)
+        Me.txtKinkX_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkX_tab4.Name = "txtKinkX_tab4"
+        Me.txtKinkX_tab4.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkX_tab4.TabIndex = 376
         '
         'Label339
         '
@@ -5358,15 +5374,15 @@ Partial Class frmILMeasurement
         Me.Label339.TabIndex = 374
         Me.Label339.Text = "mA"
         '
-        'TextBox80
+        'txtIkMax_tab4
         '
-        Me.TextBox80.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox80.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox80.Location = New System.Drawing.Point(80, 175)
-        Me.TextBox80.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox80.Name = "TextBox80"
-        Me.TextBox80.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox80.TabIndex = 375
+        Me.txtIkMax_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIkMax_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIkMax_tab4.Location = New System.Drawing.Point(80, 175)
+        Me.txtIkMax_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIkMax_tab4.Name = "txtIkMax_tab4"
+        Me.txtIkMax_tab4.Size = New System.Drawing.Size(73, 28)
+        Me.txtIkMax_tab4.TabIndex = 375
         '
         'Label340
         '
@@ -5378,52 +5394,52 @@ Partial Class frmILMeasurement
         Me.Label340.TabIndex = 371
         Me.Label340.Text = "mA"
         '
-        'TextBox81
+        'txtDelta_tab4
         '
-        Me.TextBox81.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox81.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox81.Location = New System.Drawing.Point(80, 137)
-        Me.TextBox81.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox81.Name = "TextBox81"
-        Me.TextBox81.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox81.TabIndex = 371
+        Me.txtDelta_tab4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelta_tab4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelta_tab4.Location = New System.Drawing.Point(80, 137)
+        Me.txtDelta_tab4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtDelta_tab4.Name = "txtDelta_tab4"
+        Me.txtDelta_tab4.Size = New System.Drawing.Size(73, 28)
+        Me.txtDelta_tab4.TabIndex = 371
         '
-        'CheckBox10
+        'ckdImdLGraph2_tab4
         '
-        Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.Location = New System.Drawing.Point(56, 101)
-        Me.CheckBox10.Name = "CheckBox10"
-        Me.CheckBox10.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox10.TabIndex = 373
-        Me.CheckBox10.Text = "dIm/dL Graph"
-        Me.CheckBox10.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph2_tab4.AutoSize = True
+        Me.ckdImdLGraph2_tab4.Location = New System.Drawing.Point(56, 101)
+        Me.ckdImdLGraph2_tab4.Name = "ckdImdLGraph2_tab4"
+        Me.ckdImdLGraph2_tab4.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph2_tab4.TabIndex = 373
+        Me.ckdImdLGraph2_tab4.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph2_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox11
+        'ckdImdLGraph1_tab4
         '
-        Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Location = New System.Drawing.Point(56, 69)
-        Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox11.TabIndex = 372
-        Me.CheckBox11.Text = "dIm/dL Graph"
-        Me.CheckBox11.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph1_tab4.AutoSize = True
+        Me.ckdImdLGraph1_tab4.Location = New System.Drawing.Point(56, 69)
+        Me.ckdImdLGraph1_tab4.Name = "ckdImdLGraph1_tab4"
+        Me.ckdImdLGraph1_tab4.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph1_tab4.TabIndex = 372
+        Me.ckdImdLGraph1_tab4.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph1_tab4.UseVisualStyleBackColor = True
         '
-        'CheckBox12
+        'ckKinkGraph_tab4
         '
-        Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Location = New System.Drawing.Point(56, 38)
-        Me.CheckBox12.Name = "CheckBox12"
-        Me.CheckBox12.Size = New System.Drawing.Size(122, 26)
-        Me.CheckBox12.TabIndex = 371
-        Me.CheckBox12.Text = "Kink Graph"
-        Me.CheckBox12.UseVisualStyleBackColor = True
+        Me.ckKinkGraph_tab4.AutoSize = True
+        Me.ckKinkGraph_tab4.Location = New System.Drawing.Point(56, 38)
+        Me.ckKinkGraph_tab4.Name = "ckKinkGraph_tab4"
+        Me.ckKinkGraph_tab4.Size = New System.Drawing.Size(122, 26)
+        Me.ckKinkGraph_tab4.TabIndex = 371
+        Me.ckKinkGraph_tab4.Text = "Kink Graph"
+        Me.ckKinkGraph_tab4.UseVisualStyleBackColor = True
         '
         'GroupBox36
         '
-        Me.GroupBox36.Controls.Add(Me.RadioButton49)
-        Me.GroupBox36.Controls.Add(Me.RadioButton50)
-        Me.GroupBox36.Controls.Add(Me.RadioButton51)
-        Me.GroupBox36.Controls.Add(Me.RadioButton52)
+        Me.GroupBox36.Controls.Add(Me.rdo20mA_tab4)
+        Me.GroupBox36.Controls.Add(Me.rdo10mA_tab4)
+        Me.GroupBox36.Controls.Add(Me.rdo02mA_tab4)
+        Me.GroupBox36.Controls.Add(Me.rdoAuto_tab4)
         Me.GroupBox36.Location = New System.Drawing.Point(443, 589)
         Me.GroupBox36.Name = "GroupBox36"
         Me.GroupBox36.Size = New System.Drawing.Size(122, 176)
@@ -5431,57 +5447,57 @@ Partial Class frmILMeasurement
         Me.GroupBox36.TabStop = False
         Me.GroupBox36.Text = "If step"
         '
-        'RadioButton49
+        'rdo20mA_tab4
         '
-        Me.RadioButton49.AutoSize = True
-        Me.RadioButton49.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton49.Location = New System.Drawing.Point(20, 137)
-        Me.RadioButton49.Name = "RadioButton49"
-        Me.RadioButton49.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton49.TabIndex = 373
-        Me.RadioButton49.TabStop = True
-        Me.RadioButton49.Text = "2.0mA"
-        Me.RadioButton49.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton49.UseVisualStyleBackColor = True
+        Me.rdo20mA_tab4.AutoSize = True
+        Me.rdo20mA_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab4.Location = New System.Drawing.Point(20, 137)
+        Me.rdo20mA_tab4.Name = "rdo20mA_tab4"
+        Me.rdo20mA_tab4.Size = New System.Drawing.Size(82, 26)
+        Me.rdo20mA_tab4.TabIndex = 373
+        Me.rdo20mA_tab4.TabStop = True
+        Me.rdo20mA_tab4.Text = "2.0mA"
+        Me.rdo20mA_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab4.UseVisualStyleBackColor = True
         '
-        'RadioButton50
+        'rdo10mA_tab4
         '
-        Me.RadioButton50.AutoSize = True
-        Me.RadioButton50.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton50.Location = New System.Drawing.Point(20, 105)
-        Me.RadioButton50.Name = "RadioButton50"
-        Me.RadioButton50.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton50.TabIndex = 372
-        Me.RadioButton50.TabStop = True
-        Me.RadioButton50.Text = "1.0mA"
-        Me.RadioButton50.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton50.UseVisualStyleBackColor = True
+        Me.rdo10mA_tab4.AutoSize = True
+        Me.rdo10mA_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab4.Location = New System.Drawing.Point(20, 105)
+        Me.rdo10mA_tab4.Name = "rdo10mA_tab4"
+        Me.rdo10mA_tab4.Size = New System.Drawing.Size(82, 26)
+        Me.rdo10mA_tab4.TabIndex = 372
+        Me.rdo10mA_tab4.TabStop = True
+        Me.rdo10mA_tab4.Text = "1.0mA"
+        Me.rdo10mA_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab4.UseVisualStyleBackColor = True
         '
-        'RadioButton51
+        'rdo02mA_tab4
         '
-        Me.RadioButton51.AutoSize = True
-        Me.RadioButton51.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton51.Location = New System.Drawing.Point(19, 73)
-        Me.RadioButton51.Name = "RadioButton51"
-        Me.RadioButton51.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton51.TabIndex = 371
-        Me.RadioButton51.TabStop = True
-        Me.RadioButton51.Text = "0.2mA"
-        Me.RadioButton51.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton51.UseVisualStyleBackColor = True
+        Me.rdo02mA_tab4.AutoSize = True
+        Me.rdo02mA_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab4.Location = New System.Drawing.Point(19, 73)
+        Me.rdo02mA_tab4.Name = "rdo02mA_tab4"
+        Me.rdo02mA_tab4.Size = New System.Drawing.Size(82, 26)
+        Me.rdo02mA_tab4.TabIndex = 371
+        Me.rdo02mA_tab4.TabStop = True
+        Me.rdo02mA_tab4.Text = "0.2mA"
+        Me.rdo02mA_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab4.UseVisualStyleBackColor = True
         '
-        'RadioButton52
+        'rdoAuto_tab4
         '
-        Me.RadioButton52.AutoSize = True
-        Me.RadioButton52.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton52.Location = New System.Drawing.Point(20, 43)
-        Me.RadioButton52.Name = "RadioButton52"
-        Me.RadioButton52.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton52.TabIndex = 370
-        Me.RadioButton52.TabStop = True
-        Me.RadioButton52.Text = "AUTO"
-        Me.RadioButton52.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton52.UseVisualStyleBackColor = True
+        Me.rdoAuto_tab4.AutoSize = True
+        Me.rdoAuto_tab4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab4.Location = New System.Drawing.Point(20, 43)
+        Me.rdoAuto_tab4.Name = "rdoAuto_tab4"
+        Me.rdoAuto_tab4.Size = New System.Drawing.Size(82, 26)
+        Me.rdoAuto_tab4.TabIndex = 370
+        Me.rdoAuto_tab4.TabStop = True
+        Me.rdoAuto_tab4.Text = "AUTO"
+        Me.rdoAuto_tab4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab4.UseVisualStyleBackColor = True
         '
         'Label341
         '
@@ -5567,11 +5583,11 @@ Partial Class frmILMeasurement
         '
         Me.Label349.AutoSize = True
         Me.Label349.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label349.Location = New System.Drawing.Point(483, 214)
+        Me.Label349.Location = New System.Drawing.Point(469, 214)
         Me.Label349.Name = "Label349"
-        Me.Label349.Size = New System.Drawing.Size(44, 22)
+        Me.Label349.Size = New System.Drawing.Size(58, 22)
         Me.Label349.TabIndex = 391
-        Me.Label349.Text = "[nm]"
+        Me.Label349.Text = "λ [nm]"
         '
         'Label350
         '
@@ -6016,254 +6032,256 @@ Partial Class frmILMeasurement
         Me.Label138.TabIndex = 299
         Me.Label138.Text = "mA"
         '
-        'ILSweep3
+        'txtPmax_tab3
         '
-        Me.ILSweep3.Controls.Add(Me.TextBox48)
-        Me.ILSweep3.Controls.Add(Me.TextBox59)
-        Me.ILSweep3.Controls.Add(Me.TextBox60)
-        Me.ILSweep3.Controls.Add(Me.TextBox61)
-        Me.ILSweep3.Controls.Add(Me.TextBox62)
-        Me.ILSweep3.Controls.Add(Me.TextBox63)
-        Me.ILSweep3.Controls.Add(Me.TextBox64)
-        Me.ILSweep3.Controls.Add(Me.TextBox65)
-        Me.ILSweep3.Controls.Add(Me.TextBox66)
-        Me.ILSweep3.Controls.Add(Me.TextBox67)
-        Me.ILSweep3.Controls.Add(Me.TextBox68)
-        Me.ILSweep3.Controls.Add(Me.TextBox69)
-        Me.ILSweep3.Controls.Add(Me.TextBox70)
-        Me.ILSweep3.Controls.Add(Me.txtImdiv_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtImscale_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtRddiv_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtRdscale_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtSediv_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtSescale_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtPodiv_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtPoscale_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtVfdiv_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtVfscale_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtIfdiv_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtIfscale_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtFpp4_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtFpp3_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtFrp2_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtFpp2_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtFcp2_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtFrp_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtFpp_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtFcp_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtAtt_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtIcal_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtTld_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtTc_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtPoweravg_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtDelay_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtPulse_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtDutycycle_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtFrequn_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtStop_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtStep_tab3)
-        Me.ILSweep3.Controls.Add(Me.txtStart_tab3)
-        Me.ILSweep3.Controls.Add(Me.GroupBox19)
-        Me.ILSweep3.Controls.Add(Me.GroupBox20)
-        Me.ILSweep3.Controls.Add(Me.GroupBox21)
-        Me.ILSweep3.Controls.Add(Me.GroupBox22)
-        Me.ILSweep3.Controls.Add(Me.GroupBox23)
-        Me.ILSweep3.Controls.Add(Me.GroupBox24)
-        Me.ILSweep3.Controls.Add(Me.GroupBox25)
-        Me.ILSweep3.Controls.Add(Me.GroupBox26)
-        Me.ILSweep3.Controls.Add(Me.GroupBox27)
-        Me.ILSweep3.Controls.Add(Me.Label313)
-        Me.ILSweep3.Controls.Add(Me.Label314)
-        Me.ILSweep3.Controls.Add(Me.Label315)
-        Me.ILSweep3.Controls.Add(Me.Label316)
-        Me.ILSweep3.Controls.Add(Me.Label317)
-        Me.ILSweep3.Controls.Add(Me.Label318)
-        Me.ILSweep3.Controls.Add(Me.Label319)
-        Me.ILSweep3.Controls.Add(Me.Label320)
-        Me.ILSweep3.Controls.Add(Me.Label321)
-        Me.ILSweep3.Controls.Add(Me.Label322)
-        Me.ILSweep3.Controls.Add(Me.Label323)
-        Me.ILSweep3.Controls.Add(Me.Label324)
-        Me.ILSweep3.Controls.Add(Me.Label325)
-        Me.ILSweep3.Controls.Add(Me.Label90)
-        Me.ILSweep3.Controls.Add(Me.Label107)
-        Me.ILSweep3.Controls.Add(Me.Label120)
-        Me.ILSweep3.Controls.Add(Me.Label41)
-        Me.ILSweep3.Controls.Add(Me.Label42)
-        Me.ILSweep3.Controls.Add(Me.Label43)
-        Me.ILSweep3.Controls.Add(Me.Label44)
-        Me.ILSweep3.Controls.Add(Me.Label85)
-        Me.ILSweep3.Controls.Add(Me.Label87)
-        Me.ILSweep3.Controls.Add(Me.Label89)
-        Me.ILSweep3.Controls.Add(Me.Label99)
-        Me.ILSweep3.Controls.Add(Me.Label100)
-        Me.ILSweep3.Controls.Add(Me.Label101)
-        Me.ILSweep3.Controls.Add(Me.Label102)
-        Me.ILSweep3.Controls.Add(Me.Label103)
-        Me.ILSweep3.Controls.Add(Me.Label104)
-        Me.ILSweep3.Controls.Add(Me.Label105)
-        Me.ILSweep3.Controls.Add(Me.Label106)
-        Me.ILSweep3.Controls.Add(Me.Label67)
-        Me.ILSweep3.Controls.Add(Me.Label68)
-        Me.ILSweep3.Controls.Add(Me.Label69)
-        Me.ILSweep3.Controls.Add(Me.Label70)
-        Me.ILSweep3.Controls.Add(Me.Label72)
-        Me.ILSweep3.Controls.Add(Me.Label73)
-        Me.ILSweep3.Controls.Add(Me.Label74)
-        Me.ILSweep3.Controls.Add(Me.Label75)
-        Me.ILSweep3.Controls.Add(Me.Label76)
-        Me.ILSweep3.Controls.Add(Me.Label77)
-        Me.ILSweep3.Controls.Add(Me.Label78)
-        Me.ILSweep3.Controls.Add(Me.Label79)
-        Me.ILSweep3.Controls.Add(Me.Label86)
-        Me.ILSweep3.Controls.Add(Me.Label88)
-        Me.ILSweep3.Controls.Add(Me.Label91)
-        Me.ILSweep3.Controls.Add(Me.Label92)
-        Me.ILSweep3.Controls.Add(Me.Label93)
-        Me.ILSweep3.Controls.Add(Me.Label94)
-        Me.ILSweep3.Controls.Add(Me.Label95)
-        Me.ILSweep3.Controls.Add(Me.Label96)
-        Me.ILSweep3.Controls.Add(Me.Label97)
-        Me.ILSweep3.Controls.Add(Me.Label98)
-        Me.ILSweep3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ILSweep3.Location = New System.Drawing.Point(4, 31)
-        Me.ILSweep3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.ILSweep3.Name = "ILSweep3"
-        Me.ILSweep3.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.ILSweep3.Size = New System.Drawing.Size(1228, 949)
-        Me.ILSweep3.TabIndex = 2
-        Me.ILSweep3.Text = "IL Sweep3"
-        Me.ILSweep3.UseVisualStyleBackColor = True
+        Me.txtPmax_tab3.Controls.Add(Me.TextBox10)
+        Me.txtPmax_tab3.Controls.Add(Me.Label411)
+        Me.txtPmax_tab3.Controls.Add(Me.txtPmax_tab)
+        Me.txtPmax_tab3.Controls.Add(Me.txtIthpP2_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtIthpP1_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtdImdLMax_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtRmax_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtImMax_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtVfmax_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtnMax_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtlampda_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtIvf_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtImax_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtPCALminOffset_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtPCALmin_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtImdiv_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtImscale_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtRddiv_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtRdscale_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtSediv_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtSescale_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtPodiv_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtPoscale_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtVfdiv_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtVfscale_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtIfdiv_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtIfscale_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtFpp4_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtFpp3_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtFrp2_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtFpp2_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtFcp2_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtFrp_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtFpp_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtFcp_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtAtt_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtIcal_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtTld_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtTc_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtPoweravg_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtDelay_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtPulse_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtDutycycle_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtFrequn_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtStop_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtStep_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.txtStart_tab3)
+        Me.txtPmax_tab3.Controls.Add(Me.GroupBox19)
+        Me.txtPmax_tab3.Controls.Add(Me.GroupBox20)
+        Me.txtPmax_tab3.Controls.Add(Me.GroupBox21)
+        Me.txtPmax_tab3.Controls.Add(Me.GroupBox22)
+        Me.txtPmax_tab3.Controls.Add(Me.GroupBox23)
+        Me.txtPmax_tab3.Controls.Add(Me.GroupBox24)
+        Me.txtPmax_tab3.Controls.Add(Me.GroupBox25)
+        Me.txtPmax_tab3.Controls.Add(Me.GroupBox26)
+        Me.txtPmax_tab3.Controls.Add(Me.GroupBox27)
+        Me.txtPmax_tab3.Controls.Add(Me.Label313)
+        Me.txtPmax_tab3.Controls.Add(Me.Label314)
+        Me.txtPmax_tab3.Controls.Add(Me.Label315)
+        Me.txtPmax_tab3.Controls.Add(Me.Label316)
+        Me.txtPmax_tab3.Controls.Add(Me.Label317)
+        Me.txtPmax_tab3.Controls.Add(Me.Label318)
+        Me.txtPmax_tab3.Controls.Add(Me.Label319)
+        Me.txtPmax_tab3.Controls.Add(Me.Label320)
+        Me.txtPmax_tab3.Controls.Add(Me.Label321)
+        Me.txtPmax_tab3.Controls.Add(Me.Label322)
+        Me.txtPmax_tab3.Controls.Add(Me.Label323)
+        Me.txtPmax_tab3.Controls.Add(Me.Label324)
+        Me.txtPmax_tab3.Controls.Add(Me.Label325)
+        Me.txtPmax_tab3.Controls.Add(Me.Label90)
+        Me.txtPmax_tab3.Controls.Add(Me.Label107)
+        Me.txtPmax_tab3.Controls.Add(Me.Label120)
+        Me.txtPmax_tab3.Controls.Add(Me.Label41)
+        Me.txtPmax_tab3.Controls.Add(Me.Label42)
+        Me.txtPmax_tab3.Controls.Add(Me.Label43)
+        Me.txtPmax_tab3.Controls.Add(Me.Label44)
+        Me.txtPmax_tab3.Controls.Add(Me.Label85)
+        Me.txtPmax_tab3.Controls.Add(Me.Label87)
+        Me.txtPmax_tab3.Controls.Add(Me.Label89)
+        Me.txtPmax_tab3.Controls.Add(Me.Label99)
+        Me.txtPmax_tab3.Controls.Add(Me.Label100)
+        Me.txtPmax_tab3.Controls.Add(Me.Label101)
+        Me.txtPmax_tab3.Controls.Add(Me.Label102)
+        Me.txtPmax_tab3.Controls.Add(Me.Label103)
+        Me.txtPmax_tab3.Controls.Add(Me.Label104)
+        Me.txtPmax_tab3.Controls.Add(Me.Label105)
+        Me.txtPmax_tab3.Controls.Add(Me.Label106)
+        Me.txtPmax_tab3.Controls.Add(Me.Label67)
+        Me.txtPmax_tab3.Controls.Add(Me.Label68)
+        Me.txtPmax_tab3.Controls.Add(Me.Label69)
+        Me.txtPmax_tab3.Controls.Add(Me.Label70)
+        Me.txtPmax_tab3.Controls.Add(Me.Label72)
+        Me.txtPmax_tab3.Controls.Add(Me.Label73)
+        Me.txtPmax_tab3.Controls.Add(Me.Label74)
+        Me.txtPmax_tab3.Controls.Add(Me.Label75)
+        Me.txtPmax_tab3.Controls.Add(Me.Label76)
+        Me.txtPmax_tab3.Controls.Add(Me.Label77)
+        Me.txtPmax_tab3.Controls.Add(Me.Label78)
+        Me.txtPmax_tab3.Controls.Add(Me.Label79)
+        Me.txtPmax_tab3.Controls.Add(Me.Label86)
+        Me.txtPmax_tab3.Controls.Add(Me.Label88)
+        Me.txtPmax_tab3.Controls.Add(Me.Label91)
+        Me.txtPmax_tab3.Controls.Add(Me.Label92)
+        Me.txtPmax_tab3.Controls.Add(Me.Label93)
+        Me.txtPmax_tab3.Controls.Add(Me.Label94)
+        Me.txtPmax_tab3.Controls.Add(Me.Label95)
+        Me.txtPmax_tab3.Controls.Add(Me.Label96)
+        Me.txtPmax_tab3.Controls.Add(Me.Label97)
+        Me.txtPmax_tab3.Controls.Add(Me.Label98)
+        Me.txtPmax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPmax_tab3.Location = New System.Drawing.Point(4, 31)
+        Me.txtPmax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPmax_tab3.Name = "txtPmax_tab3"
+        Me.txtPmax_tab3.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPmax_tab3.Size = New System.Drawing.Size(1228, 949)
+        Me.txtPmax_tab3.TabIndex = 2
+        Me.txtPmax_tab3.Text = "IL Sweep3"
+        Me.txtPmax_tab3.UseVisualStyleBackColor = True
         '
-        'TextBox48
+        'txtPmax_tab
         '
-        Me.TextBox48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox48.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox48.Location = New System.Drawing.Point(530, 253)
-        Me.TextBox48.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox48.Name = "TextBox48"
-        Me.TextBox48.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox48.TabIndex = 421
+        Me.txtPmax_tab.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPmax_tab.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPmax_tab.Location = New System.Drawing.Point(530, 253)
+        Me.txtPmax_tab.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPmax_tab.Name = "txtPmax_tab"
+        Me.txtPmax_tab.Size = New System.Drawing.Size(111, 28)
+        Me.txtPmax_tab.TabIndex = 421
         '
-        'TextBox59
+        'txtIthpP2_tab3
         '
-        Me.TextBox59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox59.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox59.Location = New System.Drawing.Point(530, 520)
-        Me.TextBox59.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox59.Name = "TextBox59"
-        Me.TextBox59.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox59.TabIndex = 411
+        Me.txtIthpP2_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP2_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP2_tab3.Location = New System.Drawing.Point(530, 520)
+        Me.txtIthpP2_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP2_tab3.Name = "txtIthpP2_tab3"
+        Me.txtIthpP2_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP2_tab3.TabIndex = 411
         '
-        'TextBox60
+        'txtIthpP1_tab3
         '
-        Me.TextBox60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox60.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox60.Location = New System.Drawing.Point(530, 480)
-        Me.TextBox60.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox60.Name = "TextBox60"
-        Me.TextBox60.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox60.TabIndex = 408
+        Me.txtIthpP1_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP1_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP1_tab3.Location = New System.Drawing.Point(530, 480)
+        Me.txtIthpP1_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP1_tab3.Name = "txtIthpP1_tab3"
+        Me.txtIthpP1_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP1_tab3.TabIndex = 408
         '
-        'TextBox61
+        'txtdImdLMax_tab3
         '
-        Me.TextBox61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox61.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox61.Location = New System.Drawing.Point(530, 441)
-        Me.TextBox61.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox61.Name = "TextBox61"
-        Me.TextBox61.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox61.TabIndex = 407
+        Me.txtdImdLMax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdImdLMax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdImdLMax_tab3.Location = New System.Drawing.Point(530, 441)
+        Me.txtdImdLMax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtdImdLMax_tab3.Name = "txtdImdLMax_tab3"
+        Me.txtdImdLMax_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtdImdLMax_tab3.TabIndex = 407
         '
-        'TextBox62
+        'txtRmax_tab3
         '
-        Me.TextBox62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox62.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox62.Location = New System.Drawing.Point(530, 405)
-        Me.TextBox62.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox62.Name = "TextBox62"
-        Me.TextBox62.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox62.TabIndex = 406
+        Me.txtRmax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRmax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRmax_tab3.Location = New System.Drawing.Point(530, 405)
+        Me.txtRmax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRmax_tab3.Name = "txtRmax_tab3"
+        Me.txtRmax_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtRmax_tab3.TabIndex = 406
         '
-        'TextBox63
+        'txtImMax_tab3
         '
-        Me.TextBox63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox63.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox63.Location = New System.Drawing.Point(530, 368)
-        Me.TextBox63.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox63.Name = "TextBox63"
-        Me.TextBox63.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox63.TabIndex = 405
+        Me.txtImMax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImMax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImMax_tab3.Location = New System.Drawing.Point(530, 368)
+        Me.txtImMax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImMax_tab3.Name = "txtImMax_tab3"
+        Me.txtImMax_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtImMax_tab3.TabIndex = 405
         '
-        'TextBox64
+        'txtVfmax_tab3
         '
-        Me.TextBox64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox64.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox64.Location = New System.Drawing.Point(530, 329)
-        Me.TextBox64.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox64.Name = "TextBox64"
-        Me.TextBox64.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox64.TabIndex = 404
+        Me.txtVfmax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtVfmax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtVfmax_tab3.Location = New System.Drawing.Point(530, 329)
+        Me.txtVfmax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtVfmax_tab3.Name = "txtVfmax_tab3"
+        Me.txtVfmax_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtVfmax_tab3.TabIndex = 404
         '
-        'TextBox65
+        'txtnMax_tab3
         '
-        Me.TextBox65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox65.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox65.Location = New System.Drawing.Point(530, 291)
-        Me.TextBox65.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox65.Name = "TextBox65"
-        Me.TextBox65.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox65.TabIndex = 403
+        Me.txtnMax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtnMax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnMax_tab3.Location = New System.Drawing.Point(530, 291)
+        Me.txtnMax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtnMax_tab3.Name = "txtnMax_tab3"
+        Me.txtnMax_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtnMax_tab3.TabIndex = 403
         '
-        'TextBox66
+        'txtlampda_tab3
         '
-        Me.TextBox66.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox66.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox66.Location = New System.Drawing.Point(530, 211)
-        Me.TextBox66.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox66.Name = "TextBox66"
-        Me.TextBox66.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox66.TabIndex = 402
+        Me.txtlampda_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtlampda_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtlampda_tab3.Location = New System.Drawing.Point(530, 211)
+        Me.txtlampda_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtlampda_tab3.Name = "txtlampda_tab3"
+        Me.txtlampda_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtlampda_tab3.TabIndex = 402
         '
-        'TextBox67
+        'txtIvf_tab3
         '
-        Me.TextBox67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox67.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox67.Location = New System.Drawing.Point(530, 173)
-        Me.TextBox67.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox67.Name = "TextBox67"
-        Me.TextBox67.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox67.TabIndex = 401
+        Me.txtIvf_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIvf_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIvf_tab3.Location = New System.Drawing.Point(530, 173)
+        Me.txtIvf_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIvf_tab3.Name = "txtIvf_tab3"
+        Me.txtIvf_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtIvf_tab3.TabIndex = 401
         '
-        'TextBox68
+        'txtImax_tab3
         '
-        Me.TextBox68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox68.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox68.Location = New System.Drawing.Point(530, 133)
-        Me.TextBox68.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox68.Name = "TextBox68"
-        Me.TextBox68.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox68.TabIndex = 400
+        Me.txtImax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImax_tab3.Location = New System.Drawing.Point(530, 133)
+        Me.txtImax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImax_tab3.Name = "txtImax_tab3"
+        Me.txtImax_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtImax_tab3.TabIndex = 400
         '
-        'TextBox69
+        'txtPCALminOffset_tab3
         '
-        Me.TextBox69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox69.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox69.Location = New System.Drawing.Point(530, 91)
-        Me.TextBox69.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox69.Name = "TextBox69"
-        Me.TextBox69.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox69.TabIndex = 399
+        Me.txtPCALminOffset_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALminOffset_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALminOffset_tab3.Location = New System.Drawing.Point(530, 91)
+        Me.txtPCALminOffset_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALminOffset_tab3.Name = "txtPCALminOffset_tab3"
+        Me.txtPCALminOffset_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALminOffset_tab3.TabIndex = 399
         '
-        'TextBox70
+        'txtPCALmin_tab3
         '
-        Me.TextBox70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox70.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox70.Location = New System.Drawing.Point(530, 49)
-        Me.TextBox70.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox70.Name = "TextBox70"
-        Me.TextBox70.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox70.TabIndex = 398
+        Me.txtPCALmin_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALmin_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALmin_tab3.Location = New System.Drawing.Point(530, 49)
+        Me.txtPCALmin_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALmin_tab3.Name = "txtPCALmin_tab3"
+        Me.txtPCALmin_tab3.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALmin_tab3.TabIndex = 398
         '
         'txtImdiv_tab3
         '
@@ -6593,8 +6611,8 @@ Partial Class frmILMeasurement
         Me.GroupBox19.Controls.Add(Me.Label299)
         Me.GroupBox19.Controls.Add(Me.Label300)
         Me.GroupBox19.Controls.Add(Me.Label301)
-        Me.GroupBox19.Controls.Add(Me.TextBox49)
-        Me.GroupBox19.Controls.Add(Me.TextBox50)
+        Me.GroupBox19.Controls.Add(Me.txtFRPpointNum_tab3)
+        Me.GroupBox19.Controls.Add(Me.txtFRPcalculationSetting_tab3)
         Me.GroupBox19.Location = New System.Drawing.Point(939, 720)
         Me.GroupBox19.Name = "GroupBox19"
         Me.GroupBox19.Size = New System.Drawing.Size(262, 143)
@@ -6642,29 +6660,29 @@ Partial Class frmILMeasurement
         Me.Label301.TabIndex = 383
         Me.Label301.Text = "mA"
         '
-        'TextBox49
+        'txtFRPpointNum_tab3
         '
-        Me.TextBox49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox49.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox49.Location = New System.Drawing.Point(129, 96)
-        Me.TextBox49.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox49.Name = "TextBox49"
-        Me.TextBox49.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox49.TabIndex = 372
+        Me.txtFRPpointNum_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPpointNum_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPpointNum_tab3.Location = New System.Drawing.Point(129, 96)
+        Me.txtFRPpointNum_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPpointNum_tab3.Name = "txtFRPpointNum_tab3"
+        Me.txtFRPpointNum_tab3.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPpointNum_tab3.TabIndex = 372
         '
-        'TextBox50
+        'txtFRPcalculationSetting_tab3
         '
-        Me.TextBox50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox50.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox50.Location = New System.Drawing.Point(129, 57)
-        Me.TextBox50.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox50.Name = "TextBox50"
-        Me.TextBox50.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox50.TabIndex = 371
+        Me.txtFRPcalculationSetting_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPcalculationSetting_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPcalculationSetting_tab3.Location = New System.Drawing.Point(129, 57)
+        Me.txtFRPcalculationSetting_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPcalculationSetting_tab3.Name = "txtFRPcalculationSetting_tab3"
+        Me.txtFRPcalculationSetting_tab3.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPcalculationSetting_tab3.TabIndex = 371
         '
         'GroupBox20
         '
-        Me.GroupBox20.Controls.Add(Me.TextBox51)
+        Me.GroupBox20.Controls.Add(Me.txtSparationCoefficient_tab3)
         Me.GroupBox20.Location = New System.Drawing.Point(939, 637)
         Me.GroupBox20.Name = "GroupBox20"
         Me.GroupBox20.Size = New System.Drawing.Size(262, 77)
@@ -6672,22 +6690,22 @@ Partial Class frmILMeasurement
         Me.GroupBox20.TabStop = False
         Me.GroupBox20.Text = "Sparation coefficient"
         '
-        'TextBox51
+        'txtSparationCoefficient_tab3
         '
-        Me.TextBox51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox51.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox51.Location = New System.Drawing.Point(137, 33)
-        Me.TextBox51.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox51.Name = "TextBox51"
-        Me.TextBox51.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox51.TabIndex = 371
+        Me.txtSparationCoefficient_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSparationCoefficient_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSparationCoefficient_tab3.Location = New System.Drawing.Point(137, 33)
+        Me.txtSparationCoefficient_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSparationCoefficient_tab3.Name = "txtSparationCoefficient_tab3"
+        Me.txtSparationCoefficient_tab3.Size = New System.Drawing.Size(73, 28)
+        Me.txtSparationCoefficient_tab3.TabIndex = 371
         '
         'GroupBox21
         '
         Me.GroupBox21.Controls.Add(Me.Label302)
         Me.GroupBox21.Controls.Add(Me.Label303)
-        Me.GroupBox21.Controls.Add(Me.TextBox52)
-        Me.GroupBox21.Controls.Add(Me.TextBox53)
+        Me.GroupBox21.Controls.Add(Me.txtSmoothingResistance_tab3)
+        Me.GroupBox21.Controls.Add(Me.txtSmoothingEfficiency_tab3)
         Me.GroupBox21.Location = New System.Drawing.Point(939, 486)
         Me.GroupBox21.Name = "GroupBox21"
         Me.GroupBox21.Size = New System.Drawing.Size(262, 145)
@@ -6715,30 +6733,30 @@ Partial Class frmILMeasurement
         Me.Label303.TabIndex = 372
         Me.Label303.Text = "Differentiation " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "efiiciency"
         '
-        'TextBox52
+        'txtSmoothingResistance_tab3
         '
-        Me.TextBox52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox52.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox52.Location = New System.Drawing.Point(137, 98)
-        Me.TextBox52.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox52.TabIndex = 375
+        Me.txtSmoothingResistance_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingResistance_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingResistance_tab3.Location = New System.Drawing.Point(137, 98)
+        Me.txtSmoothingResistance_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingResistance_tab3.Name = "txtSmoothingResistance_tab3"
+        Me.txtSmoothingResistance_tab3.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingResistance_tab3.TabIndex = 375
         '
-        'TextBox53
+        'txtSmoothingEfficiency_tab3
         '
-        Me.TextBox53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox53.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox53.Location = New System.Drawing.Point(137, 46)
-        Me.TextBox53.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox53.Name = "TextBox53"
-        Me.TextBox53.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox53.TabIndex = 371
+        Me.txtSmoothingEfficiency_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingEfficiency_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingEfficiency_tab3.Location = New System.Drawing.Point(137, 46)
+        Me.txtSmoothingEfficiency_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingEfficiency_tab3.Name = "txtSmoothingEfficiency_tab3"
+        Me.txtSmoothingEfficiency_tab3.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingEfficiency_tab3.TabIndex = 371
         '
         'GroupBox22
         '
-        Me.GroupBox22.Controls.Add(Me.RadioButton27)
-        Me.GroupBox22.Controls.Add(Me.RadioButton28)
+        Me.GroupBox22.Controls.Add(Me.rdoDiffMethod2_tab3)
+        Me.GroupBox22.Controls.Add(Me.rdoDiffMethod1_tab3)
         Me.GroupBox22.Location = New System.Drawing.Point(939, 360)
         Me.GroupBox22.Name = "GroupBox22"
         Me.GroupBox22.Size = New System.Drawing.Size(262, 113)
@@ -6746,37 +6764,37 @@ Partial Class frmILMeasurement
         Me.GroupBox22.TabStop = False
         Me.GroupBox22.Text = "Differentiation method"
         '
-        'RadioButton27
+        'rdoDiffMethod2_tab3
         '
-        Me.RadioButton27.AutoSize = True
-        Me.RadioButton27.Location = New System.Drawing.Point(20, 69)
-        Me.RadioButton27.Name = "RadioButton27"
-        Me.RadioButton27.Size = New System.Drawing.Size(191, 26)
-        Me.RadioButton27.TabIndex = 371
-        Me.RadioButton27.TabStop = True
-        Me.RadioButton27.Text = "Method 2(sparation)"
-        Me.RadioButton27.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton27.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod2_tab3.AutoSize = True
+        Me.rdoDiffMethod2_tab3.Location = New System.Drawing.Point(20, 69)
+        Me.rdoDiffMethod2_tab3.Name = "rdoDiffMethod2_tab3"
+        Me.rdoDiffMethod2_tab3.Size = New System.Drawing.Size(191, 26)
+        Me.rdoDiffMethod2_tab3.TabIndex = 371
+        Me.rdoDiffMethod2_tab3.TabStop = True
+        Me.rdoDiffMethod2_tab3.Text = "Method 2(sparation)"
+        Me.rdoDiffMethod2_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod2_tab3.UseVisualStyleBackColor = True
         '
-        'RadioButton28
+        'rdoDiffMethod1_tab3
         '
-        Me.RadioButton28.AutoSize = True
-        Me.RadioButton28.Location = New System.Drawing.Point(20, 37)
-        Me.RadioButton28.Name = "RadioButton28"
-        Me.RadioButton28.Size = New System.Drawing.Size(199, 26)
-        Me.RadioButton28.TabIndex = 370
-        Me.RadioButton28.TabStop = True
-        Me.RadioButton28.Text = "Method 1(smoothing)"
-        Me.RadioButton28.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton28.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod1_tab3.AutoSize = True
+        Me.rdoDiffMethod1_tab3.Location = New System.Drawing.Point(20, 37)
+        Me.rdoDiffMethod1_tab3.Name = "rdoDiffMethod1_tab3"
+        Me.rdoDiffMethod1_tab3.Size = New System.Drawing.Size(199, 26)
+        Me.rdoDiffMethod1_tab3.TabIndex = 370
+        Me.rdoDiffMethod1_tab3.TabStop = True
+        Me.rdoDiffMethod1_tab3.Text = "Method 1(smoothing)"
+        Me.rdoDiffMethod1_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod1_tab3.UseVisualStyleBackColor = True
         '
         'GroupBox23
         '
-        Me.GroupBox23.Controls.Add(Me.TextBox54)
-        Me.GroupBox23.Controls.Add(Me.RadioButton29)
+        Me.GroupBox23.Controls.Add(Me.txtLeastSquareNumOfPoint_tab3)
+        Me.GroupBox23.Controls.Add(Me.rdoLeastSquarefomula_tab3)
         Me.GroupBox23.Controls.Add(Me.Label304)
-        Me.GroupBox23.Controls.Add(Me.RadioButton30)
-        Me.GroupBox23.Controls.Add(Me.RadioButton31)
+        Me.GroupBox23.Controls.Add(Me.rdoLeastSquareSecon_tab3)
+        Me.GroupBox23.Controls.Add(Me.rdoLeastSquarePrimary_tab3)
         Me.GroupBox23.Location = New System.Drawing.Point(672, 598)
         Me.GroupBox23.Name = "GroupBox23"
         Me.GroupBox23.Size = New System.Drawing.Size(239, 187)
@@ -6784,27 +6802,27 @@ Partial Class frmILMeasurement
         Me.GroupBox23.TabStop = False
         Me.GroupBox23.Text = "Least-squares method"
         '
-        'TextBox54
+        'txtLeastSquareNumOfPoint_tab3
         '
-        Me.TextBox54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox54.Location = New System.Drawing.Point(172, 139)
-        Me.TextBox54.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox54.Name = "TextBox54"
-        Me.TextBox54.Size = New System.Drawing.Size(53, 28)
-        Me.TextBox54.TabIndex = 378
+        Me.txtLeastSquareNumOfPoint_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLeastSquareNumOfPoint_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLeastSquareNumOfPoint_tab3.Location = New System.Drawing.Point(172, 139)
+        Me.txtLeastSquareNumOfPoint_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLeastSquareNumOfPoint_tab3.Name = "txtLeastSquareNumOfPoint_tab3"
+        Me.txtLeastSquareNumOfPoint_tab3.Size = New System.Drawing.Size(53, 28)
+        Me.txtLeastSquareNumOfPoint_tab3.TabIndex = 378
         '
-        'RadioButton29
+        'rdoLeastSquarefomula_tab3
         '
-        Me.RadioButton29.AutoSize = True
-        Me.RadioButton29.Location = New System.Drawing.Point(28, 97)
-        Me.RadioButton29.Name = "RadioButton29"
-        Me.RadioButton29.Size = New System.Drawing.Size(128, 26)
-        Me.RadioButton29.TabIndex = 372
-        Me.RadioButton29.TabStop = True
-        Me.RadioButton29.Text = "Input fomula"
-        Me.RadioButton29.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton29.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarefomula_tab3.AutoSize = True
+        Me.rdoLeastSquarefomula_tab3.Location = New System.Drawing.Point(28, 97)
+        Me.rdoLeastSquarefomula_tab3.Name = "rdoLeastSquarefomula_tab3"
+        Me.rdoLeastSquarefomula_tab3.Size = New System.Drawing.Size(128, 26)
+        Me.rdoLeastSquarefomula_tab3.TabIndex = 372
+        Me.rdoLeastSquarefomula_tab3.TabStop = True
+        Me.rdoLeastSquarefomula_tab3.Text = "Input fomula"
+        Me.rdoLeastSquarefomula_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarefomula_tab3.UseVisualStyleBackColor = True
         '
         'Label304
         '
@@ -6816,34 +6834,34 @@ Partial Class frmILMeasurement
         Me.Label304.TabIndex = 377
         Me.Label304.Text = "Number of point"
         '
-        'RadioButton30
+        'rdoLeastSquareSecon_tab3
         '
-        Me.RadioButton30.AutoSize = True
-        Me.RadioButton30.Location = New System.Drawing.Point(28, 66)
-        Me.RadioButton30.Name = "RadioButton30"
-        Me.RadioButton30.Size = New System.Drawing.Size(117, 26)
-        Me.RadioButton30.TabIndex = 371
-        Me.RadioButton30.TabStop = True
-        Me.RadioButton30.Text = "Secondary"
-        Me.RadioButton30.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton30.UseVisualStyleBackColor = True
+        Me.rdoLeastSquareSecon_tab3.AutoSize = True
+        Me.rdoLeastSquareSecon_tab3.Location = New System.Drawing.Point(28, 66)
+        Me.rdoLeastSquareSecon_tab3.Name = "rdoLeastSquareSecon_tab3"
+        Me.rdoLeastSquareSecon_tab3.Size = New System.Drawing.Size(117, 26)
+        Me.rdoLeastSquareSecon_tab3.TabIndex = 371
+        Me.rdoLeastSquareSecon_tab3.TabStop = True
+        Me.rdoLeastSquareSecon_tab3.Text = "Secondary"
+        Me.rdoLeastSquareSecon_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquareSecon_tab3.UseVisualStyleBackColor = True
         '
-        'RadioButton31
+        'rdoLeastSquarePrimary_tab3
         '
-        Me.RadioButton31.AutoSize = True
-        Me.RadioButton31.Location = New System.Drawing.Point(29, 37)
-        Me.RadioButton31.Name = "RadioButton31"
-        Me.RadioButton31.Size = New System.Drawing.Size(86, 26)
-        Me.RadioButton31.TabIndex = 370
-        Me.RadioButton31.TabStop = True
-        Me.RadioButton31.Text = "Primay"
-        Me.RadioButton31.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton31.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarePrimary_tab3.AutoSize = True
+        Me.rdoLeastSquarePrimary_tab3.Location = New System.Drawing.Point(29, 37)
+        Me.rdoLeastSquarePrimary_tab3.Name = "rdoLeastSquarePrimary_tab3"
+        Me.rdoLeastSquarePrimary_tab3.Size = New System.Drawing.Size(92, 26)
+        Me.rdoLeastSquarePrimary_tab3.TabIndex = 370
+        Me.rdoLeastSquarePrimary_tab3.TabStop = True
+        Me.rdoLeastSquarePrimary_tab3.Text = "Primary"
+        Me.rdoLeastSquarePrimary_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarePrimary_tab3.UseVisualStyleBackColor = True
         '
         'GroupBox24
         '
-        Me.GroupBox24.Controls.Add(Me.RadioButton32)
-        Me.GroupBox24.Controls.Add(Me.RadioButton33)
+        Me.GroupBox24.Controls.Add(Me.rdoKinkModeCurrnet_tab3)
+        Me.GroupBox24.Controls.Add(Me.rdoKinkModePower_tab3)
         Me.GroupBox24.Location = New System.Drawing.Point(672, 479)
         Me.GroupBox24.Name = "GroupBox24"
         Me.GroupBox24.Size = New System.Drawing.Size(239, 113)
@@ -6851,36 +6869,36 @@ Partial Class frmILMeasurement
         Me.GroupBox24.TabStop = False
         Me.GroupBox24.Text = "Kink Mode"
         '
-        'RadioButton32
+        'rdoKinkModeCurrnet_tab3
         '
-        Me.RadioButton32.AutoSize = True
-        Me.RadioButton32.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton32.Location = New System.Drawing.Point(77, 67)
-        Me.RadioButton32.Name = "RadioButton32"
-        Me.RadioButton32.Size = New System.Drawing.Size(91, 26)
-        Me.RadioButton32.TabIndex = 371
-        Me.RadioButton32.TabStop = True
-        Me.RadioButton32.Text = "Current"
-        Me.RadioButton32.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton32.UseVisualStyleBackColor = True
+        Me.rdoKinkModeCurrnet_tab3.AutoSize = True
+        Me.rdoKinkModeCurrnet_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab3.Location = New System.Drawing.Point(77, 67)
+        Me.rdoKinkModeCurrnet_tab3.Name = "rdoKinkModeCurrnet_tab3"
+        Me.rdoKinkModeCurrnet_tab3.Size = New System.Drawing.Size(91, 26)
+        Me.rdoKinkModeCurrnet_tab3.TabIndex = 371
+        Me.rdoKinkModeCurrnet_tab3.TabStop = True
+        Me.rdoKinkModeCurrnet_tab3.Text = "Current"
+        Me.rdoKinkModeCurrnet_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab3.UseVisualStyleBackColor = True
         '
-        'RadioButton33
+        'rdoKinkModePower_tab3
         '
-        Me.RadioButton33.AutoSize = True
-        Me.RadioButton33.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton33.Location = New System.Drawing.Point(78, 37)
-        Me.RadioButton33.Name = "RadioButton33"
-        Me.RadioButton33.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton33.TabIndex = 370
-        Me.RadioButton33.TabStop = True
-        Me.RadioButton33.Text = "Power"
-        Me.RadioButton33.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton33.UseVisualStyleBackColor = True
+        Me.rdoKinkModePower_tab3.AutoSize = True
+        Me.rdoKinkModePower_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab3.Location = New System.Drawing.Point(78, 37)
+        Me.rdoKinkModePower_tab3.Name = "rdoKinkModePower_tab3"
+        Me.rdoKinkModePower_tab3.Size = New System.Drawing.Size(82, 26)
+        Me.rdoKinkModePower_tab3.TabIndex = 370
+        Me.rdoKinkModePower_tab3.TabStop = True
+        Me.rdoKinkModePower_tab3.Text = "Power"
+        Me.rdoKinkModePower_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab3.UseVisualStyleBackColor = True
         '
         'GroupBox25
         '
-        Me.GroupBox25.Controls.Add(Me.RadioButton34)
-        Me.GroupBox25.Controls.Add(Me.RadioButton35)
+        Me.GroupBox25.Controls.Add(Me.rdoKinkType2_tab3)
+        Me.GroupBox25.Controls.Add(Me.rdoKinkType1_tab3)
         Me.GroupBox25.Location = New System.Drawing.Point(672, 360)
         Me.GroupBox25.Name = "GroupBox25"
         Me.GroupBox25.Size = New System.Drawing.Size(239, 113)
@@ -6888,31 +6906,31 @@ Partial Class frmILMeasurement
         Me.GroupBox25.TabStop = False
         Me.GroupBox25.Text = "Kink Method"
         '
-        'RadioButton34
+        'rdoKinkType2_tab3
         '
-        Me.RadioButton34.AutoSize = True
-        Me.RadioButton34.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton34.Location = New System.Drawing.Point(77, 69)
-        Me.RadioButton34.Name = "RadioButton34"
-        Me.RadioButton34.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton34.TabIndex = 371
-        Me.RadioButton34.TabStop = True
-        Me.RadioButton34.Text = "Type 2"
-        Me.RadioButton34.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton34.UseVisualStyleBackColor = True
+        Me.rdoKinkType2_tab3.AutoSize = True
+        Me.rdoKinkType2_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab3.Location = New System.Drawing.Point(77, 69)
+        Me.rdoKinkType2_tab3.Name = "rdoKinkType2_tab3"
+        Me.rdoKinkType2_tab3.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType2_tab3.TabIndex = 371
+        Me.rdoKinkType2_tab3.TabStop = True
+        Me.rdoKinkType2_tab3.Text = "Type 2"
+        Me.rdoKinkType2_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab3.UseVisualStyleBackColor = True
         '
-        'RadioButton35
+        'rdoKinkType1_tab3
         '
-        Me.RadioButton35.AutoSize = True
-        Me.RadioButton35.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton35.Location = New System.Drawing.Point(77, 37)
-        Me.RadioButton35.Name = "RadioButton35"
-        Me.RadioButton35.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton35.TabIndex = 370
-        Me.RadioButton35.TabStop = True
-        Me.RadioButton35.Text = "Type 1"
-        Me.RadioButton35.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton35.UseVisualStyleBackColor = True
+        Me.rdoKinkType1_tab3.AutoSize = True
+        Me.rdoKinkType1_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab3.Location = New System.Drawing.Point(77, 37)
+        Me.rdoKinkType1_tab3.Name = "rdoKinkType1_tab3"
+        Me.rdoKinkType1_tab3.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType1_tab3.TabIndex = 370
+        Me.rdoKinkType1_tab3.TabStop = True
+        Me.rdoKinkType1_tab3.Text = "Type 1"
+        Me.rdoKinkType1_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab3.UseVisualStyleBackColor = True
         '
         'GroupBox26
         '
@@ -6922,15 +6940,15 @@ Partial Class frmILMeasurement
         Me.GroupBox26.Controls.Add(Me.Label308)
         Me.GroupBox26.Controls.Add(Me.Label309)
         Me.GroupBox26.Controls.Add(Me.Label310)
-        Me.GroupBox26.Controls.Add(Me.TextBox55)
-        Me.GroupBox26.Controls.Add(Me.TextBox56)
+        Me.GroupBox26.Controls.Add(Me.txtKinkY_tab3)
+        Me.GroupBox26.Controls.Add(Me.txtKinkX_tab3)
         Me.GroupBox26.Controls.Add(Me.Label311)
-        Me.GroupBox26.Controls.Add(Me.TextBox57)
+        Me.GroupBox26.Controls.Add(Me.txtIkMax_tab3)
         Me.GroupBox26.Controls.Add(Me.Label312)
-        Me.GroupBox26.Controls.Add(Me.TextBox58)
-        Me.GroupBox26.Controls.Add(Me.CheckBox7)
-        Me.GroupBox26.Controls.Add(Me.CheckBox8)
-        Me.GroupBox26.Controls.Add(Me.CheckBox9)
+        Me.GroupBox26.Controls.Add(Me.txtDelta_tab3)
+        Me.GroupBox26.Controls.Add(Me.ckdImdLGraph2_tab3)
+        Me.GroupBox26.Controls.Add(Me.ckdImdLGraph1_tab3)
+        Me.GroupBox26.Controls.Add(Me.ckKinkGraph_tab3)
         Me.GroupBox26.Location = New System.Drawing.Point(672, 49)
         Me.GroupBox26.Name = "GroupBox26"
         Me.GroupBox26.Size = New System.Drawing.Size(239, 305)
@@ -6962,11 +6980,11 @@ Partial Class frmILMeasurement
         '
         Me.Label307.AutoSize = True
         Me.Label307.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label307.Location = New System.Drawing.Point(41, 178)
+        Me.Label307.Location = New System.Drawing.Point(21, 178)
         Me.Label307.Name = "Label307"
-        Me.Label307.Size = New System.Drawing.Size(36, 22)
+        Me.Label307.Size = New System.Drawing.Size(56, 22)
         Me.Label307.TabIndex = 380
-        Me.Label307.Text = "mA"
+        Me.Label307.Text = "IkMax"
         '
         'Label308
         '
@@ -6998,25 +7016,25 @@ Partial Class frmILMeasurement
         Me.Label310.TabIndex = 378
         Me.Label310.Text = "%"
         '
-        'TextBox55
+        'txtKinkY_tab3
         '
-        Me.TextBox55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox55.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox55.Location = New System.Drawing.Point(80, 247)
-        Me.TextBox55.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox55.Name = "TextBox55"
-        Me.TextBox55.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox55.TabIndex = 377
+        Me.txtKinkY_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkY_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkY_tab3.Location = New System.Drawing.Point(80, 247)
+        Me.txtKinkY_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkY_tab3.Name = "txtKinkY_tab3"
+        Me.txtKinkY_tab3.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkY_tab3.TabIndex = 377
         '
-        'TextBox56
+        'txtKinkX_tab3
         '
-        Me.TextBox56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox56.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox56.Location = New System.Drawing.Point(80, 211)
-        Me.TextBox56.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox56.Name = "TextBox56"
-        Me.TextBox56.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox56.TabIndex = 376
+        Me.txtKinkX_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkX_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkX_tab3.Location = New System.Drawing.Point(80, 211)
+        Me.txtKinkX_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkX_tab3.Name = "txtKinkX_tab3"
+        Me.txtKinkX_tab3.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkX_tab3.TabIndex = 376
         '
         'Label311
         '
@@ -7028,15 +7046,15 @@ Partial Class frmILMeasurement
         Me.Label311.TabIndex = 374
         Me.Label311.Text = "mA"
         '
-        'TextBox57
+        'txtIkMax_tab3
         '
-        Me.TextBox57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox57.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox57.Location = New System.Drawing.Point(80, 175)
-        Me.TextBox57.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox57.Name = "TextBox57"
-        Me.TextBox57.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox57.TabIndex = 375
+        Me.txtIkMax_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIkMax_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIkMax_tab3.Location = New System.Drawing.Point(80, 175)
+        Me.txtIkMax_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIkMax_tab3.Name = "txtIkMax_tab3"
+        Me.txtIkMax_tab3.Size = New System.Drawing.Size(73, 28)
+        Me.txtIkMax_tab3.TabIndex = 375
         '
         'Label312
         '
@@ -7048,52 +7066,52 @@ Partial Class frmILMeasurement
         Me.Label312.TabIndex = 371
         Me.Label312.Text = "mA"
         '
-        'TextBox58
+        'txtDelta_tab3
         '
-        Me.TextBox58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox58.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox58.Location = New System.Drawing.Point(80, 137)
-        Me.TextBox58.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox58.Name = "TextBox58"
-        Me.TextBox58.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox58.TabIndex = 371
+        Me.txtDelta_tab3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelta_tab3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelta_tab3.Location = New System.Drawing.Point(80, 137)
+        Me.txtDelta_tab3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtDelta_tab3.Name = "txtDelta_tab3"
+        Me.txtDelta_tab3.Size = New System.Drawing.Size(73, 28)
+        Me.txtDelta_tab3.TabIndex = 371
         '
-        'CheckBox7
+        'ckdImdLGraph2_tab3
         '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(56, 101)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox7.TabIndex = 373
-        Me.CheckBox7.Text = "dIm/dL Graph"
-        Me.CheckBox7.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph2_tab3.AutoSize = True
+        Me.ckdImdLGraph2_tab3.Location = New System.Drawing.Point(56, 101)
+        Me.ckdImdLGraph2_tab3.Name = "ckdImdLGraph2_tab3"
+        Me.ckdImdLGraph2_tab3.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph2_tab3.TabIndex = 373
+        Me.ckdImdLGraph2_tab3.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph2_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox8
+        'ckdImdLGraph1_tab3
         '
-        Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Location = New System.Drawing.Point(56, 69)
-        Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox8.TabIndex = 372
-        Me.CheckBox8.Text = "dIm/dL Graph"
-        Me.CheckBox8.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph1_tab3.AutoSize = True
+        Me.ckdImdLGraph1_tab3.Location = New System.Drawing.Point(56, 69)
+        Me.ckdImdLGraph1_tab3.Name = "ckdImdLGraph1_tab3"
+        Me.ckdImdLGraph1_tab3.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph1_tab3.TabIndex = 372
+        Me.ckdImdLGraph1_tab3.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph1_tab3.UseVisualStyleBackColor = True
         '
-        'CheckBox9
+        'ckKinkGraph_tab3
         '
-        Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.Location = New System.Drawing.Point(56, 38)
-        Me.CheckBox9.Name = "CheckBox9"
-        Me.CheckBox9.Size = New System.Drawing.Size(122, 26)
-        Me.CheckBox9.TabIndex = 371
-        Me.CheckBox9.Text = "Kink Graph"
-        Me.CheckBox9.UseVisualStyleBackColor = True
+        Me.ckKinkGraph_tab3.AutoSize = True
+        Me.ckKinkGraph_tab3.Location = New System.Drawing.Point(56, 38)
+        Me.ckKinkGraph_tab3.Name = "ckKinkGraph_tab3"
+        Me.ckKinkGraph_tab3.Size = New System.Drawing.Size(122, 26)
+        Me.ckKinkGraph_tab3.TabIndex = 371
+        Me.ckKinkGraph_tab3.Text = "Kink Graph"
+        Me.ckKinkGraph_tab3.UseVisualStyleBackColor = True
         '
         'GroupBox27
         '
-        Me.GroupBox27.Controls.Add(Me.RadioButton36)
-        Me.GroupBox27.Controls.Add(Me.RadioButton37)
-        Me.GroupBox27.Controls.Add(Me.RadioButton38)
-        Me.GroupBox27.Controls.Add(Me.RadioButton39)
+        Me.GroupBox27.Controls.Add(Me.rdo20mA_tab3)
+        Me.GroupBox27.Controls.Add(Me.rdo10mA_tab3)
+        Me.GroupBox27.Controls.Add(Me.rdo02mA_tab3)
+        Me.GroupBox27.Controls.Add(Me.rdoAuto_tab3)
         Me.GroupBox27.Location = New System.Drawing.Point(443, 589)
         Me.GroupBox27.Name = "GroupBox27"
         Me.GroupBox27.Size = New System.Drawing.Size(122, 176)
@@ -7101,57 +7119,57 @@ Partial Class frmILMeasurement
         Me.GroupBox27.TabStop = False
         Me.GroupBox27.Text = "If step"
         '
-        'RadioButton36
+        'rdo20mA_tab3
         '
-        Me.RadioButton36.AutoSize = True
-        Me.RadioButton36.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton36.Location = New System.Drawing.Point(20, 137)
-        Me.RadioButton36.Name = "RadioButton36"
-        Me.RadioButton36.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton36.TabIndex = 373
-        Me.RadioButton36.TabStop = True
-        Me.RadioButton36.Text = "2.0mA"
-        Me.RadioButton36.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton36.UseVisualStyleBackColor = True
+        Me.rdo20mA_tab3.AutoSize = True
+        Me.rdo20mA_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab3.Location = New System.Drawing.Point(20, 137)
+        Me.rdo20mA_tab3.Name = "rdo20mA_tab3"
+        Me.rdo20mA_tab3.Size = New System.Drawing.Size(82, 26)
+        Me.rdo20mA_tab3.TabIndex = 373
+        Me.rdo20mA_tab3.TabStop = True
+        Me.rdo20mA_tab3.Text = "2.0mA"
+        Me.rdo20mA_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab3.UseVisualStyleBackColor = True
         '
-        'RadioButton37
+        'rdo10mA_tab3
         '
-        Me.RadioButton37.AutoSize = True
-        Me.RadioButton37.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton37.Location = New System.Drawing.Point(20, 105)
-        Me.RadioButton37.Name = "RadioButton37"
-        Me.RadioButton37.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton37.TabIndex = 372
-        Me.RadioButton37.TabStop = True
-        Me.RadioButton37.Text = "1.0mA"
-        Me.RadioButton37.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton37.UseVisualStyleBackColor = True
+        Me.rdo10mA_tab3.AutoSize = True
+        Me.rdo10mA_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab3.Location = New System.Drawing.Point(20, 105)
+        Me.rdo10mA_tab3.Name = "rdo10mA_tab3"
+        Me.rdo10mA_tab3.Size = New System.Drawing.Size(82, 26)
+        Me.rdo10mA_tab3.TabIndex = 372
+        Me.rdo10mA_tab3.TabStop = True
+        Me.rdo10mA_tab3.Text = "1.0mA"
+        Me.rdo10mA_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab3.UseVisualStyleBackColor = True
         '
-        'RadioButton38
+        'rdo02mA_tab3
         '
-        Me.RadioButton38.AutoSize = True
-        Me.RadioButton38.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton38.Location = New System.Drawing.Point(19, 73)
-        Me.RadioButton38.Name = "RadioButton38"
-        Me.RadioButton38.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton38.TabIndex = 371
-        Me.RadioButton38.TabStop = True
-        Me.RadioButton38.Text = "0.2mA"
-        Me.RadioButton38.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton38.UseVisualStyleBackColor = True
+        Me.rdo02mA_tab3.AutoSize = True
+        Me.rdo02mA_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab3.Location = New System.Drawing.Point(19, 73)
+        Me.rdo02mA_tab3.Name = "rdo02mA_tab3"
+        Me.rdo02mA_tab3.Size = New System.Drawing.Size(82, 26)
+        Me.rdo02mA_tab3.TabIndex = 371
+        Me.rdo02mA_tab3.TabStop = True
+        Me.rdo02mA_tab3.Text = "0.2mA"
+        Me.rdo02mA_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab3.UseVisualStyleBackColor = True
         '
-        'RadioButton39
+        'rdoAuto_tab3
         '
-        Me.RadioButton39.AutoSize = True
-        Me.RadioButton39.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton39.Location = New System.Drawing.Point(20, 43)
-        Me.RadioButton39.Name = "RadioButton39"
-        Me.RadioButton39.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton39.TabIndex = 370
-        Me.RadioButton39.TabStop = True
-        Me.RadioButton39.Text = "AUTO"
-        Me.RadioButton39.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton39.UseVisualStyleBackColor = True
+        Me.rdoAuto_tab3.AutoSize = True
+        Me.rdoAuto_tab3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab3.Location = New System.Drawing.Point(20, 43)
+        Me.rdoAuto_tab3.Name = "rdoAuto_tab3"
+        Me.rdoAuto_tab3.Size = New System.Drawing.Size(82, 26)
+        Me.rdoAuto_tab3.TabIndex = 370
+        Me.rdoAuto_tab3.TabStop = True
+        Me.rdoAuto_tab3.Text = "AUTO"
+        Me.rdoAuto_tab3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab3.UseVisualStyleBackColor = True
         '
         'Label313
         '
@@ -7237,11 +7255,11 @@ Partial Class frmILMeasurement
         '
         Me.Label321.AutoSize = True
         Me.Label321.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label321.Location = New System.Drawing.Point(483, 214)
+        Me.Label321.Location = New System.Drawing.Point(469, 214)
         Me.Label321.Name = "Label321"
-        Me.Label321.Size = New System.Drawing.Size(44, 22)
+        Me.Label321.Size = New System.Drawing.Size(58, 22)
         Me.Label321.TabIndex = 391
-        Me.Label321.Text = "[nm]"
+        Me.Label321.Text = "λ [nm]"
         '
         'Label322
         '
@@ -7688,19 +7706,21 @@ Partial Class frmILMeasurement
         '
         'ILSweep2
         '
-        Me.ILSweep2.Controls.Add(Me.TextBox25)
-        Me.ILSweep2.Controls.Add(Me.TextBox36)
-        Me.ILSweep2.Controls.Add(Me.TextBox37)
-        Me.ILSweep2.Controls.Add(Me.TextBox38)
-        Me.ILSweep2.Controls.Add(Me.TextBox39)
-        Me.ILSweep2.Controls.Add(Me.TextBox40)
-        Me.ILSweep2.Controls.Add(Me.TextBox41)
-        Me.ILSweep2.Controls.Add(Me.TextBox42)
-        Me.ILSweep2.Controls.Add(Me.TextBox43)
-        Me.ILSweep2.Controls.Add(Me.TextBox44)
-        Me.ILSweep2.Controls.Add(Me.TextBox45)
-        Me.ILSweep2.Controls.Add(Me.TextBox46)
-        Me.ILSweep2.Controls.Add(Me.TextBox47)
+        Me.ILSweep2.Controls.Add(Me.TextBox9)
+        Me.ILSweep2.Controls.Add(Me.Label410)
+        Me.ILSweep2.Controls.Add(Me.txtPmax_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtIthpP2_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtIthpP1_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtdImdLMax_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtRmax_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtImMax_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtVfmax_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtnMax_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtlampda_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtIvf_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtImax_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtPCALminOffset_tab2)
+        Me.ILSweep2.Controls.Add(Me.txtPCALmin_tab2)
         Me.ILSweep2.Controls.Add(Me.txtImdiv_tab2)
         Me.ILSweep2.Controls.Add(Me.txtImscale_tab2)
         Me.ILSweep2.Controls.Add(Me.txtRddiv_tab2)
@@ -7805,135 +7825,135 @@ Partial Class frmILMeasurement
         Me.ILSweep2.Text = "IL Sweep2"
         Me.ILSweep2.UseVisualStyleBackColor = True
         '
-        'TextBox25
+        'txtPmax_tab2
         '
-        Me.TextBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox25.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox25.Location = New System.Drawing.Point(530, 253)
-        Me.TextBox25.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox25.TabIndex = 421
+        Me.txtPmax_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPmax_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPmax_tab2.Location = New System.Drawing.Point(530, 253)
+        Me.txtPmax_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPmax_tab2.Name = "txtPmax_tab2"
+        Me.txtPmax_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtPmax_tab2.TabIndex = 421
         '
-        'TextBox36
+        'txtIthpP2_tab2
         '
-        Me.TextBox36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox36.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox36.Location = New System.Drawing.Point(530, 520)
-        Me.TextBox36.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox36.TabIndex = 411
+        Me.txtIthpP2_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP2_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP2_tab2.Location = New System.Drawing.Point(530, 520)
+        Me.txtIthpP2_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP2_tab2.Name = "txtIthpP2_tab2"
+        Me.txtIthpP2_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP2_tab2.TabIndex = 411
         '
-        'TextBox37
+        'txtIthpP1_tab2
         '
-        Me.TextBox37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox37.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox37.Location = New System.Drawing.Point(530, 480)
-        Me.TextBox37.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox37.Name = "TextBox37"
-        Me.TextBox37.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox37.TabIndex = 408
+        Me.txtIthpP1_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP1_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP1_tab2.Location = New System.Drawing.Point(530, 480)
+        Me.txtIthpP1_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP1_tab2.Name = "txtIthpP1_tab2"
+        Me.txtIthpP1_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP1_tab2.TabIndex = 408
         '
-        'TextBox38
+        'txtdImdLMax_tab2
         '
-        Me.TextBox38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox38.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox38.Location = New System.Drawing.Point(530, 441)
-        Me.TextBox38.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox38.TabIndex = 407
+        Me.txtdImdLMax_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdImdLMax_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdImdLMax_tab2.Location = New System.Drawing.Point(530, 441)
+        Me.txtdImdLMax_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtdImdLMax_tab2.Name = "txtdImdLMax_tab2"
+        Me.txtdImdLMax_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtdImdLMax_tab2.TabIndex = 407
         '
-        'TextBox39
+        'txtRmax_tab2
         '
-        Me.TextBox39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox39.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox39.Location = New System.Drawing.Point(530, 405)
-        Me.TextBox39.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox39.Name = "TextBox39"
-        Me.TextBox39.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox39.TabIndex = 406
+        Me.txtRmax_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRmax_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRmax_tab2.Location = New System.Drawing.Point(530, 405)
+        Me.txtRmax_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRmax_tab2.Name = "txtRmax_tab2"
+        Me.txtRmax_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtRmax_tab2.TabIndex = 406
         '
-        'TextBox40
+        'txtImMax_tab2
         '
-        Me.TextBox40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox40.Location = New System.Drawing.Point(530, 368)
-        Me.TextBox40.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox40.Name = "TextBox40"
-        Me.TextBox40.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox40.TabIndex = 405
+        Me.txtImMax_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImMax_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImMax_tab2.Location = New System.Drawing.Point(530, 368)
+        Me.txtImMax_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImMax_tab2.Name = "txtImMax_tab2"
+        Me.txtImMax_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtImMax_tab2.TabIndex = 405
         '
-        'TextBox41
+        'txtVfmax_tab2
         '
-        Me.TextBox41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox41.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox41.Location = New System.Drawing.Point(530, 329)
-        Me.TextBox41.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox41.Name = "TextBox41"
-        Me.TextBox41.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox41.TabIndex = 404
+        Me.txtVfmax_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtVfmax_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtVfmax_tab2.Location = New System.Drawing.Point(530, 329)
+        Me.txtVfmax_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtVfmax_tab2.Name = "txtVfmax_tab2"
+        Me.txtVfmax_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtVfmax_tab2.TabIndex = 404
         '
-        'TextBox42
+        'txtnMax_tab2
         '
-        Me.TextBox42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox42.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox42.Location = New System.Drawing.Point(530, 291)
-        Me.TextBox42.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox42.Name = "TextBox42"
-        Me.TextBox42.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox42.TabIndex = 403
+        Me.txtnMax_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtnMax_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnMax_tab2.Location = New System.Drawing.Point(530, 291)
+        Me.txtnMax_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtnMax_tab2.Name = "txtnMax_tab2"
+        Me.txtnMax_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtnMax_tab2.TabIndex = 403
         '
-        'TextBox43
+        'txtlampda_tab2
         '
-        Me.TextBox43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox43.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox43.Location = New System.Drawing.Point(530, 211)
-        Me.TextBox43.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox43.Name = "TextBox43"
-        Me.TextBox43.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox43.TabIndex = 402
+        Me.txtlampda_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtlampda_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtlampda_tab2.Location = New System.Drawing.Point(530, 211)
+        Me.txtlampda_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtlampda_tab2.Name = "txtlampda_tab2"
+        Me.txtlampda_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtlampda_tab2.TabIndex = 402
         '
-        'TextBox44
+        'txtIvf_tab2
         '
-        Me.TextBox44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox44.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox44.Location = New System.Drawing.Point(530, 173)
-        Me.TextBox44.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox44.Name = "TextBox44"
-        Me.TextBox44.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox44.TabIndex = 401
+        Me.txtIvf_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIvf_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIvf_tab2.Location = New System.Drawing.Point(530, 173)
+        Me.txtIvf_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIvf_tab2.Name = "txtIvf_tab2"
+        Me.txtIvf_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtIvf_tab2.TabIndex = 401
         '
-        'TextBox45
+        'txtImax_tab2
         '
-        Me.TextBox45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox45.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox45.Location = New System.Drawing.Point(530, 133)
-        Me.TextBox45.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox45.Name = "TextBox45"
-        Me.TextBox45.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox45.TabIndex = 400
+        Me.txtImax_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImax_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImax_tab2.Location = New System.Drawing.Point(530, 133)
+        Me.txtImax_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImax_tab2.Name = "txtImax_tab2"
+        Me.txtImax_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtImax_tab2.TabIndex = 400
         '
-        'TextBox46
+        'txtPCALminOffset_tab2
         '
-        Me.TextBox46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox46.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox46.Location = New System.Drawing.Point(530, 91)
-        Me.TextBox46.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox46.Name = "TextBox46"
-        Me.TextBox46.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox46.TabIndex = 399
+        Me.txtPCALminOffset_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALminOffset_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALminOffset_tab2.Location = New System.Drawing.Point(530, 91)
+        Me.txtPCALminOffset_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALminOffset_tab2.Name = "txtPCALminOffset_tab2"
+        Me.txtPCALminOffset_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALminOffset_tab2.TabIndex = 399
         '
-        'TextBox47
+        'txtPCALmin_tab2
         '
-        Me.TextBox47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox47.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox47.Location = New System.Drawing.Point(530, 49)
-        Me.TextBox47.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox47.Name = "TextBox47"
-        Me.TextBox47.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox47.TabIndex = 398
+        Me.txtPCALmin_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALmin_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALmin_tab2.Location = New System.Drawing.Point(530, 49)
+        Me.txtPCALmin_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALmin_tab2.Name = "txtPCALmin_tab2"
+        Me.txtPCALmin_tab2.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALmin_tab2.TabIndex = 398
         '
         'txtImdiv_tab2
         '
@@ -8263,8 +8283,8 @@ Partial Class frmILMeasurement
         Me.GroupBox10.Controls.Add(Me.Label271)
         Me.GroupBox10.Controls.Add(Me.Label272)
         Me.GroupBox10.Controls.Add(Me.Label273)
-        Me.GroupBox10.Controls.Add(Me.TextBox26)
-        Me.GroupBox10.Controls.Add(Me.TextBox27)
+        Me.GroupBox10.Controls.Add(Me.txtFRPpointNum_tab2)
+        Me.GroupBox10.Controls.Add(Me.txtFRPcalculationSetting_tab2)
         Me.GroupBox10.Location = New System.Drawing.Point(939, 720)
         Me.GroupBox10.Name = "GroupBox10"
         Me.GroupBox10.Size = New System.Drawing.Size(262, 143)
@@ -8312,29 +8332,29 @@ Partial Class frmILMeasurement
         Me.Label273.TabIndex = 383
         Me.Label273.Text = "mA"
         '
-        'TextBox26
+        'txtFRPpointNum_tab2
         '
-        Me.TextBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox26.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox26.Location = New System.Drawing.Point(129, 96)
-        Me.TextBox26.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox26.TabIndex = 372
+        Me.txtFRPpointNum_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPpointNum_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPpointNum_tab2.Location = New System.Drawing.Point(129, 96)
+        Me.txtFRPpointNum_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPpointNum_tab2.Name = "txtFRPpointNum_tab2"
+        Me.txtFRPpointNum_tab2.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPpointNum_tab2.TabIndex = 372
         '
-        'TextBox27
+        'txtFRPcalculationSetting_tab2
         '
-        Me.TextBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox27.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox27.Location = New System.Drawing.Point(129, 57)
-        Me.TextBox27.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox27.TabIndex = 371
+        Me.txtFRPcalculationSetting_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPcalculationSetting_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPcalculationSetting_tab2.Location = New System.Drawing.Point(129, 57)
+        Me.txtFRPcalculationSetting_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPcalculationSetting_tab2.Name = "txtFRPcalculationSetting_tab2"
+        Me.txtFRPcalculationSetting_tab2.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPcalculationSetting_tab2.TabIndex = 371
         '
         'GroupBox11
         '
-        Me.GroupBox11.Controls.Add(Me.TextBox28)
+        Me.GroupBox11.Controls.Add(Me.txtSparationCoefficient_tab2)
         Me.GroupBox11.Location = New System.Drawing.Point(939, 637)
         Me.GroupBox11.Name = "GroupBox11"
         Me.GroupBox11.Size = New System.Drawing.Size(262, 77)
@@ -8342,22 +8362,22 @@ Partial Class frmILMeasurement
         Me.GroupBox11.TabStop = False
         Me.GroupBox11.Text = "Sparation coefficient"
         '
-        'TextBox28
+        'txtSparationCoefficient_tab2
         '
-        Me.TextBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox28.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox28.Location = New System.Drawing.Point(137, 33)
-        Me.TextBox28.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox28.TabIndex = 371
+        Me.txtSparationCoefficient_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSparationCoefficient_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSparationCoefficient_tab2.Location = New System.Drawing.Point(137, 33)
+        Me.txtSparationCoefficient_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSparationCoefficient_tab2.Name = "txtSparationCoefficient_tab2"
+        Me.txtSparationCoefficient_tab2.Size = New System.Drawing.Size(73, 28)
+        Me.txtSparationCoefficient_tab2.TabIndex = 371
         '
         'GroupBox12
         '
         Me.GroupBox12.Controls.Add(Me.Label274)
         Me.GroupBox12.Controls.Add(Me.Label275)
-        Me.GroupBox12.Controls.Add(Me.TextBox29)
-        Me.GroupBox12.Controls.Add(Me.TextBox30)
+        Me.GroupBox12.Controls.Add(Me.txtSmoothingResistance_tab2)
+        Me.GroupBox12.Controls.Add(Me.txtSmoothingEfficiency_tab2)
         Me.GroupBox12.Location = New System.Drawing.Point(939, 486)
         Me.GroupBox12.Name = "GroupBox12"
         Me.GroupBox12.Size = New System.Drawing.Size(262, 145)
@@ -8385,30 +8405,30 @@ Partial Class frmILMeasurement
         Me.Label275.TabIndex = 372
         Me.Label275.Text = "Differentiation " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "efiiciency"
         '
-        'TextBox29
+        'txtSmoothingResistance_tab2
         '
-        Me.TextBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox29.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox29.Location = New System.Drawing.Point(137, 98)
-        Me.TextBox29.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox29.TabIndex = 375
+        Me.txtSmoothingResistance_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingResistance_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingResistance_tab2.Location = New System.Drawing.Point(137, 98)
+        Me.txtSmoothingResistance_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingResistance_tab2.Name = "txtSmoothingResistance_tab2"
+        Me.txtSmoothingResistance_tab2.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingResistance_tab2.TabIndex = 375
         '
-        'TextBox30
+        'txtSmoothingEfficiency_tab2
         '
-        Me.TextBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox30.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox30.Location = New System.Drawing.Point(137, 46)
-        Me.TextBox30.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox30.TabIndex = 371
+        Me.txtSmoothingEfficiency_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingEfficiency_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingEfficiency_tab2.Location = New System.Drawing.Point(137, 46)
+        Me.txtSmoothingEfficiency_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingEfficiency_tab2.Name = "txtSmoothingEfficiency_tab2"
+        Me.txtSmoothingEfficiency_tab2.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingEfficiency_tab2.TabIndex = 371
         '
         'GroupBox13
         '
-        Me.GroupBox13.Controls.Add(Me.RadioButton14)
-        Me.GroupBox13.Controls.Add(Me.RadioButton15)
+        Me.GroupBox13.Controls.Add(Me.rdoDiffMethod2_tab2)
+        Me.GroupBox13.Controls.Add(Me.rdoDiffMethod1_tab2)
         Me.GroupBox13.Location = New System.Drawing.Point(939, 360)
         Me.GroupBox13.Name = "GroupBox13"
         Me.GroupBox13.Size = New System.Drawing.Size(262, 113)
@@ -8416,37 +8436,37 @@ Partial Class frmILMeasurement
         Me.GroupBox13.TabStop = False
         Me.GroupBox13.Text = "Differentiation method"
         '
-        'RadioButton14
+        'rdoDiffMethod2_tab2
         '
-        Me.RadioButton14.AutoSize = True
-        Me.RadioButton14.Location = New System.Drawing.Point(20, 69)
-        Me.RadioButton14.Name = "RadioButton14"
-        Me.RadioButton14.Size = New System.Drawing.Size(191, 26)
-        Me.RadioButton14.TabIndex = 371
-        Me.RadioButton14.TabStop = True
-        Me.RadioButton14.Text = "Method 2(sparation)"
-        Me.RadioButton14.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton14.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod2_tab2.AutoSize = True
+        Me.rdoDiffMethod2_tab2.Location = New System.Drawing.Point(20, 69)
+        Me.rdoDiffMethod2_tab2.Name = "rdoDiffMethod2_tab2"
+        Me.rdoDiffMethod2_tab2.Size = New System.Drawing.Size(191, 26)
+        Me.rdoDiffMethod2_tab2.TabIndex = 371
+        Me.rdoDiffMethod2_tab2.TabStop = True
+        Me.rdoDiffMethod2_tab2.Text = "Method 2(sparation)"
+        Me.rdoDiffMethod2_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod2_tab2.UseVisualStyleBackColor = True
         '
-        'RadioButton15
+        'rdoDiffMethod1_tab2
         '
-        Me.RadioButton15.AutoSize = True
-        Me.RadioButton15.Location = New System.Drawing.Point(20, 37)
-        Me.RadioButton15.Name = "RadioButton15"
-        Me.RadioButton15.Size = New System.Drawing.Size(199, 26)
-        Me.RadioButton15.TabIndex = 370
-        Me.RadioButton15.TabStop = True
-        Me.RadioButton15.Text = "Method 1(smoothing)"
-        Me.RadioButton15.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton15.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod1_tab2.AutoSize = True
+        Me.rdoDiffMethod1_tab2.Location = New System.Drawing.Point(20, 37)
+        Me.rdoDiffMethod1_tab2.Name = "rdoDiffMethod1_tab2"
+        Me.rdoDiffMethod1_tab2.Size = New System.Drawing.Size(199, 26)
+        Me.rdoDiffMethod1_tab2.TabIndex = 370
+        Me.rdoDiffMethod1_tab2.TabStop = True
+        Me.rdoDiffMethod1_tab2.Text = "Method 1(smoothing)"
+        Me.rdoDiffMethod1_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod1_tab2.UseVisualStyleBackColor = True
         '
         'GroupBox14
         '
-        Me.GroupBox14.Controls.Add(Me.TextBox31)
-        Me.GroupBox14.Controls.Add(Me.RadioButton16)
+        Me.GroupBox14.Controls.Add(Me.txtLeastSquareNumOfPoint_tab2)
+        Me.GroupBox14.Controls.Add(Me.rdoLeastSquarefomula_tab2)
         Me.GroupBox14.Controls.Add(Me.Label276)
-        Me.GroupBox14.Controls.Add(Me.RadioButton17)
-        Me.GroupBox14.Controls.Add(Me.RadioButton18)
+        Me.GroupBox14.Controls.Add(Me.rdoLeastSquareSecon_tab2)
+        Me.GroupBox14.Controls.Add(Me.rdoLeastSquarePrimary_tab2)
         Me.GroupBox14.Location = New System.Drawing.Point(672, 598)
         Me.GroupBox14.Name = "GroupBox14"
         Me.GroupBox14.Size = New System.Drawing.Size(239, 187)
@@ -8454,27 +8474,27 @@ Partial Class frmILMeasurement
         Me.GroupBox14.TabStop = False
         Me.GroupBox14.Text = "Least-squares method"
         '
-        'TextBox31
+        'txtLeastSquareNumOfPoint_tab2
         '
-        Me.TextBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox31.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox31.Location = New System.Drawing.Point(172, 139)
-        Me.TextBox31.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New System.Drawing.Size(53, 28)
-        Me.TextBox31.TabIndex = 378
+        Me.txtLeastSquareNumOfPoint_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLeastSquareNumOfPoint_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLeastSquareNumOfPoint_tab2.Location = New System.Drawing.Point(172, 139)
+        Me.txtLeastSquareNumOfPoint_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLeastSquareNumOfPoint_tab2.Name = "txtLeastSquareNumOfPoint_tab2"
+        Me.txtLeastSquareNumOfPoint_tab2.Size = New System.Drawing.Size(53, 28)
+        Me.txtLeastSquareNumOfPoint_tab2.TabIndex = 378
         '
-        'RadioButton16
+        'rdoLeastSquarefomula_tab2
         '
-        Me.RadioButton16.AutoSize = True
-        Me.RadioButton16.Location = New System.Drawing.Point(28, 97)
-        Me.RadioButton16.Name = "RadioButton16"
-        Me.RadioButton16.Size = New System.Drawing.Size(128, 26)
-        Me.RadioButton16.TabIndex = 372
-        Me.RadioButton16.TabStop = True
-        Me.RadioButton16.Text = "Input fomula"
-        Me.RadioButton16.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton16.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarefomula_tab2.AutoSize = True
+        Me.rdoLeastSquarefomula_tab2.Location = New System.Drawing.Point(28, 97)
+        Me.rdoLeastSquarefomula_tab2.Name = "rdoLeastSquarefomula_tab2"
+        Me.rdoLeastSquarefomula_tab2.Size = New System.Drawing.Size(128, 26)
+        Me.rdoLeastSquarefomula_tab2.TabIndex = 372
+        Me.rdoLeastSquarefomula_tab2.TabStop = True
+        Me.rdoLeastSquarefomula_tab2.Text = "Input fomula"
+        Me.rdoLeastSquarefomula_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarefomula_tab2.UseVisualStyleBackColor = True
         '
         'Label276
         '
@@ -8486,34 +8506,34 @@ Partial Class frmILMeasurement
         Me.Label276.TabIndex = 377
         Me.Label276.Text = "Number of point"
         '
-        'RadioButton17
+        'rdoLeastSquareSecon_tab2
         '
-        Me.RadioButton17.AutoSize = True
-        Me.RadioButton17.Location = New System.Drawing.Point(28, 66)
-        Me.RadioButton17.Name = "RadioButton17"
-        Me.RadioButton17.Size = New System.Drawing.Size(117, 26)
-        Me.RadioButton17.TabIndex = 371
-        Me.RadioButton17.TabStop = True
-        Me.RadioButton17.Text = "Secondary"
-        Me.RadioButton17.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton17.UseVisualStyleBackColor = True
+        Me.rdoLeastSquareSecon_tab2.AutoSize = True
+        Me.rdoLeastSquareSecon_tab2.Location = New System.Drawing.Point(28, 66)
+        Me.rdoLeastSquareSecon_tab2.Name = "rdoLeastSquareSecon_tab2"
+        Me.rdoLeastSquareSecon_tab2.Size = New System.Drawing.Size(117, 26)
+        Me.rdoLeastSquareSecon_tab2.TabIndex = 371
+        Me.rdoLeastSquareSecon_tab2.TabStop = True
+        Me.rdoLeastSquareSecon_tab2.Text = "Secondary"
+        Me.rdoLeastSquareSecon_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquareSecon_tab2.UseVisualStyleBackColor = True
         '
-        'RadioButton18
+        'rdoLeastSquarePrimary_tab2
         '
-        Me.RadioButton18.AutoSize = True
-        Me.RadioButton18.Location = New System.Drawing.Point(29, 37)
-        Me.RadioButton18.Name = "RadioButton18"
-        Me.RadioButton18.Size = New System.Drawing.Size(86, 26)
-        Me.RadioButton18.TabIndex = 370
-        Me.RadioButton18.TabStop = True
-        Me.RadioButton18.Text = "Primay"
-        Me.RadioButton18.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton18.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarePrimary_tab2.AutoSize = True
+        Me.rdoLeastSquarePrimary_tab2.Location = New System.Drawing.Point(29, 37)
+        Me.rdoLeastSquarePrimary_tab2.Name = "rdoLeastSquarePrimary_tab2"
+        Me.rdoLeastSquarePrimary_tab2.Size = New System.Drawing.Size(92, 26)
+        Me.rdoLeastSquarePrimary_tab2.TabIndex = 370
+        Me.rdoLeastSquarePrimary_tab2.TabStop = True
+        Me.rdoLeastSquarePrimary_tab2.Text = "Primary"
+        Me.rdoLeastSquarePrimary_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarePrimary_tab2.UseVisualStyleBackColor = True
         '
         'GroupBox15
         '
-        Me.GroupBox15.Controls.Add(Me.RadioButton19)
-        Me.GroupBox15.Controls.Add(Me.RadioButton20)
+        Me.GroupBox15.Controls.Add(Me.rdoKinkModeCurrnet_tab2)
+        Me.GroupBox15.Controls.Add(Me.rdoKinkModePower_tab2)
         Me.GroupBox15.Location = New System.Drawing.Point(672, 479)
         Me.GroupBox15.Name = "GroupBox15"
         Me.GroupBox15.Size = New System.Drawing.Size(239, 113)
@@ -8521,36 +8541,36 @@ Partial Class frmILMeasurement
         Me.GroupBox15.TabStop = False
         Me.GroupBox15.Text = "Kink Mode"
         '
-        'RadioButton19
+        'rdoKinkModeCurrnet_tab2
         '
-        Me.RadioButton19.AutoSize = True
-        Me.RadioButton19.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton19.Location = New System.Drawing.Point(77, 67)
-        Me.RadioButton19.Name = "RadioButton19"
-        Me.RadioButton19.Size = New System.Drawing.Size(91, 26)
-        Me.RadioButton19.TabIndex = 371
-        Me.RadioButton19.TabStop = True
-        Me.RadioButton19.Text = "Current"
-        Me.RadioButton19.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton19.UseVisualStyleBackColor = True
+        Me.rdoKinkModeCurrnet_tab2.AutoSize = True
+        Me.rdoKinkModeCurrnet_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab2.Location = New System.Drawing.Point(77, 67)
+        Me.rdoKinkModeCurrnet_tab2.Name = "rdoKinkModeCurrnet_tab2"
+        Me.rdoKinkModeCurrnet_tab2.Size = New System.Drawing.Size(91, 26)
+        Me.rdoKinkModeCurrnet_tab2.TabIndex = 371
+        Me.rdoKinkModeCurrnet_tab2.TabStop = True
+        Me.rdoKinkModeCurrnet_tab2.Text = "Current"
+        Me.rdoKinkModeCurrnet_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab2.UseVisualStyleBackColor = True
         '
-        'RadioButton20
+        'rdoKinkModePower_tab2
         '
-        Me.RadioButton20.AutoSize = True
-        Me.RadioButton20.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton20.Location = New System.Drawing.Point(78, 37)
-        Me.RadioButton20.Name = "RadioButton20"
-        Me.RadioButton20.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton20.TabIndex = 370
-        Me.RadioButton20.TabStop = True
-        Me.RadioButton20.Text = "Power"
-        Me.RadioButton20.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton20.UseVisualStyleBackColor = True
+        Me.rdoKinkModePower_tab2.AutoSize = True
+        Me.rdoKinkModePower_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab2.Location = New System.Drawing.Point(78, 37)
+        Me.rdoKinkModePower_tab2.Name = "rdoKinkModePower_tab2"
+        Me.rdoKinkModePower_tab2.Size = New System.Drawing.Size(82, 26)
+        Me.rdoKinkModePower_tab2.TabIndex = 370
+        Me.rdoKinkModePower_tab2.TabStop = True
+        Me.rdoKinkModePower_tab2.Text = "Power"
+        Me.rdoKinkModePower_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab2.UseVisualStyleBackColor = True
         '
         'GroupBox16
         '
-        Me.GroupBox16.Controls.Add(Me.RadioButton21)
-        Me.GroupBox16.Controls.Add(Me.RadioButton22)
+        Me.GroupBox16.Controls.Add(Me.rdoKinkType2_tab2)
+        Me.GroupBox16.Controls.Add(Me.rdoKinkType1_tab2)
         Me.GroupBox16.Location = New System.Drawing.Point(672, 360)
         Me.GroupBox16.Name = "GroupBox16"
         Me.GroupBox16.Size = New System.Drawing.Size(239, 113)
@@ -8558,31 +8578,31 @@ Partial Class frmILMeasurement
         Me.GroupBox16.TabStop = False
         Me.GroupBox16.Text = "Kink Method"
         '
-        'RadioButton21
+        'rdoKinkType2_tab2
         '
-        Me.RadioButton21.AutoSize = True
-        Me.RadioButton21.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton21.Location = New System.Drawing.Point(77, 69)
-        Me.RadioButton21.Name = "RadioButton21"
-        Me.RadioButton21.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton21.TabIndex = 371
-        Me.RadioButton21.TabStop = True
-        Me.RadioButton21.Text = "Type 2"
-        Me.RadioButton21.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton21.UseVisualStyleBackColor = True
+        Me.rdoKinkType2_tab2.AutoSize = True
+        Me.rdoKinkType2_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab2.Location = New System.Drawing.Point(77, 69)
+        Me.rdoKinkType2_tab2.Name = "rdoKinkType2_tab2"
+        Me.rdoKinkType2_tab2.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType2_tab2.TabIndex = 371
+        Me.rdoKinkType2_tab2.TabStop = True
+        Me.rdoKinkType2_tab2.Text = "Type 2"
+        Me.rdoKinkType2_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab2.UseVisualStyleBackColor = True
         '
-        'RadioButton22
+        'rdoKinkType1_tab2
         '
-        Me.RadioButton22.AutoSize = True
-        Me.RadioButton22.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton22.Location = New System.Drawing.Point(77, 37)
-        Me.RadioButton22.Name = "RadioButton22"
-        Me.RadioButton22.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton22.TabIndex = 370
-        Me.RadioButton22.TabStop = True
-        Me.RadioButton22.Text = "Type 1"
-        Me.RadioButton22.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton22.UseVisualStyleBackColor = True
+        Me.rdoKinkType1_tab2.AutoSize = True
+        Me.rdoKinkType1_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab2.Location = New System.Drawing.Point(77, 37)
+        Me.rdoKinkType1_tab2.Name = "rdoKinkType1_tab2"
+        Me.rdoKinkType1_tab2.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType1_tab2.TabIndex = 370
+        Me.rdoKinkType1_tab2.TabStop = True
+        Me.rdoKinkType1_tab2.Text = "Type 1"
+        Me.rdoKinkType1_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab2.UseVisualStyleBackColor = True
         '
         'GroupBox17
         '
@@ -8592,15 +8612,15 @@ Partial Class frmILMeasurement
         Me.GroupBox17.Controls.Add(Me.Label280)
         Me.GroupBox17.Controls.Add(Me.Label281)
         Me.GroupBox17.Controls.Add(Me.Label282)
-        Me.GroupBox17.Controls.Add(Me.TextBox32)
-        Me.GroupBox17.Controls.Add(Me.TextBox33)
+        Me.GroupBox17.Controls.Add(Me.txtKinkY_tab2)
+        Me.GroupBox17.Controls.Add(Me.txtKinkX_tab2)
         Me.GroupBox17.Controls.Add(Me.Label283)
-        Me.GroupBox17.Controls.Add(Me.TextBox34)
+        Me.GroupBox17.Controls.Add(Me.txtIkMax_tab2)
         Me.GroupBox17.Controls.Add(Me.Label284)
-        Me.GroupBox17.Controls.Add(Me.TextBox35)
-        Me.GroupBox17.Controls.Add(Me.CheckBox4)
-        Me.GroupBox17.Controls.Add(Me.CheckBox5)
-        Me.GroupBox17.Controls.Add(Me.CheckBox6)
+        Me.GroupBox17.Controls.Add(Me.txtDelta_tab2)
+        Me.GroupBox17.Controls.Add(Me.ckdImdLGraph2_tab2)
+        Me.GroupBox17.Controls.Add(Me.ckdImdLGraph1_tab2)
+        Me.GroupBox17.Controls.Add(Me.ckKinkGraph_tab2)
         Me.GroupBox17.Location = New System.Drawing.Point(672, 49)
         Me.GroupBox17.Name = "GroupBox17"
         Me.GroupBox17.Size = New System.Drawing.Size(239, 305)
@@ -8632,11 +8652,11 @@ Partial Class frmILMeasurement
         '
         Me.Label279.AutoSize = True
         Me.Label279.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label279.Location = New System.Drawing.Point(41, 178)
+        Me.Label279.Location = New System.Drawing.Point(21, 178)
         Me.Label279.Name = "Label279"
-        Me.Label279.Size = New System.Drawing.Size(36, 22)
+        Me.Label279.Size = New System.Drawing.Size(56, 22)
         Me.Label279.TabIndex = 380
-        Me.Label279.Text = "mA"
+        Me.Label279.Text = "IkMax"
         '
         'Label280
         '
@@ -8668,25 +8688,25 @@ Partial Class frmILMeasurement
         Me.Label282.TabIndex = 378
         Me.Label282.Text = "%"
         '
-        'TextBox32
+        'txtKinkY_tab2
         '
-        Me.TextBox32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox32.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox32.Location = New System.Drawing.Point(80, 247)
-        Me.TextBox32.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox32.TabIndex = 377
+        Me.txtKinkY_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkY_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkY_tab2.Location = New System.Drawing.Point(80, 247)
+        Me.txtKinkY_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkY_tab2.Name = "txtKinkY_tab2"
+        Me.txtKinkY_tab2.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkY_tab2.TabIndex = 377
         '
-        'TextBox33
+        'txtKinkX_tab2
         '
-        Me.TextBox33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox33.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox33.Location = New System.Drawing.Point(80, 211)
-        Me.TextBox33.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox33.TabIndex = 376
+        Me.txtKinkX_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkX_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkX_tab2.Location = New System.Drawing.Point(80, 211)
+        Me.txtKinkX_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkX_tab2.Name = "txtKinkX_tab2"
+        Me.txtKinkX_tab2.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkX_tab2.TabIndex = 376
         '
         'Label283
         '
@@ -8698,15 +8718,15 @@ Partial Class frmILMeasurement
         Me.Label283.TabIndex = 374
         Me.Label283.Text = "mA"
         '
-        'TextBox34
+        'txtIkMax_tab2
         '
-        Me.TextBox34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox34.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox34.Location = New System.Drawing.Point(80, 175)
-        Me.TextBox34.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox34.TabIndex = 375
+        Me.txtIkMax_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIkMax_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIkMax_tab2.Location = New System.Drawing.Point(80, 175)
+        Me.txtIkMax_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIkMax_tab2.Name = "txtIkMax_tab2"
+        Me.txtIkMax_tab2.Size = New System.Drawing.Size(73, 28)
+        Me.txtIkMax_tab2.TabIndex = 375
         '
         'Label284
         '
@@ -8718,52 +8738,52 @@ Partial Class frmILMeasurement
         Me.Label284.TabIndex = 371
         Me.Label284.Text = "mA"
         '
-        'TextBox35
+        'txtDelta_tab2
         '
-        Me.TextBox35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox35.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox35.Location = New System.Drawing.Point(80, 137)
-        Me.TextBox35.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox35.TabIndex = 371
+        Me.txtDelta_tab2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelta_tab2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelta_tab2.Location = New System.Drawing.Point(80, 137)
+        Me.txtDelta_tab2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtDelta_tab2.Name = "txtDelta_tab2"
+        Me.txtDelta_tab2.Size = New System.Drawing.Size(73, 28)
+        Me.txtDelta_tab2.TabIndex = 371
         '
-        'CheckBox4
+        'ckdImdLGraph2_tab2
         '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(56, 101)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox4.TabIndex = 373
-        Me.CheckBox4.Text = "dIm/dL Graph"
-        Me.CheckBox4.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph2_tab2.AutoSize = True
+        Me.ckdImdLGraph2_tab2.Location = New System.Drawing.Point(56, 101)
+        Me.ckdImdLGraph2_tab2.Name = "ckdImdLGraph2_tab2"
+        Me.ckdImdLGraph2_tab2.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph2_tab2.TabIndex = 373
+        Me.ckdImdLGraph2_tab2.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph2_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox5
+        'ckdImdLGraph1_tab2
         '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(56, 69)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox5.TabIndex = 372
-        Me.CheckBox5.Text = "dIm/dL Graph"
-        Me.CheckBox5.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph1_tab2.AutoSize = True
+        Me.ckdImdLGraph1_tab2.Location = New System.Drawing.Point(56, 69)
+        Me.ckdImdLGraph1_tab2.Name = "ckdImdLGraph1_tab2"
+        Me.ckdImdLGraph1_tab2.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph1_tab2.TabIndex = 372
+        Me.ckdImdLGraph1_tab2.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph1_tab2.UseVisualStyleBackColor = True
         '
-        'CheckBox6
+        'ckKinkGraph_tab2
         '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(56, 38)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(122, 26)
-        Me.CheckBox6.TabIndex = 371
-        Me.CheckBox6.Text = "Kink Graph"
-        Me.CheckBox6.UseVisualStyleBackColor = True
+        Me.ckKinkGraph_tab2.AutoSize = True
+        Me.ckKinkGraph_tab2.Location = New System.Drawing.Point(56, 38)
+        Me.ckKinkGraph_tab2.Name = "ckKinkGraph_tab2"
+        Me.ckKinkGraph_tab2.Size = New System.Drawing.Size(122, 26)
+        Me.ckKinkGraph_tab2.TabIndex = 371
+        Me.ckKinkGraph_tab2.Text = "Kink Graph"
+        Me.ckKinkGraph_tab2.UseVisualStyleBackColor = True
         '
         'GroupBox18
         '
-        Me.GroupBox18.Controls.Add(Me.RadioButton23)
-        Me.GroupBox18.Controls.Add(Me.RadioButton24)
-        Me.GroupBox18.Controls.Add(Me.RadioButton25)
-        Me.GroupBox18.Controls.Add(Me.RadioButton26)
+        Me.GroupBox18.Controls.Add(Me.rdo20mA_tab2)
+        Me.GroupBox18.Controls.Add(Me.rdo10mA_tab2)
+        Me.GroupBox18.Controls.Add(Me.rdo02mA_tab2)
+        Me.GroupBox18.Controls.Add(Me.rdoAuto_tab2)
         Me.GroupBox18.Location = New System.Drawing.Point(443, 589)
         Me.GroupBox18.Name = "GroupBox18"
         Me.GroupBox18.Size = New System.Drawing.Size(122, 176)
@@ -8771,57 +8791,57 @@ Partial Class frmILMeasurement
         Me.GroupBox18.TabStop = False
         Me.GroupBox18.Text = "If step"
         '
-        'RadioButton23
+        'rdo20mA_tab2
         '
-        Me.RadioButton23.AutoSize = True
-        Me.RadioButton23.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton23.Location = New System.Drawing.Point(20, 137)
-        Me.RadioButton23.Name = "RadioButton23"
-        Me.RadioButton23.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton23.TabIndex = 373
-        Me.RadioButton23.TabStop = True
-        Me.RadioButton23.Text = "2.0mA"
-        Me.RadioButton23.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton23.UseVisualStyleBackColor = True
+        Me.rdo20mA_tab2.AutoSize = True
+        Me.rdo20mA_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab2.Location = New System.Drawing.Point(20, 137)
+        Me.rdo20mA_tab2.Name = "rdo20mA_tab2"
+        Me.rdo20mA_tab2.Size = New System.Drawing.Size(82, 26)
+        Me.rdo20mA_tab2.TabIndex = 373
+        Me.rdo20mA_tab2.TabStop = True
+        Me.rdo20mA_tab2.Text = "2.0mA"
+        Me.rdo20mA_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab2.UseVisualStyleBackColor = True
         '
-        'RadioButton24
+        'rdo10mA_tab2
         '
-        Me.RadioButton24.AutoSize = True
-        Me.RadioButton24.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton24.Location = New System.Drawing.Point(20, 105)
-        Me.RadioButton24.Name = "RadioButton24"
-        Me.RadioButton24.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton24.TabIndex = 372
-        Me.RadioButton24.TabStop = True
-        Me.RadioButton24.Text = "1.0mA"
-        Me.RadioButton24.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton24.UseVisualStyleBackColor = True
+        Me.rdo10mA_tab2.AutoSize = True
+        Me.rdo10mA_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab2.Location = New System.Drawing.Point(20, 105)
+        Me.rdo10mA_tab2.Name = "rdo10mA_tab2"
+        Me.rdo10mA_tab2.Size = New System.Drawing.Size(82, 26)
+        Me.rdo10mA_tab2.TabIndex = 372
+        Me.rdo10mA_tab2.TabStop = True
+        Me.rdo10mA_tab2.Text = "1.0mA"
+        Me.rdo10mA_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab2.UseVisualStyleBackColor = True
         '
-        'RadioButton25
+        'rdo02mA_tab2
         '
-        Me.RadioButton25.AutoSize = True
-        Me.RadioButton25.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton25.Location = New System.Drawing.Point(19, 73)
-        Me.RadioButton25.Name = "RadioButton25"
-        Me.RadioButton25.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton25.TabIndex = 371
-        Me.RadioButton25.TabStop = True
-        Me.RadioButton25.Text = "0.2mA"
-        Me.RadioButton25.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton25.UseVisualStyleBackColor = True
+        Me.rdo02mA_tab2.AutoSize = True
+        Me.rdo02mA_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab2.Location = New System.Drawing.Point(19, 73)
+        Me.rdo02mA_tab2.Name = "rdo02mA_tab2"
+        Me.rdo02mA_tab2.Size = New System.Drawing.Size(82, 26)
+        Me.rdo02mA_tab2.TabIndex = 371
+        Me.rdo02mA_tab2.TabStop = True
+        Me.rdo02mA_tab2.Text = "0.2mA"
+        Me.rdo02mA_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab2.UseVisualStyleBackColor = True
         '
-        'RadioButton26
+        'rdoAuto_tab2
         '
-        Me.RadioButton26.AutoSize = True
-        Me.RadioButton26.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton26.Location = New System.Drawing.Point(20, 43)
-        Me.RadioButton26.Name = "RadioButton26"
-        Me.RadioButton26.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton26.TabIndex = 370
-        Me.RadioButton26.TabStop = True
-        Me.RadioButton26.Text = "AUTO"
-        Me.RadioButton26.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton26.UseVisualStyleBackColor = True
+        Me.rdoAuto_tab2.AutoSize = True
+        Me.rdoAuto_tab2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab2.Location = New System.Drawing.Point(20, 43)
+        Me.rdoAuto_tab2.Name = "rdoAuto_tab2"
+        Me.rdoAuto_tab2.Size = New System.Drawing.Size(82, 26)
+        Me.rdoAuto_tab2.TabIndex = 370
+        Me.rdoAuto_tab2.TabStop = True
+        Me.rdoAuto_tab2.Text = "AUTO"
+        Me.rdoAuto_tab2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab2.UseVisualStyleBackColor = True
         '
         'Label285
         '
@@ -8907,11 +8927,11 @@ Partial Class frmILMeasurement
         '
         Me.Label293.AutoSize = True
         Me.Label293.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label293.Location = New System.Drawing.Point(483, 214)
+        Me.Label293.Location = New System.Drawing.Point(469, 214)
         Me.Label293.Name = "Label293"
-        Me.Label293.Size = New System.Drawing.Size(44, 22)
+        Me.Label293.Size = New System.Drawing.Size(58, 22)
         Me.Label293.TabIndex = 391
-        Me.Label293.Text = "[nm]"
+        Me.Label293.Text = "λ [nm]"
         '
         'Label294
         '
@@ -9358,19 +9378,19 @@ Partial Class frmILMeasurement
         '
         'ILSweep1
         '
-        Me.ILSweep1.Controls.Add(Me.TextBox8)
-        Me.ILSweep1.Controls.Add(Me.TextBox14)
-        Me.ILSweep1.Controls.Add(Me.TextBox2)
-        Me.ILSweep1.Controls.Add(Me.TextBox3)
-        Me.ILSweep1.Controls.Add(Me.TextBox4)
-        Me.ILSweep1.Controls.Add(Me.TextBox5)
-        Me.ILSweep1.Controls.Add(Me.TextBox6)
-        Me.ILSweep1.Controls.Add(Me.TextBox7)
-        Me.ILSweep1.Controls.Add(Me.TextBox9)
-        Me.ILSweep1.Controls.Add(Me.TextBox10)
-        Me.ILSweep1.Controls.Add(Me.TextBox11)
-        Me.ILSweep1.Controls.Add(Me.TextBox12)
-        Me.ILSweep1.Controls.Add(Me.TextBox13)
+        Me.ILSweep1.Controls.Add(Me.txtPmax_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtIthpP2_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtIthpP1_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtdImdLMax_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtRmax_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtImMax_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtVfmax_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtnMax_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtlampda_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtIvf_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtImax_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtPCALminOffset_tab1)
+        Me.ILSweep1.Controls.Add(Me.txtPCALmin_tab1)
         Me.ILSweep1.Controls.Add(Me.TextBox1)
         Me.ILSweep1.Controls.Add(Me.txtImdiv_tab1)
         Me.ILSweep1.Controls.Add(Me.txtImscale_tab1)
@@ -9477,135 +9497,135 @@ Partial Class frmILMeasurement
         Me.ILSweep1.Text = "IL Sweep1"
         Me.ILSweep1.UseVisualStyleBackColor = True
         '
-        'TextBox8
+        'txtPmax_tab1
         '
-        Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(530, 253)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox8.TabIndex = 386
+        Me.txtPmax_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPmax_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPmax_tab1.Location = New System.Drawing.Point(530, 253)
+        Me.txtPmax_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPmax_tab1.Name = "txtPmax_tab1"
+        Me.txtPmax_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtPmax_tab1.TabIndex = 386
         '
-        'TextBox14
+        'txtIthpP2_tab1
         '
-        Me.TextBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox14.Location = New System.Drawing.Point(530, 520)
-        Me.TextBox14.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox14.TabIndex = 368
+        Me.txtIthpP2_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP2_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP2_tab1.Location = New System.Drawing.Point(530, 520)
+        Me.txtIthpP2_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP2_tab1.Name = "txtIthpP2_tab1"
+        Me.txtIthpP2_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP2_tab1.TabIndex = 368
         '
-        'TextBox2
+        'txtIthpP1_tab1
         '
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(530, 480)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox2.TabIndex = 365
+        Me.txtIthpP1_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIthpP1_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIthpP1_tab1.Location = New System.Drawing.Point(530, 480)
+        Me.txtIthpP1_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIthpP1_tab1.Name = "txtIthpP1_tab1"
+        Me.txtIthpP1_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtIthpP1_tab1.TabIndex = 365
         '
-        'TextBox3
+        'txtdImdLMax_tab1
         '
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(530, 441)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox3.TabIndex = 364
+        Me.txtdImdLMax_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtdImdLMax_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtdImdLMax_tab1.Location = New System.Drawing.Point(530, 441)
+        Me.txtdImdLMax_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtdImdLMax_tab1.Name = "txtdImdLMax_tab1"
+        Me.txtdImdLMax_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtdImdLMax_tab1.TabIndex = 364
         '
-        'TextBox4
+        'txtRmax_tab1
         '
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(530, 405)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox4.TabIndex = 363
+        Me.txtRmax_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtRmax_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRmax_tab1.Location = New System.Drawing.Point(530, 405)
+        Me.txtRmax_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtRmax_tab1.Name = "txtRmax_tab1"
+        Me.txtRmax_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtRmax_tab1.TabIndex = 363
         '
-        'TextBox5
+        'txtImMax_tab1
         '
-        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(530, 368)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox5.TabIndex = 362
+        Me.txtImMax_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImMax_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImMax_tab1.Location = New System.Drawing.Point(530, 368)
+        Me.txtImMax_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImMax_tab1.Name = "txtImMax_tab1"
+        Me.txtImMax_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtImMax_tab1.TabIndex = 362
         '
-        'TextBox6
+        'txtVfmax_tab1
         '
-        Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(530, 329)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox6.TabIndex = 361
+        Me.txtVfmax_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtVfmax_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtVfmax_tab1.Location = New System.Drawing.Point(530, 329)
+        Me.txtVfmax_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtVfmax_tab1.Name = "txtVfmax_tab1"
+        Me.txtVfmax_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtVfmax_tab1.TabIndex = 361
         '
-        'TextBox7
+        'txtnMax_tab1
         '
-        Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(530, 291)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox7.TabIndex = 360
+        Me.txtnMax_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtnMax_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnMax_tab1.Location = New System.Drawing.Point(530, 291)
+        Me.txtnMax_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtnMax_tab1.Name = "txtnMax_tab1"
+        Me.txtnMax_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtnMax_tab1.TabIndex = 360
         '
-        'TextBox9
+        'txtlampda_tab1
         '
-        Me.TextBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(530, 211)
-        Me.TextBox9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox9.TabIndex = 358
+        Me.txtlampda_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtlampda_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtlampda_tab1.Location = New System.Drawing.Point(530, 211)
+        Me.txtlampda_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtlampda_tab1.Name = "txtlampda_tab1"
+        Me.txtlampda_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtlampda_tab1.TabIndex = 358
         '
-        'TextBox10
+        'txtIvf_tab1
         '
-        Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.Location = New System.Drawing.Point(530, 173)
-        Me.TextBox10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox10.TabIndex = 357
+        Me.txtIvf_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIvf_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIvf_tab1.Location = New System.Drawing.Point(530, 173)
+        Me.txtIvf_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIvf_tab1.Name = "txtIvf_tab1"
+        Me.txtIvf_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtIvf_tab1.TabIndex = 357
         '
-        'TextBox11
+        'txtImax_tab1
         '
-        Me.TextBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox11.Location = New System.Drawing.Point(530, 133)
-        Me.TextBox11.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox11.TabIndex = 356
+        Me.txtImax_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtImax_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImax_tab1.Location = New System.Drawing.Point(530, 133)
+        Me.txtImax_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtImax_tab1.Name = "txtImax_tab1"
+        Me.txtImax_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtImax_tab1.TabIndex = 356
         '
-        'TextBox12
+        'txtPCALminOffset_tab1
         '
-        Me.TextBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox12.Location = New System.Drawing.Point(530, 91)
-        Me.TextBox12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox12.TabIndex = 355
+        Me.txtPCALminOffset_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALminOffset_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALminOffset_tab1.Location = New System.Drawing.Point(530, 91)
+        Me.txtPCALminOffset_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALminOffset_tab1.Name = "txtPCALminOffset_tab1"
+        Me.txtPCALminOffset_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALminOffset_tab1.TabIndex = 355
         '
-        'TextBox13
+        'txtPCALmin_tab1
         '
-        Me.TextBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox13.Location = New System.Drawing.Point(530, 49)
-        Me.TextBox13.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(111, 28)
-        Me.TextBox13.TabIndex = 354
+        Me.txtPCALmin_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPCALmin_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPCALmin_tab1.Location = New System.Drawing.Point(530, 49)
+        Me.txtPCALmin_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPCALmin_tab1.Name = "txtPCALmin_tab1"
+        Me.txtPCALmin_tab1.Size = New System.Drawing.Size(111, 28)
+        Me.txtPCALmin_tab1.TabIndex = 354
         '
         'TextBox1
         '
@@ -9945,8 +9965,8 @@ Partial Class frmILMeasurement
         Me.GroupBox9.Controls.Add(Me.Label268)
         Me.GroupBox9.Controls.Add(Me.Label265)
         Me.GroupBox9.Controls.Add(Me.Label264)
-        Me.GroupBox9.Controls.Add(Me.TextBox24)
-        Me.GroupBox9.Controls.Add(Me.TextBox20)
+        Me.GroupBox9.Controls.Add(Me.txtFRPpointNum_tab1)
+        Me.GroupBox9.Controls.Add(Me.txtFRPcalculationSetting_tab1)
         Me.GroupBox9.Location = New System.Drawing.Point(939, 720)
         Me.GroupBox9.Name = "GroupBox9"
         Me.GroupBox9.Size = New System.Drawing.Size(262, 143)
@@ -9994,29 +10014,29 @@ Partial Class frmILMeasurement
         Me.Label264.TabIndex = 383
         Me.Label264.Text = "mA"
         '
-        'TextBox24
+        'txtFRPpointNum_tab1
         '
-        Me.TextBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox24.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox24.Location = New System.Drawing.Point(129, 96)
-        Me.TextBox24.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox24.TabIndex = 372
+        Me.txtFRPpointNum_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPpointNum_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPpointNum_tab1.Location = New System.Drawing.Point(129, 96)
+        Me.txtFRPpointNum_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPpointNum_tab1.Name = "txtFRPpointNum_tab1"
+        Me.txtFRPpointNum_tab1.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPpointNum_tab1.TabIndex = 372
         '
-        'TextBox20
+        'txtFRPcalculationSetting_tab1
         '
-        Me.TextBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox20.Location = New System.Drawing.Point(129, 57)
-        Me.TextBox20.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox20.TabIndex = 371
+        Me.txtFRPcalculationSetting_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtFRPcalculationSetting_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFRPcalculationSetting_tab1.Location = New System.Drawing.Point(129, 57)
+        Me.txtFRPcalculationSetting_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtFRPcalculationSetting_tab1.Name = "txtFRPcalculationSetting_tab1"
+        Me.txtFRPcalculationSetting_tab1.Size = New System.Drawing.Size(73, 28)
+        Me.txtFRPcalculationSetting_tab1.TabIndex = 371
         '
         'GroupBox8
         '
-        Me.GroupBox8.Controls.Add(Me.TextBox21)
+        Me.GroupBox8.Controls.Add(Me.txtSparationCoefficient_tab1)
         Me.GroupBox8.Location = New System.Drawing.Point(939, 637)
         Me.GroupBox8.Name = "GroupBox8"
         Me.GroupBox8.Size = New System.Drawing.Size(262, 77)
@@ -10024,22 +10044,22 @@ Partial Class frmILMeasurement
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "Sparation coefficient"
         '
-        'TextBox21
+        'txtSparationCoefficient_tab1
         '
-        Me.TextBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox21.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox21.Location = New System.Drawing.Point(137, 33)
-        Me.TextBox21.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox21.TabIndex = 371
+        Me.txtSparationCoefficient_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSparationCoefficient_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSparationCoefficient_tab1.Location = New System.Drawing.Point(137, 33)
+        Me.txtSparationCoefficient_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSparationCoefficient_tab1.Name = "txtSparationCoefficient_tab1"
+        Me.txtSparationCoefficient_tab1.Size = New System.Drawing.Size(73, 28)
+        Me.txtSparationCoefficient_tab1.TabIndex = 371
         '
         'GroupBox7
         '
         Me.GroupBox7.Controls.Add(Me.Label266)
         Me.GroupBox7.Controls.Add(Me.Label267)
-        Me.GroupBox7.Controls.Add(Me.TextBox22)
-        Me.GroupBox7.Controls.Add(Me.TextBox23)
+        Me.GroupBox7.Controls.Add(Me.txtSmoothingResistance_tab1)
+        Me.GroupBox7.Controls.Add(Me.txtSmoothingEfficiency_tab1)
         Me.GroupBox7.Location = New System.Drawing.Point(939, 486)
         Me.GroupBox7.Name = "GroupBox7"
         Me.GroupBox7.Size = New System.Drawing.Size(262, 145)
@@ -10067,30 +10087,30 @@ Partial Class frmILMeasurement
         Me.Label267.TabIndex = 372
         Me.Label267.Text = "Differentiation " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "efiiciency"
         '
-        'TextBox22
+        'txtSmoothingResistance_tab1
         '
-        Me.TextBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox22.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox22.Location = New System.Drawing.Point(137, 98)
-        Me.TextBox22.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox22.TabIndex = 375
+        Me.txtSmoothingResistance_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingResistance_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingResistance_tab1.Location = New System.Drawing.Point(137, 98)
+        Me.txtSmoothingResistance_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingResistance_tab1.Name = "txtSmoothingResistance_tab1"
+        Me.txtSmoothingResistance_tab1.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingResistance_tab1.TabIndex = 375
         '
-        'TextBox23
+        'txtSmoothingEfficiency_tab1
         '
-        Me.TextBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox23.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox23.Location = New System.Drawing.Point(137, 46)
-        Me.TextBox23.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox23.TabIndex = 371
+        Me.txtSmoothingEfficiency_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSmoothingEfficiency_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSmoothingEfficiency_tab1.Location = New System.Drawing.Point(137, 46)
+        Me.txtSmoothingEfficiency_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSmoothingEfficiency_tab1.Name = "txtSmoothingEfficiency_tab1"
+        Me.txtSmoothingEfficiency_tab1.Size = New System.Drawing.Size(73, 28)
+        Me.txtSmoothingEfficiency_tab1.TabIndex = 371
         '
         'GroupBox6
         '
-        Me.GroupBox6.Controls.Add(Me.RadioButton12)
-        Me.GroupBox6.Controls.Add(Me.RadioButton13)
+        Me.GroupBox6.Controls.Add(Me.rdoDiffMethod2_tab1)
+        Me.GroupBox6.Controls.Add(Me.rdoDiffMethod1_tab1)
         Me.GroupBox6.Location = New System.Drawing.Point(939, 360)
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Size = New System.Drawing.Size(262, 113)
@@ -10098,37 +10118,37 @@ Partial Class frmILMeasurement
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "Differentiation method"
         '
-        'RadioButton12
+        'rdoDiffMethod2_tab1
         '
-        Me.RadioButton12.AutoSize = True
-        Me.RadioButton12.Location = New System.Drawing.Point(20, 69)
-        Me.RadioButton12.Name = "RadioButton12"
-        Me.RadioButton12.Size = New System.Drawing.Size(191, 26)
-        Me.RadioButton12.TabIndex = 371
-        Me.RadioButton12.TabStop = True
-        Me.RadioButton12.Text = "Method 2(sparation)"
-        Me.RadioButton12.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton12.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod2_tab1.AutoSize = True
+        Me.rdoDiffMethod2_tab1.Location = New System.Drawing.Point(20, 69)
+        Me.rdoDiffMethod2_tab1.Name = "rdoDiffMethod2_tab1"
+        Me.rdoDiffMethod2_tab1.Size = New System.Drawing.Size(191, 26)
+        Me.rdoDiffMethod2_tab1.TabIndex = 371
+        Me.rdoDiffMethod2_tab1.TabStop = True
+        Me.rdoDiffMethod2_tab1.Text = "Method 2(sparation)"
+        Me.rdoDiffMethod2_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod2_tab1.UseVisualStyleBackColor = True
         '
-        'RadioButton13
+        'rdoDiffMethod1_tab1
         '
-        Me.RadioButton13.AutoSize = True
-        Me.RadioButton13.Location = New System.Drawing.Point(20, 37)
-        Me.RadioButton13.Name = "RadioButton13"
-        Me.RadioButton13.Size = New System.Drawing.Size(199, 26)
-        Me.RadioButton13.TabIndex = 370
-        Me.RadioButton13.TabStop = True
-        Me.RadioButton13.Text = "Method 1(smoothing)"
-        Me.RadioButton13.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton13.UseVisualStyleBackColor = True
+        Me.rdoDiffMethod1_tab1.AutoSize = True
+        Me.rdoDiffMethod1_tab1.Location = New System.Drawing.Point(20, 37)
+        Me.rdoDiffMethod1_tab1.Name = "rdoDiffMethod1_tab1"
+        Me.rdoDiffMethod1_tab1.Size = New System.Drawing.Size(199, 26)
+        Me.rdoDiffMethod1_tab1.TabIndex = 370
+        Me.rdoDiffMethod1_tab1.TabStop = True
+        Me.rdoDiffMethod1_tab1.Text = "Method 1(smoothing)"
+        Me.rdoDiffMethod1_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoDiffMethod1_tab1.UseVisualStyleBackColor = True
         '
         'GroupBox5
         '
-        Me.GroupBox5.Controls.Add(Me.TextBox19)
-        Me.GroupBox5.Controls.Add(Me.RadioButton11)
+        Me.GroupBox5.Controls.Add(Me.txtLeastSquareNumOfPoint_tab1)
+        Me.GroupBox5.Controls.Add(Me.rdoLeastSquarefomula_tab1)
         Me.GroupBox5.Controls.Add(Me.Label263)
-        Me.GroupBox5.Controls.Add(Me.RadioButton9)
-        Me.GroupBox5.Controls.Add(Me.RadioButton10)
+        Me.GroupBox5.Controls.Add(Me.rdoLeastSquareSecon_tab1)
+        Me.GroupBox5.Controls.Add(Me.rdoLeastSquarePrimary_tab1)
         Me.GroupBox5.Location = New System.Drawing.Point(672, 598)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(239, 187)
@@ -10136,27 +10156,27 @@ Partial Class frmILMeasurement
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Least-squares method"
         '
-        'TextBox19
+        'txtLeastSquareNumOfPoint_tab1
         '
-        Me.TextBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox19.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox19.Location = New System.Drawing.Point(172, 139)
-        Me.TextBox19.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(53, 28)
-        Me.TextBox19.TabIndex = 378
+        Me.txtLeastSquareNumOfPoint_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLeastSquareNumOfPoint_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLeastSquareNumOfPoint_tab1.Location = New System.Drawing.Point(172, 139)
+        Me.txtLeastSquareNumOfPoint_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLeastSquareNumOfPoint_tab1.Name = "txtLeastSquareNumOfPoint_tab1"
+        Me.txtLeastSquareNumOfPoint_tab1.Size = New System.Drawing.Size(53, 28)
+        Me.txtLeastSquareNumOfPoint_tab1.TabIndex = 378
         '
-        'RadioButton11
+        'rdoLeastSquarefomula_tab1
         '
-        Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.Location = New System.Drawing.Point(28, 97)
-        Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(128, 26)
-        Me.RadioButton11.TabIndex = 372
-        Me.RadioButton11.TabStop = True
-        Me.RadioButton11.Text = "Input fomula"
-        Me.RadioButton11.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton11.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarefomula_tab1.AutoSize = True
+        Me.rdoLeastSquarefomula_tab1.Location = New System.Drawing.Point(28, 97)
+        Me.rdoLeastSquarefomula_tab1.Name = "rdoLeastSquarefomula_tab1"
+        Me.rdoLeastSquarefomula_tab1.Size = New System.Drawing.Size(128, 26)
+        Me.rdoLeastSquarefomula_tab1.TabIndex = 372
+        Me.rdoLeastSquarefomula_tab1.TabStop = True
+        Me.rdoLeastSquarefomula_tab1.Text = "Input fomula"
+        Me.rdoLeastSquarefomula_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarefomula_tab1.UseVisualStyleBackColor = True
         '
         'Label263
         '
@@ -10168,34 +10188,34 @@ Partial Class frmILMeasurement
         Me.Label263.TabIndex = 377
         Me.Label263.Text = "Number of point"
         '
-        'RadioButton9
+        'rdoLeastSquareSecon_tab1
         '
-        Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.Location = New System.Drawing.Point(28, 66)
-        Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(117, 26)
-        Me.RadioButton9.TabIndex = 371
-        Me.RadioButton9.TabStop = True
-        Me.RadioButton9.Text = "Secondary"
-        Me.RadioButton9.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton9.UseVisualStyleBackColor = True
+        Me.rdoLeastSquareSecon_tab1.AutoSize = True
+        Me.rdoLeastSquareSecon_tab1.Location = New System.Drawing.Point(28, 66)
+        Me.rdoLeastSquareSecon_tab1.Name = "rdoLeastSquareSecon_tab1"
+        Me.rdoLeastSquareSecon_tab1.Size = New System.Drawing.Size(117, 26)
+        Me.rdoLeastSquareSecon_tab1.TabIndex = 371
+        Me.rdoLeastSquareSecon_tab1.TabStop = True
+        Me.rdoLeastSquareSecon_tab1.Text = "Secondary"
+        Me.rdoLeastSquareSecon_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquareSecon_tab1.UseVisualStyleBackColor = True
         '
-        'RadioButton10
+        'rdoLeastSquarePrimary_tab1
         '
-        Me.RadioButton10.AutoSize = True
-        Me.RadioButton10.Location = New System.Drawing.Point(29, 37)
-        Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(86, 26)
-        Me.RadioButton10.TabIndex = 370
-        Me.RadioButton10.TabStop = True
-        Me.RadioButton10.Text = "Primay"
-        Me.RadioButton10.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton10.UseVisualStyleBackColor = True
+        Me.rdoLeastSquarePrimary_tab1.AutoSize = True
+        Me.rdoLeastSquarePrimary_tab1.Location = New System.Drawing.Point(29, 37)
+        Me.rdoLeastSquarePrimary_tab1.Name = "rdoLeastSquarePrimary_tab1"
+        Me.rdoLeastSquarePrimary_tab1.Size = New System.Drawing.Size(92, 26)
+        Me.rdoLeastSquarePrimary_tab1.TabIndex = 370
+        Me.rdoLeastSquarePrimary_tab1.TabStop = True
+        Me.rdoLeastSquarePrimary_tab1.Text = "Primary"
+        Me.rdoLeastSquarePrimary_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoLeastSquarePrimary_tab1.UseVisualStyleBackColor = True
         '
         'GroupBox4
         '
-        Me.GroupBox4.Controls.Add(Me.RadioButton5)
-        Me.GroupBox4.Controls.Add(Me.RadioButton6)
+        Me.GroupBox4.Controls.Add(Me.rdoKinkModeCurrnet_tab1)
+        Me.GroupBox4.Controls.Add(Me.rdoKinkModePower_tab1)
         Me.GroupBox4.Location = New System.Drawing.Point(672, 479)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(239, 113)
@@ -10203,36 +10223,36 @@ Partial Class frmILMeasurement
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Kink Mode"
         '
-        'RadioButton5
+        'rdoKinkModeCurrnet_tab1
         '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton5.Location = New System.Drawing.Point(77, 67)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(91, 26)
-        Me.RadioButton5.TabIndex = 371
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "Current"
-        Me.RadioButton5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton5.UseVisualStyleBackColor = True
+        Me.rdoKinkModeCurrnet_tab1.AutoSize = True
+        Me.rdoKinkModeCurrnet_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab1.Location = New System.Drawing.Point(77, 67)
+        Me.rdoKinkModeCurrnet_tab1.Name = "rdoKinkModeCurrnet_tab1"
+        Me.rdoKinkModeCurrnet_tab1.Size = New System.Drawing.Size(91, 26)
+        Me.rdoKinkModeCurrnet_tab1.TabIndex = 371
+        Me.rdoKinkModeCurrnet_tab1.TabStop = True
+        Me.rdoKinkModeCurrnet_tab1.Text = "Current"
+        Me.rdoKinkModeCurrnet_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModeCurrnet_tab1.UseVisualStyleBackColor = True
         '
-        'RadioButton6
+        'rdoKinkModePower_tab1
         '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton6.Location = New System.Drawing.Point(78, 37)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton6.TabIndex = 370
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Power"
-        Me.RadioButton6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton6.UseVisualStyleBackColor = True
+        Me.rdoKinkModePower_tab1.AutoSize = True
+        Me.rdoKinkModePower_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab1.Location = New System.Drawing.Point(78, 37)
+        Me.rdoKinkModePower_tab1.Name = "rdoKinkModePower_tab1"
+        Me.rdoKinkModePower_tab1.Size = New System.Drawing.Size(82, 26)
+        Me.rdoKinkModePower_tab1.TabIndex = 370
+        Me.rdoKinkModePower_tab1.TabStop = True
+        Me.rdoKinkModePower_tab1.Text = "Power"
+        Me.rdoKinkModePower_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkModePower_tab1.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.RadioButton7)
-        Me.GroupBox3.Controls.Add(Me.RadioButton8)
+        Me.GroupBox3.Controls.Add(Me.rdoKinkType2_tab1)
+        Me.GroupBox3.Controls.Add(Me.rdoKinkType1_tab1)
         Me.GroupBox3.Location = New System.Drawing.Point(672, 360)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(239, 113)
@@ -10240,31 +10260,31 @@ Partial Class frmILMeasurement
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Kink Method"
         '
-        'RadioButton7
+        'rdoKinkType2_tab1
         '
-        Me.RadioButton7.AutoSize = True
-        Me.RadioButton7.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton7.Location = New System.Drawing.Point(77, 69)
-        Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton7.TabIndex = 371
-        Me.RadioButton7.TabStop = True
-        Me.RadioButton7.Text = "Type 2"
-        Me.RadioButton7.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton7.UseVisualStyleBackColor = True
+        Me.rdoKinkType2_tab1.AutoSize = True
+        Me.rdoKinkType2_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab1.Location = New System.Drawing.Point(77, 69)
+        Me.rdoKinkType2_tab1.Name = "rdoKinkType2_tab1"
+        Me.rdoKinkType2_tab1.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType2_tab1.TabIndex = 371
+        Me.rdoKinkType2_tab1.TabStop = True
+        Me.rdoKinkType2_tab1.Text = "Type 2"
+        Me.rdoKinkType2_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType2_tab1.UseVisualStyleBackColor = True
         '
-        'RadioButton8
+        'rdoKinkType1_tab1
         '
-        Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton8.Location = New System.Drawing.Point(77, 37)
-        Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(87, 26)
-        Me.RadioButton8.TabIndex = 370
-        Me.RadioButton8.TabStop = True
-        Me.RadioButton8.Text = "Type 1"
-        Me.RadioButton8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton8.UseVisualStyleBackColor = True
+        Me.rdoKinkType1_tab1.AutoSize = True
+        Me.rdoKinkType1_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab1.Location = New System.Drawing.Point(77, 37)
+        Me.rdoKinkType1_tab1.Name = "rdoKinkType1_tab1"
+        Me.rdoKinkType1_tab1.Size = New System.Drawing.Size(87, 26)
+        Me.rdoKinkType1_tab1.TabIndex = 370
+        Me.rdoKinkType1_tab1.TabStop = True
+        Me.rdoKinkType1_tab1.Text = "Type 1"
+        Me.rdoKinkType1_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoKinkType1_tab1.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
@@ -10274,15 +10294,15 @@ Partial Class frmILMeasurement
         Me.GroupBox2.Controls.Add(Me.Label259)
         Me.GroupBox2.Controls.Add(Me.Label258)
         Me.GroupBox2.Controls.Add(Me.Label257)
-        Me.GroupBox2.Controls.Add(Me.TextBox18)
-        Me.GroupBox2.Controls.Add(Me.TextBox17)
+        Me.GroupBox2.Controls.Add(Me.txtKinkY_tab1)
+        Me.GroupBox2.Controls.Add(Me.txtKinkX_tab1)
         Me.GroupBox2.Controls.Add(Me.Label256)
-        Me.GroupBox2.Controls.Add(Me.TextBox16)
+        Me.GroupBox2.Controls.Add(Me.txtIkMax_tab1)
         Me.GroupBox2.Controls.Add(Me.Label255)
-        Me.GroupBox2.Controls.Add(Me.TextBox15)
-        Me.GroupBox2.Controls.Add(Me.CheckBox3)
-        Me.GroupBox2.Controls.Add(Me.CheckBox2)
-        Me.GroupBox2.Controls.Add(Me.CheckBox1)
+        Me.GroupBox2.Controls.Add(Me.txtDelta_tab1)
+        Me.GroupBox2.Controls.Add(Me.ckdImdLGraph2_tab1)
+        Me.GroupBox2.Controls.Add(Me.ckdImdLGraph1_tab1)
+        Me.GroupBox2.Controls.Add(Me.ckKinkGraph_tab1)
         Me.GroupBox2.Location = New System.Drawing.Point(672, 49)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(239, 305)
@@ -10314,11 +10334,11 @@ Partial Class frmILMeasurement
         '
         Me.Label260.AutoSize = True
         Me.Label260.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label260.Location = New System.Drawing.Point(41, 178)
+        Me.Label260.Location = New System.Drawing.Point(21, 178)
         Me.Label260.Name = "Label260"
-        Me.Label260.Size = New System.Drawing.Size(36, 22)
+        Me.Label260.Size = New System.Drawing.Size(56, 22)
         Me.Label260.TabIndex = 380
-        Me.Label260.Text = "mA"
+        Me.Label260.Text = "IkMax"
         '
         'Label259
         '
@@ -10350,25 +10370,25 @@ Partial Class frmILMeasurement
         Me.Label257.TabIndex = 378
         Me.Label257.Text = "%"
         '
-        'TextBox18
+        'txtKinkY_tab1
         '
-        Me.TextBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox18.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox18.Location = New System.Drawing.Point(80, 247)
-        Me.TextBox18.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox18.TabIndex = 377
+        Me.txtKinkY_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkY_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkY_tab1.Location = New System.Drawing.Point(80, 247)
+        Me.txtKinkY_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkY_tab1.Name = "txtKinkY_tab1"
+        Me.txtKinkY_tab1.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkY_tab1.TabIndex = 377
         '
-        'TextBox17
+        'txtKinkX_tab1
         '
-        Me.TextBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox17.Location = New System.Drawing.Point(80, 211)
-        Me.TextBox17.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox17.TabIndex = 376
+        Me.txtKinkX_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtKinkX_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtKinkX_tab1.Location = New System.Drawing.Point(80, 211)
+        Me.txtKinkX_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtKinkX_tab1.Name = "txtKinkX_tab1"
+        Me.txtKinkX_tab1.Size = New System.Drawing.Size(73, 28)
+        Me.txtKinkX_tab1.TabIndex = 376
         '
         'Label256
         '
@@ -10380,15 +10400,15 @@ Partial Class frmILMeasurement
         Me.Label256.TabIndex = 374
         Me.Label256.Text = "mA"
         '
-        'TextBox16
+        'txtIkMax_tab1
         '
-        Me.TextBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox16.Location = New System.Drawing.Point(80, 175)
-        Me.TextBox16.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox16.TabIndex = 375
+        Me.txtIkMax_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtIkMax_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIkMax_tab1.Location = New System.Drawing.Point(80, 175)
+        Me.txtIkMax_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtIkMax_tab1.Name = "txtIkMax_tab1"
+        Me.txtIkMax_tab1.Size = New System.Drawing.Size(73, 28)
+        Me.txtIkMax_tab1.TabIndex = 375
         '
         'Label255
         '
@@ -10400,52 +10420,52 @@ Partial Class frmILMeasurement
         Me.Label255.TabIndex = 371
         Me.Label255.Text = "mA"
         '
-        'TextBox15
+        'txtDelta_tab1
         '
-        Me.TextBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox15.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox15.Location = New System.Drawing.Point(80, 137)
-        Me.TextBox15.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(73, 28)
-        Me.TextBox15.TabIndex = 371
+        Me.txtDelta_tab1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDelta_tab1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDelta_tab1.Location = New System.Drawing.Point(80, 137)
+        Me.txtDelta_tab1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtDelta_tab1.Name = "txtDelta_tab1"
+        Me.txtDelta_tab1.Size = New System.Drawing.Size(73, 28)
+        Me.txtDelta_tab1.TabIndex = 371
         '
-        'CheckBox3
+        'ckdImdLGraph2_tab1
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(56, 101)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox3.TabIndex = 373
-        Me.CheckBox3.Text = "dIm/dL Graph"
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph2_tab1.AutoSize = True
+        Me.ckdImdLGraph2_tab1.Location = New System.Drawing.Point(56, 101)
+        Me.ckdImdLGraph2_tab1.Name = "ckdImdLGraph2_tab1"
+        Me.ckdImdLGraph2_tab1.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph2_tab1.TabIndex = 373
+        Me.ckdImdLGraph2_tab1.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph2_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox2
+        'ckdImdLGraph1_tab1
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(56, 69)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(140, 26)
-        Me.CheckBox2.TabIndex = 372
-        Me.CheckBox2.Text = "dIm/dL Graph"
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.ckdImdLGraph1_tab1.AutoSize = True
+        Me.ckdImdLGraph1_tab1.Location = New System.Drawing.Point(56, 69)
+        Me.ckdImdLGraph1_tab1.Name = "ckdImdLGraph1_tab1"
+        Me.ckdImdLGraph1_tab1.Size = New System.Drawing.Size(140, 26)
+        Me.ckdImdLGraph1_tab1.TabIndex = 372
+        Me.ckdImdLGraph1_tab1.Text = "dIm/dL Graph"
+        Me.ckdImdLGraph1_tab1.UseVisualStyleBackColor = True
         '
-        'CheckBox1
+        'ckKinkGraph_tab1
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(56, 38)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(122, 26)
-        Me.CheckBox1.TabIndex = 371
-        Me.CheckBox1.Text = "Kink Graph"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.ckKinkGraph_tab1.AutoSize = True
+        Me.ckKinkGraph_tab1.Location = New System.Drawing.Point(56, 38)
+        Me.ckKinkGraph_tab1.Name = "ckKinkGraph_tab1"
+        Me.ckKinkGraph_tab1.Size = New System.Drawing.Size(122, 26)
+        Me.ckKinkGraph_tab1.TabIndex = 371
+        Me.ckKinkGraph_tab1.Text = "Kink Graph"
+        Me.ckKinkGraph_tab1.UseVisualStyleBackColor = True
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.RadioButton4)
-        Me.GroupBox1.Controls.Add(Me.RadioButton3)
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
+        Me.GroupBox1.Controls.Add(Me.rdo20mA_tab1)
+        Me.GroupBox1.Controls.Add(Me.rdo10mA_tab1)
+        Me.GroupBox1.Controls.Add(Me.rdo02mA_tab1)
+        Me.GroupBox1.Controls.Add(Me.rdoAuto_tab1)
         Me.GroupBox1.Location = New System.Drawing.Point(443, 589)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(122, 176)
@@ -10453,57 +10473,57 @@ Partial Class frmILMeasurement
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "If step"
         '
-        'RadioButton4
+        'rdo20mA_tab1
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton4.Location = New System.Drawing.Point(20, 137)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton4.TabIndex = 373
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "2.0mA"
-        Me.RadioButton4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.rdo20mA_tab1.AutoSize = True
+        Me.rdo20mA_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab1.Location = New System.Drawing.Point(20, 137)
+        Me.rdo20mA_tab1.Name = "rdo20mA_tab1"
+        Me.rdo20mA_tab1.Size = New System.Drawing.Size(82, 26)
+        Me.rdo20mA_tab1.TabIndex = 373
+        Me.rdo20mA_tab1.TabStop = True
+        Me.rdo20mA_tab1.Text = "2.0mA"
+        Me.rdo20mA_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo20mA_tab1.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'rdo10mA_tab1
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton3.Location = New System.Drawing.Point(20, 105)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton3.TabIndex = 372
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "1.0mA"
-        Me.RadioButton3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.rdo10mA_tab1.AutoSize = True
+        Me.rdo10mA_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab1.Location = New System.Drawing.Point(20, 105)
+        Me.rdo10mA_tab1.Name = "rdo10mA_tab1"
+        Me.rdo10mA_tab1.Size = New System.Drawing.Size(82, 26)
+        Me.rdo10mA_tab1.TabIndex = 372
+        Me.rdo10mA_tab1.TabStop = True
+        Me.rdo10mA_tab1.Text = "1.0mA"
+        Me.rdo10mA_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo10mA_tab1.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'rdo02mA_tab1
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton2.Location = New System.Drawing.Point(19, 73)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton2.TabIndex = 371
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "0.2mA"
-        Me.RadioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.rdo02mA_tab1.AutoSize = True
+        Me.rdo02mA_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab1.Location = New System.Drawing.Point(19, 73)
+        Me.rdo02mA_tab1.Name = "rdo02mA_tab1"
+        Me.rdo02mA_tab1.Size = New System.Drawing.Size(82, 26)
+        Me.rdo02mA_tab1.TabIndex = 371
+        Me.rdo02mA_tab1.TabStop = True
+        Me.rdo02mA_tab1.Text = "0.2mA"
+        Me.rdo02mA_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdo02mA_tab1.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'rdoAuto_tab1
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton1.Location = New System.Drawing.Point(20, 43)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(82, 26)
-        Me.RadioButton1.TabIndex = 370
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "AUTO"
-        Me.RadioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.rdoAuto_tab1.AutoSize = True
+        Me.rdoAuto_tab1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab1.Location = New System.Drawing.Point(20, 43)
+        Me.rdoAuto_tab1.Name = "rdoAuto_tab1"
+        Me.rdoAuto_tab1.Size = New System.Drawing.Size(82, 26)
+        Me.rdoAuto_tab1.TabIndex = 370
+        Me.rdoAuto_tab1.TabStop = True
+        Me.rdoAuto_tab1.Text = "AUTO"
+        Me.rdoAuto_tab1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.rdoAuto_tab1.UseVisualStyleBackColor = True
         '
         'Label254
         '
@@ -11052,7 +11072,7 @@ Partial Class frmILMeasurement
         '
         Me.tabsSweep.Controls.Add(Me.ILSweep1)
         Me.tabsSweep.Controls.Add(Me.ILSweep2)
-        Me.tabsSweep.Controls.Add(Me.ILSweep3)
+        Me.tabsSweep.Controls.Add(Me.txtPmax_tab3)
         Me.tabsSweep.Controls.Add(Me.ILSweep4)
         Me.tabsSweep.Controls.Add(Me.ILSweep5)
         Me.tabsSweep.Controls.Add(Me.ILSweep6)
@@ -11065,6 +11085,106 @@ Partial Class frmILMeasurement
         Me.tabsSweep.SelectedIndex = 0
         Me.tabsSweep.Size = New System.Drawing.Size(1236, 984)
         Me.tabsSweep.TabIndex = 0
+        '
+        'TextBox9
+        '
+        Me.TextBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox9.Location = New System.Drawing.Point(207, 535)
+        Me.TextBox9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(111, 28)
+        Me.TextBox9.TabIndex = 423
+        '
+        'Label410
+        '
+        Me.Label410.AutoSize = True
+        Me.Label410.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label410.Location = New System.Drawing.Point(61, 528)
+        Me.Label410.Name = "Label410"
+        Me.Label410.Size = New System.Drawing.Size(139, 44)
+        Me.Label410.TabIndex = 422
+        Me.Label410.Text = "The sample" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " number [Times]"
+        '
+        'TextBox10
+        '
+        Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox10.Location = New System.Drawing.Point(207, 535)
+        Me.TextBox10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(111, 28)
+        Me.TextBox10.TabIndex = 423
+        '
+        'Label411
+        '
+        Me.Label411.AutoSize = True
+        Me.Label411.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label411.Location = New System.Drawing.Point(61, 528)
+        Me.Label411.Name = "Label411"
+        Me.Label411.Size = New System.Drawing.Size(139, 44)
+        Me.Label411.TabIndex = 422
+        Me.Label411.Text = "The sample" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " number [Times]"
+        '
+        'TextBox11
+        '
+        Me.TextBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox11.Location = New System.Drawing.Point(207, 535)
+        Me.TextBox11.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.Size = New System.Drawing.Size(111, 28)
+        Me.TextBox11.TabIndex = 423
+        '
+        'Label412
+        '
+        Me.Label412.AutoSize = True
+        Me.Label412.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label412.Location = New System.Drawing.Point(61, 528)
+        Me.Label412.Name = "Label412"
+        Me.Label412.Size = New System.Drawing.Size(139, 44)
+        Me.Label412.TabIndex = 422
+        Me.Label412.Text = "The sample" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " number [Times]"
+        '
+        'TextBox12
+        '
+        Me.TextBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox12.Location = New System.Drawing.Point(207, 535)
+        Me.TextBox12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.Size = New System.Drawing.Size(111, 28)
+        Me.TextBox12.TabIndex = 423
+        '
+        'Label413
+        '
+        Me.Label413.AutoSize = True
+        Me.Label413.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label413.Location = New System.Drawing.Point(61, 528)
+        Me.Label413.Name = "Label413"
+        Me.Label413.Size = New System.Drawing.Size(139, 44)
+        Me.Label413.TabIndex = 422
+        Me.Label413.Text = "The sample" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " number [Times]"
+        '
+        'TextBox13
+        '
+        Me.TextBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox13.Location = New System.Drawing.Point(207, 535)
+        Me.TextBox13.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.Size = New System.Drawing.Size(111, 28)
+        Me.TextBox13.TabIndex = 458
+        '
+        'Label414
+        '
+        Me.Label414.AutoSize = True
+        Me.Label414.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label414.Location = New System.Drawing.Point(61, 528)
+        Me.Label414.Name = "Label414"
+        Me.Label414.Size = New System.Drawing.Size(139, 44)
+        Me.Label414.TabIndex = 457
+        Me.Label414.Text = "The sample" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " number [Times]"
         '
         'frmILMeasurement
         '
@@ -11138,8 +11258,8 @@ Partial Class frmILMeasurement
         Me.GroupBox35.PerformLayout
         Me.GroupBox36.ResumeLayout(False)
         Me.GroupBox36.PerformLayout
-        Me.ILSweep3.ResumeLayout(False)
-        Me.ILSweep3.PerformLayout
+        Me.txtPmax_tab3.ResumeLayout(False)
+        Me.txtPmax_tab3.PerformLayout
         Me.GroupBox19.ResumeLayout(False)
         Me.GroupBox19.PerformLayout
         Me.GroupBox20.ResumeLayout(False)
@@ -11278,19 +11398,19 @@ Partial Class frmILMeasurement
     Friend WithEvents Label227 As Label
     Friend WithEvents Label240 As Label
     Friend WithEvents ILSweep5 As TabPage
-    Friend WithEvents TextBox94 As TextBox
-    Friend WithEvents TextBox105 As TextBox
-    Friend WithEvents TextBox106 As TextBox
-    Friend WithEvents TextBox107 As TextBox
-    Friend WithEvents TextBox108 As TextBox
-    Friend WithEvents TextBox109 As TextBox
-    Friend WithEvents TextBox110 As TextBox
-    Friend WithEvents TextBox111 As TextBox
-    Friend WithEvents TextBox112 As TextBox
-    Friend WithEvents TextBox113 As TextBox
-    Friend WithEvents TextBox114 As TextBox
-    Friend WithEvents TextBox115 As TextBox
-    Friend WithEvents TextBox116 As TextBox
+    Friend WithEvents txtPmax_tab5 As TextBox
+    Friend WithEvents txtIthpP2_tab5 As TextBox
+    Friend WithEvents txtIthpP1_tab5 As TextBox
+    Friend WithEvents txtdImdLMax_tab5 As TextBox
+    Friend WithEvents txtRmax_tab5 As TextBox
+    Friend WithEvents txtImMax_tab5 As TextBox
+    Friend WithEvents txtVfmax_tab5 As TextBox
+    Friend WithEvents txtnMax_tab5 As TextBox
+    Friend WithEvents txtlampda_tab5 As TextBox
+    Friend WithEvents txtIvf_tab5 As TextBox
+    Friend WithEvents txtImax_tab5 As TextBox
+    Friend WithEvents txtPCALminOffset_tab5 As TextBox
+    Friend WithEvents txtPCALmin_tab5 As TextBox
     Friend WithEvents txtImdiv_tab5 As TextBox
     Friend WithEvents txtImscale_tab5 As TextBox
     Friend WithEvents txtRddiv_tab5 As TextBox
@@ -11328,30 +11448,30 @@ Partial Class frmILMeasurement
     Friend WithEvents Label355 As Label
     Friend WithEvents Label356 As Label
     Friend WithEvents Label357 As Label
-    Friend WithEvents TextBox95 As TextBox
-    Friend WithEvents TextBox96 As TextBox
+    Friend WithEvents txtFRPpointNum_tab5 As TextBox
+    Friend WithEvents txtFRPcalculationSetting_tab5 As TextBox
     Friend WithEvents GroupBox38 As GroupBox
-    Friend WithEvents TextBox97 As TextBox
+    Friend WithEvents txtSparationCoefficient_tab5 As TextBox
     Friend WithEvents GroupBox39 As GroupBox
     Friend WithEvents Label358 As Label
     Friend WithEvents Label359 As Label
-    Friend WithEvents TextBox98 As TextBox
-    Friend WithEvents TextBox99 As TextBox
+    Friend WithEvents txtSmoothingResistance_tab5 As TextBox
+    Friend WithEvents txtSmoothingEfficiency_tab5 As TextBox
     Friend WithEvents GroupBox40 As GroupBox
-    Friend WithEvents RadioButton53 As RadioButton
-    Friend WithEvents RadioButton54 As RadioButton
+    Friend WithEvents rdoDiffMethod2_tab5 As RadioButton
+    Friend WithEvents rdoDiffMethod1_tab5 As RadioButton
     Friend WithEvents GroupBox41 As GroupBox
-    Friend WithEvents TextBox100 As TextBox
-    Friend WithEvents RadioButton55 As RadioButton
+    Friend WithEvents txtLeastSquareNumOfPoint_tab5 As TextBox
+    Friend WithEvents rdoLeastSquarefomula_tab5 As RadioButton
     Friend WithEvents Label360 As Label
-    Friend WithEvents RadioButton56 As RadioButton
-    Friend WithEvents RadioButton57 As RadioButton
+    Friend WithEvents rdoLeastSquareSecon_tab5 As RadioButton
+    Friend WithEvents rdoLeastSquarePrimary_tab5 As RadioButton
     Friend WithEvents GroupBox42 As GroupBox
-    Friend WithEvents RadioButton58 As RadioButton
-    Friend WithEvents RadioButton59 As RadioButton
+    Friend WithEvents rdoKinkModeCurrnet_tab5 As RadioButton
+    Friend WithEvents rdoKinkModePower_tab5 As RadioButton
     Friend WithEvents GroupBox43 As GroupBox
-    Friend WithEvents RadioButton60 As RadioButton
-    Friend WithEvents RadioButton61 As RadioButton
+    Friend WithEvents rdoKinkType2_tab5 As RadioButton
+    Friend WithEvents rdoKinkType1_tab5 As RadioButton
     Friend WithEvents GroupBox44 As GroupBox
     Friend WithEvents Label361 As Label
     Friend WithEvents Label362 As Label
@@ -11359,20 +11479,20 @@ Partial Class frmILMeasurement
     Friend WithEvents Label364 As Label
     Friend WithEvents Label365 As Label
     Friend WithEvents Label366 As Label
-    Friend WithEvents TextBox101 As TextBox
-    Friend WithEvents TextBox102 As TextBox
+    Friend WithEvents txtKinkY_tab5 As TextBox
+    Friend WithEvents txtKinkX_tab5 As TextBox
     Friend WithEvents Label367 As Label
-    Friend WithEvents TextBox103 As TextBox
+    Friend WithEvents txtIkMax_tab5 As TextBox
     Friend WithEvents Label368 As Label
-    Friend WithEvents TextBox104 As TextBox
-    Friend WithEvents CheckBox13 As CheckBox
-    Friend WithEvents CheckBox14 As CheckBox
-    Friend WithEvents CheckBox15 As CheckBox
+    Friend WithEvents txtDelta_tab5 As TextBox
+    Friend WithEvents ckdImdLGraph2_tab5 As CheckBox
+    Friend WithEvents ckdImdLGraph1_tab5 As CheckBox
+    Friend WithEvents ckKinkGraph_tab5 As CheckBox
     Friend WithEvents GroupBox45 As GroupBox
-    Friend WithEvents RadioButton62 As RadioButton
-    Friend WithEvents RadioButton63 As RadioButton
-    Friend WithEvents RadioButton64 As RadioButton
-    Friend WithEvents RadioButton65 As RadioButton
+    Friend WithEvents rdo20mA_tab5 As RadioButton
+    Friend WithEvents rdo10mA_tab5 As RadioButton
+    Friend WithEvents rdo02mA_tab5 As RadioButton
+    Friend WithEvents rdoAuto_tab5 As RadioButton
     Friend WithEvents Label369 As Label
     Friend WithEvents Label370 As Label
     Friend WithEvents Label371 As Label
@@ -11427,19 +11547,19 @@ Partial Class frmILMeasurement
     Friend WithEvents Label177 As Label
     Friend WithEvents Label178 As Label
     Friend WithEvents ILSweep4 As TabPage
-    Friend WithEvents TextBox71 As TextBox
-    Friend WithEvents TextBox82 As TextBox
-    Friend WithEvents TextBox83 As TextBox
-    Friend WithEvents TextBox84 As TextBox
-    Friend WithEvents TextBox85 As TextBox
-    Friend WithEvents TextBox86 As TextBox
-    Friend WithEvents TextBox87 As TextBox
-    Friend WithEvents TextBox88 As TextBox
-    Friend WithEvents TextBox89 As TextBox
-    Friend WithEvents TextBox90 As TextBox
-    Friend WithEvents TextBox91 As TextBox
-    Friend WithEvents TextBox92 As TextBox
-    Friend WithEvents TextBox93 As TextBox
+    Friend WithEvents txtPmax_tab4 As TextBox
+    Friend WithEvents txtIthpP2_tab4 As TextBox
+    Friend WithEvents txtIthpP1_tab4 As TextBox
+    Friend WithEvents txtdImdLMax_tab4 As TextBox
+    Friend WithEvents txtRmax_tab4 As TextBox
+    Friend WithEvents txtImMax_tab4 As TextBox
+    Friend WithEvents txtVfmax_tab4 As TextBox
+    Friend WithEvents txtnMax_tab4 As TextBox
+    Friend WithEvents txtlampda_tab4 As TextBox
+    Friend WithEvents txtIvf_tab4 As TextBox
+    Friend WithEvents txtImax_tab4 As TextBox
+    Friend WithEvents txtPCALminOffset_tab4 As TextBox
+    Friend WithEvents txtPCALmin_tab4 As TextBox
     Friend WithEvents txtImdiv_tab4 As TextBox
     Friend WithEvents txtImscale_tab4 As TextBox
     Friend WithEvents txtRddiv_tab4 As TextBox
@@ -11477,30 +11597,30 @@ Partial Class frmILMeasurement
     Friend WithEvents Label327 As Label
     Friend WithEvents Label328 As Label
     Friend WithEvents Label329 As Label
-    Friend WithEvents TextBox72 As TextBox
-    Friend WithEvents TextBox73 As TextBox
+    Friend WithEvents txtFRPpointNum_tab4 As TextBox
+    Friend WithEvents txtFRPcalculationSetting_tab4 As TextBox
     Friend WithEvents GroupBox29 As GroupBox
-    Friend WithEvents TextBox74 As TextBox
+    Friend WithEvents txtSparationCoefficient_tab4 As TextBox
     Friend WithEvents GroupBox30 As GroupBox
     Friend WithEvents Label330 As Label
     Friend WithEvents Label331 As Label
-    Friend WithEvents TextBox75 As TextBox
-    Friend WithEvents TextBox76 As TextBox
+    Friend WithEvents txtSmoothingResistance_tab4 As TextBox
+    Friend WithEvents txtSmoothingEfficiency_tab4 As TextBox
     Friend WithEvents GroupBox31 As GroupBox
-    Friend WithEvents RadioButton40 As RadioButton
-    Friend WithEvents RadioButton41 As RadioButton
+    Friend WithEvents rdoDiffMethod2_tab4 As RadioButton
+    Friend WithEvents rdoDiffMethod1_tab4 As RadioButton
     Friend WithEvents GroupBox32 As GroupBox
-    Friend WithEvents TextBox77 As TextBox
-    Friend WithEvents RadioButton42 As RadioButton
+    Friend WithEvents txtLeastSquareNumOfPoint_tab4 As TextBox
+    Friend WithEvents rdoLeastSquarefomula_tab4 As RadioButton
     Friend WithEvents Label332 As Label
-    Friend WithEvents RadioButton43 As RadioButton
-    Friend WithEvents RadioButton44 As RadioButton
+    Friend WithEvents rdoLeastSquareSecon_tab4 As RadioButton
+    Friend WithEvents rdoLeastSquarePrimary_tab4 As RadioButton
     Friend WithEvents GroupBox33 As GroupBox
-    Friend WithEvents RadioButton45 As RadioButton
-    Friend WithEvents RadioButton46 As RadioButton
+    Friend WithEvents rdoKinkModeCurrnet_tab4 As RadioButton
+    Friend WithEvents rdoKinkModePower_tab4 As RadioButton
     Friend WithEvents GroupBox34 As GroupBox
-    Friend WithEvents RadioButton47 As RadioButton
-    Friend WithEvents RadioButton48 As RadioButton
+    Friend WithEvents rdoKinkType2_tab4 As RadioButton
+    Friend WithEvents rdoKinkType1_tab4 As RadioButton
     Friend WithEvents GroupBox35 As GroupBox
     Friend WithEvents Label333 As Label
     Friend WithEvents Label334 As Label
@@ -11508,20 +11628,20 @@ Partial Class frmILMeasurement
     Friend WithEvents Label336 As Label
     Friend WithEvents Label337 As Label
     Friend WithEvents Label338 As Label
-    Friend WithEvents TextBox78 As TextBox
-    Friend WithEvents TextBox79 As TextBox
+    Friend WithEvents txtKinkY_tab4 As TextBox
+    Friend WithEvents txtKinkX_tab4 As TextBox
     Friend WithEvents Label339 As Label
-    Friend WithEvents TextBox80 As TextBox
+    Friend WithEvents txtIkMax_tab4 As TextBox
     Friend WithEvents Label340 As Label
-    Friend WithEvents TextBox81 As TextBox
-    Friend WithEvents CheckBox10 As CheckBox
-    Friend WithEvents CheckBox11 As CheckBox
-    Friend WithEvents CheckBox12 As CheckBox
+    Friend WithEvents txtDelta_tab4 As TextBox
+    Friend WithEvents ckdImdLGraph2_tab4 As CheckBox
+    Friend WithEvents ckdImdLGraph1_tab4 As CheckBox
+    Friend WithEvents ckKinkGraph_tab4 As CheckBox
     Friend WithEvents GroupBox36 As GroupBox
-    Friend WithEvents RadioButton49 As RadioButton
-    Friend WithEvents RadioButton50 As RadioButton
-    Friend WithEvents RadioButton51 As RadioButton
-    Friend WithEvents RadioButton52 As RadioButton
+    Friend WithEvents rdo20mA_tab4 As RadioButton
+    Friend WithEvents rdo10mA_tab4 As RadioButton
+    Friend WithEvents rdo02mA_tab4 As RadioButton
+    Friend WithEvents rdoAuto_tab4 As RadioButton
     Friend WithEvents Label341 As Label
     Friend WithEvents Label342 As Label
     Friend WithEvents Label343 As Label
@@ -11575,20 +11695,20 @@ Partial Class frmILMeasurement
     Friend WithEvents Label136 As Label
     Friend WithEvents Label137 As Label
     Friend WithEvents Label138 As Label
-    Friend WithEvents ILSweep3 As TabPage
-    Friend WithEvents TextBox48 As TextBox
-    Friend WithEvents TextBox59 As TextBox
-    Friend WithEvents TextBox60 As TextBox
-    Friend WithEvents TextBox61 As TextBox
-    Friend WithEvents TextBox62 As TextBox
-    Friend WithEvents TextBox63 As TextBox
-    Friend WithEvents TextBox64 As TextBox
-    Friend WithEvents TextBox65 As TextBox
-    Friend WithEvents TextBox66 As TextBox
-    Friend WithEvents TextBox67 As TextBox
-    Friend WithEvents TextBox68 As TextBox
-    Friend WithEvents TextBox69 As TextBox
-    Friend WithEvents TextBox70 As TextBox
+    Friend WithEvents txtPmax_tab3 As TabPage
+    Friend WithEvents txtPmax_tab As TextBox
+    Friend WithEvents txtIthpP2_tab3 As TextBox
+    Friend WithEvents txtIthpP1_tab3 As TextBox
+    Friend WithEvents txtdImdLMax_tab3 As TextBox
+    Friend WithEvents txtRmax_tab3 As TextBox
+    Friend WithEvents txtImMax_tab3 As TextBox
+    Friend WithEvents txtVfmax_tab3 As TextBox
+    Friend WithEvents txtnMax_tab3 As TextBox
+    Friend WithEvents txtlampda_tab3 As TextBox
+    Friend WithEvents txtIvf_tab3 As TextBox
+    Friend WithEvents txtImax_tab3 As TextBox
+    Friend WithEvents txtPCALminOffset_tab3 As TextBox
+    Friend WithEvents txtPCALmin_tab3 As TextBox
     Friend WithEvents txtImdiv_tab3 As TextBox
     Friend WithEvents txtImscale_tab3 As TextBox
     Friend WithEvents txtRddiv_tab3 As TextBox
@@ -11626,30 +11746,30 @@ Partial Class frmILMeasurement
     Friend WithEvents Label299 As Label
     Friend WithEvents Label300 As Label
     Friend WithEvents Label301 As Label
-    Friend WithEvents TextBox49 As TextBox
-    Friend WithEvents TextBox50 As TextBox
+    Friend WithEvents txtFRPpointNum_tab3 As TextBox
+    Friend WithEvents txtFRPcalculationSetting_tab3 As TextBox
     Friend WithEvents GroupBox20 As GroupBox
-    Friend WithEvents TextBox51 As TextBox
+    Friend WithEvents txtSparationCoefficient_tab3 As TextBox
     Friend WithEvents GroupBox21 As GroupBox
     Friend WithEvents Label302 As Label
     Friend WithEvents Label303 As Label
-    Friend WithEvents TextBox52 As TextBox
-    Friend WithEvents TextBox53 As TextBox
+    Friend WithEvents txtSmoothingResistance_tab3 As TextBox
+    Friend WithEvents txtSmoothingEfficiency_tab3 As TextBox
     Friend WithEvents GroupBox22 As GroupBox
-    Friend WithEvents RadioButton27 As RadioButton
-    Friend WithEvents RadioButton28 As RadioButton
+    Friend WithEvents rdoDiffMethod2_tab3 As RadioButton
+    Friend WithEvents rdoDiffMethod1_tab3 As RadioButton
     Friend WithEvents GroupBox23 As GroupBox
-    Friend WithEvents TextBox54 As TextBox
-    Friend WithEvents RadioButton29 As RadioButton
+    Friend WithEvents txtLeastSquareNumOfPoint_tab3 As TextBox
+    Friend WithEvents rdoLeastSquarefomula_tab3 As RadioButton
     Friend WithEvents Label304 As Label
-    Friend WithEvents RadioButton30 As RadioButton
-    Friend WithEvents RadioButton31 As RadioButton
+    Friend WithEvents rdoLeastSquareSecon_tab3 As RadioButton
+    Friend WithEvents rdoLeastSquarePrimary_tab3 As RadioButton
     Friend WithEvents GroupBox24 As GroupBox
-    Friend WithEvents RadioButton32 As RadioButton
-    Friend WithEvents RadioButton33 As RadioButton
+    Friend WithEvents rdoKinkModeCurrnet_tab3 As RadioButton
+    Friend WithEvents rdoKinkModePower_tab3 As RadioButton
     Friend WithEvents GroupBox25 As GroupBox
-    Friend WithEvents RadioButton34 As RadioButton
-    Friend WithEvents RadioButton35 As RadioButton
+    Friend WithEvents rdoKinkType2_tab3 As RadioButton
+    Friend WithEvents rdoKinkType1_tab3 As RadioButton
     Friend WithEvents GroupBox26 As GroupBox
     Friend WithEvents Label305 As Label
     Friend WithEvents Label306 As Label
@@ -11657,20 +11777,20 @@ Partial Class frmILMeasurement
     Friend WithEvents Label308 As Label
     Friend WithEvents Label309 As Label
     Friend WithEvents Label310 As Label
-    Friend WithEvents TextBox55 As TextBox
-    Friend WithEvents TextBox56 As TextBox
+    Friend WithEvents txtKinkY_tab3 As TextBox
+    Friend WithEvents txtKinkX_tab3 As TextBox
     Friend WithEvents Label311 As Label
-    Friend WithEvents TextBox57 As TextBox
+    Friend WithEvents txtIkMax_tab3 As TextBox
     Friend WithEvents Label312 As Label
-    Friend WithEvents TextBox58 As TextBox
-    Friend WithEvents CheckBox7 As CheckBox
-    Friend WithEvents CheckBox8 As CheckBox
-    Friend WithEvents CheckBox9 As CheckBox
+    Friend WithEvents txtDelta_tab3 As TextBox
+    Friend WithEvents ckdImdLGraph2_tab3 As CheckBox
+    Friend WithEvents ckdImdLGraph1_tab3 As CheckBox
+    Friend WithEvents ckKinkGraph_tab3 As CheckBox
     Friend WithEvents GroupBox27 As GroupBox
-    Friend WithEvents RadioButton36 As RadioButton
-    Friend WithEvents RadioButton37 As RadioButton
-    Friend WithEvents RadioButton38 As RadioButton
-    Friend WithEvents RadioButton39 As RadioButton
+    Friend WithEvents rdo20mA_tab3 As RadioButton
+    Friend WithEvents rdo10mA_tab3 As RadioButton
+    Friend WithEvents rdo02mA_tab3 As RadioButton
+    Friend WithEvents rdoAuto_tab3 As RadioButton
     Friend WithEvents Label313 As Label
     Friend WithEvents Label314 As Label
     Friend WithEvents Label315 As Label
@@ -11725,19 +11845,19 @@ Partial Class frmILMeasurement
     Friend WithEvents Label97 As Label
     Friend WithEvents Label98 As Label
     Friend WithEvents ILSweep2 As TabPage
-    Friend WithEvents TextBox25 As TextBox
-    Friend WithEvents TextBox36 As TextBox
-    Friend WithEvents TextBox37 As TextBox
-    Friend WithEvents TextBox38 As TextBox
-    Friend WithEvents TextBox39 As TextBox
-    Friend WithEvents TextBox40 As TextBox
-    Friend WithEvents TextBox41 As TextBox
-    Friend WithEvents TextBox42 As TextBox
-    Friend WithEvents TextBox43 As TextBox
-    Friend WithEvents TextBox44 As TextBox
-    Friend WithEvents TextBox45 As TextBox
-    Friend WithEvents TextBox46 As TextBox
-    Friend WithEvents TextBox47 As TextBox
+    Friend WithEvents txtPmax_tab2 As TextBox
+    Friend WithEvents txtIthpP2_tab2 As TextBox
+    Friend WithEvents txtIthpP1_tab2 As TextBox
+    Friend WithEvents txtdImdLMax_tab2 As TextBox
+    Friend WithEvents txtRmax_tab2 As TextBox
+    Friend WithEvents txtImMax_tab2 As TextBox
+    Friend WithEvents txtVfmax_tab2 As TextBox
+    Friend WithEvents txtnMax_tab2 As TextBox
+    Friend WithEvents txtlampda_tab2 As TextBox
+    Friend WithEvents txtIvf_tab2 As TextBox
+    Friend WithEvents txtImax_tab2 As TextBox
+    Friend WithEvents txtPCALminOffset_tab2 As TextBox
+    Friend WithEvents txtPCALmin_tab2 As TextBox
     Friend WithEvents txtImdiv_tab2 As TextBox
     Friend WithEvents txtImscale_tab2 As TextBox
     Friend WithEvents txtRddiv_tab2 As TextBox
@@ -11775,30 +11895,30 @@ Partial Class frmILMeasurement
     Friend WithEvents Label271 As Label
     Friend WithEvents Label272 As Label
     Friend WithEvents Label273 As Label
-    Friend WithEvents TextBox26 As TextBox
-    Friend WithEvents TextBox27 As TextBox
+    Friend WithEvents txtFRPpointNum_tab2 As TextBox
+    Friend WithEvents txtFRPcalculationSetting_tab2 As TextBox
     Friend WithEvents GroupBox11 As GroupBox
-    Friend WithEvents TextBox28 As TextBox
+    Friend WithEvents txtSparationCoefficient_tab2 As TextBox
     Friend WithEvents GroupBox12 As GroupBox
     Friend WithEvents Label274 As Label
     Friend WithEvents Label275 As Label
-    Friend WithEvents TextBox29 As TextBox
-    Friend WithEvents TextBox30 As TextBox
+    Friend WithEvents txtSmoothingResistance_tab2 As TextBox
+    Friend WithEvents txtSmoothingEfficiency_tab2 As TextBox
     Friend WithEvents GroupBox13 As GroupBox
-    Friend WithEvents RadioButton14 As RadioButton
-    Friend WithEvents RadioButton15 As RadioButton
+    Friend WithEvents rdoDiffMethod2_tab2 As RadioButton
+    Friend WithEvents rdoDiffMethod1_tab2 As RadioButton
     Friend WithEvents GroupBox14 As GroupBox
-    Friend WithEvents TextBox31 As TextBox
-    Friend WithEvents RadioButton16 As RadioButton
+    Friend WithEvents txtLeastSquareNumOfPoint_tab2 As TextBox
+    Friend WithEvents rdoLeastSquarefomula_tab2 As RadioButton
     Friend WithEvents Label276 As Label
-    Friend WithEvents RadioButton17 As RadioButton
-    Friend WithEvents RadioButton18 As RadioButton
+    Friend WithEvents rdoLeastSquareSecon_tab2 As RadioButton
+    Friend WithEvents rdoLeastSquarePrimary_tab2 As RadioButton
     Friend WithEvents GroupBox15 As GroupBox
-    Friend WithEvents RadioButton19 As RadioButton
-    Friend WithEvents RadioButton20 As RadioButton
+    Friend WithEvents rdoKinkModeCurrnet_tab2 As RadioButton
+    Friend WithEvents rdoKinkModePower_tab2 As RadioButton
     Friend WithEvents GroupBox16 As GroupBox
-    Friend WithEvents RadioButton21 As RadioButton
-    Friend WithEvents RadioButton22 As RadioButton
+    Friend WithEvents rdoKinkType2_tab2 As RadioButton
+    Friend WithEvents rdoKinkType1_tab2 As RadioButton
     Friend WithEvents GroupBox17 As GroupBox
     Friend WithEvents Label277 As Label
     Friend WithEvents Label278 As Label
@@ -11806,20 +11926,20 @@ Partial Class frmILMeasurement
     Friend WithEvents Label280 As Label
     Friend WithEvents Label281 As Label
     Friend WithEvents Label282 As Label
-    Friend WithEvents TextBox32 As TextBox
-    Friend WithEvents TextBox33 As TextBox
+    Friend WithEvents txtKinkY_tab2 As TextBox
+    Friend WithEvents txtKinkX_tab2 As TextBox
     Friend WithEvents Label283 As Label
-    Friend WithEvents TextBox34 As TextBox
+    Friend WithEvents txtIkMax_tab2 As TextBox
     Friend WithEvents Label284 As Label
-    Friend WithEvents TextBox35 As TextBox
-    Friend WithEvents CheckBox4 As CheckBox
-    Friend WithEvents CheckBox5 As CheckBox
-    Friend WithEvents CheckBox6 As CheckBox
+    Friend WithEvents txtDelta_tab2 As TextBox
+    Friend WithEvents ckdImdLGraph2_tab2 As CheckBox
+    Friend WithEvents ckdImdLGraph1_tab2 As CheckBox
+    Friend WithEvents ckKinkGraph_tab2 As CheckBox
     Friend WithEvents GroupBox18 As GroupBox
-    Friend WithEvents RadioButton23 As RadioButton
-    Friend WithEvents RadioButton24 As RadioButton
-    Friend WithEvents RadioButton25 As RadioButton
-    Friend WithEvents RadioButton26 As RadioButton
+    Friend WithEvents rdo20mA_tab2 As RadioButton
+    Friend WithEvents rdo10mA_tab2 As RadioButton
+    Friend WithEvents rdo02mA_tab2 As RadioButton
+    Friend WithEvents rdoAuto_tab2 As RadioButton
     Friend WithEvents Label285 As Label
     Friend WithEvents Label286 As Label
     Friend WithEvents Label287 As Label
@@ -11874,19 +11994,19 @@ Partial Class frmILMeasurement
     Friend WithEvents Label61 As Label
     Friend WithEvents Label62 As Label
     Friend WithEvents ILSweep1 As TabPage
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents txtPmax_tab1 As TextBox
+    Friend WithEvents txtIthpP2_tab1 As TextBox
+    Friend WithEvents txtIthpP1_tab1 As TextBox
+    Friend WithEvents txtdImdLMax_tab1 As TextBox
+    Friend WithEvents txtRmax_tab1 As TextBox
+    Friend WithEvents txtImMax_tab1 As TextBox
+    Friend WithEvents txtVfmax_tab1 As TextBox
+    Friend WithEvents txtnMax_tab1 As TextBox
+    Friend WithEvents txtlampda_tab1 As TextBox
+    Friend WithEvents txtIvf_tab1 As TextBox
+    Friend WithEvents txtImax_tab1 As TextBox
+    Friend WithEvents txtPCALminOffset_tab1 As TextBox
+    Friend WithEvents txtPCALmin_tab1 As TextBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents txtImdiv_tab1 As TextBox
     Friend WithEvents txtImscale_tab1 As TextBox
@@ -11925,30 +12045,30 @@ Partial Class frmILMeasurement
     Friend WithEvents Label268 As Label
     Friend WithEvents Label265 As Label
     Friend WithEvents Label264 As Label
-    Friend WithEvents TextBox24 As TextBox
-    Friend WithEvents TextBox20 As TextBox
+    Friend WithEvents txtFRPpointNum_tab1 As TextBox
+    Friend WithEvents txtFRPcalculationSetting_tab1 As TextBox
     Friend WithEvents GroupBox8 As GroupBox
-    Friend WithEvents TextBox21 As TextBox
+    Friend WithEvents txtSparationCoefficient_tab1 As TextBox
     Friend WithEvents GroupBox7 As GroupBox
     Friend WithEvents Label266 As Label
     Friend WithEvents Label267 As Label
-    Friend WithEvents TextBox22 As TextBox
-    Friend WithEvents TextBox23 As TextBox
+    Friend WithEvents txtSmoothingResistance_tab1 As TextBox
+    Friend WithEvents txtSmoothingEfficiency_tab1 As TextBox
     Friend WithEvents GroupBox6 As GroupBox
-    Friend WithEvents RadioButton12 As RadioButton
-    Friend WithEvents RadioButton13 As RadioButton
+    Friend WithEvents rdoDiffMethod2_tab1 As RadioButton
+    Friend WithEvents rdoDiffMethod1_tab1 As RadioButton
     Friend WithEvents GroupBox5 As GroupBox
-    Friend WithEvents TextBox19 As TextBox
-    Friend WithEvents RadioButton11 As RadioButton
+    Friend WithEvents txtLeastSquareNumOfPoint_tab1 As TextBox
+    Friend WithEvents rdoLeastSquarefomula_tab1 As RadioButton
     Friend WithEvents Label263 As Label
-    Friend WithEvents RadioButton9 As RadioButton
-    Friend WithEvents RadioButton10 As RadioButton
+    Friend WithEvents rdoLeastSquareSecon_tab1 As RadioButton
+    Friend WithEvents rdoLeastSquarePrimary_tab1 As RadioButton
     Friend WithEvents GroupBox4 As GroupBox
-    Friend WithEvents RadioButton5 As RadioButton
-    Friend WithEvents RadioButton6 As RadioButton
+    Friend WithEvents rdoKinkModeCurrnet_tab1 As RadioButton
+    Friend WithEvents rdoKinkModePower_tab1 As RadioButton
     Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents RadioButton7 As RadioButton
-    Friend WithEvents RadioButton8 As RadioButton
+    Friend WithEvents rdoKinkType2_tab1 As RadioButton
+    Friend WithEvents rdoKinkType1_tab1 As RadioButton
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents Label262 As Label
     Friend WithEvents Label261 As Label
@@ -11956,20 +12076,20 @@ Partial Class frmILMeasurement
     Friend WithEvents Label259 As Label
     Friend WithEvents Label258 As Label
     Friend WithEvents Label257 As Label
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox17 As TextBox
+    Friend WithEvents txtKinkY_tab1 As TextBox
+    Friend WithEvents txtKinkX_tab1 As TextBox
     Friend WithEvents Label256 As Label
-    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents txtIkMax_tab1 As TextBox
     Friend WithEvents Label255 As Label
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents txtDelta_tab1 As TextBox
+    Friend WithEvents ckdImdLGraph2_tab1 As CheckBox
+    Friend WithEvents ckdImdLGraph1_tab1 As CheckBox
+    Friend WithEvents ckKinkGraph_tab1 As CheckBox
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents RadioButton4 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents rdo20mA_tab1 As RadioButton
+    Friend WithEvents rdo10mA_tab1 As RadioButton
+    Friend WithEvents rdo02mA_tab1 As RadioButton
+    Friend WithEvents rdoAuto_tab1 As RadioButton
     Friend WithEvents Label254 As Label
     Friend WithEvents Label242 As Label
     Friend WithEvents Label243 As Label
@@ -12025,48 +12145,48 @@ Partial Class frmILMeasurement
     Friend WithEvents Label38 As Label
     Friend WithEvents Label39 As Label
     Friend WithEvents tabsSweep As TabControl
-    Friend WithEvents TextBox117 As TextBox
-    Friend WithEvents TextBox118 As TextBox
-    Friend WithEvents TextBox119 As TextBox
-    Friend WithEvents TextBox120 As TextBox
-    Friend WithEvents TextBox121 As TextBox
-    Friend WithEvents TextBox122 As TextBox
-    Friend WithEvents TextBox123 As TextBox
-    Friend WithEvents TextBox124 As TextBox
-    Friend WithEvents TextBox125 As TextBox
-    Friend WithEvents TextBox126 As TextBox
-    Friend WithEvents TextBox127 As TextBox
-    Friend WithEvents TextBox128 As TextBox
-    Friend WithEvents TextBox129 As TextBox
+    Friend WithEvents txtPmax_tab6 As TextBox
+    Friend WithEvents txtIthpP2_tab6 As TextBox
+    Friend WithEvents txtIthpP1_tab6 As TextBox
+    Friend WithEvents txtdImdLMax_tab6 As TextBox
+    Friend WithEvents txtRmax_tab6 As TextBox
+    Friend WithEvents txtImMax_tab6 As TextBox
+    Friend WithEvents txtVfmax_tab6 As TextBox
+    Friend WithEvents txtnMax_tab6 As TextBox
+    Friend WithEvents txtlampda_tab6 As TextBox
+    Friend WithEvents txtIvf_tab6 As TextBox
+    Friend WithEvents txtImax_tab6 As TextBox
+    Friend WithEvents txtPCALminOffset_tab6 As TextBox
+    Friend WithEvents txtPCALmin_tab6 As TextBox
     Friend WithEvents GroupBox46 As GroupBox
     Friend WithEvents Label382 As Label
     Friend WithEvents Label383 As Label
     Friend WithEvents Label384 As Label
     Friend WithEvents Label385 As Label
-    Friend WithEvents TextBox130 As TextBox
-    Friend WithEvents TextBox131 As TextBox
+    Friend WithEvents txtFRPpointNum_tab6 As TextBox
+    Friend WithEvents txtFRPcalculationSetting_tab6 As TextBox
     Friend WithEvents GroupBox47 As GroupBox
-    Friend WithEvents TextBox132 As TextBox
+    Friend WithEvents txtSparationCoefficient_tab6 As TextBox
     Friend WithEvents GroupBox48 As GroupBox
     Friend WithEvents Label386 As Label
     Friend WithEvents Label387 As Label
-    Friend WithEvents TextBox133 As TextBox
-    Friend WithEvents TextBox134 As TextBox
+    Friend WithEvents txtSmoothingResistance_tab6 As TextBox
+    Friend WithEvents txtSmoothingEfficiency_tab6 As TextBox
     Friend WithEvents GroupBox49 As GroupBox
-    Friend WithEvents RadioButton66 As RadioButton
-    Friend WithEvents RadioButton67 As RadioButton
+    Friend WithEvents rdoDiffMethod2_tab6 As RadioButton
+    Friend WithEvents rdoDiffMethod1_tab6 As RadioButton
     Friend WithEvents GroupBox50 As GroupBox
-    Friend WithEvents TextBox135 As TextBox
-    Friend WithEvents RadioButton68 As RadioButton
+    Friend WithEvents txtLeastSquareNumOfPoint_tab6 As TextBox
+    Friend WithEvents rdoLeastSquarefomula_tab6 As RadioButton
     Friend WithEvents Label388 As Label
-    Friend WithEvents RadioButton69 As RadioButton
-    Friend WithEvents RadioButton70 As RadioButton
+    Friend WithEvents rdoLeastSquareSecon_tab6 As RadioButton
+    Friend WithEvents rdoLeastSquarePrimary_tab6 As RadioButton
     Friend WithEvents GroupBox51 As GroupBox
-    Friend WithEvents RadioButton71 As RadioButton
-    Friend WithEvents RadioButton72 As RadioButton
+    Friend WithEvents rdoKinkModeCurrnet_tab6 As RadioButton
+    Friend WithEvents rdoKinkModePower_tab As RadioButton
     Friend WithEvents GroupBox52 As GroupBox
-    Friend WithEvents RadioButton73 As RadioButton
-    Friend WithEvents RadioButton74 As RadioButton
+    Friend WithEvents rdoKinkType2_tab6 As RadioButton
+    Friend WithEvents rdoKinkType1_tab6 As RadioButton
     Friend WithEvents GroupBox53 As GroupBox
     Friend WithEvents Label389 As Label
     Friend WithEvents Label390 As Label
@@ -12074,20 +12194,20 @@ Partial Class frmILMeasurement
     Friend WithEvents Label392 As Label
     Friend WithEvents Label393 As Label
     Friend WithEvents Label394 As Label
-    Friend WithEvents TextBox136 As TextBox
-    Friend WithEvents TextBox137 As TextBox
+    Friend WithEvents txtKinkY_tab6 As TextBox
+    Friend WithEvents txtKinkX_tab6 As TextBox
     Friend WithEvents Label395 As Label
-    Friend WithEvents TextBox138 As TextBox
+    Friend WithEvents txtIkMax_tab6 As TextBox
     Friend WithEvents Label396 As Label
-    Friend WithEvents TextBox139 As TextBox
-    Friend WithEvents CheckBox16 As CheckBox
-    Friend WithEvents CheckBox17 As CheckBox
-    Friend WithEvents CheckBox18 As CheckBox
+    Friend WithEvents txtDelta_tab6 As TextBox
+    Friend WithEvents ckdImdLGraph2_tab6 As CheckBox
+    Friend WithEvents ckdImdLGraph1_tab6 As CheckBox
+    Friend WithEvents ckKinkGraph_tab6 As CheckBox
     Friend WithEvents GroupBox54 As GroupBox
-    Friend WithEvents RadioButton75 As RadioButton
-    Friend WithEvents RadioButton76 As RadioButton
-    Friend WithEvents RadioButton77 As RadioButton
-    Friend WithEvents RadioButton78 As RadioButton
+    Friend WithEvents rdo20mA_tab6 As RadioButton
+    Friend WithEvents rdo10mA_tab6 As RadioButton
+    Friend WithEvents rdo02mA_tab6 As RadioButton
+    Friend WithEvents rdoAuto_tab6 As RadioButton
     Friend WithEvents Label397 As Label
     Friend WithEvents Label398 As Label
     Friend WithEvents Label399 As Label
@@ -12101,4 +12221,14 @@ Partial Class frmILMeasurement
     Friend WithEvents Label407 As Label
     Friend WithEvents Label408 As Label
     Friend WithEvents Label409 As Label
+    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents Label414 As Label
+    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents Label413 As Label
+    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents Label412 As Label
+    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents Label411 As Label
+    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents Label410 As Label
 End Class
